@@ -1015,7 +1015,9 @@ transition: all .3s;
     align-items: center;
     margin-top:15px;
     height:100px;
-    border: 1px solid #578d60; border-radius:2px;
+/*    border: 1px solid #578d60; border-radius:2px;*/
+border: 1px solid #b86132; 
+border-radius:2px;
 }
 .style5 span.fa, .style5 span.fa-stack {
     color:/* #a1b0a4;*/ #578d60;
@@ -1056,17 +1058,17 @@ new:hover {
 .style5:hover      new {
 -webkit-animation:blfadein .2s forwards, blin-n1 .7s forwards;   
 animation:blfadein .2s forwards, blin-n1 .7s forwards;   
-border: 1px solid rgb(84, 146, 60); }
+border: 1px solid #b86132; }
 
 .style5.cntr:hover new {
 -webkit-animation:blfadein .2s forwards, blin-n2 .7s forwards;   
 animation:blfadein .2s forwards, blin-n2 .7s forwards;   
-border: 1px solid rgb(84, 146, 60); }
+border: 1px solid #b86132; }
 
 .style5.lst:hover  new {
 -webkit-animation:blfadein .2s forwards, blin-n3 .7s forwards;   
 animation:blfadein .2s forwards, blin-n3 .7s forwards;   
-border: 1px solid rgb(84, 146, 60); }
+border: 1px solid #b86132; }
 
 
 
@@ -1089,22 +1091,22 @@ new.out { animation:blout .3s ;   }
 
 @keyframes blin-n1 {
   0% {border: 1px solid transparent; width:530px; height:0; left:-20px;}
-  40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-20px}
-  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-20px; }
+  40% {width:530px;height:220px;left:-20px}
+  100% {border-radius:10px; width:530px; height:220px;background:white; opacity:1; z-index:555; left:-20px; }
 }
 
 
 @keyframes blin-n2 {
   0% {border: 1px solid transparent; width:530px; height:0; left:-75px;}
-  40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-75px}
-  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-75px; }
+  40% {width:530px;height:220px;left:-75px}
+  100% {border-radius:10px; width:530px; height:220px;background:white; opacity:1; z-index:555; left:-75px; }
 }
 
 
 @keyframes blin-n3 {
   0% {border: 1px solid transparent; width:530px; height:0;left:-130px }
-  40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-130px}
-  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555;left:-130px }
+  40% { width:530px;height:220px;left:-130px}
+  100% {border-radius:10px; width:530px; height:220px;background:white; opacity:1; z-index:555;left:-130px }
 }
 
 

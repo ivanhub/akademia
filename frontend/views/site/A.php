@@ -163,7 +163,8 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 <div class="row text-center uslv">
   <div class="col-xs-offset-2 col-xs-2"><img src="../../images/pics/clock1.png"></div>
-  <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>1,5 месяца </p></div>
+  <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
+  <p>Обучение проводится в период с мая по октябрь.</p></div>
 </div>
 
 <div class="row text-center uslv">
