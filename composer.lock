@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f08e0abea71b3609f00e1c90c38a4e7d",
+    "content-hash": "9329bf54c7de8aacf8897eb5c024b8c1",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -161,6 +161,41 @@
             }
         },
         {
+            "name": "bower-asset/vue",
+            "version": "v1.0.28-patch1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vuejs/vue.git",
+                "reference": "c45cfee24d222b68b8e6a320863cb7e13c15f2bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vuejs/vue/zipball/c45cfee24d222b68b8e6a320863cb7e13c15f2bc",
+                "reference": "c45cfee24d222b68b8e6a320863cb7e13c15f2bc",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "dist/vue.js",
+                "bower-asset-ignore": [
+                    ".*",
+                    "examples",
+                    "build",
+                    "perf",
+                    "test",
+                    "grunt",
+                    "gruntfile.js",
+                    "*.json",
+                    "*.md",
+                    "*.yml"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple, Fast & Composable MVVM for building interative interfaces"
+        },
+        {
             "name": "bower-asset/yii2-pjax",
             "version": "v2.0.6",
             "source": {
@@ -297,6 +332,56 @@
                 "html"
             ],
             "time": "2016-07-16T12:58:58+00:00"
+        },
+        {
+            "name": "omnilight/yii2-vuejs",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/omnilight/yii2-vuejs.git",
+                "reference": "4942e1aa3f31ec118fcf8e6c2c4cf04ba06f7612"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/omnilight/yii2-vuejs/zipball/4942e1aa3f31ec118fcf8e6c2c4cf04ba06f7612",
+                "reference": "4942e1aa3f31ec118fcf8e6c2c4cf04ba06f7612",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/vue": "^1.0.0",
+                "php": "~5.5|~7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "omnilight\\assets\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Agalecky",
+                    "email": "pavel.agalecky@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Vue.js library for Yii2 framework",
+            "homepage": "https://github.com/omnilight/yii2-vuejs",
+            "keywords": [
+                "omnilight",
+                "vue",
+                "vuejs",
+                "yii2"
+            ],
+            "time": "2016-03-09T14:00:53+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

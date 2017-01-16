@@ -12,13 +12,7 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
-    'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-             'rules' => [
-            '<alias:home|feedback|login|logout>' => 'site/<alias>', 
-                    '<controller>/<action>' => '<controller>/<action>'            
-        ],],
+    
         'request' => [
             'csrfParam' => '_csrf-frontend',
         ],
