@@ -20,6 +20,14 @@ Thumbs.db
 # composer vendor dir
 /vendor
 
+/environments
+/vagrant
+/console
+/init
+/init.bat
+/requirements.php
+
+
 # composer itself is not needed
 composer.phar
 
