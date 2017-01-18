@@ -57,4 +57,22 @@ class ContactForm extends Model
             ->setTextBody($this->body)
             ->send();
     }
+
+
+ public function contact($email)
+    {
+        if ($this->validate()) {
+            Yii::$app->mailer->compose()
+                ->setTo($email)
+                ->setFrom([Yii::$app->params['supportEmail'] => Yii::$app->name])
+                ->setReplyTo([$this->email => $this->name])
+                ->setSubject($this->subject)
+                ->setTextBody($this->body)
+                ->send();
+ 
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

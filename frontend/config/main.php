@@ -12,6 +12,20 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
+        'assetManager' => [     
+   
+        'bundles' => [
+//            'yii\web\JqueryAsset' => [
+//                'js'=>[]
+//            ],
+//            'yii\bootstrap\BootstrapPluginAsset' => [
+//                'js'=>[]
+//            ],
+//            'yii\bootstrap\BootstrapAsset' => [
+//               'css' => []
+//            ], 
+        ],
+        ],
     
         'request' => [
             'csrfParam' => '_csrf-frontend',
@@ -25,12 +39,19 @@ return [
             // this is the name of the session cookie used for login on the frontend
             'name' => 'advanced-frontend',
         ],
-        'log' => [
+            'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
                 [
                     'class' => 'yii\log\FileTarget',
-                    'levels' => ['error', 'warning'],
+                    'levels' => ['error'],
+                    'logFile' => '@app/runtime/logs/web-error.log'
+
+                ],
+                [
+                    'class' => 'yii\log\FileTarget',
+                    'levels' => ['warning'],
+                    'logFile' => '@app/runtime/logs/web-warning.log'
                 ],
             ],
         ],

@@ -9,7 +9,8 @@ Require all granted
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
   # Включаем mod_rewrite
-  RewriteEngine On RewriteBase /
+  RewriteEngine On 
+#RewriteBase /
 
   # Если это папка или файл, открываем её/его
   RewriteCond %{REQUEST_FILENAME} !-f

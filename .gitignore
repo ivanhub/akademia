@@ -3,6 +3,16 @@
 /yii_test
 /yii_test.bat
 
+
+#custom code
+/.htaccess
+#/config/db.php
+/config/params.php
+/frontend/web/index.php
+/frontend/web/.htaccess
+/frontend/web/index-test.php
+/*-local.php
+
 # phpstorm project files
 .idea
 
@@ -22,7 +32,7 @@ Thumbs.db
 
 /environments
 /vagrant
-/console
+#/console
 /init
 /init.bat
 /requirements.php

@@ -12,15 +12,20 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
-
 /**
  * Site controller
  */
+
+
 class SiteController extends Controller
 {
     /**
      * @inheritdoc
      */
+    
+
+  
+
     public function behaviors()
     {
         return [
@@ -69,6 +74,7 @@ class SiteController extends Controller
      * Displays homepage.
      *
      * @return mixed
+     * 
      */
     public function actionIndex()
     {
