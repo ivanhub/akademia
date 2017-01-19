@@ -57,7 +57,7 @@ use yii\bootstrap\NavBar;
         ['label' => 'Контакты', 'url' => ['/site/contact']],    ];
    
     echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
+        'options' => ['class' => 'navbar-nav navbar-right interface'],
         'items' => $menuItems,
     ]);
     NavBar::end();

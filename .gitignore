@@ -5,11 +5,12 @@
 
 
 #custom code
+/vendor/**/.git
 /.htaccess
-#/config/db.php
-/config/params.php
-/frontend/web/index.php
 /frontend/web/.htaccess
+/config/params.php
+/config/db.php
+/frontend/web/index.php
 /frontend/web/index-test.php
 /*-local.php
 
@@ -24,20 +25,28 @@ nbproject
 .project
 .settings
 
+# sublime text project / workspace files
+
+*.sublime-project
+*.sublime-workspace
+
+
 # windows thumbnail cache
 Thumbs.db
 
 # composer vendor dir
 /vendor
 
-/environments
-/vagrant
-#/console
+###/environments
+###/vagrant
+###/console
 /init
 /init.bat
 /requirements.php
 
 
+# cubrid (added) install dir
+/cubrid
 # composer itself is not needed
 composer.phar
 
@@ -51,3 +60,11 @@ phpunit.phar
 
 # vagrant runtime
 /.vagrant
+
+
+# ignore dev installed apps and extensions
+/apps
+/extensions
+
+# NPM packages
+/node_modules

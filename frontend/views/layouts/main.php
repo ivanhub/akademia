@@ -11,19 +11,10 @@ use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
 AppAsset::register($this);
-
-  $controllerl = Yii::$app->controller;
-  $homecheker = $controllerl->id.'/'.$controllerl->action->id;
-  if($homecheker=='site/index')
-  {
-     $homecheker = true;
-     //no border on home page
-  }else
-  {
-     $homecheker = false;//border all other page
-  }
-
+$controll = Yii::$app->controller;
+$action = $controll->action->id;
 ?>
+
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
@@ -34,7 +25,10 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body>
+
+<body id="<?php echo $action; ?>" >
+
+
 <?php $this->beginBody() ?>
 
 <div class="page text-center">
@@ -60,11 +54,55 @@ AppAsset::register($this);
 <script type="text/javascript">
 window.onload = function() {
 
-$('ul').each(function() {
-    $(this).find('li').each(function(i) {
-        $(this).find('a').addClass('fadeInUp animated' + (i+1));
-    });
+//var b = document.querySelector("button"); 
+//b.setAttribute("class", "disabled");
+
+
+
+
+//var addClassVar = document.querySelector('ul li a');
+//var addClassVar2 = document.querySelector('ul li a');
+
+ //define the addclass function
+ //var addClass = function(el,className){
+//   if (el.classList){
+//     el.classList.add(className);
+//   }
+//   else {
+//     el.className += ' ' + className;
+//  }
+//};
+
+//call the function
+//addClass(addClassVar, 'newnewnew');
+//addClass(addClassVar2, 'newnewnew2');
+
+var links = document.querySelectorAll('ul li a');
+var i=1;
+[].forEach.call(links, function(item) {
+      item.classList.add('fadeInUp', 'animated'+i);
+    i++;
 });
+
+
+ var items = document.querySelectorAll("ul li");
+ var lastchild = items[items.length-1];
+  lastchild.classList.add('last');
+};
+
+//**or second worked var
+//**var i=1; [].forEach.call(
+//**  document.querySelectorAll('ul li a'), function(el){el.classList.add('fadeInUp','animated'+i);i++;});
+
+//Or second war for last child
+//var b=1; [].forEach.call(
+//document.querySelectorAll('ul li'), function(el){ if (b==4) el.classList.add('last'); b++;});
+
+//$('ul').each(function() {
+//    $(this).find('li').each(function(i) {
+//        $(this).find('a').addClass('fadeInUp animated' + (i+1));
+//    });
+//});
 
 
    //document.getElementById('w1').each(function() {
@@ -78,7 +116,7 @@ $('ul').each(function() {
 //    }
 //});
 
-};
+//};
 </script>
 </body>
 </html>
