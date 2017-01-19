@@ -24,8 +24,23 @@ $this->title = 'Учебный центр "Академия"';
 <BR><BR><BR>
 <div class="container">
 
-<div class="jumbofon">
-<h1> Учебный Центр "Академия"</h1>
+<div class="jumbofon jumbotron">
+<h1> Учебный Центр "Академия"</h1><BR>
+</div></div>
+
+<div class="full-width">
+<div class="container-fluid">
+<div class="row">
+
+<img src="../images/car2.png" width="456px"><img src="../images/quadro.png" width="260px"  style="margin-top: -23px;"><img src="../images/test8.png" width="433px">
+
+</div>
+</div>
+</div> <BR><BR><BR><BR><BR><BR><BR><BR><BR>
+ 
+ <div class="container">
+<div class="jumbofon jumbotron">
+
  <div class="text-left main-text">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
 
@@ -39,9 +54,9 @@ $this->title = 'Учебный центр "Академия"';
 
 <p>Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. </p>
  </div>
+</div>
+</div>
 
-</div>
-</div>
 <!--
 <BR><BR><BR>
 <BR><BR><BR>

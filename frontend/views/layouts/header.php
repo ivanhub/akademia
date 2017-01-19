@@ -3,6 +3,9 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 
+ $controllerl = Yii::$app->controller;
+  $homecheker = $controllerl->id.'/'.$controllerl->action->id;
+
 ?>
 <header class="page-header">
 
@@ -12,9 +15,7 @@ use yii\bootstrap\NavBar;
 <div class="rd-navbar-panel-inner-left row ">
 <?= Yii::$app->params['homechecker'] = false; ?>
 <?php  
-  $controllerl = Yii::$app->controller;
-  $homecheker = $controllerl->id.'/'.$controllerl->action->id;
-
+ 
   if($homecheker=='site/index')
   {
     echo '<div class="logo-akademia hvr-up onload-logo" ></div>';
