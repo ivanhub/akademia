@@ -48,7 +48,7 @@ use yii\bootstrap\NavBar;
      //   'brandLabel' => 'Учебный центр "Академия"',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar navbar-default navshadow',
+            'class' => 'navbar navbar-default navshadow skew-menu',
         ],
     ]);
     $menuItems = [

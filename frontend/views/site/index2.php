@@ -25,7 +25,7 @@ $this->title = 'Учебный центр "Академия"';
 <div class="container">
 
 <div class="jumbofon jumbotron">
-<h1> Учебный Центр "Академия"</h1><BR>
+<h1> 222222222Учебный Центр "Академия"</h1><BR>
 </div></div>
 
 <div class="full-width">
