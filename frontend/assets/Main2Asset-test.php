@@ -15,7 +15,7 @@ class MainAsset extends  AssetBundle{
 //        'source/owl-carousel/owl.carousel.css',
 //        'source/owl-carousel/owl.theme.css',
 //        'source/slitslider/css/style.css',
-//        'source/slitslider/css/custom.css'
+       'source/slitslider/css/custom-te.css'
     ];
 
     public $js = [

@@ -7,8 +7,6 @@
 @import "http://webfonts.ru/import/exotwoexpanded.css";
 
 
-/* NEW FONTS + NEW ANIMATION */
-
 
 .animated1 {
   -webkit-animation-duration: 1.1s;
@@ -194,8 +192,6 @@ body {
 
 
     .arrow:after {
-  content: '';
-  display: inline-block;
   margin-top: 0.6em;
  /*  width: .6em;
   height: .6em;
@@ -215,20 +211,27 @@ body {
 
 
 span.arrow {
+ height: 14px;
+    width: 1px;
+    top: 14px;
+    left: 15px;
+
+
    overflow:hidden;
     position: absolute;
-    top: -10px;
-    left: 41px;
+  /*   top: -10px;
+  left: 41px; */
     transform: skew(25deg);
 }
 
+
 .skew-menu ul li:hover span.arrow{
+   background: url(/images/logo.png) 60% 60% no-repeat;
+    background-size: cover !important;
+
    overflow:visible;
 }
 
 ul li:nth-child(2) span.arrow {
-    left: 100px;
+   /*  left: 100px; */
 }
-
-
-

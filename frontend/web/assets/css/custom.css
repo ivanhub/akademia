@@ -405,8 +405,11 @@ font-size:40px; font-weight:900;
 
 .phone {  
 
-font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+/* font-family: "Open Sans", Helvetica, Arial, sans-serif;
+     */    
+      font-family: 'Cleanvertising';
+
+     font-weight: 700;
     font-size: 21px;
     letter-spacing: 1px;
     color:#484848;
@@ -419,6 +422,11 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 .take {  
      color:#444444;
      margin-top: -14px;
+  font-family: 'Rex';  
+
+     font-weight:600;
+     font-size:17px;
+     margin-right:3px;
 }
 
 
@@ -458,7 +466,8 @@ footer .range {height:50px}
 #w1 {font-family: 'Exo 2', sans-serif; font-size:16px;}
 .navbar-default .navbar-nav>li>a {    color: #000 !important; }
 
-.navbar-default .navbar-nav>li>a:hover {    color: #848484 !important; }
+.navbar-default .navbar-nav>li>a:hover {    color: #848484 !important; 
+font-size:16px;}
 
 
 .navbar {    min-height: 45px !important; height: 45px !important }
@@ -835,13 +844,13 @@ border-right: 1px solid #dadada; */
 
 .logotext { 
 	color:#000; 
-	font-weight:700; 
+	font-weight:500; 
 /*	padding-top:60px;  */
-	padding-top:42px;  
-	margin-left:-7px;
-	font-family: 'Myriadprocond'; 
+	padding-top:33px;  
+	margin-left:50px;
+	font-family: 'Exo 2 Expanded'; 
 	font-size: 20px;
-	letter-spacing: 2.5px;
+	/*letter-spacing: 2.5px;
 /*	padding-bottom: 4px;
 /* margin-left:-35px !important; */
 }
