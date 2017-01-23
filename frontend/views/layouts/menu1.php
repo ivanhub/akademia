@@ -124,7 +124,7 @@ var blocks = document.querySelectorAll(".mainblock .row p");
       item.classList.add('bounceInLeft');
     i++;
 });
-    }, 1800);
+    }, 1500);
 
 
 

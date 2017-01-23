@@ -171,11 +171,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   background: #f9f9f9;
 }
 
-.first:hover #w1 {
-filter: grayscale(50%) blur(10px);
--webkit-filter: grayscale(50%) blur(10px);
-}
 
+/* 
+.first:hover ~ ..navbar-nav li:last-child
+ {
+filter: grayscale(1%) blur(1px);
+-webkit-filter: grayscale(1%) blur(1px);
+}
+ */
 .skew-menu ul li a {
   display: block;
  /* padding: 1em 2em;*/
@@ -433,7 +436,7 @@ span.arrow {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
 }
-.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+.cl-effect-12:hover .hvr-pop, .cl-effect-12:focus .hvr-pop, .cl-effect-12:active .hvr-pop{
   -webkit-animation-name: hvr-pop;
   animation-name: hvr-pop;
   -webkit-animation-duration: 0.3s;
@@ -442,6 +445,7 @@ span.arrow {
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+  animation-delay:1s;
 }
 
  

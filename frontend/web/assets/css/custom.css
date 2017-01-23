@@ -403,10 +403,7 @@ font-size:40px; font-weight:900;
 
 }
 
-.phone {  
-
-/* font-family: "Open Sans", Helvetica, Arial, sans-serif;
-     */    
+/* .phone {  
       font-family: 'Cleanvertising';
 
      font-weight: 700;
@@ -416,9 +413,22 @@ font-size:40px; font-weight:900;
     padding-top: 20px;
 
 }
+ */
+
+ .phone {
+    font-family: 'Myriadprocond';
+    font-size: 37px;
+    font-weight: 900;
+    color:#484848;
+
+}
 
 
 
+
+
+
+/* 
 .take {  
      color:#444444;
      margin-top: -14px;
@@ -429,18 +439,37 @@ font-size:40px; font-weight:900;
      margin-right:3px;
 }
 
-
-.take a {
-	text-decoration:none;
-	cursor:pointer;
-	transition: initial;
-}
-
 .take a:hover {
     text-decoration:none;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 2px gray, 0 0 2px darkgreen;   
+} */
+
+.take {  
+     margin-top: -14px;
+  font-family: 'Rex';  
+
+     font-weight:600;
+     font-size:17px;
+     margin-right:3px;
+
+  text-decoration: none;
+    text-shadow: 1px 1px 2px green, 0 0 2px green, 0 0 2px darkgreen;
 }
+
+.take a {
+      color: white;
+
+  cursor:pointer;
+  transition: initial;
+}
+.take a:hover {
+    text-decoration:none;
+
+         color:green;
+         text-shadow:none;
+}
+
 
 .jumbofon {
     background-color: transparent; }
@@ -833,17 +862,28 @@ border-right: 1px solid #dadada; */
 .rd-navbar-panel-inner-left {height:80px}
 
 
-.logotext { 
-	color:#000; 
-	font-weight:500; 
-/*	padding-top:60px;  */
-	padding-top:33px;  
-	margin-left:50px;
-	font-family: 'Exo 2 Expanded'; 
-	font-size: 20px;
-	/*letter-spacing: 2.5px;
-/*	padding-bottom: 4px;
-/* margin-left:-35px !important; */
+/* .logotext { 
+  color:#000; 
+  font-weight:500; 
+padding-top:60px;
+  padding-top:33px;  
+  margin-left:50px;
+  font-family: 'Exo 2 Expanded'; 
+  font-size: 20px;
+  letter-spacing: 2.5px;
+padding-bottom: 4px;
+margin-left:-35px !important;
+}
+ */
+
+.logotext {
+    color: #000;
+    font-weight: 900;
+    padding-top: 18px;
+    margin-left: 50px;
+    font-family: 'Myriadprocond';
+    font-size: 39px;
+    letter-spacing: 1px;
 }
 
 

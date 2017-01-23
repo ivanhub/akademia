@@ -41,7 +41,7 @@ $this->title = 'Учебный центр "Академия"';
 <div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box3  cl-effect-12"><img class="boat" src="../images/boat_t2.png" width="270px">
 <p class="blocktitle anim_three  hvr-bob">Судовождение</p>
 </div>
-<div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box4  cl-effect-12"><img class="hvr-wobble-top" src="../images/new_car.png" width="305px" align="left">
+<div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box4  cl-effect-12"><img class="hvr-wobble-top" src="../images/new_car.png" width="305px">
 <p class="blocktitle anim_four  hvr-bob">Защитное вождение</p>
 </div>
 </div> 

@@ -97,7 +97,7 @@ for ( i = 0; i < childTag.length; i++)
 }
 document.getElementsByClassName('icos')[0].classList.add('fa-home');
 document.getElementsByClassName('icos')[1].classList.add('fa-graduation-cap');
-document.getElementsByClassName('icos')[2].classList.add('fa-picture-o');
+document.getElementsByClassName('icos')[2].classList.add('fa-camera');
 document.getElementsByClassName('icos')[3].classList.add('fa-phone');
 
 
