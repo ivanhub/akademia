@@ -48,7 +48,7 @@ class Menu2Controller extends Controller
 class Menu3Controller extends Controller
 {
     
-      public $layout = 'menu3';
+      public $layout = 'menu2';
 
     public function actions()
     {

@@ -8,13 +8,15 @@ use yii\web\View;
 /**
  * Main frontend application asset bundle.
  */
-class AppAsset extends AssetBundle
+class Menu2Asset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
         public $css = [
         'assets/css/bootstrap.css',
         'assets/css/custom.css',
+        'assets/css/custom2.css',
+        'assets/css/boxes.css',
 
 
 

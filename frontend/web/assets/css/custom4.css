@@ -41,10 +41,10 @@
 }
 
 .animated4 {
-  -webkit-animation-duration: .6s;
-  animation-duration: .6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+   -webkit-animation-duration: .6s;
+   animation-duration: .6s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
 
    -webkit-animation-delay: 1.4s;
    -moz-animation-delay: 1.4s;
@@ -256,6 +256,5 @@ ul li:nth-child(3) span.icos{
     left: 4px;
     transform: skew(25deg)}
 
-}
 
 

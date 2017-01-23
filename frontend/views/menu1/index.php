@@ -31,12 +31,19 @@ $this->title = 'Учебный центр "Академия"';
 <div class="full-width">
 <div class="container-fluid mainblock">
 <div class="row">
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="../images/new_car.png" width="305px"></div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="../images/two.png" width="255px" style="margin-top: -15px;"></div>
-<div class="col-md-3 col-md-4 col-sm-6 col-xs-12"><img src="../images/boat_4.png" width="370px" style="margin-top: -31px;"></div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"></div>
-
-
+<div class="col-md-3 col-sm-6 col-xs-12  col-big-6  box1  cl-effect-12"><img class="hvr-bounce-in" src="../images/new_car.png" width="305px">
+<p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12  col-big-6  box2 cl-effect-12"><img class="hvr-wobble-to-top-right" src="../images/two.png" width="255px" style="margin-top: -15px;">
+<p class="blocktitle anim_two  hvr-bob">Самоходные машины</p>
+</div>
+  <div class="clearfix visible-sm"></div>
+<div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box3  cl-effect-12"><img class="boat" src="../images/boat_t2.png" width="270px">
+<p class="blocktitle anim_three  hvr-bob">Судовождение</p>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box4  cl-effect-12"><img class="hvr-wobble-top" src="../images/new_car.png" width="305px" align="left">
+<p class="blocktitle anim_four  hvr-bob">Защитное вождение</p>
+</div>
 </div> 
 </div>
 </div> 

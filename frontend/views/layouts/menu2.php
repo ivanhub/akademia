@@ -7,10 +7,10 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\AppAsset;
+use frontend\assets\Menu2Asset;
 use common\widgets\Alert;
 
-AppAsset::register($this);
+Menu2Asset::register($this);
 $controll = Yii::$app->controller;
 $action = $controll->action->id;
 ?>
@@ -33,7 +33,7 @@ $action = $controll->action->id;
 
 <div class="page text-center">
 
- <?= $this->render('header3') ?>
+ <?= $this->render('header2') ?>
 
     <div class="container">
         <?= Breadcrumbs::widget([
