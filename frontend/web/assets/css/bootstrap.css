@@ -24053,7 +24053,7 @@ html:not(.lt-ie10) .not-animated {
 
 /**
 * BounceInLeft Keyframes Animation
-*/
+
 @-webkit-keyframes bounceInLeft {
   0%, 60%, 75%, 90%, 100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -24116,7 +24116,7 @@ html:not(.lt-ie10) .not-animated {
   -webkit-animation-name: bounceInLeft;
   animation-name: bounceInLeft;
 }
-
+*/
 /**
 * BounceInRight Keyframes Animation
 */

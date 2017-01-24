@@ -31,7 +31,7 @@ $action = $controll->action->id;
 
 <?php $this->beginBody() ?>
 
-<div class="page text-center">
+<div class="page">
 
  <?= $this->render('header1') ?>
 
@@ -75,7 +75,7 @@ function go(){
 img[0].setAttribute("align", "right");
 img[1].setAttribute("align", "left");
 img[2].setAttribute("align", "right");
-img[4].setAttribute("align", "left");
+img[3].setAttribute("align", "left");
 
 
 
@@ -115,7 +115,7 @@ var i=1;
 });
 
 
-var blocks = document.querySelectorAll(".mainblock .row p");
+var blocks = document.querySelectorAll(".blocktitle");
 
 //document.getElementById('w1').classList.remove('animated1', 'lightSpeedIn');
  setTimeout(function(){
@@ -126,8 +126,13 @@ var blocks = document.querySelectorAll(".mainblock .row p");
 });
     }, 1500);
 
-
-
+//sec var
+ /*setTimeout(function(){
+for (i = 0; i < blocks.length; i++) {
+    blocks[0].classList.add('bounceInLeft');
+}
+    }, 1500);
+*/
 
  setTimeout(function(){
  var i=1; var blocktitles = document.getElementsByClassName("blocktitle");
@@ -141,7 +146,21 @@ for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
 
 
 
- 
+window.addEventListener("resize", function () {
+  var recResizeElement = function (root) {
+    Array.prototype.forEach.call(root.childNodes, function (el) {
+
+      var resizeEvent = document.createEvent("HTMLEvents");
+      resizeEvent.initEvent("resize", false, true);
+      var propagate = el.dispatchEvent(resizeEvent);
+
+      if (propagate)
+        recResizeElement(el);
+    });
+  };
+  recResizeElement(document.body);
+});
+
 
 
 //var links = document.querySelectorAll('ul li');

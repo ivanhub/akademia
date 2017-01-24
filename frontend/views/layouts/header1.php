@@ -29,7 +29,9 @@ use yii\bootstrap\NavBar;
 
 
 <div class="col-sm-3 col-xs-3 forlogo" ></div>
-<div class="col-md-3 col-sm-4 col-xs-5"><p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p></div>
+<div class="col-md-3 col-sm-4 col-xs-5"><p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>
+<p class="logotextbottom">Обучение всем видам вождения! </p>
+</div>
 <div class="col-lg-offset-4 col-lg-3 col-md-offset-3 col-md-3 col-sm-4 text-right"><p class="phone">+7 (846) 255-69-99</p>
 <p class="take"><a href>Запись ON-LINE</a></p>
 </div>

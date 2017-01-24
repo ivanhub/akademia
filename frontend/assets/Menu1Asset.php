@@ -22,12 +22,12 @@ class Menu1Asset extends AssetBundle
 
     ];
     public $js = [
-        
+    'assets/js/cssrefresh.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapPluginAsset' // bootstrap.js
+      //  'yii\bootstrap\BootstrapPluginAsset' // bootstrap.js
     ];
 
      public $jsOptions = [
