@@ -7,6 +7,14 @@
 @import "http://webfonts.ru/import/exotwoexpanded.css";
 
 
+@font-face {font-family: "Cambria";
+    src: url("//db.onlinewebfonts.com/t/e5c33a72d53f91d31b2894a034db1780.eot");
+    src: url("//db.onlinewebfonts.com/t/e5c33a72d53f91d31b2894a034db1780.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/e5c33a72d53f91d31b2894a034db1780.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/e5c33a72d53f91d31b2894a034db1780.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/e5c33a72d53f91d31b2894a034db1780.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/e5c33a72d53f91d31b2894a034db1780.svg#Cambria") format("svg");
+}
 
 .animated1 {
   -webkit-animation-duration: .6s;

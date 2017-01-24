@@ -37,12 +37,13 @@ $this->title = 'Учебный центр "Академия"';
 <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
 </div>
   <div class="clearfix visible-sm"></div>
-<div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box3  cl-effect-12"><img class="boat" src="../images/boat_t2.png" width="270px" style="margin-top: -5px;">
-
+<div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box3  cl-effect-12">
+<img class="boat" src="../images/boat_t2.png" width="270px">
 <p class="blocktitle anim_three hvr-bob">Судовождение</p>
 </div>
-<div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box4  cl-effect-12"><img class="hvr-wobble-top" src="../images/new_car.png" width="305px">
-<p class="blocktitle anim_four  hvr-bob">Защитное вождение</p>
+<div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box4  cl-effect-12">
+<img class="hvr-wobble-top" src="../images/new_car.png" width="305px">
+<p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
 </div>
 </div> 
 </div>
@@ -50,21 +51,39 @@ $this->title = 'Учебный центр "Академия"';
  <section class="main container">
 
 <div class="row">
- <div class="col-md-9 col-sm-12 text-left main-text">
+ <div class="col-md-9 col-sm-12 text-left main-text mainbox">
  <h1 class="text-center"> Cайт Учебного Центра "Академия"</h1>
 <p>На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
 
-<p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. </p>
+ <section class="advantages">
+ <h2 class="text-center">Наши основные преимущества</h2>
+ <p class="adv">•   Современные учебные транспортные средства</p>
+ <p>Парк наших транспортных средств включает в себя достаточное количество современных автомобилей, мотоциклов для обучения вождению. Срок их эксплуатации не превышает 4-х лет, поэтому техническое состояние транспортных средств находится на очень достойном уровне.</p>
+ <p>Транспортные средства – с механической трансмиссией (МККП) оборудованы дополнительными педалями сцепления и тормоза, зеркалом заднего вида. На учебные автомобили установлен аппаратно-программный комплекс аудио и видеонаблюдения на базе видеорегистратора, необходимые для сдачи экзамена на получение водительского удостоверения.</p>
+ <p class="adv">•   Собственный автодром</p>
+ <p>Автошкола Академия имеет свою собственную, не арендованную, оборудованную учебную площадку. Практические занятия на автодроме проходят по индивидуальному графику с отработкой всех необходимых элементов. На асфальто-бетонном покрытии нанесена разметка, в наличии достаточное количество разметочного оборудования (конуса, вешки) для оборудования зон упражнения. Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование. Площадка освещается в темное время суток.</p>
+ <p class="adv">•   Компьютезированые учебные классы</p>
+ <p>Для проведения теоретических занятий автомотошкола располагает комфортными компьютерными и лекционными классами. Классы оснащены всеми наглядными учебно-методическими материалами, плакатами, пособиями, необходимой литературой. АНО ДПО «Академия» имеет в собственности всю мебель и необходимое оборудование, компьютеры, оргтехнику, специальное оборудование, материалы для проведения лекционных и практических занятий. Современная оргтехника позволяет демонстрировать видео-уроки, учебные презентации. На всех персональных компьютерах подключен Интернет, работает бесплатный Wi-Fi. Во всех классах установлены кондиционеры, обеспечивающие комфорт в жаркое время года. </p>
+ <p class="adv">•   Тренажер</p>
+ <p>Занятия на автотренажере в нашей автошколе являются обязательными в программе обучения. Обучить курсантов автошкол базовым навыкам управления автомобилем с механической КПП позволяет виртуальное вождение автомобиля на тренажере. </p>
+ <p>Преимущества виртуальных автотренажеров:</p>
+ <ul class="preimul"><li>•  Объемный окружающий мир: дорога, автомобили, здания …</li>
+ <li>•  Возможность регулировки интенсивности движения.</li>
+ <li>•  Первоначальные навыки посадки за руль, пользование органами управления, пуск двигателя, начало движения, переключение передач.</li>
+ <li>•  Подсказчик, сообщающий о любой ошибке.</li>
+ </ul>
+ <p class="adv">•   Медицинская помощь</p>  
+ <p>В учебном центре организована первая медицинская помощь.  Медицинский кабинет, осуществляется текущий контроль за состоянием здоровья обучающихся, проведение санитарно-гигиенических, профилактических и оздоровительных мероприятий, пропаганда здорового образа жизни, оказание первичной доврачебной медико-санитарной помощи обучающимся.</p>
+ <p>Весь водительский состав проходит ежедневный медицинский осмотр и допуск перед выездом.</p>
 
-<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. </p>
 
-<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. </p>
+ </section>
 
-<p>Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. </p>
 
-<p>Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. </p>
+
+
+
  </div>
-
   <div class="col-sm-12 col-md-3 right-aside">
   <aside>
   <h4>Акции и скидки</h4>
@@ -102,4 +121,7 @@ $this->title = 'Учебный центр "Академия"';
  </section>
 
 
+<section class="map full-width">
+
+</section>
 

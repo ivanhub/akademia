@@ -25,8 +25,8 @@ class Menu1Asset extends AssetBundle
     'assets/js/cssrefresh.js'
     ];
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        //'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',         //bootstrap.css
       //  'yii\bootstrap\BootstrapPluginAsset' // bootstrap.js
     ];
 

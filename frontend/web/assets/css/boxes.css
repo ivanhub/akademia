@@ -30,8 +30,8 @@ cursor:pointer;
    -o-animation-delay: 1s;
    animation-delay: 1s; }
 .box3 {
-cursor:pointer;
--webkit-animation:flipInXX 1s forwards;
+    cursor:pointer;
+    -webkit-animation:flipInXX 1s forwards;
     opacity: 0;
    -webkit-animation-delay: 1.1s;
    -moz-animation-delay: 1.1s;

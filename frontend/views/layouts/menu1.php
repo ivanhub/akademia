@@ -107,7 +107,7 @@ img[3].setAttribute("align", "left");
     .classList.add('first');
 
 
-var links = document.querySelectorAll('ul li');
+var links = document.querySelectorAll('#w0-collapse ul li');
 var i=1;
 [].forEach.call(links, function(item) {
       item.classList.add('fadeInUp1', 'animated'+i);
@@ -124,7 +124,7 @@ var blocks = document.querySelectorAll(".blocktitle");
       item.classList.add('bounceInLeft');
     i++;
 });
-    }, 1500);
+    }, 600);
 
 //sec var
  /*setTimeout(function(){
@@ -140,7 +140,7 @@ for (i = 0; i < blocks.length; i++) {
 [].forEach.call(blocks, function(item) { item.classList.remove('bounceInLeft'); });
 for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
 
-    }, 3000);
+    }, 1600);
 
 
 
@@ -179,19 +179,28 @@ window.addEventListener("resize", function () {
     //}, 3000);
 
 
+/*
+ setTimeout(function(){
 
+     var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=64Dk4CVmG1afNaRN1piqUUshfAH7q73F&amp;width=100%25&amp;height=255&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true';
+    var get = document.getElementsByClassName('map');
+    get[0].appendChild(script);
+
+
+    }, 3100);
+*/
 
 
 
 
 };
 
-
-
-
-
-
 </script>
+
+
+
 </body>
 </html>
 <?php $this->endPage() ?>

@@ -494,11 +494,13 @@ font-size:40px; font-weight:900;
 
 
 
-h1 {
+h1,h2 {
     color: #232323 !important;
     font-family: 'Arsenal', sans-serif;
     font-size:30px !important;
 }
+
+ .mainbox p, section.advantages p { text-indent:40px; }
 
 
 .container .jumbofon {
@@ -509,7 +511,6 @@ h1 {
 .main-text { padding-top:30px}
 
 
-footer .range {height:50px}
 
 .navbar-default .navbar-nav>li>a {    color: #000 !important; }
 
@@ -944,7 +945,7 @@ p.logotextbottom {
 .main-block {margin-top:220px; float:left;}
 
 
-.main-text p {
+.main-text p, section.advantages {
 /*     font-family: 'Myriadsetpro';
 font-size: 17px; */
 font-family: arial,sans-serif;
@@ -1023,7 +1024,7 @@ section.main p { text-align:justify; }
 aside p {
     font-family: 'Fluentsitka';
     letter-spacing: -3px;
-    font-size: 13px;
+    font-size: 14px;
     
 }
 
@@ -1080,3 +1081,39 @@ section.main {
 }
 
 .saleblock img {margin-top:15px;}
+
+
+
+section.advantages {
+    padding-bottom: 50px;
+}
+
+.adv {font-weight:700;}
+
+h2 {    margin-top: 50px;}
+
+.preimul {padding-bottom:30px; margin-left:40px; }
+
+section.map.full-width {  margin-top: 0 !important; height:255px;}
+.page-footer { margin-top:255px; }
+
+
+.foot1 { height:150px; padding-top:30px; margin-bottom:20px;}
+.foot1 p:first-child {font-weight:bolder; font-size:15px; padding-bottom:5px;}
+/* .foot1 p:not(:first-child) {text-indent:15px;}
+ */
+footer p {
+     font-family: 'Cambria' !important; 
+     
+    
+     }
+    
+    .minilogo { margin-top:-4px !important; }
+
+
+    footer .range {height:40px;
+
+    border-top: 1px solid #e3e3e3;
+}
+
+
