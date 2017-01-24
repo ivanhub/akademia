@@ -6,13 +6,48 @@ use yii\helpers\Html;
 <footer class="page-footer bg-gray-lighter">
 
 <div class="container foot1">
+<div class="row">
+<div class="col-md-2 col-xs-6">
  <p><a href="">Автомотошкола</a></p>   
  <p>Расписание</p>
   <p>Условия обучения</p>
  <p>Поступающим</p>
  <p>Учащимся</p>
  <p>Дополнительные услуги</p>
+ </div>
+ <div class="col-md-2 col-xs-6">
+ <p><a href="">Самоходная техника</a></p>   
+ <p>Расписание</p>
+  <p>Условия обучения</p>
+ <p>Поступающим</p>
+ <p>Учащимся</p>
+ <p>Дополнительные услуги</p>
+</div>
+<div class="col-md-2 col-xs-6">
+<p><a href="">Судовождение</a></p>   
+ <p>Расписание</p>
+  <p>Условия обучения</p>
+ <p>Поступающим</p>
+ <p>Учащимся</p>
+ <p>Дополнительные услуги</p>
+</div>
+<div class="col-md-2 col-xs-6">
+<p><a href="">Защитное вождение</a></p>   
+ <p>Расписание</p>
+  <p>Условия обучения</p>
+ <p>Поступающим</p>
+ <p>Учащимся</p>
+ <p>Дополнительные услуги</p>
+</div>
+<div class="col-md-4 col-xs-12 my"><BR/>
+<p>Запись на занятия</p><BR/>
+<p>Мы Вконтакте</p><BR/>
 
+<p></p>
+<p></p>
+
+</div>
+</div>
 </div>
 <div class="shell container">
 <div class="range range-xs-center range-xs-middle">
@@ -23,11 +58,7 @@ use yii\helpers\Html;
  </a></p>
 </div>
 
-<div class="cell-xs-5 offset-top-10 offset-xs-top-0 ">
-<div class="hi-icon-effect-8"><a href="#" class="icon icon-xxs icon-circle icon-white hi-icon">
-    <i class=" fa fa-vk"></i>
-</a></div>
-</div>
+
 </div>
 
 </div>
