@@ -115,7 +115,6 @@
 
 body {
   font-family: Helvetica Neue, Helvetica, sans-serif;
-  background: tomato;
 }
 .skew-menu {
   text-align: center;
@@ -147,7 +146,6 @@ body {
 }
 .skew-menu ul li:hover {
   background: #f9f9f9;
-  color: tomato;
 }
 .skew-menu ul li a {
   display: block;

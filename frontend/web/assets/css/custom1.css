@@ -16,6 +16,43 @@
     url("//db.onlinewebfonts.com/t/e5c33a72d53f91d31b2894a034db1780.svg#Cambria") format("svg");
 }
 
+
+@font-face {
+    font-family: 'Roboto1';
+    font-weight: 300;
+    font-style: normal;
+    src: url("../fonts/roboto/font-family_roboto_300.eot");
+    src: local('Roboto Light'), local('Roboto-Light'), url("../fonts/roboto/font-family_roboto_300.eot#iefix") format('embedded-opentype'), url("../fonts/roboto/font-family_roboto_300.woff") format('woff'), url("../fonts/roboto/font-family_roboto_300.ttf") format('truetype')
+}
+@font-face {
+    font-family: 'Roboto1';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/roboto/font-family_roboto_400.eot");
+    src: local('Roboto Regular'), local('Roboto-Regular'), url("../fonts/roboto/font-family_roboto_400.eot#iefix") format('embedded-opentype'), url("../fonts/roboto/font-family_roboto_400.woff") format('woff'), url("../fonts/roboto/font-family_roboto_400.ttf") format('truetype')
+}
+@font-face {
+    font-family: 'Roboto1';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/roboto/font-family_roboto_700.eot");
+    src: local('Roboto Bold'), local('Roboto-Bold'), url("../fonts/roboto/font-family_roboto_700.eot#iefix") format('embedded-opentype'), url("../fonts/roboto/font-family_roboto_700.woff") format('woff'), url("../fonts/roboto/font-family_roboto_700.ttf") format('truetype')
+}
+/*  @font-face {
+   font-family: 'Roboto Slab';
+   font-weight: 300;
+   font-style: normal;
+   src: url("http://afisha.mail.ru/-/76cb2918/bem-toolkit/blocks-desktop/font-family/_robotoslab/font-family_robotoslab_300.eot");
+   src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url("http://afisha.mail.ru/-/76cb2918/bem-toolkit/blocks-desktop/font-family/_robotoslab/font-family_robotoslab_300.eot#iefix") format('embedded-opentype'), url("http://afisha.mail.ru/-/8d0d67b8/bem-toolkit/blocks-desktop/font-family/_robotoslab/font-family_robotoslab_300.woff") format('woff'), url("http://afisha.mail.ru/-/79754934/bem-toolkit/blocks-desktop/font-family/_robotoslab/font-family_robotoslab_300.ttf") format('truetype')
+}
+@font-face {
+   font-family: 'Roboto Condensed';
+   font-weight: 700;
+   font-style: normal;
+   src: url("http://afisha.mail.ru/-/8f8e9329/bem-toolkit/blocks-desktop/font-family/_robotocondensed/font-family_robotocondensed_700.eot");
+   src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url("http://afisha.mail.ru/-/8f8e9329/bem-toolkit/blocks-desktop/font-family/_robotocondensed/font-family_robotocondensed_700.eot#iefix") format('embedded-opentype'), url("http://afisha.mail.ru/-/4fd9f3df/bem-toolkit/blocks-desktop/font-family/_robotocondensed/font-family_robotocondensed_700.woff") format('woff'), url("http://afisha.mail.ru/-/4b8b4b37/bem-toolkit/blocks-desktop/font-family/_robotocondensed/font-family_robotocondensed_700.ttf") format('truetype')
+} */
+
 .animated1 {
   -webkit-animation-duration: .6s;
   animation-duration: .6s;

@@ -1,9 +1,9 @@
 /*@import url('https://fonts.googleapis.com/css?family=Arsenal:700|Cormorant+SC:700|Cuprum:700|Dosis|El+Messiri|Fira+Sans+Condensed|Fira+Sans+Extra+Condensed:500|Jura:600|Kurale|Marmelad|Open+Sans+Condensed:700|PT+Sans+Narrow:700|Philosopher:700|Play:700|Roboto+Condensed|Titillium+Web|Ubuntu+Condensed');
   */
 
-@import url('https://fonts.googleapis.com/css?family=Arsenal:700|Cormorant+SC:600|Cuprum:700|Dosis:700|El+Messiri:700|Fira+Sans+Condensed:500|Fira+Sans+Extra+Condensed:500|Jura:600|Kurale|Marmelad|Open+Sans+Condensed:700|PT+Sans+Narrow:700|Philosopher:700|Play:700|Roboto+Condensed:700|Titillium+Web:600|Ubuntu+Condensed&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700|Cormorant+SC:600|Cuprum:700|Dosis:700|El+Messiri:700|Fira+Sans+Condensed:500|Fira+Sans+Extra+Condensed:500|Jura:600|Kurale|Marmelad|Open+Sans+Condensed:700|PT+Sans+Narrow:700|Philosopher:700|Play:700|Titillium+Web:600|Ubuntu+Condensed&subset=cyrillic');
  
-@import url('https://fonts.googleapis.com/css?family=Arsenal:700|Exo+2:300&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300&subset=cyrillic');
 
 @font-face {
 	font-family: 'Myriadprocond';
@@ -1127,3 +1127,31 @@ footer p {
 }
 
 
+
+/*udalit posle delete */
+
+aside p {
+     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight:300;
+    letter-spacing: 0 !important; */
+}
+
+section p {
+     font-family: 'Roboto', sans-serif !important;
+    font-weight:300;
+
+}
+/* 
+
+0) Roboto 300
+
+1)"Helvetica Neue", Helvetica, arial,sans-serif;
+либо
+
+2) Myriadcondpro
+
+3) Myriadsetpro
+
+4) Arsenal
+ */
