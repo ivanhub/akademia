@@ -120,8 +120,9 @@ $this->title = 'Учебный центр "Академия"';
 
  </section>
 
+<!--  <h6 class="text-center"> Наши автодромы: </h6>
 
 <section class="map full-width">
 
-</section>
+</section>-->
 

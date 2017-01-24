@@ -51,12 +51,10 @@ use yii\helpers\Html;
 </div>
 <div class="shell container">
 <div class="range range-xs-center range-xs-middle">
-<div class="cell-xs-7 text-xs-left">
 <img class="minilogo" src="../images/minlogo.png" align="left">
 <p class="pull-left">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО НПО "Академия"</span>
  <a href="privacy-policy-link.html" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
-</div>
 
 
 </div>

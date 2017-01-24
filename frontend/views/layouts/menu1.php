@@ -179,12 +179,12 @@ window.addEventListener("resize", function () {
     //}, 3000);
 
 
-/*
- setTimeout(function(){
+
+/* setTimeout(function(){
 
      var script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=64Dk4CVmG1afNaRN1piqUUshfAH7q73F&amp;width=100%25&amp;height=255&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true';
+    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=64Dk4CVmG1afNaRN1piqUUshfAH7q73F&amp;width=100%25&amp;height=355&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true';
     var get = document.getElementsByClassName('map');
     get[0].appendChild(script);
 

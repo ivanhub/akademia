@@ -494,7 +494,7 @@ font-size:40px; font-weight:900;
 
 
 
-h1,h2 {
+h1,h2,h6 {
     color: #232323 !important;
     font-family: 'Arsenal', sans-serif;
     font-size:30px !important;
@@ -1094,8 +1094,9 @@ h2 {    margin-top: 50px;}
 
 .preimul {padding-bottom:30px; margin-left:40px; }
 
-section.map.full-width {  margin-top: 0 !important; height:255px;}
-.page-footer { margin-top:255px; }
+/* map yandex */
+section.map.full-width {  margin-top: 0 !important; height:0;}
+.page-footer { margin-top:0; }
 
 
 .foot1 { height:150px; padding-top:30px; margin-bottom:20px;}
