@@ -18,7 +18,9 @@
         "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "omnilight/yii2-vuejs": "^1.0"
+        "omnilight/yii2-vuejs": "^1.0",
+        "alexandernst/yii2-device-detect": "^0.0.11",
+        "skeeks/yii2-mobile-detect": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

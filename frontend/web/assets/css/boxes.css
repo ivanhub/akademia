@@ -220,8 +220,8 @@ opacity:1;
 }
 
 
-.mainblock { padding-left:7%; padding-right:7%}
-
+/* .mainblock { padding-left:7%; padding-right:7%}
+ */
 /*.mainblock img:nth-child(2) { margin-left:35px}
 
 .mainblock img:last-child {
@@ -466,19 +466,23 @@ opacity:1;
 
 .blocktitle {
     font-family: 'Myriadsetpro', sans-serif;
+     white-space: nowrap;
     font-size: 20px;
     font-weight:900;
     text-transform: uppercase;
     text-indent: 60px;
     opacity:0;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  position:absolute;
- bottom:0;
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+      position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    bottom:-20px;
 
 }
 
-.anim_two {     text-indent: 30px !important }
+
 
 
 

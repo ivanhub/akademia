@@ -1,39 +1,57 @@
 <?PHP
+
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 
  $controllerl = Yii::$app->controller;
-  $homecheker = $controllerl->id.'/'.$controllerl->action->id;
+ $homecheker = $controllerl->id.'/'.$controllerl->action->id;
+
+$des = Yii::$app->mobileDetect->isDesktop();
+$mobi = Yii::$app->mobileDetect->isMobile();
+$tablet = Yii::$app->mobileDetect->isTablet();
+
+  
 
 ?>
+
+
+
+
+
+
 <header class="page-header">
 
 
 
-<div class="rd-navbar-panel-inner container-fluid">
-<div class="rd-navbar-panel-inner-left row ">
+<div class="rd-navbar-panel-inner container">
+<div class="header-top row ">
 <?= Yii::$app->params['homechecker'] = false; ?>
 <?php  
  
   if($homecheker=='site/index')
   {
-    echo '<div class="logo-akademia hvr-up onload-logo" ></div>';
+   // echo '<div class="logo-akademia hvr-up onload-logo" ></div>';
      //no border on home page
   }else
   {
-    echo '<div class="logo-akademia hvr-up" ></div>';
+ //   echo '<div class="logo-akademia hvr-up" ></div>';
 //border all other page
   } ?>
 
 
-
-<div class="col-sm-3 col-xs-3 forlogo" ></div>
-<div class="col-md-3 col-sm-4 col-xs-5"><p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>
-<p class="logotextbottom">Обучение всем видам вождения! </p>
+<div class="col-sm-3 col-xs-3 forlogo" ><div class="logo-akademia hvr-up onload-logo" >
 </div>
-<div class="col-lg-offset-4 col-lg-3 col-md-offset-3 col-md-3 col-sm-4 text-right"><p class="phone">+7 (846) 255-69-99</p>
-<p class="take"><a href>Запись ON-LINE</a></p>
+<!-- <img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->
+</div>
+<div class="col-md-3 col-sm-4 col-xs-5">
+
+<img class="logotop anilogo fadeIn" src="../images/rosauto3.png" width="540px">
+<!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>
+ <p class="logotextbottom">Обучение всем видам вождения! </p> -->
+</div>
+<div class="col-lg-offset-4 col-lg-3 col-md-offset-2 col-md-4 col-sm-5 text-right rightblock"><p class="phone">+7 (846) 255-69-99</p>
+<p class="take"><a href class="hvr-wobble-horizontal">Запись ОН-ЛАЙН</a></p>
 </div>
 
 </div>
@@ -44,20 +62,21 @@ use yii\bootstrap\NavBar;
 </div>
 </div> -->
 
-<div class="wrap  animated fadeIn" data-spy="affix" data-offset-top="92">
+<div class="wrap  animated fadeIn" data-spy="affix" data-offset-top="100">
+<div class="logo46"></div>
     <?php
     NavBar::begin([
      //   'brandLabel' => 'Учебный центр "Академия"',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar navbar-default navshadow skew-menu',
+            'class' => 'navbar navbar-default navshadow skew-menu centering',
         ],
     ]);
     $menuItems = [
-        ['label' => 'Главная', 'url' => ['/site/index']],
-        ['label' => 'Дистанционное обучение', 'url' => ['/site/about']],
-        ['label' => 'Галерея', 'url' => ['/site/gallery']],
-        ['label' => 'Контакты', 'url' => ['/site/contact']],    ];
+        ['label' => 'Главная', 'url' => ['/menu1']],
+        ['label' => 'Дистанционное обучение', 'url' => ['/menu1']],
+        ['label' => 'Галерея', 'url' => ['/menu1']],
+        ['label' => 'Контакты', 'url' => ['/menu11/contact']],    ];
    
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right interface'],

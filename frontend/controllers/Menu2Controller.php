@@ -17,7 +17,7 @@ use frontend\models\ContactForm;
 class Menu2Controller extends Controller
 {
     
-      public $layout = 'menu2';
+      public $layout = 'menu11';
 
     public function actions()
     {

@@ -15,7 +15,9 @@ class Common extends Component {
 }
 }
 
-
+class vars extends CApplicationComponent {
+    public $your_variable = Yii::$app->mobileDetect->isDesktop();
+}
 
 
 //class Controller extends CController {

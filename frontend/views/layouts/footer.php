@@ -7,7 +7,9 @@ use yii\helpers\Html;
 
 <div class="container foot1">
 <div class="row">
-<div class="col-md-2 col-xs-6">
+<div class="col-md-1 col-xs-2"></div>
+
+<div class="col-md-2 col-xs-5">
  <p><a href="">Автомотошкола</a></p>   
  <p>Расписание</p>
   <p>Условия обучения</p>
@@ -15,7 +17,7 @@ use yii\helpers\Html;
  <p>Учащимся</p>
  <p>Дополнительные услуги</p>
  </div>
- <div class="col-md-2 col-xs-6">
+ <div class="col-md-2 col-xs-5">
  <p><a href="">Самоходная техника</a></p>   
  <p>Расписание</p>
   <p>Условия обучения</p>
@@ -23,15 +25,17 @@ use yii\helpers\Html;
  <p>Учащимся</p>
  <p>Дополнительные услуги</p>
 </div>
-<div class="col-md-2 col-xs-6">
-<p><a href="">Судовождение</a></p>   
- <p>Расписание</p>
+  <div class="clearfix visible-sm"></div>
+  <div class="col-xs-2 visible-sm visible-xs"></div>
+<div class="col-md-2 col-xs-5 col3">
+<p><a href="ind">Судовождение</a></p>   
+ <p><a href="ind">Расписание</a></p>
   <p>Условия обучения</p>
  <p>Поступающим</p>
  <p>Учащимся</p>
  <p>Дополнительные услуги</p>
 </div>
-<div class="col-md-2 col-xs-6">
+<div class="col-md-2 col-xs-5 col4">
 <p><a href="">Защитное вождение</a></p>   
  <p>Расписание</p>
   <p>Условия обучения</p>
@@ -39,7 +43,7 @@ use yii\helpers\Html;
  <p>Учащимся</p>
  <p>Дополнительные услуги</p>
 </div>
-<div class="col-md-4 col-xs-12 my"><BR/>
+<div class="col-md-3 col-xs-12 my"><BR/>
 <p>Запись на занятия</p><BR/>
 <p>Мы Вконтакте</p><BR/>
 
@@ -50,12 +54,13 @@ use yii\helpers\Html;
 </div>
 </div>
 <div class="shell container">
-<div class="range range-xs-center range-xs-middle">
+<div class="row">
+<div class="rangelogo range-xs-center range-xs-middle">
 <img class="minilogo" src="../images/minlogo.png" align="left">
-<p class="pull-left">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО НПО "Академия"</span>
+<p class="pull-left">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ДПО "Академия"</span>
  <a href="privacy-policy-link.html" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
-
+</div>
 
 </div>
 

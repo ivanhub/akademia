@@ -16,7 +16,11 @@ class Menu1Asset extends AssetBundle
         'assets/css/bootstrap.css',
         'assets/css/custom.css',
         'assets/css/custom1.css',
-        'assets/css/boxes.css',
+        'assets/css/custom26.css',
+        'assets/css/boxes2.css',
+         'assets/css/allanim.css',
+
+
 
 
 
@@ -25,9 +29,9 @@ class Menu1Asset extends AssetBundle
     'assets/js/cssrefresh.js'
     ];
     public $depends = [
-        //'yii\web\YiiAsset',
+  //      'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',         //bootstrap.css
-      //  'yii\bootstrap\BootstrapPluginAsset' // bootstrap.js
+        'yii\bootstrap\BootstrapPluginAsset' // bootstrap.js
     ];
 
      public $jsOptions = [

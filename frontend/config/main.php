@@ -9,18 +9,21 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['mobileDetect'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
+         'mobileDetect' => [
+        'class' => '\skeeks\yii2\mobiledetect\MobileDetect'
+    ],
         'assetManager' => [     
    
         'bundles' => [
-            'yii\web\JqueryAsset' => [
-                'js'=>[]
-            ],
-            'yii\bootstrap\BootstrapPluginAsset' => [
-                'js'=>[]
-            ],
+//            'yii\web\JqueryAsset' => [
+//                'js'=>[]
+//            ],
+//            'yii\bootstrap\BootstrapPluginAsset' => [
+//                'js'=>[]
+//            ],
 //            'yii\bootstrap\BootstrapAsset' => [
 //               'css' => []
 //            ], 

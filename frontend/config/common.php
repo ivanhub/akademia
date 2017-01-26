@@ -10,6 +10,9 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
+//        'devicedetect' => [
+//        'class' => 'alexandernst\devicedetect\DeviceDetect'
+//    ],
         'db' => [
             'class' => 'yii\db\Connection',
             'charset' => 'utf8',

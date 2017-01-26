@@ -14,10 +14,10 @@ use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 
 
-class Menu1Controller extends Controller
+class Menu11Controller extends Controller
 {
     
-      public $layout = 'menu1';
+      public $layout = 'menu11';
 
     public function actions()
     {
@@ -36,6 +36,25 @@ class Menu1Controller extends Controller
     {
         return $this->render('index');
     }
+
+    public function actionContact()
+    {
+        $model = new ContactForm();
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                Yii::$app->session->setFlash('success', 'Спасибо, что обратились к Нам. Мы ответим Вам как можно скорее.');
+            } else {
+                Yii::$app->session->setFlash('error', 'Ошибка при отправке email.');
+            }
+
+            return $this->refresh();
+        } else {
+            return $this->render('contact', [
+                'model' => $model,
+            ]);
+        }
+    }
+
 
 
     public function actionIndex2()

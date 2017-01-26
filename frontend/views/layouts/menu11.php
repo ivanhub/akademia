@@ -65,22 +65,21 @@ img.setAttribute("align", "right");
     }
 });
 */
-var img = document.getElementsByTagName("img");
-go();
-window.addEventListener('resize', go);
-
-function go(){
-    if (document.documentElement.clientWidth >=3099)  {
-
-img[0].setAttribute("align", "right");
-img[1].setAttribute("align", "left");
-img[2].setAttribute("align", "right");
-img[3].setAttribute("align", "left");
 
 
+////var img = document.getElementsByTagName("img");
+////go();
+////window.addEventListener('resize', go);
 
-    }
-}
+////function go(){
+////    if (document.documentElement.clientWidth >=3099)  {
+
+////img[0].setAttribute("align", "right");
+////img[1].setAttribute("align", "left");
+////img[2].setAttribute("align", "right");
+////img[3].setAttribute("align", "left");
+////    }
+////}
 
 
 //var links = document.querySelectorAll('ul li');
@@ -99,7 +98,7 @@ img[3].setAttribute("align", "left");
 //document.getElementById('w1')    .classList.add('lightSpeedIn', 'animated1');
 
 
- var items = document.querySelectorAll("ul li");
+ var items = document.querySelectorAll("#w0-collapse ul li");
  var lastchild = items[items.length-1];
   lastchild.classList.add('last');
 
@@ -193,9 +192,18 @@ window.addEventListener("resize", function () {
 */
 
 
+function handleClick()
+{
+
+document.getElementById("full-widthid").style.marginTop = "220px";
+
+}
+
+document.getElementsByTagName('button')[0].onclick=handleClick;
 
 
 };
+
 
 </script>
 

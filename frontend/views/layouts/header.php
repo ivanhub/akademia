@@ -30,7 +30,7 @@ use yii\bootstrap\NavBar;
 
 <div class="col-sm-3 col-xs-3 forlogo" ></div>
 <div class="col-md-3 col-sm-4 col-xs-5"><p class="logotext onload-text">РОСАВТОАКАДЕМИЯ.РФ</p></div>
-<div class="col-lg-offset-4 col-lg-3 col-md-offset-3 col-md-3 col-sm-4 text-right"><p class="phone">+7 (846) 255-69-99</p>
+<div class="col-lg-offset-4 col-lg-3 col-md-offset-3 col-md-3 col-sm-5 text-right"><p class="phone">+7 (846) 255-69-99</p>
 <p class="take cssreset"><a href>Запись ON-LINE</a></p>
 </div>
 
@@ -55,7 +55,7 @@ use yii\bootstrap\NavBar;
         ['label' => 'Главная', 'url' => ['/site/index']],
         ['label' => 'Дистанционное обучение', 'url' => ['/site/about']],
         ['label' => 'Галерея', 'url' => ['/site/gallery']],
-        ['label' => 'Контакты', 'url' => ['/site/contact']],    ];
+        ['label' => 'Контакты', 'url' => ['/contact']],    ];
    
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right interface'],
