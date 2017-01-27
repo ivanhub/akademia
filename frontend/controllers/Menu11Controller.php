@@ -34,7 +34,9 @@ class Menu11Controller extends Controller
 
     public function actionIndex()
     {
-        return $this->render('index');
+         $controllerl = Yii::$app->controller;
+         $home = $controllerl->id.'/'.$controllerl->action->id;
+        return $this->render('index', compact('home'));
     }
 
     public function actionContact()
@@ -48,11 +50,11 @@ class Menu11Controller extends Controller
             }
 
             return $this->refresh();
-        } else {
+        } 
             return $this->render('contact', [
                 'model' => $model,
             ]);
-        }
+       
     }
 
 

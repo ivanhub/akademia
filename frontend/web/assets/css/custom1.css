@@ -455,7 +455,7 @@ span.arrow {
   }
 }
 
-.cl-effect-12:hover .hvr-bob, .cl-effect-12:focus .hvr-bob, .cl-effect-12:active .hvr-bob{
+#index .cl-effect-12:hover .hvr-bob,#index  .cl-effect-12:focus .hvr-bob,#index  .cl-effect-12:active .hvr-bob{
   -webkit-animation-name: hvr-wobble-skew,hvr-bob-float, hvr-bob;
   animation-name: hvr-wobble-skew,hvr-bob-float, hvr-bob;
   -webkit-animation-duration: 1s,.3s, 1.5s;
@@ -474,6 +474,44 @@ span.arrow {
 
   -webkit-animation-direction: normal, normal, alternate;
   animation-direction: normal, normal, alternate;
+}
+
+
+
+  @-webkit-keyframes hvr-grew {
+  to  100% {   
+-webkit-transform: perspective(1px) translateZ(0) scale(1.1);
+  transform: perspective(1px) translateZ(0), scale(1.1);
+  box-shadow: 0 0 1px transparent;
+ }
+}
+
+  @keyframes hvr-grew {
+
+100% {  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  box-shadow: 0 0 1px transparent;}
+
+
+}
+
+
+
+
+#contact img.hvr-grow1:hover ~ p.hvr-bob1,#contact  img.hvr-grow1:focus ~ p.hvr-bob1,#contact  img.hvr-grow1:active ~ p.hvr-bob1{
+  -webkit-animation-name: hvr-grew;
+  animation-name: hvr-grew;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;        
+  -webkit-animation-delay:  0;
+  animation-delay:  0;
+  animation-fill-mode: forwards;
+ -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
 }
 
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b9b5e1d705b4bbe721da61d2c4f52a1",
+    "content-hash": "16ba5efa5fec33730e46c7d18955ba69",
     "packages": [
         {
             "name": "alexandernst/yii2-device-detect",
@@ -484,6 +484,51 @@
                 "yii2"
             ],
             "time": "2016-03-09T14:00:53+00:00"
+        },
+        {
+            "name": "phpnt/yandex-map",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpnt/yandex-map.git",
+                "reference": "dd73e010e460d008aa3f56fac5ad1e18c34552b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpnt/yandex-map/zipball/dd73e010e460d008aa3f56fac5ad1e18c34552b0",
+                "reference": "dd73e010e460d008aa3f56fac5ad1e18c34552b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "phpnt\\yandexMap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "phpNT",
+                    "email": "phpnt@phpnt.com",
+                    "homepage": "http://phpnt.com"
+                }
+            ],
+            "description": "Yii2 Yandex Map widget",
+            "keywords": [
+                "map",
+                "phpnt",
+                "widget",
+                "yandex",
+                "yii2"
+            ],
+            "time": "2016-06-30T20:46:25+00:00"
         },
         {
             "name": "skeeks/yii2-mobile-detect",

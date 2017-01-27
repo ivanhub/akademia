@@ -11,7 +11,7 @@ $des = Yii::$app->mobileDetect->isDesktop();
 $mobi = Yii::$app->mobileDetect->isMobile();
 $tablet = Yii::$app->mobileDetect->isTablet();
 
-  
+//<?= Yii::$app->params['homechecker'] = false; 
 
 ?>
 
@@ -26,7 +26,6 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 <div class="rd-navbar-panel-inner container">
 <div class="header-top row ">
-<?= Yii::$app->params['homechecker'] = false; ?>
 <?php  
  
   if($homecheker=='site/index')
@@ -40,8 +39,21 @@ $tablet = Yii::$app->mobileDetect->isTablet();
   } ?>
 
 
-<div class="col-sm-3 col-xs-3 forlogo" ><div class="logo-akademia hvr-up onload-logo" >
-</div>
+<div class="col-sm-3 col-xs-3 forlogo" >
+
+<?= Yii::$app->params['homechecker'] = false; ?>
+
+<?php  
+ 
+  if($homecheker=='menu11/index')
+  {
+    echo '<div class="logo-akademia hvr-up onload-logo" ></div>';
+    
+  }else
+  { 
+   echo '<div class="logo-akademia hvr-up animated fadeIn" ></div>';
+
+  } ?>
 <!-- <img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->
 </div>
 <div class="col-md-3 col-sm-4 col-xs-5">
@@ -73,7 +85,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
         ],
     ]);
     $menuItems = [
-        ['label' => 'Главная', 'url' => ['/menu1']],
+        ['label' => 'Главная', 'url' => ['/menu11']],
         ['label' => 'Дистанционное обучение', 'url' => ['/menu1']],
         ['label' => 'Галерея', 'url' => ['/menu1']],
         ['label' => 'Контакты', 'url' => ['/menu11/contact']],    ];

@@ -13,6 +13,10 @@ use common\widgets\Alert;
 Menu1Asset::register($this);
 $controll = Yii::$app->controller;
 $action = $controll->action->id;
+
+
+ $controllerl = Yii::$app->controller;
+ $homecheker = $controllerl->id.'/'.$controllerl->action->id;
 ?>
 
 <?php $this->beginPage() ?>
@@ -51,6 +55,8 @@ $action = $controll->action->id;
 
 </div>
 <?php $this->endBody() ?>
+<!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+ -->
 <script type="text/javascript">
 
 
@@ -177,19 +183,22 @@ window.addEventListener("resize", function () {
 //}
     //}, 3000);
 
+<?php  
+ 
+  if($homecheker=='menu11/contact')
+  { ?>
+ setTimeout(function(){
 
-
-/* setTimeout(function(){
-
-     var script = document.createElement('script');
+    var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=64Dk4CVmG1afNaRN1piqUUshfAH7q73F&amp;width=100%25&amp;height=355&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true';
-    var get = document.getElementsByClassName('map');
+    var get = document.getElementsByClassName('map1');
     get[0].appendChild(script);
 
 
-    }, 3100);
-*/
+    }, 10);
+ 
+<?php }; ?>
 
 
 function handleClick()
@@ -206,6 +215,55 @@ document.getElementsByTagName('button')[0].onclick=handleClick;
 
 
 </script>
+<!-- 
+<script type="text/javascript">
+        ymaps.ready(init); 
+        var myMap; 
+        function init () { 
+            var myMap = new ymaps.Map("map2", { 
+                    center: [53.182762,50.093797],
+                    behaviors: ['default', 'scrollZoom'], 
+                    zoom: 17, 
+      type: "yandex#publicMap"
+                });
+            myMap.controls 
+            .add('zoomControl', { left: 5, top: 5 }) 
+            .add('typeSelector')
+            .add('mapTools', { left: 35, top: 5 }); 
+         //                    controls: ['zoomControl', 'searchControl','[typeSelector]','[mapTools]'],
+
+              
+          myPlacemark1 = new ymaps.Placemark([53.182762,50.093797], {
+                  balloonContent: '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="/images/map/logo2.png" class="ll"/><p style="margin:3px 0px;">443099, г. Самара, <br>ул. Молодогвардейская 33, <br>оф. 232, тел.: (846) 205-77-66</p><img class="close" onclick="myMap.balloon.close()" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="/images/map/close.png"/></div>'
+                }, {
+                iconLayout: 'default#image',
+                iconImageHref: '/images/map/icon22.png',
+                iconImageSize: [64, 64],
+                iconImageOffset: [-32, -64],
+                  balloonContentSize: [270, 99],
+                  balloonLayout: "default#imageWithContent",
+                  balloonImageHref: '/images/map/ballon222.png',
+                  balloonImageOffset: [-70, -100],
+                  balloonImageSize: [260, 106],
+                  balloonShadow: false,
+                  balloonAutoPan: false
+                  });
+          
+          myMap.geoObjects.add(myPlacemark1);
+
+         
+      myMap.geoObjects.events.add([
+            'balloonopen'
+        ], function (e) {
+            var geoObject = e.get('target');
+            myMap.panTo(geoObject.geometry.getCoordinates(), {
+                                        delay: 0
+                                    });
+        });
+
+    myPlacemark1.balloon.open();
+    }
+  </script> -->
 
 
 

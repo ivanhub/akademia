@@ -62,7 +62,7 @@ $this->title = 'Учебный центр "Академия"';
 <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12 box2 cl-effect-12">
-<img class="hvr-wobble-to-top-right" src="../images/2quad.png" width="305px" style="margin-top: -10px;">
+<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325px" style="margin-top: -1px;"  margin-left: -5px;>
 <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
 </div>
   <div class="clearfix visible-sm"></div>
@@ -71,12 +71,12 @@ $this->title = 'Учебный центр "Академия"';
 <p class="blocktitle  hvr-bob anim_three">Судовождение</p>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12  box4  cl-effect-12">
-<img class="hvr-wobble-top" src="../images/1car.png" width="365px" style="margin-top: 0;">
+<img class="hvr-wobble-top" src="../images/4car2.png" width="365px" style="margin-top: 10px;     margin-left: 30px;">
 <p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
 </div>
 </div> 
-
-<br><br>
+<br><br> 
+<!-- 
 <section class="maintext">
  <h1 class="text-center">Cайт Учебного Центра "Академия"</h1>
 <p>На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
@@ -105,7 +105,7 @@ $this->title = 'Учебный центр "Академия"';
 
  </section>
 </section>
-
+ -->
 
 
 
@@ -158,9 +158,5 @@ $this->title = 'Учебный центр "Академия"';
 
  </section>
 
-<!--  <h6 class="text-center"> Наши автодромы: </h6>
 
-<section class="map full-width">
-
-</section>-->
 
