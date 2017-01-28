@@ -25,9 +25,13 @@ $action = $controll->action->id;
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+
+  
+
 </head>
 
 <body id="<?php echo $action; ?>" >
@@ -183,22 +187,6 @@ window.addEventListener("resize", function () {
 //}
     //}, 3000);
 
-<?php  
- 
-  if($homecheker=='menu11/contact')
-  { ?>
- setTimeout(function(){
-
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=64Dk4CVmG1afNaRN1piqUUshfAH7q73F&amp;width=100%25&amp;height=355&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true';
-    var get = document.getElementsByClassName('map1');
-    get[0].appendChild(script);
-
-
-    }, 10);
- 
-<?php }; ?>
 
 
 function handleClick()

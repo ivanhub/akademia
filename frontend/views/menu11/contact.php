@@ -15,123 +15,270 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<!--    <div class="" id="full-widthid">
-<div class="container-fluid mainblock text-center contacts">
-  <div class="text-center contacts">  <div class="row">
-  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6  box1  cl-effect-12">
-  <img class="hvr-grow1" src="../images/new_car.png" width="180px">
-  <p class="blocktitlec anim_one  hvr-bob1 ">Автомотошкола</p>
-  </div>
-  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6  box2 cl-effect-12">
-  <img class="hvr-grow1" src="../images/two.png" width="150px" style="margin-top: 0;">
-  <p class="blocktitlec anim_two  hvr-bob1">Самоходная техника</p>
-  </div>
-  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6 box3  cl-effect-12">
-  <img class="hvr-grow1" src="../images/boat_t2.png" width="160px">
-  <p class="blocktitlec anim_three hvr-bob1">Судовождение</p>
-  </div>
-  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6 box4  cl-effect-12">
-  <img class="hvr-grow1" src="../images/new_car.png" width="180px" style="margin-top: 0;">
-  <p class="blocktitlec anim_four hvr-bob1">Защитное вождение</p>
-  </div>
-  </div> 
-  </div>
 
 
-
- -->
-
-
-
-<!-- <?= Html::encode($this->title) ?> -->
+<!-- <?= Html::encode($this->title) ?> --> <br/>    <br/>
 <div class="site-contact container">
-    <br/>    <br/>
+   
     <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 col-sm-6 cont">
  <h1>Контакты</h1>
 
 
 <p><b> АНО ДПО "Академия".</b></p>
-<div class="panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-       Центральный офис</a>
-      </h4>
-    </div>
-    <div id="collapse1" class="panel-collapse collapse in">
-      <div class="panel-body"><b> 443099, г. Самара, ул. Молодогвардейская 33, оф. 232. Время работы с 8:00-17:00. Тел.: (846) 205-77-66</b></div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-       Наш автодром</a>
-      </h4>
-    </div>
-    <div id="collapse2" class="panel-collapse collapse">
-      <div class="panel-body"><b>г. Самара, ул. Утевская, напротив 4 роты полка ДПС ГИБДД Управление МВД России по г. Самаре).Время работы 9:00-20:00 </b></div>
-    </div>
-  </div>
-
-</div>
-</p>
+  <div class="START"></div>
+  <br/>
 <p><b>Тел.:</b> (846) 255-69-99</p> 
 <p><b>Электронная почта:</b> <a href="mailto:samarapb@mail.ru">samarapb@mail.ru</a></p>
 <br/><br/>
     </div>
-    <div class="col-md-6">  
+    <div class="col-md-6 col-sm-6">  
+<div id="map"></div>
 
 
     </div> </div>
    
 
-<div class="container-fluid">
- <h6 class="text-center">Схема проезда </h6>
- <br/>
-
-<section class="map1 wideline"></section>
-<!-- <BR><BR><BR><BR>
-Вторая карта
-<div id="map2" class="wideline" ></div> -->
-
-</div>
-
-<!-- <section class="feedback">
-
-    <p>
-Любые интересующиеся вопросы, Вы можете задать через форму обратной связи, пожалуйста, заполните форму для связи с нами. 
-    </p>
-
-    <div class="row">
-
-        <div class="col-md-offset-4 col-lg-offset-3 col-lg-5 col-md-5 col-sm-7 col-sm-offset-2">
-            <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
-
-                <?= $form->field($model, 'name')->textInput(['autofocus' => false]) ?>
-
-                <?= $form->field($model, 'email') ?>
-
-                <?= $form->field($model, 'subject') ?>
-
-                <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
-
-                <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-  'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                ]) ?>
-
-                <div class="form-group">
-                    <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
-                </div>
-
-            <?php ActiveForm::end(); ?>
-        </div>
-    </div>
-    </section> -->
 
 </div>
 
 
+
+ <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+ 
+
+ <script type="text/javascript">
+       
+
+
+
+
+ymaps.ready(init);
+
+function init() {
+    var groups = [
+        {
+            name: "Росавтоакадемия, Центральный офис",
+            descr: "443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232, <br>тел.: (846) 205-77-66",
+            items: [
+                {
+                    center: [53.182762,50.093797],
+                    name: "",
+                    num: 1
+                },                
+            ]},
+
+        {
+            name: "Автодром",
+            descr: "г. Самара, <br/>ул. Утевская, напротив 4 роты полка ДПС ГИБДД). <br>Время работы 9:00-20:00",
+            items: [
+                {
+                    center: [53.132978, 50.107227],
+                    name: "",
+                    num:2
+                },
+                
+            ]},
+                
+    ];
+
+
+    var myMap = new ymaps.Map('map', {
+            center: [53.182762,50.093797],
+            zoom: 17,
+                    controls: ['smallMapDefaultSet']
+                  //      controls: ['zoomControl', 'searchControl', 'typeSelector',  'fullscreenControl']
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+counter=0,
+
+
+   BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+           '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="http://samarapb.ru/img_contact/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:68px;margin:7px 0px;">443099, г. Самара, <br>ул. Молодогвардейская 33, <br>оф. 232, тел.: (846) 205-77-66</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="http://samarapb.ru/img_contact/close.png"/></div>', {
+
+         
+            build: function () {
+                BalloonContentLayout.superclass.build.call(this);
+                                $('#close').bind('click', this.onCounterClick);
+
+              
+            },
+            clear: function () {
+         
+                $('#close').unbind('click', this.onCounterClick);
+                BalloonContentLayout.superclass.clear.call(this);
+            },
+                    onCounterClick: function () {
+                                            myMap.balloon.close();
+
+                
+                },
+            
+
+        
+        }),
+
+ BalloonContentLayout2 = ymaps.templateLayoutFactory.createClass(
+  '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="http://samarapb.ru/img_contact/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:65px;margin:7px 0px;">ул. Утевская, напротив <br/>4 роты полка ДПС ГИБДД). <br/>Время работы 9:00-20:00</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="http://samarapb.ru/img_contact/close.png"/></div>', {
+
+            build: function () {
+             
+                BalloonContentLayout.superclass.build.call(this);
+                                $('#close').bind('click', this.onCounterClick);
+
+              
+            },
+            clear: function () {
+             
+                $('#close').unbind('click', this.onCounterClick);
+                BalloonContentLayout.superclass.clear.call(this);
+            },
+                    onCounterClick: function () {
+                                            myMap.balloon.close();
+
+                
+                },
+            
+
+        }),
+
+
+        menu = $('<div class="panel panel-default"></div>');
+
+            createMenuGroup(groups[0]);
+
+    function createMenuGroup (group) {
+    
+    var goodItem1 = $('<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">' + groups[0].name + '</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>'+ groups[0].descr +'</b></div></div></div>'),
+   goodItem2 = $('<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">' + groups[1].name + '</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>'+ groups[1].descr +'</b></div></div></div>');
+   
+
+            collection = new ymaps.GeoObjectCollection(),
+       
+
+        myMap.geoObjects.add(collection);
+
+ placemark = new ymaps.Placemark([53.182762,50.093797], {  name: 'odin name' },
+
+ {             
+            balloonContentLayout: BalloonContentLayout,
+          
+            balloonPanelMaxMapArea: 0, iconLayout: 'default#image',
+          
+            iconImageHref: 'http://samarapb.ru/img_contact/icon22.png',
+                iconImageSize: [50, 50],
+           
+            iconImageOffset: [-32, -50],
+                  balloonContentSize: [290, 79],
+                    balloonLayout: "default#imageWithContent",
+                    balloonImageHref: 'http://samarapb.ru/img_contact/ballon222.png',
+                    balloonImageOffset: [-75, -90],
+                    balloonImageSize: [280, 89],
+                    balloonShadow: false,
+                    balloonAutoPan: false
+
+        });
+
+ placemark2 = new ymaps.Placemark( [53.132978, 50.107227], {  name: 'dva name' },
+
+ {             
+            balloonContentLayout: BalloonContentLayout2,
+           
+            balloonPanelMaxMapArea: 0, iconLayout: 'default#image',
+ 
+            iconImageHref: 'http://samarapb.ru/img_contact/icon22.png',
+                iconImageSize: [50, 50],
+
+            iconImageOffset: [-32, -50],
+                  balloonContentSize: [290, 79],
+                    balloonLayout: "default#imageWithContent",
+                    balloonImageHref: 'http://samarapb.ru/img_contact/ballon222.png',
+                    balloonImageOffset: [-75, -90],
+                    balloonImageSize: [280, 89],
+                    balloonShadow: false,
+                    balloonAutoPan: false
+
+
+        });
+
+      
+        collection.add(placemark);
+        collection.add(placemark2);
+
+              goodItem1
+             .appendTo(menu)
+             .find('a') 
+            .bind('click', function () {
+              if (myMap.getZoom() < 13) {
+             myMap.setZoom(14, { smooth: true }); }
+
+                if (!placemark.balloon.isOpen()) {
+                 
+                   myMap.panTo([53.182762,50.093797], {
+            flying: 1, callback: function () {  myMap.setZoom(18, { smooth: true });}
+        });     
+     
+
+              //                          myMap.setCenter([53.182762,50.093797], 14);
+
+                    placemark.balloon.open();
+
+                }
+
+   
+                return false;
+            });
+
+                          goodItem2
+             .appendTo(menu)
+             .find('a') 
+            .bind('click', function () {
+if (myMap.getZoom() < 13) {
+             myMap.setZoom(14, { smooth: true }); }
+
+
+          myMap.panTo([53.132978, 50.107227],  {
+            flying: 1,callback: function () { myMap.setZoom(15, { smooth: true });}
+        });
+  //                  myMap.setCenter( [53.132978, 50.107227], 13);
+// zoom callback: function () { map.setZoom(zoom, { smooth: true });}
+                if (!placemark2.balloon.isOpen()) {
+                    placemark2.balloon.open();
+                } 
+
+                return false;
+            });
+    }
+
+   
+    menu.appendTo($('.START'));
+
+
+
+
+
+myMap.events.add('click', function (e) {
+        if (!myMap.balloon.isOpen()) {
+            var coords = e.get('coords');
+            myMap.balloon.open(coords, {
+                contentHeader:'АНО ДПО "АКАДЕМИЯ"',
+                contentBody:'<p>Запись на занятия по тел.:<br/>+7 (846) 205-77-66</p>' + [
+                    ].join(', ') ,
+                contentFooter:'<sup>Будем рады видеть вас на наших курсах</sup>'
+            });
+        }
+        else {
+            myMap.balloon.close();
+        }
+    });
+
+
+    myMap.setBounds(myMap.geoObjects.getBounds());
+}
+
+
+
+
+    </script>
 

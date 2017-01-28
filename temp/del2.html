@@ -1,0 +1,374 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Примеры. Список объектов карты.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   
+    <style type="text/css">
+        html, body, #map {
+            width: 550px; padding: 0; margin: 0;
+        }
+
+        #map {
+            height: 450px;
+        }
+            /* Оформление меню (начало)*/
+        .menu {
+            list-style: none;
+            padding: 5px;
+
+            margin: 0;
+        }
+        .submenu {
+            list-style: none;
+
+            margin: 0 0 0 20px;
+            padding: 0;
+        }
+        .submenu li {
+            font-size: 90%;
+        }
+            /* Оформление меню (конец)*/
+
+
+
+
+ .ballon img.ll {
+    float: left !important;
+    width: 55px;
+    height: 70px;
+    margin: 0 0 0 -1px !important;
+}
+
+
+
+.ballon {
+    padding: 5px;
+    width: 270px;
+    height: 59px;
+    float: left !important;
+    text-align: left !important;
+    color: #fff;
+    /* position: absolute !important; */
+}
+
+.ballon .close {
+    position: absolute !important;
+    float: left !important;
+    font-size: 15px !important;
+    font-weight: bold;
+    top: 0 !important;
+    right: 0px !important;
+    cursor: pointer;
+    padding-right: 10px !important;
+}
+#map2 p {font-size:13px !important}
+
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panell {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    display:none;
+    transition: max-height 0.2s ease-out;
+    max-height:30px;
+}
+
+button.accordion.active + div.panell {display:table !important;};
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="START"></div>
+<div id="map"></div>
+</div>
+ <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script src="http://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+       
+
+
+window.onload = function() {
+
+ 
+
+ymaps.ready(init);
+
+function init() {
+    var groups = [
+        {
+            name: "Росавтоакадемия, Центральный офис",
+            descr: "443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232, <br>тел.: (846) 205-77-66",
+            items: [
+                {
+                    center: [53.182762,50.093797],
+                    name: "",
+                    num: 1
+                },                
+            ]},
+
+        {
+            name: "Автодром - Росавтоакадемия",
+            descr: "г. Самара, <br/>ул. Утевская, напротив 4 роты полка ДПС ГИБДД). <br>Время работы 9:00-20:00",
+            items: [
+                {
+                    center: [53.132978, 50.107227],
+                    name: "",
+                    num:2
+                },
+                
+            ]},
+                
+    ];
+
+
+    // Создание экземпляра карты.
+    var myMap = new ymaps.Map('map', {
+            center: [53.182762,50.093797],
+            zoom: 17
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+counter=0,
+
+
+   BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+           '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="http://samarapb.ru/img_contact/logo2.png" class="ll"/><p style="padding-left:63px;margin:7px 0px;">443099, г. Самара, <br>ул. Молодогвардейская 33, <br>оф. 232, тел.: (846) 205-77-66</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="http://samarapb.ru/img_contact/close.png"/></div>', {
+
+            // Переопределяем функцию build, чтобы при создании макета начинать
+            // слушать событие click на кнопке-счетчике.
+            build: function () {
+                // Сначала вызываем метод build родительского класса.
+                BalloonContentLayout.superclass.build.call(this);
+                                $('#close').bind('click', this.onCounterClick);
+
+              
+            },
+            clear: function () {
+                // Выполняем действия в обратном порядке - сначала снимаем слушателя,
+                // а потом вызываем метод clear родительского класса.
+                $('#close').unbind('click', this.onCounterClick);
+                BalloonContentLayout.superclass.clear.call(this);
+            },
+                    onCounterClick: function () {
+                                            myMap.balloon.close();
+
+                
+                },
+            
+
+        
+            // Аналогично переопределяем функцию clear, чтобы снять
+            // прослушивание клика при удалении макета с карты.
+
+        }),
+
+ BalloonContentLayout2 = ymaps.templateLayoutFactory.createClass(
+           '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="http://samarapb.ru/img_contact/logo2.png" class="ll"/><p style="padding-left:63px;margin:7px 0px;">ул. Утевская, напротив 4 роты полка ДПС ГИБДД). Время работы 9:00-20:00</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="http://samarapb.ru/img_contact/close.png"/></div>', {
+
+            // Переопределяем функцию build, чтобы при создании макета начинать
+            // слушать событие click на кнопке-счетчике.
+            build: function () {
+                // Сначала вызываем метод build родительского класса.
+                BalloonContentLayout.superclass.build.call(this);
+                                $('#close').bind('click', this.onCounterClick);
+
+              
+            },
+            clear: function () {
+                // Выполняем действия в обратном порядке - сначала снимаем слушателя,
+                // а потом вызываем метод clear родительского класса.
+                $('#close').unbind('click', this.onCounterClick);
+                BalloonContentLayout.superclass.clear.call(this);
+            },
+                    onCounterClick: function () {
+                                            myMap.balloon.close();
+
+                
+                },
+            
+
+        
+            // Аналогично переопределяем функцию clear, чтобы снять
+            // прослушивание клика при удалении макета с карты.
+
+        }),
+
+
+        // Контейнер для меню.
+        menu = $('<div class="panel panel-default"></div>');
+
+            createMenuGroup(groups[0]);
+
+    function createMenuGroup (group) {
+        // Пункт меню.
+        // 
+    var goodItem1 = $('<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">' + groups[0].name + '</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>'+ groups[0].descr +'</b></div></div></div>'),
+   goodItem2 = $('<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">' + groups[1].name + '</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>'+ groups[1].descr +'</b></div></div></div>');
+   
+
+            collection = new ymaps.GeoObjectCollection(),
+       
+
+        // Добавляем коллекцию на карту.
+        myMap.geoObjects.add(collection);
+
+ placemark = new ymaps.Placemark([53.182762,50.093797], {  name: 'odin name' },
+
+ {             
+            balloonContentLayout: BalloonContentLayout,
+            // Запретим замену обычного балуна на балун-панель.
+            // Если не указывать эту опцию, на картах маленького размера откроется балун-панель.
+            balloonPanelMaxMapArea: 0, iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'http://samarapb.ru/img_contact/icon22.png',
+                iconImageSize: [50, 50],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-32, -50],
+                  balloonContentSize: [290, 79],
+                    balloonLayout: "default#imageWithContent",
+                    balloonImageHref: 'http://samarapb.ru/img_contact/ballon222.png',
+                    balloonImageOffset: [-75, -90],
+                    balloonImageSize: [280, 89],
+                    balloonShadow: false,
+                    balloonAutoPan: false
+
+
+            // Размеры метки.
+        });
+
+ placemark2 = new ymaps.Placemark( [53.132978, 50.107227], {  name: 'dva name' },
+
+ {             
+            balloonContentLayout: BalloonContentLayout2,
+            // Запретим замену обычного балуна на балун-панель.
+            // Если не указывать эту опцию, на картах маленького размера откроется балун-панель.
+            balloonPanelMaxMapArea: 0, iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'http://samarapb.ru/img_contact/icon22.png',
+                iconImageSize: [50, 50],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-32, -50],
+                  balloonContentSize: [290, 79],
+                    balloonLayout: "default#imageWithContent",
+                    balloonImageHref: 'http://samarapb.ru/img_contact/ballon222.png',
+                    balloonImageOffset: [-75, -90],
+                    balloonImageSize: [280, 89],
+                    balloonShadow: false,
+                    balloonAutoPan: false
+
+
+            // Размеры метки.
+        });
+
+        // Добавляем метку в коллекцию.
+        collection.add(placemark);
+        collection.add(placemark2);
+
+
+        // Добавляем подменю.
+              goodItem1
+             .appendTo(menu)
+            // При клике по пункту подменю открываем/закрываем баллун у метки.
+             .find('a') 
+            .bind('click', function () {
+                if (!placemark.balloon.isOpen()) {
+                                        myMap.setCenter([53.182762,50.093797], 14);
+
+                    placemark.balloon.open();
+
+                }
+
+   
+                return false;
+            });
+
+                          goodItem2
+             .appendTo(menu)
+            // При клике по пункту подменю открываем/закрываем баллун у метки.
+             .find('a') 
+            .bind('click', function () {
+    
+                    myMap.setCenter( [53.132978, 50.107227], 13);
+
+                if (!placemark2.balloon.isOpen()) {
+                    placemark2.balloon.open();
+                } 
+
+                return false;
+            });
+    }
+
+   
+    // Добавляем меню в тэг BODY.
+    menu.appendTo($('.START'));
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+
+/*if (!$(this).hasClass("test")) {*/
+
+
+
+myMap.events.add('click', function (e) {
+        if (!myMap.balloon.isOpen()) {
+            var coords = e.get('coords');
+            myMap.balloon.open(coords, {
+                contentHeader:'АНО ДПО "АКАДЕМИЯ"',
+                contentBody:'<p>Запись на занятия по тел.:</p>' +
+                    '<p>(846) 205-77-66' + [
+                 
+                    ].join(', ') + '</p>',
+                contentFooter:'<sup>Будем рады видеть вас на наших курсах</sup>'
+            });
+        }
+        else {
+            myMap.balloon.close();
+        }
+    });
+
+
+    // Выставляем масштаб карты чтобы были видны все группы.
+    myMap.setBounds(myMap.geoObjects.getBounds());
+}
+
+
+};
+
+    </script>
+</body>
+http://v4-alpha.getbootstrap.com/components/collapse/
+
+</html>
