@@ -1,0 +1,9 @@
+  'yiisoft/yii-body-classes' => 
+  array (
+    'name' => 'yiisoft/yii-body-classes',
+    'version' => '2.0.3.0',
+    'alias' => 
+    array (
+      '@yii/yii-body-classes' => $vendorDir . '/yiisoft/yii-body-classes',
+    ),
+  ),
