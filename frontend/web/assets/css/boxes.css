@@ -275,16 +275,18 @@ opacity:1;
 	-o-transform:rotate(0deg);
 }
 .boat:hover {
-	-webkit-animation:rotatey2 1700ms ease-out;
-	-moz-animation:rotatey2 1700ms ease-out;
+	-webkit-animation:rotateyb 1.7s ease-out;
+	animation:rotateyb 1.7s ease-out;
+	-o-animation:rotateyb 1.7s ease-out;
+	-moz-animation:rotateyb 1.7s ease-out;
 }
-@-webkit-keyframes rotatey2 {
+@-webkit-keyframes rotateyb {
 0% {transform:rotate(0deg); -ms-transform:rotate(0deg); -moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); -o-transform:rotate(0deg);}
 25% {transform:rotate(1deg); -ms-transform:rotate(1deg); -moz-transform:rotate(1deg); -webkit-transform:rotate(1deg); -o-transform:rotate(1deg);}
 50% {transform:rotate(-1deg); -ms-transform:rotate(-1deg); -moz-transform:rotate(-1deg); -webkit-transform:rotate(-1deg); -o-transform:rotate(-1deg);}
 100% {transform:rotate(0deg); -ms-transform:rotate(0deg); -moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); -o-transform:rotate(0deg);}
 }
-@-moz-keyframes rotatey2 {
+@-moz-keyframes rotateyb {
 0% {transform:rotate(0deg); -ms-transform:rotate(0deg); -moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); -o-transform:rotate(0deg);}
 25% {transform:rotate(1deg); -ms-transform:rotate(1deg); -moz-transform:rotate(1deg); -webkit-transform:rotate(1deg); -o-transform:rotate(1deg);}
 50% {transform:rotate(-1deg); -ms-transform:rotate(-1deg); -moz-transform:rotate(-1deg); -webkit-transform:rotate(-1deg); -o-transform:rotate(-1deg);}

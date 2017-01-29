@@ -1,6 +1,5 @@
 <?PHP
 use yii\helpers\Html;
-
 ?>
 
 <footer class="page-footer bg-gray-lighter">

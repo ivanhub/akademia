@@ -1,0 +1,13 @@
+260 200
+106
+
+
+
+yandex.map optimization http://www.sitehere.ru/optimizaciya-zagruzki-yandeks-karty-na-sajte
+http://www.sitehere.ru/examples/13.12.2016/index-optimized.html
+for sending
+
+https://fonts.googleapis.com/css?family=Calibri:400,700
+I would just put Calibri in the CSS followed by the fonts that match Calibri the closest. For example:
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+Your website will then take the best available font.

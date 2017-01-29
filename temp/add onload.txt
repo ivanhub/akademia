@@ -1,0 +1,7 @@
+
+var loader = setTimeout(function() {
+                document.querySelector(".page-loader").classList.add('loaded');   
+
+            }, 200);
+
+

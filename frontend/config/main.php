@@ -6,6 +6,7 @@ $params = array_merge(
     require(__DIR__ . '/params-local.php')
 );
 
+
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
@@ -13,20 +14,29 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
          'mobileDetect' => [
-        'class' => '\skeeks\yii2\mobiledetect\MobileDetect'
+         'class' => '\skeeks\yii2\mobiledetect\MobileDetect'
     ],
         'assetManager' => [     
-   
+               'class' => 'yii\web\AssetManager',
+
         'bundles' => [
-//            'yii\web\JqueryAsset' => [
-//                'js'=>[]
-//            ],
-//            'yii\bootstrap\BootstrapPluginAsset' => [
-//                'js'=>[]
-//            ],
-//            'yii\bootstrap\BootstrapAsset' => [
-//               'css' => []
-//            ], 
+            'yii\web\JqueryAsset' => [
+                'js'=>[
+                                YII_ENV_DEV ? 'jquery.js' : 'jquery.min.js'
+
+                ]
+            ],
+            'yii\bootstrap\BootstrapPluginAsset' => [
+                'js'=>[
+                                YII_ENV_DEV ? 'js/bootstrap.js' : 'js/bootstrap.min.js',
+                ]
+            ],
+            'yii\bootstrap\BootstrapAsset' => [
+               'css' => [
+
+                                YII_ENV_DEV ? 'css/bootstrap.css' :         'css/bootstrap.min.css',
+                ]
+            ], 
         ],
         ],
     

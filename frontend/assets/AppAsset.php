@@ -15,16 +15,22 @@ class AppAsset extends AssetBundle
         public $css = [
         'assets/css/bootstrap.css',
         'assets/css/custom.css',
+        'assets/css/custom1.css',
+        'assets/css/custom26.css',
+        'assets/css/boxes2.css',
+         'assets/css/allanim.css',
+
+
 
 
 
     ];
     public $js = [
-        
+    //'assets/js/cssrefresh.js'
     ];
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+  //      'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',         //bootstrap.css
         'yii\bootstrap\BootstrapPluginAsset' // bootstrap.js
     ];
 

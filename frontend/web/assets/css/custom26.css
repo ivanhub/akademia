@@ -1,7 +1,17 @@
 
 #map2 p {font-size:13px !important}
 
-#map {height:500px;}
+ #map {
+            width: 520px; padding: 0; margin: 0;
+            height: 480px;
+        }
+ 
+
+
+
+.panel-group .panel {
+    margin-bottom: 20px !important;}
+
 
 
 @-webkit-keyframes online {
@@ -98,7 +108,7 @@ section.main {
 
 
 
-div.affix .logo46 {
+.affix .logo46 {
   background: url(/images/logo46.png) 100% 100% no-repeat;
   background-size: contain;
   z-index:50;
@@ -232,6 +242,8 @@ ul.breadcrumb {
 }
 
 
+
+
 .ymaps-2-1-47-balloon {
     box-shadow: none !important;
 }
@@ -240,13 +252,6 @@ ul.breadcrumb {
 
 
 
-  #map {
-            width: 550px; padding: 0; margin: 0;
-        }
-
-        #map {
-            height: 450px;
-        }
             /* Оформление меню (начало)*/
         .menu {
             list-style: none;
@@ -273,8 +278,6 @@ ul.breadcrumb {
     width: 55px;
     height: 70px;
     margin: 5px 0 0 5px !important;}
-}
-
 
 
 .ballon {
@@ -317,7 +320,7 @@ button.accordion.active, button.accordion:hover {
     background-color: #ddd;
 }
 
-div.panell {
+.panell {
     padding: 0 18px;
     background-color: white;
     max-height: 0;
@@ -327,4 +330,13 @@ div.panell {
     max-height:30px;
 }
 
-button.accordion.active + div.panell {display:table !important;};
+button.accordion.active + div.panell {display:table !important;}
+
+
+
+.page-loader .page-loader-body {
+    background-image: url(/images/map/logo2.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 5px 4px;
+}
