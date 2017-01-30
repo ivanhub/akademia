@@ -9,12 +9,12 @@ use yii\helpers\Html;
 <div class="col-md-1 col-xs-2"></div>
 
 <div class="col-md-2 col-xs-5">
- <p><a href="">Автомотошкола</a></p>   
- <p>Расписание</p>
-  <p>Условия обучения</p>
- <p>Поступающим</p>
- <p>Учащимся</p>
- <p>Дополнительные услуги</p>
+ <p><a href="/automotoschool">Автомотошкола</a></p>   
+ <p><a href="/raspisanie">Расписание</a></p>
+  <p><a href="/">Условия обучения</a></p>
+ <p><a href="/postupayushchim">Поступающим</a></p>
+ <p><a href="/students">Учащимся</a></p>
+ <p><a href="/dop-uslugi">Дополнительные услуги</a></p>
  </div>
  <div class="col-md-2 col-xs-5">
  <p><a href="">Самоходная техника</a></p>   
@@ -35,7 +35,7 @@ use yii\helpers\Html;
  <p>Дополнительные услуги</p>
 </div>
 <div class="col-md-2 col-xs-5 col4">
-<p><a href="">Защитное вождение</a></p>   
+<p><a href="/safety-driving">Защитное вождение</a></p>   
  <p>Расписание</p>
   <p>Условия обучения</p>
  <p>Поступающим</p>

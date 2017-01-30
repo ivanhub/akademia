@@ -74,7 +74,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
     ]);
     $menuItems = [
         ['label' => 'Главная', 'url' => ['/']],
-        ['label' => 'Дистанционное обучение', 'url' => ['/']],
+        ['label' => 'Дистанционное обучение', 'url' => ['/distance']],
         ['label' => 'Галерея', 'url' => ['/']],
         ['label' => 'Контакты', 'url' => ['/contact']],    ];
    

@@ -9,7 +9,7 @@ function init() {
     var groups = [
         {
             name: "Росавтоакадемия, Центральный офис",
-            descr: "443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232, <br>тел.: (846) 205-77-66",
+            descr: "443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232. Время работы 8:00 - 18:00.<br/>Тел.: +7 (846) 205-77-66",
             items: [
                 {
                     center: [53.182762,50.093797],
@@ -23,7 +23,7 @@ function init() {
             descr: "г. Самара, <br/>ул. Утевская, напротив 4 роты полка ДПС ГИБДД. <br>Время работы 9:00-20:00",
             items: [
                 {
-                    center: [53.132978, 50.107227],
+                    center: [53.131302, 50.108840],
                     name: "",
                     num:2
                 },
@@ -45,7 +45,7 @@ counter=0,
 
 
    BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
-           '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="images/map/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:68px;margin:7px 0px;">443099, г. Самара, <br>ул. Молодогвардейская 33, <br>оф. 232, тел.: (846) 205-77-66</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="images/map/close.png"/></div>', {
+           '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="images/map/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:68px;margin:7px 0px;">443099, г. Самара, <br>ул. Молодогвардейская 33, <br>оф. 232, тел.: +7 (846) 205-77-66</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="images/map/close.png"/></div>', {
 
          
             build: function () {
@@ -100,8 +100,8 @@ counter=0,
 
     function createMenuGroup (group) {
     
-    var goodItem1 = $('<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">' + groups[0].name + '</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>'+ groups[0].descr +'</b></div></div></div>'),
-   goodItem2 = $('<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">' + groups[1].name + '</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>'+ groups[1].descr +'</b></div></div></div>');
+    var goodItem1 = $('<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">' + groups[0].name + '</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b><a href="" onclick="myMap.panTo()">'+ groups[0].descr +'</a></b></div></div></div>'),
+   goodItem2 = $('<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">' + groups[1].name + '</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b><a href="" onclick="myMap.panTo()">     '+ groups[1].descr +'</a></b></div></div></div>');
    
 
             collection = new ymaps.GeoObjectCollection(),
@@ -131,7 +131,7 @@ counter=0,
 
         });
 
- placemark2 = new ymaps.Placemark( [53.132978, 50.107227], {   hintContent: "Автодром",   },
+ placemark2 = new ymaps.Placemark( [53.131302, 50.108840], {   hintContent: "Автодром",   },
 
  {             
             balloonContentLayout: BalloonContentLayout2,

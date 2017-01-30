@@ -31,8 +31,12 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
              'rules' => [
-            '<alias:home|feedback|login|logout|signup|contact|about|index>' => 'site/<alias>', 
-                    '<controller>/<action>' => '<controller>/<action>'            
+            '<alias:gallery|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
+            '<alias:dop-uslugi>' =>  'site/dopuslugi', 
+            '<alias:safety-driving>' =>  'site/safetydriving', 
+            '<alias:postupayushchim>' =>  'site/incoming', 
+                    '<controller>/<action>' => '<controller>/<action>',
+             
         ],],
     ],
 ];

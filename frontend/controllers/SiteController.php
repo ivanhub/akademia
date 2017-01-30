@@ -40,6 +40,59 @@ class SiteController extends Controller
         return $this->render('index', compact('home'));
     }
 
+    public function actionDistance()
+    {
+         
+        return $this->render('distance');
+    }
+
+       public function actionAutomotoschool()
+    {
+         
+        return $this->render('automotoschool');
+    }
+
+    public function actionRaspisanie()
+    {
+         
+        return $this->render('raspisanie');
+    }
+
+
+    public function actionDopuslugi()
+    {
+         
+        return $this->render('dopuslugi');
+    }
+
+
+    public function actionSafetydriving()
+    {
+         
+        return $this->render('safetydriving');
+    }
+
+
+  public function actionIncoming()
+    {
+         
+        return $this->render('incoming');
+    }
+
+
+  public function actionStudents()
+    {
+         
+        return $this->render('students');
+    }
+
+
+  public function actionGallery()
+    {
+         
+        return $this->render('gallery');
+    }
+
     public function actionContact()
     {
         $model = new ContactForm();

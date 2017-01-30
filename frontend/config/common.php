@@ -9,7 +9,9 @@ $params = ArrayHelper::merge(
 return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'defaultRoute' => 'site/index'
     'components' => [
+        'request' => [ 'baseUrl' => '',],
 //        'devicedetect' => [
 //        'class' => 'alexandernst\devicedetect\DeviceDetect'
 //    ],

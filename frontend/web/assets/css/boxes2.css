@@ -762,9 +762,10 @@ left: 56% !important;
 
 
 
-
+.anim_one {    margin-top:5px !important; }
 .anim_two {     text-indent: 54px !important }
-.anim_four {     text-indent: 110px !important }
+.anim_three {    margin-top:3px !important; }
+.anim_four {     text-indent: 110px !important; margin-top:12px !important;}
 
 
 

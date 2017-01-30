@@ -31,14 +31,14 @@ $this->params['breadcrumbs'][] = $this->title;
       
 
   <div class="panel-group" id="accordion">
-<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Росавтоакадемия, Центральный офис</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232, <br>тел.: (846) 205-77-66</b></div></div></div><div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Автодром</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>г. Самара, <br>ул. Утевская, напротив 4 роты полка ДПС ГИБДД). <br>Время работы 9:00-20:00</b></div></div></div></div>
+<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Росавтоакадемия, Центральный офис</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232. Время работы 8:00 - 18:00. <br>Тел.: (846) 205-77-66</b></div></div></div><div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Автодром</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>г. Самара, <br>ул. Утевская, напротив 4 роты полка ДПС ГИБДД. <br>Время работы 9:00-20:00</b></div></div></div></div>
 
 
 
   </div> </div>
   <br/>
-<p><b>Тел.:</b> (846) 255-69-99</p> 
-<p><b>Электронная почта:</b> <a href="mailto:samarapb@mail.ru">samarapb@mail.ru</a></p>
+<p style="font-size:20px;"><b>Тел.:</b> <span class="fa fa-phone" style="color:#0c500c;"></span> +7 (846) 255-69-99</p> 
+<p><b>Электронная почта: </b> <span class="fa fa-envelope" style="color:#0c500c;"></span> <a href="mailto:samarapb@mail.ru" style="color:#0c500c;">samarapb@mail.ru</a></p>
 <br/><br/>
     </div>
     <div class="col-md-6 col-sm-6">  

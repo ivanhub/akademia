@@ -5864,9 +5864,9 @@ html *:first-child {
   margin-top: 0;
 }
 
-html *:last-child {
+/*html *:last-child {
   margin-bottom: 0;
-}
+} */
 
 .shell,
 .shell-wide,
@@ -17798,7 +17798,7 @@ img + p {
 
 @media (min-width: 1200px) {
   p + p {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   h1 + p {
     margin-top: 29px;
@@ -23464,9 +23464,9 @@ html .page .offset-top-140 {
   }
 }
 
-.table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td {
+/*.table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td {
   border-color: #f5f5f5;
-}
+}*/
 
 .table-bordered-custom > tbody > tr > th, .table-bordered-custom > tbody > tr > td {
   border-color: #f5f5f5;

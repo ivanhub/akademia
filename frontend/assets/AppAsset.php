@@ -18,7 +18,9 @@ class AppAsset extends AssetBundle
         'assets/css/custom1.css',
         'assets/css/custom26.css',
         'assets/css/boxes2.css',
-         'assets/css/allanim.css',
+        'assets/css/allanim.css',
+        'assets/css/left.css',
+
 
 
 
@@ -26,7 +28,7 @@ class AppAsset extends AssetBundle
 
     ];
     public $js = [
-    //'assets/js/cssrefresh.js'
+    'assets/js/cssrefresh.js'
     ];
     public $depends = [
   //      'yii\web\YiiAsset',

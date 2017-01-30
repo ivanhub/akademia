@@ -12,7 +12,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
+  
 
 
 
@@ -1056,7 +1056,7 @@ section.advantages {
     padding-bottom: 60px;
 }
 
-.adv {font-weight:700;}
+.adv {font-weight:700 !important;}
 
 h2 {    margin-top: 50px;}
 
@@ -1080,8 +1080,9 @@ footer p.pull-left {
     padding-top: 15px;
 }
 footer p {
-     font-family: 'Calibri' !important; 
-  line-height:0;
+/*     font-family: 'Calibri' !important; */
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  line-height:0.5;
      }
     
     .minilogo { margin-top:2px !important; }
@@ -1418,12 +1419,14 @@ p.anim_one,p.anim_three {text-align: center;
 
 
 #contact .cont p {
-   font-family: 'Arsenal', sans-serif;
-    font-weight:300;
+/*   font-family: 'Arsenal', sans-serif;
+    font-weight:300; */
     font-size: 18px;
    line-height:1.5;
 
 } 
+
+.cont a:hover {color:#3f3f3f !important;}
 
 .site-contact h1 {
 font-size:35px !important;
