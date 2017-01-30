@@ -10,6 +10,11 @@ use yii\captcha\Captcha;
 use phpnt\yandexMap\YandexMaps;
 
 $this->title = 'Поступающим';
+$this->params['breadcrumbs'][] = [
+                                   /* 'template' => "<li><b>{link}</b></li>\n", */
+                                    'label' => 'Автомотошкола', 
+                                    'url' => ['/automotoschool'] 
+                                 ];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
@@ -30,7 +35,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги</a></li>
     <li><a href="/students">Учащимся</a></li>
     <li><a href="#">Поступающим</a></li>
-    <li><a href="#">Условия&nbsp;обучения</a></li>
     
   
 </ul>
@@ -38,7 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="col-md-9 col-sm-12">
 <section class="incoming">
-<h1 class="text-center">Поступающим</h1>
+<h1 class="text-center">Условия обучения</h1>
  
  <p><b>Этапы обучения:</b></p>
 <p><b>I этап</b>  - Запись на обучение, заключение договора, оплата услуг.</p>

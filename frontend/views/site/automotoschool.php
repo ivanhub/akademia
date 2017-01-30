@@ -30,7 +30,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги</a></li>
     <li><a href="/students">Учащимся</a></li>
     <li><a href="/postupayushchim">Поступающим</a></li>
-    <li><a href="#">Условия&nbsp;обучения</a></li>
     
   
 </ul>

@@ -10,6 +10,7 @@ use yii\captcha\Captcha;
 use phpnt\yandexMap\YandexMaps;
 
 $this->title = 'Защитное вождение';
+
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
@@ -30,7 +31,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <li><a href="#">Доп.&nbsp;услуги</a></li>
     <li><a href="#">Учащимся</a></li>
     <li><a href="#">Поступающим</a></li>
-    <li><a href="#">Условия&nbsp;обучения</a></li>
     
   
 </ul>

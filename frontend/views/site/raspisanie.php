@@ -8,8 +8,15 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 use phpnt\yandexMap\YandexMaps;
+use yii\widgets\Breadcrumbs;
+
 
 $this->title = 'Расписание';
+$this->params['breadcrumbs'][] = [
+                                   /* 'template' => "<li><b>{link}</b></li>\n", */
+                                    'label' => 'Автомотошкола', 
+                                    'url' => ['/automotoschool'] 
+                                 ];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
@@ -30,7 +37,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
     <li><a href="/students">Учащимся &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
     <li><a href="/postupayushchim">Поступающим &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; </a></li>
-    <li><a href="#">Условия&nbsp;обучения</a></li>
     
   
 </ul>

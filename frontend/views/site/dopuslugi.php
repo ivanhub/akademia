@@ -10,6 +10,11 @@ use yii\captcha\Captcha;
 use phpnt\yandexMap\YandexMaps;
 
 $this->title = 'Дополнительные услуги';
+$this->params['breadcrumbs'][] = [
+                                   /* 'template' => "<li><b>{link}</b></li>\n", */
+                                    'label' => 'Автомотошкола', 
+                                    'url' => ['/automotoschool'] 
+                                 ];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
