@@ -25,14 +25,31 @@ $this->params['breadcrumbs'][] = $this->title;
  <div class="row">
 <div class="col-sm-12 col-md-3">
 
-<ul class="left2">
+<div class="banner">
+  <div class="line">
+    <span><a href="/postupayushchim">Поступающим</a></span>
+  </div>
+  <div class="line">
+    <span><a href="/students">Учащимся</a></span>
+  </div>
+  <div class="line">
+    <span><a href="/raspisanie">Расписание</a></span>
+  </div>
+  <div class="line">
+    <span><a href="/dop-uslugi">Доп. услуги</a></span>
+  </div>
+</div>
+
+
+
+<!-- <ul class="left2">
+        <li><a href="/postupayushchim">Поступающим</a></li>
+    <li><a href="/students">Учащимся</a></li>
     <li><a href="/raspisanie">Расписание</a></li>
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги</a></li>
-    <li><a href="/students">Учащимся</a></li>
-    <li><a href="/postupayushchim">Поступающим</a></li>
     
   
-</ul>
+</ul> -->
 </div>
 
 <div class="col-md-9 col-sm-12">

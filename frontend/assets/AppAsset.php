@@ -21,6 +21,9 @@ class AppAsset extends AssetBundle
         'assets/css/allanim.css',
         'assets/css/left.css',
         'assets/css/left-a.css',
+        'assets/css/left-3.css',
+        'assets/css/left-4-1.css',
+        'assets/css/good-left.css',
 
 
 

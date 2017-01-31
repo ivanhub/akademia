@@ -1,0 +1,1054 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="csrf-param" content="_csrf-frontend">
+    <meta name="csrf-token" content="cnBVNlJ1M24QHQd1IjRrND4CHH4zTHlXP0kcYxglQRkZRiVTChRcHQ==">
+    <title>Дистанционное обучение</title>
+    <link href="/assets/b70609cf/css/bootstrap.css?v=1484553548" rel="stylesheet">
+<link href="/assets/css/bootstrap.css?v=1485759909" rel="stylesheet">
+<link href="/assets/css/custom.css?v=1485775246" rel="stylesheet">
+<link href="/assets/css/custom1.css?v=1485750347" rel="stylesheet">
+<link href="/assets/css/custom26.css?v=1485838986" rel="stylesheet">
+<link href="/assets/css/boxes2.css?v=1485776095" rel="stylesheet">
+<link href="/assets/css/allanim.css?v=1485444552" rel="stylesheet">
+<link href="/assets/css/left.css?v=1485840584" rel="stylesheet">
+<link href="/assets/css/left-a.css?v=1485840979" rel="stylesheet">
+<link href="/assets/css/left-3.css?v=1485847178" rel="stylesheet">
+<link href="/assets/css/left-4-1.css?v=1485851513" rel="stylesheet">
+<link href="/assets/css/good-left.css?v=1485850279" rel="stylesheet">
+
+
+</head>
+
+<body id="distance" >
+
+
+
+<div class="page">
+
+ 
+
+
+
+
+
+<header class="page-header">
+
+
+
+<div class="navbar-panel-inner container">
+<div class="header-top row ">
+
+
+<div class="col-sm-3 col-xs-3 forlogo" >
+
+
+<div class="logo-akademia hvr-up animated fadeIn" ></div><!-- <img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->
+</div>
+<div class="col-md-3 col-sm-4 col-xs-5">
+
+<img class="logotop anilogo fadeIn" src="../images/rosauto3.png" width="540px">
+<!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>
+ <p class="logotextbottom">Обучение всем видам вождения! </p> -->
+</div>
+<div class="col-lg-offset-4 col-lg-3 col-md-offset-2 col-md-4 col-sm-5 text-right rightblock"><p class="phone">+7 (846) 255-69-99</p>
+<p class="take"><a href class="hvr-wobble-horizontal">Запись ОН-ЛАЙН</a></p>
+</div>
+
+</div>
+
+
+<!-- will move to footer <div class="rd-navbar-panel-inner-right toggle-original-elements">
+<a href="#" class="icon icon-xxs icon-circle icon-gray-lighter fa fa-vk"></a>
+</div>
+</div> -->
+
+<div class="wrap  animated fadeIn" data-spy="affix" data-offset-top="100">
+<div class="logo46"></div>
+    <nav id="w0" class="navbar navbar-default navshadow skew-menu centering" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right interface nav"><li><a href="/">Главная</a></li>
+<li><a href="/distance">Дистанционное обучение</a></li>
+<li><a href="/">Галерея</a></li>
+<li><a href="/contact">Контакты</a></li></ul></div></div></nav></div>
+</div>
+
+
+</header>
+    <div class="container">
+        <ul class="breadcrumb"><li><a href="/">Главная</a></li>
+<li class="active">Дистанционное обучение</li>
+</ul>                
+
+<!-- 
+<div class="" id="full-widthid">
+<div class="container-fluid mainblock text-center contacts">
+  <div class="text-center contacts">  <div class="row">
+  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6  box1  cl-effect-12">
+  <img class="hvr-grow1" src="../images/new_car.png" width="180px">
+  <p class="blocktitlec anim_one  hvr-bob1 ">Автомотошкола</p>
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6  box2 cl-effect-12">
+  <img class="hvr-grow1" src="../images/two.png" width="150px" style="margin-top: 0;">
+  <p class="blocktitlec anim_two  hvr-bob1">Самоходная техника</p>
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6 box3  cl-effect-12">
+  <img class="hvr-grow1" src="../images/boat_t2.png" width="160px">
+  <p class="blocktitlec anim_three hvr-bob1">Судовождение</p>
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6 box4  cl-effect-12">
+  <img class="hvr-grow1" src="../images/new_car.png" width="180px" style="margin-top: 0;">
+  <p class="blocktitlec anim_four hvr-bob1">Защитное вождение</p>
+  </div>
+  </div> 
+  </div></div></div>
+ -->
+
+<!-- Дистанционное обучение --> <br/>    <br/>
+<div class="site-distance container siteblock">
+   
+<h1>Дистанционное обучение</h1>
+
+<p>С развитием интернет технологий, появилась возможность онлайн тренировок и, безусловно, интернет обучение стоит дешевле, а эффективность обучения от этого не снижается. Существенное преимущество дистанционных занятий - это возможность обучения в любое время и в любом месте. </p>
+<p>Можно выбрать и комбинированный вариант, включающий дистанционное обучения и живое общение с преподавателем в лекционном зале. Таким образом система удаленных лекций и традиционные методы преподавания будут гармонично дополнять друг друга.</p>
+<p>При отсутствии свободного времени, любой желающий,  в нашей автошколе может пройти дистанционное обучение, обязательно сообщив об этом при записи на обучение и указав адрес своей электронной почты. </p>
+<p>При  прохождении дистанционного обучение действует скидка на теоретический курс. </p>
+<p>Практический курс обучения вождению у Вас ничем не будет отличаться от того, который проходят обучающиеся в обычных группах. Прийти в учебный класс все же придется для сдачи промежуточных зачетов и выпускного экзамена. </p>
+   
+
+
+</div>
+
+    </div>
+
+
+<footer class="page-footer bg-gray-lighter">
+
+<div class="container foot1">
+<div class="row">
+<div class="col-md-1 col-xs-2"></div>
+
+<div class="col-md-2 col-xs-5">
+ <p><a href="/automotoschool">Автомотошкола</a></p>   
+ <p><a href="/raspisanie">Расписание</a></p>
+  <p><a href="/">Условия обучения</a></p>
+ <p><a href="/postupayushchim">Поступающим</a></p>
+ <p><a href="/students">Учащимся</a></p>
+ <p><a href="/dop-uslugi">Дополнительные услуги</a></p>
+ </div>
+ <div class="col-md-2 col-xs-5">
+ <p><a href="">Самоходная техника</a></p>   
+ <p>Расписание</p>
+  <p>Условия обучения</p>
+ <p>Поступающим</p>
+ <p>Учащимся</p>
+ <p>Дополнительные услуги</p>
+</div>
+  <div class="clearfix visible-sm"></div>
+  <div class="col-xs-2 visible-sm visible-xs"></div>
+<div class="col-md-2 col-xs-5 col3">
+<p><a href="ind">Судовождение</a></p>   
+ <p><a href="ind">Расписание</a></p>
+  <p>Условия обучения</p>
+ <p>Поступающим</p>
+ <p>Учащимся</p>
+ <p>Дополнительные услуги</p>
+</div>
+<div class="col-md-2 col-xs-5 col4">
+<p><a href="/safety-driving">Защитное вождение</a></p>   
+ <p>Расписание</p>
+  <p>Условия обучения</p>
+ <p>Поступающим</p>
+ <p>Учащимся</p>
+ <p>Дополнительные услуги</p>
+</div>
+<div class="col-md-3 col-xs-12 my"><BR/>
+<p>Запись на занятия</p><BR/>
+<p>Мы Вконтакте</p><BR/>
+
+<p></p>
+<p></p>
+
+</div>
+</div>
+</div>
+<div class="shell container">
+<div class="row">
+<div class="rangelogo range-xs-center range-xs-middle">
+<img class="minilogo" src="../images/minlogo.png" align="left">
+<p class="pull-left">&nbsp; Copyright &copy; <span id="copyright-year">2017 АНО ДПО "Академия"</span>
+ <a href="privacy-policy-link.html" class="link-decoration-none text-hover-primary text-gray-light">
+ </a></p>
+</div>
+
+</div>
+
+</div>
+</footer>
+
+
+<!-- Copyright © 2017 АНО НПО “Академия”
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left"> My Company </p>
+
+        <p class="pull-right"></p>
+    </div>
+</footer> -->
+</div>
+<div id="yii-debug-toolbar" data-url="/debug/default/toolbar?tag=58904c3e36c67" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
+#yii-debug-toolbar-logo {
+    position: fixed;
+    right: 31px;
+    bottom: 4px;
+}
+
+.yii-debug-toolbar {
+    font: 11px Verdana, Arial, sans-serif;
+    text-align: left;
+    width: 96px;
+    transition: width .3s ease;
+    z-index: 1000000;
+}
+
+.yii-debug-toolbar_active {
+    width: 100%;
+}
+
+.yii-debug-toolbar_position_top {
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+
+.yii-debug-toolbar_position_bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.yii-debug-toolbar__bar {
+    position: relative;
+    padding: 0;
+    font: 11px Verdana, Arial, sans-serif;
+    text-align: left;
+    overflow: hidden;
+    box-sizing: content-box;
+
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(247, 247, 247) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(247, 247, 247) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(247, 247, 247) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f7f7f7', GradientType=0); /* IE6-9 */
+
+    border: 1px solid rgba(0, 0, 0, 0.11);
+
+    /* ensure debug toolbar text is displayed ltr even on rtl pages */
+    direction: ltr;
+}
+
+.yii-debug-toolbar.yii-debug-toolbar_active:not(.yii-debug-toolbar_animating) .yii-debug-toolbar__bar {
+    overflow: visible;
+}
+.yii-debug-toolbar:not(.yii-debug-toolbar_active) .yii-debug-toolbar__bar {
+    height:40px;
+}
+
+.yii-debug-toolbar__bar:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.yii-debug-toolbar__view {
+    height: 0;
+    overflow: hidden;
+    background: white;
+}
+
+.yii-debug-toolbar__view iframe {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.yii-debug-toolbar_iframe_active .yii-debug-toolbar__view {
+    height: 100%;
+}
+
+.yii-debug-toolbar_iframe_animating .yii-debug-toolbar__view {
+    transition: height .3s ease;
+}
+
+.yii-debug-toolbar__block {
+    float: left;
+    margin: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.11);
+    padding: 4px 8px;
+    line-height: 32px;
+    white-space: nowrap;
+}
+
+.yii-debug-toolbar__block_active,
+.yii-debug-toolbar__ajax:hover {
+    background: rgb(247, 247, 247); /* Old browsers */
+    background: -moz-linear-gradient(top, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#e0e0e0', GradientType=0); /* IE6-9 */
+}
+
+.yii-debug-toolbar__block a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.yii-debug-toolbar__block img {
+    vertical-align: middle;
+}
+
+.yii-debug-toolbar__label {
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    white-space: nowrap;
+    vertical-align: baseline;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #999999;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+
+.yii-debug-toolbar__label:empty {
+    display: none;
+}
+
+a.yii-debug-toolbar__label:hover,
+a.yii-debug-toolbar__label:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.yii-debug-toolbar__label_important,
+.yii-debug-toolbar__label_error {
+    background-color: #b94a48;
+}
+
+.yii-debug-toolbar__label_important[href] {
+    background-color: #953b39;
+}
+
+.yii-debug-toolbar__label_warning,
+.yii-debug-toolbar__badge_warning {
+    background-color: #f89406;
+}
+
+.yii-debug-toolbar__label_warning[href] {
+    background-color: #c67605;
+}
+
+.yii-debug-toolbar__label_success {
+    background-color: #468847;
+}
+
+.yii-debug-toolbar__label_success[href] {
+    background-color: #356635;
+}
+
+.yii-debug-toolbar__label_info {
+    background-color: #3a87ad;
+}
+
+.yii-debug-toolbar__label_info[href] {
+    background-color: #2d6987;
+}
+
+.yii-debug-toolbar__label_inverse,
+.yii-debug-toolbar__badge_inverse {
+    background-color: #333333;
+}
+
+.yii-debug-toolbar__label_inverse[href],
+.yii-debug-toolbar__badge_inverse[href] {
+    background-color: #1a1a1a;
+}
+
+.yii-debug-toolbar__title {
+    background: rgb(247, 247, 247); /* Old browsers */
+    background: -moz-linear-gradient(top, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#e0e0e0', GradientType=0); /* IE6-9 */
+}
+
+.yii-debug-toolbar__block_last{ /* creates space for .yii-debug-toolbar__toggle, .yii-debug-toolbar__external */
+    width: 80px;
+    height: 40px;
+    float: left;
+}
+
+.yii-debug-toolbar__toggle,
+.yii-debug-toolbar__external {
+    cursor: pointer;
+    position: absolute;
+
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center;
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+    transition: opacity .3s ease;
+}
+
+.yii-debug-toolbar__toggle:hover,
+.yii-debug-toolbar__toggle:focus,
+.yii-debug-toolbar__external:hover,
+.yii-debug-toolbar__external:focus {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.yii-debug-toolbar__toggle-icon,
+.yii-debug-toolbar__external-icon {
+    display: inline-block;
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.yii-debug-toolbar__toggle {
+    right: 10px;
+    bottom: 4px;
+}
+
+.yii-debug-toolbar__toggle-icon {
+    padding: 7px 0;
+    width: 10px;
+    height: 16px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDUwIDUwIj48cGF0aCBmaWxsPSIjNDQ0IiBkPSJNMTUuNTYzIDQwLjgzNmEuOTk3Ljk5NyAwIDAgMCAxLjQxNCAwbDE1LTE1YTEgMSAwIDAgMCAwLTEuNDE0bC0xNS0xNWExIDEgMCAwIDAtMS40MTQgMS40MTRMMjkuODU2IDI1LjEzIDE1LjU2MyAzOS40MmExIDEgMCAwIDAgMCAxLjQxNHoiLz48L3N2Zz4=');
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.yii-debug-toolbar_active .yii-debug-toolbar__toggle-icon {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.yii-debug-toolbar_iframe_active .yii-debug-toolbar__toggle-icon {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.yii-debug-toolbar__external {
+    display: none;
+    right: 50px;
+    bottom: 4px;
+}
+
+.yii-debug-toolbar_iframe_active .yii-debug-toolbar__external {
+    display: block;
+}
+
+.yii-debug-toolbar__external-icon {
+    padding: 8px 0;
+    width: 14px;
+    height: 14px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDUwIDUwIj48cGF0aCBmaWxsPSIjNDQ0IiBkPSJNMzkuNjQyIDkuNzIyYTEuMDEgMS4wMSAwIDAgMC0uMzgyLS4wNzdIMjguMTAzYTEgMSAwIDAgMCAwIDJoOC43NDNMMjEuNyAyNi43OWExIDEgMCAwIDAgMS40MTQgMS40MTVMMzguMjYgMTMuMDZ2OC43NDNhMSAxIDAgMCAwIDIgMFYxMC42NDZhMS4wMDUgMS4wMDUgMCAwIDAtLjYxOC0uOTI0eiIvPjxwYXRoIGQ9Ik0zOS4yNiAyNy45ODVhMSAxIDAgMCAwLTEgMXYxMC42NmgtMjh2LTI4aDEwLjY4M2ExIDEgMCAwIDAgMC0ySDkuMjZhMSAxIDAgMCAwLTEgMXYzMGExIDEgMCAwIDAgMSAxaDMwYTEgMSAwIDAgMCAxLTF2LTExLjY2YTEgMSAwIDAgMC0xLTF6Ii8+PC9zdmc+');
+}
+
+.yii-debug-toolbar__ajax {
+    position: relative;
+}
+
+.yii-debug-toolbar__ajax:hover .yii-debug-toolbar__ajax_info,
+.yii-debug-toolbar__ajax:focus .yii-debug-toolbar__ajax_info {
+    visibility: visible;
+}
+.yii-debug-toolbar__ajax_info {
+    visibility: hidden;
+    transition: visibility .2s linear;
+    background-color: white;
+    box-shadow: inset 0 -10px 10px -10px #e1e1e1;
+    position: absolute;
+    bottom: 40px;
+    left: -1px;
+    padding: 10px;
+    max-width: 480px;
+    max-height: 480px;
+    word-wrap: break-word;
+    overflow: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    z-index: 1000001;
+}
+.yii-debug-toolbar__ajax a {
+    color: #337ab7;
+}
+.yii-debug-toolbar__ajax table {
+    width: 100%;
+    table-layout: auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.yii-debug-toolbar__ajax table td {
+    padding: 4px;
+    font-size: 12px;
+    line-height: normal;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.yii-debug-toolbar__ajax table th {
+    padding: 4px;
+    font-size: 11px;
+    line-height: normal;
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.yii-debug-toolbar__ajax_request_status {
+    color: white;
+    padding: 2px 5px;
+}
+.yii-debug-toolbar__ajax_request_url {
+    max-width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}</style><script>(function () {
+    'use strict';
+
+    var findToolbar = function () {
+            return document.querySelector('#yii-debug-toolbar');
+        },
+        ajax = function (url, settings) {
+            var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+            settings = settings || {};
+            xhr.open(settings.method || 'GET', url, true);
+            xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+            xhr.setRequestHeader('Accept', 'text/html');
+            xhr.onreadystatechange = function (state) {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200 && settings.success) {
+                        settings.success(xhr);
+                    } else if (xhr.status != 200 && settings.error) {
+                        settings.error(xhr);
+                    }
+                }
+            };
+            xhr.send(settings.data || '');
+        },
+        url,
+        div,
+        toolbarEl = findToolbar(),
+        toolbarAnimatingClass = 'yii-debug-toolbar_animating',
+        barSelector = '.yii-debug-toolbar__bar',
+        viewSelector = '.yii-debug-toolbar__view',
+        blockSelector = '.yii-debug-toolbar__block',
+        toggleSelector = '.yii-debug-toolbar__toggle',
+        externalSelector = '.yii-debug-toolbar__external',
+
+        CACHE_KEY = 'yii-debug-toolbar',
+        ACTIVE_STATE = 'active',
+
+        animationTime = 300,
+
+        activeClass = 'yii-debug-toolbar_active',
+        iframeActiveClass = 'yii-debug-toolbar_iframe_active',
+        iframeAnimatingClass = 'yii-debug-toolbar_iframe_animating',
+        titleClass = 'yii-debug-toolbar__title',
+        blockClass = 'yii-debug-toolbar__block',
+        blockActiveClass = 'yii-debug-toolbar__block_active',
+        requestStack = [];
+
+    if (toolbarEl) {
+        url = toolbarEl.getAttribute('data-url');
+
+        ajax(url, {
+            success: function (xhr) {
+                div = document.createElement('div');
+                div.innerHTML = xhr.responseText;
+
+                toolbarEl.parentNode && toolbarEl.parentNode.replaceChild(div, toolbarEl);
+
+                showToolbar(findToolbar());
+            },
+            error: function (xhr) {
+                toolbarEl.innerHTML = xhr.responseText;
+            }
+        });
+    }
+
+    function showToolbar(toolbarEl) {
+        var barEl = toolbarEl.querySelector(barSelector),
+            viewEl = toolbarEl.querySelector(viewSelector),
+            toggleEl = toolbarEl.querySelector(toggleSelector),
+            externalEl = toolbarEl.querySelector(externalSelector),
+            blockEls = barEl.querySelectorAll(blockSelector),
+            iframeEl = viewEl.querySelector('iframe'),
+            iframeHeight = function () {
+                return (window.innerHeight * 0.7) + 'px';
+            },
+            isIframeActive = function () {
+                return toolbarEl.classList.contains(iframeActiveClass);
+            },
+            showIframe = function (href) {
+                toolbarEl.classList.add(iframeAnimatingClass);
+                toolbarEl.classList.add(iframeActiveClass);
+
+                iframeEl.src = externalEl.href = href;
+                viewEl.style.height = iframeHeight();
+                setTimeout(function() {
+                    toolbarEl.classList.remove(iframeAnimatingClass);
+                }, animationTime);
+            },
+            hideIframe = function () {
+                toolbarEl.classList.add(iframeAnimatingClass);
+                toolbarEl.classList.remove(iframeActiveClass);
+                removeActiveBlocksCls();
+
+                externalEl.href = '#';
+                viewEl.style.height = '';
+                setTimeout(function() {
+                    toolbarEl.classList.remove(iframeAnimatingClass);
+                }, animationTime);
+            },
+            removeActiveBlocksCls = function () {
+                [].forEach.call(blockEls, function (el) {
+                    el.classList.remove(blockActiveClass);
+                });
+            },
+            toggleToolbarClass = function (className) {
+                toolbarEl.classList.add(toolbarAnimatingClass);
+                if (toolbarEl.classList.contains(className)) {
+                    toolbarEl.classList.remove(className);
+                } else {
+                    toolbarEl.classList.add(className);
+                }
+                setTimeout(function () {
+                    toolbarEl.classList.remove(toolbarAnimatingClass);
+                }, animationTime);
+            },
+            toggleStorageState = function (key, value) {
+                if (window.localStorage) {
+                    var item = localStorage.getItem(key);
+
+                    if (item) {
+                        localStorage.removeItem(key);
+                    } else {
+                        localStorage.setItem(key, value);
+                    }
+                }
+            },
+            restoreStorageState = function (key) {
+                if (window.localStorage) {
+                    return localStorage.getItem(key);
+                }
+            },
+            togglePosition = function () {
+                if (isIframeActive()) {
+                    hideIframe();
+                } else {
+                    toggleToolbarClass(activeClass);
+                    toggleStorageState(CACHE_KEY, ACTIVE_STATE);
+                }
+            };
+
+        toolbarEl.style.display = 'block';
+
+        if (restoreStorageState(CACHE_KEY) == ACTIVE_STATE) {
+            toolbarEl.classList.add(activeClass);
+        }
+
+        window.onresize = function () {
+            if (toolbarEl.classList.contains(iframeActiveClass)) {
+                viewEl.style.height = iframeHeight();
+            }
+        };
+
+        barEl.onclick = function (e) {
+            var target = e.target,
+                block = findAncestor(target, blockClass);
+
+            if (block && !block.classList.contains(titleClass)
+                && e.which !== 2 && !e.ctrlKey // not mouse wheel and not ctrl+click
+            ) {
+                while (target !== this) {
+                    if (target.href) {
+                        removeActiveBlocksCls();
+                        block.classList.add(blockActiveClass);
+                        showIframe(target.href);
+                    }
+                    target = target.parentNode;
+                }
+
+                e.preventDefault();
+            }
+        };
+
+        toggleEl.onclick = togglePosition;
+    }
+
+    function findAncestor(el, cls) {
+        while ((el = el.parentElement) && !el.classList.contains(cls));
+        return el;
+    }
+
+    function renderAjaxRequests() {
+        var requestCounter = document.getElementsByClassName('yii-debug-toolbar__ajax_counter');
+        if (!requestCounter.length) {
+            return;
+        }
+        var ajaxToolbarPanel = document.querySelector('.yii-debug-toolbar__ajax');
+        var tbodies = document.getElementsByClassName('yii-debug-toolbar__ajax_requests');
+        var state = 'ok';
+        if (tbodies.length) {
+            var tbody = tbodies[0];
+            var rows = document.createDocumentFragment();
+            if (requestStack.length) {
+                var firstItem = requestStack.length > 20 ? requestStack.length - 20 : 0;
+                for (var i = firstItem; i < requestStack.length; i++) {
+                    var request = requestStack[i];
+                    var row = document.createElement('tr');
+                    rows.appendChild(row);
+
+                    var methodCell = document.createElement('td');
+                    methodCell.innerHTML = request.method;
+                    row.appendChild(methodCell);
+
+                    var statusCodeCell = document.createElement('td');
+                    var statusCode = document.createElement('span');
+                    if (request.statusCode < 300) {
+                        statusCode.setAttribute('class', 'yii-debug-toolbar__ajax_request_status yii-debug-toolbar__label_success');
+                    } else if (request.statusCode < 400) {
+                        statusCode.setAttribute('class', 'yii-debug-toolbar__ajax_request_status yii-debug-toolbar__label_warning');
+                    } else {
+                        statusCode.setAttribute('class', 'yii-debug-toolbar__ajax_request_status yii-debug-toolbar__label_error');
+                    }
+                    statusCode.textContent = request.statusCode || '-';
+                    statusCodeCell.appendChild(statusCode);
+                    row.appendChild(statusCodeCell);
+
+                    var pathCell = document.createElement('td');
+                    pathCell.className = 'yii-debug-toolbar__ajax_request_url';
+                    pathCell.innerHTML = request.url;
+                    pathCell.setAttribute('title', request.url);
+                    row.appendChild(pathCell);
+
+                    var durationCell = document.createElement('td');
+                    durationCell.className = 'yii-debug-toolbar__ajax_request_duration';
+                    if (request.duration) {
+                        durationCell.innerText = request.duration + " ms";
+                    } else {
+                        durationCell.innerText = '-';
+                    }
+                    row.appendChild(durationCell);
+                    row.appendChild(document.createTextNode(' '));
+
+                    var profilerCell = document.createElement('td');
+                    if (request.profilerUrl) {
+                        var profilerLink = document.createElement('a');
+                        profilerLink.setAttribute('href', request.profilerUrl);
+                        profilerLink.innerText = request.profile;
+                        profilerCell.appendChild(profilerLink);
+                    } else {
+                        profilerCell.innerText = 'n/a';
+                    }
+                    row.appendChild(profilerCell);
+
+                    if (request.error) {
+                        if (state !== "loading" && i > requestStack.length - 4) {
+                            state = 'error';
+                        }
+                    } else if (request.loading) {
+                        state = 'loading'
+                    }
+                    row.className = 'yii-debug-toolbar__ajax_request';
+                }
+                while (tbody.firstChild) {
+                    tbody.removeChild(tbody.firstChild);
+                }
+                tbody.appendChild(rows);
+            }
+            ajaxToolbarPanel.style.display = 'block';
+        }
+        requestCounter[0].innerText = requestStack.length;
+        var className = 'yii-debug-toolbar__label yii-debug-toolbar__ajax_counter';
+        if (state == 'ok') {
+            className += ' yii-debug-toolbar__label_success';
+        } else if (state == 'error') {
+            className += ' yii-debug-toolbar__label_error';
+        }
+        requestCounter[0].className = className;
+    };
+
+    var proxied = XMLHttpRequest.prototype.open;
+
+    XMLHttpRequest.prototype.open = function (method, url, async, user, pass) {
+        var self = this;
+        /* prevent logging AJAX calls to static and inline files, like templates */
+        if (url.substr(0, 1) === '/' && !url.match(new RegExp("{{ excluded_ajax_paths }}"))) {
+            var stackElement = {
+                loading: true,
+                error: false,
+                url: url,
+                method: method,
+                start: new Date()
+            };
+            requestStack.push(stackElement);
+            this.addEventListener("readystatechange", function () {
+                if (self.readyState == 4) {
+                    stackElement.duration = self.getResponseHeader("X-Debug-Duration") || new Date() - stackElement.start;
+                    stackElement.loading = false;
+                    stackElement.statusCode = self.status;
+                    stackElement.error = self.status < 200 || self.status >= 400;
+                    stackElement.profile = self.getResponseHeader("X-Debug-Tag");
+                    stackElement.profilerUrl = self.getResponseHeader("X-Debug-Link");
+                    renderAjaxRequests();
+                }
+            }, false);
+            renderAjaxRequests();
+        }
+        proxied.apply(this, Array.prototype.slice.call(arguments));
+    };
+
+})();</script><script src="/assets/d1b967ce/jquery.js?v=1484553548"></script>
+<script src="/assets/b70609cf/js/bootstrap.js?v=1484553548"></script>
+<script src="/assets/js/cssrefresh.js?v=1485238909"></script><!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+ -->
+<script type="text/javascript">
+
+
+window.onload = function() {
+
+
+
+  
+
+
+
+
+/*
+window.resize(function(){
+    if(screen.width >= 3099){
+
+img.setAttribute("align", "right");
+        //do something
+    }
+});
+*/
+
+
+////var img = document.getElementsByTagName("img");
+////go();
+////window.addEventListener('resize', go);
+
+////function go(){
+////    if (document.documentElement.clientWidth >=3099)  {
+
+////img[0].setAttribute("align", "right");
+////img[1].setAttribute("align", "left");
+////img[2].setAttribute("align", "right");
+////img[3].setAttribute("align", "left");
+////    }
+////}
+
+
+//var links = document.querySelectorAll('ul li');
+//var i=1;
+//[].forEach.call(links, function(item) {
+//      item.classList.add('lightSpeedIn', 'animated'+i);
+//    i++;
+//});
+
+//document.getElementById('w1')    .classList.add('lightSpeedIn', 'animated1');
+
+ //setTimeout(function(){
+//document.getElementById('w1').classList.remove('animated1', 'lightSpeedIn');
+    //}, 1100);
+
+//document.getElementById('w1')    .classList.add('lightSpeedIn', 'animated1');
+
+var mainblok = document.querySelectorAll(".cl-effect-12");
+var j=1;
+[].forEach.call(mainblok, function(item) {
+      item.classList.add('box' + j );
+
+    j++;
+});
+
+
+ var items = document.querySelectorAll("#w0-collapse ul li");
+ var lastchild = items[items.length-1];
+  lastchild.classList.add('last');
+
+  document    .getElementsByTagName("ul")[0] .getElementsByTagName("li")[0]
+    .classList.add('first');
+
+
+var links = document.querySelectorAll('#w0-collapse ul li');
+var i=1;
+[].forEach.call(links, function(item) {
+      item.classList.add('fadeInUp1');
+      item.classList.add('animated' + i );
+
+    i++;
+});
+
+
+var blocks = document.querySelectorAll(".blocktitle");
+
+//document.getElementById('w1').classList.remove('animated1', 'lightSpeedIn');
+ setTimeout(function(){
+ var i=1;
+[].forEach.call(blocks, function(item) {
+      item.classList.add('bounceInLeft');
+    i++;
+});
+    }, 600);
+
+//sec var
+ /*setTimeout(function(){
+for (i = 0; i < blocks.length; i++) {
+    blocks[0].classList.add('bounceInLeft');
+}
+    }, 1500);
+*/
+
+ setTimeout(function(){
+ var i=1; var blocktitles = document.getElementsByClassName("blocktitle");
+
+[].forEach.call(blocks, function(item) { item.classList.remove('bounceInLeft'); });
+for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
+
+    }, 1600);
+
+
+
+
+/* RESIZE
+window.addEventListener("resize", function () {
+  var recResizeElement = function (root) {
+    Array.prototype.forEach.call(root.childNodes, function (el) {
+
+      var resizeEvent = document.createEvent("HTMLEvents");
+      resizeEvent.initEvent("resize", false, true);
+      var propagate = el.dispatchEvent(resizeEvent);
+
+      if (propagate)
+        recResizeElement(el);
+    });
+  };
+  recResizeElement(document.body);
+});
+*/
+
+
+//var links = document.querySelectorAll('ul li');
+//var i=1;
+//[].forEach.call(links, function(item) {
+      //item.classList.add('lightSpeedIn', 'animated'+i);
+    //i++;
+//});
+
+//var x = document.getElementsByClassName("blocktitle");
+
+// setTimeout(function(){
+//for (i = 0; i < x.length; i++) {
+    //x[i].style.display = "inherit";
+//}
+    //}, 3000);
+
+
+
+function handleClick()
+{
+
+document.getElementById("full-widthid").style.marginTop = "220px";
+
+}
+
+document.getElementsByTagName('button')[0].onclick=handleClick;
+
+
+};
+
+
+</script>
+<!-- 
+<script type="text/javascript">
+        ymaps.ready(init); 
+        var myMap; 
+        function init () { 
+            var myMap = new ymaps.Map("map2", { 
+                    center: [53.182762,50.093797],
+                    behaviors: ['default', 'scrollZoom'], 
+                    zoom: 17, 
+      type: "yandex#publicMap"
+                });
+            myMap.controls 
+            .add('zoomControl', { left: 5, top: 5 }) 
+            .add('typeSelector')
+            .add('mapTools', { left: 35, top: 5 }); 
+         //                    controls: ['zoomControl', 'searchControl','[typeSelector]','[mapTools]'],
+
+              
+          myPlacemark1 = new ymaps.Placemark([53.182762,50.093797], {
+                  balloonContent: '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="/images/map/logo2.png" class="ll"/><p style="margin:3px 0px;">443099, г. Самара, <br>ул. Молодогвардейская 33, <br>оф. 232, тел.: (846) 205-77-66</p><img class="close" onclick="myMap.balloon.close()" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="/images/map/close.png"/></div>'
+                }, {
+                iconLayout: 'default#image',
+                iconImageHref: '/images/map/icon22.png',
+                iconImageSize: [64, 64],
+                iconImageOffset: [-32, -64],
+                  balloonContentSize: [270, 99],
+                  balloonLayout: "default#imageWithContent",
+                  balloonImageHref: '/images/map/ballon222.png',
+                  balloonImageOffset: [-70, -100],
+                  balloonImageSize: [260, 106],
+                  balloonShadow: false,
+                  balloonAutoPan: false
+                  });
+          
+          myMap.geoObjects.add(myPlacemark1);
+
+         
+      myMap.geoObjects.events.add([
+            'balloonopen'
+        ], function (e) {
+            var geoObject = e.get('target');
+            myMap.panTo(geoObject.geometry.getCoordinates(), {
+                                        delay: 0
+                                    });
+        });
+
+    myPlacemark1.balloon.open();
+    }
+  </script> -->
+
+
+
+</body>
+</html>

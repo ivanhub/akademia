@@ -33,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="wrapcube">
   <div class="cube" id="a">
-  <div class="side front"><p>Поступающим</p></div>
+  <div class="side front"><p><a style="color:#fff;" href="/postupayushchim">Поступающим</a></p></div>
     <div class="side left"></div>
     <div class="side right"></div>
     <div class="side back"></div>
@@ -41,7 +41,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="side bottom"></div>
   </div>
   <div class="cube" id="b">
-    <div class="side front"><p>Учащимся</p></div>
+    <div class="side front"><p><a style="color:#fff;" href="/students">Учащимся</a></p></div>
     <div class="side left"></div>
     <div class="side right"></div>
     <div class="side back"></div>
@@ -49,7 +49,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="side bottom"></div>
   </div>
   <div class="cube" id="c">
-    <div class="side front"><p>Расписание</p></div>
+    <div class="side front"><p><a style="color:#fff;" href="/raspisanie">Расписание</a></p></div>
     <div class="side left"></div>
     <div class="side right"></div>
     <div class="side back"></div>
@@ -57,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="side bottom"></div>
   </div>
   <div class="cube" id="d">
-    <div class="side front"><p>Доп. услуги</p></div>
+    <div class="side front"><p><a style="color:#fff;" href="/dop-uslugi">Доп. услуги</a></p></div>
     <div class="side left"></div>
     <div class="side right"></div>
     <div class="side back"></div>
