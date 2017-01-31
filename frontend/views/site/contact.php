@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <!-- <?= Html::encode($this->title) ?> --> <br/>    <br/>
-<div class="site-contact container">
+<div class="site-contact container siteblock">
    
     <div class="row">
     <div class="col-md-6 col-sm-6 cont">

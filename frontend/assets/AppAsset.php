@@ -20,6 +20,8 @@ class AppAsset extends AssetBundle
         'assets/css/boxes2.css',
         'assets/css/allanim.css',
         'assets/css/left.css',
+        'assets/css/left-a.css',
+
 
 
 

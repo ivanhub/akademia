@@ -19,13 +19,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <!-- <?= Html::encode($this->title) ?> --> <br/>    <br/>
-<div class="site-automotoschool container">
+<div class="site-automotoschool container siteblock">
    
 
  <div class="row">
 <div class="col-sm-12 col-md-3">
 
-<ul class="left">
+<ul class="left2">
     <li><a href="/raspisanie">Расписание</a></li>
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги</a></li>
     <li><a href="/students">Учащимся</a></li>

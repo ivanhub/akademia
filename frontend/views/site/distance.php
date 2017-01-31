@@ -39,7 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
  -->
 
 <!-- <?= Html::encode($this->title) ?> --> <br/>    <br/>
-<div class="site-distance container">
+<div class="site-distance container siteblock">
    
 <h1>Дистанционное обучение</h1>
 

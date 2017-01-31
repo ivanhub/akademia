@@ -26,13 +26,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <!-- <?= Html::encode($this->title) ?> --> <br/>    <br/>
-<div class="site-raspisanie l-menu container">
+<div class="site-raspisanie siteblock container">
    
 
  <div class="row">
-<div class="col-sm-12 col-md-3">
+<div class="col-sm-12 col-md-3 link-menu l-menu">
 
-<ul class="left">
+<ul class="left2">
     <li><a href="#">Расписание &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
     <li><a href="/students">Учащимся &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
