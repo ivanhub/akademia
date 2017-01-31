@@ -1,8 +1,16 @@
 .menu a { color:darkgreen;     font-family: 'Myriadprocond', serif; font-size:20px}
 
-.menuItem:hover >  span a{color:#f3f3f3;}
+#.menuItem:hover >  span a{color:#f3f3f3;}
 
 .menu {
+height: 220px;
+background: url(../../images/note.png) !important;
+    background-repeat: no-repeat;
+    top: 250px;
+padding-top: 39px;
+
+
+
 border-radius: 4px;
   position: fixed;
 /*  height: 100%;*/
@@ -83,3 +91,30 @@ border-radius: 4px;
 .cinco:hover {
  border-left:20px solid #e74c3c;
 }
+
+
+
+ /*
+
+.menuItem {
+    /* border: 1px solid; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 9px;
+    transform: skew(-15deg);
+    width: 140px !important;
+    left: 5px;
+}
+
+
+.menuItem:after {
+    transform: skew(15deg) !important;
+    border-left: 5px solid black !important;
+}
+
+
+.menuItem span a {
+    transform: skew(15deg) !important;
+    display: block;
+} */

@@ -15,6 +15,14 @@
   
 
 
+@font-face {
+  font-family: 'Korina';
+  src: url('../fonts/korin/korin.eot?#iefix') format('embedded-opentype'),  url('../fonts/korin/korin.woff') format('woff'), url('../fonts/korin/korin.ttf')  format('truetype'), url('../fonts/calibri/Calibri.svg#Korina') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 
 /*@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700|Cormorant+SC:600|Cuprum:700|Dosis:700|El+Messiri:700|Fira+Sans+Condensed:500|Fira+Sans+Extra+Condensed:500|Jura:600|Kurale|Marmelad|Open+Sans+Condensed:700|PT+Sans+Narrow:700|Philosopher:700|Play:700|Titillium+Web:600|Ubuntu+Condensed&subset=cyrillic');

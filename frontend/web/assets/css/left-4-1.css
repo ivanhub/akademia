@@ -31,8 +31,8 @@ margin-top:-20% !important;
 	height: 78px;
 	box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
 	text-align: center;
-	text-transform: uppercase;
-	font-size: 2em;
+/*	text-transform: uppercase; 2em*/
+	font-size: 42px;
 	line-height: 78px;
 	transform: skew(0, -15deg);
 }

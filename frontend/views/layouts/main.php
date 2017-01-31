@@ -46,13 +46,16 @@ $action = $controll->action->id;
  <?= $this->render('header') ?>
 
     <div class="container">
+    <!-- <div id="breadcrumb"> -->
         <?= Breadcrumbs::widget([
               'homeLink' => [ 
                       'label' => Yii::t('yii', 'Главная'),
                       'url' => Yii::$app->homeUrl,
                  ],
                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+              /* 'options' => ['class' => 'crumbs'],*/
         ]) ?>
+<!--         </div> -->
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>

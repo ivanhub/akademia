@@ -13,7 +13,7 @@ $this->title = 'Поступающим';
 $this->params['breadcrumbs'][] = [
                                    /* 'template' => "<li><b>{link}</b></li>\n", */
                                     'label' => 'Автомотошкола', 
-                                    'url' => ['/automotoschool'] 
+                                    'url' => ['/automotoschool']
                                  ];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

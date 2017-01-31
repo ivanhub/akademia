@@ -19,6 +19,7 @@ class AppAsset extends AssetBundle
         'assets/css/custom26.css',
         'assets/css/boxes2.css',
         'assets/css/allanim.css',
+        'assets/css/breadcrumb.css',
         'assets/css/left.css',
         'assets/css/left-a.css',
         'assets/css/left-3.css',
