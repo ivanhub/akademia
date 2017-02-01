@@ -1,3 +1,22 @@
+.mtext {text-align:left;  
+
+/*border:1px solid lightgray;
+border-radius:15px;
+background-color:#fcfcfc;*/
+
+margin-top:30px; 
+padding-top:20px;
+padding-bottom:30px; 
+margin-bottom:30px;
+
+text-indent:50px;
+
+    font-family: 'Myriadprocond';
+font-size:25px;
+padding-left:60px; padding-right:60px;
+}
+
+
 .siteblock {
     text-align: justify;
 }

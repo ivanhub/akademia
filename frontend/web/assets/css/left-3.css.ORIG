@@ -4,7 +4,7 @@
 
 .menu {
 height: 220px;
-background: url(../../images/pics/menu-18.png) !important;
+background: url(../../images/pics/1Untitled-1.png) !important;
     background-repeat: no-repeat;
     top: 250px;
 padding-top: 39px;
@@ -44,47 +44,44 @@ border-radius: 4px;
   position: relative;
   padding: 6px;
   transition:border .5s, background .2s;  
-
-margin-left:2px;
 }
 
 .menuItem:hover {
 /*  background: #34495e; */
    background: #bcdcc2;
   cursor: pointer;
-
 }
 
 .uno {
-  border-left:5px solid #7ebc86;
+  border-left:5px solid #16a085;
 }
 
 .uno:hover{
-  border-left:20px solid #7ebc86;
+  border-left:20px solid #16a085;
 }
 
 .dos {
- border-left:5px solid #57a769;
+ border-left:5px solid #2980b9;
 }
 
 .dos:hover {
- border-left:20px solid #57a769;
+ border-left:20px solid #2980b9;
 }
 
 .tres {
-  border-left:5px solid #498a51;
+  border-left:5px solid #8e44ad;
 }
 
 .tres:hover {
-  border-left:20px solid #498a51;
+  border-left:20px solid #8e44ad;
 }
 
 .cuatro {
-  border-left:5px solid #286f39;
+  border-left:5px solid #e67e22;
 }
 
 .cuatro:hover {
-  border-left:20px solid #286f39;
+  border-left:20px solid #e67e22;
 }
 
 .cinco {
