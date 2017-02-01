@@ -1,0 +1,77 @@
+-Свечение блока при hover http://www.nikesh.me/demo/image-hover.html
+hover blocks with shadow http://www.dynamicdrive.com/style/csslibrary/item/css3_hover_image_gallery/
+
+Эффект центральный текст https://www.templatemonster.com/ru/demo/58160.html
+
+БЛОКИ С ЦЕНТРА РАЗЪЕЗЖАЮТСЯ +увеличение https://www.templatemonster.com/ru/demo/61184.html
+
+
+3 blocks hover zoom in - http://tobiasahlin.com/demo/animate-box-shadow/
+
+
+увеличение https://designshack.net/tutorialexamples/HoverEffects/Ex2.html
+
+
+TEXT ON HOVER появляется и снизу остается https://designshack.net/tutorialexamples/HoverEffects/Ex3.html
+
+
+ПОДСВЕТКА  https://designshack.net/tutorialexamples/HoverEffects/Ex5.html
+
+
+
+interesting shadow on boxes http://codepen.io/jcorpus/pen/xbExKL
+
+second counter http://codepen.io/martingrand/pen/pqxtc
+
+с ускорение вращение 360 https://robots.thoughtbot.com/transitions-and-transforms
+skew here
+
+creative link effect
+https://tympanus.net/Development/CreativeLinkEffects/
+
+!!АНИМАШКИ http://www.justinaguilar.com/animations/#
+ПОЯВЛЕНИЕ ОК
+standard animashki: https://daneden.github.io/animate.css/
+
+!!!!!!!!ПОЯВЛЕНИЕ СДЕЛАТЬ http://www.leemunroe.com/animation/animation4.html
+справа немного вращаясь идёт.
+
+from left to right:
+http://stackoverflow.com/questions/16989585/css-3-slide-in-from-left-transition
+http://jsfiddle.net/2vLjU/1/
+
+https://codepen.io/pen/
+
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+BACKGROUND TEST http://codepen.io/iiTzPeanuT/pen/ORwjgZ
+
+
+generated here:
+transition: all 1.2s cubic-bezier(0.14, 0.87, 0.25, 0.74)
+http://www.css3beziercurve.net/
+
+
+3 blocks
+http://jsfiddle.net/57uGQ/
+
+
+FANCY LIST http://codepen.io/mecarter/pen/tplzG
+mobile menu http://jharaphula.com/responsive-horizontal-menu-pure-css/
