@@ -18,27 +18,24 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<!-- <?= Html::encode($this->title) ?> --> <br/>    <br/>
-<div class="site-automotoschool container siteblock">
+<!-- <?= Html::encode($this->title) ?> -->
+
+<div class="site-automotoschool siteblock">
    
 
  <div class="row">
 <div class="col-sm-12 col-md-3">
 
-<div class="banner">
-  <div class="line">
-    <span><a href="/postupayushchim">Поступающим</a></span>
-  </div>
-  <div class="line">
-    <span><a href="/students">Учащимся</a></span>
-  </div>
-  <div class="line">
-    <span><a href="/raspisanie">Расписание</a></span>
-  </div>
-  <div class="line">
-    <span><a href="/dop-uslugi">Доп. услуги</a></span>
-  </div>
-</div>
+
+
+
+<div class="menu">
+  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Поступающим</a></span></div>
+  <div class="menuItem dos"><span><a style="color:;" href="/students">Учащимся</a></span></div>
+  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Расписание</a></span></div>
+  <div class="menuItem cuatro"><span><a href>Доп. услуги</a></span></div>
+ </div>
+
 
 
 
@@ -55,10 +52,14 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-md-9 col-sm-12">
 
 <h1 class="text-center">Автомотошкола</h1>
- 
-<p>На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
+<div class="blockAB" >
+ <p class="text-center"><img src="../../images/pics/A.png" width="350px"><img src="../../images/pics/B.png" width="350px"></p>
+ </div>
+ <br/><br/>
+ <p>На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
 
  <section class="automotoschool">
+
  <h2 class="text-center">Наши основные преимущества</h2>
  <p class="adv">•   Современные учебные транспортные средства</p>
  <p>Парк наших транспортных средств включает в себя достаточное количество современных автомобилей, мотоциклов для обучения вождению. Срок их эксплуатации не превышает 4-х лет, поэтому техническое состояние транспортных средств находится на очень достойном уровне.</p>
@@ -199,4 +200,3 @@ YBR125 ESD
 </div>
 
 </div>
-

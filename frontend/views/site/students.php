@@ -11,7 +11,7 @@ use phpnt\yandexMap\YandexMaps;
 
 $this->title = 'Учащимся';
 $this->params['breadcrumbs'][] = [
-                                  'template' => "<li><b>{link}</b></li>\n", 
+                                  'template' => "<li>{link}</li>\n", 
                                     'label' => 'Автомотошкола', 
                                     'url' => ['/automotoschool'] 
                                  ];

@@ -2,17 +2,22 @@
 
 #.menuItem:hover >  span a{color:#f3f3f3;}
 
+.1vk {	background: url(../../images/pics/menu-tw.png) top right !important;
+	background-repeat: no-repeat;
+width:140px;
+}
+
+.vk p {margin-left:10px;}
+
+
 .menu {
-height: 220px;
-background: url(../../images/pics/menu-18.png) !important;
-    background-repeat: no-repeat;
-    top: 250px;
-padding-top: 39px;
-
-
-
-border-radius: 4px;
-  position: fixed;
+top:25px;
+	height: 220px;
+	background: url(../../images/pics/menu-126.png) !important;
+	background-repeat: no-repeat;
+	padding-top: 39px;
+	border-radius: 4px;
+	position: relative;
 /*  height: 100%;*/
   width: 185px;
 /*  background: #2c3e50;
@@ -23,16 +28,31 @@ border-radius: 4px;
   overflow: hidden;
   font-family: 'Michroma', sans-serif;
   z-index: 99;
+
+margin-left: 35px;
+
+}
+
+
+.menuItem {
+  position: relative;
+  padding: 6px;
+  transition:border .5s, background .2s;  
+  top:-8px;
+  margin-left:-10px;
+  width:190px;
 }
 
 
 .menuItem span {
   position: relative;
-  left:20px;
+  left:30px;
   top:0;
   transition:color 1s;
   color:rgba(255,255,255,.8);
   font-weight:500;
+
+
 }
 
 
@@ -40,13 +60,6 @@ border-radius: 4px;
  color:rgba(255,255,255,1);
 }
 
-.menuItem {
-  position: relative;
-  padding: 6px;
-  transition:border .5s, background .2s;  
-
-margin-left:2px;
-}
 
 .menuItem:hover {
 /*  background: #34495e; */

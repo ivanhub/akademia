@@ -238,12 +238,31 @@ window.addEventListener("resize", function () {
 
 function handleClick()
 {
-
 document.getElementById("full-widthid").style.marginTop = "220px";
-
 }
 
+
 document.getElementsByTagName('button')[0].onclick=handleClick;
+
+
+
+
+ var newspan = document.createElement('span');
+ newspan.className = "icos";
+
+var childTag = document.querySelectorAll("ul li a");
+var childTag1 = document.querySelector(".first");
+
+
+for ( i = 0; i < childTag.length; i++)
+{
+   childTag[i].parentNode.insertBefore(newspan.cloneNode(true), childTag[i]);
+
+}
+document.getElementsByClassName('icos')[0].classList.add('fa','fa-home');
+document.getElementsByClassName('icos')[1].classList.add('fa','fa-graduation-cap','hvr-icon-spin');
+document.getElementsByClassName('icos')[2].classList.add('fa','fa-camera');
+document.getElementsByClassName('icos')[3].classList.add('fa','fa-phone');
 
 
 };

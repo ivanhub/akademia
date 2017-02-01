@@ -63,8 +63,10 @@ $this->title = 'Учебный центр "Академия"';
 <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p></a>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12 box2 cl-effect-12">
+<a style="display:block" href="/samohodnaya-tehnika">
 <img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325px" style="margin-top: -1px;"  margin-left: -5px;>
 <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
+</a>
 </div>
 
 

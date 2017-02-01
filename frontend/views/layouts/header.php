@@ -20,7 +20,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 
 
-<header class="page-header">
+<header class="page-header1">
 
 
 
@@ -47,8 +47,8 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 <div class="col-md-3 col-sm-4 col-xs-5">
 
 <img class="logotop anilogo fadeIn" src="../images/rosauto3.png" width="540px">
-<!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>
- <p class="logotextbottom">Обучение всем видам вождения! </p> -->
+<!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>-->
+ <p class="logotextbottom">Лицензия № 4913 от 16.04.2013 г. </p> 
 </div>
 <div class="col-lg-offset-4 col-lg-3 col-md-offset-2 col-md-4 col-sm-5 text-right rightblock"><p class="phone">+7 (846) 255-69-99</p>
 <p class="take"><a href class="hvr-wobble-horizontal">Запись ОН-ЛАЙН</a></p>
@@ -70,6 +70,8 @@ $tablet = Yii::$app->mobileDetect->isTablet();
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar navbar-default navshadow skew-menu centering',
+
+
         ],
     ]);
     $menuItems = [

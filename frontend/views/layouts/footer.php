@@ -42,13 +42,13 @@ use yii\helpers\Html;
  <p>Учащимся</p>
  <p>Дополнительные услуги</p>
 </div>
-<div class="col-md-3 col-xs-12 my"><BR/>
+<div class="col-md-3 col-xs-12 my"><div class="vk"><BR/>
 <p>Запись на занятия</p><BR/>
 <p>Мы Вконтакте</p><BR/>
 
 <p></p>
 <p></p>
-
+</div>
 </div>
 </div>
 </div>
