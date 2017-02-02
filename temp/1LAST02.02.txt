@@ -17,7 +17,8 @@ VOT TUT
 100% http://codepen.io/anon/pen/JELOdX
 
 
-
+http://www.dynamicdrive.com/style/csslibrary/item/css3_hover_image_gallery/
+тень
 
 
 
