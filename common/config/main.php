@@ -3,6 +3,13 @@ return [
 
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
+    'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@vendor/onmotion/yii2-gallery/views' => '@app/views/gallery', // example: @app/views/gallery/default/index.php
+                ],
+            ],
+        ],
       'assetManager' => [
         'appendTimestamp' => true,
         'linkAssets' => true
@@ -36,6 +43,8 @@ return [
             '<alias:safety-driving>' =>  'site/safetydriving', 
             '<alias:postupayushchim>' =>  'site/incoming', 
             '<alias:automotoschool/B>' =>  'site/b', 
+            '<alias:automotoschool/A>' =>  'site/a', 
+
  
 
 

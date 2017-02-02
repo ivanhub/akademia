@@ -1,3 +1,8 @@
+NEW: интересные эффекты
+http://avtoline-nsk.ru/modules.php?name=Content&pa=showpage&pid=91
+
+
+
 -Свечение блока при hover http://www.nikesh.me/demo/image-hover.html
 hover blocks with shadow http://www.dynamicdrive.com/style/csslibrary/item/css3_hover_image_gallery/
 
@@ -75,3 +80,6 @@ http://jsfiddle.net/57uGQ/
 
 FANCY LIST http://codepen.io/mecarter/pen/tplzG
 mobile menu http://jharaphula.com/responsive-horizontal-menu-pure-css/
+
+
+

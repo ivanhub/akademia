@@ -16,6 +16,8 @@ return array(
     'skeeks\\yii2\\mobiledetect\\' => array($vendorDir . '/skeeks/yii2-mobile-detect'),
     'phpnt\\yandexMap\\' => array($vendorDir . '/phpnt/yandex-map'),
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/type-resolver/src', $vendorDir . '/phpdocumentor/reflection-docblock/src'),
+    'onmotion\\helpers\\' => array($vendorDir . '/onmotion/yii2-helpers'),
+    'onmotion\\gallery\\' => array($vendorDir . '/onmotion/yii2-gallery'),
     'omnilight\\assets\\' => array($vendorDir . '/omnilight/yii2-vuejs/src'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
     'alexandernst\\devicedetect\\' => array($vendorDir . '/alexandernst/yii2-device-detect'),

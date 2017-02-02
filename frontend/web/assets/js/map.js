@@ -9,7 +9,7 @@ function init() {
     var groups = [
         {
             name: "Росавтоакадемия, Центральный офис",
-            descr: "443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232. Время работы 8:00 - 18:00.<br/>Тел.: +7 (846) 205-77-66",
+            descr: "443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232. Время работы 8:00 - 18:00.<br/>Тел.: +7 (846) 255-69-99",
             items: [
                 {
                     center: [53.182762,50.093797],
@@ -20,7 +20,7 @@ function init() {
 
         {
             name: "Автодром",
-            descr: "г. Самара, <br/>ул. Утевская, напротив 4 роты полка ДПС ГИБДД. <br>Время работы 9:00-20:00",
+            descr: "г. Самара, <br/>ул. Уральская, 34 (по ул. Утевская, напротив 4 роты полка ДПС ГИБДД). <br>Время работы 9:00-20:00",
             items: [
                 {
                     center: [53.131302, 50.108840],
@@ -45,7 +45,7 @@ counter=0,
 
 
    BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
-           '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="images/map/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:68px;margin:7px 0px;">443099, г. Самара, <br>ул. Молодогвардейская 33, <br>оф. 232, тел.: +7 (846) 205-77-66</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="images/map/close.png"/></div>', {
+           '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="images/map/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:68px;margin:7px 0px;">443099, г. Самара, <br>ул. Молодогвардейская 33, <br>оф. 232, тел.: (846) 255-69-99</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="images/map/close.png"/></div>', {
 
          
             build: function () {
@@ -216,7 +216,7 @@ myMap.events.add('click', function (e) {
             var coords = e.get('coords');
             myMap.balloon.open(coords, {
                 contentHeader:'АНО ДПО "АКАДЕМИЯ"',
-                contentBody:'<p>Запись на занятия по тел.:<br/>+7 (846) 205-77-66</p>' + [
+                contentBody:'<p>Запись на занятия по тел.:<br/>+7 (846) 255-69-99</p>' + [
                     ].join(', ') ,
                 contentFooter:'<sup>Будем рады видеть вас на наших курсах</sup>'
             });

@@ -31,7 +31,31 @@ $this->params['breadcrumbs'][] = $this->title;
       
 
   <div class="panel-group" id="accordion">
-<div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Росавтоакадемия, Центральный офис</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232. Время работы 8:00 - 18:00. <br>Тел.: (846) 205-77-66</b></div></div></div><div class="panel panel-default"><div class="panel-heading">  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Автодром</a>  </h4></div><div id="collapse1" class="panel-collapse collapse in"> <div class="panel-body"><b>г. Самара, <br>ул. Утевская, напротив 4 роты полка ДПС ГИБДД. <br>Время работы 9:00-20:00</b></div></div></div></div>
+    <div class="panel panel-default">
+   <div class="panel-heading">
+      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Росавтоакадемия, Центральный офис</a>  </h4>
+   </div>
+   <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body"><b>443099, г. Самара, <br>ул. Молодогвардейская 33, оф. 232. Время работы 8:00 - 18:00. <br>Тел.: +7 (846) 255-69-99</b></div>
+   </div>
+</div>
+<div class="panel panel-default">
+   <div class="panel-heading">
+      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Автодром</a>  </h4>
+   </div>
+   <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body"><b>г. Самара, <br>ул. Уральская, 34 (по ул. Утевская, напротив 4 роты полка ДПС ГИБДД) <br>Время работы 9:00-20:00</b></div>
+   </div>
+</div>
+<!-- <div class="panel panel-default">
+   <div class="panel-heading">
+      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Новый учебный класс</a>  </h4>
+   </div>
+   <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body"><b>г. Самара, ул. Осипенко, 11. Время работы 8:00-18:00<br/>Тел.: +7 (846) 255-69-99</b></div>
+   </div>
+</div> -->
+</div>
 
 
 

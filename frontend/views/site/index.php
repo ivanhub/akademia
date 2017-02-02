@@ -51,7 +51,7 @@ $this->title = 'Учебный центр "Академия"';
   </div> 
   </div>
   </div>   --> 
- <section class="main container">
+ <section class="main ">
 
 <div class="row">
  <div class="col-md-9 col-sm-12 text-left mainbox">
@@ -98,12 +98,12 @@ $this->title = 'Учебный центр "Академия"';
   <aside>
   <h4 >Акции</h4>
   <div class="saleblock">
-  <img src="https://dummyimage.com/240x200/989898/000000.png" class="saleimg" >
+  <img src="../../images/pics/banner12.png" class="saleimg" >
     <!--  <p>Новогодняя акция - Скидка 15%!</p>
                  <p>[Подробнее] </p> -->
             </div>
               <div class="saleblock">
-  <img src="https://dummyimage.com/240x200/989898/000000.png" class="saleimg" style="margin-top:40px">
+  <img src="../../images/pics/banner2.png" class="saleimg" style="margin-top:40px">
     <!--  <p>Новогодняя акция - Скидка 15%!</p>
                   <p>[Подробнее] </p> -->
             </div>

@@ -58,6 +58,13 @@ class SiteController extends Controller
         return $this->render('B');
     }
 
+          public function actionA()
+    {
+         
+        return $this->render('A');
+    }
+
+
     public function actionRaspisanie()
     {
          
@@ -93,12 +100,12 @@ class SiteController extends Controller
     }
 
 
-  public function actionGallery()
+/*  public function actionGallery()
     {
          
-        return $this->render('gallery');
+        return $this->render('gallery/default/index.php');
     }
-
+*/
     public function actionContact()
     {
         $model = new ContactForm();

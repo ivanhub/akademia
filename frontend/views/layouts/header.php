@@ -78,6 +78,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
         ['label' => 'Главная', 'url' => ['/']],
         ['label' => 'Дистанционное обучение', 'url' => ['/distance']],
         ['label' => 'Галерея', 'url' => ['/']],
+        ['label' => 'Об организации', 'url' => ['/']],
         ['label' => 'Контакты', 'url' => ['/contact']],    ];
    
     echo Nav::widget([

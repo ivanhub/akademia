@@ -36,6 +36,8 @@ class ComposerStaticInit7a65f15e7ed71210739b56912b86a355
         ),
         'o' => 
         array (
+            'onmotion\\helpers\\' => 17,
+            'onmotion\\gallery\\' => 17,
             'omnilight\\assets\\' => 17,
         ),
         'c' => 
@@ -129,6 +131,14 @@ class ComposerStaticInit7a65f15e7ed71210739b56912b86a355
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'onmotion\\helpers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/onmotion/yii2-helpers',
+        ),
+        'onmotion\\gallery\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/onmotion/yii2-gallery',
         ),
         'omnilight\\assets\\' => 
         array (

@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
    
 
  <div class="row">
-<div class="col-sm-12 col-md-3">
+<div class="col-sm-12 col-md-3 hidden-sm hidden-xs">
 
 
 
@@ -61,11 +61,134 @@ $this->params['breadcrumbs'][] = $this->title;
 
  <br/><br/>
 
+
+<!-- Awesome  -->
+
+<!-- <div class='wrapper'>
+  <input id='1' type='checkbox'>
+  <label for='1'>
+    <div>
+      <div class='circle'></div>
+         <div class="span4" style="">
+          <div class="p-item-title">ПАКЕТ<br>
+          "Дневной"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px">
+
+<img src="../images/pics/s1.png" >
+          </div>
+          <div class="mt5">
+         <p>Идеальный выбор для студентов! </p>
+<p>от 17 000 р. </p>
+          </div>
+          <div class="butt">
+          <a class="send-price call-back" style="width: 128px;" href="#" role="button" data-info="Стандарт">Записаться</a></div>
+        </div>
+    </div>
+    <p>Пакет "Дневной"</p>
+    <p>Практические занятия:</p>
+    <p>с 9:00 до 16:00 Вт.-Пт.</p>
+    <p>Теоретические занятия:</p>
+    <p>с 18:00 до 20:00 Вт.-Чт.</p>
+  </label>
+  <input id='2' type='checkbox'>
+  <label for='2'>
+    <div>
+      <div class='circle'></div>
+    <div class="span4" style="margin-left: 10px;">
+          <div class="p-item-title">ПАКЕТ<br>
+          "Стандарт"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px">
+
+<img src="../images/pics/s2.png" >
+          </div>
+          <div class="mt5">
+<p>Удобней для всех</p>
+<p>от 20 000 р. </p>
+          </div>
+          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 25px;" href="#" role="button" data-info="Индивидуальный">Записаться</a></div>
+        </div>
+    </div>
+    <p>Текст2 внутри</p>
+  </label>
+  <input id='3' type='checkbox'>
+  <label for='3'>
+    <div>
+      <div class='circle'></div>
+       <div class="span4" style="float: left; margin-left: 20px;">
+          <div class="p-item-title">ПАКЕТ<br>
+          "Индивидуальный"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px">
+<img src="../images/pics/s3.png" >
+
+
+          </div>
+          <div class="mt5">
+<p>Вы выбираете,<br/>Мы исполняем </p>
+<p>от 30 000 р. </p>       
+          </div>
+          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 0px;" href="#" role="button" data-info="Стандарт">Записаться</a></div>
+        </div>  
+    </div>
+    <p>Текст3 внутри</p>
+  </label>
+</div>
+ -->
+
+
+<!-- Awesome END -->
+
+
+ 
+
+
+<div class="row-fluid">
+<div class="hovergallery">
+<div clas="col-xs-6">
+        <div class="span3" style=" margin-left: 50px;">
+          <div class="p-item-title">ПАКЕТ<br>
+          "Дневной"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="mt5">
+         <p>Идеальный выбор для студентов! </p>
+<p>от 17 000 р. </p>
+          </div>
+          <div class="butt">
+          <a class="send-price call-back" style="width: 128px;" href="#" role="button" data-info="Стандарт">Записаться</a></div>
+        </div>
+        </div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
+
+        <div class="span3" style="margin-left: 60px;">
+          <div class="p-item-title">ПАКЕТ<br>
+          "Стандарт"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="mt5">
+<p>Удобней для всех</p>
+<p>от 20 000 р. </p>
+          </div>
+          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 25px;" href="#" role="button" data-info="Индивидуальный">Записаться</a></div>
+        </div></div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
+
+        <div class="span3" style=" margin-left: 60px;">
+          <div class="p-item-title">ПАКЕТ<br>
+          "Индивидуальный"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="mt5">
+<p>Вы выбираете,<br/>Мы исполняем </p>
+<p>от 30 000 р. </p>       
+          </div>
+          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 0px;" href="#" role="button" data-info="Стандарт">Записаться</a></div>
+        </div>    </div>    
+      </div></div>
+
+
+<!-- 
 <div class="contblock">
 <div class="blockpack">
   <div class="section sec-1">
     <div class="word">
-<p>PERVIY PAKET</p>
+<p class="zag">Пакет дневной</p>
+<p>Идеальный выбор для студентов! </p>
+<p>от 17 000 р. </p>
     </div>
     <span class="close-btn">+</span>
     <div class="inner"></div>
@@ -75,7 +198,9 @@ $this->params['breadcrumbs'][] = $this->title;
   </div>
   <div class="section sec-2">
     <div class="word">
-      <p>VTOROY PAKET</p>
+<p class="zag">Пакет стандарт</p>
+<p>Удобней для всех</p>
+<p>от 20 000 р. </p>
     </div>
     <span class="close-btn">+</span>
     <div class="inner"></div>
@@ -85,7 +210,10 @@ $this->params['breadcrumbs'][] = $this->title;
   </div>
   <div class="section sec-3">
     <div class="word">
-     <p class="letter">TRETIY PAKET</p>
+<p class="zag">Пакет индивидуальный</p>
+<p>Вы выбираете,</p>
+<p>Мы исполняем </p>
+<p>от 30 000 р. </p>
     </div>
     <span class="close-btn">+</span>
     <div class="inner"></div>
@@ -95,8 +223,8 @@ $this->params['breadcrumbs'][] = $this->title;
   </div>
 
   </div>
-  </div>
-</div>
+  </div> -->
+ 
 
 <!-- 
 <iframe name='iframe1' id="iframe1" src="../block.html" 
@@ -106,8 +234,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
   <br/><br/>
 
-
- <p style="margin-top:400px;">На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
+ <h5 style="margin-top:290px;font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5>
+<br/>
+ <p style="">На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
 
  <section class="automotoschool">
 
@@ -250,7 +379,7 @@ YBR125 ESD
 </div>
 </div>
 </div>
-
+</div>
 
 
 <?php Yii::$app->view->registerJsFile('/assets/js/block.js',  ['depends' => 'yii\web\JqueryAsset']); ?>

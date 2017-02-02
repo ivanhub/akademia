@@ -52,7 +52,7 @@ div.affix-top {
 .header-top {height:100px}
 
 img.logotop {  
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 11px;
     opacity: 0.9;
 }
@@ -85,7 +85,7 @@ height: 37px }
 
 
 
-.right-aside {margin-top:-5px !important;}
+.right-aside {margin-top:-55px !important;}
 
 
 .navbar-default .navbar-nav>li>a {    color: #1b1a1a  }
@@ -186,7 +186,7 @@ ul li:nth-child(3) span.icos{
 }
 
 
-ul li:nth-child(4) span.icos {
+ul li:nth-child(5) span.icos {
     transform: scale(1.05) skew(25deg);
    top:6px;
 }

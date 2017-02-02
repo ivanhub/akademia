@@ -12,6 +12,9 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [
+     'gallery' => [
+            'class' => 'onmotion\gallery\Module',
+        ],
     'gii' => [
         'class' => 'yii\gii\Module',
         'allowedIPs' => ['127.0.0.1', '::1', '192.168.0.11','192.168.88.11'] // adjust this to your needs

@@ -3355,5 +3355,131 @@
             "yandex",
             "yii2"
         ]
+    },
+    {
+        "name": "onmotion/yii2-helpers",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/onmotion/yii2-helpers.git",
+            "reference": "2a2c7a02bed1c336469a0d3d5b92b24c46460fe4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/onmotion/yii2-helpers/zipball/2a2c7a02bed1c336469a0d3d5b92b24c46460fe4",
+            "reference": "2a2c7a02bed1c336469a0d3d5b92b24c46460fe4",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-09-21T07:25:56+00:00",
+        "type": "yii2-extension",
+        "extra": {
+            "asset-installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "onmotion\\helpers\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Kozhevnikov",
+                "email": "onmotion1@gmail.com",
+                "homepage": "http://kozhevnikov.me",
+                "role": "Developer"
+            }
+        ],
+        "description": "The helpers for Yii2 application",
+        "homepage": "https://github.com/onmotion/yii2-helpers",
+        "keywords": [
+            " helpers",
+            " ru2en",
+            " translator",
+            "yii2"
+        ]
+    },
+    {
+        "name": "bower-asset/blueimp-gallery",
+        "version": "v2.22.0",
+        "version_normalized": "2.22.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/blueimp/Gallery.git",
+            "reference": "c91c4de0ef9882c91bffaf1ef990081e581235d1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/blueimp/Gallery/zipball/c91c4de0ef9882c91bffaf1ef990081e581235d1",
+            "reference": "c91c4de0ef9882c91bffaf1ef990081e581235d1",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "installation-source": "dist"
+    },
+    {
+        "name": "onmotion/yii2-gallery",
+        "version": "1.1.8",
+        "version_normalized": "1.1.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/onmotion/yii2-gallery.git",
+            "reference": "7c9d54290021cc1d06661573f26c7f2aa9b3d32c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/onmotion/yii2-gallery/zipball/7c9d54290021cc1d06661573f26c7f2aa9b3d32c",
+            "reference": "7c9d54290021cc1d06661573f26c7f2aa9b3d32c",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/blueimp-gallery": ">=v2.17.0",
+            "onmotion/yii2-helpers": "*",
+            "yiisoft/yii2": ">=2.0.1"
+        },
+        "time": "2017-01-13T10:46:04+00:00",
+        "type": "yii2-extension",
+        "extra": {
+            "asset-installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "onmotion\\gallery\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Alexandr Kozhevnikov",
+                "email": "onmotion1@gmail.com",
+                "homepage": "http://kozhevnikov.me",
+                "role": "Developer"
+            }
+        ],
+        "description": "blueimp gallery with fileupload in your Yii2 application",
+        "keywords": [
+            "blueimp",
+            "gallery",
+            "module",
+            "photo",
+            "yii2"
+        ]
     }
 ]
