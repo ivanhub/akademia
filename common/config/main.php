@@ -35,6 +35,10 @@ return [
             '<alias:dop-uslugi>' =>  'site/dopuslugi', 
             '<alias:safety-driving>' =>  'site/safetydriving', 
             '<alias:postupayushchim>' =>  'site/incoming', 
+            '<alias:automotoschool/B>' =>  'site/b', 
+ 
+
+
                     '<controller>/<action>' => '<controller>/<action>',
              
         ],],

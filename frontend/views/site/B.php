@@ -9,7 +9,13 @@ use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 use phpnt\yandexMap\YandexMaps;
 
-$this->title = 'Автомотошкола';
+$this->title = 'Категория B';
+
+$this->params['breadcrumbs'][] = [
+                                   /* 'template' => "<li><b>{link}</b></li>\n", */
+                                    'label' => 'Автомотошкола', 
+                                    'url' => ['/automotoschool']
+                                 ];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
@@ -51,19 +57,57 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="col-md-9 col-sm-12">
 
-<h1 class="text-center">Автомотошкола</h1>
-<div class="blockAB" >
- <p class="text-center">
- <a href="/automotoschool/A">
- <img class="A1 " src="../../images/pics/A.png" width="350px">
- </a>
- <a href="/automotoschool/B">
- <img  class="A1 " src="../../images/pics/B.png" width="350px"></p>
-    </a>
+<h1 class="text-center">Качество наших услуг выше чем их стоимость.</h1>
 
- </div>
  <br/><br/>
- <p>На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
+
+<div class="contblock">
+<div class="blockpack">
+  <div class="section sec-1">
+    <div class="word">
+<p>PERVIY PAKET</p>
+    </div>
+    <span class="close-btn">+</span>
+    <div class="inner"></div>
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque variu
+    </div>
+  </div>
+  <div class="section sec-2">
+    <div class="word">
+      <p>VTOROY PAKET</p>
+    </div>
+    <span class="close-btn">+</span>
+    <div class="inner"></div>
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius orci s.
+    </div>
+  </div>
+  <div class="section sec-3">
+    <div class="word">
+     <p class="letter">TRETIY PAKET</p>
+    </div>
+    <span class="close-btn">+</span>
+    <div class="inner"></div>
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscingos..
+    </div>
+  </div>
+
+  </div>
+  </div>
+</div>
+
+<!-- 
+<iframe name='iframe1' id="iframe1" src="../block.html" 
+        frameborder="0" border="0" cellspacing="0"
+        style="border-style: none;width: 100%; height: 320px;"></iframe>
+ -->
+
+  <br/><br/>
+
+
+ <p style="margin-top:400px;">На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
 
  <section class="automotoschool">
 
@@ -205,5 +249,8 @@ YBR125 ESD
 
 </div>
 </div>
-
 </div>
+
+
+
+<?php Yii::$app->view->registerJsFile('/assets/js/block.js',  ['depends' => 'yii\web\JqueryAsset']); ?>

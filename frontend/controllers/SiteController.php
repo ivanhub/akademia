@@ -52,6 +52,12 @@ class SiteController extends Controller
         return $this->render('automotoschool');
     }
 
+      public function actionB()
+    {
+         
+        return $this->render('B');
+    }
+
     public function actionRaspisanie()
     {
          

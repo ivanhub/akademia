@@ -27,7 +27,8 @@ class AppAsset extends AssetBundle
         'assets/css/good-left.css',
         'assets/css/topmenu.css',
         'assets/css/font-awesome.css',
-        
+        'assets/css/block.css',
+
 
 
 

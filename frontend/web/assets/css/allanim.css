@@ -33,3 +33,92 @@
   animation-iteration-count: 1;
 }
 
+
+
+        
+
+@keyframes wobble1 {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  15% {
+    -webkit-transform:  rotate3d(0, 125deg, 1, -5deg);
+    transform:  rotate3d(0, 125deg, 1, -5deg);
+  }
+
+  30% {
+    -webkit-transform:  rotate3d(0, 15deg, 1, 3deg);
+    transform:  rotate3d(0, 115deg, 1, 3deg);
+  }
+
+  45% {
+    -webkit-transform:  rotate3d(0, 10deg, 1, -3deg);
+    transform:  rotate3d(0, 110deg, 1, -3deg);
+  }
+
+  60% {
+    -webkit-transform:  rotate3d(0, 5deg, 1, 2deg);
+    transform:  rotate3d(0, 50deg, 1, 2deg);
+  }
+
+  75% {
+    -webkit-transform:  rotate3d(0, 0, 1, -1deg);
+    transform:  rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+@keyframes gl {
+from { 
+  -webkit-transform: none;
+    transform: none;
+}
+25% { transform: rotateY(20deg); }
+
+
+
+55% { transform: rotateY(-20deg); }
+
+ 
+
+to {  -webkit-transform: none;
+    transform: none;}}
+
+
+.wobble1 {
+  -webkit-animation-name: wobble1;
+  animation-name: wobble;
+}
+
+
+.A1, .B1 {cursor:pointer; perspective: 500px;-webkit-perspective: 500px; perspective-origin: 50% 50%; -webkit-perspective-origin: 50% 50%;}
+.A1:hover {
+  -webkit-animation-name: gl;
+  animation-name: gl;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  opacity: 1;
+
+
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  opacity: 1;
+
+}
+
+
+
