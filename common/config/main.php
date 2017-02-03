@@ -2,6 +2,10 @@
 return [
 
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
+        'modules' => [
+         'gallery' => [
+            'class' => 'onmotion\gallery\Module',
+        ], ],
     'components' => [
     'view' => [
             'theme' => [
@@ -38,7 +42,7 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
              'rules' => [
-            '<alias:gallery|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
+            '<alias:contacts2|contacts|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
             '<alias:dop-uslugi>' =>  'site/dopuslugi', 
             '<alias:safety-driving>' =>  'site/safetydriving', 
             '<alias:postupayushchim>' =>  'site/incoming', 

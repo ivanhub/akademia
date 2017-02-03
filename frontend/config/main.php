@@ -13,6 +13,13 @@ return [
     'bootstrap' => ['mobileDetect'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
+         'urlManagerBackend' => [
+                'class' => 'yii\web\urlManager',
+                'baseUrl' => '/backend/web/img/gallery/',//i.e. $_SERVER['DOCUMENT_ROOT'] .'/yiiapp/web/'
+                'enablePrettyUrl' => true,
+                'showScriptName' => false,
+        ],
+
          'mobileDetect' => [
          'class' => '\skeeks\yii2\mobiledetect\MobileDetect'
     ],

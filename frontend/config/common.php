@@ -29,9 +29,9 @@ return [
                     '<_c:[\w\-]+>/<_a:[\w\-]+>/<id:\d+>' => '<_c>/<_a>',
                 ],
         ],
-        'mailer' => [
-            'class' => 'yii\swiftmailer\Mailer',
-        ],
+//        'mailer' => [
+//            'class' => 'yii\swiftmailer\Mailer',
+//        ],
         'cache' => [
             'class' => 'yii\caching\DummyCache',
         ],

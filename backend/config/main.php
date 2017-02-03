@@ -12,9 +12,6 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [
-     'gallery' => [
-            'class' => 'onmotion\gallery\Module',
-        ],
     'gii' => [
         'class' => 'yii\gii\Module',
         'allowedIPs' => ['127.0.0.1', '::1', '192.168.0.11','192.168.88.11'] // adjust this to your needs
@@ -22,6 +19,12 @@ return [
 
     ],
     'components' => [
+     'urlManagerFrontend' => [
+                'class' => 'yii\web\urlManager',
+                'baseUrl' => '/frontend/web/img/gallery/',//i.e. $_SERVER['DOCUMENT_ROOT'] .'/yiiapp/web/'
+                'enablePrettyUrl' => true,
+                'showScriptName' => false,
+        ],
         'request' => [
             'csrfParam' => '_csrf-backend',
                       ],

@@ -11,7 +11,7 @@ use common\models\LoginForm;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
-use frontend\models\ContactForm;
+use frontend\models\ContactForm2;
 
 
 class SiteController extends Controller
@@ -108,8 +108,15 @@ class SiteController extends Controller
 */
     public function actionContact()
     {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+       return $this->render('contact');
+       
+    }
+  public function actionContacts2()
+   {
+        $model = new ContactForm2();
+        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
+                            Yii::$app->session->setFlash('contactFormSubmitted');
+
             if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
                 Yii::$app->session->setFlash('success', 'Спасибо, что обратились к Нам. Мы ответим Вам как можно скорее.');
             } else {
@@ -118,18 +125,37 @@ class SiteController extends Controller
 
             return $this->refresh();
         } 
-            return $this->render('contact', [
+            return $this->render('contacts', [
                 'model' => $model,
             ]);
        
     }
-
-
 
     public function actionIndex2()
     {
         return $this->render('index2');
     }
 
+
+public function actionContacts()
+    {
+        $model = new ContactForm();
+        if ($model->load(Yii::$app->request->post())) {
+
+          $model->name = $_POST['ContactForm']['name'];
+          $model->email = $_POST['ContactForm']['email'];
+          $model->subject = $_POST['ContactForm']['subject'];
+          $model->body = $_POST['ContactForm']['body'];
+
+           if ($model->save())
+            Yii::$app->response->redirect(array('site/contact', 'model' => $model));
+            return $this->refresh();
+        } else {
+            return $this->render('contacts', [
+                'model' => $model,
+            ]);
+        }
+    }
 }
+
 

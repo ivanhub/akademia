@@ -55,7 +55,7 @@ use yii\helpers\Html;
 <div class="shell container">
 <div class="row">
 <div class="rangelogo range-xs-center range-xs-middle">
-<img class="minilogo" src="../images/minlogo.png" align="left">
+<img class="minilogo" src="http://front.loc/images/minlogo.png" align="left">
 <p class="pull-left">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ДПО "Академия"</span>
  <a href="privacy-policy-link.html" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>

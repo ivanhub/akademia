@@ -27,7 +27,7 @@ $action = $controll->action->id;
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="format-detection" content="telephone=no">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -266,6 +266,10 @@ document.getElementsByClassName('icos')[3].classList.add('fa','fa-file-text');
 document.getElementsByClassName('icos')[4].classList.add('fa','fa-phone');
 
 
+
+/*$("body").on("click", ".call-back", function(){
+    $('.span3').attr('data-nohover','1')
+    });*/
 };
 
 

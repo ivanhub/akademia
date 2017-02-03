@@ -978,6 +978,11 @@ if (typeof jQuery === 'undefined') {
     this.setScrollbar()
     this.$body.addClass('modal-open')
 
+
+
+     
+    
+
     this.escape()
     this.resize()
 

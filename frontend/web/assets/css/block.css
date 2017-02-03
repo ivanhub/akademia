@@ -254,10 +254,11 @@ width:50px;
 .mt5 { margin-top: 5px;}
 
 .call-back {
+	cursor:pointer;
 	display: inline-block;
 	*display: inline;
+	width:128px;
 	padding: 7px 25px 7px 18px;
-	width: 190px;
 	font-size:17px;
 	line-height: 25px;
 	font-weight: normal;
@@ -338,18 +339,18 @@ margin-bottom:40px !important;
 
 .span3 a:focus {
     color: #fff; }
-input.span3,
+/*input.span3,
 textarea.span3,
 .uneditable-input.span3 {
   width: 206px;
-}
+} 
 
 .table td.span3,
 .table th.span3 {
   float: none;
   width: 204px;
   margin-left: 0;
-}
+} */
 
 .butt a {margin-bottom:50px;}
 
@@ -494,28 +495,27 @@ body .wrapper label:nth-of-type(9) {
 
 
 
-
 /* new */
 
 
-.hovergallery .span3{
--webkit-transform:scale(1); /*Webkit: Scale down image to 0.8x original size*/
--moz-transform:scale(1); /*Mozilla scale version*/
--o-transform:scale(1); /*Opera scale version*/
+.span3{
 -webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
 -moz-transition-duration: 0.5s; /*Mozilla duration version*/
 -o-transition-duration: 0.5s; /*Opera duration version*/
+transition-duration: 0.5s; /*Opera duration version*/
 opacity: 1; /*initial opacity of images*/
 margin: 0 10px 5px 0; /*margin between images*/
 }
 
-.hovergallery .span3:hover{
+ .span3[data-nohover="0"]:hover{
 -webkit-transform:scale(1.2); /*Webkit: Scale up image to 1.2x original size*/
 -moz-transform:scale(1.2); /*Mozilla scale version*/
 -o-transform:scale(1.2); /*Opera scale version*/
+transform:scale(1.2); /*Opera scale version*/
 box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
 -webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
 -moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
 opacity: 1;
 }
 

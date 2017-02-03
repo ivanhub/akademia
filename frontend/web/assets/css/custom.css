@@ -1332,3 +1332,19 @@ font-size:35px !important;
 }
 
 
+
+
+#view .panel-title {color:#efefef !important}
+
+#view a:hover, #view a:focus { color:#cae1bf }
+#view h4, #view h5 {
+    font-size: 25px !important;
+}
+
+#view .panel-heading {
+    padding: 5px 15px !important; }
+
+
+.gallery-view .panel-default > .panel-heading {
+/*    background: rgba(183, 175, 153, 0.74) !important;*/
+}

@@ -16,7 +16,7 @@ use onmotion\helpers\Translator;
 set_time_limit(60);
 ini_set('memory_limit', '512M');
 
-$this->params['breadcrumbs'][] = ['label' => 'Gallery', 'url' => ['/gallery']];
+$this->params['breadcrumbs'][] = ['label' => 'Галерея', 'url' => ['/gallery']];
 $this->params['breadcrumbs'][] = $model->name;
 
 $this->registerJs(<<<JS

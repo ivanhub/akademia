@@ -2,23 +2,23 @@
 use yii\helpers\Url;
 use yii\helpers\Html;
 use yii\bootstrap\Modal;
+use yii\widgets\Breadcrumbs;
+
+
 
 /* @var $this yii\web\View */
 /* @var $searchModel onmotion\gallery\models\GallerySearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Photo-gallery';
 $dataProvider->pagination->pageSize = 20;
+
+$this->title = 'Галерея';
+$this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <div class="gallery-index">
 
             <?php
-    echo Html::a('<i class="glyphicon glyphicon-plus"></i>', ['create'],
-        ['title' => 'Create Gallery', 'class' => 'btn btn-default',
-            'method' => 'get',
-            'role' => 'modal-toggle',
-            'data-modal-title'=>'Create Gallery',
-        ]);
             
     echo \yii\widgets\ListView::widget([
         'id' => 'gallery-listview',

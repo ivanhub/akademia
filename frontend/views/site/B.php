@@ -8,6 +8,9 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 use phpnt\yandexMap\YandexMaps;
+use yii\bootstrap\Modal;
+use yii\bootstrap\Button;
+
 
 $this->title = 'Категория B';
 
@@ -138,13 +141,44 @@ $this->params['breadcrumbs'][] = $this->title;
 <!-- Awesome END -->
 
 
+<!-- <?php Modal::begin([
+    'header' => '<h2>Запись онлайн</h2>',
+    'id' => 'idmodal',
+    'toggleButton' => [
+        'tag' => 'a',
+        'class' => 'send-price call-back',
+        'label' => 'Записаться',
+                'data-target' => '#idmodal',
+
+    ],
+        'clientOptions' => false,
+
+]);
  
+echo 'Росавтоакадемия, г. Самара';
+ 
+Modal::end();
+?> -->
+
+
+<?php Modal::begin([
+    'header' => '<h2>Запись онлайн</h2>',
+    'options' => ['id' => 'idmodal',],
+    'footer' => 'Низ Окна',
+     'clientOptions' => false,
+
+]);
+ 
+echo 'Росавтоакадемия, г. Самара';
+ 
+Modal::end();
+?>
 
 
 <div class="row-fluid">
-<div class="hovergallery">
-<div clas="col-xs-6">
-        <div class="span3" style=" margin-left: 50px;">
+<div class="hovergallery">  
+<div clas="col-xs-6">  
+        <div class="span3" style=" margin-left: 50px;" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -153,11 +187,19 @@ $this->params['breadcrumbs'][] = $this->title;
 <p>от 17 000 р. </p>
           </div>
           <div class="butt">
-          <a class="send-price call-back" style="width: 128px;" href="#" role="button" data-info="Стандарт">Записаться</a></div>
+<?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'class' => 'send-price call-back'
+  ]
+    ); ?>
+ </div>
         </div>
         </div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
 
-        <div class="span3" style="margin-left: 60px;">
+        <div class="span3" style="margin-left: 60px;" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -168,7 +210,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 25px;" href="#" role="button" data-info="Индивидуальный">Записаться</a></div>
         </div></div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
 
-        <div class="span3" style=" margin-left: 60px;">
+        <div class="span3" style=" margin-left: 60px;" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -382,4 +424,22 @@ YBR125 ESD
 </div>
 
 
-<?php Yii::$app->view->registerJsFile('/assets/js/block.js',  ['depends' => 'yii\web\JqueryAsset']); ?>
+          <button class="md-trigger send-price call-back" data-modal="modal-3">Записаться</button>
+
+    <div class="md-modal md-effect-3" id="modal-3">
+      <div class="md-content">
+
+        <h3>Запись онлайн</h3>
+        <div>
+    <button type="button" class="close md-close" data-dismiss="modal" aria-hidden="true">×</button>
+
+          <p>Форма для записи на занятия</p>
+          <ul>
+            <li><strong>Close:</strong> click on the button below to close the modal.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="md-overlay"></div><!-- the overlay element -->
+ <?php Yii::$app->view->registerJsFile('/assets/js/modals.js',  ['depends' => 'yii\web\JqueryAsset']); ?> 

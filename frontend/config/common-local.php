@@ -3,10 +3,10 @@
 return [
     'components' => [
         'db' => [
-            'dsn' => 'mysql:host=localhost;dbname=pages',
+            'dsn' => 'mysql:host=127.0.0.1;dbname=akademia',
             'username' => 'root',
             'password' => 'local',
-            'tablePrefix' => 'keys_',
+          /*  'tablePrefix' => 'y_',*/
         ],
         'mailer' => [
             'useFileTransport' => true,

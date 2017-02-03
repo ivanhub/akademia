@@ -30,9 +30,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <div class="menu">
-  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Поступающим</a></span></div>
-  <div class="menuItem dos"><span><a style="color:;" href="/students">Учащимся</a></span></div>
-  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Расписание</a></span></div>
+  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Запись на обучение</a></span></div>
+  <div class="menuItem dos"><span><a style="color:;" href="/students">Расписание занятий</a></span></div>
+  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Наши преимущества</a></span></div>
   <div class="menuItem cuatro"><span><a href>Доп. услуги</a></span></div>
  </div>
 
@@ -53,14 +53,15 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <h1 class="text-center">Автомотошкола</h1>
 <div class="text-center" >
-<div class="blockAB" >
+<div class="blockAB" style="margin-top:10px" >
  <div class="blockA">
  <a href="/automotoschool/A"  title="Выберите категорию">
- <img class="A1 " src="../../images/pics/aaa.png" width="260px">
+ <img class="A1 " src="../../images/pics/aaa1.png" width="260px">
  </a></div>
- <div class="blockB">
+
+ <div class="blockB" style="margin-left:50px;">
  <a href="/automotoschool/B">
- <img  class="A1 " src="../../images/pics/bbb.jpg" width="260px" title="Выберите категорию">
+ <img  class="A1 " src="../../images/pics/bbb1.png" width="260px" title="Выберите категорию">
     </a>
 </div>
  </div> </div>

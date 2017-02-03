@@ -46,11 +46,11 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 </div>
 <div class="col-md-3 col-sm-4 col-xs-5">
 
-<img class="logotop anilogo fadeIn" src="../images/rosauto3.png" width="540px">
+<img class="logotop anilogo fadeIn" src="http://front.loc/images/rosauto3.png" width="540px">
 <!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>-->
  <p class="logotextbottom">Лицензия № 4913 от 16.04.2013 г. </p> 
 </div>
-<div class="col-lg-offset-4 col-lg-3 col-md-offset-2 col-md-4 col-sm-5 text-right rightblock"><p class="phone">+7 (846) 255-69-99</p>
+<div class="col-lg-offset-4 col-lg-3 col-md-offset-2 col-md-4 col-sm-5 text-right rightblock"><p class="phone"><a href="tel:8846255-69-99"> +7 (846) 255-69-99</a></p>
 <p class="take"><a href class="hvr-wobble-horizontal">Запись ОН-ЛАЙН</a></p>
 </div>
 
