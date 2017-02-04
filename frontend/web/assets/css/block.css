@@ -251,7 +251,7 @@ width:50px;
 	    font-size: 18px;
     }
 
-.mt5 { margin-top: 5px;}
+/*.mt5 { margin-top: 5px;}*/
 
 .call-back {
 	cursor:pointer;
@@ -296,7 +296,7 @@ width:50px;
 
 @media (min-width:768px) {
 .row-fluid .span3 {
-  width: 23.404255319148934%;
+  width: 26.404255319148934%;
   *width: 23.351063829787233%;
 }      
 
@@ -320,7 +320,7 @@ margin-bottom:40px !important;
 .span3 {
   width: 230px;
     border-radius: 7px;
-   height:310px;
+ /*  height:310px; */
    border:2px solid green;
   background: #f2fdec;
 
@@ -352,7 +352,7 @@ textarea.span3,
   margin-left: 0;
 } */
 
-.butt a {margin-bottom:50px;}
+
 
 
 
@@ -519,3 +519,41 @@ box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
 opacity: 1;
 }
 
+
+
+
+
+#idmodal h3, #idmodal h3 {
+    margin: 0;
+    text-align: center;
+    color: #488e57;
+}
+
+
+#idmodal .modal-header {
+    padding: 7px 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.sel p {font-weight:700; display:inline;}
+
+form sup { color:red }
+
+
+@media (min-width: 768px)            {
+.modal-sm { width:350px !important }} 
+
+@media (max-width: 768px)            {
+.modal-sm { width:70% !important }} 
+
+
+.little p {font-size:12px !important; text-align:center; margin-left:0; line-height:0.5;}
+
+.butt a {margin-bottom:20px; margin-top:8px}
+
+
+.little3 {margin:18px 0 !important	}
+.little2 {margin:27px 0 18px !important	}
+
+
+.modal-footer {
+    font-size: 10px !important; }

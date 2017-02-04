@@ -1,0 +1,7 @@
+
+  	 	
+
+<script>setTimeout($('#idmodal').dialog('close'), 5000);</script>
+
+
+<script>setTimeout(function(){$('#idmodal').modal('hide')}, 10000);</script>

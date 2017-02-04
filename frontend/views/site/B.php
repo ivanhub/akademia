@@ -7,10 +7,9 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
-use phpnt\yandexMap\YandexMaps;
 use yii\bootstrap\Modal;
 use yii\bootstrap\Button;
-
+use \yii\widgets\MaskedInput;
 
 $this->title = 'Категория B';
 
@@ -141,14 +140,16 @@ $this->params['breadcrumbs'][] = $this->title;
 <!-- Awesome END -->
 
 
-<!-- <?php Modal::begin([
+<!--  Modal::begin([
     'header' => '<h2>Запись онлайн</h2>',
-    'id' => 'idmodal',
+    'id' => 'idmodal3',
     'toggleButton' => [
         'tag' => 'a',
         'class' => 'send-price call-back',
         'label' => 'Записаться',
-                'data-target' => '#idmodal',
+        'data-target' => '#idmodal6',
+        'data-toggle'=>'modal',
+
 
     ],
         'clientOptions' => false,
@@ -158,21 +159,57 @@ $this->params['breadcrumbs'][] = $this->title;
 echo 'Росавтоакадемия, г. Самара';
  
 Modal::end();
-?> -->
-
-
+ 
+-->
 <?php Modal::begin([
-    'header' => '<h2>Запись онлайн</h2>',
+    'header' => '<h3>Онлайн заявка</h3>',
     'options' => ['id' => 'idmodal',],
-    'footer' => 'Низ Окна',
+    'footer' => 'Вы сделали правильный выбор, <br/>обратившись в нашу компанию. ',
      'clientOptions' => false,
+     'size' => 'modal-sm',
+
 
 ]);
  
-echo 'Росавтоакадемия, г. Самара';
+echo ' <div class="row"><div class="col-xs-12 modal-md-12">';
+  echo '<div class="sel text-center"><p>Пакет</p> <p id="wrapacket" style="font-weight:700"></p></div><br/>';
+/*if(Yii::$app->session->hasFlash('success')):
+    echo '<div class="info">';
+  echo Yii::$app->session->getFlash('success'); 
+     echo '</div>';
+endif; */
+
+
+if (Yii::$app->session->hasFlash('contactFormSubmitted')): 
+        echo '<div id="success" class="alert alert-success">';
+        echo 'Спасибо за обращение к нам. Мы постараемся ответить вам как можно скорее.</div>';
+        echo '<script>setTimeout(function(){$(\'#idmodal\').modal(\'hide\')}, 3000);</script>';
+else: $form = ActiveForm::begin(['id' => 'contact-form',]); 
+echo  $form->field($model, 'name')->label('Ваше Имя <sup>*</sup>')->textInput(['placeholder'=>"Введите Ваше Имя"]);
+//echo $form->field($model, 'phone')->label('Номер телефона')->textInput(['placeholder'=>"+7 (__) ___-____"]);
+  echo $form->field($model, 'phone')->label('Номер телефона <sup>*</sup>')->widget(MaskedInput::className(),['mask' => '(999) 999-9999']); 
+
+echo $form->field($model, 'body')->textArea(['rows' => 6])->label('Комментарии'); 
+echo $form->field($model, 'from')->hiddenInput(['value'=> '7'])->label(false);
+
+echo ' <div class="form-group">';
+
+echo Html::submitButton('Отправить', ['class' => 'btn btn-primary btn-success', 'name' => 'contact-button']) ;
+echo ' </div>';
+ ActiveForm::end(); 
+  endif;
+echo '</div></div>';
  
 Modal::end();
 ?>
+
+
+
+<div class="modal34 remote34 fade" id="idmodal34">
+        <div class="modal-dialog34">
+            <div class="modal-content34 loader-lg34"></div>
+        </div>
+</div>
 
 
 <div class="row-fluid">
@@ -185,40 +222,104 @@ Modal::end();
           <div class="mt5">
          <p>Идеальный выбор для студентов! </p>
 <p>от 17 000 р. </p>
-          </div>
+<div class="little"><p>Практические занятия:</p>
+    <p>с 9:00 до 16:00 Вт-Пт.</p>
+    <p>Теоретические занятия:</p>
+    <p>с 18:00 до 20:00 Ср.,Чт.</p>    </div>      </div>
           <div class="butt">
 <?php    echo Html::a(
     'Записаться',
   ['#'],
   [ 'data-toggle' => 'modal',
     'data-target' => '#idmodal',
+    'data-which' => '1',
     'class' => 'send-price call-back'
   ]
-    ); ?>
+    ); 
+
+$this->registerJs(<<<JS
+
+$('#idmodal').on('show.bs.modal', function(e) {
+  var which = e.relatedTarget.dataset.which;
+        //var newspan = document.createElement('div');
+        //newspan.className = "wpacket";
+if (which==1) {
+          $("#wrapacket").text('"Дневной"');
+
+ $("#contact-form").append('<div class="form-group field-forma-from required"><input type="hidden" id="forma-from" class="form-control" name="Forma[pack]" value="Дневной"><p class="help-block help-block-error"></p></div>');
+
+
+  } else if (which==2)
+  {
+$("#wrapacket").text('"Стандарт"');
+ $("#contact-form").append('<div class="form-group field-forma-from required"><input type="hidden" id="forma-from" class="form-control" name="Forma[pack]" value="Стандарт"><p class="help-block help-block-error"></p></div>');
+
+  } else if (which==3) 
+  {
+$("#wrapacket").text('"Индивидуальный"');
+ $("#contact-form").append('<div class="form-group field-forma-from required"><input type="hidden" id="forma-from" class="form-control" name="Forma[pack]" value="Индивидуальный"><p class="help-block help-block-error"></p></div>');
+
+  };
+
+});
+
+JS
+, yii\web\View::POS_READY); ?>
  </div>
         </div>
         </div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
 
-        <div class="span3" style="margin-left: 60px;" data-nohover="0">
+        <div class="span3" style="margin-left: 20px;" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
 <p>Удобней для всех</p>
 <p>от 20 000 р. </p>
+<div class="little little2"><p>Практические занятия:</p>
+    <p>с 16:00 до 20:00 Вт.-Сб.</p>
+    <p>Теоретические занятия:</p>
+    <p>с 18:00 до 20:00 Вт.,Чт.</p>    </div>
           </div>
-          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 25px;" href="#" role="button" data-info="Индивидуальный">Записаться</a></div>
+          <div class="butt">
+            <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '2',
+    'class' => 'send-price call-back'
+  ]
+    ); ?>
+
+
+
+          </div>
         </div></div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
 
-        <div class="span3" style=" margin-left: 60px;" data-nohover="0">
+        <div class="span3" style=" margin-left: 20px;" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
 <p>Вы выбираете,<br/>Мы исполняем </p>
-<p>от 30 000 р. </p>       
+<p>от 30 000 р. </p>  
+<div class="little little3"><p>Индивидуальный график</p>
+<p>занятий составляем</p>
+    <p> по вашему желанию</p>
+  </div>
+
           </div>
-          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 0px;" href="#" role="button" data-info="Стандарт">Записаться</a></div>
+          <div class="butt">
+            <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '3',
+    'class' => 'send-price call-back '
+  ]
+    ); ?></div>
         </div>    </div>    
       </div></div>
 
@@ -274,9 +375,8 @@ Modal::end();
         style="border-style: none;width: 100%; height: 320px;"></iframe>
  -->
 
-  <br/><br/>
 
- <h5 style="margin-top:290px;font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5>
+ <h5 style="font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5>
 <br/>
  <p style="">На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
 

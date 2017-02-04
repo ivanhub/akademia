@@ -1348,3 +1348,13 @@ font-size:35px !important;
 .gallery-view .panel-default > .panel-heading {
 /*    background: rgba(183, 175, 153, 0.74) !important;*/
 }
+
+
+
+@media (min-width:768px) {
+#b h5 {margin-top:420px;} 
+}	
+
+@media (max-width:768px) {
+#b h5 {margin-top:0px;} 
+}

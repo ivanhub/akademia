@@ -4,6 +4,11 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 
+use frontend\components\ModalWidget;
+
+
+
+
  $controllerl = Yii::$app->controller;
  $homecheker = $controllerl->id.'/'.$controllerl->action->id;
 
@@ -32,7 +37,8 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 
 <?php  
- 
+//  echo ModalWidget::widget();
+
   if($homecheker=='site/index')
   {
     echo '<div class="logo-akademia hvr-up onload-logo" ></div>';
@@ -51,7 +57,18 @@ $tablet = Yii::$app->mobileDetect->isTablet();
  <p class="logotextbottom">Лицензия № 4913 от 16.04.2013 г. </p> 
 </div>
 <div class="col-lg-offset-4 col-lg-3 col-md-offset-2 col-md-4 col-sm-5 text-right rightblock"><p class="phone"><a href="tel:8846255-69-99"> +7 (846) 255-69-99</a></p>
-<p class="take"><a href class="hvr-wobble-horizontal">Запись ОН-ЛАЙН</a></p>
+<p class="take">
+<?php    echo Html::a(
+    'Запись ОН-ЛАЙН',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '0',
+    'class' => 'hvr-wobble-horizontal'
+  ]
+    ); ?>
+
+</p>
 </div>
 
 </div>
@@ -92,3 +109,6 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 
 </header>
+
+
+

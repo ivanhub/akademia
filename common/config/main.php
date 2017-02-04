@@ -6,7 +6,33 @@ return [
          'gallery' => [
             'class' => 'onmotion\gallery\Module',
         ], ],
+  
     'components' => [
+        'formatter' => [
+          'class' => 'yii\i18n\Formatter',
+          'dateFormat' => 'php:d-M-Y',
+          'datetimeFormat' => 'php:d-M-Y H:i:s',
+           'timeFormat' => 'php:H:i:s',
+            ],
+     'mailer' => [
+        'class' => 'yii\swiftmailer\Mailer',
+        'viewPath' => '@common/mail',
+        'htmlLayout' => 'layouts/html',
+        'textLayout' => 'layouts/text',
+        'messageConfig' => [
+            'charset' => 'UTF-8',
+            'from' => ['noreply@site.com' => 'Site Name'],
+        ],
+        'useFileTransport' => true,
+           'transport' => [
+            'class' => 'Swift_SmtpTransport',
+            'host' => 'smtp.gmail.com',
+            'username' => 'inmonitors@gmail.com',
+            'password' => 'noviypass12',
+            'port' => '587',
+            'encryption' => 'tls',
+                        ],
+    ],
     'view' => [
             'theme' => [
                 'pathMap' => [
@@ -42,7 +68,7 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
              'rules' => [
-            '<alias:contacts2|contacts|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
+            '<alias:createwidget|feedform|feedForm|contacts2|contacts|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
             '<alias:dop-uslugi>' =>  'site/dopuslugi', 
             '<alias:safety-driving>' =>  'site/safetydriving', 
             '<alias:postupayushchim>' =>  'site/incoming', 

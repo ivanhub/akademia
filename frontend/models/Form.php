@@ -4,38 +4,50 @@ namespace frontend\models;
 
 use Yii;
 
+/**
+ * This is the model class for table "form".
+ *
+ * @property integer $Id
+ * @property string $name
+ * @property string $email
+ * @property string $body
+ * @property integer $from
+ */
 class Form extends \yii\db\ActiveRecord
 {
+    /**
+     * @inheritdoc
+     */
     public static function tableName()
-{
-    return 'feedback';
-}
+    {
+        return 'form';
+    }
 
-
- public function rules()
+    /**
+     * @inheritdoc
+     */
+    public function rules()
     {
         return [
-            // name, email, subject and body are required
-            [['name', 'email', 'subject', 'body'], 'required'],
-            [['email'], 'string', 'max' => 200 ],
-            // email has to be a valid email address
-            ['email', 'email'],
-            // verifyCode needs to be entered correctly
-          //  ['verifyCode', 'captcha'],
+            [['name', 'email', 'body'], 'required'],
+            [['body'], 'string'],
+            [['from'], 'integer'],
+            [['name'], 'string', 'max' => 30],
+            [['email'], 'string', 'max' => 50],
         ];
     }
 
-  public function attributeLabels()
+    /**
+     * @inheritdoc
+     */
+    public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-             'verifyCode' => 'Подтвердите код',
-            'name' => 'Имя',
-            'email' => 'Электронный адрес',
-            'subject' => 'Тема',
-            'body' => 'Сообщение',
+            'Id' => 'ID',
+            'name' => 'Name',
+            'email' => 'Email',
+            'body' => 'Body',
+            'from' => 'From',
         ];
     }
-
-
 }

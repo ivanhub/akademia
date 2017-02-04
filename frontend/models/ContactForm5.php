@@ -7,7 +7,7 @@ use yii\db\ActiveRecord;
 /**
  * ContactForm is the model behind the contact form.
  */
-class ContactForm extends \yii\db\ActiveRecord
+class ContactForm5 extends \yii\db\ActiveRecord
 {
     public $name;
     public $email;
@@ -54,7 +54,7 @@ class ContactForm extends \yii\db\ActiveRecord
 
 
 
- public function contact($email)
+ public function contact555($email)
     {
         if ($this->validate()) {
             Yii::$app->mailer->compose()

@@ -11,7 +11,9 @@ use common\models\LoginForm;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
-use frontend\models\ContactForm2;
+use frontend\models\ContactForm;
+use frontend\models\Forma;
+
 
 
 class SiteController extends Controller
@@ -32,6 +34,11 @@ class SiteController extends Controller
             ],
         ];
     }
+
+      public function actionTestMailer() {
+        \app\models\User::findByUsername('admin')->sendMail('example', 'Пример письма', ['paramExample' => '123']);
+    }
+
 
     public function actionIndex()
     {
@@ -54,16 +61,44 @@ class SiteController extends Controller
 
       public function actionB()
     {
-         
-        return $this->render('B');
-    }
+       
+    $model = new Forma();
+        if ($model->load(Yii::$app->request->post()) && $model->validate() && $model->save() && $model->sendEmail()) {
+       //  Yii::$app->session->setFlash('contactFormSubmitted');
+Yii::$app->session->setFlash('success', 'Спасибо, что обратились к Нам. Мы ответим Вам в ближайшее время.');
 
+
+/*
+$script = <<< JS
+   $(".allert-success").animate({opacity: 1.0}, 3000).fadeOut("slow");
+
+JS;
+$this->registerJs($script, yii\web\View::POS_READY);*/
+
+   //Yii::$app->session->setFlash('success', 'Спасибо, что обратились к Нам. Мы ответим Вам в ближайшее время.');
+
+
+   /* }
+ else {
+/*                Yii::$app->session->setFlash('error', 'Ошибка при отправке email.'); }
+*/          //return $this->renderAjax('delete');
+            return $this->refresh();
+
+}
+ else { return $this->render('B',[ 'model' => $model,]);
+}
+}
           public function actionA()
     {
          
         return $this->render('A');
     }
 
+ public function actionCreatewidget(){
+
+        return $this->render('modalwidget');
+
+    }
 
     public function actionRaspisanie()
     {
@@ -105,20 +140,100 @@ class SiteController extends Controller
          
         return $this->render('gallery/default/index.php');
     }
-*/
+*/  
     public function actionContact()
     {
        return $this->render('contact');
        
     }
+
+
+    public function actionFeedform()
+{
+       $model = new Forma();
+       return $this->renderAjax('contacts', [
+                'model' => $model,
+        ]);
+
+}
+
   public function actionContacts2()
    {
-        $model = new ContactForm2();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-                            Yii::$app->session->setFlash('contactFormSubmitted');
+/*
+          $model->name = $_POST['ContactForm']['name'];
+          $model->phone = $_POST['ContactForm']['phone'];
+          $model->body = $_POST['ContactForm']['body'];
+          $model->from = $_POST['ContactForm']['from'];*/
+           /*$model->date = Yii::$app->formatter->asDateTime('now', 'long'); */
+
+/* Yii::$app
+            ->mailer
+compose(
+                ['html' => 'passwordResetToken-html', 'text' => 'passwordResetToken-text'],
+                ['user' => $user]
+            )
+            ->setFrom([Yii::$app->params['adminEmail'] => Yii::$app->name . ' robot'])
+            ->setTo('test-11@list.ru')
+            ->setSubject('Password reset for ' . Yii::$app->name)
+            ->send();
+    }
+
+   Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['content' => 'blabla'])
+    ->setFrom([Yii::$app->params['adminEmail'] => 'Test Mail'])
+    ->setTo('test-11@list.ru')
+    ->setSubject('This is a test mail ' )
+    ->send();}
+
+*/
+
+
+    $model = new ContactForm();
+
+ if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+
+          $model->name = $_POST['ContactForm']['name'];
+          $model->phone = $_POST['ContactForm']['phone'];
+          $model->body = $_POST['ContactForm']['body'];
+          $model->from = $_POST['ContactForm']['from'];
+
+
+
+        $forma = new Forma();
+    $forma->name = $model->name;
+    $forma->phone = $model->phone;
+    $forma->body = $model->body;
+    $forma->from = $model->from;
+    $forma->save();
+    Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => $model->body, 'phone' => $model->phone, 'name'=>$model->name])
+    ->setFrom(Yii::$app->params['supportEmail'])
+    ->setTo(Yii::$app->params['adminEmail'])
+    ->setSubject('Заявка с сайта' )
+    ->setTextBody($model->body)
+    ->send();
+
+
+
+  return $this->render('contacts', [
+                'model' => $model, 
+                'success' => true,
+                'error' => false,
+            ]);
+} else {
+    if (isset($_POST["address"])) $error = true;
+    else $error = false;
+  return $this->render('contacts', [
+                'model' => $model, 
+                'success' => false,
+                'error' => true,
+            ]);
+}
+
+
+/* $model->contact(Yii::$app->params['adminEmail'])) {
+                Yii::$app->session->setFlash('success', 'Спасибо, что обратились к Нам. Мы ответим Вам как можно скорее.');
 
             if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-                Yii::$app->session->setFlash('success', 'Спасибо, что обратились к Нам. Мы ответим Вам как можно скорее.');
+                Yii::$app->session->setFlash('success', 'Спасибо22, что обратились к Нам. Мы ответим Вам как можно скорее.');
             } else {
                 Yii::$app->session->setFlash('error', 'Ошибка при отправке email.');
             }
@@ -127,7 +242,7 @@ class SiteController extends Controller
         } 
             return $this->render('contacts', [
                 'model' => $model,
-            ]);
+            ]);*/
        
     }
 

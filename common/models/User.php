@@ -23,6 +23,18 @@ use yii\web\IdentityInterface;
  */
 class User extends ActiveRecord implements IdentityInterface
 {
+
+        public $email;
+private static $users = [
+        '100' => [
+            'name' => 'admin',
+            'email' => 'admin@site.com',
+        ],
+        '101' => [
+            'name' => 'demo',
+            'email' => 'demo@site.com',
+        ],
+    ];
     const STATUS_DELETED = 0;
     const STATUS_ACTIVE = 10;
 
@@ -185,5 +197,35 @@ class User extends ActiveRecord implements IdentityInterface
     public function removePasswordResetToken()
     {
         $this->password_reset_token = null;
+    }
+}
+
+
+
+class User extends \yii\base\Object implements \yii\web\IdentityInterface
+{
+    ...
+    
+    /**
+     * @param string $view
+     * @param string $subject
+     * @param array $params
+     * @return bool
+     */
+    public function sendMail($view, $subject, $params = []) {
+        // Set layout params
+        \Yii::$app->mailer->getView()->params['userName'] = $this->username;
+
+        $result = \Yii::$app->mailer->compose([
+            'html' => 'views/' . $view . '-html',
+            'text' => 'views/' . $view . '-text',
+        ], $params)->setTo([$this->email => $this->username])
+            ->setSubject($subject)
+            ->send();
+
+        // Reset layout params
+        \Yii::$app->mailer->getView()->params['userName'] = null;
+
+        return $result;
     }
 }

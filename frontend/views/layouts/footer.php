@@ -67,6 +67,7 @@ use yii\helpers\Html;
 </footer>
 
 
+
 <!-- Copyright © 2017 АНО НПО “Академия”
 <footer class="footer">
     <div class="container">
