@@ -10,6 +10,12 @@ use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
+use yii\bootstrap\ActiveForm;
+
+use yii\base\Widget;
+use frontend\components\TesttWidget;
+
+
 AppAsset::register($this);
 $controll = Yii::$app->controller;
 $action = $controll->action->id;
@@ -39,7 +45,28 @@ $action = $controll->action->id;
 <body id="<?php echo $action; ?>" >
 
 
-<?php $this->beginBody() ?>
+<?php $this->beginBody() 
+
+/*
+ TesttWidget::begin()
+
+$form = ActiveForm::begin(['id' => 'contact-form',]); 
+echo  $form->field($model, 'name')->label('Ваше Имя <sup>*</sup>')->textInput(['placeholder'=>"Введите Ваше Имя"]);
+//echo $form->field($model, 'phone')->label('Номер телефона')->textInput(['placeholder'=>"+7 (__) ___-____"]);
+echo $form->field($model, 'phone')->label('Номер телефона <sup>*</sup>')->widget(MaskedInput::className(),['mask' => '(999) 999-9999']); 
+
+echo $form->field($model, 'body')->textArea(['rows' => 6])->label('Комментарии'); 
+echo $form->field($model, 'from')->hiddenInput(['value'=> '7'])->label(false);
+
+echo ' <div class="form-group">';
+
+echo Html::submitButton('Отправить', ['class' => 'btn btn-primary btn-success', 'name' => 'contact-button']) ;
+echo ' </div>';
+ ActiveForm::end(); 
+TesttWidget::end() 
+*/
+
+?>
 
 <div class="page">
 

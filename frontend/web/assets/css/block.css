@@ -524,15 +524,15 @@ opacity: 1;
 
 
 #idmodal h3, #idmodal h3 {
-    margin: 0;
+    margin: 8px 0 0;
     text-align: center;
     color: #488e57;
 }
 
 
 #idmodal .modal-header {
-    padding: 7px 15px;
-    border-bottom: 1px solid #e5e5e5;
+    padding: 5px 12px;
+    border-bottom: 1px solid #829a87;
 }
 .sel p {font-weight:700; display:inline;}
 

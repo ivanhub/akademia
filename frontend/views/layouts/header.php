@@ -1,11 +1,17 @@
-<?PHP
+<?php
+/* @var $this yii\web\View */
+/* @var $form yii\bootstrap\ActiveForm */
+/* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 
-use frontend\components\ModalWidget;
-
+use yii\bootstrap\ActiveForm;
+use frontend\components\ModalForm;
+use frontend\models\Forma;
+use yii\base\Widget;
+use yii\helpers\Url;
 
 
 
@@ -36,8 +42,14 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 <div class="col-sm-3 col-xs-3 forlogo" >
 
 
+<?php $forma = new Forma(); ?>
+<?= ModalForm::widget(['model' => $forma]) ?>
+
 <?php  
 //  echo ModalWidget::widget();
+  
+
+
 
   if($homecheker=='site/index')
   {
