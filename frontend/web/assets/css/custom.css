@@ -1352,11 +1352,11 @@ font-size:35px !important;
 
 
 @media (min-width:768px) {
-#b h5 {margin-top:420px;} 
+.m420 {margin-top:420px;} 
 }	
 
 @media (max-width:768px) {
-#b h5 {margin-top:0px;} 
+.m420 {margin-top:0px;} 
 }
 
 

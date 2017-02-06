@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<!-- <?= Html::encode($this->title) ?> -->
+<!--  Html::encode($this->title) -->
 
 <div class="site-automotoschool siteblock">
    
@@ -376,7 +376,7 @@ JS
  -->
 
 
- <h5 style="font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5>
+ <h5 class="m420" style="font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5>
 <br/>
  <p style="">На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
 
@@ -521,10 +521,9 @@ YBR125 ESD
 </div>
 </div>
 </div>
-</div>
 
 
-          <button class="md-trigger send-price call-back" data-modal="modal-3">Записаться</button>
+          <!--    <button class="md-trigger send-price call-back" data-modal="modal-3">Записаться</button>
 
     <div class="md-modal md-effect-3" id="modal-3">
       <div class="md-content">
@@ -541,5 +540,6 @@ YBR125 ESD
       </div>
     </div>
 
-    <div class="md-overlay"></div><!-- the overlay element -->
- <?php Yii::$app->view->registerJsFile('/assets/js/modals.js',  ['depends' => 'yii\web\JqueryAsset']); ?> 
+ <div class="md-overlay"></div>the overlay element
+      Yii::$app->view->registerJsFile('/assets/js/modals.js',  ['depends' => 'yii\web\JqueryAsset']); 
+     -->
