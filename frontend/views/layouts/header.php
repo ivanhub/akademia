@@ -53,11 +53,11 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
   if($homecheker=='site/index')
   {
-    echo '<div class="logo-akademia hvr-up onload-logo" ></div>';
+    echo '<a href="http://front.loc"><div class="logo-akademia hvr-up onload-logo" ></div></a>';
     
   }else
   { 
-   echo '<div class="logo-akademia hvr-up animated fadeIn" ></div>';
+   echo '<a href="http://front.loc"><div class="logo-akademia hvr-up animated fadeIn" ></div></a>';
 
   } ?>
 <!-- <img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->

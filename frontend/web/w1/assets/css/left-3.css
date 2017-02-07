@@ -1,10 +1,23 @@
-.menu a { color:darkgreen;     font-family: 'Myriadprocond', serif; font-size:20px}
+.menu a { color:darkgreen;     font-family: 'Myriadprocond', serif; font-size:19px}
 
-.menuItem:hover >  span a{color:#f3f3f3;}
+#.menuItem:hover >  span a{color:#f3f3f3;}
+
+.1vk {	background: url(../../images/pics/menu-tw.png) top right !important;
+	background-repeat: no-repeat;
+width:140px;
+}
+
+.vk p {margin-left:10px;}
+
 
 .menu {
-border-radius: 4px;
-  position: fixed;
+top:25px;
+	height: 220px;
+	background: url(../../images/pics/menu-126.png) !important;
+	background-repeat: no-repeat;
+	padding-top: 39px;
+	border-radius: 4px;
+	position: relative;
 /*  height: 100%;*/
   width: 185px;
 /*  background: #2c3e50;
@@ -15,16 +28,31 @@ border-radius: 4px;
   overflow: hidden;
   font-family: 'Michroma', sans-serif;
   z-index: 99;
+
+margin-left: 25px;
+
+}
+
+
+.menuItem {
+  position: relative;
+  padding: 6px;
+  transition:border .5s, background .2s;  
+  top:-8px;
+  margin-left:-10px;
+  width:190px;
 }
 
 
 .menuItem span {
   position: relative;
-  left:20px;
+  left:30px;
   top:0;
   transition:color 1s;
   color:rgba(255,255,255,.8);
   font-weight:500;
+
+
 }
 
 
@@ -32,48 +60,44 @@ border-radius: 4px;
  color:rgba(255,255,255,1);
 }
 
-.menuItem {
-  position: relative;
-  padding: 6px;
-  transition:border .5s, background .2s;  
-}
 
 .menuItem:hover {
 /*  background: #34495e; */
    background: #bcdcc2;
   cursor: pointer;
+
 }
 
 .uno {
-  border-left:5px solid #16a085;
+  border-left:5px solid #7ebc86;
 }
 
-.uno:hover{
-  border-left:20px solid #16a085;
+.1uno:hover{
+  border-left:20px solid #7ebc86;
 }
 
 .dos {
- border-left:5px solid #2980b9;
+ border-left:5px solid #57a769;
 }
 
-.dos:hover {
- border-left:20px solid #2980b9;
+.1dos:hover {
+ border-left:20px solid #57a769;
 }
 
 .tres {
-  border-left:5px solid #8e44ad;
+  border-left:5px solid #498a51;
 }
 
-.tres:hover {
-  border-left:20px solid #8e44ad;
+.1tres:hover {
+  border-left:20px solid #498a51;
 }
 
 .cuatro {
-  border-left:5px solid #e67e22;
+  border-left:5px solid #286f39;
 }
 
-.cuatro:hover {
-  border-left:20px solid #e67e22;
+.1cuatro:hover {
+  border-left:20px solid #286f39;
 }
 
 .cinco {
@@ -83,3 +107,30 @@ border-radius: 4px;
 .cinco:hover {
  border-left:20px solid #e74c3c;
 }
+
+
+
+ /*
+
+.menuItem {
+    /* border: 1px solid; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 9px;
+    transform: skew(-15deg);
+    width: 140px !important;
+    left: 5px;
+}
+
+
+.menuItem:after {
+    transform: skew(15deg) !important;
+    border-left: 5px solid black !important;
+}
+
+
+.menuItem span a {
+    transform: skew(15deg) !important;
+    display: block;
+} */

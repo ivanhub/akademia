@@ -4,7 +4,7 @@
   width: 200px;
   margin: 20px auto;
 }
-.link-menu ul li {
+/*.link-menu ul li {
   display: block;
   text-transform: uppercase;
   height: 30px;
@@ -13,7 +13,21 @@
   position: relative;
   border-radius: 4px;
   background: #50a35b;
+} */
+
+.link-menu ul li {
+    display: block;
+    /* text-transform: uppercase; */
+    height: 30px;
+    width: 180px;
+    margin-bottom: 3px;
+    position: relative;
+    border-radius: 4px;
+    background: #50a35b;
+    transform: skew(25deg);
 }
+
+
 .link-menu ul li:last-child {
   margin-bottom: 0;
 }

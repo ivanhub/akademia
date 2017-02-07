@@ -35,12 +35,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<div class="menu hidden-sm">
-  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Поступающим</a></span></div>
-  <div class="menuItem dos"><span><a style="color:;" href="/students">Учащимся</a></span></div>
-  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Расписание</a></span></div>
-  <div class="menuItem cuatro"><span><a href>Доп. услуги</a></span></div>
+<div class="menu">
+  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Запись на обучение</a></span></div>
+  <div class="menuItem dos"><span><a style="color:;" href="/students">Расписание занятий</a></span></div>
+  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Наши преимущества</a></span></div>
+  <div class="menuItem cuatro"><span><a href="/dop-uslugi">Доп. услуги</a></span></div>
  </div>
+
 
 
 

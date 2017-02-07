@@ -76,7 +76,7 @@ $this->registerJs(<<<JS
     var form = $(this);
     var formData = form.serialize();
     $.ajax({
-        url: form.attr("action"),
+       // url: form.attr("action"),
         type: form.attr("method"),
         data: formData,
         success: function (result) {

@@ -16,6 +16,7 @@ $this->title = 'Галерея';
 $this->params['breadcrumbs'][] = $this->title;
 
 ?>
+<h1 style="text-align:center">Галерея </h1>
 <div class="gallery-index">
 
             <?php

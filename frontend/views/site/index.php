@@ -97,17 +97,17 @@ $this->title = 'Учебный центр "Академия"';
   <div class="col-sm-12 col-md-3 right-aside">
   <aside>
   <h4 >Акции</h4>
-  <div class="saleblock">
-  <img src="../../images/pics/banner12.png" class="saleimg" >
-    <!--  <p>Новогодняя акция - Скидка 15%!</p>
-                 <p>[Подробнее] </p> -->
-            </div>
-              <div class="saleblock">
-  <img src="../../images/pics/banner5.png" class="saleimg" style="margin-top:40px">
-    <!--  <p>Новогодняя акция - Скидка 15%!</p>
-                  <p>[Подробнее] </p> -->
-            </div>
-
+   <div class="saleblock">
+ <img src="../../images/pics/banner12.png" class="saleimg" width="200px" >
+ <!--  <p>Новогодняя акция - Скидка 15%!</p>
+               <p>[Подробнее] </p> -->
+           </div>
+             <div class="saleblock">
+ <img src="../../images/pics/banner5.png" class="saleimg" width="200px" style="margin-top:40px">
+<!--    <p>Новогодняя акция - Скидка 15%!</p>
+              <p>[Подробнее] </p> -->
+           </div>
+ 
 
   <!--             <div class="saleblock">
   <img src="https://dummyimage.com/240x120/989898/000000.png" class="saleimg">

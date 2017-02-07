@@ -56,7 +56,7 @@ JS
                         ];
                 };
             } else {
-                echo 'There is no photos yet...';
+                echo 'Нет загруженных фото...';
             }
             ?>
             <div class="row">

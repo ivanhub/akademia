@@ -48,10 +48,11 @@ Yii::$app->getSession()->setFlash('success', [
 unset($_POST['Forma']);
 unset($GLOBALS['Forma']);
 
-echo $this->render('Header',  ['model' => $model]);
+$success=true;
+return json_encode($success);
         
     }	else
-    {  echo $this->render('Header',  ['model' => $model]); 	}
+    {  return $this->render('Header',  ['model' => $model]); 	}
 	
 }
 }

@@ -1,25 +1,31 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="format-detection" content="telephone=no">
     <meta name="csrf-param" content="_csrf-frontend">
-    <meta name="csrf-token" content="U2JReC5YR1QxDwM7XhkfDh8QGDBPYQ1tHlsYLWQINSM4VCEddjkoJw==">
+    <meta name="csrf-token" content="a0hBWjJaSWYAfBYXQCgLBA4XLgtcEAo2Dns2HR8qIDQaKnZpfiMOFw==">
     <title>Учебный центр &quot;Академия&quot;</title>
-    <link href="/assets/b70609cf/css/bootstrap.css?v=1484553548" rel="stylesheet">
-<link href="/assets/css/bootstrap.css?v=1485759909" rel="stylesheet">
-<link href="/assets/css/custom.css?v=1485775246" rel="stylesheet">
-<link href="/assets/css/custom1.css?v=1485750347" rel="stylesheet">
-<link href="/assets/css/custom26.css?v=1485838986" rel="stylesheet">
+    <link href="/assets/c54e97fe/css/bootstrap.css?v=1469461915" rel="stylesheet">
+<link href="/assets/css/custom.css?v=1486449025" rel="stylesheet">
+<link href="/assets/css/custom1.css?v=1486444033" rel="stylesheet">
+<link href="/assets/css/custom26.css?v=1486469811" rel="stylesheet">
 <link href="/assets/css/boxes2.css?v=1485776095" rel="stylesheet">
-<link href="/assets/css/allanim.css?v=1485444552" rel="stylesheet">
-<link href="/assets/css/left.css?v=1485840584" rel="stylesheet">
+<link href="/assets/css/allanim.css?v=1486385549" rel="stylesheet">
+<link href="/assets/css/breadcrumb.css?v=1485952733" rel="stylesheet">
+<link href="/assets/css/left.css?v=1485864842" rel="stylesheet">
 <link href="/assets/css/left-a.css?v=1485840979" rel="stylesheet">
-<link href="/assets/css/left-3.css?v=1485847178" rel="stylesheet">
-<link href="/assets/css/left-4-1.css?v=1485851513" rel="stylesheet">
+<link href="/assets/css/left-3.css?v=1486105453" rel="stylesheet">
+<link href="/assets/css/left-4-1.css?v=1485862832" rel="stylesheet">
 <link href="/assets/css/good-left.css?v=1485850279" rel="stylesheet">
+<link href="/assets/css/topmenu.css?v=1486444038" rel="stylesheet">
+<link href="/assets/css/font-awesome.css?v=1485945930" rel="stylesheet">
+<link href="/assets/css/block.css?v=1486454841" rel="stylesheet">
 
 
 </head>
@@ -36,27 +42,72 @@
 
 
 
-<header class="page-header">
+<header class="page-header1">
 
 
 
-<div class="navbar-panel-inner container">
+<div class="navbar-panel-inner container"><div class="backgr">
 <div class="header-top row ">
 
 
 <div class="col-sm-3 col-xs-3 forlogo" >
 
 
-<div class="logo-akademia hvr-up onload-logo" ></div><!-- <img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->
+
+<div id="idmodal" class="fade modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h3>Онлайн заявка на обучение</h3>
+</div>
+<div class="modal-body">
+ <div class="row"><div class="col-xs-12 modal-md-12"><div class="sel text-center"><p id="wrapacket" style="font-weight:700"></p></div><br/><form id="contact-form" action="/" method="post" enableAjaxValidation validateOnSubmit>
+<input type="hidden" name="_csrf-frontend" value="a0hBWjJaSWYAfBYXQCgLBA4XLgtcEAo2Dns2HR8qIDQaKnZpfiMOFw=="><div class="form-group field-forma-name required">
+<label class="control-label" for="forma-name">Ваше Имя <sup>*</sup></label>
+<input type="text" id="forma-name" class="form-control" name="Forma[name]" placeholder="Введите Ваше Имя" aria-required="true">
+
+<p class="help-block help-block-error"></p>
+</div><div class="form-group field-forma-phone required">
+<label class="control-label" for="forma-phone">Номер телефона <sup>*</sup></label>
+<input type="text" id="forma-phone" class="form-control" name="Forma[phone]" data-plugin-inputmask="inputmask_e4f2ec36">
+
+<p class="help-block help-block-error"></p>
+</div><div class="form-group field-forma-body">
+<label class="control-label" for="forma-body">Комментарий</label>
+<textarea id="forma-body" class="form-control" name="Forma[body]" rows="6"></textarea>
+
+<p class="help-block help-block-error"></p>
+</div><div class="form-group field-forma-fromfield required">
+
+<input type="hidden" id="forma-fromfield" class="form-control" name="Forma[fromfield]" value="1">
+
+<p class="help-block help-block-error"></p>
+</div><div class="form-group field-forma-pack">
+
+<input type="hidden" id="forma-pack" class="form-control" name="Forma[pack]" value="Запись онлайн">
+
+<p class="help-block help-block-error"></p>
+</div> <div class="form-group text-center"><button type="submit" class="btn btn-primary btn-success" name="contact-button">Отправить</button> </div></form></div></div>
+</div>
+<div class="modal-footer">
+Вы сделали правильный выбор, обратившись в нашу компанию. 
+</div>
+</div>
+</div>
+</div>
+<a href="http://front.loc"><div class="logo-akademia hvr-up onload-logo" ></div></a><!-- <img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->
 </div>
 <div class="col-md-3 col-sm-4 col-xs-5">
 
-<img class="logotop anilogo fadeIn" src="../images/rosauto3.png" width="540px">
-<!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>
- <p class="logotextbottom">Обучение всем видам вождения! </p> -->
+<img class="logotop anilogo fadeIn" src="http://front.loc/images/rosauto3.png" width="540px">
+<!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>-->
+ <p class="logotextbottom">Лицензия № 4913 от 16.04.2013 г. </p> 
 </div>
-<div class="col-lg-offset-4 col-lg-3 col-md-offset-2 col-md-4 col-sm-5 text-right rightblock"><p class="phone">+7 (846) 255-69-99</p>
-<p class="take"><a href class="hvr-wobble-horizontal">Запись ОН-ЛАЙН</a></p>
+<div class="col-lg-offset-4 col-lg-3 col-md-offset-2 col-md-4 col-sm-5 text-right rightblock"><p class="phone"><a href="tel:8846255-69-99"> +7 (846) 255-69-99</a></p>
+<p class="take">
+<a class="hvr-wobble-horizontal" href="/site/#" data-toggle="modal" data-target="#idmodal" data-which="0">Запись ОН-ЛАЙН</a>
+</p>
 </div>
 
 </div>
@@ -69,19 +120,27 @@
 
 <div class="wrap  animated fadeIn" data-spy="affix" data-offset-top="100">
 <div class="logo46"></div>
-    <nav id="w0" class="navbar navbar-default navshadow skew-menu centering" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
+    <nav id="w0" class="navbar navbar-default navshadow skew-menu centering"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span></button></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right interface nav"><li><a href="/">Главная</a></li>
 <li><a href="/distance">Дистанционное обучение</a></li>
 <li><a href="/">Галерея</a></li>
+<li><a href="/">Об организации</a></li>
 <li><a href="/contact">Контакты</a></li></ul></div></div></nav></div>
-</div>
+</div></div>
 
 
 </header>
-    <div class="container">
-                        
+
+
+
+
+    <div class="container mainb"><div class="backgr">
+    <!-- <div id="breadcrumb"> -->
+        <!--         </div> -->
+        
+        
 <div class="page-loader">
 <div>
 <div class="page-loader-body">
@@ -124,20 +183,22 @@
   </div> 
   </div>
   </div>   --> 
- <section class="main container">
+ <section class="main ">
 
 <div class="row">
- <div class="col-md-9 col-sm-12 text-left mainbox">
+ <div class="col-md-offset-1 col-md-9 col-sm-12 text-left mainbox">
 
  <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12  box1  cl-effect-12">
 <a style="display:block" href="/automotoschool">
-<img class="hvr-bounce-in" src="../images/1car.png" width="365px">
+<img class="hvr-bounce-in" src="../images/1car.png" width="465px">
 <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p></a>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12 box2 cl-effect-12">
-<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325px" style="margin-top: -1px;"  margin-left: -5px;>
+<a style="display:block" href="/samohodnaya-tehnika">
+<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="425px" style="margin-top: -1px;"  margin-left: -5px;>
 <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
+</a>
 </div>
 
 
@@ -149,35 +210,36 @@
   <div class="clearfix visible-sm"></div>
 <div class="col-md-6 col-sm-6 col-xs-12 box3  cl-effect-12">
 <a style="display:block" href="/gallery">
-<img class="boat" src="../images/boat77.png" width="323px" style="margin-top: -5px;" >
+<img class="boat" src="../images/boat77.png" width="423px" style="margin-top: -5px;" >
 <p class="blocktitle  hvr-bob anim_three">Судовождение</p>
 </a>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12  box4  cl-effect-12">
 <a style="display:block" href="/safety-driving"> <!-- 22 -->
-<img class="hvr-wobble-top" src="../images/yellow.png" width="405px" style="margin-top: 10px;     margin-left: 30px;">
+<img class="hvr-wobble-top" src="../images/yellow.png" width="505px" style="margin-top: 10px;     margin-left: 30px;">
 <p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
 </a>
 </div></div>
+
+
 </div> 
 <br><br> 
 
 
-
   <div class="col-sm-12 col-md-3 right-aside">
   <aside>
-  <h4 >Акции</h4>
-  <div class="saleblock">
-  <img src="https://dummyimage.com/240x200/989898/000000.png" class="saleimg" >
-    <!--  <p>Новогодняя акция - Скидка 15%!</p>
-                 <p>[Подробнее] </p> -->
-            </div>
-              <div class="saleblock">
-  <img src="https://dummyimage.com/240x200/989898/000000.png" class="saleimg" style="margin-top:40px">
-    <!--  <p>Новогодняя акция - Скидка 15%!</p>
-                  <p>[Подробнее] </p> -->
-            </div>
-
+  <!--<h4 >Акции</h4>
+   <div class="saleblock">
+ <img src="../../images/pics/banner12.png" class="saleimg" >
+   <p>Новогодняя акция - Скидка 15%!</p>
+                <p>[Подробнее] </p>
+           </div>
+             <div class="saleblock">
+ <img src="../../images/pics/banner5.png" class="saleimg" style="margin-top:40px">
+   <p>Новогодняя акция - Скидка 15%!</p>
+                 <p>[Подробнее] </p>
+           </div>
+  -->
 
   <!--             <div class="saleblock">
   <img src="https://dummyimage.com/240x120/989898/000000.png" class="saleimg">
@@ -207,6 +269,12 @@
 
   </aside>
 </div>
+<br/>
+<p class="mtext" style="clear:both;">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
+Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
+Проанализировав накопившийся опыт, изучив европейскую систему подготовки водителей, 
+взяв на вооружение передовые технологии, мы разработали свои, адаптированные к нашим реалиям, 
+методики обучения.</p>
  </div>
 </div>
 
@@ -214,12 +282,10 @@
 
 
 
-    </div>
-
-
+ 
 <footer class="page-footer bg-gray-lighter">
 
-<div class="container foot1">
+<div class=" foot1">
 <div class="row">
 <div class="col-md-1 col-xs-2"></div>
 
@@ -257,29 +323,30 @@
  <p>Учащимся</p>
  <p>Дополнительные услуги</p>
 </div>
-<div class="col-md-3 col-xs-12 my"><BR/>
+<div class="col-md-3 col-xs-12 my"><div class="vk"><BR/>
 <p>Запись на занятия</p><BR/>
 <p>Мы Вконтакте</p><BR/>
 
 <p></p>
 <p></p>
-
 </div>
 </div>
 </div>
-<div class="shell container">
-<div class="row">
-<div class="rangelogo range-xs-center range-xs-middle">
-<img class="minilogo" src="../images/minlogo.png" align="left">
-<p class="pull-left">&nbsp; Copyright &copy; <span id="copyright-year">2017 АНО ДПО "Академия"</span>
+</div>
+<div class="rangelogo range-xs-center range-xs-middle text-center">
+<!-- <img class="minilogo" src="http://front.loc/images/minlogo.png" align="left"> -->
+<p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year">2017 АНО ДПО "Академия"</span>
  <a href="privacy-policy-link.html" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
-</div>
 
-</div>
 
 </div>
 </footer>
+
+
+
+
+<!-- <div id="w00" class="col-xs-11 col-sm-3 alert alert-custom  fadeInDown" role="alert" data-notify="container" data-notify-position="top-center" style="display: inline-block; margin: 0px auto; position: fixed; transition: all 0.5s ease-in-out; z-index: 1031; top: 20px; left: 0px; right: 0px; animation-iteration-count: 1;"><button type="button" class="close" data-notify="dismiss"><span aria-hidden="true">×</span></button><span data-notify="icon" class="fa fa-envelope"></span><span data-notify="title">Сообщение отправлено!</span><hr class="kv-alert-separator"><span data-notify="message">Спасибо, что обратились к Нам. <br/>Мы ответим Вам в ближайшее время.</span><a href="#" data-notify="url" target="_blank"></a></div> -->
 
 
 <!-- Copyright © 2017 АНО НПО “Академия”
@@ -289,9 +356,11 @@
 
         <p class="pull-right"></p>
     </div>
-</footer> -->
+</footer> --></div>   </div>
+
+
 </div>
-<div id="yii-debug-toolbar" data-url="/debug/default/toolbar?tag=58904c3df01dc" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
+<div id="yii-debug-toolbar" data-url="/debug/default/toolbar?tag=5899bc82cfd7c" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
 #yii-debug-toolbar-logo {
     position: fixed;
     right: 31px;
@@ -925,9 +994,66 @@ a.yii-debug-toolbar__label:focus {
         proxied.apply(this, Array.prototype.slice.call(arguments));
     };
 
-})();</script><script src="/assets/d1b967ce/jquery.js?v=1484553548"></script>
-<script src="/assets/b70609cf/js/bootstrap.js?v=1484553548"></script>
-<script src="/assets/js/cssrefresh.js?v=1485238909"></script><!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+})();</script><script src="/assets/f83760ab/jquery.js?v=1463765083"></script>
+<script src="/assets/c54e97fe/js/bootstrap.js?v=1469461915"></script>
+<script src="/assets/2feb7417/yii.js?v=1486442454"></script>
+<script src="/assets/2feb7417/yii.validation.js?v=1486442454"></script>
+<script src="/assets/46a674e0/jquery.inputmask.bundle.js?v=1482415422"></script>
+<script src="/assets/2feb7417/yii.activeForm.js?v=1486442454"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+var inputmask_e4f2ec36 = {"mask":"(999) 999-9999"};
+jQuery("#forma-phone").inputmask(inputmask_e4f2ec36);
+jQuery('#contact-form').yiiActiveForm([{"id":"forma-name","name":"name","container":".field-forma-name","input":"#forma-name","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Заполните поле"});yii.validation.string(value, messages, {"message":"Name must be a string.","max":30,"tooLong":"Name should contain at most 30 characters.","skipOnEmpty":1});yii.validation.regularExpression(value, messages, {"pattern":/^[a-z]|[а-я]|[A-Z]|[А-Я]\w*$/,"not":false,"message":"Имя заполнено неверно","skipOnEmpty":1});}},{"id":"forma-phone","name":"phone","container":".field-forma-phone","input":"#forma-phone","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Заполните поле"});yii.validation.string(value, messages, {"message":"Phone must be a string.","max":20,"tooLong":"Phone should contain at most 20 characters.","skipOnEmpty":1});yii.validation.regularExpression(value, messages, {"pattern":/^(?:(?:\+?\d\s*(?:[.-]\s*)?)?(?:\(\s*([0-9][0-9][0-9])\s*\)|([0-9][0-9][0-9]))\s*(?:[.-]\s*)?)?([0-9][0-9][0-9]|[0-9][0-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|д\.?|доб\.?|добавочный)\s*(\d+))?$/,"not":false,"message":"Неверный формат номера телефона","skipOnEmpty":1});}},{"id":"forma-body","name":"body","container":".field-forma-body","input":"#forma-body","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Body must be a string.","skipOnEmpty":1});}},{"id":"forma-fromfield","name":"fromfield","container":".field-forma-fromfield","input":"#forma-fromfield","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Заполните поле"});yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"Fromfield must be an integer.","skipOnEmpty":1});}},{"id":"forma-pack","name":"pack","container":".field-forma-pack","input":"#forma-pack","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Pack must be a string.","max":30,"tooLong":"Pack should contain at most 30 characters.","skipOnEmpty":1});}}], {"validationUrl":"\/validate"});
+
+
+
+  $('form').on('beforeSubmit', function(e) {
+    var form = $(this);
+    var formData = form.serialize();
+    $.ajax({
+       // url: form.attr("action"),
+        type: form.attr("method"),
+        data: formData,
+        success: function (result) {
+//     $("#w00").addClass('animated');
+//                                  $('#idmodal').modal('toggle');
+//                      setTimeout(function(){        $("#w00").removeClass('animated');
+//                        }, 3000);
+
+  //console.log(result);
+//if (result == 'true') {
+
+var modalContainer = $('#idmodal');
+var modalBody = modalContainer.find('.modal-body');
+var insidemodalBody = modalContainer.find('#contact-form');
+insidemodalBody.html(result).hide(); 
+$('.sel').html("<div class='alert alert-success'>");
+$('.sel > .alert-success').append("<strong>Спасибо! Ваше сообщение отправлено.</strong>");
+$('.sel > .alert-success').append('</div>');
+//$('.sel').css('visibility', 'visible');
+
+setTimeout(function() { // скрываем modal через 4 секунды
+$("#idmodal").modal('hide');
+//$('#w00').css('visibility', 'hidden');
+}, 4000);
+
+//}
+
+//else { modalBody.html(result).hide().fadeIn();                }
+
+
+        },
+        error: function () {
+            alert("Something went wrong");
+        }
+    });
+}).on('submit', function(e){
+    e.preventDefault();
+});
+
+
+
+});</script><!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
  -->
 <script type="text/javascript">
 
@@ -996,7 +1122,7 @@ var j=1;
 });
 
 
- var items = document.querySelectorAll("#w0-collapse ul li");
+ var items = document.querySelectorAll(".navbar-collapse ul li");
  var lastchild = items[items.length-1];
   lastchild.classList.add('last');
 
@@ -1004,7 +1130,7 @@ var j=1;
     .classList.add('first');
 
 
-var links = document.querySelectorAll('#w0-collapse ul li');
+var links = document.querySelectorAll('.navbar-collapse ul li');
 var i=1;
 [].forEach.call(links, function(item) {
       item.classList.add('fadeInUp1');
@@ -1081,14 +1207,38 @@ window.addEventListener("resize", function () {
 
 function handleClick()
 {
-
 document.getElementById("full-widthid").style.marginTop = "220px";
-
 }
+
 
 document.getElementsByTagName('button')[0].onclick=handleClick;
 
 
+
+
+ var newspan = document.createElement('span');
+ newspan.className = "icos";
+
+var childTag = document.querySelectorAll("ul li a");
+var childTag1 = document.querySelector(".first");
+
+
+for ( i = 0; i < childTag.length; i++)
+{
+   childTag[i].parentNode.insertBefore(newspan.cloneNode(true), childTag[i]);
+
+}
+document.getElementsByClassName('icos')[0].classList.add('fa','fa-home');
+document.getElementsByClassName('icos')[1].classList.add('fa','fa-graduation-cap','hvr-icon-spin');
+document.getElementsByClassName('icos')[2].classList.add('fa','fa-camera');
+document.getElementsByClassName('icos')[3].classList.add('fa','fa-file-text');
+document.getElementsByClassName('icos')[4].classList.add('fa','fa-phone');
+
+
+
+/*$("body").on("click", ".call-back", function(){
+    $('.span3').attr('data-nohover','1')
+    });*/
 };
 
 
@@ -1147,3 +1297,6 @@ document.getElementsByTagName('button')[0].onclick=handleClick;
 
 </body>
 </html>
+
+
+
