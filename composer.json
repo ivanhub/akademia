@@ -12,12 +12,13 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
+	"kartik-v/yii2-widget-growl": "*",
         "omnilight/yii2-vuejs": "^1.0",
         "alexandernst/yii2-device-detect": "^0.0.11",
         "skeeks/yii2-mobile-detect": "^1.0",

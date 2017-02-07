@@ -76,7 +76,6 @@ function isRealTemplate (node) {
 
 const tagRE = /<([\w:-]+)/
 const entityRE = /&#?\w+?;/
-const commentRE = /<!--/
 
 /**
  * Convert a string template to a DocumentFragment.
@@ -101,9 +100,8 @@ function stringToFragment (templateString, raw) {
   var frag = document.createDocumentFragment()
   var tagMatch = templateString.match(tagRE)
   var entityMatch = entityRE.test(templateString)
-  var commentMatch = commentRE.test(templateString)
 
-  if (!tagMatch && !entityMatch && !commentMatch) {
+  if (!tagMatch && !entityMatch) {
     // text only, return a single text node.
     frag.appendChild(
       document.createTextNode(templateString)
@@ -144,13 +142,10 @@ function stringToFragment (templateString, raw) {
 
 function nodeToFragment (node) {
   // if its a template tag and the browser supports it,
-  // its content is already a document fragment. However, iOS Safari has
-  // bug when using directly cloned template content with touch
-  // events and can cause crashes when the nodes are removed from DOM, so we
-  // have to treat template elements as string templates. (#2805)
-  /* istanbul ignore if */
+  // its content is already a document fragment.
   if (isRealTemplate(node)) {
-    return stringToFragment(node.innerHTML)
+    trimNode(node.content)
+    return node.content
   }
   // script template
   if (node.tagName === 'SCRIPT') {

@@ -56,15 +56,113 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="blockAB" style="margin-top:10px" >
  <div class="blockA">
  <a href="/automotoschool/A"  title="Выберите категорию">
- <img class="A1 " src="../../images/pics/aaa1.png" width="260px">
+ <img class="A1 " src="../../images/pics/aaa3.png" width="260px">
  </a></div>
 
  <div class="blockB" style="margin-left:50px;">
  <a href="/automotoschool/B">
- <img  class="A1 " src="../../images/pics/bbb1.png" width="260px" title="Выберите категорию">
+ <img  class="A1 " src="../../images/pics/bbb5.png" width="260px" title="Выберите категорию">
     </a>
 </div>
- </div> </div>
+ </div> 
+
+
+<div class="blockAB" style="margin-top:10px" >
+ <div class="blockA">
+ <a href="/automotoschool/A"  title="Выберите категорию">
+ <img class="A1 " src="../../images/pics/aaa3.png" width="260px">
+ </a></div>
+
+ <div class="blockB" style="margin-left:50px;">
+ <a href="/automotoschool/B">
+ <img  class="A1 " src="../../images/pics/bbbm1.png" width="260px" title="Выберите категорию">
+    </a>
+</div>
+ </div>
+
+
+<div class="blockAB" style="margin-top:10px" >
+ <div class="blockA">
+ <a href="/automotoschool/A"  title="Выберите категорию">
+ <img class="A1 " src="../../images/pics/aaa3.png" width="260px">
+ </a></div>
+
+ <div class="blockB" style="margin-left:50px;">
+ <a href="/automotoschool/B">
+ <img  class="A1 " src="../../images/pics/bbb8.png" width="260px" title="Выберите категорию">
+    </a>
+</div>
+ </div>
+
+ <div class="blockAB" style="margin-top:10px" >
+ <div class="blockA">
+ <a href="/automotoschool/A"  title="Выберите категорию">
+ <img class="A1 " src="../../images/pics/aaa3.png" width="260px">
+ </a></div>
+
+ <div class="blockB" style="margin-left:50px;">
+ <a href="/automotoschool/B">
+ <img  class="A1 " src="../../images/pics/bbb11.png" width="260px" title="Выберите категорию">
+    </a>
+</div>
+ </div>
+
+<div class="blockAB" style="margin-top:10px" >
+ <div class="blockA">
+ <a href="/automotoschool/A"  title="Выберите категорию">
+ <img class="A1 " src="../../images/pics/aaa3.png" width="260px">
+ </a></div>
+
+ <div class="blockB" style="margin-left:50px;">
+ <a href="/automotoschool/B">
+ <img  class="A1 " src="../../images/pics/bbb7.png" width="260px" title="Выберите категорию">
+    </a>
+</div>
+ </div>
+
+
+ <div class="blockAB" style="margin-top:10px" >
+ <div class="blockBB">
+ <a href="/automotoschool/A"  title="Выберите категорию">
+ <img class="" src="../../images/pics/aaa3333.png" width="260px">
+ </a></div>
+
+ <div class="blockBB " style="margin-left:50px;">
+ <a href="/automotoschool/B">
+ <img  class="B1" src="../../images/pics/bbb16.png" width="260px" title="Выберите категорию">
+    </a>
+</div>
+ </div>
+
+ <div class="blockAB" style="margin-top:10px" >
+ <div class="blockTT">
+ <a href="/automotoschool/A"  title="Выберите категорию">
+ <img class="" src="../../images/pics/aaa3333.png" width="260px">
+ </a></div>
+
+ <div class="blockTT " style="margin-left:50px;">
+ <a href="/automotoschool/B">
+ <img  class="B1" src="../../images/pics/bbb14.png" width="260px" title="Выберите категорию">
+    </a>
+</div>
+ </div>
+
+<div class="blockAB" style="margin-top:10px" >
+ <div class="blockAA">
+ <a href="/automotoschool/A"  title="Выберите категорию">
+ <img class="" src="../../images/pics/aaa3333.png" width="260px">
+ </a></div>
+
+ <div class="blockAA " style="margin-left:50px;">
+ <a href="/automotoschool/B">
+ <img  class="B1" src="../../images/pics/bb333.png" width="260px" title="Выберите категорию">
+    </a>
+</div>
+ </div>
+
+
+
+ </div>
  <br/><br/>
  <p>На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
 
@@ -76,7 +174,7 @@ $this->params['breadcrumbs'][] = $this->title;
  <p>Транспортные средства – с механической трансмиссией (МККП) оборудованы дополнительными педалями сцепления и тормоза, зеркалом заднего вида. На учебные автомобили установлен аппаратно-программный комплекс аудио и видеонаблюдения на базе видеорегистратора, необходимые для сдачи экзамена на получение водительского удостоверения.</p>
  <p class="adv">•   Собственный автодром</p>
  <p>Автошкола Академия имеет свою собственную, не арендованную, оборудованную учебную площадку. Практические занятия на автодроме проходят по индивидуальному графику с отработкой всех необходимых элементов. На асфальто-бетонном покрытии нанесена разметка, в наличии достаточное количество разметочного оборудования (конуса, вешки) для оборудования зон упражнения. Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование. Площадка освещается в темное время суток.</p>
- <p class="adv">•   Компьютезированые учебные классы</p>
+ <p class="adv">•   Компьютеризированные учебные классы</p>
  <p>Для проведения теоретических занятий автомотошкола располагает комфортными компьютерными и лекционными классами. Классы оснащены всеми наглядными учебно-методическими материалами, плакатами, пособиями, необходимой литературой. АНО ДПО «Академия» имеет в собственности всю мебель и необходимое оборудование, компьютеры, оргтехнику, специальное оборудование, материалы для проведения лекционных и практических занятий. Современная оргтехника позволяет демонстрировать видео-уроки, учебные презентации. На всех персональных компьютерах подключен Интернет, работает бесплатный Wi-Fi. Во всех классах установлены кондиционеры, обеспечивающие комфорт в жаркое время года. </p>
  <p class="adv">•   Тренажер</p>
  <p>Занятия на автотренажере в нашей автошколе являются обязательными в программе обучения. Обучить курсантов автошкол базовым навыкам управления автомобилем с механической КПП позволяет виртуальное вождение автомобиля на тренажере. </p>

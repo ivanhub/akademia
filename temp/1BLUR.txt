@@ -6,8 +6,7 @@ http://codepen.io/collection/Kgshi/
 
 
 https://habrahabr.ru/post/264037/
-
-за хедером размыт эффект
+за afix-хедером размыт эффект
 
 http://codepen.io/akademy/pen/FlkzB
 blur background

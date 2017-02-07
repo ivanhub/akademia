@@ -2,18 +2,19 @@
 
 /* @var $this \yii\web\View */
 /* @var $content string */
-
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
-use common\widgets\Alert;
 
 use yii\bootstrap\ActiveForm;
 
 use yii\base\Widget;
 use frontend\components\TesttWidget;
+
+use kartik\base;
+use kartik\growl;
 
 
 AppAsset::register($this);
@@ -26,6 +27,30 @@ $action = $controll->action->id;
 
 
 ?>
+
+
+<?php 
+ 
+foreach (Yii::$app->session->getAllFlashes() as $message):; ?>
+            <?php
+            echo \kartik\growl\Growl::widget([
+                'type' => (!empty($message['type'])) ? $message['type'] : 'danger',
+                'title' => (!empty($message['title'])) ? Html::encode($message['title']) : 'Title Not Set!',
+                'icon' => (!empty($message['icon'])) ? $message['icon'] : 'fa fa-info',
+                'body' => (!empty($message['message'])) ? Html::encode($message['message']) : 'Message Not Set!',
+                'showSeparator' => true,
+                'delay' => 1, //This delay is how long before the message shows
+                'pluginOptions' => [
+                    'delay' => (!empty($message['duration'])) ? $message['duration'] : 3000, //This delay is how long the message shows for
+                    'placement' => [
+                        'from' => (!empty($message['positonY'])) ? $message['positonY'] : 'top',
+                        'align' => (!empty($message['positonX'])) ? $message['positonX'] : 'right',
+                    ]
+                ]
+            ]);
+            ?>
+        <?php endforeach; ?>
+
 
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -72,7 +97,7 @@ TesttWidget::end()
 
  <?= $this->render('header') ?>
 
-    <div class="container">
+    <div class="container mainb"><div class="backgr">
     <!-- <div id="breadcrumb"> -->
         <?= Breadcrumbs::widget([
               'homeLink' => [ 
@@ -83,11 +108,11 @@ TesttWidget::end()
               /* 'options' => ['class' => 'crumbs'],*/
         ]) ?>
 <!--         </div> -->
-        <?= Alert::widget() ?>
+        
         <?= $content ?>
-    </div>
+ <?= $this->render('../layouts/footer');?>
+</div>   </div>
 
-<?= $this->render('../layouts/footer');?>
 
 </div>
 <?php $this->endBody() ?>
@@ -180,7 +205,7 @@ var j=1;
 });
 
 
- var items = document.querySelectorAll("#w0-collapse ul li");
+ var items = document.querySelectorAll(".navbar-collapse ul li");
  var lastchild = items[items.length-1];
   lastchild.classList.add('last');
 
@@ -188,7 +213,7 @@ var j=1;
     .classList.add('first');
 
 
-var links = document.querySelectorAll('#w0-collapse ul li');
+var links = document.querySelectorAll('.navbar-collapse ul li');
 var i=1;
 [].forEach.call(links, function(item) {
       item.classList.add('fadeInUp1');
@@ -356,3 +381,6 @@ document.getElementsByClassName('icos')[4].classList.add('fa','fa-phone');
 </body>
 </html>
 <?php $this->endPage() ?>
+
+
+

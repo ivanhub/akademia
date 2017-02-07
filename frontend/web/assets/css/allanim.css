@@ -118,7 +118,7 @@ to {  -webkit-transform: none;
 	-moz-perspective: 1000;
 	-o-perspective: 1000;
 	perspective: 1000;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .blockA, .blockB {float:left; border-radius:3px;}

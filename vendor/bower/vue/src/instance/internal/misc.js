@@ -59,7 +59,6 @@ export default function (Vue) {
     } else {
       factory = resolveAsset(this.$options, 'components', value, true)
     }
-    /* istanbul ignore if */
     if (!factory) {
       return
     }

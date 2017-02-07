@@ -9,6 +9,8 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use frontend\models\ContactForm;
 use frontend\models\Forma;
+use yii\helpers\Html;
+use kartik\widgets\Growl;
 
 
 
@@ -60,9 +62,19 @@ class SiteController extends Controller
        
     $model = new Forma();
         if ($model->load(Yii::$app->request->post()) && $model->validate() && $model->save() && $model->sendEmail()) {
-       //  Yii::$app->session->setFlash('contactFormSubmitted');
-Yii::$app->session->setFlash('success', 'Спасибо, что обратились к Нам. Мы ответим Вам в ближайшее время.');
+//       Yii::$app->session->setFlash('contactFormSubmitted');
+//Yii::$app->session->setFlash('success', 'Спасибо, что обратились к Нам. Мы ответим Вам в ближайшее время.');
 
+
+/*Yii::$app->getSession()->setFlash('success', [
+    'type' => 'success',
+    'duration' => 12000,
+    'icon' => 'fa fa-users',
+    'message' => 'Yii',
+    'title' => 'Yii',
+    'positonY' => 'top',
+    'positonX' => 'left'
+]);*/
 
 /*
 $script = <<< JS
@@ -78,12 +90,27 @@ $this->registerJs($script, yii\web\View::POS_READY);*/
  else {
 /*                Yii::$app->session->setFlash('error', 'Ошибка при отправке email.'); }
 */          //return $this->renderAjax('delete');
-            return $this->refresh();
+         //   return $this->refresh();
+ // return $this->redirect(['view', 'id' => $model->id]);
+
 
 }
  else { return $this->render('B',[ 'model' => $model,]);
 }
 }
+
+
+public function actionValidate(){
+    if (Yii::$app->request->isAjax) {
+        Yii::$app->response->format = Response::FORMAT_JSON;
+        $model = new Forma;
+        if (!$model->validate()) {
+            return ActiveForm::validate($model);
+        }
+    }
+}
+
+
           public function actionA()
     {
          

@@ -319,13 +319,20 @@ margin-bottom:40px !important;
 
 .span3 {
   width: 230px;
-    border-radius: 7px;
+  border-radius: 7px;
  /*  height:310px; */
    border:2px solid green;
   background: #f2fdec;
 
+height: 379px;
+
 		margin-top: 30px;
 		text-align: center;
+}
+
+
+.butt .but3 {
+    margin-top: 25px;
 }
 
 .span4 {
@@ -527,6 +534,7 @@ opacity: 1;
     margin: 8px 0 0;
     text-align: center;
     color: #488e57;
+    font-size:21px;
 }
 
 
@@ -546,14 +554,80 @@ form sup { color:red }
 .modal-sm { width:70% !important }} 
 
 
-.little p {font-size:12px !important; text-align:center; margin-left:0; line-height:0.5;}
+.little p {font-size:14px !important; text-align:center; margin-left:0; line-height:0.5;}
 
 .butt a {margin-bottom:20px; margin-top:8px}
 
 
 .little3 {margin:18px 0 !important	}
-.little2 {margin:27px 0 18px !important	}
+.little2 {margin:23px;	}
 
 
 .modal-footer {
-    font-size: 10px !important; }
+    font-size: 11px !important; }
+
+
+
+.modal-footer {
+
+
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align:center;
+
+}
+
+
+
+.alert-success {
+    text-align: center;
+}
+
+
+.blockBB {    
+border: 4px solid #427e50;
+border-radius: 30px;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.25);
+transition: all .15s ease-out;
+    float: left;
+ transform:scale(0.95);
+}
+
+
+.blockBB:hover  { transform:scale(1); border: 4px solid #ffc107;
+/* #5ba96d;
+orange #ffc107;*/
+
+box-shadow: 4px 5px 15px rgba(0,0,0,0.7);
+}
+
+
+.blockTT {    
+border: 4px solid transparent;
+border-radius: 30px;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.25);
+transition: all .15s ease-out;
+    float: left;
+}
+
+
+.blockTT:hover  { 
+border: 4px solid #ffc107;
+box-shadow: 4px 5px 15px rgba(0,0,0,0.7);
+}
+
+
+
+.blockAA {
+border: 1px solid transparent;
+    box-sizing: border-box;
+transition: all .3s;
+}
+
+
+
+.blockAA:hover {
+    border: 1px solid #379b4d;
+    box-shadow: 0 0 4px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.24);
+    text-decoration: none;
+}

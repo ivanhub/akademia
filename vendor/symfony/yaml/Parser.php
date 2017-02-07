@@ -32,18 +32,19 @@ class Parser
     private $skippedLineNumbers = array();
     private $locallySkippedLineNumbers = array();
 
-    /**
-     * Constructor.
-     *
-     * @param int      $offset             The offset of YAML document (used for line numbers in error messages)
-     * @param int|null $totalNumberOfLines The overall number of lines being parsed
-     * @param int[]    $skippedLineNumbers Number of comment lines that have been skipped by the parser
-     */
-    public function __construct($offset = 0, $totalNumberOfLines = null, array $skippedLineNumbers = array())
+    public function __construct()
     {
-        $this->offset = $offset;
-        $this->totalNumberOfLines = $totalNumberOfLines;
-        $this->skippedLineNumbers = $skippedLineNumbers;
+        if (func_num_args() > 0) {
+            @trigger_error(sprintf('The constructor arguments $offset, $totalNumberOfLines, $skippedLineNumbers of %s are deprecated and will be removed in 4.0', self::class), E_USER_DEPRECATED);
+
+            $this->offset = func_get_arg(0);
+            if (func_num_args() > 1) {
+                $this->totalNumberOfLines = func_get_arg(1);
+            }
+            if (func_num_args() > 2) {
+                $this->skippedLineNumbers = func_get_arg(2);
+            }
+        }
     }
 
     /**
@@ -295,6 +296,42 @@ class Parser
                     return $value;
                 }
 
+                // try to parse the value as a multi-line string as a last resort
+                if (0 === $this->currentLineNb) {
+                    $parseError = false;
+                    $previousLineWasNewline = false;
+                    $value = '';
+
+                    foreach ($this->lines as $line) {
+                        try {
+                            $parsedLine = Inline::parse($line, $flags, $this->refs);
+
+                            if (!is_string($value)) {
+                                $parseError = true;
+                                break;
+                            }
+
+                            if ('' === trim($parsedLine)) {
+                                $value .= "\n";
+                                $previousLineWasNewline = true;
+                            } elseif ($previousLineWasNewline) {
+                                $value .= trim($parsedLine);
+                                $previousLineWasNewline = false;
+                            } else {
+                                $value .= ' '.trim($parsedLine);
+                                $previousLineWasNewline = false;
+                            }
+                        } catch (ParseException $e) {
+                            $parseError = true;
+                            break;
+                        }
+                    }
+
+                    if (!$parseError) {
+                        return trim($value);
+                    }
+                }
+
                 switch (preg_last_error()) {
                     case PREG_INTERNAL_ERROR:
                         $error = 'Internal PCRE error.';
@@ -348,7 +385,11 @@ class Parser
             $skippedLineNumbers[] = $lineNumber;
         }
 
-        $parser = new self($offset, $this->totalNumberOfLines, $skippedLineNumbers);
+        $parser = new self();
+        $parser->offset = $offset;
+        $parser->totalNumberOfLines = $this->totalNumberOfLines;
+        $parser->skippedLineNumbers = $skippedLineNumbers;
+
         $parser->refs = &$this->refs;
 
         return $parser->parse($yaml, $flags);
@@ -400,7 +441,7 @@ class Parser
         $blockScalarIndentations = array();
 
         if ($this->isBlockScalarHeader()) {
-            $blockScalarIndentations[] = $this->getCurrentLineIndentation();
+            $blockScalarIndentations[] = $oldLineIndentation;
         }
 
         if (!$this->moveToNextLine()) {
@@ -450,14 +491,14 @@ class Parser
             // terminate all block scalars that are more indented than the current line
             if (!empty($blockScalarIndentations) && $indent < $previousLineIndentation && trim($this->currentLine) !== '') {
                 foreach ($blockScalarIndentations as $key => $blockScalarIndentation) {
-                    if ($blockScalarIndentation >= $this->getCurrentLineIndentation()) {
+                    if ($blockScalarIndentation >= $indent) {
                         unset($blockScalarIndentations[$key]);
                     }
                 }
             }
 
             if (empty($blockScalarIndentations) && !$this->isCurrentLineComment() && $this->isBlockScalarHeader()) {
-                $blockScalarIndentations[] = $this->getCurrentLineIndentation();
+                $blockScalarIndentations[] = $indent;
             }
 
             $previousLineIndentation = $indent;

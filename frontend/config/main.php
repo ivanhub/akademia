@@ -23,6 +23,7 @@ return [
          'mobileDetect' => [
          'class' => '\skeeks\yii2\mobiledetect\MobileDetect'
     ],
+        //'Growl' => [ 'class' => '\kartik-v\yii2\widget-growl\Growl'],
         'assetManager' => [     
                'class' => 'yii\web\AssetManager',
 

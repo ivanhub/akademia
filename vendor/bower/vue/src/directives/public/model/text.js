@@ -129,10 +129,7 @@ export default {
   },
 
   update (value) {
-    // #3029 only update when the value changes. This prevent
-    // browsers from overwriting values like selectionStart
-    value = _toString(value)
-    if (value !== this.el.value) this.el.value = value
+    this.el.value = _toString(value)
   },
 
   unbind () {

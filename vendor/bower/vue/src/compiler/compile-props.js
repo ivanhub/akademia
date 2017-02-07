@@ -38,7 +38,6 @@ const settablePathRE = /^[A-Za-z_$][\w$]*(\.[A-Za-z_$][\w$]*|\[[^\[\]]+\])*$/
 
 export function compileProps (el, propOptions, vm) {
   var props = []
-  var propsData = vm.$options.propsData
   var names = Object.keys(propOptions)
   var i = names.length
   var options, name, attr, value, path, parsed, prop
@@ -123,9 +122,6 @@ export function compileProps (el, propOptions, vm) {
     } else if ((value = getAttr(el, attr)) !== null) {
       // has literal binding!
       prop.raw = value
-    } else if (propsData && ((value = propsData[name] || propsData[path]) !== null)) {
-      // has propsData
-      prop.raw = value
     } else if (process.env.NODE_ENV !== 'production') {
       // check possible camelCase prop usage
       var lowerCaseName = path.toLowerCase()
@@ -145,12 +141,7 @@ export function compileProps (el, propOptions, vm) {
           'kebab-case for props in templates.',
           vm
         )
-      } else if (options.required && (
-        !propsData || (
-          !(name in propsData) &&
-          !(path in propsData)
-        )
-      )) {
+      } else if (options.required) {
         // warn missing required
         warn('Missing required prop: ' + name, vm)
       }
@@ -245,7 +236,7 @@ function processPropValue (vm, prop, rawValue, fn) {
   if (value === undefined) {
     value = getPropDefaultValue(vm, prop)
   }
-  value = coerceProp(prop, value, vm)
+  value = coerceProp(prop, value)
   const coerced = value !== rawValue
   if (!assertProp(prop, value, vm)) {
     value = undefined
@@ -343,7 +334,7 @@ function assertProp (prop, value, vm) {
   var expectedTypes = []
   if (type) {
     if (!isArray(type)) {
-      type = [type]
+      type = [ type ]
     }
     for (var i = 0; i < type.length && !valid; i++) {
       var assertedType = assertType(value, type[i])
@@ -383,20 +374,13 @@ function assertProp (prop, value, vm) {
  * @return {*}
  */
 
-function coerceProp (prop, value, vm) {
+function coerceProp (prop, value) {
   var coerce = prop.options.coerce
   if (!coerce) {
     return value
   }
-  if (typeof coerce === 'function') {
-    return coerce(value)
-  } else {
-    process.env.NODE_ENV !== 'production' && warn(
-      'Invalid coerce for prop "' + prop.name + '": expected function, got ' + typeof coerce + '.',
-      vm
-    )
-    return value
-  }
+  // coerce is a function
+  return coerce(value)
 }
 
 /**

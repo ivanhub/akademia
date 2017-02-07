@@ -33,8 +33,8 @@ class ContactForm extends Model
             [['body'], 'string'],
             [['name', 'pack'], 'string', 'max' => 30],
             [['date'], 'safe'],
-            [['phone'], 'udokmeci\yii2PhoneValidator\PhoneValidator'],
-            ['name', 'match', 'pattern' => '/^[a-z]\w*$/i']    
+   [['phone'], 'string', 'max' => 20],
+            [['phone'], 'match', 'pattern' => '/^(?:(?:\+?\d\s*(?:[.-]\s*)?)?(?:\(\s*([0-9][0-9][0-9])\s*\)|([0-9][0-9][0-9]))\s*(?:[.-]\s*)?)?([0-9][0-9][0-9]|[0-9][0-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|д\.?|доб\.?|добавочный)\s*(\d+))?$/','message' => 'Неверный формат номера телефона'],            ['name', 'match', 'pattern' => '/^[a-z]\w*$/i']    
 
 
         ];

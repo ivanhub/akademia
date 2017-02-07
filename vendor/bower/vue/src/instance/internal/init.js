@@ -68,7 +68,7 @@ export default function (Vue) {
 
     // fragment:
     // if this instance is compiled inside a Fragment, it
-    // needs to register itself as a child of that fragment
+    // needs to reigster itself as a child of that fragment
     // for attach/detach to work properly.
     this._frag = options._frag
     if (this._frag) {
@@ -91,7 +91,7 @@ export default function (Vue) {
     this._updateRef()
 
     // initialize data as empty object.
-    // it will be filled up in _initData().
+    // it will be filled up in _initScope().
     this._data = {}
 
     // call init hook

@@ -74,9 +74,6 @@ function transcludeTemplate (el, options) {
   var frag = parseTemplate(template, true)
   if (frag) {
     var replacer = frag.firstChild
-    if (!replacer) {
-      return frag
-    }
     var tag = replacer.tagName && replacer.tagName.toLowerCase()
     if (options.replace) {
       /* istanbul ignore if */
@@ -154,8 +151,8 @@ function mergeAttrs (from, to) {
     value = attrs[i].value
     if (!to.hasAttribute(name) && !specialCharRE.test(name)) {
       to.setAttribute(name, value)
-    } else if (name === 'class' && !parseText(value) && (value = value.trim())) {
-      value.split(/\s+/).forEach(function (cls) {
+    } else if (name === 'class' && !parseText(value)) {
+      value.trim().split(/\s+/).forEach(function (cls) {
         addClass(to, cls)
       })
     }

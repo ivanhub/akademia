@@ -70,7 +70,7 @@ export function filterBy (arr, search, delimiter) {
 }
 
 /**
- * Order filter for arrays
+ * Filter filter for arrays
  *
  * @param {String|Array<String>|Function} ...sortKeys
  * @param {Number} [order]
@@ -92,7 +92,7 @@ export function orderBy (arr) {
   }
 
   // determine sortKeys & comparator
-  const firstArg = args[0]
+  let firstArg = args[0]
   if (!firstArg) {
     return arr
   } else if (typeof firstArg === 'function') {

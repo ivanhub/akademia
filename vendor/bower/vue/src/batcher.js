@@ -12,22 +12,24 @@ import {
 // triggered, the DOM would have already been in updated
 // state.
 
+var queueIndex
 var queue = []
 var userQueue = []
 var has = {}
 var circular = {}
 var waiting = false
+var internalQueueDepleted = false
 
 /**
  * Reset the batcher's state.
  */
 
 function resetBatcherState () {
-  queue.length = 0
-  userQueue.length = 0
+  queue = []
+  userQueue = []
   has = {}
   circular = {}
-  waiting = false
+  waiting = internalQueueDepleted = false
 }
 
 /**
@@ -36,12 +38,8 @@ function resetBatcherState () {
 
 function flushBatcherQueue () {
   runBatcherQueue(queue)
+  internalQueueDepleted = true
   runBatcherQueue(userQueue)
-  // user watchers triggered more watchers,
-  // keep flushing until it depletes
-  if (queue.length) {
-    return flushBatcherQueue()
-  }
   // dev tool hook
   /* istanbul ignore if */
   if (devtools && config.devtools) {
@@ -59,8 +57,8 @@ function flushBatcherQueue () {
 function runBatcherQueue (queue) {
   // do not cache length because more watchers might be pushed
   // as we run existing watchers
-  for (let i = 0; i < queue.length; i++) {
-    var watcher = queue[i]
+  for (queueIndex = 0; queueIndex < queue.length; queueIndex++) {
+    var watcher = queue[queueIndex]
     var id = watcher.id
     has[id] = null
     watcher.run()
@@ -77,7 +75,6 @@ function runBatcherQueue (queue) {
       }
     }
   }
-  queue.length = 0
 }
 
 /**
@@ -92,18 +89,24 @@ function runBatcherQueue (queue) {
  */
 
 export function pushWatcher (watcher) {
-  const id = watcher.id
+  var id = watcher.id
   if (has[id] == null) {
-    // push watcher into appropriate queue
-    const q = watcher.user
-      ? userQueue
-      : queue
-    has[id] = q.length
-    q.push(watcher)
-    // queue the flush
-    if (!waiting) {
-      waiting = true
-      nextTick(flushBatcherQueue)
+    if (internalQueueDepleted && !watcher.user) {
+      // an internal watcher triggered by a user watcher...
+      // let's run it immediately after current user watcher is done.
+      userQueue.splice(queueIndex + 1, 0, watcher)
+    } else {
+      // push watcher into appropriate queue
+      var q = watcher.user
+        ? userQueue
+        : queue
+      has[id] = q.length
+      q.push(watcher)
+      // queue the flush
+      if (!waiting) {
+        waiting = true
+        nextTick(flushBatcherQueue)
+      }
     }
   }
 }

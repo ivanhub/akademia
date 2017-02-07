@@ -37,9 +37,8 @@ export function query (el) {
  */
 
 export function inDoc (node) {
-  if (!node) return false
-  var doc = node.ownerDocument.documentElement
-  var parent = node.parentNode
+  var doc = document.documentElement
+  var parent = node && node.parentNode
   return doc === node ||
     doc === parent ||
     !!(parent && parent.nodeType === 1 && (doc.contains(parent)))

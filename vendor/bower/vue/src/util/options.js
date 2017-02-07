@@ -149,7 +149,7 @@ strats.activate = function (parentVal, childVal) {
  */
 
 function mergeAssets (parentVal, childVal) {
-  var res = Object.create(parentVal || null)
+  var res = Object.create(parentVal)
   return childVal
     ? extend(res, guardArrayAssets(childVal))
     : res
@@ -332,18 +332,9 @@ export function mergeOptions (parent, child, vm) {
   }
   var options = {}
   var key
-  if (child.extends) {
-    parent = typeof child.extends === 'function'
-      ? mergeOptions(parent, child.extends.options, vm)
-      : mergeOptions(parent, child.extends, vm)
-  }
   if (child.mixins) {
     for (var i = 0, l = child.mixins.length; i < l; i++) {
-      var mixin = child.mixins[i]
-      var mixinOptions = mixin.prototype instanceof Vue
-        ? mixin.options
-        : mixin
-      parent = mergeOptions(parent, mixinOptions, vm)
+      parent = mergeOptions(parent, child.mixins[i], vm)
     }
   }
   for (key in parent) {

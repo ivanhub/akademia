@@ -315,7 +315,7 @@ span.arrow {
 
 
 @media (min-width:768px){
-#w1 li { opacity:0 }
+.navbar-nav li { opacity:0 }
 }
 
 

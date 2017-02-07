@@ -1,3 +1,17 @@
+import {
+  set,
+  del,
+  nextTick,
+  mergeOptions,
+  classify,
+  toArray,
+  commonTagRE,
+  reservedTagRE,
+  warn,
+  isPlainObject,
+  extend
+} from './util/index'
+
 import config from './config'
 import directives from './directives/public/index'
 import elementDirectives from './directives/element/index'
@@ -12,19 +26,6 @@ import * as expression from './parsers/expression'
 import * as transition from './transition/index'
 import FragmentFactory from './fragment/factory'
 import internalDirectives from './directives/internal/index'
-
-import {
-  set,
-  del,
-  nextTick,
-  mergeOptions,
-  toArray,
-  commonTagRE,
-  reservedTagRE,
-  warn,
-  isPlainObject,
-  extend
-} from './util/index'
 
 export default function (Vue) {
   /**
@@ -103,9 +104,7 @@ export default function (Vue) {
         name = null
       }
     }
-    var Sub = function VueComponent (options) {
-      Vue.call(this, options)
-    }
+    var Sub = createClass(name || 'VueComponent')
     Sub.prototype = Object.create(Super.prototype)
     Sub.prototype.constructor = Sub
     Sub.cid = cid++
@@ -130,6 +129,24 @@ export default function (Vue) {
       extendOptions._Ctor = Sub
     }
     return Sub
+  }
+
+  /**
+   * A function that returns a sub-class constructor with the
+   * given name. This gives us much nicer output when
+   * logging instances in the console.
+   *
+   * @param {String} name
+   * @return {Function}
+   */
+
+  function createClass (name) {
+    /* eslint-disable no-new-func */
+    return new Function(
+      'return function ' + classify(name) +
+      ' (options) { this._init(options) }'
+    )()
+    /* eslint-enable no-new-func */
   }
 
   /**
@@ -193,9 +210,7 @@ export default function (Vue) {
           type === 'component' &&
           isPlainObject(definition)
         ) {
-          if (!definition.name) {
-            definition.name = id
-          }
+          definition.name = id
           definition = Vue.extend(definition)
         }
         this.options[type + 's'][id] = definition

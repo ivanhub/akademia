@@ -68,7 +68,7 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
              'rules' => [
-            '<alias:createwidget|feedform|feedForm|contacts2|contacts|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
+            '<alias:validate|create|savecont|createwidget|feedform|feedForm|contacts2|contacts|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
             '<alias:dop-uslugi>' =>  'site/dopuslugi', 
             '<alias:safety-driving>' =>  'site/safetydriving', 
             '<alias:postupayushchim>' =>  'site/incoming', 

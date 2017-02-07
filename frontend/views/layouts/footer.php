@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 <footer class="page-footer bg-gray-lighter">
 
-<div class="container foot1">
+<div class=" foot1">
 <div class="row">
 <div class="col-md-1 col-xs-2"></div>
 
@@ -52,21 +52,74 @@ use yii\helpers\Html;
 </div>
 </div>
 </div>
-<div class="shell container">
-<div class="row">
-<div class="rangelogo range-xs-center range-xs-middle">
-<img class="minilogo" src="http://front.loc/images/minlogo.png" align="left">
-<p class="pull-left">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ДПО "Академия"</span>
+<div class="rangelogo range-xs-center range-xs-middle text-center">
+<!-- <img class="minilogo" src="http://front.loc/images/minlogo.png" align="left"> -->
+<p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ДПО "Академия"</span>
  <a href="privacy-policy-link.html" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
-</div>
 
-</div>
 
 </div>
 </footer>
 
 
+
+
+<!-- <div id="w00" class="col-xs-11 col-sm-3 alert alert-custom  fadeInDown" role="alert" data-notify="container" data-notify-position="top-center" style="display: inline-block; margin: 0px auto; position: fixed; transition: all 0.5s ease-in-out; z-index: 1031; top: 20px; left: 0px; right: 0px; animation-iteration-count: 1;"><button type="button" class="close" data-notify="dismiss"><span aria-hidden="true">×</span></button><span data-notify="icon" class="fa fa-envelope"></span><span data-notify="title">Сообщение отправлено!</span><hr class="kv-alert-separator"><span data-notify="message">Спасибо, что обратились к Нам. <br/>Мы ответим Вам в ближайшее время.</span><a href="#" data-notify="url" target="_blank"></a></div> -->
+
+<?php 
+
+$this->registerJs(<<<JS
+
+
+  $('form').on('beforeSubmit', function(e) {
+    var form = $(this);
+    var formData = form.serialize();
+    $.ajax({
+        url: form.attr("action"),
+        type: form.attr("method"),
+        data: formData,
+        success: function (result) {
+//     $("#w00").addClass('animated');
+//                                  $('#idmodal').modal('toggle');
+//                      setTimeout(function(){        $("#w00").removeClass('animated');
+//                        }, 3000);
+
+  //console.log(result);
+//if (result == 'true') {
+
+var modalContainer = $('#idmodal');
+var modalBody = modalContainer.find('.modal-body');
+var insidemodalBody = modalContainer.find('#contact-form');
+insidemodalBody.html(result).hide(); 
+$('.sel').html("<div class='alert alert-success'>");
+$('.sel > .alert-success').append("<strong>Спасибо! Ваше сообщение отправлено.</strong>");
+$('.sel > .alert-success').append('</div>');
+//$('.sel').css('visibility', 'visible');
+
+setTimeout(function() { // скрываем modal через 4 секунды
+$("#idmodal").modal('hide');
+//$('#w00').css('visibility', 'hidden');
+}, 4000);
+
+//}
+
+//else { modalBody.html(result).hide().fadeIn();                }
+
+
+        },
+        error: function () {
+            alert("Something went wrong");
+        }
+    });
+}).on('submit', function(e){
+    e.preventDefault();
+});
+
+
+
+JS
+, yii\web\View::POS_READY, 'contact-form'); ?>
 
 <!-- Copyright © 2017 АНО НПО “Академия”
 <footer class="footer">

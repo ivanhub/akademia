@@ -27,7 +27,7 @@ export function compileRegex () {
     'g'
   )
   htmlRE = new RegExp(
-    '^' + unsafeOpen + '((?:.|\\n)+?)' + unsafeClose + '$'
+    '^' + unsafeOpen + '.*' + unsafeClose + '$'
   )
   // reset cache
   cache = new Cache(1000)

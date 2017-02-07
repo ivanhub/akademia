@@ -61,7 +61,7 @@ class MobileDetect extends Component
     /**
      * @return bool
      */
-    public function isDesktop()
+    public function isDescktop()
     {
         if ($this->isMobile() || $this->isTablet())
         {

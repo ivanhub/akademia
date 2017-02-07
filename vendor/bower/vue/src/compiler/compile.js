@@ -4,9 +4,8 @@ import { compileProps } from './compile-props'
 import { parseText, tokensToExp } from '../parsers/text'
 import { parseDirective } from '../parsers/directive'
 import { parseTemplate } from '../parsers/template'
+import { resolveAsset } from '../util/index'
 import {
-  _toString,
-  resolveAsset,
   toArray,
   warn,
   remove,
@@ -54,7 +53,7 @@ export function compile (el, options, partial) {
   // link function for the childNodes
   var childLinkFn =
     !(nodeLinkFn && nodeLinkFn.terminal) &&
-    !isScript(el) &&
+    el.tagName !== 'SCRIPT' &&
     el.hasChildNodes()
       ? compileNodeList(el.childNodes, options)
       : null
@@ -105,7 +104,7 @@ function linkAndCapture (linker, vm) {
   var originalDirCount = vm._directives.length
   linker()
   var dirs = vm._directives.slice(originalDirCount)
-  sortDirectives(dirs)
+  dirs.sort(directiveComparator)
   for (var i = 0, l = dirs.length; i < l; i++) {
     dirs[i]._bind()
   }
@@ -113,37 +112,16 @@ function linkAndCapture (linker, vm) {
 }
 
 /**
- * sort directives by priority (stable sort)
+ * Directive priority sort comparator
  *
- * @param {Array} dirs
+ * @param {Object} a
+ * @param {Object} b
  */
-function sortDirectives (dirs) {
-  if (dirs.length === 0) return
 
-  var groupedMap = {}
-  var i, j, k, l
-  var index = 0
-  var priorities = []
-  for (i = 0, j = dirs.length; i < j; i++) {
-    var dir = dirs[i]
-    var priority = dir.descriptor.def.priority || DEFAULT_PRIORITY
-    var array = groupedMap[priority]
-    if (!array) {
-      array = groupedMap[priority] = []
-      priorities.push(priority)
-    }
-    array.push(dir)
-  }
-
-  priorities.sort(function (a, b) {
-    return a > b ? -1 : a === b ? 0 : 1
-  })
-  for (i = 0, j = priorities.length; i < j; i++) {
-    var group = groupedMap[priorities[i]]
-    for (k = 0, l = group.length; k < l; k++) {
-      dirs[index++] = group[k]
-    }
-  }
+function directiveComparator (a, b) {
+  a = a.descriptor.def.priority || DEFAULT_PRIORITY
+  b = b.descriptor.def.priority || DEFAULT_PRIORITY
+  return a > b ? -1 : a === b ? 0 : 1
 }
 
 /**
@@ -263,18 +241,12 @@ export function compileRoot (el, options, contextOptions) {
       })
     if (names.length) {
       var plural = names.length > 1
-
-      var componentName = options.el.tagName.toLowerCase()
-      if (componentName === 'component' && options.name) {
-        componentName += ':' + options.name
-      }
-
       warn(
         'Attribute' + (plural ? 's ' : ' ') + names.join(', ') +
         (plural ? ' are' : ' is') + ' ignored on component ' +
-        '<' + componentName + '> because ' +
+        '<' + options.el.tagName.toLowerCase() + '> because ' +
         'the component is a fragment instance: ' +
-        'http://vuejs.org/guide/components.html#Fragment-Instance'
+        'http://vuejs.org/guide/components.html#Fragment_Instance'
       )
     }
   }
@@ -312,7 +284,7 @@ export function compileRoot (el, options, contextOptions) {
 
 function compileNode (node, options) {
   var type = node.nodeType
-  if (type === 1 && !isScript(node)) {
+  if (type === 1 && node.tagName !== 'SCRIPT') {
     return compileElement(node, options)
   } else if (type === 3 && node.data.trim()) {
     return compileTextNode(node, options)
@@ -334,10 +306,6 @@ function compileElement (el, options) {
   // textarea treats its text content as the initial value.
   // just bind it as an attr directive for value.
   if (el.tagName === 'TEXTAREA') {
-    // a textarea which has v-pre attr should skip complie.
-    if (getAttr(el, 'v-pre') !== null) {
-      return skip
-    }
     var tokens = parseText(el.value)
     if (tokens) {
       el.setAttribute(':value', tokensToExp(tokens))
@@ -478,7 +446,7 @@ function makeTextNodeLinkFn (tokens, frag) {
           if (token.html) {
             replace(node, parseTemplate(value, true))
           } else {
-            node.data = _toString(value)
+            node.data = value
           }
         } else {
           vm._bindDir(token.descriptor, node, host, scope)
@@ -620,6 +588,7 @@ function checkTerminalDirectives (el, attrs, options) {
   var attr, name, value, modifiers, matched, dirName, rawName, arg, def, termDef
   for (var i = 0, j = attrs.length; i < j; i++) {
     attr = attrs[i]
+    modifiers = parseModifiers(attr.name)
     name = attr.name.replace(modifierRE, '')
     if ((matched = name.match(dirAttrRE))) {
       def = resolveAsset(options, 'directives', matched[1])
@@ -627,7 +596,6 @@ function checkTerminalDirectives (el, attrs, options) {
         if (!termDef || ((def.priority || DEFAULT_TERMINAL_PRIORITY) > termDef.priority)) {
           termDef = def
           rawName = attr.name
-          modifiers = parseModifiers(attr.name)
           value = attr.value
           dirName = matched[1]
           arg = matched[2]
@@ -673,7 +641,7 @@ function makeTerminalNodeLinkFn (el, dirName, value, options, def, rawName, arg,
     modifiers: modifiers,
     def: def
   }
-  // check ref for v-for, v-if and router-view
+  // check ref for v-for and router-view
   if (dirName === 'for' || dirName === 'router-view') {
     descriptor.ref = findRef(el)
   }
@@ -850,11 +818,4 @@ function hasOneTime (tokens) {
   while (i--) {
     if (tokens[i].oneTime) return true
   }
-}
-
-function isScript (el) {
-  return el.tagName === 'SCRIPT' && (
-    !el.hasAttribute('type') ||
-    el.getAttribute('type') === 'text/javascript'
-  )
 }

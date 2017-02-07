@@ -35,7 +35,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 
 
-<div class="navbar-panel-inner container">
+<div class="navbar-panel-inner container"><div class="backgr">
 <div class="header-top row ">
 
 
@@ -117,7 +117,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
     NavBar::end();
     ?>
 </div>
-</div>
+</div></div>
 
 
 </header>

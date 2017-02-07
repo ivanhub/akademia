@@ -11,7 +11,7 @@ use Yii;
  * @property string $name
  * @property integer $phone
  * @property string $body
- * @property integer $from
+ * @property integer $fromfield
  */
 class Forma extends \yii\db\ActiveRecord
 {
@@ -25,8 +25,8 @@ class Forma extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'phone', 'from'], 'required','message' => 'Заполните поле'],
-            [['from'], 'integer'],
+            [['name', 'phone', 'fromfield'], 'required','message' => 'Заполните поле'],
+            [['fromfield'], 'integer'],
             [['body'], 'string'],
             [['name', 'pack'], 'string', 'max' => 30],
             [['date'], 'safe'],
@@ -45,7 +45,7 @@ class Forma extends \yii\db\ActiveRecord
             'name' => 'Name',
             'phone' => 'Phone',
             'body' => 'Body',
-            'from' => 'From',
+            'fromfield' => 'Fromfield',
             'pack' => 'Pack',
             'date' => 'Date',
 
@@ -73,7 +73,7 @@ class Forma extends \yii\db\ActiveRecord
         $form->name = $this->name;
         $form->phone = $this->phone;
         $form->body = $this->body;
-        $form->from = $this->from;
+        $form->fromfield = $this->fromfield;
         $form->pack = $this->pack;       
 
         $form->save();

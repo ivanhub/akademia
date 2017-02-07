@@ -826,9 +826,9 @@ margin-left:-35px !important;
 
 
 
-/* #w1 {font-family: 'Exo 2', sans-serif; font-size:16px;} */
+/* .navbar-nav {font-family: 'Exo 2', sans-serif; font-size:16px;} */
 /*size*/
-#w1 {
+.navbar-nav {
     font-family: 'Myriadsetprothin';
     font-size: 18px;
     font-weight: 900 !important;
@@ -870,8 +870,7 @@ vertical-align: baseline;
 }
 
 
-@media (max-width:991px)
-    {.right-aside {text-align: center;}}
+@media (max-width:991px) {.right-aside {text-align: center;}}
 
 section.start .main-block {
     width: 75%;
@@ -889,9 +888,7 @@ section .row .main-text { padding: 0 45px 0;
   }
 
 section.main {
-      padding-left: 0 !important;
-    padding-right: 0 !important;
-     margin-top:80px !important;
+     padding-top:80px
 }
 
 .jumbo {
@@ -990,7 +987,7 @@ font-family: 'Cambria' !important;
 
 .my {    padding-left: 70px; padding-top:15px;}
 
-footer p.pull-left {
+footer p.pull-top {
     padding-top: 15px;
 }
 footer p {
@@ -1111,7 +1108,7 @@ footer p {
 }
 
 
-#w0-collapse {
+.navbar-collapse {
     left: 155px;
     position: absolute;
 }
@@ -1146,14 +1143,14 @@ footer p {
 
 
 @media (max-width:900px) and (min-width:784px) {
-  #w1 {font-size:15px;}
-  #w0-collapse {
+  .navbar-nav {font-size:15px;}
+  .navbar-collapse {
     left: 145px !important;}    
 }
 
 @media (max-width:783px) and (min-width:768px) {
-  #w1 {font-size:14px;}
-  #w0-collapse {
+  .navbar-nav {font-size:14px;}
+  .navbar-collapse {
     left: 145px !important;}    
 }
 
@@ -1167,7 +1164,7 @@ footer p {
 
 
 
-#w0-collapse {overflow:hidden !important;
+.navbar-collapse {overflow:hidden !important;
 margin-left:auto;
 margin-right:auto;
 }
@@ -1280,13 +1277,13 @@ div.affix-top {
     margin-right: -12%;
 }
 
-#w0-collapse {
+.navbar-collapse {
     right: 0 !important;
     position: absolute;
 }
 }
 
-#w0-collapse {
+.navbar-collapse {
     right: 50px;
     position: absolute;
 }

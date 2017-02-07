@@ -336,14 +336,14 @@ Watcher.prototype.teardown = function () {
 
 const seenObjects = new Set()
 function traverse (val, seen) {
-  let i, keys
+  let i, keys, isA, isO
   if (!seen) {
     seen = seenObjects
     seen.clear()
   }
-  const isA = isArray(val)
-  const isO = isObject(val)
-  if ((isA || isO) && Object.isExtensible(val)) {
+  isA = isArray(val)
+  isO = isObject(val)
+  if (isA || isO) {
     if (val.__ob__) {
       var depId = val.__ob__.dep.id
       if (seen.has(depId)) {
