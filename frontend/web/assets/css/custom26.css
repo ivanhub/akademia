@@ -165,10 +165,6 @@ repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 2.5px, transparent 5
 }
 
 
-.greenline {background: url(../../images/fon/line.jpg) 0 bottom repeat-x;
-  width:100%;
-height:3px;
-}
 
 .backgr {
     background: rgba(255, 255,255, 0.55);;
@@ -865,3 +861,92 @@ transition-duration:3s;
 
 
 .alert-success {margin: 25px 0 10px;}
+
+
+
+.greenline {background: url(../../images/fon/line.jpg) 0 bottom repeat-x;
+  width:100%;
+height:3px;
+}
+
+.greenline2 {background: url(../../images/fon/line.jpg) 0 bottom repeat-x;
+  width:100%;
+height:2px;
+}
+
+
+
+.affix-top .greenlineup {background: url(../../images/fon/line2.jpg) 0 bottom repeat-x;
+  width:100%;
+height:2px;
+transform:rotateZ(180deg);
+opacity:0.7;
+}
+
+ .greenlinebot {background: url(../../images/fon/line2.jpg) 0 bottom repeat-x;
+  width:100%;
+height:2px;
+opacity:0.7;
+position:absolute;
+
+}
+
+.greenlinel:not(.affix-top) {background: url(../../images/fon/linel.jpg) 0 bottom repeat-x;
+  width:2px;
+height:39px;
+}
+.greenliner {background: url(../../images/fon/liner.jpg) 0 bottom repeat-x;
+  width:2px;
+  height:39px;
+
+}
+
+
+
+.style1 {
+transition: all .3s;
+    height: 100px;
+    border: 1px solid #578d60;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    margin-top:15px;
+}
+.style1 span.fa {
+    color:/* #a1b0a4;*/ #578d60;
+}
+
+
+
+
+.style1:hover {
+    border: 1px solid #df8706;
+    box-shadow: 4px 0 4px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.24);
+}
+.style1:hover .fa {
+color:/*#3a7849;*/ #df8706;
+}
+.style1:hover .fa-square {color:#fff;}
+
+
+ 
+
+
+
+.style1.iskl .fa {
+transform:scale(0.75);
+
+}
+
+.style1 .advpr {font-weight:bold; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-size:17px !important;}
+
+/*.preimbox {display: table; width:100%;}*/
+
+.fa-stack-bottom-right {
+    position: absolute;
+    left: 1em;
+    top: 0.8em;
+}
+
+
+.uslv img p:first-child {font-weight:bold}

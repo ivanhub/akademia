@@ -888,7 +888,7 @@ section .row .main-text { padding: 0 45px 0;
   }
 
 section.main {
-     padding-top:80px
+margin-top: 80px;
 }
 
 .jumbo {

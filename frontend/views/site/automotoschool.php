@@ -122,7 +122,9 @@ $this->params['breadcrumbs'][] = $this->title;
  <li>•  Подсказчик, сообщающий о любой ошибке.</li>
  </ul>
  <p class="adv">•   Медицинская помощь</p>  
- <p>В учебном центре организована первая медицинская помощь.  Медицинский кабинет, осуществляется текущий контроль за состоянием здоровья обучающихся, проведение санитарно-гигиенических, профилактических и оздоровительных мероприятий, пропаганда здорового образа жизни, оказание первичной доврачебной медико-санитарной помощи обучающимся.</p>
+ <p>В учебном центре организована первая медицинская помощь.  Медицинский кабинет, осуществляется текущий контроль 
+ за состоянием здоровья обучающихся, проведение санитарно-гигиенических, профилактических и оздоровительных мероприятий
+ , пропаганда здорового образа жизни, оказание первичной доврачебной медико-санитарной помощи обучающимся.</p>
  <p>Весь водительский состав проходит ежедневный медицинский осмотр и допуск перед выездом.</p>
  
  
@@ -247,19 +249,48 @@ $this->params['breadcrumbs'][] = $this->title;
 
 </div>
 <div class="greenline"></div>
-<div class="row">
-<h2 class="text-center">Наши основные преимущества</h2>
-<div class="col-md-4">
-  <p class="adv">•   Современные учебные транспортные средства</p>
- <p>Парк наших транспортных средств включает в себя достаточное количество современных автомобилей, 
- мотоциклов для обучения вождению. Срок их эксплуатации не превышает 4-х лет, поэтому техническое
-  состояние транспортных средств находится на очень достойном уровне.</p>
- </div>
- <div class="col-md-4"></div>
- <div class="col-md-4"></div>
+<div class="row preimbox">
+<h2 class="text-center">Наши преимущества</h2>
+<br/>
 
-
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="style1">
+<div class="col-sm-3"><span class="vc_icon_element-icon fa fa-road fa-3x"></span></div>
+<div class="col-sm-9"><p class="advpr">Собственный Автодром</p>  </div>
 </div>
+
+<div class="style1 iskl"><div class="col-sm-3"><span class="fa fa-stack fa-3x" style="margin-left:-25px">
+    <i class="fa fa-shield fa-stack-2x" ></i>
+    <i class="fa fa-square fa-stack-bottom-right fa-inverse"></i>
+    <i class="fa fa-check-square fa-stack-bottom-right"></i>
+</span></div>
+<div class="col-sm-9"><p class="advpr">Обучение без ОБМАНА - Все часы вождения!!!</p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
+<div class="col-sm-9"><p class="advpr">Современные оборудованные классы</p></div></div>
+</div>
+
+
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Бесплатная литература</p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Рассрочка платежа на весь период обучения.</p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-calendar fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Вечерние группы и группы выходного дня</p></div></div>
+</div>
+   
+<div class="col-md-4 col-md-offset-0 col-sm-offset-3 col-sm-6 col-xs-12">
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-clock-o fa-3x"></span></div>
+<div class="col-sm-9"><p class="advpr">Индивидуальный график вождения</p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Сопровождение на экзамене</p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Медицинская комиссия</p></div></div>
+</div>
+
+</div><br/><br/>
 <div class="greenline"></div>
 
 </div>
+<br/><br/><br/>

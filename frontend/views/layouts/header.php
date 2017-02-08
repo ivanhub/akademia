@@ -92,6 +92,8 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 </div> -->
 
 <div class="wrap  animated fadeIn" data-spy="affix" data-offset-top="100">
+<!--   <div class="greenlineup"></div>
+ -->
 <div class="logo46"></div>
     <?php
     NavBar::begin([
@@ -116,6 +118,8 @@ $tablet = Yii::$app->mobileDetect->isTablet();
     ]);
     NavBar::end();
     ?>
+    <!--   <div class="greenlinebot"></div> -->
+
 </div>
 </div></div>
 
