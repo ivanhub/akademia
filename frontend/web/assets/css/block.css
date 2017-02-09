@@ -554,14 +554,6 @@ form sup { color:red }
 .modal-sm { width:70% !important }} 
 
 
-.little p {font-size:14px !important; text-align:center; margin-left:0; line-height:0.5;}
-
-.butt a {margin-bottom:20px; margin-top:8px}
-
-
-.little3 {margin:18px 0 !important	}
-.little2 {margin:23px;	}
-
 
 .modal-footer {
     font-size: 11px !important; }
@@ -637,3 +629,25 @@ transition: all .3s;
 .gallery-index {
     padding-left: 60px;
 }
+
+
+
+
+
+
+
+
+.little p {font-size:14px !important; text-align:center; margin-left:0; line-height:0.5;}
+
+.butt a {margin-bottom:20px; margin-top:8px}
+
+
+.little3 {margin:18px 0 !important	}
+.little2 {margin-top:21px;	}
+
+.linet2 {
+    padding-top: 14px;
+	margin-bottom:5px;
+}
+
+

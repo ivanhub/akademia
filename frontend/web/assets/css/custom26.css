@@ -412,7 +412,8 @@ button.accordion.active + div.panell {display:table !important;}
 }
 
 .preimul {padding-bottom:30px; margin-left:40px; }                                              
-.preimul2 {padding-bottom:30px; }
+.preimul3 {padding-bottom:10px; margin-left:40px; }                                              
+.preimul2 {padding-bottom:30px; padding-left:0px;}
 .dopuslugi {padding-bottom:30px}
 .safetydriving {margin-left:30px;padding-bottom:30px}
 
@@ -867,6 +868,7 @@ transition-duration:3s;
 .greenline {background: url(../../images/fon/line.jpg) 0 bottom repeat-x;
   width:100%;
 height:3px;
+opacity:.8;
 }
 
 .greenline2 {background: url(../../images/fon/line.jpg) 0 bottom repeat-x;
@@ -902,6 +904,15 @@ height:39px;
 }
 
 
+.style2 {
+    transition: all .3s;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top:15px;
+padding-left:50px;
+}
+
 
 .style1 {
 transition: all .3s;
@@ -928,7 +939,7 @@ color:/*#3a7849;*/ #df8706;
 }
 .style1:hover .fa-square {color:#fff;}
 
-
+.advpr {margin-left:-10px;}
  
 
 
@@ -938,7 +949,21 @@ transform:scale(0.75);
 
 }
 
-.style1 .advpr {font-weight:bold; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-size:17px !important;}
+.style1 .advpr {font-weight:bold; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-size:17px !important; 
+text-align:left}
+
+
+
+.style2 .advpr {
+
+/* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; */
+font-family: 'Roboto', Helvetica, sans-serif !important;
+
+
+font-size:18pt !important; 
+font-weight:300;
+color:#666;
+text-align:left}
 
 /*.preimbox {display: table; width:100%;}*/
 
@@ -950,3 +975,22 @@ transform:scale(0.75);
 
 
 .uslv img p:first-child {font-weight:bold}
+.uslv {margin-top:30px;
+	line-height: 0.8;
+    text-align: left;
+display: flex;
+    align-items: center;
+}
+
+
+.indent50 {text-indent:50px;}
+
+.m350 {margin-top:340px}
+
+
+.site-distance.siteblock {
+    padding: 0 160px 0 160px; }
+
+.green {color:#0c500c !important;}
+
+.lineheight1 {line-height:1 !important}

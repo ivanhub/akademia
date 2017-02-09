@@ -23,7 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<!-- <?= Html::encode($this->title) ?> --> <br/>    <br/>
+<!-- <?= Html::encode($this->title) ?> --> 
 <div class="site-automotoschool container siteblock">
    
 

@@ -59,89 +59,129 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-md-9 col-sm-12">
 
 <h1 class="text-center">Качество наших услуг выше чем их стоимость.</h1>
+<br/><br/>
 
 
-
- <div class="bl1">
-   
-
-
- </div>
 
 <div class="row-fluid">
-        <div class="span3 p-item" style=" margin-left: 50px;">
-          <div class="p-item-title">ПАКЕТ<br>
-          "Дневной"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
-          <div class="mt5">
-         <p>Идеальный выбор для студентов! </p>
-<p>от 17 000 р. </p>
-          </div>
-          <div class="butt">
-          <a class="send-price call-back" style="width: 128px;" href="#" role="button" data-info="Стандарт">Подробнее</a></div>
-        </div>
-        <div class="span3 p-item" style="margin-left: 60px;">
+<div class="hovergallery">  
+<div clas="col-xs-6">  
+        <div class="span3" style=" margin-left: 50px;" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-<p>Удобней для всех</p>
-<p>от 20 000 р. </p>
-          </div>
-          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 25px;" href="#" role="button" data-info="Индивидуальный">Подробнее</a></div>
+       <p class="linet2">Удобней для всех</p>
+<p class="little2">от <b style="color:darkgreen">12 000 р.</b> </p>
+<div class="little"><p>Практические занятия:</p>
+    <p>с 9:00 до 16:00 Вт-Пт.</p>
+    <p>Теоретические занятия:</p>
+    <p>с 18:00 до 20:00 Ср.,Чт.</p>    </div>      </div>
+          <div class="butt">
+<?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '4',
+    'class' => 'send-price call-back'
+  ]
+    ); 
+
+?>
+ </div>
         </div>
-        <div class="span3 p-item" style="float: left; margin-left: 60px;">
+        </div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
+
+        <div class="span3" style="margin-left: 20px;" data-nohover="0">
+          <div class="p-item-title">ПАКЕТ<br>
+          "Двойной A+B"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="mt5">
+<p class="linet2">Скидка 5 000 р. !</p>
+<p class="little2">от <b style="color:darkgreen">25 000 р.</b> </p>
+<div class="little"><p>Практические занятия:</p>
+    <p>с 16:00 до 20:00 Вт.-Сб.</p>
+    <p>Теоретические занятия:</p>
+    <p>с 18:00 до 20:00 Вт.,Чт.</p>    </div>
+          </div>
+          <div class="butt">
+            <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '5',
+    'class' => 'send-price call-back'
+  ]
+    ); ?>
+
+
+
+          </div>
+        </div></div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
+
+        <div class="span3" style=" margin-left: 20px;" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-<p>Вы выбираете,<br/>Мы исполняем </p>
-<p>от 30 000 р. </p>       
+<p class="linet">Вы выбираете,<br/>Мы исполняем </p>
+<p>от<b style="color:darkgreen"> 22 000 р. </b></p>  
+<div class="little "><p>Индивидуальный график</p>
+<p>занятий составляем</p>
+    <p> по вашему желанию</p>
+  </div>
+
           </div>
-          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 0px;" href="#" role="button" data-info="Стандарт">Подробнее</a></div>
-        </div>        
-      </div>
-<!-- 
-<iframe name='iframe1' id="iframe1" src="../block.html" 
-        frameborder="0" border="0" cellspacing="0"
-        style="border-style: none;width: 100%; height: 320px;"></iframe>
- -->
+          <div class="butt">
+            <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '6',
+    'class' => 'send-price call-back but3 '
+  ]
+    ); ?></div>
+        </div>    </div>    
+      </div></div>
+
 
   <br/><br/><br/><br/>
 
- <h5 style="margin-top:290px;font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5>
+ <h5 class="m350" style="font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5>
 <br/>
- <p style="">На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
+<div class="row text-center uslv">
+  <div class="col-xs-2"><img src="../../images/fon/clock.png"></div>
+  <div class="col-xs-10"><p><b>Срок обучения</b></p> <p>1,5 месяца </p></div>
+</div>
+
+<div class="row text-center uslv">
+  <div class="col-xs-2"><img src="../../images/fon/book.png"></div>
+  <div class="col-xs-10"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
+  <p>консультации и тестирование с психологом.</p>
+  <p>лекции проводит преподователь с многолетним стажем.</p>
+   </div>
+</div>
+<div class="row text-center uslv">
+  <div class="col-xs-2"><img src="../../images/fon/rul.png"></div>
+  <div class="col-xs-10"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
+  <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
+  <p>учебные маршруты по всему городу</p>
+
+
+  </div>
+</div>
+<br/><br/><br/>
 
  <section class="automotoschool">
 
- <h2 class="text-center">Наши основные преимущества</h2>
- <p class="adv">•   Современные учебные транспортные средства</p>
- <p>Парк наших транспортных средств включает в себя достаточное количество современных автомобилей, мотоциклов для обучения вождению. Срок их эксплуатации не превышает 4-х лет, поэтому техническое состояние транспортных средств находится на очень достойном уровне.</p>
- <p>Транспортные средства – с механической трансмиссией (МККП) оборудованы дополнительными педалями сцепления и тормоза, зеркалом заднего вида. На учебные автомобили установлен аппаратно-программный комплекс аудио и видеонаблюдения на базе видеорегистратора, необходимые для сдачи экзамена на получение водительского удостоверения.</p>
- <p class="adv">•   Собственный автодром</p>
- <p>Автошкола Академия имеет свою собственную, не арендованную, оборудованную учебную площадку. Практические занятия на автодроме проходят по индивидуальному графику с отработкой всех необходимых элементов. На асфальто-бетонном покрытии нанесена разметка, в наличии достаточное количество разметочного оборудования (конуса, вешки) для оборудования зон упражнения. Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование. Площадка освещается в темное время суток.</p>
- <p class="adv">•   Компьютезированые учебные классы</p>
- <p>Для проведения теоретических занятий автомотошкола располагает комфортными компьютерными и лекционными классами. Классы оснащены всеми наглядными учебно-методическими материалами, плакатами, пособиями, необходимой литературой. АНО ДПО «Академия» имеет в собственности всю мебель и необходимое оборудование, компьютеры, оргтехнику, специальное оборудование, материалы для проведения лекционных и практических занятий. Современная оргтехника позволяет демонстрировать видео-уроки, учебные презентации. На всех персональных компьютерах подключен Интернет, работает бесплатный Wi-Fi. Во всех классах установлены кондиционеры, обеспечивающие комфорт в жаркое время года. </p>
- <p class="adv">•   Тренажер</p>
- <p>Занятия на автотренажере в нашей автошколе являются обязательными в программе обучения. Обучить курсантов автошкол базовым навыкам управления автомобилем с механической КПП позволяет виртуальное вождение автомобиля на тренажере. </p>
- <p>Преимущества виртуальных автотренажеров:</p>
- <ul class="preimul"><li>•  Объемный окружающий мир: дорога, автомобили, здания …</li>
- <li>•  Возможность регулировки интенсивности движения.</li>
- <li>•  Первоначальные навыки посадки за руль, пользование органами управления, пуск двигателя, начало движения, переключение передач.</li>
- <li>•  Подсказчик, сообщающий о любой ошибке.</li>
- </ul>
- <p class="adv">•   Медицинская помощь</p>  
- <p>В учебном центре организована первая медицинская помощь.  Медицинский кабинет, осуществляется текущий контроль за состоянием здоровья обучающихся, проведение санитарно-гигиенических, профилактических и оздоровительных мероприятий, пропаганда здорового образа жизни, оказание первичной доврачебной медико-санитарной помощи обучающимся.</p>
- <p>Весь водительский состав проходит ежедневный медицинский осмотр и допуск перед выездом.</p>
 
-
-<br/><br/>
-<h5 class="text-center">Категория А, А 1</h5>
-<p style="font-weight:600;font-size:22px">Обучение вождению на мотоцикле</p>
-<p>Хотите освоить искусство безопасного и уверенного вождения мотоцикла с нуля и до хорошего городского уровня? Школа предлагает как групповые занятия с организованной сдачей экзамена категории А, так и частные индивидуальные уроки вождения мотоцикла с мотоинструктором. Мы не просто научим управлять мотоциклом. Наши инструкторы и педагоги дадут консультации по приобретению, эксплуатации, хранению мотоцикла, а так же, по выбору запчастей и экипировки.</p>
-<p>Автошкола АНО ДПО «Академия» ведет подготовку водителей мотоциклов категории А и подкатегории А1.</p>
-
+<!-- <p style="font-weight:600;font-size:22px">Обучение вождению на мотоцикле</p>
+ -->
+<p class="green"><b>Автошкола АНО ДПО «Академия» ведет подготовку водителей мотоциклов категории А и подкатегории А1.</b></p>
+<br/>
 
 <table class="table table-bordered table-striped table-condensed table-responsive">
     <thead>
@@ -224,21 +264,10 @@ YBR125 ESD
 
 
 
-
-<p style="font-weight:600;font-size:20px">Теория</p>
-<p>Теоретический курс состоит из правил дорожного движения и основ устройства мотоцикла. Его можно посещать в составе любой из групп, проходящих обучение на категорию «В», так как экзаменационные вопросы одинаковы в том и другом случае. Лица, имеющие водительское удостоверение с любой открытой категорией проходят теоретические занятия по желанию.</p>
 <br/>
-<p style="font-weight:600;font-size:20px">Вождение</p>
-<p>Учебная программа курса рассчитана на <b>18 часов</b> или 6 занятий. Занятия проводят опытные инструкторы на собственном автодроме, с отработкой всех упражнений, необходимых для успешной сдачи экзамена и уверенного управления мототехникой. Все упражнения на автодроме соответствуют новому регламенту сдачи экзамена.</p>
-<p><b>Срок обучение – 1 месяц.</b></p>
-<br/>
-<p style="font-weight:600;font-size:20px">Акция</p>
-<p>При записи в автошколу на категории "А" и "В" одновременно – скидка 5 000 рублей.</p>
-
-<br/>
-<h5 class="text-center"> Услуги, предоставляемые бесплатно</h5>  <br/>
+<h5 class="text-center"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  
- <ul class="preimul preimul2">
+ <ul class=" preimul2">
  <li>•  Учебная литература в подарок: экзаменационные билеты. правила дорожного движения. учебник по вождению автомобиля. памятка по упражнениям на площадке;</li>
  <li>•  подготовка пакета документов для сдачи экзамена в ГИБДД;</li>
  <li>•  организация и предоставление учебных автомобилей на первичные экзамены (выпускной и ГИБДД);</li>
@@ -257,4 +286,43 @@ YBR125 ESD
 </div>
 
 
-<?php Yii::$app->view->registerJsFile('/assets/js/block.js',  ['depends' => 'yii\web\JqueryAsset']); ?>
+<?php 
+
+
+$this->registerJs(<<<JS
+$(".flash-success").animate({opacity: 1.0}, 1000).fadeOut("slow");
+
+
+$('#idmodal').on('close.bs.modal', function(e) { 
+setTimeout(function() {  $("#wrapacket").text('BUBUBU'); }, 6000);
+
+
+});
+
+
+$('#idmodal').on('show.bs.modal', function(e) {
+  var which = e.relatedTarget.dataset.which;
+        //var newspan = document.createElement('div');
+        //newspan.className = "wpacket";
+if (which==4) {
+          $("#wrapacket").text('Пакет "Стандарт"');
+
+ $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Дневной"><p class="help-block help-block-error"></p></div>');
+
+
+  } else if (which==5)
+  {
+$("#wrapacket").text('Пакет "Двойной A+B"');
+ $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Стандарт"><p class="help-block help-block-error"></p></div>');
+
+  } else if (which==6) 
+  {
+$("#wrapacket").text('Пакет "Индивидуальный"');
+ $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Индивидуальный"><p class="help-block help-block-error"></p></div>');
+
+  };
+
+});
+
+JS
+, yii\web\View::POS_READY);  ?>

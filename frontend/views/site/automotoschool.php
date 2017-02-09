@@ -59,12 +59,12 @@ $this->params['breadcrumbs'][] = $this->title;
  <div class="blockAB" style="margin-top:10px" >
  <div class="blockBB">
  <a href="/automotoschool/A"  title="Выберите категорию">
- <img class="" src="../../images/pics/aaa3333.png" width="260px">
+ <img class="" src="../../images/pics/a-a2.png" width="260px">
  </a></div>
 
  <div class="blockBB " style="margin-left:50px;">
  <a href="/automotoschool/B">
- <img  class="B1" src="../../images/pics/bbb16.png" width="260px" title="Выберите категорию">
+ <img  class="B1" src="../../images/pics/b-l.png" width="260px" title="Выберите категорию">
     </a>
 </div>
  </div>
@@ -98,9 +98,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
  </div>
- <br/><br/>
- <p>На сегодняшний день на базе учебного центра АНО ДПО «Академия» открыта Автошкола. Проводится обучение частных лиц и персонала организаций для получения водительского удостоверения, удостоверения тракториста-машиниста, удостоверение на право управления маломерным судном. Учитывая ритмичный график современного общества, вы найдете удобный для Вас вариант подготовки. Обучение проходит как в будние дни, так и в удобное для Вас время. Производится запись в вечерние группы и группы выходного дня.</p>
-
 
 
  <!-- <section class="automotoschool">
@@ -248,7 +245,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 </div>
-<div class="greenline"></div>
 <div class="row preimbox">
 <h2 class="text-center">Наши преимущества</h2>
 <br/>
@@ -265,32 +261,95 @@ $this->params['breadcrumbs'][] = $this->title;
     <i class="fa fa-check-square fa-stack-bottom-right"></i>
 </span></div>
 <div class="col-sm-9"><p class="advpr">Обучение без ОБМАНА - Все часы вождения!!!</p></div></div>
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
-<div class="col-sm-9"><p class="advpr">Современные оборудованные классы</p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Рассрочка платежа на весь период обучения.</p></div></div>
+
 </div>
 
 
 
 <div class="col-md-4 col-sm-6 col-xs-12">
 <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Бесплатная литература</p></div></div>
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Рассрочка платежа на весь период обучения.</p></div></div>
+<div class="col-sm-9"> <p class="advpr">Тренажер для первоначальных навыков</p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
+<div class="col-sm-9"><p class="advpr">Современные оборудованные классы</p></div></div>
 <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-calendar fa-3x"></span></div>
 <div class="col-sm-9"> <p class="advpr">Вечерние группы и группы выходного дня</p></div></div>
 </div>
    
 <div class="col-md-4 col-md-offset-0 col-sm-offset-3 col-sm-6 col-xs-12">
 <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-clock-o fa-3x"></span></div>
-<div class="col-sm-9"><p class="advpr">Индивидуальный график вождения</p></div></div>
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Сопровождение на экзамене</p></div></div>
+<div class="col-sm-9"><p class="advpr">Парк новых автомобилей и мотоциклов </p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Бесплатная литература</p></div></div>
 <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
 <div class="col-sm-9"> <p class="advpr">Медицинская комиссия</p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Сопровождение на экзамене</p></div></div>
+
+
 </div>
 
 </div><br/><br/>
-<div class="greenline"></div>
+<br/>
+
+
+
+
+
+
+
+
+
+
+<div class="row preimbox">
+<h2 class="text-center">Наши преимущества</h2>
+<br/>
+
+<div class="style2">
+<div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-road fa-3x"></span></div>
+<div class="col-sm-9"><p class="advpr">Собственный Автодром</p>  </div>
+</div>
+
+<div class="style2 iskl"><div class="col-sm-3 text-center"><span class="fa fa-stack fa-3x" style="margin-left:-25px">
+    <i class="fa fa-shield fa-stack-2x" ></i>
+    <i class="fa fa-square fa-stack-bottom-right fa-inverse"></i>
+    <i class="fa fa-check-square fa-stack-bottom-right"></i>
+</span></div>
+<div class="col-sm-9"><p class="advpr">Обучение без ОБМАНА - Все часы вождения!!!</p></div></div>
+<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
+<div class="col-sm-9"><p class="advpr">Современные оборудованные классы</p></div></div>
+
+
+
+<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Бесплатная литература</p></div></div>
+<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Рассрочка платежа на весь период обучения.</p></div></div>
+<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-calendar fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Вечерние группы и группы выходного дня</p></div></div>
+   
+<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-clock-o fa-3x"></span></div>
+<div class="col-sm-9"><p class="advpr">Индивидуальный график вождения</p></div></div>
+<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Сопровождение на экзамене</p></div></div>
+<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Медицинская комиссия</p></div></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 <br/><br/><br/>

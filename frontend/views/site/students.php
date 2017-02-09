@@ -23,7 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<!-- <?= Html::encode($this->title) ?> --> <br/>    <br/>
+<!-- <?= Html::encode($this->title) ?> -->
 <div class="site-automotoschool container siteblock">
    
 
@@ -31,7 +31,15 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-12 col-md-3">
 
 
-<div class="wrapcube">
+
+<div class="menu">
+  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Запись на обучение</a></span></div>
+  <div class="menuItem dos"><span><a style="color:;" href="/students">Расписание занятий</a></span></div>
+  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Наши преимущества</a></span></div>
+  <div class="menuItem cuatro"><span><a href="/dop-uslugi">Доп. услуги</a></span></div>
+ </div>
+
+<!-- <div class="wrapcube">
   <div class="cube" id="a">
   <div class="side front"><p><a style="color:#fff;" href="/postupayushchim">Поступающим</a></p></div>
     <div class="side left"></div>
@@ -65,7 +73,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="side bottom"></div>
   </div>
 
-</div>
+</div> -->
 </div>
 
 

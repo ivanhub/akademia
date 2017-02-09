@@ -3,7 +3,10 @@
 
 /*100% here*/
 
-@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700|Exo+2:300&subset=cyrillic');
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700|Roboto:300,400,700|Exo+2:300&subset=cyrillic');
 
 
 @font-face {
@@ -886,6 +889,11 @@ section .row .main-text { padding: 0 45px 0;
 .right-aside {padding: 10px 35px 0 15px; 
     padding: 1rem 3.5rem 0 2.5rem;
   }
+
+#index section.main {
+margin-top: 46px;
+}
+
 
 section.main {
 margin-top: 80px;
