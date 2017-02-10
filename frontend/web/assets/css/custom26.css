@@ -176,10 +176,12 @@ repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 2.5px, transparent 5
   box-shadow: 0px 10px 50px rgba(255, 255, 255, 0.55);
     background:rgba(255, 255, 255, 0.55);
 /*     border-left:1px solid gray;
-border-right:1px solid gray; */
-
-    position: relative;
+border-right:1px solid gray; 
     margin-top: -4px;
+
+*/
+    margin-top: -2px;
+    position: relative;
 
 }
 
@@ -198,7 +200,7 @@ section.main {
      
 }}
 
-@media(max-width:768px) {
+@media (max-width:768px) {
 
 .box1, .box2,.box3,.box4 { text-align: center !important; }
 
@@ -885,12 +887,15 @@ transform:rotateZ(180deg);
 opacity:0.7;
 }
 
- .greenlinebot {background: url(../../images/fon/line2.jpg) 0 bottom repeat-x;
+.greenlinebot {background: url(../../images/fon/line2.jpg) 0 bottom repeat-x;
   width:100%;
 height:2px;
 opacity:0.7;
-position:absolute;
-
+position:relative;
+z-index:555;
+top: -21px;
+marign-left:-1px;
+margin-right:-1px;
 }
 
 .greenlinel:not(.affix-top) {background: url(../../images/fon/linel.jpg) 0 bottom repeat-x;
@@ -923,10 +928,19 @@ transition: all .3s;
     align-items: center;
     margin-top:15px;
 }
-.style1 span.fa {
+.style1 span.fa, .style1 span.fa-stack {
     color:/* #a1b0a4;*/ #578d60;
 }
 
+
+
+.fa-inverse2 {
+  color:#e8ffdb;
+}
+
+.fa-outline-inverse{
+	text-shadow: -0.12ex 0 #578d60,-0.1ex -0.1ex #578d60, 0 -0.12ex #578d60, 0.1ex -0.1ex #578d60, 0.12ex 0 #578d60, 0.1ex 0.1ex #578d60, 0 0.12ex #578d60, -0.1ex 0.1ex #578d60;
+}
 
 
 
@@ -938,6 +952,12 @@ transition: all .3s;
 color:/*#3a7849;*/ #df8706;
 }
 .style1:hover .fa-square {color:#fff;}
+.style1:hover .fa-circle {color:#d0e7c3}
+.style1:hover .fa-outline-inverse{
+	text-shadow: -0.12ex 0 #df8706,-0.1ex -0.1ex #df8706, 0 -0.12ex #df8706, 0.1ex -0.1ex #df8706, 0.12ex 0 #df8706, 0.1ex 0.1ex #df8706, 0 0.12ex #df8706, -0.1ex 0.1ex #df8706;
+}
+.style1:hover .fa-inverse2 {color:#f3fded}
+
 
 .advpr {margin-left:-10px;}
  
@@ -994,3 +1014,43 @@ display: flex;
 .green {color:#0c500c !important;}
 
 .lineheight1 {line-height:1 !important}
+
+
+
+
+.fa-stack > .fa-badge-bg{
+	position:absolute;
+	right:-10%;
+	bottom:-5%;
+	font-size:120%;
+	height:60%;
+	width:60%;
+	line-height:102%;
+	text-align:center;
+}
+.fa-stack > .fa-badge{
+	position:absolute;
+	right:-10%;
+	bottom:-5%;
+	font-size:100%;
+	height:60%;
+	width:60%;
+	line-height:120%;
+	text-align:center;
+}
+
+.fa-stack > .fa-badge2{
+	position:absolute;
+	right:-20%;
+	bottom:15%;
+	font-size:100%;
+	height:60%;
+	width:60%;
+	line-height:120%;
+	text-align:center;
+}
+
+.fa-stack {font-size:19px !important}
+
+
+

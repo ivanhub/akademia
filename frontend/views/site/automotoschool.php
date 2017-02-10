@@ -255,38 +255,56 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-9"><p class="advpr">Собственный Автодром</p>  </div>
 </div>
 
-<div class="style1 iskl"><div class="col-sm-3"><span class="fa fa-stack fa-3x" style="margin-left:-25px">
-    <i class="fa fa-shield fa-stack-2x" ></i>
-    <i class="fa fa-square fa-stack-bottom-right fa-inverse"></i>
-    <i class="fa fa-check-square fa-stack-bottom-right"></i>
-</span></div>
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-handshake-o fa-3x"></span></div>
 <div class="col-sm-9"><p class="advpr">Обучение без ОБМАНА - Все часы вождения!!!</p></div></div>
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Рассрочка платежа на весь период обучения.</p></div></div>
 
 </div>
 
+<div class="col-md-4 col-sm-6 col-xs-12">
+
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Рассрочка платежа на весь период обучения.</p></div></div>
+<div class="style1"><div class="col-sm-3"><span class="fa-stack">
+  <i class="fa fa-desktop fa-stack-2x"></i>
+  <i class="fa fa-car fa-stack-1x" style="top:auto;bottom:17%;%;left:-1%"></i>
+  <i class="fa fa-circle fa-badge-bg fa-inverse2 fa-outline-inverse" style="top:45%;left:55%"></i>
+  <i class="fa fa-user fa-badge"style="left:55%"></i>
+</span></div>
+<div class="col-sm-9"> <p class="advpr">Тренажер для первоначальных навыков</p></div></div>
+</div>
 
 
 <div class="col-md-4 col-sm-6 col-xs-12">
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Тренажер для первоначальных навыков</p></div></div>
+
 <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
 <div class="col-sm-9"><p class="advpr">Современные оборудованные классы</p></div></div>
 <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-calendar fa-3x"></span></div>
 <div class="col-sm-9"> <p class="advpr">Вечерние группы и группы выходного дня</p></div></div>
 </div>
    
-<div class="col-md-4 col-md-offset-0 col-sm-offset-3 col-sm-6 col-xs-12">
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-clock-o fa-3x"></span></div>
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-car fa-3x">
+<!-- <span class="fa-stack-2x">
+<i class="fa fa-car" style="top:auto;left:-1%"></i>
+<i class="fa fa-motorcycle"></i>
+</span> --></div>
 <div class="col-sm-9"><p class="advpr">Парк новых автомобилей и мотоциклов </p></div></div>
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
 <div class="col-sm-9"> <p class="advpr">Бесплатная литература</p></div></div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+
 <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
 <div class="col-sm-9"> <p class="advpr">Медицинская комиссия</p></div></div>
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Сопровождение на экзамене</p></div></div>
 
+    </div>
+        <div class="col-md-offset-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
+<div class="col-sm-9"> <p class="advpr">Сопровождение на экзамене</p></div></div>
+        </div>
 
 </div>
 

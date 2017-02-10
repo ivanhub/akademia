@@ -53,18 +53,18 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
   if($homecheker=='site/index')
   {
-    echo '<a href="http://front.loc"><div class="logo-akademia hvr-up onload-logo" ></div></a>';
+    echo '<a href="/"><div class="logo-akademia hvr-up onload-logo" ></div></a>';
     
   }else
   { 
-   echo '<a href="http://front.loc"><div class="logo-akademia hvr-up animated fadeIn" ></div></a>';
+   echo '<a href="/"><div class="logo-akademia hvr-up animated fadeIn" ></div></a>';
 
   } ?>
 <!-- <img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->
 </div>
 <div class="col-md-3 col-sm-4 col-xs-5">
 
-<img class="logotop anilogo fadeIn" src="http://front.loc/images/rosauto3.png" width="540px">
+<img class="logotop anilogo fadeIn" src="/images/rosauto3.png" width="540px">
 <!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>-->
  <p class="logotextbottom">Лицензия № 4913 от 16.04.2013 г. </p> 
 </div>
@@ -94,6 +94,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 <div class="wrap  animated fadeIn" data-spy="affix" data-offset-top="100">
 <!--   <div class="greenlineup"></div>
  -->
+
 <div class="logo46"></div>
     <?php
     NavBar::begin([
@@ -121,7 +122,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
     <!--   <div class="greenlinebot"></div> -->
 
 </div>
-</div></div>
+</div><div class="greenlinebot"></div></div>
 
 
 </header>

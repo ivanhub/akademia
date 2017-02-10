@@ -1,0 +1,116 @@
+/*breadcrumb*/
+
+/*
+ul.breadcrumb {
+    margin-top: 77px;
+    position: relative;
+} */
+
+ul.breadcrumb {
+    margin-top: 65px;
+    margin-left: 150px;
+   # left: -20px;
+    position: relative;
+}
+
+.breadcrumb {opacity:1 !important}
+/*.breadcrumb {background-color:rgba(212, 212, 169, 0.19) !important;}*/
+
+.breadcrumb li a:first-child {
+    font-weight: 600;
+}
+
+
+
+.breadcrumb>li+li:before {
+    content: "" !important;
+    padding: 0 !important;
+    color: #ccc !important;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  margin-bottom: 20px;
+  line-height: 20px;
+background-color:inherit;
+}
+
+.breadcrumb li a { color:#f3f3e1;}
+.breadcrumb li {
+
+  display: block;
+  float: left;
+  font-weight: bold;
+  background: #f9f9f9;
+  padding-right: 10px;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 22px;
+  position: relative;
+  text-decoration: none;
+  color: #fff !important;
+  cursor: default;
+}
+.breadcrumb li:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  border: 10px solid transparent;
+  border-color: #f9f9f9;
+  border-left-color: transparent;
+}
+.breadcrumb li:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -19px;
+  border: 10px solid transparent;
+  border-left-color: #f9f9f9;
+}
+.breadcrumb li:first-of-type {
+  border-radius: 2px 0 0 2px;
+  padding-left: 15px;
+}
+.breadcrumb li:first-of-type:before {
+  display: none;
+}
+.breadcrumb li:last-of-type {
+  border-radius: 0 2px 2px 0;
+  margin-right: 25px;
+  padding-right: 15px;
+}
+.breadcrumb li:last-of-type:after {
+  display: none;
+}
+.breadcrumb li {
+  background: #b9dbb2;
+  color: #fff;
+  cursor: pointer;
+}
+.breadcrumb li::before {
+  border-color: #b9dbb2;
+  border-left-color: transparent;
+}
+.breadcrumb li::after {
+  border-left-color: #b9dbb2;
+}
+.breadcrumb li:hover {
+  background: #00a345;
+  border-color: #00a345;
+  color: #fff;
+  text-decoration: none;
+}
+.breadcrumb li:hover:before {
+  border-color: #00a345;
+  border-left-color: transparent;
+}
+.breadcrumb li:hover:after {
+  border-left-color: #00a345;
+}
