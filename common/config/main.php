@@ -70,11 +70,11 @@ return [
              'rules' => [
             '<alias:validate|create|savecont|createwidget|feedform|feedForm|contacts2|contacts|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
             '<alias:dop-uslugi>' =>  'site/dopuslugi', 
+             '<alias:our-advantages>' =>  'site/ouradvantages', 
             '<alias:safety-driving>' =>  'site/safetydriving', 
             '<alias:postupayushchim>' =>  'site/incoming', 
             '<alias:automotoschool/B>' =>  'site/b', 
-            '<alias:automotoschool/A>' =>  'site/a', 
-
+            '<alias:automotoschool/A>' =>  'site/a',
  
 
 

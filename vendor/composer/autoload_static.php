@@ -40,6 +40,10 @@ class ComposerStaticInitdd7e1e289a6f9c6723f46475a154aca3
             'onmotion\\gallery\\' => 17,
             'omnilight\\assets\\' => 17,
         ),
+        'l' => 
+        array (
+            'leoshtika\\bootstrap\\' => 20,
+        ),
         'k' => 
         array (
             'kartik\\growl\\' => 13,
@@ -148,6 +152,10 @@ class ComposerStaticInitdd7e1e289a6f9c6723f46475a154aca3
         'omnilight\\assets\\' => 
         array (
             0 => __DIR__ . '/..' . '/omnilight/yii2-vuejs/src',
+        ),
+        'leoshtika\\bootstrap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/leoshtika/yii2-nav-sidebar',
         ),
         'kartik\\growl\\' => 
         array (

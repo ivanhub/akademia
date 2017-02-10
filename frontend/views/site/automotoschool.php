@@ -30,12 +30,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <div class="menu">
-  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Запись на обучение</a></span></div>
-  <div class="menuItem dos"><span><a style="color:;" href="/students">Расписание занятий</a></span></div>
-  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Наши преимущества</a></span></div>
-  <div class="menuItem cuatro"><span><a href="/dop-uslugi">Доп. услуги</a></span></div>
+   <a  href="/postupayushchim"> <div class="menuItem uno"><span>Запись на обучение</span></div></a>
+    <a  href="/raspisanie"><div class="menuItem dos"><span>Расписание занятий</span></div></a>
+    <a  href="/our-advantages"><div class="menuItem tres"><span>Наши преимущества</span></div></a>
+    <a  href="/dop-uslugi"><div class="menuItem cuatro"><span>Доп. услуги</span></div></a>
  </div>
-
 
 
 
@@ -107,7 +106,11 @@ $this->params['breadcrumbs'][] = $this->title;
  <p>Парк наших транспортных средств включает в себя достаточное количество современных автомобилей, мотоциклов для обучения вождению. Срок их эксплуатации не превышает 4-х лет, поэтому техническое состояние транспортных средств находится на очень достойном уровне.</p>
  <p>Транспортные средства – с механической трансмиссией (МККП) оборудованы дополнительными педалями сцепления и тормоза, зеркалом заднего вида. На учебные автомобили установлен аппаратно-программный комплекс аудио и видеонаблюдения на базе видеорегистратора, необходимые для сдачи экзамена на получение водительского удостоверения.</p>
  <p class="adv">•   Собственный автодром</p>
- <p>Автошкола Академия имеет свою собственную, не арендованную, оборудованную учебную площадку. Практические занятия на автодроме проходят по индивидуальному графику с отработкой всех необходимых элементов. На асфальто-бетонном покрытии нанесена разметка, в наличии достаточное количество разметочного оборудования (конуса, вешки) для оборудования зон упражнения. Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование. Площадка освещается в темное время суток.</p>
+ <p>Автошкола Академия имеет свою собственную, не арендованную, оборудованную учебную площадку.
+  Практические занятия на автодроме проходят по индивидуальному графику с отработкой всех необходимых элементов.
+   На асфальто-бетонном покрытии нанесена разметка, в наличии достаточное количество разметочного оборудования
+    (конуса, вешки) для оборудования зон упражнения. Площадь автодрома позволяет обеспечить комфорт и безопасность 
+    на практических занятиях и круглогодичное функционирование. Площадка освещается в темное время суток.</p>
  <p class="adv">•   Компьютеризированные учебные классы</p>
  <p>Для проведения теоретических занятий автомотошкола располагает комфортными компьютерными и лекционными классами. Классы оснащены всеми наглядными учебно-методическими материалами, плакатами, пособиями, необходимой литературой. АНО ДПО «Академия» имеет в собственности всю мебель и необходимое оборудование, компьютеры, оргтехнику, специальное оборудование, материалы для проведения лекционных и практических занятий. Современная оргтехника позволяет демонстрировать видео-уроки, учебные презентации. На всех персональных компьютерах подключен Интернет, работает бесплатный Wi-Fi. Во всех классах установлены кондиционеры, обеспечивающие комфорт в жаркое время года. </p>
  <p class="adv">•   Тренажер</p>
@@ -252,7 +255,9 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-md-4 col-sm-6 col-xs-12">
 <div class="style1">
 <div class="col-sm-3"><span class="vc_icon_element-icon fa fa-road fa-3x"></span></div>
-<div class="col-sm-9"><p class="advpr">Собственный Автодром</p>  </div>
+<div class="col-sm-9"><p class="advpr">Собственный Автодром</p>  
+
+</div>
 </div>
 
 <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-handshake-o fa-3x"></span></div>
@@ -295,13 +300,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
 <div class="col-sm-9"> <p class="advpr">Бесплатная литература</p></div></div>
     </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
 
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Медицинская комиссия</p></div></div>
-
-    </div>
-        <div class="col-md-offset-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="col-sm-offset-3 col-md-offset-0 col-md-4 col-sm-6 col-xs-12">
         <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
 <div class="col-sm-9"> <p class="advpr">Сопровождение на экзамене</p></div></div>
         </div>
@@ -317,44 +317,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-
-
-
-<div class="row preimbox">
-<h2 class="text-center">Наши преимущества</h2>
-<br/>
-
-<div class="style2">
-<div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-road fa-3x"></span></div>
-<div class="col-sm-9"><p class="advpr">Собственный Автодром</p>  </div>
-</div>
-
-<div class="style2 iskl"><div class="col-sm-3 text-center"><span class="fa fa-stack fa-3x" style="margin-left:-25px">
-    <i class="fa fa-shield fa-stack-2x" ></i>
-    <i class="fa fa-square fa-stack-bottom-right fa-inverse"></i>
-    <i class="fa fa-check-square fa-stack-bottom-right"></i>
-</span></div>
-<div class="col-sm-9"><p class="advpr">Обучение без ОБМАНА - Все часы вождения!!!</p></div></div>
-<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
-<div class="col-sm-9"><p class="advpr">Современные оборудованные классы</p></div></div>
-
-
-
-<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Бесплатная литература</p></div></div>
-<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Рассрочка платежа на весь период обучения.</p></div></div>
-<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-calendar fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Вечерние группы и группы выходного дня</p></div></div>
-   
-<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-clock-o fa-3x"></span></div>
-<div class="col-sm-9"><p class="advpr">Индивидуальный график вождения</p></div></div>
-<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Сопровождение на экзамене</p></div></div>
-<div class="style2"><div class="col-sm-3 text-center"><span class="vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
-<div class="col-sm-9"> <p class="advpr">Медицинская комиссия</p></div></div>
-
-</div>
 
 
 

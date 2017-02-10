@@ -20,6 +20,7 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0",
 	"kartik-v/yii2-widget-growl": "*",
         "omnilight/yii2-vuejs": "^1.0",
+        "leoshtika/yii2-nav-sidebar": "*",
         "alexandernst/yii2-device-detect": "^0.0.11",
         "skeeks/yii2-mobile-detect": "^1.0",
         "phpnt/yandex-map": "*",

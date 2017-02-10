@@ -19,6 +19,7 @@ return array(
     'onmotion\\helpers\\' => array($vendorDir . '/onmotion/yii2-helpers'),
     'onmotion\\gallery\\' => array($vendorDir . '/onmotion/yii2-gallery'),
     'omnilight\\assets\\' => array($vendorDir . '/omnilight/yii2-vuejs/src'),
+    'leoshtika\\bootstrap\\' => array($vendorDir . '/leoshtika/yii2-nav-sidebar'),
     'kartik\\growl\\' => array($vendorDir . '/kartik-v/yii2-widget-growl'),
     'kartik\\base\\' => array($vendorDir . '/kartik-v/yii2-krajee-base'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),

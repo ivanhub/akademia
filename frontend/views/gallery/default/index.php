@@ -24,7 +24,8 @@ $this->params['breadcrumbs'][] = $this->title;
     echo \yii\widgets\ListView::widget([
         'id' => 'gallery-listview',
         'dataProvider' => $dataProvider,
-        'layout' => "{items}\n{pager}\n{summary}",
+        'layout' => "{items}\n{pager}",
+//\n{summary}
         'itemView' => function ($model) {
             return $this->render('galleryItem',['model' => $model]);
         },

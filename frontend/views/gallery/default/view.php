@@ -89,23 +89,6 @@ JS
                     'class' => 'download-collapse'
                 ]
             ]);
-                echo Html::a('<i class="glyphicon glyphicon-pencil"></i>', ['#'],
-                    ['title' => 'Edit mode', 'class' => 'btn btn-default', 'id' => 'check-toggle',
-                        'data-toggle' => "tooltip", 'data-placement' => "top", 'data-trigger' => "hover"]);
-                echo Html::a('<i class="glyphicon glyphicon-check"></i>', ['#'],
-                    ['title' => 'Check all', 'class' => 'btn btn-default', 'style' => "display:none", 'id' => 'check-all',
-                        'data-toggle' => "tooltip", 'data-placement' => "top", 'data-trigger' => "hover"]);
-
-                echo Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['#'],
-                    ['title' => 'Reset', 'class' => 'btn btn-default', 'style' => "display:none", 'id' => 'reset-all',
-                        'data-toggle' => "tooltip", 'data-placement' => "top", 'data-trigger' => "hover"]);
-                echo Html::a('<i class="glyphicon glyphicon-trash"></i>', Url::toRoute('photos-delete'),
-                    ['title' => 'Delete photos', 'class' => 'btn btn-danger', 'style' => "display:none", 'id' => 'photos-delete-btn',
-                        'data-toggle' => "tooltip", 'data-placement' => "top", 'data-trigger' => "hover",
-                        'role' => 'modal-toggle',
-                        'data-modal-title'=>'Delete photos',
-                        'data-modal-body'=>'Are you sure?',
-                    ]);
 echo Html::endTag('div');
 
 Modal::begin([

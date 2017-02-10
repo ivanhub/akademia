@@ -84,15 +84,6 @@ return array (
       '@onmotion/gallery' => $vendorDir . '/onmotion/yii2-gallery',
     ),
   ),
-  'yiisoft/yii2-debug' => 
-  array (
-    'name' => 'yiisoft/yii2-debug',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug',
-    ),
-  ),
   'yiisoft/yii2-gii' => 
   array (
     'name' => 'yiisoft/yii2-gii',
@@ -109,6 +100,24 @@ return array (
     'alias' => 
     array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
+    ),
+  ),
+  'leoshtika/yii2-nav-sidebar' => 
+  array (
+    'name' => 'leoshtika/yii2-nav-sidebar',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@leoshtika/bootstrap' => $vendorDir . '/leoshtika/yii2-nav-sidebar',
+    ),
+  ),
+  'yiisoft/yii2-debug' => 
+  array (
+    'name' => 'yiisoft/yii2-debug',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug',
     ),
   ),
 );

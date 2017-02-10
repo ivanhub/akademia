@@ -30,8 +30,32 @@ top:25px;
   z-index: 99;
 
 margin-left: 25px;
+}
+
+
+#aa .menu {
+top:25px;
+	height: 220px;
+	background: url(../../images/pics/menu-moto.png) !important;
+	background-repeat: no-repeat;
+	padding-top: 39px;
+	border-radius: 4px;
+	position: relative;
+/*  height: 100%;*/
+  width: 185px;
+/*  background: #2c3e50;
+  background: rgba(29, 107, 93, 0.61); */
+  background: rgba(87, 167, 105,0);
+
+  transition:width 1s;
+  overflow: hidden;
+  font-family: 'Michroma', sans-serif;
+  z-index: 99;
+
+margin-left: 25px;
 
 }
+
 
 
 .menuItem {
@@ -49,16 +73,16 @@ margin-left: 25px;
   left:30px;
   top:0;
   transition:color 1s;
-  color:rgba(255,255,255,.8);
+/*  color:rgba(255,255,255,.8);*/
   font-weight:500;
 
 
 }
 
-
+/*
 .menu:hover .menuItem  span {
  color:rgba(255,255,255,1);
-}
+} */
 
 
 .menuItem:hover {

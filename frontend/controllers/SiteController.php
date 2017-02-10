@@ -92,8 +92,7 @@ $this->registerJs($script, yii\web\View::POS_READY);*/
 */          //return $this->renderAjax('delete');
          //   return $this->refresh();
  // return $this->redirect(['view', 'id' => $model->id]);
-$success=true;
-return json_encode($success);
+
 
 }
  else { return $this->render('B',[ 'model' => $model,]);
@@ -152,10 +151,10 @@ public function actionValidate(){
     }
 
 
-  public function actionStudents()
+   public function actionOuradvantages()
     {
          
-        return $this->render('students');
+        return $this->render('ouradvantages');
     }
 
 

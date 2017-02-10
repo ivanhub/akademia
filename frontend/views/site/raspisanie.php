@@ -11,7 +11,7 @@ use phpnt\yandexMap\YandexMaps;
 use yii\widgets\Breadcrumbs;
 
 
-$this->title = 'Расписание';
+$this->title = 'Расписание занятий';
 $this->params['breadcrumbs'][] = [
                                    /* 'template' => "<li><b>{link}</b></li>\n", */
                                     'label' => 'Автомотошкола', 
@@ -39,12 +39,11 @@ $this->params['breadcrumbs'][] = $this->title;
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
 </ul> -->
 
-
 <div class="menu">
-  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Запись на обучение</a></span></div>
-  <div class="menuItem dos"><span><a style="color:;" href="/students">Расписание занятий</a></span></div>
-  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Наши преимущества</a></span></div>
-  <div class="menuItem cuatro"><span><a href="/dop-uslugi">Доп. услуги</a></span></div>
+   <a  href="/postupayushchim"> <div class="menuItem uno"><span>Запись на обучение</span></div></a>
+    <a  href="#"><div class="menuItem dos"><span>Расписание занятий</span></div></a>
+    <a  href="/our-advantages"><div class="menuItem tres"><span>Наши преимущества</span></div></a>
+    <a  href="/dop-uslugi"><div class="menuItem cuatro"><span>Доп. услуги</span></div></a>
  </div>
 
 

@@ -376,12 +376,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/yiisoft/yii2-framework.git",
-            "reference": "d3f1298ce1d0c06355764ea7c6626407204234af"
+            "reference": "5c58feab4c2d967c347f983685f54bfb8506951e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/d3f1298ce1d0c06355764ea7c6626407204234af",
-            "reference": "d3f1298ce1d0c06355764ea7c6626407204234af",
+            "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/5c58feab4c2d967c347f983685f54bfb8506951e",
+            "reference": "5c58feab4c2d967c347f983685f54bfb8506951e",
             "shasum": ""
         },
         "require": {
@@ -397,7 +397,7 @@
             "php": ">=5.4.0",
             "yiisoft/yii2-composer": "~2.0.4"
         },
-        "time": "2017-02-04T12:51:12+00:00",
+        "time": "2017-02-09T10:30:53+00:00",
         "bin": [
             "yii"
         ],
@@ -1154,19 +1154,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/yiisoft/yii2-debug.git",
-            "reference": "73bc9708660ed1d09028c6967b8a1eedb83612d9"
+            "reference": "7bfe34392a176ad1c60f6f4c033263612251fa3d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/73bc9708660ed1d09028c6967b8a1eedb83612d9",
-            "reference": "73bc9708660ed1d09028c6967b8a1eedb83612d9",
+            "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/7bfe34392a176ad1c60f6f4c033263612251fa3d",
+            "reference": "7bfe34392a176ad1c60f6f4c033263612251fa3d",
             "shasum": ""
         },
         "require": {
             "yiisoft/yii2": "~2.0.11",
             "yiisoft/yii2-bootstrap": "~2.0.0"
         },
-        "time": "2017-02-04T12:25:15+00:00",
+        "time": "2017-02-08T09:02:13+00:00",
         "type": "yii2-extension",
         "extra": {
             "branch-alias": {
@@ -2815,90 +2815,6 @@
         ]
     },
     {
-        "name": "phpunit/phpunit",
-        "version": "5.7.x-dev",
-        "version_normalized": "5.7.9999999.9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/phpunit.git",
-            "reference": "1fd10bf3bd7b9172f43063a818a16b2381743008"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1fd10bf3bd7b9172f43063a818a16b2381743008",
-            "reference": "1fd10bf3bd7b9172f43063a818a16b2381743008",
-            "shasum": ""
-        },
-        "require": {
-            "ext-dom": "*",
-            "ext-json": "*",
-            "ext-libxml": "*",
-            "ext-mbstring": "*",
-            "ext-xml": "*",
-            "myclabs/deep-copy": "~1.3",
-            "php": "^5.6 || ^7.0",
-            "phpspec/prophecy": "^1.6.2",
-            "phpunit/php-code-coverage": "^4.0.4",
-            "phpunit/php-file-iterator": "~1.4",
-            "phpunit/php-text-template": "~1.2",
-            "phpunit/php-timer": "^1.0.6",
-            "phpunit/phpunit-mock-objects": "^3.2",
-            "sebastian/comparator": "^1.2.4",
-            "sebastian/diff": "~1.2",
-            "sebastian/environment": "^1.3.4 || ^2.0",
-            "sebastian/exporter": "~2.0",
-            "sebastian/global-state": "^1.1",
-            "sebastian/object-enumerator": "~2.0",
-            "sebastian/resource-operations": "~1.0",
-            "sebastian/version": "~1.0|~2.0",
-            "symfony/yaml": "~2.1|~3.0"
-        },
-        "conflict": {
-            "phpdocumentor/reflection-docblock": "3.0.2"
-        },
-        "require-dev": {
-            "ext-pdo": "*"
-        },
-        "suggest": {
-            "ext-xdebug": "*",
-            "phpunit/php-invoker": "~1.1"
-        },
-        "time": "2017-02-06T11:45:00+00:00",
-        "bin": [
-            "phpunit"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "5.7.x-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "classmap": [
-                "src/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Sebastian Bergmann",
-                "email": "sebastian@phpunit.de",
-                "role": "lead"
-            }
-        ],
-        "description": "The PHP Unit Testing framework.",
-        "homepage": "https://phpunit.de/",
-        "keywords": [
-            "phpunit",
-            "testing",
-            "xunit"
-        ]
-    },
-    {
         "name": "behat/gherkin",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -3322,18 +3238,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/finder.git",
-            "reference": "791ac099b1687c0bd82f7230ec0d8fc8550c81dc"
+            "reference": "87b6a1d1b0577c072e3391c67ef17ae48b1f9ab4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/finder/zipball/791ac099b1687c0bd82f7230ec0d8fc8550c81dc",
-            "reference": "791ac099b1687c0bd82f7230ec0d8fc8550c81dc",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/87b6a1d1b0577c072e3391c67ef17ae48b1f9ab4",
+            "reference": "87b6a1d1b0577c072e3391c67ef17ae48b1f9ab4",
             "shasum": ""
         },
         "require": {
             "php": ">=5.5.9"
         },
-        "time": "2017-01-02T20:33:09+00:00",
+        "time": "2017-02-08T22:54:13+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3579,23 +3495,23 @@
     },
     {
         "name": "codeception/verify",
-        "version": "0.3.2",
-        "version_normalized": "0.3.2.0",
+        "version": "0.3.3",
+        "version_normalized": "0.3.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Codeception/Verify.git",
-            "reference": "b06d706261d1fee0cc312bacc5c1b7c506e5213a"
+            "reference": "5d649dda453cd814dadc4bb053060cd2c6bb4b4c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeception/Verify/zipball/b06d706261d1fee0cc312bacc5c1b7c506e5213a",
-            "reference": "b06d706261d1fee0cc312bacc5c1b7c506e5213a",
+            "url": "https://api.github.com/repos/Codeception/Verify/zipball/5d649dda453cd814dadc4bb053060cd2c6bb4b4c",
+            "reference": "5d649dda453cd814dadc4bb053060cd2c6bb4b4c",
             "shasum": ""
         },
         "require-dev": {
             "phpunit/phpunit": "~4.0"
         },
-        "time": "2016-08-29T22:49:25+00:00",
+        "time": "2017-01-09T10:58:51+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -3614,5 +3530,134 @@
             }
         ],
         "description": "BDD assertion library for PHPUnit"
+    },
+    {
+        "name": "leoshtika/yii2-nav-sidebar",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leoshtika/yii2-nav-sidebar.git",
+            "reference": "39bc6e54468608f10fc355828017745111a1a705"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leoshtika/yii2-nav-sidebar/zipball/39bc6e54468608f10fc355828017745111a1a705",
+            "reference": "39bc6e54468608f10fc355828017745111a1a705",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-08-13T21:45:28+00:00",
+        "type": "yii2-extension",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "leoshtika\\bootstrap\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Leonard Shtika",
+                "email": "leonard@shtika.info",
+                "homepage": "http://leonard.shtika.info"
+            }
+        ],
+        "description": "A bootstrap sidebar nav for Yii2",
+        "keywords": [
+            "bootstrap",
+            "nav",
+            "sidebar",
+            "yii2"
+        ]
+    },
+    {
+        "name": "phpunit/phpunit",
+        "version": "5.7.x-dev",
+        "version_normalized": "5.7.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/phpunit.git",
+            "reference": "944600e244f80a5252679878553b95c63dbf978b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/944600e244f80a5252679878553b95c63dbf978b",
+            "reference": "944600e244f80a5252679878553b95c63dbf978b",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-json": "*",
+            "ext-libxml": "*",
+            "ext-mbstring": "*",
+            "ext-xml": "*",
+            "myclabs/deep-copy": "~1.3",
+            "php": "^5.6 || ^7.0",
+            "phpspec/prophecy": "^1.6.2",
+            "phpunit/php-code-coverage": "^4.0.4",
+            "phpunit/php-file-iterator": "~1.4",
+            "phpunit/php-text-template": "~1.2",
+            "phpunit/php-timer": "^1.0.6",
+            "phpunit/phpunit-mock-objects": "^3.2",
+            "sebastian/comparator": "^1.2.4",
+            "sebastian/diff": "~1.2",
+            "sebastian/environment": "^1.3.4 || ^2.0",
+            "sebastian/exporter": "~2.0",
+            "sebastian/global-state": "^1.1",
+            "sebastian/object-enumerator": "~2.0",
+            "sebastian/resource-operations": "~1.0",
+            "sebastian/version": "~1.0|~2.0",
+            "symfony/yaml": "~2.1|~3.0"
+        },
+        "conflict": {
+            "phpdocumentor/reflection-docblock": "3.0.2"
+        },
+        "require-dev": {
+            "ext-pdo": "*"
+        },
+        "suggest": {
+            "ext-xdebug": "*",
+            "phpunit/php-invoker": "~1.1"
+        },
+        "time": "2017-02-08T05:54:05+00:00",
+        "bin": [
+            "phpunit"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.7.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sebastian@phpunit.de",
+                "role": "lead"
+            }
+        ],
+        "description": "The PHP Unit Testing framework.",
+        "homepage": "https://phpunit.de/",
+        "keywords": [
+            "phpunit",
+            "testing",
+            "xunit"
+        ]
     }
 ]

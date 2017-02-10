@@ -96,6 +96,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
  -->
 
 <div class="logo46"></div>
+
     <?php
     NavBar::begin([
      //   'brandLabel' => 'Учебный центр "Академия"',
@@ -117,12 +118,12 @@ $tablet = Yii::$app->mobileDetect->isTablet();
         'options' => ['class' => 'navbar-nav navbar-right interface'],
         'items' => $menuItems,
     ]);
+
     NavBar::end();
     ?>
-    <!--   <div class="greenlinebot"></div> -->
-
+  <div class="greenlinebot"></div>  
 </div>
-</div><div class="greenlinebot"></div></div>
+</div></div>
 
 
 </header>

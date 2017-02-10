@@ -36,12 +36,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <div class="menu">
-  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Запись на обучение</a></span></div>
-  <div class="menuItem dos"><span><a style="color:;" href="/students">Расписание занятий</a></span></div>
-  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Наши преимущества</a></span></div>
-  <div class="menuItem cuatro"><span><a href="/dop-uslugi">Доп. услуги</a></span></div>
+   <a  href="/postupayushchim"> <div class="menuItem uno"><span>Запись на обучение</span></div></a>
+    <a  href="/raspisanie"><div class="menuItem dos"><span>Расписание занятий</span></div></a>
+    <a  href="/our-advantages"><div class="menuItem tres"><span>Наши преимущества</span></div></a>
+    <a  href="/dop-uslugi"><div class="menuItem cuatro"><span>Доп. услуги</span></div></a>
  </div>
-
 
 
 
@@ -71,12 +70,12 @@ $this->params['breadcrumbs'][] = $this->title;
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-       <p class="linet2">Удобней для всех</p>
+       <p class="linet2">Удобен для всех</p>
 <p class="little2">от <b style="color:darkgreen">12 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
     <p>с 9:00 до 16:00 Вт-Пт.</p>
     <p>Теоретические занятия:</p>
-    <p>с 18:00 до 20:00 Ср.,Чт.</p>    </div>      </div>
+    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>      </div>
           <div class="butt">
 <?php    echo Html::a(
     'Записаться',
@@ -98,12 +97,12 @@ $this->params['breadcrumbs'][] = $this->title;
           "Двойной A+B"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-<p class="linet2">Скидка 5 000 р. !</p>
+<p class="linet2">Скидка 5 000 р. </p>
 <p class="little2">от <b style="color:darkgreen">25 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
     <p>с 16:00 до 20:00 Вт.-Сб.</p>
     <p>Теоретические занятия:</p>
-    <p>с 18:00 до 20:00 Вт.,Чт.</p>    </div>
+    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>
           </div>
           <div class="butt">
             <?php    echo Html::a(
@@ -181,91 +180,24 @@ $this->params['breadcrumbs'][] = $this->title;
 <!-- <p style="font-weight:600;font-size:22px">Обучение вождению на мотоцикле</p>
  -->
 <p class="green"><b>Автошкола АНО ДПО «Академия» ведет подготовку водителей мотоциклов категории А и подкатегории А1.</b></p>
-<br/>
+<br/><br/>
 
-<table class="table table-bordered table-striped table-condensed table-responsive">
-    <thead>
-        <tr>
-            <th>
-Категория            </th>
-            <th>
-Расшифровка            </th>
-            <th>
-Обучение            </th>
-            <th>
-Открытие 
-категории
-            </th>
-            <th>
-Марка мотоцикла            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-А            </td>
-            <td>
-Тяжелые мотоциклы
-(объем двигателя 
-свыше 125 куб.см.)
-            </td>
-            <td>
-С 16 лет            </td>
-            <td>
-С 18 лет            </td>
-            <td>
-KAWASAKI
-ER650E,
-<br/>
-RACER<br/>
-RC250-C5B.
-            </td>
-        </tr>
-        <tr>
-            <td>
-А1            </td>
-            <td>
-Легкие мотоциклы
-(объем двигателя
-от 50 до 125 куб. см.)
-            </td>
-            <td>
-С 16 лет            </td>
-            <td>
-С 16 лет            </td>
-            <td>
-YAMAHA
-YBR125 ESD
-            </td>
-        </tr>
-        <tr>
-            <td>
-М            </td>
-            <td>
-Мопеды,
- мотики, 
-скутеры
-            </td>
-            <td>
-С 14 лет            </td>
-            <td>
-С 16 лет,<br/>
-Открывается 
-автоматически при
-получении водительского удостоверения
-            </td>
-            <td>
--            </td>
-        </tr>
+<img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/A-1.png">
+<br/><br/>
+<img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/A11----.png">
+<br/><br/>
+<p class="text-center green" style="font-weight:bold;font-style:italic">Открывается автоматически при получении водительского удостоверения</p>
+<img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/M-.png">
 
-    </tbody>
-</table>
+
+
+
 
 
 
 
 <br/>
-<h5 class="text-center"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
+<h5 class="text-center"> Услуги, которые  предоставляем бесплатно:</h5>  <br/>
  
  <ul class=" preimul2">
  <li>•  Учебная литература в подарок: экзаменационные билеты. правила дорожного движения. учебник по вождению автомобиля. памятка по упражнениям на площадке;</li>
