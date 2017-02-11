@@ -937,10 +937,10 @@ transition: all .3s;
 
 
 .style5 {
-transition: all .3s;
     align-items: center;
     margin-top:15px;
-    height:110px;
+    height:100px;
+    border: 1px solid #578d60; border-radius:2px;
 }
 .style5 span.fa, .style5 span.fa-stack {
     color:/* #a1b0a4;*/ #578d60;
@@ -958,7 +958,7 @@ position:absolute;
 left:15px;
   display: inline-block; 
   width: 350px; 
-  height: 110px;
+  height: 100px;
   border-color: rgba(0,0,0,0);
   
   border-radius: 100%;
@@ -977,25 +977,38 @@ new:hover {
   border-color: rgba(202,226,193, 0.6);
 }
 
-.x11:hover {border:0; transition:0s;}
+.style5:hover {border:1px solid transparent; transition:0s;}
 
 .x1 {
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  border: 55px dashed rgba(202,226,193, 0); 
+  border: 51px dashed rgba(202,226,193, 0); 
   background: rgba(202,226,193,0.6);
 }
 
-.x1.over {animation:blfadein .3s forwards, blin 1s forwards;   }
-.x1.out { animation:blout .7s ;   }
-.x11 {position:absolute; left:15px; width:350px;height:110px; border: 1px solid #578d60; border-radius:2px;}
+
+.x11 {position:absolute; left:15px; width:350px;height:100px; border: 1px solid #578d60; border-radius:2px;}
 
 .showing1 {opacity:0;}
-.showing1.out {opacity:0; transition:.2s;}
-.showing1.over {opacity:1; transition:.2s;height: 100%;}
+.showing1.out {opacity:0;transition:.6s;}
+.showing1.over {opacity:1; transition:.7s;height: 100%;}
 .inside1.out {opacity:1; transition:.2s;}
 .inside1.over {opacity:0; transition:.2s;}
+.inside.out {opacity:1; transition:.1s;}
+.inside.over {opacity:0; transition:.1s;}
+
+
+new.over {animation:blfadein .3s forwards, blin .7s forwards;   }
+new.out { animation:blout .5s ;   }
+
+.cntr new.over {animation:blfadein .3s forwards, blin2 .7s forwards;    }
+.cntr new.out { animation:blout2 .5s ;   }
+
+.lst new.over {animation:blfadein .3s forwards, blin3 .7s forwards;    }
+.lst new.out { animation:blout3 .5s ;   }
+
+
 
 
 .x2 {
@@ -1008,12 +1021,12 @@ new:hover {
 
 .x2.over {animation:blfadein .3s forwards, blin 1s forwards;   }
 .x2.out { animation:blout .7s ;   }
-.x22 {position:absolute;left:15px; width:350px;height:110px;border: 1px solid #578d60; border-radius:2px;}
+.x22 {position:absolute;left:15px; width:350px;height:100px;border: 1px solid #578d60; border-radius:2px;}
 .showing2 {opacity:0;}
-.showing2.out {opacity:0; transition:.2s;}
-.showing2.over {opacity:1; transition:.2s;height: 100%;}
-.inside2.out {opacity:1; transition:.2s;}
-.inside2.over {opacity:0; transition:.2s;}
+.showing2.out {opacity:0; }
+.showing2.over {opacity:1;height: 100%;}
+.inside2.out {opacity:1; }
+.inside2.over {opacity:0;}
 
 .x3 {
   border-radius: 0;
@@ -1023,9 +1036,8 @@ new:hover {
   background: rgba(202,226,193,0.6);
 }
 
-.x3.over {animation:blfadein .3s forwards, blin2 1s forwards;    }
-.x3.out { animation:blout2 .7s ;   }
-.x33 {position:absolute;left:15px; width:350px;height:110px;border: 1px solid #578d60; border-radius:2px;}
+
+.x33 {position:absolute;left:15px; width:350px;height:100px;border: 1px solid #578d60; border-radius:2px;}
 .showing3 {opacity:0;}
 .showing3.out {opacity:0; transition:.2s;}
 .showing3.over {opacity:1; transition:.2s;height: 100%;}
@@ -1042,7 +1054,7 @@ new:hover {
 
 .x4.over {animation:blfadein .3s forwards, blin2 1s forwards;   }
 .x4.out { animation:blout2 .7s ;   }
-.x44 {position:absolute;left:15px; width:350px;height:110px;border: 1px solid #578d60; border-radius:2px;}
+.x44 {position:absolute;left:15px; width:350px;height:100px;border: 1px solid #578d60; border-radius:2px;}
 .showing4 {opacity:0;}
 .showing4.out {opacity:0; transition:.2s;}
 .showing4.over {opacity:1; transition:.2s;height: 100%;}
@@ -1061,7 +1073,7 @@ new:hover {
 
 .x5.over {animation:blfadein .3s forwards, blin3 1s forwards;   }
 .x5.out { animation:blout3 .7s ;   }
-.x55 {position:absolute;left:15px; width:350px;height:110px;border: 1px solid #578d60; border-radius:2px;}
+.x55 {position:absolute;left:15px; width:350px;height:100px;border: 1px solid #578d60; border-radius:2px;}
 .showing5 {opacity:0;}
 .showing5.out {opacity:0; transition:.2s;}
 .showing5.over {opacity:1; transition:.2s;height: 100%;}
@@ -1080,7 +1092,7 @@ new:hover {
 
 .x6.over {animation:blfadein .3s forwards, blin3 1s forwards;   }
 .x6.out { animation:blout3 .7s ;   }
-.x66 {position:absolute;left:15px; width:350px;height:110px;border: 1px solid #578d60; border-radius:2px;}
+.x66 {position:absolute;left:15px; width:350px;height:100px;border: 1px solid #578d60; border-radius:2px;}
 .showing6 {opacity:0;}
 .showing6.out {opacity:0; transition:.2s;}
 .showing6.over {opacity:1; transition:.2s;height: 100%;}
@@ -1098,7 +1110,7 @@ new:hover {
 
 .x7.over {animation:blfadein .3s forwards, blin 1s forwards;   }
 .x7.out { animation:blout .7s ;   }
-.x77 {position:absolute;left:15px; width:350px;height:110px;border: 1px solid #578d60; border-radius:2px;}
+.x77 {position:absolute;left:15px; width:350px;height:100px;border: 1px solid #578d60; border-radius:2px;}
 .showing7 {opacity:0;}
 .showing7.out {opacity:0; transition:.2s;}
 .showing7.over {opacity:1; transition:.2s;height: 100%;}
@@ -1116,7 +1128,7 @@ new:hover {
 
 .x8.over {animation:blfadein .3s forwards, blin2 1s forwards;   }
 .x8.out { animation:blout2 .7s ;   }
-.x88 {position:absolute;left:15px; width:350px;height:110px;border: 1px solid #578d60; border-radius:2px;}
+.x88 {position:absolute;left:15px; width:350px;height:100px;border: 1px solid #578d60; border-radius:2px;}
 .showing8 {opacity:0;}
 .showing8.out {opacity:0; transition:.2s;}
 .showing8.over {opacity:1; transition:.2s;height: 100%;}
@@ -1134,7 +1146,7 @@ new:hover {
 
 .x9.over {animation:blfadein .3s forwards, blin3 1s forwards;   }
 .x9.out { animation:blout3 .7s ;   }
-.x99 {position:absolute;left:15px; width:350px;height:110px;border: 1px solid #578d60; border-radius:2px;}
+.x99 {position:absolute;left:15px; width:350px;height:100px;border: 1px solid #578d60; border-radius:2px;}
 .showing9 {opacity:0;}
 .showing9.out {opacity:0; transition:.2s;}
 .showing9.over {opacity:1; transition:.2s;height: 100%;}
@@ -1149,15 +1161,15 @@ new:hover {
 }
 
 @keyframes blin {
-  0% {border: 55px dashed rgba(202,226,193, 0)}
+  0% {border: 51px dashed rgba(202,226,193, 0)}
   40% {border: 1px dashed rgb(84, 146, 60);}
-  100% {border: 1px dashed rgb(84, 146, 60); width:500px; height:200px;background:white; opacity:1; z-index:555; }
+  100% {border: 1px dashed rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-20px;}
 }
 
 @keyframes blout {
-  100% {border: 55px dashed rgba(202,226,193, 0)}
+  100% {border: 51px dashed rgba(202,226,193, 0)}
   30% {border: 1px dashed rgb(84, 146, 60);}
-  0% {border: 1px dashed rgb(84, 146, 60);width:500px; height:200px; l}
+  0% {border: 1px dashed rgb(84, 146, 60);width:530px; height:220px; left:-20px;}
 }
 
 
@@ -1165,30 +1177,30 @@ new:hover {
 
 
 @keyframes blin2 {
-  0% {border: 55px dashed rgba(202,226,193, 0)}
+  0% {border: 51px dashed rgba(202,226,193, 0)}
   40% {border: 1px dashed rgb(84, 146, 60);}
-  100% {border: 1px dashed rgb(84, 146, 60); width:500px; height:200px;background:white; opacity:1; z-index:555; left:-45px;}
+  100% {border: 1px dashed rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-80px;}
 }
 
 @keyframes blout2 {
-  100% {border: 55px dashed rgba(202,226,193, 0)}
+  100% {border: 51px dashed rgba(202,226,193, 0)}
   30% {border: 1px dashed rgb(84, 146, 60);}
-  0% {border: 1px dashed rgb(84, 146, 60);width:500px; height:200px; left:-45px;}
+  0% {border: 1px dashed rgb(84, 146, 60);width:530px; height:220px; left:-80px;}
 }
 
 
 
 
 @keyframes blin3 {
-  0% {border: 55px dashed rgba(202,226,193, 0)}
+  0% {border: 51px dashed rgba(202,226,193, 0)}
   40% {border: 1px dashed rgb(84, 146, 60);}
-  100% {border: 1px dashed rgb(84, 146, 60); width:500px; height:200px;background:white; opacity:1; z-index:555; left:-90px;}
+  100% {border: 1px dashed rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-130px;}
 }
 
 @keyframes blout3 {
-  100% {border: 55px dashed rgba(202,226,193, 0)}
+  100% {border: 51px dashed rgba(202,226,193, 0)}
   30% {border: 1px dashed rgb(84, 146, 60);}
-  0% {border: 1px dashed rgb(84, 146, 60);width:500px; height:200px; left:-90px;}
+  0% {border: 1px dashed rgb(84, 146, 60);width:530px; height:220px; left:-130px;}
 }
 
 /* .x11,.x22,.x33,.x44,.x55,.x66,.x77,.x88,.x99 { cursor:pointer; }
