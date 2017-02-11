@@ -70,7 +70,10 @@ use yii\helpers\Html;
 <?php 
 
 $this->registerJs(<<<JS
+var div = document.createElement('div');
+div.className = "greenlinebot";
 
+  document.getElementsByClassName("navbar-header")[0].appendChild(div);
 
   $('form').on('beforeSubmit', function(e) {
     var form = $(this);

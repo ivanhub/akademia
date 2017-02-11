@@ -403,7 +403,6 @@ $this->params['breadcrumbs'][] = $this->title;
 <?php 
 
 $this->registerJs(<<<JS
-window.onload = function() {
 
 
 
@@ -734,7 +733,7 @@ var x8 = document.getElementsByClassName("style5")[8];
   }, false);
 
 
-};
+
 
 
 /*

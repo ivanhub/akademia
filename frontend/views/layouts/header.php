@@ -121,9 +121,8 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
     NavBar::end();
     ?>
-<!--   <div class="greenlinebot"></div>  
- --></div>
-</div></div>
+</div> 
+</div>  </div>
 
 
 </header>
