@@ -182,10 +182,9 @@ border-right:1px solid gray;
 */
     margin-top: -2px;
     position: relative;
-
 }
 
-
+#error .mainb .backgr { margin-top:42px;}
 
 
 .maintext {margin-top:30px;}
@@ -1074,3 +1073,40 @@ display: flex;
 #incoming .panel-group a:hover {text-decoration:underline;}
 
 #incoming .panel-group h4.panel-title {font-size:22px !important;}
+
+
+
+.AA1 {float:right; margin-right:20px;}
+.BB1 {float:left; margin-left:20px;}
+
+
+.loadr {
+  color: darkgreen;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: 28px;
+  opacity: 0.8;
+}
+.loadr span {
+  display: inline-block;
+  -webkit-animation: pulser 0.5s alternate infinite ease-in-out;
+          animation: pulser 0.5s alternate infinite ease-in-out;
+}
+.loadr span:nth-child(odd) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@-webkit-keyframes pulser {
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+@keyframes pulser {
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    opacity: 0.5;
+  }
+}

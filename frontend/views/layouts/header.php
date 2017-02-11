@@ -108,11 +108,11 @@ $tablet = Yii::$app->mobileDetect->isTablet();
         ],
     ]);
     $menuItems = [
-        ['label' => 'Главная', 'url' => ['/']],
-        ['label' => 'Дистанционное обучение', 'url' => ['/distance']],
-        ['label' => 'Галерея', 'url' => ['/']],
-        ['label' => 'Об организации', 'url' => ['/']],
-        ['label' => 'Контакты', 'url' => ['/contact']],    ];
+ ['label' => 'Главная', 'url' => ['/'], 'active' => $this->context->route == 'site/index'],
+        ['label' => 'Дистанционное обучение', 'url' => ['/distance'], 'active' => $this->context->route == 'site/distance'],
+        ['label' => 'Галерея', 'url' => ['/gallery'], 'active' => $this->context->route == 'site/gallery'],
+        ['label' => 'Об организации', 'url' => ['/about-us'], 'active' => $this->context->route == 'site/aboutus'],
+        ['label' => 'Контакты', 'url' => ['/contact'], 'active' => $this->context->route == 'site/contact']];
    
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right interface'],
@@ -121,8 +121,8 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
     NavBar::end();
     ?>
-  <div class="greenlinebot"></div>  
-</div>
+<!--   <div class="greenlinebot"></div>  
+ --></div>
 </div></div>
 
 

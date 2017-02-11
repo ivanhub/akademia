@@ -15,29 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-
-
-
 <!-- <?= Html::encode($this->title) ?> -->
-
-<div class="site-automotoschool siteblock">
-   
-
- <div class="row">
-<div class="col-sm-12 col-md-3">
-
-
-
-
-<div class="menu">
-   <a  href="/postupayushchim"> <div class="menuItem uno"><span>Запись на обучение</span></div></a>
-    <a  href="/raspisanie"><div class="menuItem dos"><span>Расписание занятий</span></div></a>
-    <a  href="/our-advantages"><div class="menuItem tres"><span>Наши преимущества</span></div></a>
-    <a  href="/dop-uslugi"><div class="menuItem cuatro"><span>Доп. услуги</span></div></a>
- </div>
-
-
-
 
 <!-- <ul class="left2">
         <li><a href="/postupayushchim">Поступающим</a></li>
@@ -47,25 +25,33 @@ $this->params['breadcrumbs'][] = $this->title;
     
   
 </ul> -->
-</div>
+<div class="site-automotoschool siteblock">
+   
 
-<div class="col-md-9 col-sm-12">
+<div class="row">
 
 <h1 class="text-center">Автомотошкола</h1>
-<div class="text-center" >
+<br/>
+
+<div class="text-center">
 
 
- <div class="blockAB" style="margin-top:10px" >
- <div class="blockBB">
+<div class="col-md-6 col-xs-12">
+ <div class="blockBB AA1">
  <a href="/automotoschool/A"  title="Выберите категорию">
  <img class="" src="../../images/pics/a-a2.png" width="260px">
- </a></div>
+   </a></div></div>
 
- <div class="blockBB " style="margin-left:50px;">
+<div class="col-md-6 col-xs-12">
+ <div class="blockBB BB1">
  <a href="/automotoschool/B">
  <img  class="B1" src="../../images/pics/b-l.png" width="260px" title="Выберите категорию">
-    </a>
+ </a>
+</div></div>
+
 </div>
+
+
  </div>
 
  <!-- <div class="blockAB" style="margin-top:10px" >
@@ -95,8 +81,6 @@ $this->params['breadcrumbs'][] = $this->title;
  </div> -->
 
 
-
- </div>
 
 
  <!-- <section class="automotoschool">
@@ -243,11 +227,7 @@ $this->params['breadcrumbs'][] = $this->title;
  </section> -->
 <br/><br/>
 
-</div>
 
-
-
-</div>
 <div class="row preimbox">
 <h2 class="text-center">Наши преимущества</h2>
 <br/>
@@ -289,7 +269,7 @@ $this->params['breadcrumbs'][] = $this->title;
    
 
 <div class="col-md-4 col-sm-6 col-xs-12">
-<div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-car fa-3x">
+    <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-car fa-3x"></span>
 <!-- <span class="fa-stack-2x">
 <i class="fa fa-car" style="top:auto;left:-1%"></i>
 <i class="fa fa-motorcycle"></i>
@@ -324,12 +304,3 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-
-
-
-
-
-
-
-</div>
-<br/><br/><br/>

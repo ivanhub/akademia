@@ -980,6 +980,7 @@ section.advantages {
 
 h2 {    margin-top: 50px;}
 
+#error h2 {    margin-top: 10px;}
 
 /* map yandex */
 section.map.full-width {  margin-top: 0 !important; height:0;}
@@ -1339,7 +1340,10 @@ font-size:35px !important;
 
 
 
-#view .panel-title {color:#efefef !important}
+#view .panel-title {color:#efefef;}
+
+.gallery-view .panel-title {color:#007083 !important}
+
 
 #view a:hover, #view a:focus { color:#cae1bf }
 #view h4, #view h5 {
@@ -1351,7 +1355,11 @@ font-size:35px !important;
 
 
 .gallery-view .panel-default > .panel-heading {
-/*    background: rgba(183, 175, 153, 0.74) !important;*/
+    background: rgba(253, 253, 253, 0.74) !important;
+}
+
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+   color: darkgreen !important;
 }
 
 
@@ -1366,7 +1374,9 @@ font-size:35px !important;
 
 
 .modal-header .close {
-  font-size: 40px; //bigger
+      transform-origin: 50% 60%;
+    transform-style: preserve-3D;
+  font-size: 40px; 
   -webkit-transition: 0.5s cubic-bezier(.27,1.64,.32,.95);
     -moz-transition: 0.5s cubic-bezier(.27,1.64,.32,.95);
     -ms-transition: 0.5s cubic-bezier(.27,1.64,.32,.95);
@@ -1377,9 +1387,9 @@ font-size:35px !important;
 
 .modal-header .close:hover {
     opacity: 1;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    transform: rotate(90deg);
+    -webkit-transform: scale(1.2) rotate(90deg);
+    -moz-transform: scale(1.2) rotate(90deg);
+    transform: scale(1.2) rotate(90deg);
    /* border-radius: 50%;
     border-color: rgba(255,255,255,0.3);*/
     color:#36593c;

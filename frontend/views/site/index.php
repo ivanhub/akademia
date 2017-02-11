@@ -77,7 +77,7 @@ $this->title = 'Учебный центр "Академия"';
 
   <div class="clearfix visible-sm"></div>
 <div class="col-md-6 col-sm-6 col-xs-12 box3  cl-effect-12">
-<a style="display:block" href="/gallery">
+<a style="display:block" href="/sudovozhdenie">
 <img class="boat" src="../images/boat77.png" width="323px" style="margin-top: -5px;" >
 <p class="blocktitle  hvr-bob anim_three">Судовождение</p>
 </a>
@@ -98,12 +98,12 @@ $this->title = 'Учебный центр "Академия"';
   <aside>
   <h4 >Акции</h4>
    <div class="saleblock">
- <img src="../../images/pics/banner12.png" class="saleimg" width="200px" >
+ <img src="../../images/pics/banner12.png" class="saleimg" width="220px" >
  <!--  <p>Новогодняя акция - Скидка 15%!</p>
                <p>[Подробнее] </p> -->
            </div>
              <div class="saleblock">
- <img src="../../images/pics/banner5.png" class="saleimg" width="200px" style="margin-top:40px">
+ <img src="../../images/pics/banner5.png" class="saleimg" width="220px" style="margin-top:40px">
 <!--    <p>Новогодняя акция - Скидка 15%!</p>
               <p>[Подробнее] </p> -->
            </div>

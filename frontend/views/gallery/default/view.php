@@ -76,32 +76,19 @@ JS
                 </div>
                 <div class="col-md-1"></div>
             </div>
+     <div id="w1" class="download-collapse panel-group collapse in" aria-expanded="true">
+      <div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"> Ждём Вас на наших курсах! 
+      </h4></div>
+      <div id="w1-collapse1" class="panel-collapse collapse"><div class="panel-body"></div>
+      </div></div>
+      </div> 
+
+      <!-- Входим в ТОП-20 автошкол по рейтингу ГИБДД. -->
             <?php
-            echo Collapse::widget([
-                'items' => [
-                    [
-                        'label' => 'Upload photo',
-                        'content' => '<input id="input-1a" name="image[]" type="file"  class="file-loading" multiple>' .
-                            ' <div id="errorBlock"><ul class="alert-warning-message"></ul></div>'
-                    ]
-                ],
-                'options' => [
-                    'class' => 'download-collapse'
-                ]
-            ]);
+
 echo Html::endTag('div');
 
-Modal::begin([
-    "id" => "gallery-modal",
-    'header' => '<h4 class="modal-title"></h4>',
-    "footer" =>
-        Html::a('Close', ['#'],
-            ['title' => 'Cancel', 'class' => 'btn btn-default pull-left', 'data-dismiss' => "modal"]) .
-        Html::a('ОК', Url::toRoute('photos-delete'),
-            ['title' => '', 'class' => 'btn btn-primary', 'id' => 'photos-delete-confirm-btn']),
-]);
 
-Modal::end();
 
 echo Html::beginTag('div', ['class' => 'preloader']);
 echo Html::tag('div', Html::tag('span', '100', ['class' => 'sr-only']), ['class'=>"progress-bar progress-bar-striped active", 'role'=>"progressbar",
@@ -109,31 +96,4 @@ echo Html::tag('div', Html::tag('span', '100', ['class' => 'sr-only']), ['class'
 echo Html::endTag('div');
 
 
-$this->registerJs(<<<JS
-
-$(document).on('ready', function() {
-    $("#input-1a").fileinput({
-    showPreview: false,
-    uploadUrl: 'fileupload',
-    uploadAsync: true,
-    uploadExtraData: {
-       'gallery_id': "$model->gallery_id",
-       'gallery_name': "$model->name",
-    },
-    maxFileCount: 1000,
-    allowedFileTypes: ['image'],
-    allowedFileExtensions: ['jpg', 'png'],
-    messageOptions: {
-       'class': 'alert-warning-message'
-    },
-    elErrorContainer: '#errorBlock'
-             
-    });
-    
-    $('#input-1a').on('fileunlock', function(event, data, previewId, index) {
-        location.reload();
-    });
-});
-JS
-);
 ?>

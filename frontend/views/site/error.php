@@ -18,8 +18,8 @@ $this->title = $name;
           */
 ?>
 <div class="site-error">
-<br/><br/><br/><br/><br/>
-    <h1><?= Html::encode($this->title) ?></h1>
+<br/><br/>
+    <h1 style="text-indent:70px"><?= Html::encode($this->title) ?></h1>
 <br/><br/>
     <div class="alert alert-danger">
     <?php if ($exception->statusCode == 404) { 

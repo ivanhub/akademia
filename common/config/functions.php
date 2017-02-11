@@ -28,3 +28,19 @@ d(func_get_arg($i));
 }
 die();
 }
+
+
+function isActive($routes = array())
+{
+    if (Yii::$app->requestedRoute == "" && count($routes) == 0){
+        return true;
+    }
+    $routeCurrent = Yii::$app->requestedRoute;
+    foreach ($routes as $route) {
+        $pattern = sprintf('~%s~', preg_quote($route));
+        if (preg_match($pattern, $routeCurrent)) {
+            return true;
+        }
+    }
+    return false;
+}

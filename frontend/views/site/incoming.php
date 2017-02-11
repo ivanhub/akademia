@@ -9,6 +9,9 @@ use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 use phpnt\yandexMap\YandexMaps;
 
+use yii\widgets\Menu;
+
+
 $this->title = 'Запись на обучение';
 $this->params['breadcrumbs'][] = [
                                    /* 'template' => "<li><b>{link}</b></li>\n", */
@@ -30,13 +33,26 @@ $this->params['breadcrumbs'][] = $this->title;
  <div class="row">
 <div class="col-sm-12 col-md-3">
 
-<div class="menu">
-   <a  href="#"> <div class="menuItem uno"><span>Запись на обучение</span></div></a>
-    <a  href="/raspisanie"><div class="menuItem dos"><span>Расписание занятий</span></div></a>
-    <a  href="/our-advantages"><div class="menuItem tres"><span>Наши преимущества</span></div></a>
-    <a  href="/dop-uslugi"><div class="menuItem cuatro"><span>Доп. услуги</span></div></a>
- </div>
+<?php
+echo Menu::widget([
 
+    'items' => [
+        ['label' => 'Запись на обучение', 'url' => ['/postupayushchim'],'active' => $this->context->route == 'site/incoming'],
+        ['label' => 'Расписание занятий', 'url' => ['/raspisanie'],'active' => $this->context->route == 'site/raspisanie'],
+        ['label' => 'Наши преимущества', 'url' => ['/our-advantages'],'active' => $this->context->route == 'site/ouradvantages'],
+        ['label' => 'Дополнительные услуги', 'url' => ['/dop-uslugi'], 'active' => $this->context->route == 'site/dopuslugi',
+        'class' => 'biaka'],
+    ],
+    'options' => [
+          //'id'=>'navid',
+          'class' => 'menu',
+          'style'=>'float: left; font-size: 16px;',
+          'data'=>'menu',
+        ],
+    'activeCssClass'=>'active',
+    'linkTemplate' => '<a href="{url}"><div class="menuItem"><span>{label}</span></div></a>',
+]);
+?>
 
 
 </div>

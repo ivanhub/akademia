@@ -10,6 +10,7 @@ use yii\captcha\Captcha;
 use phpnt\yandexMap\YandexMaps;
 use yii\widgets\Breadcrumbs;
 
+use yii\widgets\Menu;
 
 $this->title = 'Расписание занятий';
 $this->params['breadcrumbs'][] = [
@@ -39,13 +40,34 @@ $this->params['breadcrumbs'][] = $this->title;
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
 </ul> -->
 
-<div class="menu">
-   <a  href="/postupayushchim"> <div class="menuItem uno"><span>Запись на обучение</span></div></a>
-    <a  href="#"><div class="menuItem dos"><span>Расписание занятий</span></div></a>
-    <a  href="/our-advantages"><div class="menuItem tres"><span>Наши преимущества</span></div></a>
-    <a  href="/dop-uslugi"><div class="menuItem cuatro"><span>Доп. услуги</span></div></a>
- </div>
 
+
+<?php
+
+echo Menu::widget([
+
+    'items' => [
+        ['label' => 'Запись на обучение', 'url' => ['/postupayushchim'],'active' => $this->context->route == 'site/postupayushchim'],
+        ['label' => 'Расписание занятий', 'url' => ['/raspisanie'],'active' => $this->context->route == 'site/raspisanie'],
+        ['label' => 'Наши преимущества', 'url' => ['/our-advantages'],'active' => $this->context->route == 'site/ouradvantages'],
+        ['label' => 'Дополнительные услуги', 'url' => ['/dop-uslugi'], 'active' => $this->context->route == 'site/dopuslugi',
+        'class' => 'biaka'],
+
+    ],
+    'options' => [
+          //'id'=>'navid',
+          'class' => 'menu',
+          'style'=>'float: left; font-size: 16px;',
+          'data'=>'menu',
+        ],
+
+    'activeCssClass'=>'active',
+    'linkTemplate' => '<a href="{url}"><div class="menuItem"><span>{label}</span></div></a>',
+
+
+]);
+
+?>
 
 </div>
 
