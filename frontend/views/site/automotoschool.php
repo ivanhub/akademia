@@ -288,15 +288,273 @@ $this->params['breadcrumbs'][] = $this->title;
 
 </div>
 
-</div><br/><br/>
+<br/><br/>
 <br/>
 
 
+<div class="row preimbox">
+<h2 class="text-center">Наши преимущества</h2>
+<br/>
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="style5">
+<div class="x11"></div> 
+ 
+
+<div class="col-sm-3"><span class="inside1 vc_icon_element-icon fa fa-road fa-3x"></span></div>
+<div class="col-sm-9"><div class="inside1 advpr">Собственный Автодром</div></div>
+<new class="x1"><div class="showing1"><p class="xi-title">Собственный Автодром</p>
+  <p class="xi-text">Автошкола Академия имеет свою собственную, не арендованную, оборудованную учебную площадку.
+  Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование. Площадка освещается в темное время суток.</p></div> </new>  
 
 
+</div>
+
+<div class="style5">
+<div class="x22"></div> 
+<div class="col-sm-3"><span class="inside2 vc_icon_element-icon fa fa-handshake-o fa-3x"></span></div>
+<div class="col-sm-9"><div class="inside2 advpr2">Обучение без ОБМАНА - Все часы вождения!!!</div></div>
+<new class="x2"><div class="showing2"><p class="xi-title">Обучение без ОБМАНА - Все часы вождения!!!</p>
+  <p class="xi-text">Мы заинтересованы в качественном обучении студентов и успешной сдачи экзаменов в ГИБДД. От этого зависит наша репутация. 
+В нашем учебном центре прозрачная система обучения. Мы всегда открыты для вас. Задача центра НАУЧИТЬ вас водить,
+потому что от этого зависит ваша жизнь.</p></div> </new>  
+</div></div>
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+
+<div class="style5">
+<div class="x33"></div> 
+<div class="col-sm-3"><span class="inside3 vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
+<div class="col-sm-9"> <div class="inside3 advpr2">Рассрочка платежа на весь период обучения.</div></div>
+<new class="x3"><div class="showing3"><p class="xi-title">Рассрочка платежа на весь период обучения.</p>
+  <p class="xi-text">Первоначальный взнос 5 000 р. Остальную сумму Вы оплачиваете в период всего обучения.</p></div> </new> 
+
+</div>
+<div class="style5">
+<div class="x44"></div> 
+<div class="col-sm-3"><span class="inside4 fa-stack">
+  <i class="fa fa-desktop fa-stack-2x"></i>
+  <i class="fa fa-car fa-stack-1x" style="top:auto;bottom:17%;%;left:-1%"></i>
+  <i class="fa fa-circle fa-badge-bg fa-inverse2 fa-outline-inverse" style="top:45%;left:55%"></i>
+  <i class="fa fa-user fa-badge"style="left:55%"></i>
+</span></div>
+<div class="col-sm-9"> <div class="inside4 advpr2">Тренажер для первоначальных навыков</div></div>
+<new class="x4"><div class="showing4"><p class="xi-title">Тренажер для первоначальных навыков</p>
+  <p class="xi-text">Занятия на автотренажере в нашей автошколе являются обязательными в програме обучения. Обучить курсантов автошкол 
+базовым навыкам управления автомобилей с механической КПП позволяет виртуальное вождение автомобиля на тренажере.</p></div> </new> 
+  </div>
+</div>
 
 
+<div class="col-md-4 col-sm-6 col-xs-12">
 
+<div class="style5">
+<div class="x55"></div> 
+<div class="col-sm-3"><span class="inside5 vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
+<div class="col-sm-9"><div class="inside5 advpr2">Современные оборудованные классы</div></div>
+<new class="x5"><div class="showing5"><p class="xi-title">Современные оборудованные классы</p>
+  <p class="xi-text">Учебные классы оборудованы всем необходимым инвертарем,  тематическими плакатами, компьютерами и тренажерами для 
+первоначальных навыков вождения. У нас большая видеотека с обучающими роликами. Доверившись нам, вы 
+получитевысококлассное обучение в этой сфере, что позволит Вам успешно сдать экзамены на права.</p></div> </new> </div>
+
+<div class="style5">
+<div class="x66"></div> 
+<div class="col-sm-3"><span class="inside6 vc_icon_element-icon fa fa-calendar fa-3x"></span></div>
+<div class="col-sm-9"> <div class="inside6 advpr2">Вечерние группы и группы выходного дня</div></div>
+<new class="x6"><div class="showing6"><p class="xi-title">Вечерние группы и группы выходного дня</p>
+  <p class="xi-text">Расписание групп вы можете уточнить у администраторов автошколы позвонив по номеру 255-69-99</p></div> </new> </div>
+</div>
+   
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+    <div class="style5">
+    <div class="x77"></div> 
+<div class="col-sm-3"><span class="inside7 vc_icon_element-icon fa fa-car fa-3x"></span>
+</div>
+<div class="col-sm-9"><div class="inside7 advpr2">Парк новых автомобилей и мотоциклов </div></div>
+<new class="x7"><div class="showing7"><p class="xi-title">Парк новых автомобилей и мотоциклов </p>
+  <p class="xi-text">Срок их эксплуатации не превышает 4-х лет, поэтому техническое состояние транспортных средств находится на
+очень достойном уровне. Все машины оснащены видео и аудио системами регистрации.</p></div> </new> 
+  </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+<div class="style5">
+<div class="x88"></div> 
+<div class="col-sm-3"><span class="inside8 vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
+<div class="col-sm-9"> <div class="inside8 advpr2">Бесплатная литература</div></div>
+<new class="x8"><div class="showing8"><p class="xi-title">Бесплатная литература</p>
+  <p class="xi-text">Всю необходимую литературу экзаменационные билеты, книгу с правилами дорожного движения, меточки вы получите на первом 
+теоретическом занятии.</p></div> </new> 
+  </div>
+    </div>
+
+        <div class="col-sm-offset-3 col-md-offset-0 col-md-4 col-sm-6 col-xs-12">
+
+        <div class="style5">
+        <div class="x99"></div> 
+<div class="col-sm-3"><span class="inside9 vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
+<div class="col-sm-9"> <div class="inside9 advpr2">Сопровождение на экзамене</div></div>
+<new class="x9"><div class="showing9"><p class="xi-title">Сопровождение на экзамене</p>
+  <p class="xi-text">Мы подготовим пакет документов для сдачи экзамена, предоставим учебные автомобили на экзамены в ГИБДД.</p></div> </new> </div>
+        </div>
+
+</div>
+
+</div>
+
+<br/><br/><br/><br/>
+
+
+<?php 
+
+$this->registerJs(<<<JS
+
+
+$( ".x11" )
+  .on( "mouseenter", function() {
+    $(".x1").removeClass('out').addClass('over'); 
+     $(".showing1").removeClass('out').addClass('over');
+    $(".inside1").removeClass('out').addClass('over');
+  });
+  $(".showing1")
+  .on( "mouseleave", function() {
+    $(".x1").removeClass('over').addClass('out'); 
+    $(".inside1").removeClass('over').addClass('out');
+    $(".showing1").removeClass('over').addClass('out');
+   
+  });
+
+
+  $( ".x22" )
+  .on( "mouseenter", function() {
+
+    $(".x2").removeClass('out').addClass('over'); 
+     $(".showing2").removeClass('out').addClass('over');
+    $(".inside2").removeClass('out').addClass('over');
+  });
+  $(".showing2")
+  .on( "mouseleave", function() {
+    $(".x2").removeClass('over').addClass('out'); 
+    $(".inside2").removeClass('over').addClass('out');
+    $(".showing2").removeClass('over').addClass('out');
+    
+  });
+
+  $( ".x33" )
+  .on( "mouseenter", function() {
+
+    $(".x3").removeClass('out').addClass('over'); 
+     $(".showing3").removeClass('out').addClass('over');
+    $(".inside3").removeClass('out').addClass('over');
+  });
+  $(".showing3")
+  .on( "mouseleave", function() {
+    $(".x3").removeClass('over').addClass('out'); 
+    $(".inside3").removeClass('over').addClass('out');
+    $(".showing3").removeClass('over').addClass('out');
+
+  });
+
+
+  $( ".x44" )
+  .on( "mouseenter", function() {
+
+    $(".x4").removeClass('out').addClass('over'); 
+     $(".showing4").removeClass('out').addClass('over');
+    $(".inside4").removeClass('out').addClass('over');
+  });
+  $(".showing4")
+  .on( "mouseleave", function() {
+    $(".x4").removeClass('over').addClass('out'); 
+    $(".inside4").removeClass('over').addClass('out');
+    $(".showing4").removeClass('over').addClass('out');
+
+  });
+
+
+$( ".x55" )
+  .on( "mouseenter", function() {
+
+    $(".x5").removeClass('out').addClass('over'); 
+     $(".showing5").removeClass('out').addClass('over');
+    $(".inside5").removeClass('out').addClass('over');
+  });
+  $(".x5")
+  .on( "mouseleave", function() {
+    $(".x5").removeClass('over').addClass('out'); 
+    $(".inside5").removeClass('over').addClass('out');
+    $(".showing5").removeClass('over').addClass('out');
+    
+  });
+
+
+$( ".x66" )
+  .on( "mouseenter", function() {
+
+    $(".x6").removeClass('out').addClass('over'); 
+     $(".showing6").removeClass('out').addClass('over');
+    $(".inside6").removeClass('out').addClass('over');
+  });
+  $(".showing6")
+  .on( "mouseleave", function() {
+    $(".x6").removeClass('over').addClass('out'); 
+    $(".inside6").removeClass('over').addClass('out');
+    $(".showing6").removeClass('over').addClass('out');
+ 
+  });
+
+$( ".x77" )
+  .on( "mouseenter", function() {
+
+    $(".x7").removeClass('out').addClass('over'); 
+     $(".showing7").removeClass('out').addClass('over');
+    $(".inside7").removeClass('out').addClass('over');
+  });
+  $(".showing7")
+  .on( "mouseleave", function() {
+    $(".x7").removeClass('over').addClass('out'); 
+    $(".inside7").removeClass('over').addClass('out');
+    $(".showing7").removeClass('over').addClass('out');
+
+  });
+
+  $( ".x88" )
+  .on( "mouseenter", function() {
+
+    $(".x8").removeClass('out').addClass('over'); 
+     $(".showing8").removeClass('out').addClass('over');
+    $(".inside8").removeClass('out').addClass('over');
+  });
+  $(".showing8")
+  .on( "mouseleave", function() {
+    $(".x8").removeClass('over').addClass('out'); 
+    $(".inside8").removeClass('over').addClass('out');
+    $(".showing8").removeClass('over').addClass('out');
+    
+  });
+
+$( ".x99" )
+  .on( "mouseenter", function() {
+
+    $(".x9").removeClass('out').addClass('over'); 
+     $(".showing9").removeClass('out').addClass('over');
+    $(".inside9").removeClass('out').addClass('over');
+  });
+  $(".showing9")
+  .on( "mouseleave", function() {
+    $(".x9").removeClass('over').addClass('out'); 
+    $(".inside9").removeClass('over').addClass('out');
+    $(".showing9").removeClass('over').addClass('out');
+    
+  });
+
+JS
+, yii\web\View::POS_READY); ?>
+
+<!-- next x8
+next inside
+next showing
+ -->
 
 
 
