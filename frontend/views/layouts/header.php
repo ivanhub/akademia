@@ -91,7 +91,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 </div>
 </div> -->
 
-<div class="wrap  animated fadeIn" data-spy="affix" data-offset-top="100">
+<div class="wrap  animated fadeIn" data-spy="affix" data-offset-top="101">
 <!--   <div class="greenlineup"></div>
  -->
 

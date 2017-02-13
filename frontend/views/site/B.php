@@ -36,14 +36,37 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<div class="menu">
+<!--  <div class="menu">
    <a  href="/postupayushchim"> <div class="menuItem uno"><span>Запись на обучение</span></div></a>
     <a  href="/raspisanie"><div class="menuItem dos"><span>Расписание занятий</span></div></a>
     <a  href="/our-advantages"><div class="menuItem tres"><span>Наши преимущества</span></div></a>
     <a  href="/dop-uslugi"><div class="menuItem cuatro"><span>Доп. услуги</span></div></a>
- </div>
-
-
+ </div> -->
+<br/>
+<?= leoshtika\bootstrap\NavSidebar::widget([
+    'items' => [
+        [
+            'url' => ['site/index'],
+            'label' => 'Запись на обучение',
+            'icon' => 'car' // This is a bootstrap icon name
+        ],
+        [
+            'url' => ['site/about'],
+            'label' => 'Расписание занятий',
+            'icon' => 'clock-o' // This is a bootstrap icon name
+        ],
+         [
+            'url' => ['site/about'],
+            'label' => 'Наши преимущества',
+            'icon' => 'star' // This is a bootstrap icon name
+        ],
+         [
+            'url' => ['site/about'],
+            'label' => 'Доп. услуги',
+            'icon' => 'rocket' // This is a bootstrap icon name
+        ],
+    ],
+]) ?>
 
 <!-- <ul class="left2">
         <li><a href="/postupayushchim">Поступающим</a></li>
