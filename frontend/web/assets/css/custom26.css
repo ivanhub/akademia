@@ -1018,8 +1018,8 @@ transition: all .3s;
     color:/* #a1b0a4;*/ #578d60;
 }
 
-.style5 .advpr {margin-top:40px; margin-left:10px;}
-.style5 .advpr2{margin-top:30px;margin-left:10px;}
+.style5 .advpr {margin-top:35px; margin-left:10px;}
+.style5 .advpr2{margin-top:24px;margin-left:10px;}
 .style5 span {margin-left:20px; margin-top:30px;}
 
 
@@ -1554,6 +1554,43 @@ display: flex;
     /* text-align: justify; */
 }
 
+#aboutus .nav-sidebar i {
+    padding-left: 0;
+    display:none;
+    /* text-align: justify; */
+}
+#aboutus .nav-sidebar span {
+    padding-left: 0;
+font-size:15px;
+}
+
+#aboutus .nav-sidebar {margin-top:20px}
+
+#aboutus h4.panel-title {font-size:24px !important}
+
+#aboutus .panel-group .panel {
+    margin-bottom: 8px !important;
+}
+
+#aboutus .row-about {
+margin-left:50px; margin-right:50px;
+}
+
+#aboutus div.post-bodycopy p {
+    margin: 1em 0;
+    padding: 0;
+    display: block;
+}
+#aboutus p.text {
+    text-align: justify;
+    text-indent: 33px;
+}
+
+
+#aboutus ul li {
+    list-style-type: initial;
+}
+
 .nav-sidebar span {
     padding-left: 25px;
 }
@@ -1592,3 +1629,6 @@ display: flex;
 .nav-sidebar .item:hover span {
     color:darkgreen; 
 }
+
+
+.xi-text {width:528px}

@@ -75,6 +75,8 @@ return [
             '<alias:postupayushchim>' =>  'site/incoming', 
             '<alias:automotoschool/B>' =>  'site/b', 
             '<alias:automotoschool/A>' =>  'site/a',
+            '<alias:about-us>' =>  'site/aboutus', 
+
  
 
 

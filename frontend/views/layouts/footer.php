@@ -10,14 +10,15 @@ use yii\helpers\Html;
 
 <div class="col-md-2 col-xs-5">
  <p><a href="/automotoschool">Автомотошкола</a></p>   
- <p><a href="/raspisanie">Расписание</a></p>
-  <p><a href="/">Условия обучения</a></p>
- <p><a href="/postupayushchim">Поступающим</a></p>
- <p><a href="/students">Учащимся</a></p>
+ <p><a href="/automotoschool/A">Категория А</a></p>
+  <p><a href="/automotoschool/B">Категория B</a></p>
+ <p><a href="/postupayushchim">Запись на обучение</a></p>
+ <p><a href="/raspisanie">Расписание занятий</a></p>
+ <!-- <p><a href="/our-advantages">Наши преимущества</a></p> -->
  <p><a href="/dop-uslugi">Дополнительные услуги</a></p>
  </div>
  <div class="col-md-2 col-xs-5">
- <p><a href="">Самоходная техника</a></p>   
+ <p><a href="#">Самоходная техника</a></p>   
  <p>Расписание</p>
   <p>Условия обучения</p>
  <p>Поступающим</p>
@@ -27,8 +28,8 @@ use yii\helpers\Html;
   <div class="clearfix visible-sm"></div>
   <div class="col-xs-2 visible-sm visible-xs"></div>
 <div class="col-md-2 col-xs-5 col3">
-<p><a href="ind">Судовождение</a></p>   
- <p><a href="ind">Расписание</a></p>
+<p><a href="#">Судовождение</a></p>   
+ <p><a href="#">Расписание</a></p>
   <p>Условия обучения</p>
  <p>Поступающим</p>
  <p>Учащимся</p>

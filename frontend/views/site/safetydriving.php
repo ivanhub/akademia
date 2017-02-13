@@ -7,7 +7,7 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
-use phpnt\yandexMap\YandexMaps;
+
 
 $this->title = 'Защитное вождение';
 

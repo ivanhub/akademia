@@ -7,7 +7,7 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
-use phpnt\yandexMap\YandexMaps;
+//use phpnt\yandexMap\YandexMaps;
 
 $this->title = 'Автомотошкола';
 $this->params['breadcrumbs'][] = $this->title;
@@ -227,9 +227,9 @@ $this->params['breadcrumbs'][] = $this->title;
  </section> -->
 <br/><br/>
 
-
+<!-- 
 <div class="row preimbox">
-<h2 class="text-center">Наши преимущества</h2>
+<h2 class="text-center">Почему нас выбирают:</h2>
 <br/>
 
 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -270,10 +270,10 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="col-md-4 col-sm-6 col-xs-12">
     <div class="style1"><div class="col-sm-3"><span class="vc_icon_element-icon fa fa-car fa-3x"></span>
-<!-- <span class="fa-stack-2x">
+<span class="fa-stack-2x">
 <i class="fa fa-car" style="top:auto;left:-1%"></i>
 <i class="fa fa-motorcycle"></i>
-</span> --></div>
+</span></div>
 <div class="col-sm-9"><p class="advpr">Парк новых автомобилей и мотоциклов </p></div></div>
     </div>
     <div class="col-md-4 col-sm-6 col-xs-12">
@@ -290,10 +290,10 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <br/><br/>
 <br/>
-
+ -->
 
 <div class="row preimbox">
-<h2 class="text-center">Наши преимущества</h2>
+<h2 class="text-center">Почему нас выбирают:</h2>
 <br/>
 
 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -335,7 +335,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <i class="fa fa-circle fa-badge-bg fa-inverse2 fa-outline-inverse" style="top:45%;left:55%"></i>
   <i class="fa fa-user fa-badge"style="left:55%"></i>
 </span></div>
-<div class="col-sm-9"> <div class="inside1 advpr2">Тренажер для первоначальных навыков</div></div>
+<div class="col-sm-9"> <div class="inside1 advpr2"  style="margin-left: 0px;">Тренажер для первоначальных навыков</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Тренажер для первоначальных навыков</p>
   <p class="xi-text">Занятия на автотренажере в нашей автошколе являются обязательными в програме обучения. Обучить курсантов автошкол 
 базовым навыкам управления автомобилей с механической КПП позволяет виртуальное вождение автомобиля на тренажере.</p></div> </new> 
@@ -376,9 +376,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="col-md-4 col-sm-6 col-xs-12">
 <div class="style5 cntr">
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
-<div class="col-sm-9"> <div class="inside1 advpr2">Бесплатная литература</div></div>
+<div class="col-sm-9"> <div class="inside1 advpr">Бесплатная литература</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Бесплатная литература</p>
-  <p class="xi-text">Всю необходимую литературу экзаменационные билеты, книгу с правилами дорожного движения, меточки вы получите на первом 
+  <p class="xi-text">Всю необходимую литературу: экзаменационные билеты, правила дорожного движения, методички вы получите на первом 
 теоретическом занятии.</p></div> </new> 
   </div>
     </div>
@@ -390,7 +390,7 @@ $this->params['breadcrumbs'][] = $this->title;
  --><div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
 <div class="col-sm-9"> <div class="inside1 advpr2">Сопровождение на экзамене</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Сопровождение на экзамене</p>
-  <p class="xi-text">Мы подготовим пакет документов для сдачи экзамена, предоставим учебные автомобили на экзамены в ГИБДД.</p></div> </new> </div>
+  <p class="xi-text">Мы подготовим пакет документов для сдачи экзамена, предоставим учебные автомобили и мотоциклы на экзамены в ГИБДД. Представитель автошколы будет сопровождать Вас на протяжении всего экзамена.</p></div> </new> </div>
         </div>
 
 </div>

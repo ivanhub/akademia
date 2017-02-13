@@ -1,5 +1,4 @@
 <?php
-
 use kartik\file\FileInput;
 use onmotion\gallery\Gallery;
 use yii\bootstrap\Collapse;
@@ -8,17 +7,13 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\Breadcrumbs;
 use onmotion\helpers\Translator;
-
 /* @var $this yii\web\View */
 /* @var $model onmotion\gallery\models\Gallery */
 /* @var $photos onmotion\gallery\models\GalleryPhoto */
-
 set_time_limit(60);
 ini_set('memory_limit', '512M');
-
 $this->params['breadcrumbs'][] = ['label' => 'Gallery', 'url' => ['/gallery']];
 $this->params['breadcrumbs'][] = $model->name;
-
 $this->registerJs(<<<JS
 $('#preloader').show();
 $('body').css('overflow', 'hidden');
@@ -42,13 +37,12 @@ JS
                 ]
             ]);
             $galleryName = $model->name;
-
             if (!empty($photos)) {
                 foreach ($photos as $photo) {
                     $items[] =
                         [
-                            'original' => Yii::$app->urlManagerFrontend->baseUrl . '/' . Translator::rus2translit($galleryName) . '/' . $photo->name,
-                            'thumbnail' => Yii::$app->urlManagerFrontend->baseUrl . '/' . Translator::rus2translit($galleryName) . '/thumb/' . $photo->name,
+                            'original' => '/img/gallery/' . Translator::rus2translit($galleryName) . '/' . $photo->name,
+                            'thumbnail' => '/img/gallery/' . Translator::rus2translit($galleryName) . '/thumb/' . $photo->name,
                             'options' => [
                                 'title' => $galleryName,
                                 'data-id' => $photo->photo_id,
@@ -95,7 +89,6 @@ JS
                 echo Html::a('<i class="glyphicon glyphicon-check"></i>', ['#'],
                     ['title' => 'Check all', 'class' => 'btn btn-default', 'style' => "display:none", 'id' => 'check-all',
                         'data-toggle' => "tooltip", 'data-placement' => "top", 'data-trigger' => "hover"]);
-
                 echo Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['#'],
                     ['title' => 'Reset', 'class' => 'btn btn-default', 'style' => "display:none", 'id' => 'reset-all',
                         'data-toggle' => "tooltip", 'data-placement' => "top", 'data-trigger' => "hover"]);
@@ -107,7 +100,6 @@ JS
                         'data-modal-body'=>'Are you sure?',
                     ]);
 echo Html::endTag('div');
-
 Modal::begin([
     "id" => "gallery-modal",
     'header' => '<h4 class="modal-title"></h4>',
@@ -117,17 +109,12 @@ Modal::begin([
         Html::a('ОК', Url::toRoute('photos-delete'),
             ['title' => '', 'class' => 'btn btn-primary', 'id' => 'photos-delete-confirm-btn']),
 ]);
-
 Modal::end();
-
 echo Html::beginTag('div', ['class' => 'preloader']);
 echo Html::tag('div', Html::tag('span', '100', ['class' => 'sr-only']), ['class'=>"progress-bar progress-bar-striped active", 'role'=>"progressbar",
     'aria-valuenow'=>"100", 'aria-valuemin'=>"0", 'aria-valuemax'=>"100", 'style'=>"width:100%"]);
 echo Html::endTag('div');
-
-
 $this->registerJs(<<<JS
-
 $(document).on('ready', function() {
     $("#input-1a").fileinput({
     showPreview: false,

@@ -46,6 +46,7 @@ class ComposerStaticInitdd7e1e289a6f9c6723f46475a154aca3
         ),
         'k' => 
         array (
+            'kartik\\sidenav\\' => 15,
             'kartik\\growl\\' => 13,
             'kartik\\base\\' => 12,
         ),
@@ -156,6 +157,10 @@ class ComposerStaticInitdd7e1e289a6f9c6723f46475a154aca3
         'leoshtika\\bootstrap\\' => 
         array (
             0 => __DIR__ . '/..' . '/leoshtika/yii2-nav-sidebar',
+        ),
+        'kartik\\sidenav\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-sidenav',
         ),
         'kartik\\growl\\' => 
         array (

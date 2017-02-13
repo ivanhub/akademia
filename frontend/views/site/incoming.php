@@ -7,9 +7,8 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
-use phpnt\yandexMap\YandexMaps;
 
-use yii\widgets\Menu;
+use frontend\components\Leftmenu;
 
 
 $this->title = 'Запись на обучение';
@@ -33,53 +32,33 @@ $this->params['breadcrumbs'][] = $this->title;
  <div class="row">
 <div class="col-sm-12 col-md-3">
 
-<?php
-echo Menu::widget([
+<?= Leftmenu::widget() ?>
 
-    'items' => [
-        ['label' => 'Запись на обучение', 'url' => ['/postupayushchim'],'active' => $this->context->route == 'site/incoming'],
-        ['label' => 'Расписание занятий', 'url' => ['/raspisanie'],'active' => $this->context->route == 'site/raspisanie'],
-        ['label' => 'Наши преимущества', 'url' => ['/our-advantages'],'active' => $this->context->route == 'site/ouradvantages'],
-        ['label' => 'Дополнительные услуги', 'url' => ['/dop-uslugi'], 'active' => $this->context->route == 'site/dopuslugi',
-        'class' => 'biaka'],
-    ],
-    'options' => [
-          //'id'=>'navid',
-          'class' => 'menu',
-          'style'=>'float: left; font-size: 16px;',
-          'data'=>'menu',
-        ],
-    'activeCssClass'=>'active',
-    'linkTemplate' => '<a href="{url}"><div class="menuItem"><span>{label}</span></div></a>',
-]);
-?>
 
 
 </div>
 
 <div class="col-md-9 col-sm-12">
 <section class="incoming">
-<h1 class="text-center">Условия обучения</h1>
-<p><b>Для курсантов по категории "B":</b></p>
+<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
 <h5>Перечень документов</h5>
 <p>1. Фотографии (3х4) - 2 шт.</p>
 <p>2. Ксерокопия паспорта (личные данные и все страницы с пропиской).</p>
 <p>3. Медицинская справка и ее ксерокопия.</p>
 <p>4. Ксерокопия свидетельства о рождении.</p>
 <p>5. Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества.</p>
+<p>6. Ксерокопия водительского удостоверения (при открытии новой категории). </p>
 <br/>
 <p><b>Для курсантов, имующих временную прописку в Самаре:</b></p>
 <p>1. Оригинал и ксерокопия свидетельства о временной регистрации.</p>
 <p>2. Справка из Самарского адресного бюро.</p>
 <p>3. Справка из ГИБДД с места постоянной прописки:</p>
 <p>- о том, что водительсткое удостоверени ене выдавалось,</p>
-<p>- о том, что нет задолженностей перед ГИБДД.</p>
-<p>(может быть две отдельные справки).</p>
+<p>- о том, что нет задолженностей перед ГИБДД (может быть две отдельные справки).</p>
 <p></p>
-<p>Если медицинскую комиссию проходил(а) по месту постоянной регистрации, то необходимо по месту временной регистрации пройти </p>
-<p>- психиатра,</p>
-<p>-нарколога.</p>
-<p></p>
+<p>Если медицинскую комиссию проходил(а) по месту постоянной регистрации, то необходимо по месту временной регистрации пройти
+психиатра и нарколога.</p>
+<br/>
  
  <h4 class="text-center">Этапы обучения:</h4>
 

@@ -25,34 +25,8 @@ $action = $controll->action->id;
  $controllerl = Yii::$app->controller;
  $homecheker = $controllerl->id.'/'.$controllerl->action->id;
 
+$this->beginPage() ?>
 
-?>
-
-
-<?php 
- 
-foreach (Yii::$app->session->getAllFlashes() as $message):; ?>
-            <?php
-            echo \kartik\growl\Growl::widget([
-                'type' => (!empty($message['type'])) ? $message['type'] : 'danger',
-                'title' => (!empty($message['title'])) ? Html::encode($message['title']) : 'Title Not Set!',
-                'icon' => (!empty($message['icon'])) ? $message['icon'] : 'fa fa-info',
-                'body' => (!empty($message['message'])) ? Html::encode($message['message']) : 'Message Not Set!',
-                'showSeparator' => true,
-                'delay' => 1, //This delay is how long before the message shows
-                'pluginOptions' => [
-                    'delay' => (!empty($message['duration'])) ? $message['duration'] : 3000, //This delay is how long the message shows for
-                    'placement' => [
-                        'from' => (!empty($message['positonY'])) ? $message['positonY'] : 'top',
-                        'align' => (!empty($message['positonX'])) ? $message['positonX'] : 'right',
-                    ]
-                ]
-            ]);
-            ?>
-        <?php endforeach; ?>
-
-
-<?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
@@ -349,6 +323,29 @@ jQuery(document).ready(function($){
       }, scroll_top_duration
     );
   });
+
+
+
+
+   
+//var menu = document.querySelector('.menu');
+var origOffsetY = 145;
+//console.log(menu.offsetTop);
+function scroll () {
+  if ($(window).scrollTop() >= origOffsetY) {
+    $('.menu').addClass('fix-menu');
+  } else {
+    $('.menu').removeClass('fix-menu');
+  }  
+  
+  
+}
+
+document.onscroll = scroll;
+
+
+
+
 
 });
 

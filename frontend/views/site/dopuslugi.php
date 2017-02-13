@@ -7,9 +7,8 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
-use phpnt\yandexMap\YandexMaps;
 
-use yii\widgets\Menu;
+use frontend\components\Leftmenu;
 
 
 $this->title = 'Дополнительные услуги';
@@ -34,32 +33,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-12 col-md-3">
 
 
-<?php
+<?= Leftmenu::widget() ?>
 
-echo Menu::widget([
-
-    'items' => [
-        ['label' => 'Запись на обучение', 'url' => ['/postupayushchim'],'active' => $this->context->route == 'site/postupayushchim'],
-        ['label' => 'Расписание занятий', 'url' => ['/raspisanie'],'active' => $this->context->route == 'site/raspisanie'],
-        ['label' => 'Наши преимущества', 'url' => ['/our-advantages'],'active' => $this->context->route == 'site/ouradvantages'],
-        ['label' => 'Дополнительные услуги', 'url' => ['/dop-uslugi'], 'active' => $this->context->route == 'site/dopuslugi',
-        'class' => 'biaka'],
-
-    ],
-    'options' => [
-          //'id'=>'navid',
-          'class' => 'menu',
-          'style'=>'float: left; font-size: 16px;',
-          'data'=>'menu',
-        ],
-
-    'activeCssClass'=>'active',
-    'linkTemplate' => '<a href="{url}"><div class="menuItem"><span>{label}</span></div></a>',
-
-
-]);
-
-?>
 <!-- 
 
  <?= leoshtika\bootstrap\NavSidebar::widget([
@@ -109,11 +84,12 @@ echo Menu::widget([
 <div class="col-md-9 col-sm-12">
 <section class="dopuslugi">
 <h1 class="text-center">Дополнительные услуги</h1>
-<p>1(значок) Аренда автодрома.</p>
+<p>1)(значок) Аренда автодрома.</p>
 <p>Автошкола Академия имеет свою собственную, не арендованную, оборудованную учебную площадку.
   На асфальто-бетонном покрытии нанесена разметка, в наличии достаточное количество разметочного оборудования (конуса, вешки) для оборудования зон упражнения. Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование. Площадка освещается в темное время суток.</p>
 
 <p>2)(значок) Оплата дополнительных часов практических занятий по вождению.</p>
+<p>3)(значок) Коснультации по приобретению, эксплуатации, хранению мотоцикла, выбору запчастей</p>
 <br/>
 <h6 class="text-center">Обучение инструкторов по вождению.</h6>
 

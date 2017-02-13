@@ -12,8 +12,8 @@ width:140px;
 
 .menu {
 top:25px;
-	height: 220px;
-	background: url(../../images/pics/menu-126.png) !important;
+	height: 180px;
+	background: url(../../images/pics/menu-left-short.png) !important;
 	background-repeat: no-repeat;
 	padding-top: 39px;
 	border-radius: 4px;
@@ -65,12 +65,14 @@ margin-left: 25px;
   top:-8px;
   margin-left:-10px;
   width:190px;
+
+ text-align:center;
 }
 
 
 .menuItem span {
   position: relative;
-  left:30px;
+  left:10px;
   top:0;
   transition:color 1s;
 /*  color:rgba(255,255,255,.8);*/
@@ -158,3 +160,42 @@ margin-left: 25px;
     transform: skew(15deg) !important;
     display: block;
 } */
+
+
+
+
+
+.fix-menu  {
+  position: fixed;
+top:50px;
+}
+
+
+
+
+
+.wrapnav {  
+
+#background: url(../../images/pics/menu-left-wide2.png);
+background-repeat: no-repeat;
+background-size: cover;
+height:180px;
+margin-left:-15px;
+}
+
+
+#b .nav-sidebar {
+    margin-right: 0; 
+margin-left:0 !important;}
+
+
+
+#b .nav-sidebar {
+   
+#    padding-top: 32px;
+    padding-top: 12px;
+}
+
+#b .nav-sidebar i {
+    margin-left: -5px;
+}

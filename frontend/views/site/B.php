@@ -11,6 +11,9 @@ use yii\bootstrap\Modal;
 use yii\bootstrap\Button;
 use \yii\widgets\MaskedInput;
 
+use yii\widgets\Menu;
+
+
 $this->title = 'Категория B';
 
 $this->params['breadcrumbs'][] = [
@@ -36,38 +39,61 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<!--  <div class="menu">
-   <a  href="/postupayushchim"> <div class="menuItem uno"><span>Запись на обучение</span></div></a>
-    <a  href="/raspisanie"><div class="menuItem dos"><span>Расписание занятий</span></div></a>
-    <a  href="/our-advantages"><div class="menuItem tres"><span>Наши преимущества</span></div></a>
-    <a  href="/dop-uslugi"><div class="menuItem cuatro"><span>Доп. услуги</span></div></a>
- </div> -->
-<br/>
+ <br/>
+ <div class="wrapnav">
 <?= leoshtika\bootstrap\NavSidebar::widget([
     'items' => [
         [
-            'url' => ['site/index'],
+            'url' => ['/postupayushchim'],
             'label' => 'Запись на обучение',
             'icon' => 'car' // This is a bootstrap icon name
         ],
         [
-            'url' => ['site/about'],
+            'url' => ['/raspisanie'],
             'label' => 'Расписание занятий',
             'icon' => 'clock-o' // This is a bootstrap icon name
         ],
-         [
-            'url' => ['site/about'],
+        [
+            'url' => ['site/'],
             'label' => 'Наши преимущества',
             'icon' => 'star' // This is a bootstrap icon name
         ],
          [
-            'url' => ['site/about'],
+            'url' => ['/dop-uslugi'],
             'label' => 'Доп. услуги',
             'icon' => 'rocket' // This is a bootstrap icon name
         ],
     ],
-]) ?>
+]) ?> 
+</div>
+<!-- 
+ <?php
 
+echo Menu::widget([
+
+    'items' => [
+        ['label' => 'Запись на обучение', 'url' => ['/postupayushchim'],'active' => $this->context->route == 'site/postupayushchim'],
+        ['label' => 'Расписание занятий', 'url' => ['/raspisanie'],'active' => $this->context->route == 'site/raspisanie'],
+        ['label' => 'Наши преимущества', 'url' => ['/our-advantages'],'active' => $this->context->route == 'site/ouradvantages'],
+        ['label' => 'Дополнительные услуги', 'url' => ['/dop-uslugi'], 'active' => $this->context->route == 'site/dopuslugi',
+        'class' => 'biaka'],
+
+    ],
+    'options' => [
+          //'id'=>'navid',
+          'class' => 'menu',
+          'style'=>'float: left; font-size: 16px;',
+          'data'=>'menu',
+        ],
+
+    'activeCssClass'=>'active',
+    'linkTemplate' => '<a href="{url}"><div class="menuItem"><span>{label}</span></div></a>',
+
+
+]);
+
+?>
+ -->
 <!-- <ul class="left2">
         <li><a href="/postupayushchim">Поступающим</a></li>
     <li><a href="/students">Учащимся</a></li>
@@ -80,10 +106,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="col-md-9 col-sm-12">
 
-<h1 class="text-center">Качество наших услуг выше чем их стоимость.</h1>
 
- <br/><br/>
 
+<h1 class="text-center">Категория B</h1>
+
+<h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
+<br/>
 
 <!-- Awesome  -->
 
@@ -274,7 +302,7 @@ JS
 <p class="linet2">Удобен для всех!</p>
 <p class="little2">от <b style="color:darkgreen">20 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
-    <p>с 16:00 до 20:00 Вт.-Сб.</p>
+    <p>с 9:00 до 20:00 Вт.-Сб.</p>
     <p>Теоретические занятия:</p>
     <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>
           </div>

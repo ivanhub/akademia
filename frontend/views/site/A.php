@@ -7,7 +7,13 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
-use phpnt\yandexMap\YandexMaps;
+//use phpnt\yandexMap\YandexMaps;
+use \yii\widgets\MaskedInput;
+
+
+use frontend\components\Leftmenu;
+
+
 
 $this->title = 'Категория A';
 
@@ -33,15 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-12 col-md-3">
 
 
-
-
-<div class="menu">
-   <a  href="/postupayushchim"> <div class="menuItem uno"><span>Запись на обучение</span></div></a>
-    <a  href="/raspisanie"><div class="menuItem dos"><span>Расписание занятий</span></div></a>
-    <a  href="/our-advantages"><div class="menuItem tres"><span>Наши преимущества</span></div></a>
-    <a  href="/dop-uslugi"><div class="menuItem cuatro"><span>Доп. услуги</span></div></a>
- </div>
-
+<?= Leftmenu::widget() ?>
 
 
 
@@ -57,9 +55,10 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="col-md-9 col-sm-12">
 
-<h1 class="text-center">Качество наших услуг выше чем их стоимость.</h1>
-<br/><br/>
+<h1 class="text-center">Категория A</h1>
 
+<h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
+<br/>
 
 
 <div class="row-fluid">
@@ -71,7 +70,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
        <p class="linet2">Удобен для всех</p>
-<p class="little2">от <b style="color:darkgreen">12 000 р.</b> </p>
+<p class="little2">от <b style="color:darkgreen">10 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
     <p>с 9:00 до 16:00 Вт-Пт.</p>
     <p>Теоретические занятия:</p>
@@ -100,7 +99,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <p class="linet2">Скидка 5 000 р. </p>
 <p class="little2">от <b style="color:darkgreen">25 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
-    <p>с 16:00 до 20:00 Вт.-Сб.</p>
+    <p>с 9:00 до 20:00 Вт.-Сб.</p>
     <p>Теоретические занятия:</p>
     <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>
           </div>
@@ -126,7 +125,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
 <p class="linet">Вы выбираете,<br/>Мы исполняем </p>
-<p>от<b style="color:darkgreen"> 22 000 р. </b></p>  
+<p>от<b style="color:darkgreen"> 15 000 р. </b></p>  
 <div class="little "><p>Индивидуальный график</p>
 <p>занятий составляем</p>
     <p> по вашему желанию</p>
@@ -167,7 +166,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="col-xs-2"><img src="../../images/fon/rul.png"></div>
   <div class="col-xs-10"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
   <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
-  <p>учебные маршруты по всему городу</p>
+    <p>На время занятий выдается экипировка (шлем, наколенники). </p>
 
 
   </div>
@@ -184,7 +183,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/A-1.png">
 <br/><br/>
-<img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/A11----.png">
+<img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/A1.png">
 <br/><br/>
 <p class="text-center green" style="font-weight:bold;font-style:italic">Открывается автоматически при получении водительского удостоверения</p>
 <img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/M-.png">
@@ -197,14 +196,15 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <br/>
-<h5 class="text-center"> Услуги, которые  предоставляем бесплатно:</h5>  <br/>
+<h5 class="text-center"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  
  <ul class=" preimul2">
- <li>•  Учебная литература в подарок: экзаменационные билеты. правила дорожного движения. учебник по вождению автомобиля. памятка по упражнениям на площадке;</li>
- <li>•  подготовка пакета документов для сдачи экзамена в ГИБДД;</li>
- <li>•  организация и предоставление учебных автомобилей на первичные экзамены (выпускной и ГИБДД);</li>
+  <li>•  подготовка пакета документов для сдачи экзамена в ГИБДД;</li>
+ <li>•  организация и предоставление учебных мотоциклов на первичные экзамены (выпускной и ГИБДД);</li>
+ <li>•  учебная литература в подарок: экзаменационные билеты, правила дорожного движения, 
+ методичка по вождению мотоцикла, памятка по упражнениям на площадке;</li>
+
  <li>•  консультация с преподавателем теоретического курса по пропущенным занятиям;</li>
- <li>•  родниковая вода в кулере;</li>
  <li>•  улыбка и доброжелательное отношение со стороны администрации.</li>
  </ul>
 

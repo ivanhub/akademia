@@ -10,7 +10,8 @@ use yii\captcha\Captcha;
 use phpnt\yandexMap\YandexMaps;
 use yii\widgets\Breadcrumbs;
 
-use yii\widgets\Menu;
+use frontend\components\Leftmenu;
+
 
 $this->title = 'Расписание занятий';
 $this->params['breadcrumbs'][] = [
@@ -42,32 +43,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<?php
-
-echo Menu::widget([
-
-    'items' => [
-        ['label' => 'Запись на обучение', 'url' => ['/postupayushchim'],'active' => $this->context->route == 'site/postupayushchim'],
-        ['label' => 'Расписание занятий', 'url' => ['/raspisanie'],'active' => $this->context->route == 'site/raspisanie'],
-        ['label' => 'Наши преимущества', 'url' => ['/our-advantages'],'active' => $this->context->route == 'site/ouradvantages'],
-        ['label' => 'Дополнительные услуги', 'url' => ['/dop-uslugi'], 'active' => $this->context->route == 'site/dopuslugi',
-        'class' => 'biaka'],
-
-    ],
-    'options' => [
-          //'id'=>'navid',
-          'class' => 'menu',
-          'style'=>'float: left; font-size: 16px;',
-          'data'=>'menu',
-        ],
-
-    'activeCssClass'=>'active',
-    'linkTemplate' => '<a href="{url}"><div class="menuItem"><span>{label}</span></div></a>',
 
 
-]);
-
-?>
+<?= Leftmenu::widget() ?>
 
 </div>
 
@@ -85,6 +63,7 @@ echo Menu::widget([
  <li>•  01.07.17 – 30.09.17</li>
  <li>•  01.10.17 – 31.12.17</li>
  </ul>
+ <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p><br/>
 <p><b>Категория A</b> (Продолжительность обучения составляет 1,5 месяца).</p>
 
  <ul class="preimul3"><li>•  01.05.17 – 31.05.17</li>
@@ -92,7 +71,7 @@ echo Menu::widget([
  <li>•  01.07.17 – 31.07.17</li>
  <li>•  01.08.17 – 31.08.17</li>
  </ul>
-
+ <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p><br/>
 
  <h2 class="text-center">Подготовка ведется по следующим дисциплинам:</h2>
  <p>•   "Основы законодательства в сфере дорожного движения";</p>

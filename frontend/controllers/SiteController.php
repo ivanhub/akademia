@@ -51,6 +51,12 @@ class SiteController extends Controller
         return $this->render('distance');
     }
 
+      public function actionAboutus()
+    {
+         
+        return $this->render('aboutus');
+    }
+
        public function actionAutomotoschool()
     {
          
