@@ -51,6 +51,19 @@ class SiteController extends Controller
         return $this->render('distance');
     }
 
+  public function actionSudovozhdenie()
+    {
+         
+        return $this->render('sudovozhdenie');
+    }
+      public function actionSamohodnayatehnika()
+    {
+         
+        return $this->render('samohodnayatehnika');
+    }
+
+
+    
       public function actionAboutus()
     {
          

@@ -27,7 +27,7 @@ background-color:#fcfcfc;
 padding-top:20px;
 */
     position: relative;
-    top: 70px;
+    top: 30px;
 
 
 padding-bottom:30px; 
@@ -53,7 +53,9 @@ padding-right:15px;
 
  #map {
             width: 520px; padding: 0; margin: 0;
-            height: 480px; margin-top:32px; /*530*/
+/*            height: 530px; margin-top:53px; /*530*/
+
+            height: 468px; margin-top:38px; 
         }
  
 
@@ -1031,12 +1033,9 @@ left:15px;
   display: inline-block; 
   width: 350px; 
   height: 100px;
-  border-color: rgba(0,0,0,0);
-  
+  border-color: rgba(0,0,0,0); 
   border-radius: 100%;
-  
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
   -webkit-transition: 0.5s ease;
   -moz-transition: 0.5s ease;
   -ms-transition: 0.5s ease;
@@ -1051,12 +1050,84 @@ new:hover {
 
 .style5:hover {border:1px solid transparent; transition:0s;}
 
+.style5:hover .showing1 { animation:fadeIn .6s forwards; }
+.style5:hover new {animation:blfadein .2s forwards, blin-n1 .7s forwards;   }
+
+
+/*.style5.lst:hover .x1{left:-130px}*/
+
+.style5.cntr:hover new {animation:blfadein .2s forwards, blin-n2 .7s forwards;   }
+.style5.lst:hover new {animation:blfadein .2s forwards, blin-n3 .7s forwards;   }
+
+new.over {animation:blfadein .2s forwards, blin .7s forwards;   }
+new.out { animation:blout .3s ;   }
+
+.cntr new.over {animation:blfadein .2s forwards, blin2 .7s forwards;    }
+.cntr new.out { animation:blout2 .3s ;   }
+
+.lst new.over {animation:blfadein .2s forwards, blin3 .7s forwards;    }
+.lst new.out { animation:blout3 .3s ;   }
+
+
+@keyframes blfadein {
+  0% {  background: rgba(202,226,193,0.6);
+}
+  100% {  background: rgba(202,226,193,0);
+}
+}
+
+
+@keyframes blin-n1 {
+  0% {border: 1px solid transparent; width:530px; height:0; left:-20px;}
+  40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-20px}
+  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-20px; }
+}
+
+
+@keyframes blin-n2 {
+  0% {border: 1px solid transparent; width:530px; height:0; left:-75px;}
+  40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-75px}
+  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-75px; }
+}
+
+
+@keyframes blin-n3 {
+  0% {border: 1px solid transparent; width:530px; height:0;left:-130px }
+  40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-130px}
+  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555;left:-130px }
+}
+
+body#automotoschool  {overflow-x:hidden;}
+
+/*@keyframes blin-n2 {
+  0% {}
+  40% {}
+  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-80px;}
+}
+
+
+@keyframes blin-n3 {
+  0% {}
+  40% {}
+  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-130px;}
+}
+
+*/
+
+@keyframes blout-n {
+  100% {border: 51px dashed rgba(202,226,193, 0)}
+  30% {border: 1px dashed rgb(84, 146, 60);}
+  0% {border-radius:10px; border: 1px solid rgb(84, 146, 60);width:530px; height:220px; left:-80px;}
+}
+
+
+
 .x1 {
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  border: 51px dashed rgba(202,226,193, 0); 
-  background: rgba(202,226,193,0.6);
+
+  background: rgba(202,226,193,0.3);
 }
 
 
@@ -1069,16 +1140,6 @@ new:hover {
 .inside1.over {opacity:0; transition:.7s;}
 .inside.out {opacity:1; transition:.5s;}
 .inside.over {opacity:0; transition:.7s;}
-
-
-new.over {animation:blfadein .2s forwards, blin .7s forwards;   }
-new.out { animation:blout .3s ;   }
-
-.cntr new.over {animation:blfadein .2s forwards, blin2 .7s forwards;    }
-.cntr new.out { animation:blout2 .3s ;   }
-
-.lst new.over {animation:blfadein .2s forwards, blin3 .7s forwards;    }
-.lst new.out { animation:blout3 .3s ;   }
 
 
 
@@ -1225,12 +1286,6 @@ new.out { animation:blout .3s ;   }
 .inside9.out {opacity:1; transition:.2s;}
 .inside9.over {opacity:0; transition:.2s;}
 
-@keyframes blfadein {
-  0% {  background: rgba(202,226,193,0.6);
-}
-  100% {  background: rgba(202,226,193,0);
-}
-}
 
 @keyframes blin {
   0% {border: 51px dashed rgba(202,226,193, 0)}
@@ -1632,3 +1687,6 @@ margin-left:50px; margin-right:50px;
 
 
 .xi-text {width:528px}
+
+
+.vk a:hover {color:#444 !important}

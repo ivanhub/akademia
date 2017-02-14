@@ -303,7 +303,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-road fa-3x"></span></div>
 <div class="col-sm-9"><div class="inside1 advpr">Собственный Автодром</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Собственный Автодром</p>
-  <p class="xi-text">Автошкола Академия имеет свою собственную, не арендованную, оборудованную учебную площадку.
+  <p class="xi-text">Автошкола Академия имеет свою собственный учебный автодром.
   Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование.
   </p></div> </new>  
 
@@ -325,7 +325,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
 <div class="col-sm-9"> <div class="inside1 advpr2">Рассрочка платежа на весь период обучения.</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Рассрочка платежа на весь период обучения.</p>
-  <p class="xi-text">Первоначальный взнос 5 000 р. Остальную сумму Вы оплачиваете в период всего обучения.</p></div> </new> 
+  <p class="xi-text">Первоначальный взнос от 5 000 р. Остальную сумму Вы оплачиваете в период всего обучения.</p></div> </new> 
 
 </div>
 <div class="style5 cntr">
@@ -337,7 +337,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </span></div>
 <div class="col-sm-9"> <div class="inside1 advpr2"  style="margin-left: 0px;">Тренажер для первоначальных навыков</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Тренажер для первоначальных навыков</p>
-  <p class="xi-text">Занятия на автотренажере в нашей автошколе являются обязательными в програме обучения. Обучить курсантов автошкол 
+  <p class="xi-text">Занятия на автотренажере в нашей автошколе являются обязательными по программе обучения. Обучить курсантов автошкол 
 базовым навыкам управления автомобилей с механической КПП позволяет виртуальное вождение автомобиля на тренажере.</p></div> </new> 
   </div>
 </div>
@@ -354,12 +354,15 @@ $this->params['breadcrumbs'][] = $this->title;
 получите высококлассное обучение в этой сфере, что позволит Вам успешно сдать экзамены на права.</p></div> </new> </div>
 
 <div class="style5 lst">
-<div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-calendar fa-3x"></span></div>
-<div class="col-sm-9"> <div class="inside1 advpr2">Вечерние группы и группы выходного дня</div></div>
-<new class="x1"><div class="showing1"><p class="xi-title">Вечерние группы и группы выходного дня</p>
-  <p class="xi-text">Расписание групп вы можете уточнить у администраторов автошколы позвонив по номеру 255-69-99</p></div> </new> </div>
+<div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
+<div class="col-sm-9"> <div class="inside1 advpr2">Помощь в прохождении медицинской комиссии</div></div>
+<new class="x1"><div class="showing1"><p class="xi-title">Помощь в прохождении медицинской комиссии</p>
+  <p class="xi-text">
+  Мы поможем вам пройти медицинскую комиссию в самые короткие сроки и без очередей.<br/> Для удобства наших учеников мы организовываем медицинскую комиссию в Автошколе! * ООО «АсокмаМед» лицензия № ЛО-63-01-002110 от 31.07.2013 г.</p>
+  </div> </new> </div>
 </div>
    
+
     </div>
 
     <div class="row">
@@ -397,484 +400,22 @@ $this->params['breadcrumbs'][] = $this->title;
 
 </div>
 
-<br/><br/><br/><br/>
+<br/><br/>
 
-
-<?php 
-
-$this->registerJs(<<<JS
-
-
-
-var x0 = document.getElementsByClassName("style5")[0];
-  x0.addEventListener("mouseenter", function( event ) {   
- //   event.target.style.color = "green";  
-    document.getElementsByClassName("x1")[0].classList.add('over');
-    document.getElementsByClassName("x1")[0].classList.remove('out');
-    
-    document.getElementsByClassName("showing1")[0].classList.add('over');
-    document.getElementsByClassName("showing1")[0].classList.remove('out');
-
-    document.getElementsByClassName("inside1")[0].classList.add('over');
-    document.getElementsByClassName("inside1")[0].classList.remove('out');
-
-       document.getElementsByClassName("inside")[0].classList.add('over');
-    document.getElementsByClassName("inside")[0].classList.remove('out');
-
-  }, false);
-  
-  
-  x0.addEventListener("mouseleave", function( event ) {   
-  //  event.target.style.color = "red";  
-        document.getElementsByClassName("x1")[0].classList.remove('over');
-        document.getElementsByClassName("x1")[0].classList.add('out');
-
-    document.getElementsByClassName("showing1")[0].classList.remove('over');
-    document.getElementsByClassName("showing1")[0].classList.add('out');
-
-    document.getElementsByClassName("inside1")[0].classList.remove('over');
-    document.getElementsByClassName("inside1")[0].classList.add('out');
-
-        document.getElementsByClassName("inside")[0].classList.remove('over');
-    document.getElementsByClassName("inside")[0].classList.add('out');
+<h5 class="text-center"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  
+ <ul class=" preimul2 in60in">
+  <li>•  подготовка пакета документов для сдачи экзамена в ГИБДД;</li>
+ <li>•  организация и предоставление учебных транспортных средств на первичные экзамены (выпускной и ГИБДД);</li>
+ <li>•  учебная литература в подарок: экзаменационные билеты, правила дорожного движения, 
+ методичка по вождению, памятка по упражнениям на площадке;</li>
 
-  }, false);
+ <li>•  консультация с преподавателем теоретического курса по пропущенным занятиям;</li>
+ <li>•  улыбка и доброжелательное отношение со стороны администрации.</li>
+ </ul>
 
+<br/><br/>
 
-
-var x1 = document.getElementsByClassName("style5")[1];
-  x1.addEventListener("mouseenter", function( event ) {   
- //   event.target.style.color = "green";  
-    document.getElementsByClassName("x1")[1].classList.add('over');
-    document.getElementsByClassName("x1")[1].classList.remove('out');
-    
-    document.getElementsByClassName("showing1")[1].classList.add('over');
-    document.getElementsByClassName("showing1")[1].classList.remove('out');
-
-    document.getElementsByClassName("inside1")[1].classList.add('over');
-    document.getElementsByClassName("inside1")[1].classList.remove('out');
-
-        document.getElementsByClassName("inside")[1].classList.add('over');
-    document.getElementsByClassName("inside")[1].classList.remove('out');
-
-  }, false);
-  
-  
-  x1.addEventListener("mouseleave", function( event ) {   
-  //  event.target.style.color = "red";  
-        document.getElementsByClassName("x1")[1].classList.remove('over');
-        document.getElementsByClassName("x1")[1].classList.add('out');
-
-    document.getElementsByClassName("showing1")[1].classList.remove('over');
-    document.getElementsByClassName("showing1")[1].classList.add('out');
-
-    document.getElementsByClassName("inside1")[1].classList.remove('over');
-    document.getElementsByClassName("inside1")[1].classList.add('out');
-
-       document.getElementsByClassName("inside")[1].classList.remove('over');
-    document.getElementsByClassName("inside")[1].classList.add('out');
- 
-  }, false);
-
-
-
-var x2 = document.getElementsByClassName("style5")[2];
-  x2.addEventListener("mouseenter", function( event ) {   
- //   event.target.style.color = "green";  
-    document.getElementsByClassName("x1")[2].classList.add('over');
-    document.getElementsByClassName("x1")[2].classList.remove('out');
-    
-    document.getElementsByClassName("showing1")[2].classList.add('over');
-    document.getElementsByClassName("showing1")[2].classList.remove('out');
-
-    document.getElementsByClassName("inside1")[2].classList.add('over');
-    document.getElementsByClassName("inside1")[2].classList.remove('out');
-
-      document.getElementsByClassName("inside")[2].classList.add('over');
-    document.getElementsByClassName("inside")[2].classList.remove('out');
-
-  }, false);
-  
-  
-  x2.addEventListener("mouseleave", function( event ) {   
-  //  event.target.style.color = "red";  
-        document.getElementsByClassName("x1")[2].classList.remove('over');
-        document.getElementsByClassName("x1")[2].classList.add('out');
-
-    document.getElementsByClassName("showing1")[2].classList.remove('over');
-    document.getElementsByClassName("showing1")[2].classList.add('out');
-
-    document.getElementsByClassName("inside1")[2].classList.remove('over');
-    document.getElementsByClassName("inside1")[2].classList.add('out');
-
-        document.getElementsByClassName("inside")[2].classList.remove('over');
-    document.getElementsByClassName("inside")[2].classList.add('out');
- 
-  }, false);
-
-
-
-var x3 = document.getElementsByClassName("style5")[3];
-  x3.addEventListener("mouseenter", function( event ) {   
- //   event.target.style.color = "green";  
-    event.target.style.border = "0"
-    document.getElementsByClassName("x1")[3].classList.add('over');
-    document.getElementsByClassName("x1")[3].classList.remove('out');
-    
-    document.getElementsByClassName("showing1")[3].classList.add('over');
-    document.getElementsByClassName("showing1")[3].classList.remove('out');
-
-    document.getElementsByClassName("inside1")[3].classList.add('over');
-    document.getElementsByClassName("inside1")[3].classList.remove('out');
-
-        document.getElementsByClassName("inside")[3].classList.add('over');
-    document.getElementsByClassName("inside")[3].classList.remove('out');
-
-
-  }, false);
-  
-  
-  x3.addEventListener("mouseleave", function( event ) {   
-  //  event.target.style.color = "red";  
-        document.getElementsByClassName("x1")[3].classList.remove('over');
-        document.getElementsByClassName("x1")[3].classList.add('out');
-
-    document.getElementsByClassName("showing1")[3].classList.remove('over');
-    document.getElementsByClassName("showing1")[3].classList.add('out');
-
-    document.getElementsByClassName("inside1")[3].classList.remove('over');
-    document.getElementsByClassName("inside1")[3].classList.add('out');
-
-    document.getElementsByClassName("inside")[3].classList.remove('over');
-    document.getElementsByClassName("inside")[3].classList.add('out');
- 
-     event.target.style.border = "1px solid #578d60"
-
-  }, false);
-
-
-
-var x4 = document.getElementsByClassName("style5")[4];
-  x4.addEventListener("mouseenter", function( event ) {   
- //   event.target.style.color = "green";  
-    document.getElementsByClassName("x1")[4].classList.add('over');
-    document.getElementsByClassName("x1")[4].classList.remove('out');
-    
-    document.getElementsByClassName("showing1")[4].classList.add('over');
-    document.getElementsByClassName("showing1")[4].classList.remove('out');
-
-    document.getElementsByClassName("inside1")[4].classList.add('over');
-    document.getElementsByClassName("inside1")[4].classList.remove('out');
-
-    document.getElementsByClassName("inside")[4].classList.add('over');
-    document.getElementsByClassName("inside")[4].classList.remove('out');
-
-  }, false);
-  
-  
-  x4.addEventListener("mouseleave", function( event ) {   
-  //  event.target.style.color = "red";  
-        document.getElementsByClassName("x1")[4].classList.remove('over');
-        document.getElementsByClassName("x1")[4].classList.add('out');
-
-    document.getElementsByClassName("showing1")[4].classList.remove('over');
-    document.getElementsByClassName("showing1")[4].classList.add('out');
-
-    document.getElementsByClassName("inside1")[4].classList.remove('over');
-    document.getElementsByClassName("inside1")[4].classList.add('out');
-
-    document.getElementsByClassName("inside")[4].classList.remove('over');
-    document.getElementsByClassName("inside")[4].classList.add('out'); 
-  }, false);
-
-
-
-var x5 = document.getElementsByClassName("style5")[5];
-  x5.addEventListener("mouseenter", function( event ) {   
- //   event.target.style.color = "green";  
-    event.target.style.border = "0"
-    document.getElementsByClassName("x1")[5].classList.add('over');
-    document.getElementsByClassName("x1")[5].classList.remove('out');
-    
-    document.getElementsByClassName("showing1")[5].classList.add('over');
-    document.getElementsByClassName("showing1")[5].classList.remove('out');
-
-    document.getElementsByClassName("inside1")[5].classList.add('over');
-    document.getElementsByClassName("inside1")[5].classList.remove('out');
-
-    document.getElementsByClassName("inside")[5].classList.add('over');
-    document.getElementsByClassName("inside")[5].classList.remove('out');
-
-  }, false);
-  
-  
-  x5.addEventListener("mouseleave", function( event ) {   
-  //  event.target.style.color = "red";  
-        document.getElementsByClassName("x1")[5].classList.remove('over');
-        document.getElementsByClassName("x1")[5].classList.add('out');
-
-    document.getElementsByClassName("showing1")[5].classList.remove('over');
-    document.getElementsByClassName("showing1")[5].classList.add('out');
-
-    document.getElementsByClassName("inside1")[5].classList.remove('over');
-    document.getElementsByClassName("inside1")[5].classList.add('out');
- 
-    document.getElementsByClassName("inside")[5].classList.remove('over');
-    document.getElementsByClassName("inside")[5].classList.add('out');
-     event.target.style.border = "1px solid #578d60"
-
-  }, false);
-
-
-
-var x6 = document.getElementsByClassName("style5")[6];
-  x6.addEventListener("mouseenter", function( event ) {   
- //   event.target.style.color = "green";  
-    document.getElementsByClassName("x1")[6].classList.add('over');
-    document.getElementsByClassName("x1")[6].classList.remove('out');
-    
-    document.getElementsByClassName("showing1")[6].classList.add('over');
-    document.getElementsByClassName("showing1")[6].classList.remove('out');
-
-    document.getElementsByClassName("inside1")[6].classList.add('over');
-    document.getElementsByClassName("inside1")[6].classList.remove('out');
-
-    document.getElementsByClassName("inside")[6].classList.add('over');
-    document.getElementsByClassName("inside")[6].classList.remove('out');
-  }, false);
-  
-  
-  x6.addEventListener("mouseleave", function( event ) {   
-  //  event.target.style.color = "red";  
-        document.getElementsByClassName("x1")[6].classList.remove('over');
-        document.getElementsByClassName("x1")[6].classList.add('out');
-
-    document.getElementsByClassName("showing1")[6].classList.remove('over');
-    document.getElementsByClassName("showing1")[6].classList.add('out');
-
-    document.getElementsByClassName("inside1")[6].classList.remove('over');
-    document.getElementsByClassName("inside1")[6].classList.add('out');
- 
-    document.getElementsByClassName("inside")[6].classList.remove('over');
-    document.getElementsByClassName("inside")[6].classList.add('out');
-  }, false);
-
-
-
-var x7 = document.getElementsByClassName("style5")[7];
-  x7.addEventListener("mouseenter", function( event ) {   
- //   event.target.style.color = "green";  
-    event.target.style.border = "0"
-    document.getElementsByClassName("x1")[7].classList.add('over');
-    document.getElementsByClassName("x1")[7].classList.remove('out');
-    
-    document.getElementsByClassName("showing1")[7].classList.add('over');
-    document.getElementsByClassName("showing1")[7].classList.remove('out');
-
-    document.getElementsByClassName("inside1")[7].classList.add('over');
-    document.getElementsByClassName("inside1")[7].classList.remove('out');
-
-    document.getElementsByClassName("inside")[7].classList.add('over');
-    document.getElementsByClassName("inside")[7].classList.remove('out');
-
-  }, false);
-  
-  
-  x7.addEventListener("mouseleave", function( event ) {   
-  //  event.target.style.color = "red";  
-        document.getElementsByClassName("x1")[7].classList.remove('over');
-        document.getElementsByClassName("x1")[7].classList.add('out');
-
-    document.getElementsByClassName("showing1")[7].classList.remove('over');
-    document.getElementsByClassName("showing1")[7].classList.add('out');
-
-    document.getElementsByClassName("inside1")[7].classList.remove('over');
-    document.getElementsByClassName("inside1")[7].classList.add('out');
-  
-    document.getElementsByClassName("inside")[7].classList.remove('over');
-    document.getElementsByClassName("inside")[7].classList.add('out');
-     event.target.style.border = "1px solid #578d60"
-
-  }, false);
-
-
-
-var x8 = document.getElementsByClassName("style5")[8];
-  x8.addEventListener("mouseenter", function( event ) {   
- //   event.target.style.color = "green";  
-    document.getElementsByClassName("x1")[8].classList.add('over');
-    document.getElementsByClassName("x1")[8].classList.remove('out');
-    
-    document.getElementsByClassName("showing1")[8].classList.add('over');
-    document.getElementsByClassName("showing1")[8].classList.remove('out');
-
-    document.getElementsByClassName("inside1")[8].classList.add('over');
-    document.getElementsByClassName("inside1")[8].classList.remove('out');
-
-    document.getElementsByClassName("inside")[8].classList.add('over');
-    document.getElementsByClassName("inside")[8].classList.remove('out');
-  }, false);
-  
-  
-  x8.addEventListener("mouseleave", function( event ) {   
-  //  event.target.style.color = "red";  
-        document.getElementsByClassName("x1")[8].classList.remove('over');
-        document.getElementsByClassName("x1")[8].classList.add('out');
-
-    document.getElementsByClassName("showing1")[8].classList.remove('over');
-    document.getElementsByClassName("showing1")[8].classList.add('out');
-
-    document.getElementsByClassName("inside1")[8].classList.remove('over');
-    document.getElementsByClassName("inside1")[8].classList.add('out');
-
-    document.getElementsByClassName("inside")[8].classList.remove('over');
-    document.getElementsByClassName("inside")[8].classList.add('out');
-  }, false);
-
-
-
-
-
-/*
-$( ".x11" )
-  .on( "mouseenter", function() {
-   $(".inside1").removeClass('out').addClass('over');
-
-
-  });
-  $(".showing1")
-  .on( "mouseleave", function() {
-    $(".inside1").removeClass('over').addClass('out');
-   
-  });
-
-
-  $( ".x22" )
-  .on( "mouseenter", function() {
-
-    $(".x2").removeClass('out').addClass('over'); 
-     $(".showing1").removeClass('out').addClass('over');
-    $(".inside1").removeClass('out').addClass('over');
-  });
-  $(".showing1")
-  .on( "mouseleave", function() {
-    $(".x2").removeClass('over').addClass('out'); 
-    $(".inside1").removeClass('over').addClass('out');
-    $(".showing1").removeClass('over').addClass('out');
-    
-  });
-
-
-  $( ".x33" )
-  .on( "mouseenter", function() {
-
-    $(".x3").removeClass('out').addClass('over'); 
-     $(".showing1").removeClass('out').addClass('over');
-    $(".inside1").removeClass('out').addClass('over');
-  });
-  $(".showing1")
-  .on( "mouseleave", function() {
-    $(".x3").removeClass('over').addClass('out'); 
-    $(".inside1").removeClass('over').addClass('out');
-    $(".showing1").removeClass('over').addClass('out');
-
-  });
-
-
-  $( ".x44" )
-  .on( "mouseenter", function() {
-
-    $(".x4").removeClass('out').addClass('over'); 
-     $(".showing1").removeClass('out').addClass('over');
-    $(".inside1").removeClass('out').addClass('over');
-  });
-  $(".showing1")
-  .on( "mouseleave", function() {
-    $(".x4").removeClass('over').addClass('out'); 
-    $(".inside1").removeClass('over').addClass('out');
-    $(".showing1").removeClass('over').addClass('out');
-
-  });
-
-
-$( ".x55" )
-  .on( "mouseenter", function() {
-
-    $(".x5").removeClass('out').addClass('over'); 
-     $(".showing1").removeClass('out').addClass('over');
-    $(".inside1").removeClass('out').addClass('over');
-  });
-  $(".x5")
-  .on( "mouseleave", function() {
-    $(".x5").removeClass('over').addClass('out'); 
-    $(".inside1").removeClass('over').addClass('out');
-    $(".showing1").removeClass('over').addClass('out');
-    
-  });
-
-
-$( ".x66" )
-  .on( "mouseenter", function() {
-
-    $(".x6").removeClass('out').addClass('over'); 
-     $(".showing1").removeClass('out').addClass('over');
-    $(".inside1").removeClass('out').addClass('over');
-  });
-  $(".showing1")
-  .on( "mouseleave", function() {
-    $(".x6").removeClass('over').addClass('out'); 
-    $(".inside1").removeClass('over').addClass('out');
-    $(".showing1").removeClass('over').addClass('out');
- 
-  });
-
-$( ".x77" )
-  .on( "mouseenter", function() {
-
-    $(".x7").removeClass('out').addClass('over'); 
-     $(".showing1").removeClass('out').addClass('over');
-    $(".inside1").removeClass('out').addClass('over');
-  });
-  $(".showing1")
-  .on( "mouseleave", function() {
-    $(".x7").removeClass('over').addClass('out'); 
-    $(".inside1").removeClass('over').addClass('out');
-    $(".showing1").removeClass('over').addClass('out');
-
-  });
-
-  $( ".x88" )
-  .on( "mouseenter", function() {
-
-    $(".x8").removeClass('out').addClass('over'); 
-     $(".showing1").removeClass('out').addClass('over');
-    $(".inside1").removeClass('out').addClass('over');
-  });
-  $(".showing1")
-  .on( "mouseleave", function() {
-    $(".x8").removeClass('over').addClass('out'); 
-    $(".inside1").removeClass('over').addClass('out');
-    $(".showing1").removeClass('over').addClass('out');
-    
-  });
-
-$( ".x99" )
-  .on( "mouseenter", function() {
-
-    $(".x9").removeClass('out').addClass('over'); 
-     $(".showing1").removeClass('out').addClass('over');
-    $(".inside1").removeClass('out').addClass('over');
-  });
-  $(".showing1")
-  .on( "mouseleave", function() {
-    $(".x9").removeClass('over').addClass('out'); 
-    $(".inside1").removeClass('over').addClass('out');
-    $(".showing1").removeClass('over').addClass('out');
-    
-  });*/
-JS
-, yii\web\View::POS_READY); ?>
 
 <!-- next x8
 next inside

@@ -95,7 +95,8 @@ TesttWidget::end()
 <script type="text/javascript">
 
 
-window.onload = function() {
+window.addEventListener("load", function() {
+
 
 
 
@@ -178,7 +179,6 @@ var j=1;
     j++;
 });
 
-
  var items = document.querySelectorAll(".navbar-collapse ul li");
  var lastchild = items[items.length-1];
   lastchild.classList.add('last');
@@ -197,32 +197,6 @@ var i=1;
 });
 
 
-var blocks = document.querySelectorAll(".blocktitle");
-
-//document.getElementById('w1').classList.remove('animated1', 'lightSpeedIn');
- setTimeout(function(){
- var i=1;
-[].forEach.call(blocks, function(item) {
-      item.classList.add('bounceInLeft');
-    i++;
-});
-    }, 600);
-
-//sec var
- /*setTimeout(function(){
-for (i = 0; i < blocks.length; i++) {
-    blocks[0].classList.add('bounceInLeft');
-}
-    }, 1500);
-*/
-
- setTimeout(function(){
- var i=1; var blocktitles = document.getElementsByClassName("blocktitle");
-
-[].forEach.call(blocks, function(item) { item.classList.remove('bounceInLeft'); });
-for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
-
-    }, 1600);
 
 
 
@@ -264,11 +238,9 @@ window.addEventListener("resize", function () {
 
 function handleClick()
 {
-document.getElementById("full-widthid").style.marginTop = "220px";
+//document.getElementById("full-widthid").style.marginTop = "220px";
 }
-
-
-document.getElementsByTagName('button')[0].onclick=handleClick;
+//document.getElementsByTagName('button')[0].onclick=handleClick;
 
 
 
@@ -296,8 +268,48 @@ document.getElementsByClassName('icos')[4].classList.add('fa','fa-phone');
 /*$("body").on("click", ".call-back", function(){
     $('.span3').attr('data-nohover','1')
     });*/
-};
+
+
+
+var blocks = document.querySelectorAll(".blocktitle");
+
+//document.getElementById('w1').classList.remove('animated1', 'lightSpeedIn');
+ setTimeout(function(){
+ var i=1;
+[].forEach.call(blocks, function(item) {
+      item.classList.add('bounceInLeft');
+    i++;
+});
+    }, 600);
+
+//sec var
+ /*setTimeout(function(){
+for (i = 0; i < blocks.length; i++) {
+    blocks[0].classList.add('bounceInLeft');
+}
+    }, 1500);
+*/
+
+ setTimeout(function(){
+ var i=1; var blocktitles = document.getElementsByClassName("blocktitle");
+
+[].forEach.call(blocks, function(item) { item.classList.remove('bounceInLeft'); });
+for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
+
+    }, 1600);
+
+
+});
 jQuery(document).ready(function($){
+
+
+
+
+
+
+
+
+
   // browser window scroll (in pixels) after which the "back to top" link is shown
   var offset = 300,
     //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
@@ -350,57 +362,6 @@ document.onscroll = scroll;
 });
 
 </script>
-<!-- 
-<script type="text/javascript">
-        ymaps.ready(init); 
-        var myMap; 
-        function init () { 
-            var myMap = new ymaps.Map("map2", { 
-                    center: [53.182762,50.093797],
-                    behaviors: ['default', 'scrollZoom'], 
-                    zoom: 17, 
-      type: "yandex#publicMap"
-                });
-            myMap.controls 
-            .add('zoomControl', { left: 5, top: 5 }) 
-            .add('typeSelector')
-            .add('mapTools', { left: 35, top: 5 }); 
-         //                    controls: ['zoomControl', 'searchControl','[typeSelector]','[mapTools]'],
-
-              
-          myPlacemark1 = new ymaps.Placemark([53.182762,50.093797], {
-                  balloonContent: '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="/images/map/logo2.png" class="ll"/><p style="margin:3px 0px;">443099, г. Самара, <br>ул. Молодогвардейская 33, <br>оф. 232, тел.: (846) 205-77-66</p><img class="close" onclick="myMap.balloon.close()" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="/images/map/close.png"/></div>'
-                }, {
-                iconLayout: 'default#image',
-                iconImageHref: '/images/map/icon22.png',
-                iconImageSize: [64, 64],
-                iconImageOffset: [-32, -64],
-                  balloonContentSize: [270, 99],
-                  balloonLayout: "default#imageWithContent",
-                  balloonImageHref: '/images/map/ballon222.png',
-                  balloonImageOffset: [-70, -100],
-                  balloonImageSize: [260, 106],
-                  balloonShadow: false,
-                  balloonAutoPan: false
-                  });
-          
-          myMap.geoObjects.add(myPlacemark1);
-
-         
-      myMap.geoObjects.events.add([
-            'balloonopen'
-        ], function (e) {
-            var geoObject = e.get('target');
-            myMap.panTo(geoObject.geometry.getCoordinates(), {
-                                        delay: 0
-                                    });
-        });
-
-    myPlacemark1.balloon.open();
-    }
-  </script> -->
-
-
 
 </body>
 </html>

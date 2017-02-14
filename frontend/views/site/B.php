@@ -401,12 +401,15 @@ JS
  -->
 
 
- <h5 class="m420" style="font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5>
+<!--  <h5 class="m420" style="font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5> -->
+
+
+  <h6 class="m420" style="font-weight:bold; text-align:center">Выберите желаемый пакет обучения.</h6>
+    <h5  style="font-weight:bold; text-align:center">Порядок обучения</h5>
+
+
 <br/>
-<div class="row text-center uslv">
-  <div class="col-xs-2"><img src="../../images/fon/clock.png"></div>
-  <div class="col-xs-10"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
-</div>
+
 
 <div class="row text-center uslv">
   <div class="col-xs-2"><img src="../../images/fon/book.png"></div>
@@ -420,10 +423,19 @@ JS
   <div class="col-xs-10"><p><b>Вождение</b></p> <p>56 часов вождения. </p>
   <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
   <p>учебные маршруты по всему городу.</p>
-
-
   </div>
 </div>
+
+<div class="row text-center uslv">
+  <div class="col-xs-2"><img src="../../images/fon/clock.png"></div>
+  <div class="col-xs-10"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
+</div>
+
+<div class="row text-center uslv">
+<div class="col-xs-2"><img src="../../images/fon/clock.png"></div>
+  <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p></div>
+</div>
+
 
 <br/><br/>
 <br/>
@@ -432,18 +444,6 @@ JS
 
 
 
-<br/>
-<h5 class="text-center"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
- 
- <ul class=" preimul2">
-  <li>•  подготовка пакета документов для сдачи экзамена в ГИБДД;</li>
- <li>•  организация и предоставление учебных автомобилей на первичные экзамены (выпускной и ГИБДД);</li>
- <li>•  учебная литература в подарок: экзаменационные билеты, правила дорожного движения, 
- учебник по вождению автомобиля, памятка по упражнениям на площадке;</li>
-
- <li>•  консультация с преподавателем теоретического курса по пропущенным занятиям;</li>
- <li>•  улыбка и доброжелательное отношение со стороны администрации.</li>
- </ul>
 
 <br/>
  <!-- <section class="automotoschool">

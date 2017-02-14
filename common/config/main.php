@@ -36,6 +36,7 @@ return [
     'view' => [
             'theme' => [
                 'pathMap' => [
+                    '@vendor/onmotion/yii2-gallery/views' => '@app/views/galadmin/default/index.php', // example: @app/views/gallery/default/index.php
                     '@vendor/onmotion/yii2-gallery/views' => '@app/views/gallery', // example: @app/views/gallery/default/index.php
                 ],
             ],
@@ -68,10 +69,11 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
              'rules' => [
-            '<alias:validate|create|savecont|createwidget|feedform|feedForm|contacts2|contacts|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
+            '<alias:sudovozhdenie|validate|create|savecont|createwidget|feedform|feedForm|contacts2|contacts|students|raspisanie|automotoschool|home|feedback|login|logout|signup|contact|distance|about|index>' => 'site/<alias>', 
             '<alias:dop-uslugi>' =>  'site/dopuslugi', 
              '<alias:our-advantages>' =>  'site/ouradvantages', 
             '<alias:safety-driving>' =>  'site/safetydriving', 
+            '<alias:samohodnaya-tehnika>' =>  'site/samohodnayatehnika',             
             '<alias:postupayushchim>' =>  'site/incoming', 
             '<alias:automotoschool/B>' =>  'site/b', 
             '<alias:automotoschool/A>' =>  'site/a',

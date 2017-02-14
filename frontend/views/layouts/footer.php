@@ -18,7 +18,7 @@ use yii\helpers\Html;
  <p><a href="/dop-uslugi">Дополнительные услуги</a></p>
  </div>
  <div class="col-md-2 col-xs-5">
- <p><a href="#">Самоходная техника</a></p>   
+ <p><a href="/samohodnaya-tehnika">Самоходная техника</a></p>   
  <p>Расписание</p>
   <p>Условия обучения</p>
  <p>Поступающим</p>
@@ -28,8 +28,8 @@ use yii\helpers\Html;
   <div class="clearfix visible-sm"></div>
   <div class="col-xs-2 visible-sm visible-xs"></div>
 <div class="col-md-2 col-xs-5 col3">
-<p><a href="#">Судовождение</a></p>   
- <p><a href="#">Расписание</a></p>
+<p><a href="/sudovozhdenie">Судовождение</a></p>   
+ <p>Расписание</p>
   <p>Условия обучения</p>
  <p>Поступающим</p>
  <p>Учащимся</p>
@@ -44,8 +44,17 @@ use yii\helpers\Html;
  <p>Дополнительные услуги</p>
 </div>
 <div class="col-md-3 col-xs-12 my"><div class="vk"><BR/>
-<p>Запись на занятия</p><BR/>
-<p>Мы Вконтакте</p><BR/>
+<p><?php    echo Html::a(
+    'Запись на занятия',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '8',
+  ]
+    ); ?></p>
+<p style="margin-left:-10px">  <a href="#" class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></a><a href="#" class="myvk">Мы Вконтакте</a></p><BR/>
+<!--<div class="hi-icon-effect-8 "> -->
+
 
 <p></p>
 <p></p>

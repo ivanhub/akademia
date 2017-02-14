@@ -316,15 +316,20 @@ margin-bottom:40px !important;
 
 
 .span4 {float:left}
+.pull-center { 
+    float: none;
+    margin: 0 auto !important;
+}
 
 .span3 {
-  width: 230px;
+  width: 214px !important;
+  height: 379px;
   border-radius: 7px;
- /*  height:310px; */
-   border:2px solid green;
+ /*  height:310px;   width: 230px;*/
+  border:2px solid green;
   background: #f2fdec;
 
-height: 379px;
+
 
 		margin-top: 30px;
 		text-align: center;
@@ -511,8 +516,10 @@ body .wrapper label:nth-of-type(9) {
 -o-transition-duration: 0.5s; /*Opera duration version*/
 transition-duration: 0.5s; /*Opera duration version*/
 opacity: 1; /*initial opacity of images*/
-margin: 0 10px 5px 0; /*margin between images*/
+margin: 0 0 5px 0; /*margin between images*/
 }
+
+.rowpacket {width:80%;}
 
  .span3[data-nohover="0"]:hover{
 -webkit-transform:scale(1.2); /*Webkit: Scale up image to 1.2x original size*/
@@ -528,7 +535,29 @@ opacity: 1;
 
 
 
+@media (min-width: 992px) {
+    .pull-right-md {
+        float: right;
+    }}
 
+
+.pull-center-md {
+    float: none;
+    margin: 0 auto !important;
+}
+
+
+@media (max-width: 991px) {
+    .pull-right-md, .pull-left-md {
+    float: none;
+    margin: 0 auto !important;
+    }
+
+
+}
+
+
+.in60in {padding-left:130px; padding-right:130px}
 
 #idmodal h3, #idmodal h3 {
     margin: 8px 0 0;
@@ -631,11 +660,11 @@ transition: all .3s;
 
 /* gallery */
 .gallery-index {
-    padding-left: 60px;
+    text-align: center;
 }
 
 
-
+.m550 {margin-top:550px;}
 
 
 

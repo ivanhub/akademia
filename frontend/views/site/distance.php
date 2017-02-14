@@ -41,7 +41,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <!-- <?= Html::encode($this->title) ?> -->
 <div class="site-distance  siteblock">
    
-<h1>Дистанционное обучение</h1>
+<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
 <br/>
 <p> Существенное преимущество дистанционных занятий 
 - это возможность обучения в любое время и в любом месте. </p>

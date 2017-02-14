@@ -36,35 +36,28 @@ $this->params['breadcrumbs'][] = $this->title;
    
 
  <div class="row">
-<div class="col-sm-12 col-md-3">
-
-
+<!-- <div class="col-sm-12 col-md-3">
 <?= Leftmenu::widget() ?>
-
-
-
-<!-- <ul class="left2">
+<ul class="left2">
         <li><a href="/postupayushchim">Поступающим</a></li>
     <li><a href="/students">Учащимся</a></li>
     <li><a href="/raspisanie">Расписание</a></li>
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги</a></li>
     
   
-</ul> -->
-</div>
+</ul>
+</div> -->
 
-<div class="col-md-9 col-sm-12">
 
 <h1 class="text-center">Категория A</h1>
 
-<h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
+<!-- <h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
+ --><h4 class="text-center">Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>
 
-
-<div class="row-fluid">
-<div class="hovergallery">  
-<div clas="col-xs-6">  
-        <div class="span3" style=" margin-left: 50px;" data-nohover="0">
+<div class="col-md-offset-1 col-md-10">
+<div class="col-sm-12 col-md-4">  
+        <div class="span3 pull-right-md" style="" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -89,9 +82,9 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
  </div>
         </div>
-        </div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
+        </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3" style="margin-left: 20px;" data-nohover="0">
+        <div class="span3 pull-center-md" style="" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Двойной A+B"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -117,9 +110,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
           </div>
-        </div></div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
+        </div></div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3" style=" margin-left: 20px;" data-nohover="0">
+        <div class="span3 pull-left-md" style="" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -143,34 +136,45 @@ $this->params['breadcrumbs'][] = $this->title;
   ]
     ); ?></div>
         </div>    </div>    
-      </div></div>
+     </div></div>
 
 
-  <br/><br/><br/><br/>
+  <br/>
 
- <h5 class="m350" style="font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5>
-<br/>
-<div class="row text-center uslv">
-  <div class="col-xs-2"><img src="../../images/fon/clock.png"></div>
-  <div class="col-xs-10"><p><b>Срок обучения</b></p> <p>1,5 месяца </p></div>
-</div>
+<!-- Без скрытых платежей и сборов -->
+ <h5 class="" style="font-weight:bold; text-align:center">Как проходит обучение в автошколе:</h5>
+
+
 
 <div class="row text-center uslv">
-  <div class="col-xs-2"><img src="../../images/fon/book.png"></div>
-  <div class="col-xs-10"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
+  <div class="col-xs-offset-2 col-xs-2"><img src="../../images/fon/book.png"></div>
+  <div class="col-xs-7"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
   <p>консультации и тестирование с психологом.</p>
   <p>лекции проводит преподователь с многолетним стажем.</p>
    </div>
 </div>
 <div class="row text-center uslv">
-  <div class="col-xs-2"><img src="../../images/fon/rul.png"></div>
-  <div class="col-xs-10"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
+  <div class="col-xs-offset-2 col-xs-2"><img src="../../images/fon/rul.png"></div>
+  <div class="col-xs-7"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
   <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
     <p>На время занятий выдается экипировка (шлем, наколенники). </p>
 
 
   </div>
 </div>
+<div class="row text-center uslv">
+  <div class="col-xs-offset-2 col-xs-2"><img src="../../images/fon/clock.png"></div>
+  <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>1,5 месяца </p></div>
+</div>
+
+<div class="row text-center uslv">
+<div class="col-xs-offset-2 col-xs-2"><img src="../../images/fon/clock.png"></div>
+  <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p>  <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p></div>
+</div>
+
+
+
+
 <br/><br/><br/>
 
  <section class="automotoschool">
@@ -178,44 +182,28 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <!-- <p style="font-weight:600;font-size:22px">Обучение вождению на мотоцикле</p>
  -->
-<p class="green"><b>Автошкола АНО ДПО «Академия» ведет подготовку водителей мотоциклов категории А и подкатегории А1.</b></p>
+<h5 class="green text-center"><b>Порядок получения водительского удостоверения</b></h5>
 <br/><br/>
 
-<img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/A-1.png">
-<br/><br/>
-<img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/A1.png">
-<br/><br/>
-<p class="text-center green" style="font-weight:bold;font-style:italic">Открывается автоматически при получении водительского удостоверения</p>
-<img style="display:block;margin-left:auto;margin-right:auto" src="../../images/pics/M-.png">
-
-
-
-
-
+<p class="text-center">Тяжелые мотоциклы с объемом двигателя от 125 куб. см.</p>
+<img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A-1.png">
+<br/>
+<p class="text-center">Легкие мотоциклы с объемом двигателя от 50 до 125 куб. см.</p>
+<img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A1.png">
+<br/>
+<p class="text-center " style="">(открывается автоматически при получении водительского удостоверения)</p>
+<img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/M-.png">
 
 
 
 <br/>
-<h5 class="text-center"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
- 
- <ul class=" preimul2">
-  <li>•  подготовка пакета документов для сдачи экзамена в ГИБДД;</li>
- <li>•  организация и предоставление учебных мотоциклов на первичные экзамены (выпускной и ГИБДД);</li>
- <li>•  учебная литература в подарок: экзаменационные билеты, правила дорожного движения, 
- методичка по вождению мотоцикла, памятка по упражнениям на площадке;</li>
-
- <li>•  консультация с преподавателем теоретического курса по пропущенным занятиям;</li>
- <li>•  улыбка и доброжелательное отношение со стороны администрации.</li>
- </ul>
-
 
  </section>
 <br/><br/>
 
 </div>
 </div>
-</div>
-</div>
+
 
 
 <?php 

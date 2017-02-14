@@ -116,7 +116,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <br/>
-<h4 class="text-center">Сведения об образовательной организации</h4>
+<h1 class="text-center"><?= Html::encode($this->title) ?></h1><br/>
 
  <div class="panel-group" id="accordion">
     <div class="panel panel-default">
@@ -155,7 +155,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <h1>Структура АНО ДПО «Академия»</h1>
 <p></p></center><p></p>
 <p></p><center><a href="http://samarapb.ru/documents/organization/structure.jpg"><img style="background: transparent;  border: none; class=" aligncenter="" size-full="" wp-image-338"="" src="http://samarapb.ru/documents/organization/structure.png" alt="" width="500" height="236"></a></center><p></p>
-<p class="text"><strong>Адрес электронной почты всех структурных подразделений:</strong> samarapb@mail.ru</p>
+<p class="text"><strong>Адрес электронной почты всех структурных подразделений:</strong> <a href="mailto:samarapb@mail.ru">samarapb@mail.ru</a></p>
 <p class="text"><strong>Телефоны всех структурных подразделений:</strong> 205-77-66</p>
 </div></div>
       </div>

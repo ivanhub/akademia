@@ -20,26 +20,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <!-- <?= Html::encode($this->title) ?> --> 
-<div class="site-automotoschool  siteblock">
+<div class="site-distance  siteblock">
    
 
  <div class="row">
-<div class="col-sm-12 col-md-3">
-
-<div class="menu">
-  <div class="menuItem uno"><span><a style="color:;" href="/postupayushchim">Запись на обучение</a></span></div>
-  <div class="menuItem dos"><span><a style="color:;" href="/students">Расписание занятий</a></span></div>
-  <div class="menuItem tres"><span><a style="color:;" href="/raspisanie">Наши преимущества</a></span></div>
-  <div class="menuItem cuatro"><span><a href="/dop-uslugi">Доп. услуги</a></span></div>
- </div>
 
 
-
-</div>
-
-<div class="col-md-9 col-sm-12">
 <section class="safetydriving">
-<h1 class="text-center">Защитное вождение</h1>
+<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
  
  <p>Проводим обучение по следующим программам:</p>
 
@@ -55,5 +43,4 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 </div>
 
-</div>
 

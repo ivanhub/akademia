@@ -216,7 +216,7 @@ transform: rotateY(5deg);
 	display: inline-block;
 	font-size: 0px;
 	cursor: pointer;
-	margin: 15px 30px;
+	margin: 15px 4px;
 	width: 90px;
 	height: 90px;
 	border-radius: 50%;
@@ -349,7 +349,7 @@ transform: rotateY(5deg);
 .page .icon-xxs.icon-circle {
     width: 34px;
     height: 34px;
-    line-height: 32px;
+    line-height: 34px;
 }
 .page a.icon-gray-lighter, .page a.icon-white, .page a.icon-transparent, .page a.icon-white-transparent {
     transition: .3s all ease;
@@ -363,13 +363,13 @@ transform: rotateY(5deg);
     font-size: 14px;
 }                    
 .page .icon-white {
-    color: #4b76a5; 
-    background: #fff;
+    color: #fff; 
+    background: #4b76a5;
 }
 
 .page a.icon-gray-lighter:hover, .page a.icon-white:hover, .page a.icon-transparent:hover, .page a.icon-white-transparent:hover {
-    color: #fff;
-    background: #4b76a5;
+    color: #4b76a5;
+    background: #fff;
 }
 
 /*end icon vk*/
@@ -994,7 +994,8 @@ section.map.full-width {  margin-top: 0 !important; height:0;}
 font-family: 'Cambria' !important; 
  */
 
-.my {    padding-left: 70px; padding-top:15px;}
+.my {    padding-left: 70px; padding-top:0}
+/*a.myvk:hover ~ a.icon-circle   {    color: #4b76a5;    background: #fff;}*/
 
 footer p.pull-top {
     padding-top: 15px;
@@ -1374,7 +1375,7 @@ font-size:35px !important;
 
 
 .modal-header .close {
-      transform-origin: 50% 60%;
+/*      transform-origin: 50% 60%;*/
     transform-style: preserve-3D;
   font-size: 40px; 
   -webkit-transition: 0.5s cubic-bezier(.27,1.64,.32,.95);

@@ -33,7 +33,7 @@ JS
             echo \yii\bootstrap\Collapse::widget([
                 'items' => [
                     [
-                        'label' => $model->name . ' (' . count((array)$photos) . ' photos)',
+                        'label' => $model->name . ' (' . count((array)$photos) . ' фото)',
                         'content' => !empty($model->descr) ? $model->descr : ''
                     ]
                 ],

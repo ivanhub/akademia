@@ -54,17 +54,17 @@ $this->title = 'Учебный центр "Академия"';
  <section class="main ">
 
 <div class="row">
- <div class="col-md-9 col-sm-12 text-left mainbox">
+ <div class="col-md-offset-1 col-md-10 col-sm-12 text-left mainbox">
 
  <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12  box1  cl-effect-12">
 <a style="display:block" href="/automotoschool">
-<img class="hvr-bounce-in" src="../images/1car.png" width="365px">
+<img class="hvr-bounce-in" src="../images/1car.png" width="420">
 <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p></a>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12 box2 cl-effect-12">
 <a style="display:block" href="/samohodnaya-tehnika">
-<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325px" style="margin-top: -1px;"  margin-left: -5px;>
+<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="364px" style="margin-top: -1px;  margin-left: -5px;">
 <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
 </a>
 </div>
@@ -73,18 +73,18 @@ $this->title = 'Учебный центр "Академия"';
 </div> 
 
 
-<div class="row">
+<div class="row" style="padding-top: 35px;">
 
   <div class="clearfix visible-sm"></div>
-<div class="col-md-6 col-sm-6 col-xs-12 box3  cl-effect-12">
+<div class="col-md-6 col-sm-6 col-xs-12   cl-effect-12">
 <a style="display:block" href="/sudovozhdenie">
-<img class="boat" src="../images/boat77.png" width="323px" style="margin-top: -5px;" >
+<img class="boat" src="../images/boat77.png" width="372px" style="margin-top: -15px;" >
 <p class="blocktitle  hvr-bob anim_three">Судовождение</p>
 </a>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12  box4  cl-effect-12">
-<a style="display:block" href="/safety-driving"> <!-- 22 -->
-<img class="hvr-wobble-top" src="../images/yellow.png" width="405px" style="margin-top: 10px;     margin-left: 30px;">
+<a style="display:block;" href="/safety-driving"> <!-- 22 -->
+<img class="hvr-wobble-top" src="../images/yellow2.png" width="465px" style="  margin-left: 30px; margin-top: 25px;">
 <p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
 </a>
 </div></div>
@@ -92,24 +92,24 @@ $this->title = 'Учебный центр "Академия"';
 
 </div> 
 <br><br> 
-
+<!-- 
 
   <div class="col-sm-12 col-md-3 right-aside">
   <aside>
   <h4 >Акции</h4>
    <div class="saleblock">
  <img src="../../images/pics/banner12.png" class="saleimg" width="220px" >
- <!--  <p>Новогодняя акция - Скидка 15%!</p>
-               <p>[Подробнее] </p> -->
+ <p>Новогодняя акция - Скидка 15%!</p>
+               <p>[Подробнее] </p>
            </div>
              <div class="saleblock">
  <img src="../../images/pics/banner5.png" class="saleimg" width="220px" style="margin-top:40px">
-<!--    <p>Новогодняя акция - Скидка 15%!</p>
-              <p>[Подробнее] </p> -->
+<p>Новогодняя акция - Скидка 15%!</p>
+              <p>[Подробнее] </p>
            </div>
  
 
-  <!--             <div class="saleblock">
+  <div class="saleblock">
   <img src="https://dummyimage.com/240x120/989898/000000.png" class="saleimg">
     <p>Новогодняя акция - Скидка 15%!</p>
                   <p>[Подробнее] </p> 
@@ -124,20 +124,21 @@ $this->title = 'Учебный центр "Академия"';
          <p>11/01/2016 Открыт сезон обучения на категорию А. </p>
         <p class="news-text">Хотите освоить искусство безопасного и уверенного</p><p>...</p>
         <p>[Подробнее] </p>
-     </div> -->
+     </div>
 
- <!--   <div class="news">
+ <div class="news">
         <p>11/01/2016 Набор на обучение вождению категории B.</p>
       <p>Автошкола объявляет набор в дневную группу школьников и</p><p>...</p>
       <p>[Подробнее] </p>
-    </div> -->
+    </div>
 
          
 
 
   </aside>
-</div>
-<br/>
+</div> -->
+<div class="text-center m550">
+ <img src="../../images/pics/banner12.png" class="saleimg" width="250px" ></div>
 <p class="mtext" style="clear:both;">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
 Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
 Проанализировав накопившийся опыт, изучив европейскую систему подготовки водителей, 
