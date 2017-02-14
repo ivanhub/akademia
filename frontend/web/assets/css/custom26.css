@@ -1049,31 +1049,29 @@ new:hover {
 }
 
 .style5:hover {border:1px solid transparent; transition:0s;}
+.style5:hover .showing1 { animation:fadeIn .3s forwards; }
 
-.style5:hover .showing1 { animation:fadeIn .6s forwards; }
-.style5:hover new {animation:blfadein .2s forwards, blin-n1 .7s forwards;   }
+
+.style5:hover      new {animation:blfadein .2s forwards, blin-n1 .7s forwards;   }
+.style5.cntr:hover new {animation:blfadein .2s forwards, blin-n2 .7s forwards;   }
+.style5.lst:hover  new {animation:blfadein .2s forwards, blin-n3 .7s forwards;   }
+
 
 
 /*.style5.lst:hover .x1{left:-130px}*/
-
-.style5.cntr:hover new {animation:blfadein .2s forwards, blin-n2 .7s forwards;   }
-.style5.lst:hover new {animation:blfadein .2s forwards, blin-n3 .7s forwards;   }
-
 new.over {animation:blfadein .2s forwards, blin .7s forwards;   }
 new.out { animation:blout .3s ;   }
-
 .cntr new.over {animation:blfadein .2s forwards, blin2 .7s forwards;    }
 .cntr new.out { animation:blout2 .3s ;   }
-
 .lst new.over {animation:blfadein .2s forwards, blin3 .7s forwards;    }
 .lst new.out { animation:blout3 .3s ;   }
 
 
 @keyframes blfadein {
-  0% {  background: rgba(202,226,193,0.6);
+  0% {  background: rgba(202,226,193,0.3);
 }
-  100% {  background: rgba(202,226,193,0);
-}
+  20% {  background: rgba(202,226,193,0); }
+  100% {  background: rgba(202,226,193,0); }
 }
 
 
@@ -1690,3 +1688,58 @@ margin-left:50px; margin-right:50px;
 
 
 .vk a:hover {color:#444 !important}
+
+
+.akcii {
+    border: 2px solid #75b650;
+    border-radius: 1px;
+/*    margin: 29px 0 23px 0;*/
+    text-align: center;
+/*    padding: 0 15px 15px 15px;*/
+width:70%;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+}
+
+
+.akcii h2 {
+    line-height: 1.2;
+    font-size: 16px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 5px 37px 4px 50px;
+    border-radius: 3px;
+    position: relative;
+    top: -16px;
+    background: #5b9937;
+    display: inline-block;
+    color: #fff !important;
+}
+
+.insideakcii {
+margin-left:auto;
+margin-right:auto;
+ }
+/*
+@media (max-width:1200px) {
+.akcii h2 {
+    top: -95px;
+    left: 15%;
+}
+}
+
+
+
+@media (max-width:992px) {
+.akcii h2 {
+    top: -95px;
+    left: 18%;
+}
+}*/
+
+
+.stylecenter {     margin-left: auto;
+    margin-right: auto;
+    display: block;}

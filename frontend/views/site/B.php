@@ -6,12 +6,12 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use yii\captcha\Captcha;
-use yii\bootstrap\Modal;
-use yii\bootstrap\Button;
+//use yii\captcha\Captcha;
+//use yii\bootstrap\Modal;
+//use yii\bootstrap\Button;
 use \yii\widgets\MaskedInput;
 
-use yii\widgets\Menu;
+//use yii\widgets\Menu;
 
 
 $this->title = 'Категория B';
@@ -27,204 +27,17 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-
-
-<!--  Html::encode($this->title) -->
-
 <div class="site-automotoschool siteblock">
-   
-
  <div class="row">
-<div class="col-sm-12 col-md-3 hidden-sm hidden-xs">
 
+<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
 
-
- <br/>
- <div class="wrapnav">
-<?= leoshtika\bootstrap\NavSidebar::widget([
-    'items' => [
-        [
-            'url' => ['/postupayushchim'],
-            'label' => 'Запись на обучение',
-            'icon' => 'car' // This is a bootstrap icon name
-        ],
-        [
-            'url' => ['/raspisanie'],
-            'label' => 'Расписание занятий',
-            'icon' => 'clock-o' // This is a bootstrap icon name
-        ],
-        [
-            'url' => ['site/'],
-            'label' => 'Наши преимущества',
-            'icon' => 'star' // This is a bootstrap icon name
-        ],
-         [
-            'url' => ['/dop-uslugi'],
-            'label' => 'Доп. услуги',
-            'icon' => 'rocket' // This is a bootstrap icon name
-        ],
-    ],
-]) ?> 
-</div>
-<!-- 
- <?php
-
-echo Menu::widget([
-
-    'items' => [
-        ['label' => 'Запись на обучение', 'url' => ['/postupayushchim'],'active' => $this->context->route == 'site/postupayushchim'],
-        ['label' => 'Расписание занятий', 'url' => ['/raspisanie'],'active' => $this->context->route == 'site/raspisanie'],
-        ['label' => 'Наши преимущества', 'url' => ['/our-advantages'],'active' => $this->context->route == 'site/ouradvantages'],
-        ['label' => 'Дополнительные услуги', 'url' => ['/dop-uslugi'], 'active' => $this->context->route == 'site/dopuslugi',
-        'class' => 'biaka'],
-
-    ],
-    'options' => [
-          //'id'=>'navid',
-          'class' => 'menu',
-          'style'=>'float: left; font-size: 16px;',
-          'data'=>'menu',
-        ],
-
-    'activeCssClass'=>'active',
-    'linkTemplate' => '<a href="{url}"><div class="menuItem"><span>{label}</span></div></a>',
-
-
-]);
-
-?>
- -->
-<!-- <ul class="left2">
-        <li><a href="/postupayushchim">Поступающим</a></li>
-    <li><a href="/students">Учащимся</a></li>
-    <li><a href="/raspisanie">Расписание</a></li>
-    <li><a href="/dop-uslugi">Доп.&nbsp;услуги</a></li>
-    
-  
-</ul> -->
-</div>
-
-<div class="col-md-9 col-sm-12">
-
-
-
-<h1 class="text-center">Категория B</h1>
-
-<h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
+<h4 class="text-center">Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>
 
-<!-- Awesome  -->
-
-<!-- <div class='wrapper'>
-  <input id='1' type='checkbox'>
-  <label for='1'>
-    <div>
-      <div class='circle'></div>
-         <div class="span4" style="">
-          <div class="p-item-title">ПАКЕТ<br>
-          "Дневной"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px">
-
-<img src="../images/pics/s1.png" >
-          </div>
-          <div class="mt5">
-         <p>Идеальный выбор для студентов! </p>
-<p>от 17 000 р. </p>
-          </div>
-          <div class="butt">
-          <a class="send-price call-back" style="width: 128px;" href="#" role="button" data-info="Стандарт">Записаться</a></div>
-        </div>
-    </div>
-    <p>Пакет "Дневной"</p>
-    <p>Практические занятия:</p>
-    <p>с 9:00 до 16:00 Вт.-Пт.</p>
-    <p>Теоретические занятия:</p>
-    <p>с 18:00 до 20:00 Вт.-Чт.</p>
-  </label>
-  <input id='2' type='checkbox'>
-  <label for='2'>
-    <div>
-      <div class='circle'></div>
-    <div class="span4" style="margin-left: 10px;">
-          <div class="p-item-title">ПАКЕТ<br>
-          "Стандарт"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px">
-
-<img src="../images/pics/s2.png" >
-          </div>
-          <div class="mt5">
-<p>Удобней для всех</p>
-<p>от 20 000 р. </p>
-          </div>
-          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 25px;" href="#" role="button" data-info="Индивидуальный">Записаться</a></div>
-        </div>
-    </div>
-    <p>Текст2 внутри</p>
-  </label>
-  <input id='3' type='checkbox'>
-  <label for='3'>
-    <div>
-      <div class='circle'></div>
-       <div class="span4" style="float: left; margin-left: 20px;">
-          <div class="p-item-title">ПАКЕТ<br>
-          "Индивидуальный"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px">
-<img src="../images/pics/s3.png" >
-
-
-          </div>
-          <div class="mt5">
-<p>Вы выбираете,<br/>Мы исполняем </p>
-<p>от 30 000 р. </p>       
-          </div>
-          <div class="butt"><a class="send-price call-back" style="width: 128px;margin-top: 0px;" href="#" role="button" data-info="Стандарт">Записаться</a></div>
-        </div>  
-    </div>
-    <p>Текст3 внутри</p>
-  </label>
-</div>
- -->
-
-
-<!-- Awesome END -->
-
-
-<!--  Modal::begin([
-    'header' => '<h2>Запись онлайн</h2>',
-    'id' => 'idmodal3',
-    'toggleButton' => [
-        'tag' => 'a',
-        'class' => 'send-price call-back',
-        'label' => 'Записаться',
-        'data-target' => '#idmodal6',
-        'data-toggle'=>'modal',
-
-
-    ],
-        'clientOptions' => false,
-
-]);
- 
-echo 'Росавтоакадемия, г. Самара';
- 
-Modal::end();
- 
-
-<div class="modal34 remote34 fade" id="idmodal34">
-        <div class="modal-dialog34">
-            <div class="modal-content34 loader-lg34"></div>
-        </div>
-</div>
-
--->
-
-
-
-
-<div class="row-fluid">
-<div class="hovergallery">  
-<div clas="col-xs-6">  
-        <div class="span3" style=" margin-left: 50px;" data-nohover="0">
+<div class="col-md-offset-1 col-md-10">  
+<div class="col-sm-12 col-md-4">  
+        <div class="span3 pull-right-md" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -292,9 +105,9 @@ JS
 , yii\web\View::POS_READY); ?>
  </div>
         </div>
-        </div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
+        </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3" style="margin-left: 20px;" data-nohover="0">
+        <div class="span3 pull-center-md" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -320,9 +133,9 @@ JS
 
 
           </div>
-        </div></div><div class="clearfix visible-xs"></div><div clas="col-xs-6">
+        </div></div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3" style=" margin-left: 20px;" data-nohover="0">
+        <div class="span3 pull-left-md" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -346,7 +159,7 @@ JS
   ]
     ); ?></div>
         </div>    </div>    
-      </div></div>
+      </div>
 
 
 <!-- 
@@ -402,44 +215,45 @@ JS
 
 
 <!--  <h5 class="m420" style="font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5> -->
+<!--   <h6 class="m420" style="font-weight:bold; text-align:center">Выберите желаемый пакет обучения.</h6>
+  <h5  style="font-weight:bold; text-align:center">Порядок обучения</h5> -->
+  <br/>
+   <h5 class="m420" style="font-weight:bold; text-align:center">Как проходит обучение в автошколе:</h5>
 
-
-  <h6 class="m420" style="font-weight:bold; text-align:center">Выберите желаемый пакет обучения.</h6>
-    <h5  style="font-weight:bold; text-align:center">Порядок обучения</h5>
 
 
 <br/>
 
 
 <div class="row text-center uslv">
-  <div class="col-xs-2"><img src="../../images/fon/book.png"></div>
-  <div class="col-xs-10"><p><b>Теория</b></p> <p>134 часа теоретических занятий, внутренний экзамен.</p>  
+  <div class="col-xs-offset-2 col-xs-2"><img src="../../images/fon/book.png"></div>
+  <div class="col-xs-7"><p><b>Теория</b></p> <p>134 часа теоретических занятий, внутренний экзамен.</p>  
   <p>консультации и тестирование с психологом.</p>
   <p>обучение преподователем с многолетним стажем.</p>
    </div>
 </div>
 <div class="row text-center uslv">
-  <div class="col-xs-2"><img src="../../images/fon/rul.png"></div>
-  <div class="col-xs-10"><p><b>Вождение</b></p> <p>56 часов вождения. </p>
+  <div class="col-xs-offset-2 col-xs-2"><img src="../../images/fon/rul.png"></div>
+  <div class="col-xs-7"><p><b>Вождение</b></p> <p>56 часов вождения. </p>
   <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
   <p>учебные маршруты по всему городу.</p>
   </div>
 </div>
 
 <div class="row text-center uslv">
-  <div class="col-xs-2"><img src="../../images/fon/clock.png"></div>
-  <div class="col-xs-10"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
+  <div class="col-xs-offset-2 col-xs-2"><img src="../../images/fon/clock.png"></div>
+  <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
 </div>
 
 <div class="row text-center uslv">
-<div class="col-xs-2"><img src="../../images/fon/clock.png"></div>
+<div class="col-xs-offset-2 col-xs-2"><img src="../../images/fon/clock.png"></div>
   <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p></div>
 </div>
 
 
 <br/><br/>
 <br/>
-<img src="../../images/pics/plan.jpg" width="800px">
+<img class="stylecenter" src="../../images/pics/plan.jpg" width="800px" align="center">
 
 
 
@@ -586,7 +400,7 @@ JS
 
 </div>
 </div>
-</div>
+
 
 
 

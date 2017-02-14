@@ -6,12 +6,12 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use yii\captcha\Captcha;
+//use yii\captcha\Captcha;
 //use phpnt\yandexMap\YandexMaps;
 use \yii\widgets\MaskedInput;
 
 
-use frontend\components\Leftmenu;
+//use frontend\components\Leftmenu;
 
 
 
@@ -30,14 +30,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<!-- <?= Html::encode($this->title) ?> -->
 
 <div class="site-automotoschool siteblock">
    
 
  <div class="row">
 <!-- <div class="col-sm-12 col-md-3">
-<?= Leftmenu::widget() ?>
+ Leftmenu::widget() ?>
 <ul class="left2">
         <li><a href="/postupayushchim">Поступающим</a></li>
     <li><a href="/students">Учащимся</a></li>
@@ -49,7 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </div> -->
 
 
-<h1 class="text-center">Категория A</h1>
+<h1 class="text-center"> <?= Html::encode($this->title) ?></h1>
 
 <!-- <h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
  --><h4 class="text-center">Мы предлагаем Вам следующие пакеты услуг:</h4>
