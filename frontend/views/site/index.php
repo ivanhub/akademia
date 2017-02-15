@@ -137,17 +137,19 @@ $this->title = 'Учебный центр "Академия"';
 
   </aside>
 </div> -->
-<div class="text-center m590 akcii">
-<div class="insideakcii">
-<h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Акции</h2></div>
- <img style="margin-top:-15px;" src="../../images/pics/banner12.png" class="saleimg" width="250px" >
- </div>
-
-<p class="mtext" style="clear:both;">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
+<p class="mtext" style="clear:both; margin-top:550px">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
 Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
 Проанализировав накопившийся опыт, изучив европейскую систему подготовки водителей, 
 взяв на вооружение передовые технологии, мы разработали свои, адаптированные к нашим реалиям, 
 методики обучения.</p>
+<div class="text-center  akcii">
+
+<div class="insideakcii">
+<h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Акции</h2></div>
+ <img style="margin-top:-15px;" src="../../images/pics/banner12.png" class="saleimg" width="250px" >
+ </div>
+<br/><br/>
+
  </div>
 </div>
 

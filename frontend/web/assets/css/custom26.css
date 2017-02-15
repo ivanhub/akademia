@@ -35,8 +35,8 @@ margin-bottom:80px;
 
 text-indent:50px;
 
-    font-family: 'Myriadprocond';
-font-size:25px;
+font-family: 'Myriadsetpro';
+font-size:21px;
 padding-left:60px; padding-right:60px;
 }
 
@@ -919,7 +919,8 @@ border-radius: 10px;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: rgba(115, 253, 96, 0.6) url(../../img/cd-top-arrow.svg) no-repeat center 50%;
+  background: rgba(115, 253, 96, 0.6) url(../../img/cd-top-arrow.svg) no-repeat center 50%; 
+/*  background: rgba(115, 253, 96, 0.6) url(../../images/pics/icon_top.png) no-repeat center 50%; */
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -1052,9 +1053,20 @@ new:hover {
 .style5:hover .showing1 { animation:fadeIn .3s forwards; }
 
 
-.style5:hover      new {animation:blfadein .2s forwards, blin-n1 .7s forwards;   }
-.style5.cntr:hover new {animation:blfadein .2s forwards, blin-n2 .7s forwards;   }
-.style5.lst:hover  new {animation:blfadein .2s forwards, blin-n3 .7s forwards;   }
+.style5:hover      new {
+-webkit-animation:blfadein .2s forwards, blin-n1 .7s forwards;   
+animation:blfadein .2s forwards, blin-n1 .7s forwards;   
+border: 1px solid rgb(84, 146, 60); }
+
+.style5.cntr:hover new {
+-webkit-animation:blfadein .2s forwards, blin-n2 .7s forwards;   
+animation:blfadein .2s forwards, blin-n2 .7s forwards;   
+border: 1px solid rgb(84, 146, 60); }
+
+.style5.lst:hover  new {
+-webkit-animation:blfadein .2s forwards, blin-n3 .7s forwards;   
+animation:blfadein .2s forwards, blin-n3 .7s forwards;   
+border: 1px solid rgb(84, 146, 60); }
 
 
 
@@ -1094,6 +1106,40 @@ new.out { animation:blout .3s ;   }
   40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-130px}
   100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555;left:-130px }
 }
+
+
+
+
+@-webkit-keyframes blfadein {
+  0% {  background: rgba(202,226,193,0.3);
+}
+  20% {  background: rgba(202,226,193,0); }
+  100% {  background: rgba(202,226,193,0); }
+}
+
+
+@-webkit-keyframes blin-n1 {
+  0% {border: 1px solid transparent; width:530px; height:0; left:-20px;}
+  40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-20px}
+  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-20px; }
+}
+
+
+@-webkit-keyframes blin-n2 {
+  0% {border: 1px solid transparent; width:530px; height:0; left:-75px;}
+  40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-75px}
+  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555; left:-75px; }
+}
+
+
+@-webkit-keyframes blin-n3 {
+  0% {border: 1px solid transparent; width:530px; height:0;left:-130px }
+  40% {border: 1px solid rgb(84, 146, 60); width:530px;height:220px;left:-130px}
+  100% {border-radius:10px; border: 1px solid rgb(84, 146, 60); width:530px; height:220px;background:white; opacity:1; z-index:555;left:-130px }
+}
+
+
+
 
 body#automotoschool  {overflow-x:hidden;}
 
@@ -1743,3 +1789,13 @@ margin-right:auto;
 .stylecenter {     margin-left: auto;
     margin-right: auto;
     display: block;}
+
+
+
+
+.wrapall {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+

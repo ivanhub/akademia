@@ -6,9 +6,9 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use yii\captcha\Captcha;
+//use yii\captcha\Captcha;
 
-use frontend\components\Leftmenu;
+//use frontend\components\Leftmenu;
 
 
 $this->title = 'Запись на обучение';
@@ -30,15 +30,15 @@ $this->params['breadcrumbs'][] = $this->title;
    
 
  <div class="row">
-<div class="col-sm-12 col-md-3">
+<!-- <div class="col-sm-12 col-md-3">
 
-<?= Leftmenu::widget() ?>
+Leftmenu::widget()
 
 
 
-</div>
+</div> -->
 
-<div class="col-md-9 col-sm-12">
+<div class="wrapall">
 <section class="incoming">
 <h1 class="text-center"><?= Html::encode($this->title) ?></h1>
 <p style="font-size:22px;font-weight:bold">Для записи на обучение Вам необходимо предоставить следующий пакет документов:</p>

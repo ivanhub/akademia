@@ -29,13 +29,13 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-automotoschool  siteblock">
    
 
- <div class="row">
+ <div class="row"><!-- 
 <div class="col-sm-12 col-md-3">
 
 
-<?= Leftmenu::widget() ?>
+Leftmenu::widget() 
 
-<!-- 
+
 
  <?= leoshtika\bootstrap\NavSidebar::widget([
     'items' => [
@@ -64,24 +64,24 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
     ],
 ]);
-?>  -->
+?>  
 
 
-<!-- <ul class="left">
+<ul class="left">
     <li><a href="/raspisanie">Расписание</a></li>
     <li><a href="#">Доп.&nbsp;услуги</a></li>
     <li><a href="/students">Учащимся</a></li>
     <li><a href="/postupayushchim">Поступающим</a></li>
     <li><a href="#">Условия&nbsp;обучения</a></li>  
-</ul>-->
-</div> 
+</ul>
+</div> -->
 
 
 
 
 
 
-<div class="col-md-9 col-sm-12">
+<div class="wrapall">
 <section class="dopuslugi">
 <h1 class="text-center">Дополнительные услуги</h1>
 <p>1)(значок) Аренда автодрома.</p>

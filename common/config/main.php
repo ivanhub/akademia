@@ -36,7 +36,7 @@ return [
     'view' => [
             'theme' => [
                 'pathMap' => [
-                    '@vendor/onmotion/yii2-gallery/views' => '@app/views/galadmin/default/index.php', // example: @app/views/gallery/default/index.php
+                    //'@vendor/onmotion/yii2-gallery/views' => '@app/views/galadmin/default/index.php', // example: @app/views/gallery/default/index.php
                     '@vendor/onmotion/yii2-gallery/views' => '@app/views/gallery', // example: @app/views/gallery/default/index.php
                 ],
             ],
@@ -78,11 +78,9 @@ return [
             '<alias:automotoschool/B>' =>  'site/b', 
             '<alias:automotoschool/A>' =>  'site/a',
             '<alias:about-us>' =>  'site/aboutus', 
+            '<controller>/<action>' => '<controller>/<action>',
+            '<alias:gatest>' => '@vendor/onmotion/yii2-gallery/views', // example: @app/views/gallery/default/index.php
 
- 
-
-
-                    '<controller>/<action>' => '<controller>/<action>',
              
         ],],
     ],

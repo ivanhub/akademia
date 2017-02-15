@@ -174,9 +174,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<br/><br/><br/>
+<br/>
 
- <section class="automotoschool">
+<div class="row">
+<div class="col-md-offset-2 col-md-8">
+ <section class="stylecenter">
 
 
 <!-- <p style="font-weight:600;font-size:22px">Обучение вождению на мотоцикле</p>
@@ -184,13 +186,13 @@ $this->params['breadcrumbs'][] = $this->title;
 <h5 class="green text-center"><b>Порядок получения водительского удостоверения</b></h5>
 <br/><br/>
 
-<p class="text-center">Тяжелые мотоциклы с объемом двигателя от 125 куб. см.</p>
+<p class="">Тяжелые мотоциклы с объемом двигателя от 125 куб. см.</p>
 <img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A-1.png">
 <br/>
-<p class="text-center">Легкие мотоциклы с объемом двигателя от 50 до 125 куб. см.</p>
+<p class="">Легкие мотоциклы с объемом двигателя от 50 до 125 куб. см.</p>
 <img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A1.png">
 <br/>
-<p class="text-center " style="">(открывается автоматически при получении водительского удостоверения)</p>
+<p class=" " style="">(открывается автоматически при получении водительского удостоверения)</p>
 <img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/M-.png">
 
 
@@ -200,7 +202,8 @@ $this->params['breadcrumbs'][] = $this->title;
  </section>
 <br/><br/>
 
-</div>
+</div></div></div>
+
 </div>
 
 

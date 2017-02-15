@@ -125,10 +125,6 @@ $el.hover(function(e){
     rotate(0);
 
     <?php }; ?>
-  
-
-
-
 
 /*
 window.resize(function(){
@@ -171,13 +167,22 @@ img.setAttribute("align", "right");
 
 //document.getElementById('w1')    .classList.add('lightSpeedIn', 'animated1');
 
-var mainblok = document.querySelectorAll(".cl-effect-12");
+
+
+setTimeout(function(){
+ var mainblok = document.querySelectorAll(".cl-effect-12");
 var j=1;
 [].forEach.call(mainblok, function(item) {
       item.classList.add('box' + j );
 
     j++;
 });
+
+
+
+
+    }, 100);
+
 
  var items = document.querySelectorAll(".navbar-collapse ul li");
  var lastchild = items[items.length-1];
@@ -195,10 +200,6 @@ var i=1;
 
     i++;
 });
-
-
-
-
 
 
 /* RESIZE
@@ -303,13 +304,6 @@ for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
 jQuery(document).ready(function($){
 
 
-
-
-
-
-
-
-
   // browser window scroll (in pixels) after which the "back to top" link is shown
   var offset = 300,
     //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
@@ -338,23 +332,18 @@ jQuery(document).ready(function($){
 
 
 
-
    
 //var menu = document.querySelector('.menu');
-var origOffsetY = 145;
+//var origOffsetY = 145;
 //console.log(menu.offsetTop);
-function scroll () {
-  if ($(window).scrollTop() >= origOffsetY) {
-    $('.menu').addClass('fix-menu');
-  } else {
-    $('.menu').removeClass('fix-menu');
-  }  
-  
-  
-}
-
-document.onscroll = scroll;
-
+//function scroll () {
+//  if ($(window).scrollTop() >= origOffsetY) {
+//    $('.menu').addClass('fix-menu');
+//  } else {
+//    $('.menu').removeClass('fix-menu');
+//  }  
+//}
+//document.onscroll = scroll;
 
 
 

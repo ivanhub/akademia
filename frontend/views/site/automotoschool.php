@@ -39,7 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-md-6 col-xs-12">
  <div class="blockBB AA1">
  <a href="/automotoschool/A"  title="Выберите категорию">
- <img class="" src="../../images/pics/a-a2.png" width="260px">
+ <img class="" src="../../images/pics/AA.png" width="260px">
    </a></div></div>
 
 <div class="col-md-6 col-xs-12">

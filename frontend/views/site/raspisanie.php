@@ -32,24 +32,19 @@ $this->params['breadcrumbs'][] = $this->title;
    
 
  <div class="row">
-<div class="col-sm-12 col-md-3">
+<!-- <div class="col-sm-12 col-md-3">
 
-<!-- <ul class="left3">
+<ul class="left3">
 <li><a href="/postupayushchim">Поступающим &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; </a></li>
 <li><a href="/students">Учащимся &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
     <li><a href="#">Расписание &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
     <li><a href="/dop-uslugi">Доп.&nbsp;услуги &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
-</ul> -->
+</ul>
+ Leftmenu::widget() 
 
+</div> -->
 
-
-
-
-<?= Leftmenu::widget() ?>
-
-</div>
-
-<div class="col-md-9 col-sm-12">
+<div class="wrapall">
 <section class="raspisanie">
 <h1 class="text-center">Расписание</h1>
  
