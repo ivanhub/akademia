@@ -80,7 +80,7 @@ return [
             '<alias:about-us>' =>  'site/aboutus', 
             '<controller>/<action>' => '<controller>/<action>',
             '<alias:gatest>' => '@vendor/onmotion/yii2-gallery/views', // example: @app/views/gallery/default/index.php
-
+             '<alias:gallery>' => 'gallery/default/index',
              
         ],],
     ],
