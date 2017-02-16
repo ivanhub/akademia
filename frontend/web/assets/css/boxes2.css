@@ -652,6 +652,7 @@ opacity:1;
 /*  -webkit-animation-delay: 1.8s;*/
   animation-delay:.3s;
   -webkit-animation-delay:.3s;
+animation-fill-mode:forwards;
 }
 
 

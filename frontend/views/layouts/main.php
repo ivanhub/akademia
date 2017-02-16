@@ -281,7 +281,7 @@ var blocks = document.querySelectorAll(".blocktitle");
       item.classList.add('bounceInLeft');
     i++;
 });
-    }, 600);
+    }, 800);
 
 //sec var
  /*setTimeout(function(){
@@ -297,7 +297,7 @@ for (i = 0; i < blocks.length; i++) {
 [].forEach.call(blocks, function(item) { item.classList.remove('bounceInLeft'); });
 for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
 
-    }, 1600);
+    }, 1800);
 
 
 });

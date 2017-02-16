@@ -37,31 +37,31 @@ $this->params['breadcrumbs'][] = $this->title;
 <table style="width: 100%;" border="2" width="100%" bordercolor="#ccccff">
 <tbody>
 <tr class="alt">
-<td rowspan="2">А</td>
-<td colspan="2">Автомототранспортные средства, не предназначенные для движения по автомобильным дорогам общего пользования либо имеющие максимальную конструктивную скорость 50 км/ч и менее:</td>
+<td colspan="4" class="text-center" style="font-weight:bold; font-size:16px">Автомототранспортные средства, не предназначенные для движения по автомобильным дорогам общего пользования либо имеющие максимальную конструктивную скорость 50 км/ч и менее:</td>
 </tr>
 <tr>
+<td class="td">А</td>
 <td>A I — внедорожные мототранспортные средства — снегоходы, квадрациклы (дистанционное обучение);</td>
 <td align="center">
 <p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/a_1.png" alt="" width="100" height="80"></p>
 </td>
 </tr>
 <tr class="alt">
-<td>С</td>
+<td class="td">С</td>
 <td>Колесные машины с двигателем мощностью от 25,7 до 110,3 кВт;</td>
 <td align="center">
 <p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/c.png" alt="" width="100" height="80"></p>
 </td>
 </tr>
 <tr>
-<td>D</td>
+<td class="td">D</td>
 <td>Колесные машины с двигателем мощностью свыше 110,3 кВт;</td>
 <td align="center">
 <p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/d.png" alt="" width="100" height="80"></p>
 </td>
 </tr>
 <tr class="alt">
-<td>E</td>
+<td class="td">E</td>
 <td>Гусеничные машины с двигателем мощностью свыше 25,7 кВт;</td>
 <td align="center">
 <p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/e.png" alt="" width="100" height="80"></p>
@@ -69,6 +69,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </tr>
 </tbody>
 </table>
+<br/><br/>
 <table style="width: 100%;">
 <tbody>
 <tr>
@@ -78,6 +79,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </tr>
 </tbody>
 </table>
+<br/><br/>
 <p class="text">В графе удостоверения тракториста-машиниста (тракториста) «Особые отметки» производятся информационные, ограничительные и разрешительные отметки (ограничение квалификации, стаж, группа крови, отметка об управлении в очках и др.).</p>
 <p class="text">Удостоверение тракториста-машиниста (тракториста) выдается <strong>на 10 лет</strong>. По истечении указанного срока оно считается<strong> недействительным</strong> и подлежит <strong>замене </strong></p>
 <h5>

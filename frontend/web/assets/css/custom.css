@@ -8,7 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Arsenal:400,700|Roboto:300,400,700|Exo+2:300&subset=cyrillic');
 
-
+/*
 @font-face {
   font-family: 'Calibri';
   src: url('../fonts/calibri/Calibri.eot?#iefix') format('embedded-opentype'),  url('../fonts/calibri/Calibri.woff') format('woff'), url('../fonts/calibri/Calibri.ttf')  format('truetype'), url('../fonts/calibri/Calibri.svg#Calibri') format('svg');
@@ -24,7 +24,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
+  */
 
 
 
@@ -42,17 +42,17 @@
 
 }
 
-*/
 
+*/
 @font-face {
 	font-family: 'Myriadprocond';
-	src: url('../fonts/myriadpro/MYRIADPRO-COND.eot');
-	src: local('Myriadprocond'), url('../fonts/myriadpro/MYRIADPRO-COND.woff') format('woff'), url('../fonts/myriadpro/MYRIADPRO-COND.ttf') format('truetype');
+	src: url('../fonts/myriadpro1/MYRIADPRO-COND.eot');
+	src: local('Myriadprocond'), url('../fonts/myriadpro1/MYRIADPRO-COND.woff') format('woff'), url('../fonts/myriadpro1/MYRIADPRO-COND.ttf') format('truetype');
 
 }
 
 
-
+/*
 @font-face {
 	font-family: 'Myriadsetpro';
 	src: url('../fonts/myriadsetpro/myriad-set-pro_text.eot?#iefix') format('embedded-opentype');
@@ -67,16 +67,45 @@
 	src: local('Myriadsetpro Bold'),local('MyriadsetproBold'), url('../fonts/myriadsetpro/myriad-set-pro_bold.woff') format('woff'),url('../fonts/myriadsetpro/myriad-set-pro_bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
-}
-
-
-
+} */
 @font-face {
 	font-family: 'Myriadsetprothin';
 	src: local('Myriadsetprothin'), url('../fonts/myriadsetpro/myriad-set-pro_extrathin.woff') format('woff');
 }
 
 
+
+
+@font-face {
+    font-family: "Myriadsetpro";
+    src: url("../fonts/myriadpro/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/myriadpro/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/myriadpro/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/myriadpro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBold"; 
+@font-face {
+    font-family: "Myriadsetpro";
+    src: url("../fonts/myriadpro/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/myriadpro/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/myriadpro/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/myriadpro/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}*/
+
+
+@font-face {
+    font-family: "Myriadsetpro";
+    src: url("../fonts/myriadpro/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("../fonts/myriadpro/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/myriadpro/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("../fonts/myriadpro/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
 
 
 
@@ -1425,3 +1454,12 @@ font-size:35px !important;
 #index555 .alert-success {
     margin-top: 54px;
     margin-bottom: -60px; }
+
+
+.td {
+    width: 70px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#samohodnayatehnika td { text-align:center}

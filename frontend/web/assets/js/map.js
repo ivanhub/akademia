@@ -225,16 +225,16 @@ counter=0,
               if (myMap.getZoom() < 13) {
              myMap.setZoom(14, { smooth: true }); }
 
-                if (!placemark.balloon.isOpen()) {
-                 
-                   myMap.panTo([53.182762,50.093797], {
-            flying: 1, callback: function () {  myMap.setZoom(18, { smooth: true });}
-        });     
- 
-              //                          myMap.setCenter([53.182762,50.093797], 14);
 
-                    placemark.balloon.open();
-                }
+                myMap.panTo([53.182762,50.093797], {
+            flying: 1, callback: function () {  myMap.setZoom(18, { smooth: true });}
+        });      
+
+
+                if (!placemark.balloon.isOpen()) {                 
+              //                          myMap.setCenter([53.182762,50.093797], 14);
+                    placemark.balloon.open();                }
+
                 return false;
             });
 
@@ -247,7 +247,7 @@ counter=0,
 
 
           myMap.panTo([53.132978, 50.107227],  {
-            flying: 1,callback: function () { myMap.setZoom(15, { smooth: true });}
+            flying: 3,callback: function () { myMap.setZoom(15, { smooth: true });}
         });
   //                  myMap.setCenter( [53.132978, 50.107227], 13);
 // zoom callback: function () { map.setZoom(zoom, { smooth: true });}
@@ -265,14 +265,13 @@ counter=0,
               if (myMap.getZoom() < 13) {
              myMap.setZoom(14, { smooth: true }); }
 
-                if (!placemark.balloon.isOpen()) {
-                 
-                   myMap.panTo([53.205059, 50.137815], {
-            flying: 1, callback: function () {  myMap.setZoom(18, { smooth: true });}
-        });     
- 
-              //                          myMap.setCenter([53.182762,50.093797], 14);
 
+                   myMap.panTo([53.205059, 50.137815], {
+            flying: 2, callback: function () {  myMap.setZoom(18, { smooth: true });}
+        });     
+
+                if (!placemark3.balloon.isOpen()) {               
+              //                          myMap.setCenter([53.182762,50.093797], 14);
                     placemark3.balloon.open();
                 }
                 return false;

@@ -303,7 +303,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-road fa-3x"></span></div>
 <div class="col-sm-9"><div class="inside1 advpr">Собственный Автодром</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Собственный Автодром</p>
-  <p class="xi-text">Автошкола Академия имеет свою собственный учебный автодром.
+  <p class="xi-text">Автошкола Академия имеет свой собственный учебный автодром.
   Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование.
   </p></div> </new>  
 
