@@ -76,7 +76,7 @@ $this->title = 'Учебный центр "Академия"';
 <div class="row" style="padding-top: 35px;">
 
   <div class="clearfix visible-sm"></div>
-<div class="col-md-6 col-sm-6 col-xs-12   cl-effect-12">
+<div class="col-md-6 col-sm-6 col-xs-12  box3  cl-effect-12">
 <a style="display:block" href="/sudovozhdenie">
 <img class="boat" src="../images/boat77.png" width="372px" style="margin-top: -15px;" >
 <p class="blocktitle  hvr-bob anim_three">Судовождение</p>

@@ -52,7 +52,7 @@ use yii\helpers\Html;
     'data-which' => '8',
   ]
     ); ?></p>
-<p style="margin-left:-10px">  <a href="#" class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></a><a href="#" class="myvk">Мы Вконтакте</a></p><BR/>
+<p style="margin-left:-10px">  <a target="blank" href="https://vk.com/club66648747" class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></a><a href="https://vk.com/club66648747" target="blank" class="myvk">Мы Вконтакте</a></p><BR/>
 <!--<div class="hi-icon-effect-8 "> -->
 
 

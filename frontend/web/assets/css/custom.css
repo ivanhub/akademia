@@ -380,7 +380,13 @@ transform: rotateY(5deg);
 }
 
 .page a.icon-gray-lighter:hover, .page a.icon-white:hover, .page a.icon-transparent:hover, .page a.icon-white-transparent:hover {
-    color: #4b76a5;
+    color: #4b76a5 !important;
+    background: #fff;
+}
+
+
+.myvk:hover .page a.icon-white {
+    color: #4b76a5 !important;
     background: #fff;
 }
 
