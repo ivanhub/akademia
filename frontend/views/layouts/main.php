@@ -11,10 +11,10 @@ use frontend\assets\AppAsset;
 use yii\bootstrap\ActiveForm;
 
 use yii\base\Widget;
-use frontend\components\TesttWidget;
 
-use kartik\base;
-use kartik\growl;
+//use frontend\components\TesttWidget;
+//use kartik\base;
+//use kartik\growl;
 
 
 AppAsset::register($this);
@@ -108,6 +108,39 @@ window.addEventListener("load", function() {
                 document.querySelector(".page-loader").classList.add('loaded');   
 
             }, 200);
+
+
+ var mainblok = document.querySelectorAll(".cl-effect-12");
+
+setTimeout(function(){
+var j=1;
+[].forEach.call(mainblok, function(item) {
+      item.classList.add('box' + j );
+      
+    j++;
+});
+    }, 100);
+
+
+
+var ua = window.navigator.userAgent;
+var msie = ua.indexOf("MSIE ");
+
+if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) // If Internet Explorer, return version number
+{  
+
+var j=1;
+[].forEach.call(mainblok, function(item) {
+      //for IE11
+      item.style["opacity"] = "1";
+    j++;
+});
+
+};
+
+
+
+
     
  <?php } elseif (($homecheker=='site/students')) { ?>
 
@@ -169,19 +202,6 @@ img.setAttribute("align", "right");
 
 
 
-setTimeout(function(){
- var mainblok = document.querySelectorAll(".cl-effect-12");
-var j=1;
-[].forEach.call(mainblok, function(item) {
-      item.classList.add('box' + j );
-
-    j++;
-});
-
-
-
-
-    }, 100);
 
 
  var items = document.querySelectorAll(".navbar-collapse ul li");
@@ -281,7 +301,7 @@ var blocks = document.querySelectorAll(".blocktitle");
       item.classList.add('bounceInLeft');
     i++;
 });
-    }, 800);
+    }, 1000);
 
 //sec var
  /*setTimeout(function(){
@@ -297,7 +317,7 @@ for (i = 0; i < blocks.length; i++) {
 [].forEach.call(blocks, function(item) { item.classList.remove('bounceInLeft'); });
 for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
 
-    }, 1800);
+    }, 2000);
 
 
 });

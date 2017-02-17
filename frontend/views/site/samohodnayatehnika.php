@@ -22,7 +22,7 @@ $this->params['breadcrumbs'][] = $this->title;
  <div class="row">
 
 
-<section class="safetydriving">
+<section class="">
     
 
     <div class="post post-1771  type-page status-publish hentry odd" id="post-1771">
@@ -51,7 +51,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <td class="td">B</td>
 <td>Гусеничные и колесные машины, двигатель мощностью до 25,7 кВт;</td>
 <td align="center">
-<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/a_1.png" alt="" width="100" height="80"></p>
+<p style="text-align: center;"><img src="../images/pics/cat.b.png" alt="" width="100" height="80"></p>
 </td>
 </tr>
 <tr class="">
@@ -120,9 +120,25 @@ $this->params['breadcrumbs'][] = $this->title;
 </ul>
 
 
-<h5>
-<p class="text text-center">Экзамены</p>
-</h5>
+
+
+
+  
+     
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" title="Нажмите, чтобы раскрыть список">
+        <div class="row ">
+            <div class="col-md-offset-4 col-md-4">
+                <div class="style5">
+                <div class="col-sm-3"><span class=" fa fa-graduation-cap fa-2x"></span></div>
+                <div class="col-sm-9"><div class="advpr2"><h5 style="font-size:20px !important">Порядок сдачи экзаменов</h5></div></div>
+                </div>
+            </div>
+        </div>
+</a>
+   
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body"><div class="post-bodycopy clearfix">
+
 <p class="text">Прием экзаменов и выдача удостоверения тракториста-машиниста (тракториста) осуществляются органами гостехнадзора по зарегистрированному месту жительства гражданина (месту пребывания) на территории субъекта Российской Федерации.</p>
 <p><strong><em>Экзамены сдаются в следующей последовательности:</em></strong></p>
 <ol>
@@ -152,6 +168,17 @@ $this->params['breadcrumbs'][] = $this->title;
 <li>агрегатирование самоходной машины с прицепом (прицепной машиной);</li>
 <li>торможение и остановка на различных скоростях, включая экстренную остановку;</li>
 </ul>
+
+</div>
+</div>
+      </div>
+
+
+
+
+
+
+
 </div>
 </div>
 </section>

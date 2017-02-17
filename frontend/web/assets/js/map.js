@@ -20,7 +20,7 @@ function init() {
 
         {
             name: "Автодром",
-            descr: "г. Самара, ул. Уральская, 34 <br/>(по ул. Утевская, напротив бывшей 4 роты полка ДПС ГИБДД). <br>График работы: 9:00-20:00 Пн.-Сб.",
+            descr: "г. Самара, ул. Уральская 34 <br/>(по ул. Утевская, напротив бывшей 4 роты полка ДПС ГИБДД). <br>График работы: 9:00-20:00 Пн.-Сб.",
             items: [
                 {
                     center: [53.131302, 50.108840],
@@ -31,7 +31,7 @@ function init() {
             ]},
         {
             name: "Новый учебный класс",
-            descr: "г. Самара, ул. Осипенко, 11. <br>График работы: 8:00-17:00 Пн.-Пт.<br/>Тел.: +7 (846) 255-69-99",
+            descr: "г. Самара, ул. Осипенко 11, оф. 404. <br>График работы: 8:00-17:00 Пн.-Пт.<br/>Тел.: +7 (846) 255-69-99",
             items: [
                 {
                     center: [53.205059, 50.137815],
@@ -107,7 +107,7 @@ counter=0,
 
 
  BalloonContentLayout3 = ymaps.templateLayoutFactory.createClass(
-  '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="images/map/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:65px;margin:7px 0px;">г. Самара, ул. Осипенко, 11.<br/> Тел.: +7 (846) 255-69-99</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="images/map/close.png"/></div>', {
+  '<div class="ballon"><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="images/map/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:65px;margin:7px 0px;">г. Самара, <br/>ул. Осипенко 11,  оф. 404.<br/> Тел.: +7 (846) 255-69-99</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="images/map/close.png"/></div>', {
 
             build: function () {
              

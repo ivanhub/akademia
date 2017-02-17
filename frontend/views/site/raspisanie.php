@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<!-- <?= Html::encode($this->title) ?> -->
+<!--  -->
 <div class="site-raspisanie siteblock ">
    
 
@@ -46,8 +46,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="wrapall">
 <section class="raspisanie">
-<h1 class="text-center">Расписание</h1>
- 
+<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
+ <br/>
  <p>Обучение в автошколе проводиться по программе профессиональной подготовки водителей транспортных средств категории «В», «А» и подкатегории «А1». Учебный план, календарный учебный график и программы подготовки согласованы в установленном законодательстве порядке.</p>
 
 <br/>
@@ -58,7 +58,7 @@ $this->params['breadcrumbs'][] = $this->title;
  <li>•  01.07.17 – 30.09.17</li>
  <li>•  01.10.17 – 31.12.17</li>
  </ul>
- <br/>
+
 <p><b>Категория A</b> (Продолжительность обучения составляет 1,5 месяца).</p>
 
  <ul class="preimul3"><li>•  01.05.17 – 31.05.17</li>
@@ -66,7 +66,7 @@ $this->params['breadcrumbs'][] = $this->title;
  <li>•  01.07.17 – 31.07.17</li>
  <li>•  01.08.17 – 31.08.17</li>
  </ul>
-<br/>
+
 
  <h2 class="text-center">Подготовка ведется по следующим дисциплинам:</h2>
  <p>•   "Основы законодательства в сфере дорожного движения";</p>

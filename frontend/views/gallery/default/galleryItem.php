@@ -27,6 +27,5 @@ $date = new DateTime($model->date);
     </div>
     <div class="name">
         <span><?= $model->name ?></span>
-        <span class="date-gallery"><?= ' (' . $date->format('d.m.Y') . ')'  ?></span>
     </div>
 </div>

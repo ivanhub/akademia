@@ -52,7 +52,7 @@ padding-right:15px;
 #map2 p {font-size:13px !important}
 
  #map {
-            width: 520px; padding: 0; margin: 0;
+            width: 93%; padding: 0; margin: 0;
 /*            height: 530px; margin-top:53px; /*530*/
 
             height: 468px; margin-top:38px; 
@@ -1464,9 +1464,6 @@ display: flex;
 .m350 {margin-top:340px}
 
 
-.site-distance.siteblock {
-    padding: 0 160px 0 160px; }
-
 .green {color:#0c500c !important;}
 
 .lineheight1 {line-height:1 !important}
@@ -1673,9 +1670,6 @@ font-size:15px;
     margin-bottom: 8px !important;
 }
 
-#aboutus .row-about {
-margin-left:50px; margin-right:50px;
-}
 
 #aboutus div.post-bodycopy p {
     margin: 1em 0;
@@ -1796,8 +1790,64 @@ margin-right:auto;
 
 
 .wrapall {
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
 }
 
 
+.site-distance.siteblock {
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+}
+
+#aboutus .row-about {
+    margin-left: auto;
+    width: 87%;
+    margin-right: auto;
+}
+
+
+
+#samohodnayatehnika .style5 {
+transition: all .3s;
+    height: 77px;
+    border-radius: 3px;
+cursor:pointer;
+}
+
+#samohodnayatehnika .style5:hover {
+border: 1px solid #b86132;
+/*    border: 1px solid #df8706; */
+box-shadow: 4px 0 4px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.24);
+
+
+}
+
+#samohodnayatehnika .style5:hover .fa {
+color:#3a7849;
+/* #df8706;*/
+}
+
+
+#samohodnayatehnika .style5 span {
+    margin-top: 23px;
+}
+
+#samohodnayatehnika .style5 .advpr2 {
+    margin-top: -8px; }
+
+
+
+
+.site-raspisanie {     font-size: 18px; }
+
+#gallery-listview .gallery-item .name > span {
+    font-size: 18px !important;
+}
+
+#gallery-listview .gallery-item .name {
+    padding-top: 14px;
+
+}

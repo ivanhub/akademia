@@ -25,7 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
  <div class="row">
 
 
-<section class="safetydriving">
+<section class="">
 <div class="post post-2000  type-page status-publish hentry odd" id="post-2000">
 
 

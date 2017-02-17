@@ -41,7 +41,8 @@ Leftmenu::widget()
 <div class="wrapall">
 <section class="incoming">
 <h1 class="text-center"><?= Html::encode($this->title) ?></h1>
-<p style="font-size:22px;font-weight:bold">Для записи на обучение Вам необходимо предоставить следующий пакет документов:</p>
+<p style="font-size:22px;font-weight:bold">
+При поступлении в Автошколу кандидат в водители предоставляет следующие документы:</p>
 <p>1. Фотографии (3х4) - 2 шт.</p>
 <p>2. Ксерокопия паспорта (личные данные и все страницы с пропиской).</p>
 <p>3. Медицинская справка и ее ксерокопия.</p>

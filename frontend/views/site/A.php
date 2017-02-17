@@ -146,14 +146,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="wrapetap">
 <div class="row text-center uslv">
-  <div class="col-xs-offset-2 col-xs-2"><img src="../../images/pics/theory1.png"></div>
+  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
   <div class="col-xs-7"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
   <p>консультации и тестирование с психологом.</p>
   <p>лекции проводит преподователь с многолетним стажем.</p>
    </div>
 </div>
 <div class="row text-center uslv">
-  <div class="col-xs-offset-2 col-xs-2"><img src="../../images/pics/drive1.png"></div>
+  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/drive1.png"></div>
   <div class="col-xs-7"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
   <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
     <p>На время занятий выдается экипировка (шлем, наколенники). </p>
@@ -162,13 +162,13 @@ $this->params['breadcrumbs'][] = $this->title;
   </div>
 </div>
 <div class="row text-center uslv">
-  <div class="col-xs-offset-2 col-xs-2"><img src="../../images/pics/clock1.png"></div>
+  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/clock1.png"></div>
   <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
   <p>Обучение проводится в период с мая по октябрь.</p></div>
 </div>
 
 <div class="row text-center uslv">
-<div class="col-xs-offset-2 col-xs-2"><img src="../../images/pics/gibdd1.png"></div>
+<div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
   <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p>  <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p></div>
 </div>
 </div>
