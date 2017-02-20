@@ -107,11 +107,11 @@ var modalBody = modalContainer.find('.modal-body');
 var insidemodalBody = modalContainer.find('#contact-form');
 insidemodalBody.html(result).hide(); 
 $('.sel').html("<div class='alert alert-success'>");
-$('.sel > .alert-success').append("<strong>Спасибо! Ваше сообщение отправлено.</strong>");
+$('.sel > .alert-success').append("<strong>Спасибо! Заявка отправлена.</strong>");
 $('.sel > .alert-success').append('</div>');
 //$('.sel').css('visibility', 'visible');
 
-setTimeout(function() { // скрываем modal через 4 секунды
+setTimeout(function() { 
 $("#idmodal").modal('hide');
 //$('#w00').css('visibility', 'hidden');
 }, 4000);

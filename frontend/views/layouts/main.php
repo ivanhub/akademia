@@ -122,24 +122,40 @@ var j=1;
     }, 100);
 
 
-
+/* IE10-11 target BEGIN
 var ua = window.navigator.userAgent;
 var msie = ua.indexOf("MSIE ");
 
-if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) // If Internet Explorer, return version number
-{  
+if (!(msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))) // If Internet Explorer, return version number
+ {
 
 var j=1;
 [].forEach.call(mainblok, function(item) {
       //for IE11
-      item.style["opacity"] = "1";
+      item.style["opacity"] = "0";
     j++;
 });
-
 };
+/* IE10-11 target END*/
 
 
+/* IF IE all version */
+if (!(window.clipboardData))
+{
+                    var j=1;
+[].forEach.call(mainblok, function(item) {
+      //for IE11
+      item.style["opacity"] = "0";
+    j++;
+});
+          };
 
+
+// if ie9 or > var isIE = false; if (window.navigator.msPointerEnabled) {    isIE = true;}
+//1 var isIE10 = !!navigator.userAgent.match(/MSIE 10/);
+//2 if (Function('/*@cc_on return document.documentMode===10@*/')()){ document.documentElement.className+=' ie10';}
+//3 if (/*@cc_on!@*/false && document.documentMode === 10) {}
+//4 if(Function('/*@cc_on return 10===document.documentMode@*/')()){document.documentElement.className='ie10';}
 
     
  <?php } elseif (($homecheker=='site/students')) { ?>

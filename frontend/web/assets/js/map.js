@@ -19,17 +19,6 @@ function init() {
             ]},
 
         {
-            name: "Автодром",
-            descr: "г. Самара, ул. Уральская 34 <br/>(по ул. Утевская, напротив бывшей 4 роты полка ДПС ГИБДД). <br>График работы: 9:00-20:00 Пн.-Сб.",
-            items: [
-                {
-                    center: [53.131302, 50.108840],
-                    name: "",
-                    num:2
-                },
-                
-            ]},
-        {
             name: "Новый учебный класс",
             descr: "г. Самара, ул. Осипенко 11, оф. 404. <br>График работы: 8:00-17:00 Пн.-Пт.<br/>Тел.: +7 (846) 255-69-99",
             items: [
@@ -40,6 +29,18 @@ function init() {
                 },
                 
             ]},
+        {
+            name: "Автодром",
+            descr: "г. Самара, ул. Уральская 34 <br/>(по ул. Утевская, напротив бывшей 4 роты полка ДПС ГИБДД). <br>График работы: 9:00-20:00 Пн.-Сб.",
+            items: [
+                {
+                    center: [53.131302, 50.108840],
+                    name: "",
+                    num:2
+                },
+                
+            ]},
+
 
                 
     ];
@@ -246,13 +247,13 @@ counter=0,
              myMap.setZoom(14, { smooth: true }); }
 
 
-          myMap.panTo([53.132978, 50.107227],  {
+          myMap.panTo([53.205059, 50.137815],  {
             flying: 3,callback: function () { myMap.setZoom(15, { smooth: true });}
         });
   //                  myMap.setCenter( [53.132978, 50.107227], 13);
 // zoom callback: function () { map.setZoom(zoom, { smooth: true });}
-                if (!placemark2.balloon.isOpen()) {
-                    placemark2.balloon.open();
+                if (!placemark3.balloon.isOpen()) {
+                    placemark3.balloon.open();
                 } 
 
                 return false;
@@ -266,13 +267,13 @@ counter=0,
              myMap.setZoom(14, { smooth: true }); }
 
 
-                   myMap.panTo([53.205059, 50.137815], {
+                   myMap.panTo([53.132978, 50.107227], {
             flying: 2, callback: function () {  myMap.setZoom(18, { smooth: true });}
         });     
 
-                if (!placemark3.balloon.isOpen()) {               
+                if (!placemark2.balloon.isOpen()) {               
               //                          myMap.setCenter([53.182762,50.093797], 14);
-                    placemark3.balloon.open();
+                    placemark2.balloon.open();
                 }
                 return false;
             });

@@ -49,7 +49,33 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <h1 class="text-center"> <?= Html::encode($this->title) ?></h1>
-
+<!-- 
+  <div class="containerrr">
+    <div class="bike-body">
+      <div class="seat"></div>
+      <div class="cover"></div>
+      <div class="lamp"></div>
+      <div class="motor">
+        <div class="part-1">
+          <div class="part-1-top"></div>
+          <div class="part-1-bottom"></div>
+        </div>
+        <div class="part-2">
+          <div class="part-2-base">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="front"></div>
+      <div class="back2"></div>
+    </div>
+    <div class="tire"></div>
+    <div class="tire"></div>
+    <div class="smoke"></div>
+  </div> -->
 <!-- <h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
  --><h4 class="text-center">Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>

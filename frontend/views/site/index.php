@@ -59,12 +59,12 @@ $this->title = 'Учебный центр "Академия"';
  <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12  box1  cl-effect-12">
 <a style="display:block" href="/automotoschool">
-<img class="hvr-bounce-in" src="../images/1car.png" width="420">
+<img class="hvr-bounce-in" src="../images/1car.png" width="365">
 <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p></a>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12 box2 cl-effect-12">
 <a style="display:block" href="/samohodnaya-tehnika">
-<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="364px" style="margin-top: -1px;  margin-left: -5px;">
+<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325" style="margin-top: -1px;  margin-left: -5px;">
 <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
 </a>
 </div>
@@ -73,18 +73,18 @@ $this->title = 'Учебный центр "Академия"';
 </div> 
 
 
-<div class="row" style="padding-top: 35px;">
+<div class="row" style="padding-top: 0px;">
 
   <div class="clearfix visible-sm"></div>
 <div class="col-md-6 col-sm-6 col-xs-12  box3  cl-effect-12">
 <a style="display:block" href="/sudovozhdenie">
-<img class="boat" src="../images/boat77.png" width="372px" style="margin-top: -15px;" >
+<img class="boat" src="../images/boat77.png" width="323" style="margin-top: -15px;" >
 <p class="blocktitle  hvr-bob anim_three">Судовождение</p>
 </a>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12  box4  cl-effect-12">
 <a style="display:block;" href="/safety-driving"> <!-- 22 -->
-<img class="hvr-wobble-top" src="../images/yellow2.png" width="465px" style="  margin-left: 30px; margin-top: 25px;">
+<img class="hvr-wobble-top" src="../images/yellow2.png" width="405" style="  margin-left: 30px; margin-top: 19px;">
 <p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
 </a>
 </div></div>
@@ -137,16 +137,23 @@ $this->title = 'Учебный центр "Академия"';
 
   </aside>
 </div> -->
-<p class="mtext" style="clear:both; margin-top:550px">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
+<div class="white">
+<div class="mtwrap">
+<p class="mtext" style="clear:both; margin-top:550px;text-align:justify">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
 Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
 Проанализировав накопившийся опыт, изучив европейскую систему подготовки водителей, 
 взяв на вооружение передовые технологии, мы разработали свои, адаптированные к нашим реалиям, 
 методики обучения.</p>
+</div>
 <div class="text-center  akcii">
 
 <div class="insideakcii">
 <h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Акции</h2></div>
  <img style="margin-top:-15px;" src="../../images/pics/banner12.png" class="saleimg" width="250px" >
+ </div>
+<div class="white2"></div>
+
+
  </div>
 <br/><br/>
 

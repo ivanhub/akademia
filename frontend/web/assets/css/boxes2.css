@@ -9,7 +9,7 @@
 			to{left:0;-webkit-transform: rotate(360deg); opacity:1}
 		}
 
-#index .box1, #index .box2, #index .box3, #index .box4 { opacity:0;}	
+/*#index .box1, #index .box2, #index .box3, #index .box4 { opacity:0;}	*/
 
 #index .box1 {
     cursor:pointer;

@@ -125,16 +125,20 @@ $this->params['breadcrumbs'][] = $this->title;
 
   
      
-<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" title="Нажмите, чтобы раскрыть список">
         <div class="row ">
+
             <div class="col-md-offset-4 col-md-4">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" title="Нажмите, чтобы раскрыть список">
+
                 <div class="style5">
                 <div class="col-sm-3"><span class=" fa fa-graduation-cap fa-2x"></span></div>
                 <div class="col-sm-9"><div class="advpr2"><h5 style="font-size:20px !important">Порядок сдачи экзаменов</h5></div></div>
                 </div>
+                            </a>
+
             </div>
+
         </div>
-</a>
    
       <div id="collapse1" class="panel-collapse collapse">
         <div class="panel-body"><div class="post-bodycopy clearfix">

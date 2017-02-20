@@ -28,6 +28,7 @@ class AppAsset extends AssetBundle
         'assets/css/topmenu.css',
         'assets/css/font-awesome.css',
         'assets/css/block.css',
+        'assets/css/moto.css',
 
 
 
