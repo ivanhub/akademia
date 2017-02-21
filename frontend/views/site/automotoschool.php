@@ -427,7 +427,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <br/><br/>
 
-<h5 class="text-center revealOnScroll"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
+<h5 class="text-center "> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  
  <ul class=" preimul2 in60in gal">
   <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
