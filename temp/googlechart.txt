@@ -1,0 +1,76 @@
+https://jsfiddle.net/2pcjn0nz/
+
+
+
+      google.charts.load('current', {
+        'packages': ['corechart']
+      });
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+  var data = new google.visualization.DataTable();
+  data.addColumn('string', 'Label');
+  data.addColumn('number', 'Dummy');
+  data.addColumn({type: 'number', role: 'interval'});
+  data.addColumn({type: 'number', role: 'interval'});
+  data.addColumn('number', 'Кол-во дней');
+  data.addRows([
+    ['Ознакомительное занятие', 0,  55, 55, 1],
+    ['Заключение договора', 1,  5, 5, 13],
+    ['Медкомиссия', 1, 35, 55, 13],
+    ['Руление', 14, 0, 0, 2],
+    ['Тренажеры', 16, 0, 0, 6],
+    ['Автодром', 22, 0, 0, 13],
+    ['Город', 41, 0, 0, 36],
+    ['Теория', 8, 0, 0, 81],
+    ['Экзамен по теории', 89, 0, 0, 1],
+    ['Экзамен Автодром', 90, 0, 0, 1],
+    ['Экзамен Город', 91, 0, 0, 1],
+
+  ]);
+  
+  
+   var options = {
+
+
+    chartArea: {left:180, width:"65%"} ,
+    
+    
+        hAxis: {
+          title: 'Кол-во дней',
+          minValue: 0
+        },
+        vAxis: {
+          title: ''
+        },
+          title: 'План обучения', 
+          
+          legend: {
+            position: 'none'
+          },
+          chart: {
+            title: 'План Обучения',
+          },
+          bars: 'horizontal', // Required for Material Bar Charts.
+             
+
+        
+        
+          bar: {
+            groupWidth: "80%"
+          },
+          
+          isStacked: true,           
+            height:500,
+            series: [{color: 'transparent'}, {color: 'blue'}]
+            
+        };
+
+  
+        var chart = new google.visualization.BarChart(document.getElementById('top_x_div'));
+
+       
+       chart.draw(data,options);
+
+      };
+

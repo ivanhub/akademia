@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--Script Reference-->
+  <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+</head>
+<body>
+  <img src="https://tracking.zingchart.com/piwik/piwik.php?idsite=5&rec=1&action_name=Download+Package&idgoal=28" style="border:0" alt="" />
+  <!--Chart Placement-->
+  <div id="chartDiv"></div>
+  <script>
+    var chartData = {
+    "type":"rankflow",
+    "plotarea":{
+        "margin":20
+    },
+    "scale-x":{
+        "labels":["ON-TIME","BAGGAGE","PASSENGERS"],
+        "values":["ON-TIME","BAGGAGE","PASSENGERS"]
+    },
+    "series":[
+        {
+            "text":"Air West",
+            "ranks":[3,4,1],
+            "rank":3
+        },
+        {
+            "text":"Braniff",
+            "ranks":[1,1,5],
+            "rank":1
+        },
+        {
+            "text":"Capital",
+            "ranks":[5,2,4],
+            "rank":4
+        },
+        {
+            "text":"Eastern",
+            "ranks":[2,3,2],
+            "rank":2
+        },
+        {
+            "text":"Galaxy",
+            "ranks":[4,5,3],
+            "rank":5
+        }
+    ]
+    };
+ 
+    zingchart.render({ 
+        id : 'chartDiv', 
+        data : chartData, 
+        height: "400", 
+        width: "725" 
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--Script Reference-->
+  <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+</head>
+<body>
+  <img src="https://tracking.zingchart.com/piwik/piwik.php?idsite=5&rec=1&action_name=Download+Package&idgoal=28" style="border:0" alt="" />
+  <!--Chart Placement-->
+  <div id="chartDiv"></div>
+  <script>
+    
+      var chartData = {
+      "type": "stock",
+      "title": {
+        "text": "Open-High-Low-Close Chart"
+      },
+      "plot": {
+        "aspect": "whisker"
+      },
+      "scale-y": {
+        "values": "30:34:2"
+      },
+      "series": [{
+        "values": [
+          [31.34, 31.46, 30.87, 31.06],
+          [31.80, 32.25, 31.52, 32.05]
+        ]
+      }]
+    };
+
+    zingchart.render({ 
+        id : 'chartDiv', 
+        data : chartData, 
+        height: "400", 
+        width: "725" 
+    });
+  </script>
+</body>
+</html>

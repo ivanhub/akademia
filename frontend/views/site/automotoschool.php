@@ -291,24 +291,24 @@ $this->params['breadcrumbs'][] = $this->title;
 <br/><br/>
 <br/>
  -->
+<div class="mainContent">
 
 <div class="row preimbox">
 <h2 class="text-center">Почему нас выбирают:</h2>
 <br/>
 
 <div class="col-md-4 col-sm-6 col-xs-12">
+ <div class="box bx1">
 <div class="style5" id="style5">
- 
-
-<div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-road fa-3x"></span></div>
+ <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-road fa-3x"></span></div>
 <div class="col-sm-9"><div class="inside1 advpr">Собственный Автодром</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Собственный Автодром</p>
   <p class="xi-text">Автошкола Академия имеет свой собственный учебный автодром.
   Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование.
   </p></div> </new>  
-
-
 </div>
+</div>
+ <div class="box bx4">
 
 <div class="style5">
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-handshake-o fa-3x"></span></div>
@@ -318,16 +318,20 @@ $this->params['breadcrumbs'][] = $this->title;
 В нашем учебном центре прозрачная система обучения. Мы всегда открыты для вас. Задача центра НАУЧИТЬ вас водить,
 потому что от этого зависит ваша жизнь.</p></div> </new>  
 </div></div>
+</div>
 
 <div class="col-md-4 col-sm-6 col-xs-12">
 
+ <div class="box bx2">
 <div class="style5 cntr">
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
 <div class="col-sm-9"> <div class="inside1 advpr2">Рассрочка платежа на весь период обучения.</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Рассрочка платежа на весь период обучения.</p>
   <p class="xi-text">Первоначальный взнос от 5 000 р. Остальную сумму Вы оплачиваете в период всего обучения.</p></div> </new> 
-
 </div>
+</div>
+
+ <div class="box bx5">
 <div class="style5 cntr">
 <div class="col-sm-3"><span class="inside fa-stack">
   <i class="fa fa-desktop fa-stack-2x"></i>
@@ -342,9 +346,12 @@ $this->params['breadcrumbs'][] = $this->title;
   </div>
 </div>
 
+</div>
+
 
 <div class="col-md-4 col-sm-6 col-xs-12">
 
+ <div class="box bx3">
 <div class="style5 lst">
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
 <div class="col-sm-9"><div class="inside1 advpr2">Современные оборудованные классы</div></div>
@@ -352,7 +359,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <p class="xi-text">Учебные классы оборудованы всем необходимым инвертарем,  тематическими плакатами, компьютерами и тренажерами для 
 первоначальных навыков вождения. У нас большая видеотека с обучающими роликами. Доверившись нам, вы 
 получите высококлассное обучение в этой сфере, что позволит Вам успешно сдать экзамены на права.</p></div> </new> </div>
+</div>
 
+<div class="box bx6">
 <div class="style5 lst">
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
 <div class="col-sm-9"> <div class="inside1 advpr2">Помощь в прохождении медицинской комиссии</div></div>
@@ -361,13 +370,18 @@ $this->params['breadcrumbs'][] = $this->title;
   Мы поможем вам пройти медицинскую комиссию в самые короткие сроки и без очередей.<br/> Для удобства наших учеников мы организовываем медицинскую комиссию в Автошколе! * ООО «АсокмаМед» лицензия № ЛО-63-01-002110 от 31.07.2013 г.</p>
   </div> </new> </div>
 </div>
+
+
+</div>
    
 
     </div>
 
     <div class="row">
 <div class="col-md-4 col-sm-6 col-xs-12">
-    <div class="style5">
+
+<div class="box bx7">
+<div class="style5">
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-car fa-3x"></span>
 </div>
 <div class="col-sm-9"><div class="inside1 advpr2">Парк новых автомобилей и мотоциклов </div></div>
@@ -375,8 +389,12 @@ $this->params['breadcrumbs'][] = $this->title;
   <p class="xi-text">Срок их эксплуатации не превышает 4-х лет, поэтому техническое состояние транспортных средств находится на
 очень достойном уровне. Все машины оснащены видео и аудио системами регистрации.</p></div> </new> 
   </div>
+</div>
+
     </div>
     <div class="col-md-4 col-sm-6 col-xs-12">
+
+    <div class="box bx8">
 <div class="style5 cntr">
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
 <div class="col-sm-9"> <div class="inside1 advpr">Бесплатная литература</div></div>
@@ -384,10 +402,14 @@ $this->params['breadcrumbs'][] = $this->title;
   <p class="xi-text">Всю необходимую литературу: экзаменационные билеты, правила дорожного движения, методички вы получите на первом 
 теоретическом занятии.</p></div> </new> 
   </div>
+  </div>
+
+
     </div>
 
         <div class="col-sm-offset-3 col-md-offset-0 col-md-4 col-sm-6 col-xs-12">
 
+<div class="box bx9">
         <div class="style5 lst">
 <!--             <div class="x99"></div>
  --><div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
@@ -396,24 +418,28 @@ $this->params['breadcrumbs'][] = $this->title;
   <p class="xi-text">Мы подготовим пакет документов для сдачи экзамена, предоставим учебные автомобили и мотоциклы на экзамены в ГИБДД. Представитель автошколы будет сопровождать Вас на протяжении всего экзамена.</p></div> </new> </div>
         </div>
 
+
+        </div>
+</div>
 </div>
 
 </div>
 
 <br/><br/>
 
-<h5 class="text-center"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
+<h5 class="text-center revealOnScroll"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  
  <ul class=" preimul2 in60in gal">
-  <li> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
- <li> Организация и предоставление учебных транспортных средств на первичные экзамены (выпускной и ГИБДД).</li>
- <li> Учебная литература в подарок: экзаменационные билеты, правила дорожного движения, 
+  <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
+ <li style="animation-duration: 1s; animation-delay: .5s;"> Организация и предоставление учебных транспортных средств на первичные экзамены (выпускной и ГИБДД).</li>
+ <li style="animation-duration: 1s; animation-delay: 1s;"> Учебная литература в подарок: экзаменационные билеты, правила дорожного движения, 
  методичка по вождению, памятка по упражнениям на площадке.</li>
- <li> Консультация с преподавателем теоретического курса по пропущенным занятиям.</li>
- <li> Улыбка и доброжелательное отношение со стороны администрации.</li>
+ <li style="animation-duration: 1s; animation-delay: 1.5s;"> Консультация с преподавателем теоретического курса по пропущенным занятиям.</li>
+ <li style="animation-duration: 1s; animation-delay: 2s;"> Улыбка и доброжелательное отношение со стороны администрации.</li>
  </ul>
 
 <br/><br/>
+
 
 
 <!-- next x8
@@ -421,6 +447,103 @@ next inside
 next showing
  -->
 
+
+
+<?php 
+
+$this->registerJs(<<<JS
+
+var \$animation_elements = $('.gal li');
+var \$window = $(window);
+
+function check_if_in_view() {
+  var window_height = \$window.height();
+  var window_top_position = \$window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
+  var window_bottom2_position = (window_top_position + window_height - 200);
+
+    var \$element = $('.mainContent');
+    var element_height = \$element.outerHeight();
+    var element_top_position = \$element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+
+   if ((element_bottom_position >= window_top_position) &&
+      (element_top_position <= window_bottom2_position)) {
+document.body.classList.add('begin');
+    } else {
+    }
+
+  $.each(\$animation_elements, function() {
+
+ var \$element = $(this);
+    var element_height = \$element.outerHeight();
+    var element_top_position = \$element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+    //check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+      (element_top_position <= window_bottom_position)) {
+      \$element.addClass('animated fadeInLeft');
+    } else {
+      \$element.removeClass('in-view');
+    }
+  });
+}
+
+\$window.on('scroll resize', check_if_in_view);
+\$window.trigger('scroll');
+
+
+
+
+
+
+
+$(function() {
+
+  var \$window           = $(window),
+      win_height_padded = \$window.height() * 1.1,
+      isTouch           = Modernizr.touch;
+
+  if (isTouch) { $('.revealOnScroll').addClass('animated'); }
+
+  \$window.on('scroll', revealOnScroll);
+
+  function revealOnScroll() {
+    var scrolled = \$window.scrollTop(),
+        win_height_padded = \$window.height() * 1.1;
+
+    // Showed...
+    $(".revealOnScroll:not(.animated)").each(function () {
+      var \$this     = $(this),
+          offsetTop = \$this.offset().top;
+
+      if (scrolled + win_height_padded > offsetTop) {
+        if (\$this.data('timeout')) {
+          window.setTimeout(function(){
+            \$this.addClass('animated ' + \$this.data('animation'));
+          }, parseInt(\$this.data('timeout'),10));
+        } else {
+          \$this.addClass('animated ' + \$this.data('animation'));
+        }
+      }
+    });
+    // Hidden...
+   $(".revealOnScroll.animated").each(function (index) {
+      var \$this     = $(this),
+          offsetTop = \$this.offset().top;
+      if (scrolled + win_height_padded < offsetTop) {
+        $(this).removeClass('animated fadeInUp flipInX lightSpeedIn')
+      }
+    });
+  }
+
+  revealOnScroll();
+});
+
+JS
+, yii\web\View::POS_READY); ?>
 
 
 

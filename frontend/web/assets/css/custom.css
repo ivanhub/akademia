@@ -956,8 +956,7 @@ margin-top: 80px;
 
 section.maintext p { text-align:justify; }
 
-@media (max-width:1115px)
-{
+@media (max-width:1115px) {
 .mainblock { padding-left:0 !important; }
 }
 

@@ -1020,6 +1020,7 @@ opacity:0.7;
 .navbar-default  {
     z-index: 2;
 }
+
 /* 
 .greenlinebot {background: url(../../images/fon/line2.jpg) 0 bottom repeat-x;
 width:100%;
@@ -1302,8 +1303,8 @@ body#automotoschool  {overflow-x:hidden;}
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
 
-  background: rgba(202,226,193,0.3);
 }
+.style5 {  background: rgba(202,226,193,0);}
 
 
 .x11 {position:absolute; left:15px; width:350px;height:100px; border: 1px solid #578d60; border-radius:2px;}

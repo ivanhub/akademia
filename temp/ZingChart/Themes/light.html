@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--Script Reference[1]-->
+  <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+</head>
+<body>
+  <!--Chart Placement[2]-->
+  <div id="chartDiv"></div>
+  <script>
+    var chartData = {
+      type: "area",  // Specify your chart type here.
+      title: {
+        text: "My First Chart" // Adds a title to your chart
+      },
+      legend: {}, // Creates an interactive legend
+      series: [  // Insert your series data here.
+          { values: [20,40,25,50,15,45,33,34]},
+          { values: [5,30,21,18,59,50,28,33]}
+      ]
+    };
+    zingchart.render({ // Render Method[3]
+      id: "chartDiv",
+      data: chartData,
+      height: 400,
+      width: 600,
+      theme: "light"
+    });
+  </script>
+</body>
+</html>

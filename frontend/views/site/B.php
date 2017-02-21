@@ -425,3 +425,9 @@ JS
  <div class="md-overlay"></div>the overlay element
       Yii::$app->view->registerJsFile('/assets/js/modals.js',  ['depends' => 'yii\web\JqueryAsset']); 
      -->
+
+
+
+
+
+      <script src="https://cdn.zingchart.com/zingchart.min.js" type="text/javascript"></script>
