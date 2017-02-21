@@ -981,7 +981,10 @@ h1,h2,h6 {
 }
 
 .siteblock {     font-family: 'Myriadsetpro';  }
-#distance .site-distance p, #safetydriving {font-size:19px;}
+
+#distance .site-distance p, .safetydriving {font-size:19px;}
+
+
 .post-bodycopy{font-size:17px;}
 
 h5,h4 {
