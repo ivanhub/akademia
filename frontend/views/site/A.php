@@ -174,8 +174,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="row text-center uslv">
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
   <div class="col-xs-7"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
-  <p>консультации и тестирование с психологом.</p>
-  <p>лекции проводит преподователь с многолетним стажем.</p>
+  <p>Консультации и тестирование с психологом.</p>
+  <p>Лекции проводит преподователь с многолетним стажем.</p>
    </div>
 </div>
 <div class="row text-center uslv">

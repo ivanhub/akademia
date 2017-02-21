@@ -224,19 +224,20 @@ JS
 
 <br/>
 
+<div class="wrapetap">
 
 <div class="row text-center uslv">
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
   <div class="col-xs-7"><p><b>Теория</b></p> <p>134 часа теоретических занятий, внутренний экзамен.</p>  
-  <p>консультации и тестирование с психологом.</p>
-  <p>обучение преподователем с многолетним стажем.</p>
+  <p>Консультации и тестирование с психологом.</p>
+  <p>Обучение преподователем с многолетним стажем.</p>
    </div>
 </div>
 <div class="row text-center uslv">
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/drive1.png"></div>
   <div class="col-xs-7"><p><b>Вождение</b></p> <p>56 часов вождения. </p>
   <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
-  <p>учебные маршруты по всему городу.</p>
+  <p>Учебные маршруты по всему городу.</p>
   </div>
 </div>
 
@@ -249,7 +250,7 @@ JS
 <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
   <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p></div>
 </div>
-
+</div>
 
 <br/><br/>
 <br/>

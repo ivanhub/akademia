@@ -78,7 +78,7 @@ $this->title = 'Учебный центр "Академия"';
   <div class="clearfix visible-sm"></div>
 <div class="col-md-6 col-sm-6 col-xs-12  box3  cl-effect-12">
 <a style="display:block" href="/sudovozhdenie">
-<img class="boat" src="../images/boat77.png" width="323" style="margin-top: -15px;" >
+<img class="boat" src="../images/boat78.png" width="323" style="margin-top: -15px;" >
 <p class="blocktitle  hvr-bob anim_three">Судовождение</p>
 </a>
 </div>
@@ -91,7 +91,7 @@ $this->title = 'Учебный центр "Академия"';
 
 
 </div> 
-<br><br> 
+<br> 
 <!-- 
 
   <div class="col-sm-12 col-md-3 right-aside">
@@ -137,21 +137,28 @@ $this->title = 'Учебный центр "Академия"';
 
   </aside>
 </div> -->
-<div class="white">
+<div class="white555">
 <div class="mtwrap">
-<p class="mtext" style="clear:both; margin-top:550px;text-align:justify">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
+<p class="mtext2" style="clear:both; margin-top:550px;text-align:justify">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
 Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
 Проанализировав накопившийся опыт, изучив европейскую систему подготовки водителей, 
 взяв на вооружение передовые технологии, мы разработали свои, адаптированные к нашим реалиям, 
 методики обучения.</p>
+<div class="mtext3"></div>
+
 </div>
 <div class="text-center  akcii">
 
 <div class="insideakcii">
-<h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Акции</h2></div>
- <img style="margin-top:-15px;" src="../../images/pics/banner12.png" class="saleimg" width="250px" >
+<h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Наши акции:</h2></div>
+<img style="margin-top:-15px;" src="../../images/pics/banner22.png" class="saleimg" width="250px" >
+&nbsp;
+ <img style="margin-top:-15px;" src="../../images/pics/banner2g.png" class="saleimg" width="250px" >
+ &nbsp;&nbsp;
+ <img style="margin-top:-15px;" src="../../images/pics/banner61.png" class="saleimg" width="250px" >
+
  </div>
-<div class="white2"></div>
+<div class="white255"></div>
 
 
  </div>
