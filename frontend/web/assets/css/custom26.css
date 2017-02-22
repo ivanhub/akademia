@@ -2012,3 +2012,53 @@ color:#3a7849;
     width: 30px;
     height: 30px;
 }
+
+
+.texts {font-size:18px;margin-top:10px;}
+
+
+
+
+/* Zing chart */
+.zingchart-tooltip {
+  padding: 7px 5px;
+  border-radius: 1px;
+  line-height: 20px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-font-smoothing: antialiased;
+}
+.zingchart-tooltip .scalex-value {
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 24px;
+  color: #838383;
+}
+.zingchart-tooltip .scaley-value {
+  color: #4184f3;
+  font-size: 24px !important;
+  font-weight: normal !important;
+}
+
+.zc-ref {
+  display: none;
+}
+
+#myChart-license-text a {
+        visibility: hidden;
+
+}
+
+#myChart-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+#myChart {
+	height:100%;
+	width:100%;
+	min-height:500px;
+}
+.width70 {width:80%}
+/* Zing Chart END */
+

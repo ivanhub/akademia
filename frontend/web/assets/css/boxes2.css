@@ -566,7 +566,7 @@ opacity:1;
 
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
-  -webkit-animation-delay: 1.8s;
+/*  -webkit-animation-delay: 1.8s;*/
   animation-name: fadeInUp;
 
 }

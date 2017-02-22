@@ -32,12 +32,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <h1 class="text-center"><?= Html::encode($this->title) ?></h1>
 
-<h4 class="text-center">Мы предлагаем Вам следующие пакеты услуг:</h4>
+<h4 class="text-center"  data-ros="fadeInN"  data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>
 
 <div class="col-md-offset-1 col-md-10">  
 <div class="col-sm-12 col-md-4">  
-        <div class="span3 pull-right-md" data-nohover="0">
+        <div class="span3 pull-right-md  animated expandUp" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -107,7 +107,7 @@ JS
         </div>
         </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3 pull-center-md" data-nohover="0">
+        <div class="span3 pull-center-md  animated expandUp"  style="animation-delay:.2s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -135,7 +135,7 @@ JS
           </div>
         </div></div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3 pull-left-md" data-nohover="0">
+        <div class="span3 pull-left-md  animated expandUp"  style="animation-delay:.4s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -218,7 +218,7 @@ JS
 <!--   <h6 class="m420" style="font-weight:bold; text-align:center">Выберите желаемый пакет обучения.</h6>
   <h5  style="font-weight:bold; text-align:center">Порядок обучения</h5> -->
   <br/>
-   <h5 class="m420" style="font-weight:bold; text-align:center">Как проходит обучение в автошколе:</h5>
+   <h5 class="m420" style="font-weight:bold; text-align:center"   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
 
 
 
@@ -226,14 +226,14 @@ JS
 
 <div class="wrapetap">
 
-<div class="row text-center uslv">
+<div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
   <div class="col-xs-7"><p><b>Теория</b></p> <p>134 часа теоретических занятий, внутренний экзамен.</p>  
   <p>Консультации и тестирование с психологом.</p>
   <p>Обучение преподователем с многолетним стажем.</p>
    </div>
 </div>
-<div class="row text-center uslv">
+<div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:100;infinite:false;animationClass:animated;duration:1500;callback:;" >
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/drive1.png"></div>
   <div class="col-xs-7"><p><b>Вождение</b></p> <p>56 часов вождения. </p>
   <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
@@ -241,12 +241,12 @@ JS
   </div>
 </div>
 
-<div class="row text-center uslv">
+<div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:200;infinite:false;animationClass:animated;duration:1500;callback:;" >
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
   <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
 </div>
 
-<div class="row text-center uslv">
+<div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:300;infinite:false;animationClass:animated;duration:1500;callback:;" >
 <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
   <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p></div>
 </div>
@@ -254,8 +254,9 @@ JS
 
 <br/><br/>
 <br/>
-<img class="stylecenter" src="../../images/pics/plan.jpg" width="800px" align="center">
-
+<!-- <img class="stylecenter" src="../../images/pics/plan.jpg" width="800px" align="center">
+ --><div class="center-block width70" id="chart">
+    <div class="stylecenter" id="myChart"></div></div>
 
 
 
@@ -429,5 +430,400 @@ JS
 
 
 
-
       <script src="https://cdn.zingchart.com/zingchart.min.js" type="text/javascript"></script>
+            <!-- <script src="https://cdn.zingchart.com/modules/zingchart-mobile.min.js" type="text/javascript"></script> -->
+
+<!-- <script>zingchart.MODULESDIR="/assets/js/modules/";</script>
+
+
+<script src="/assets/js/modules/zingchart-hbar.min.js"></script>
+<script src="/assets/js/modules/zingchart-animation.min.js"></script>
+<script src="/assets/js/modules/zingchart-grid.min.js"></script>
+<script src="/assets/js/modules/zingchart-objects.min.js"></script>
+<script src="/assets/js/modules/zingchart-maps.min.js"></script>
+<script src="/assets/js/modules/zingchart-yx.min.js"></script>
+<script src="/assets/js/modules/zingchart-tooltip.min.js"></script>
+<script src="/assets/js/modules/zingchart-line.min.js"></script>
+<script src="/assets/js/modules/zingchart-grid.min.js"></script>
+<script src="/assets/js/modules/zingchart-xy.min.js"></script>
+<script src="/assets/js/modules/zingchart-maps-usa.min.js"></script>
+      
+ -->
+
+<?php 
+
+
+$this->registerJs(<<<JS
+
+  //      zingchart.MODULESDIR="";
+var chartIsShown = false;
+
+function chartInit() {
+    chartIsShown = true;
+
+
+var myConfig =         {
+    "type": "hbar",
+        "backgroundColor":"transparent",
+  "tooltip": {
+    "htmlMode": true,
+    "backgroundColor": "none",
+    "padding": 0,
+    "placement": "node:center",
+    "text": "<div class='zingchart-tooltip'><div class='scalex-value'>%kt<\/div><div class='scaley-value'>$%v<\/div><\/div>"
+  },
+  
+            "font-family":"Arial",
+            "title":{
+                "text":"План обучения",
+                "font-family":"Arial",
+                "background-color":"transparent",
+                "font-color":"darkgreen",
+                "font-size":"24px",
+                 "alpha":"0.7"
+            },
+  
+            "labels":[ 
+                {
+                    "font-size":"12px",
+                    "font-color":"#9d9d9d",
+                    "x":"11.5%",
+                    "y":"10%",
+                },
+    
+
+            ],
+           
+            "plot":{
+                  stacked:true,
+
+               // "bars-overlap":"100%",
+                "borderRadius":8,
+          
+          
+            },
+            "plotarea":{
+                "margin":"60px 150px 20px 210px",
+                "backgroundColor":"transparent",
+
+            }, 
+            "scale-x":{
+              
+                      "mirrored":true,
+                "line-color":"none",
+                "values":["Ознакомительное занятие",
+                          "Заключение договора",
+                          "Медкомиссия",
+                          "Руление",
+                          "Тренажеры", "Автодром", "Город"
+                         , "Теория", "Экзамен по теории", 
+                         "Экзамен Автодром","Экзамен Город"],
+                "tick":{
+                    "visible":false
+                },
+                "guide":{
+                    "visible":false
+                },
+                "item":{
+                    "font-size":"14px",
+                    "padding-right":"20px",
+                    "auto-align":true,
+                    "rules":[
+                        {
+                            "rule":"%i==0",
+                            "font-color":"#FA8452"
+                        },
+                        {
+                            "rule":"%i==1",
+                            "font-color":"#FCAE48"
+                        },
+                        {
+                            "rule":"%i==2",
+                            "font-color":"#FCCC65"
+                        },
+                        {
+                            "rule":"%i==3",
+                            "font-color":"#A0BE4A"
+                        },
+                        {
+                            "rule":"%i==4",
+                            "font-color":"#6FA6DF"
+                        }
+                    ]
+                }
+            }, 
+  "scale-y":{
+"label": {
+      "text": "This is a scale title",
+      "color": "red",
+      "fontSize": 14,
+      "borderWidth": 1,
+      "borderColor": "black"
+    },
+               "line-color":"green",
+
+              "max-value":"100",
+            
+               "tick":{
+                    "visible":true
+                },
+                "guide":{
+                    "visible":true
+                }
+            },
+  "arrows":[
+              {
+                "backgroundColor":"#CCCCCC",
+                "direction":"bottom",
+                "borderWidth": 0,
+                "from":{
+                  "x": "199px",
+                  "y": "12%"
+                },
+                "to":{
+                  "x": "199px",
+                  "y": "100%"
+                }
+              }
+            ],
+            "shapes":[
+              {
+                "type":"circle",
+                "x": "199px",
+                "y": 79,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+               {
+                "type":"circle",
+                "x": "199px",
+                "y": 79,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 118,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 156,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 195,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 234,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 271,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 309,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 347,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 386,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 424,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+              
+                                     {
+                "type":"circle",
+                "x": "199px",
+                "y": 462,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+              
+              
+             
+              ],
+            
+            "series":[
+            
+                {
+                    "values":[0,0,0,13,16,28,41,8,90,91,92],
+                    "bar-width":"32px",
+                    "max-trackers":0,
+                    "background-color":"transparent"
+
+                  
+                },
+              {
+                    "values":[1,13,13,2,4,13,36,81,1,1,1], 
+                          "animation": {
+                    "delay": "1000",
+                    "effect": 3, //3
+                    "speed": 500,
+                    "method": "1",
+                    "sequence": "3"
+                },
+                    "bar-width":"32px",
+                    "background-color":"#6fbadf #6FA6DF",
+                 "hover-state" : { backgroundColor: '#2956A0'},
+                    "border-color": "transparent",
+                     "max-trackers":0,
+
+                    "fill-angle":100,
+                 "value-box":{
+                        "placement":"top-out",
+                        "text":"%v день",
+                        "decimals":0,
+                        "font-color":"#A4A4A4",
+                        "font-size":"14px",
+                        "alpha":1,
+                     "rules":[
+                        {
+                            "rule":"%i==0",
+                            "font-color":"#FA8452",
+                        "text":"1 день",
+
+                        },
+                        {
+                            "rule":"%i==1",
+                            "text":"1-13 день",
+
+                        },
+                        {
+                            "rule":"%i==2",
+                            "text":"1-13 день",
+
+                        },
+                        { 
+                            "rule":"%i==3",
+                            "text":"14-15 день",
+
+                        },
+                        {
+                            "rule":"%i==4",
+                            "text":"16-22 день",
+
+                        },
+                       {
+                            "rule":"%i==5",
+                            "text":"28-41 день",
+
+                        },
+                        {
+                            "rule":"%i==6",
+                            "text":"41-77 день",
+
+                        }, 
+                      {
+                            "rule":"%i==7",
+                            "text":"8-89 день",
+                        },
+                      {
+                            "rule":"%i==8",
+                            "text":"90 день",
+
+                        },
+                      {
+                            "rule":"%i==9",
+                            "text":"91 день",
+                        },
+                      {
+                            "rule":"%i==10",
+                            "text":"92 день",
+                        },
+                      
+                    ],
+                    },
+                
+                
+               
+  
+                },
+            ]
+        };
+
+
+//zingchart.loadModules("animation,hbar,objects,tooltip,yx", function(){
+//        });
+
+
+zingchart.render({ 
+  id : 'myChart', 
+  data : myConfig, 
+  height:'100%',
+  width:'100%',
+  'min-height':'150px'
+});
+
+};
+
+
+
+
+window.addEventListener("load", function() {ros.init();  $(window).on('scroll resize').one('scroll resize', function() {chartInit();});
+});
+
+
+JS
+, yii\web\View::POS_READY);  ?>
+
+
+
+<?php Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']); ?>

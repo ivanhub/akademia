@@ -29,6 +29,10 @@ class AppAsset extends AssetBundle
         'assets/css/font-awesome.css',
         'assets/css/block.css',
         'assets/css/moto.css',
+        //'assets/css/animate.css',
+        //'assets/css/animation.css',
+        // 'assets/css/zingchart-mobile.min.css'
+
 
 
 

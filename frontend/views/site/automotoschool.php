@@ -427,7 +427,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <br/><br/>
 
-<h5 class="text-center "> Услуги, которые  предоставляем бесплатно</h5>  <br/>
+<h5 style="font-size:40px !important" class="text-center " data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  
  <ul class=" preimul2 in60in gal">
   <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
@@ -452,6 +452,12 @@ next showing
 <?php 
 
 $this->registerJs(<<<JS
+
+
+
+
+
+
 
 var \$animation_elements = $('.gal li');
 var \$window = $(window);
@@ -479,7 +485,7 @@ document.body.classList.add('begin');
  var \$element = $(this);
     var element_height = \$element.outerHeight();
     var element_top_position = \$element.offset().top;
-    var element_bottom_position = (element_top_position + element_height);
+    var element_bottom_position = (element_top_position + element_height +30);
 
     //check to see if this current container is within viewport
     if ((element_bottom_position >= window_top_position) &&
@@ -497,55 +503,18 @@ document.body.classList.add('begin');
 
 
 
+window.addEventListener("load", function() {
 
-
-
-$(function() {
-
-  var \$window           = $(window),
-      win_height_padded = \$window.height() * 1.1,
-      isTouch           = Modernizr.touch;
-
-  if (isTouch) { $('.revealOnScroll').addClass('animated'); }
-
-  \$window.on('scroll', revealOnScroll);
-
-  function revealOnScroll() {
-    var scrolled = \$window.scrollTop(),
-        win_height_padded = \$window.height() * 1.1;
-
-    // Showed...
-    $(".revealOnScroll:not(.animated)").each(function () {
-      var \$this     = $(this),
-          offsetTop = \$this.offset().top;
-
-      if (scrolled + win_height_padded > offsetTop) {
-        if (\$this.data('timeout')) {
-          window.setTimeout(function(){
-            \$this.addClass('animated ' + \$this.data('animation'));
-          }, parseInt(\$this.data('timeout'),10));
-        } else {
-          \$this.addClass('animated ' + \$this.data('animation'));
-        }
-      }
-    });
-    // Hidden...
-   $(".revealOnScroll.animated").each(function (index) {
-      var \$this     = $(this),
-          offsetTop = \$this.offset().top;
-      if (scrolled + win_height_padded < offsetTop) {
-        $(this).removeClass('animated fadeInUp flipInX lightSpeedIn')
-      }
-    });
-  }
-
-  revealOnScroll();
+ros.init();
 });
+
 
 JS
 , yii\web\View::POS_READY); ?>
 
 
+
+<?php Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']); ?>
 
 
 

@@ -77,12 +77,12 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="smoke"></div>
   </div> -->
 <!-- <h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
- --><h4 class="text-center">Мы предлагаем Вам следующие пакеты услуг:</h4>
+ --><h4 class="text-center"  data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>
 
 <div class="col-md-offset-1 col-md-10">
 <div class="col-sm-12 col-md-4">  
-        <div class="span3 pull-right-md" style="" data-nohover="0">
+        <div class="span3 pull-right-md animated fadeInLeft" style="" data-nohover="0" >
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -109,7 +109,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3 pull-center-md" style="" data-nohover="0">
+        <div class="span3 pull-center-md animated flipInY" style="animation-delay:.2s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Двойной A+B"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -137,7 +137,7 @@ $this->params['breadcrumbs'][] = $this->title;
           </div>
         </div></div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3 pull-left-md" style="" data-nohover="0">
+        <div class="span3 pull-left-md animated fadeInRight" style="animation-delay:.4s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -167,18 +167,18 @@ $this->params['breadcrumbs'][] = $this->title;
   <br/>
 
 <!-- Без скрытых платежей и сборов -->
- <h5 class="" style="font-weight:bold; text-align:center">Как проходит обучение в автошколе:</h5>
+ <h5 class="" style="font-weight:bold; text-align:center"  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
 
 
 <div class="wrapetap">
-<div class="row text-center uslv">
+<div class="row text-center uslv " data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
   <div class="col-xs-7"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
   <p>Консультации и тестирование с психологом.</p>
   <p>Лекции проводит преподователь с многолетним стажем.</p>
    </div>
 </div>
-<div class="row text-center uslv">
+<div class="row text-center uslv" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:100;duration:1500;callback:;">
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/drive1.png"></div>
   <div class="col-xs-7"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
   <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
@@ -187,13 +187,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
   </div>
 </div>
-<div class="row text-center uslv">
+<div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:200;duration:1500;callback:;">
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/clock1.png"></div>
   <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
   <p>Обучение проводится в период с мая по октябрь.</p></div>
 </div>
 
-<div class="row text-center uslv">
+<div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:300;duration:1500;callback:;">
 <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
   <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p>  <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p></div>
 </div>
@@ -211,17 +211,23 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <!-- <p style="font-weight:600;font-size:22px">Обучение вождению на мотоцикле</p>
  -->
-<h5 class="green text-center"><b>Порядок получения водительского удостоверения</b></h5>
+<h5 class="green text-center" data-ros="fadeInUp"   data-options="infinite:false;animationClass:animated;duration: 500;callback:;"><b>Порядок получения водительского удостоверения</b></h5>
 <br/><br/>
-
+<div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:100;duration: 1100;callback:;">
 <p class="">Тяжелые мотоциклы с объемом двигателя от 125 куб. см.</p>
 <img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A-1.png">
+</div>
 <br/>
+<div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:200;duration: 1100;callback:;">
 <p class="">Легкие мотоциклы с объемом двигателя от 50 до 125 куб. см.</p>
 <img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A1.png">
+</div>
+
 <br/>
+<div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1100;callback:;">
 <p class=" " style="">(открывается автоматически при получении водительского удостоверения)</p>
 <img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/M-.png">
+</div>
 
 
 
@@ -274,5 +280,12 @@ $("#wrapacket").text('Пакет "Индивидуальный"');
 
 });
 
+
+window.addEventListener("load", function() {ros.init();});
+
 JS
 , yii\web\View::POS_READY);  ?>
+
+
+
+<?php Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']); ?>

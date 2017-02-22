@@ -101,6 +101,10 @@ window.addEventListener("load", function() {
 
 
 
+
+
+
+
 <?php  
  
   if($homecheker=='site/index')

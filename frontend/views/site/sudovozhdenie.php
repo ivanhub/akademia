@@ -65,12 +65,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="row text-center uslv">
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/color_books.png" width="55px"></div>
-  <div class="col-xs-7"><p><b>Теоретическая часть</b></p>
+  <div class="col-xs-7"><p class="texts"><b>Теоретическая часть</b></p>
    </div>
 </div>
 <div class="row text-center uslv">
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/steer.png" width="60px"></div>
-  <div class="col-xs-7"><p><b>Демонстрация практических навыков управления судном</b></p>
+  <div class="col-xs-7"><p class="texts"><b>Демонстрация практических навыков управления судном</b></p>
 </div>
 </div>
   </section>

@@ -150,17 +150,17 @@ $this->title = 'Учебный центр "Академия"';
 <div class="text-center  akcii">
 
 <div class="insideakcii">
-<h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Наши акции:</h2></div>
+<!--<h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Наши акции:</h2></div>
 <img style="margin-top:-15px;" src="../../images/pics/baner50.png" class="saleimg" width="250px" >
-
-<!--  <img style="margin-top:-15px;" src="../../images/pics/bnew11.png" class="saleimg" width="250px" >
--->&nbsp;
+-->
+  <img style="margin-top:-15px;" src="../../images/pics/bnew11.png" class="saleimg" width="250px" >
+&nbsp;
  <img style="margin-top:-15px;" src="../../images/pics/banner2g.png" class="saleimg" width="250px" >
  &nbsp;&nbsp;
-<!--   <img style="margin-top:-15px;" src="../../images/pics/bnew22.png" class="saleimg" width="250px" >
- -->
+   <img style="margin-top:-15px;" src="../../images/pics/bnew22.png" class="saleimg" width="250px" >
+<!--
  <img style="margin-top:-15px;" src="../../images/pics/banner61.png" class="saleimg" width="250px" >
-
+ -->
  </div>
 <div class="white255"></div>
 
