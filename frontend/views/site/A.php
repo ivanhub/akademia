@@ -77,7 +77,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="smoke"></div>
   </div> -->
 <!-- <h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
- --><h4 class="text-center"  data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
+ --><h4 class="text-center hideme"  data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>
 
 <div class="col-md-offset-1 col-md-10">
@@ -167,7 +167,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <br/>
 
 <!-- Без скрытых платежей и сборов -->
- <h5 class="" style="font-weight:bold; text-align:center"  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
+ <h5 class="hideme" style="font-weight:bold; text-align:center"  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
 
 
 <div class="wrapetap">

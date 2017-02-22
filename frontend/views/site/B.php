@@ -32,12 +32,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <h1 class="text-center"><?= Html::encode($this->title) ?></h1>
 
-<h4 class="text-center"  data-ros="fadeInN"  data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
+<h4 class="text-center hideme"  data-ros="fadeInN"  data-options="delay:0;infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>
 
 <div class="col-md-offset-1 col-md-10">  
 <div class="col-sm-12 col-md-4">  
-        <div class="span3 pull-right-md  animated expandUp" data-nohover="0">
+        <div class="span3 pull-right-md  animated expandUp" style="animation-duration:.7s"  data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -107,7 +107,7 @@ JS
         </div>
         </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3 pull-center-md  animated expandUp"  style="animation-delay:.2s" data-nohover="0">
+        <div class="span3 pull-center-md  animated expandUp"  style="animation-duration:.7s;animation-delay:.2s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -135,7 +135,7 @@ JS
           </div>
         </div></div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3 pull-left-md  animated expandUp"  style="animation-delay:.4s" data-nohover="0">
+        <div class="span3 pull-left-md  animated expandUp"  style="animation-duration:.7s;animation-delay:.4s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -218,7 +218,7 @@ JS
 <!--   <h6 class="m420" style="font-weight:bold; text-align:center">Выберите желаемый пакет обучения.</h6>
   <h5  style="font-weight:bold; text-align:center">Порядок обучения</h5> -->
   <br/>
-   <h5 class="m420" style="font-weight:bold; text-align:center"   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
+   <h5 class="m420 hideme" style="font-weight:bold; text-align:center"   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
 
 
 
