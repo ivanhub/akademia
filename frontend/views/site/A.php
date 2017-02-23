@@ -108,7 +108,7 @@ $this->params['breadcrumbs'][] = $this->title;
  </div>
         </div>
         </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
-
+<div class="forsafari">
         <div class="span3 pull-center-md animated flipInY" style="animation-delay:.2s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Двойной A+B"</div>
@@ -131,11 +131,12 @@ $this->params['breadcrumbs'][] = $this->title;
     'class' => 'send-price call-back'
   ]
     ); ?>
-
-
-
           </div>
-        </div></div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
+        </div></div>
+
+      </div>
+
+      <div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
         <div class="span3 pull-left-md animated fadeInRight" style="animation-delay:.4s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
@@ -170,33 +171,33 @@ $this->params['breadcrumbs'][] = $this->title;
  <h5 class="hideme" style="font-weight:bold; text-align:center"  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
 
 
-<div class="wrapetap">
+<div class="wrapetap"> <div class="forsafari">
 <div class="row text-center uslv " data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
   <div class="col-xs-7"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
   <p>Консультации и тестирование с психологом.</p>
-  <p>Лекции проводит преподователь с многолетним стажем.</p>
+  <p>Лекции проводит преподаватель с многолетним стажем.</p>
    </div>
-</div>
+ </div> </div><div class="forsafari">
 <div class="row text-center uslv" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:100;duration:1500;callback:;">
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/drive1.png"></div>
   <div class="col-xs-7"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
-  <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
+  <p>+2 часа подготовки к сдаче экзаменов в ГИБДД (внутренний экзамен).</p>
     <p>На время занятий выдается экипировка (шлем, наколенники). </p>
 
 
   </div>
-</div>
+  </div></div> <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:200;duration:1500;callback:;">
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/clock1.png"></div>
   <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
   <p>Обучение проводится в период с мая по октябрь.</p></div>
-</div>
-
+  </div></div>
+<div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:300;duration:1500;callback:;">
 <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
   <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p>  <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p></div>
-</div>
+  </div></div>
 </div>
 
 

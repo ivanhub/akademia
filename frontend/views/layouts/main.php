@@ -38,7 +38,6 @@ $this->beginPage() ?>
     <?php $this->head() ?>
 
 
-
 </head>
 
 <body id="<?php echo $action; ?>" >
@@ -93,16 +92,35 @@ TesttWidget::end()
 <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
  -->
 <script type="text/javascript">
+var items = document.querySelectorAll(".navbar-collapse ul li");
+ var lastchild = items[items.length-1];
+  lastchild.classList.add('last');
+
+  document    .getElementsByTagName("ul")[0] .getElementsByTagName("li")[0]
+    .classList.add('first');
+
+
+var links = document.querySelectorAll('.navbar-collapse ul li');
+var i=1;
+[].forEach.call(links, function(item) {
+      item.classList.add('fadeInUp1');
+      item.classList.add('animated' + i );
+
+    i++;
+});
+
+
+(function($){
+    // console.log(navigator.userAgent);
+    /* Adjustments for Safari on Mac */
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Mac') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+     console.log('Safari on Mac detected, applying class...');
+        $('html').addClass('safari'); // provide a class for the safari-mac specific css to filter with
+    }
+})(jQuery);
 
 
 window.addEventListener("load", function() {
-
-
-
-
-
-
-
 
 
 <?php  
@@ -124,7 +142,7 @@ var j=1;
       
     j++;
 });
-    }, 100);
+    }, 250);
 
 
 /* IE10-11 target BEGIN
@@ -225,22 +243,7 @@ img.setAttribute("align", "right");
 
 
 
- var items = document.querySelectorAll(".navbar-collapse ul li");
- var lastchild = items[items.length-1];
-  lastchild.classList.add('last');
-
-  document    .getElementsByTagName("ul")[0] .getElementsByTagName("li")[0]
-    .classList.add('first');
-
-
-var links = document.querySelectorAll('.navbar-collapse ul li');
-var i=1;
-[].forEach.call(links, function(item) {
-      item.classList.add('fadeInUp1');
-      item.classList.add('animated' + i );
-
-    i++;
-});
+ 
 
 
 /* RESIZE

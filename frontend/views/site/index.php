@@ -62,12 +62,13 @@ $this->title = 'Учебный центр "Академия"';
 <img class="hvr-bounce-in" src="../images/1car.png" width="365">
 <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p></a>
 </div>
+<div class="forsafari">
 <div class="col-md-6 col-sm-6 col-xs-12 box2 cl-effect-12">
 <a style="display:block" href="/samohodnaya-tehnika">
 <img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325" style="margin-top: -1px;  margin-left: -5px;">
 <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
 </a>
-</div>
+  </div></div>
 
 
 </div> 
@@ -76,12 +77,13 @@ $this->title = 'Учебный центр "Академия"';
 <div class="row" style="padding-top: 0px;">
 
   <div class="clearfix visible-sm"></div>
+  <div class="forsafari">
 <div class="col-md-6 col-sm-6 col-xs-12  box3  cl-effect-12">
 <a style="display:block" href="/sudovozhdenie">
 <img class="boat" src="../images/boat78.png" width="323" style="margin-top: -15px;" >
 <p class="blocktitle  hvr-bob anim_three">Судовождение</p>
 </a>
-</div>
+  </div></div>
 <div class="col-md-6 col-sm-6 col-xs-12  box4  cl-effect-12">
 <a style="display:block;" href="/safety-driving"> <!-- 22 -->
 <img class="hvr-wobble-top" src="../images/yellow2.png" width="405" style="  margin-left: 30px; margin-top: 19px;">
@@ -137,9 +139,10 @@ $this->title = 'Учебный центр "Академия"';
 
   </aside>
 </div> -->
-<div class="white555">
+</div>
+
 <div class="mtwrap">
-<p class="mtext2" style="clear:both; margin-top:550px;text-align:justify">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
+<p class="mtext2" style="clear:both; margin-top:70px;text-align:justify">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
 Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
 Проанализировав накопившийся опыт, изучив европейскую систему подготовки водителей, 
 взяв на вооружение передовые технологии, мы разработали свои, адаптированные к нашим реалиям, 
@@ -168,8 +171,6 @@ $this->title = 'Учебный центр "Академия"';
  </div>
 <br/><br/>
 
- </div>
-</div>
 
  </section>
 

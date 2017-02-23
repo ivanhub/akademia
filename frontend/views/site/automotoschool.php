@@ -314,7 +314,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-handshake-o fa-3x"></span></div>
 <div class="col-sm-9"><div class="inside1 advpr2">Обучение без ОБМАНА - Все часы вождения!!!</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Обучение без ОБМАНА - Все часы вождения!!!</p>
-  <p class="xi-text">Мы заинтересованы в качественном обучении студентов и успешной сдачи экзаменов в ГИБДД. От этого зависит наша репутация. 
+  <p class="xi-text">Мы заинтересованы в качественном обучении студентов и успешной сдаче экзаменов в ГИБДД. От этого зависит наша репутация. 
 В нашем учебном центре прозрачная система обучения. Мы всегда открыты для вас. Задача центра НАУЧИТЬ вас водить,
 потому что от этого зависит ваша жизнь.</p></div> </new>  
 </div></div>
@@ -356,7 +356,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
 <div class="col-sm-9"><div class="inside1 advpr2">Современные оборудованные классы</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Современные оборудованные классы</p>
-  <p class="xi-text">Учебные классы оборудованы всем необходимым инвертарем,  тематическими плакатами, компьютерами и тренажерами для 
+  <p class="xi-text">Учебные классы оборудованы всем необходимым инвентарем,  тематическими плакатами, компьютерами и тренажерами для 
 первоначальных навыков вождения. У нас большая видеотека с обучающими роликами. Доверившись нам, вы 
 получите высококлассное обучение в этой сфере, что позволит Вам успешно сдать экзамены на права.</p></div> </new> </div>
 </div>
@@ -387,7 +387,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-9"><div class="inside1 advpr2">Парк новых автомобилей и мотоциклов </div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Парк новых автомобилей и мотоциклов </p>
   <p class="xi-text">Срок их эксплуатации не превышает 4-х лет, поэтому техническое состояние транспортных средств находится на
-очень достойном уровне. Все машины оснащены видео и аудио системами регистрации.</p></div> </new> 
+очень достойном уровне. Все машины оснащены видео- и аудиосистемами регистрации.</p></div> </new> 
   </div>
 </div>
 
@@ -399,7 +399,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
 <div class="col-sm-9"> <div class="inside1 advpr">Бесплатная литература</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Бесплатная литература</p>
-  <p class="xi-text">Всю необходимую литературу: экзаменационные билеты, правила дорожного движения, методички вы получите на первом 
+  <p class="xi-text">Всю необходимую литературу: экзаменационные билеты, правила дорожного движения, методички Вы получите на первом 
 теоретическом занятии.</p></div> </new> 
   </div>
   </div>
@@ -426,9 +426,9 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 
 <br/><br/>
-
+<div class="forsafari">
 <h5 style="font-size:40px !important" class="text-center " data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
- 
+ </div>
  <ul class=" preimul2 in60in gal">
   <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
  <li style="animation-duration: 1s; animation-delay: .5s;"> Организация и предоставление учебных транспортных средств на первичные экзамены (выпускной и ГИБДД).</li>
@@ -466,7 +466,7 @@ function check_if_in_view() {
   var window_height = \$window.height();
   var window_top_position = \$window.scrollTop();
   var window_bottom_position = (window_top_position + window_height);
-  var window_bottom2_position = (window_top_position + window_height - 200);
+  var window_bottom2_position = (window_top_position + window_height - 215);
 
     var \$element = $('.mainContent');
     var element_height = \$element.outerHeight();

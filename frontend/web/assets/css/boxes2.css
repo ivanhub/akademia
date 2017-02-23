@@ -15,6 +15,8 @@
     cursor:pointer;
    	padding-left:20px;
    -webkit-animation:slideInRight 1s forwards;
+   animation:slideInRight 1s forwards;
+
    -webkit-animation-delay: 1.1s;
    -moz-animation-delay: 1.1s;
    -o-animation-delay: 1.1s;
@@ -22,6 +24,8 @@
 #index .box2 {
 cursor:pointer;
 -webkit-animation:flipInXX 1s forwards;
+animation:flipInXX 1s forwards;
+
     padding-left: 43px;
 
    -webkit-animation-delay: 1s;
@@ -31,6 +35,7 @@ cursor:pointer;
 #index .box3 {
     cursor:pointer;
     -webkit-animation:flipInXX 1s forwards;
+    animation:flipInXX 1s forwards;
 
    -webkit-animation-delay: 1.3s;
    -moz-animation-delay: 1.3s;
@@ -40,6 +45,7 @@ cursor:pointer;
 cursor:pointer;
     padding-left:0 !important;
    -webkit-animation:slideInLeft 1s forwards;
+   animation:slideInLeft 1s forwards;
 
    -webkit-animation-delay: 1.1s;
    -moz-animation-delay: 1.1s;
@@ -49,6 +55,8 @@ cursor:pointer;
 
 #contact .box1 {cursor:pointer;
     -webkit-animation:flipInXX 1s forwards;
+    animation:flipInXX 1s forwards;
+
     opacity: 0;
    -webkit-animation-delay: .1s;
    -moz-animation-delay: .1s;
@@ -56,6 +64,8 @@ cursor:pointer;
    animation-delay: .1s; }
 #contact .box2 {cursor:pointer;
     -webkit-animation:flipInXX 1s forwards;
+    animation:flipInXX 1s forwards;
+
     opacity: 0;
    -webkit-animation-delay: .2s;
    -moz-animation-delay: .2s;
@@ -63,6 +73,8 @@ cursor:pointer;
    animation-delay: .2s; }
 #contact .box3 {cursor:pointer;
     -webkit-animation:flipInXX 1s forwards;
+     animation:flipInXX 1s forwards;
+
     opacity: 0;
    -webkit-animation-delay: .3s;
    -moz-animation-delay: .3s;
@@ -71,6 +83,8 @@ cursor:pointer;
 #contact .box4 {
     cursor:pointer;
     -webkit-animation:flipInXX 1s forwards;
+    animation:flipInXX 1s forwards;
+
     opacity: 0;
    -webkit-animation-delay: .3s;
    -moz-animation-delay: .3s;
@@ -137,10 +151,15 @@ cursor:pointer;
     transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
   }
 
-  to {
+  95% {
     -webkit-transform: perspective(400px);
     transform: perspective(400px);
-    opacity: 1;
+  }
+  
+to {
+     transform: translate(0, 0);
+         opacity: 1;
+
   }
 }
 
@@ -171,10 +190,15 @@ cursor:pointer;
     transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
   }
 
-  to {
+  95% {
     -webkit-transform: perspective(400px);
     transform: perspective(400px);
-    opacity: 1;
+  }
+  
+to {
+     transform: translate(0, 0);
+         opacity: 1;
+
   }
 }
 

@@ -338,7 +338,7 @@ section.main {
 
 .box1, .box3 { text-align: right;}
 
-
+.forsafari {transform: translateZ(1000px); transform-style: preserve-3d;}
 
 
 
@@ -2008,8 +2008,20 @@ color:#3a7849;
     position: relative;
     left: -4px;
     top: 4px;
-    background: url(../../images/pics/gal11.png) center center no-repeat;
+    background: url(../../images/pics/gal5.png) center center no-repeat;
     width: 30px;
+    height: 30px;
+}
+
+
+.gal3 li::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    left: -4px;
+    top: 4px;
+    background: url(../../images/pics/gal4.png) center center no-repeat;
+    width: 30px; /* 8 9 10 / 4 8 10 */
     height: 30px;
 }
 
@@ -2037,7 +2049,7 @@ color:#3a7849;
 }
 .zingchart-tooltip .scaley-value {
   color: #4184f3;
-  font-size: 24px !important;
+  font-size: 18px !important;
   font-weight: normal !important;
 }
 

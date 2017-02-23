@@ -37,7 +37,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="col-md-offset-1 col-md-10">  
 <div class="col-sm-12 col-md-4">  
-        <div class="span3 pull-right-md  animated expandUp" style="animation-duration:.7s"  data-nohover="0">
+        <div class="span3 pull-right-md  animated fadeInLeft" style=""  data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -106,8 +106,8 @@ JS
  </div>
         </div>
         </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
-
-        <div class="span3 pull-center-md  animated expandUp"  style="animation-duration:.7s;animation-delay:.2s" data-nohover="0">
+        <div class="forsafari">
+        <div class="span3 pull-center-md  animated flipInY"  style="animation-delay:.2s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -129,13 +129,14 @@ JS
     'class' => 'send-price call-back'
   ]
     ); ?>
-
-
-
           </div>
-        </div></div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
+        </div>
+      </div>
 
-        <div class="span3 pull-left-md  animated expandUp"  style="animation-duration:.7s;animation-delay:.4s" data-nohover="0">
+
+        </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
+
+        <div class="span3 pull-left-md  animated fadeInRight"  style="animation-delay:.4s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -226,30 +227,33 @@ JS
 
 <div class="wrapetap">
 
+<div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
   <div class="col-xs-7"><p><b>Теория</b></p> <p>134 часа теоретических занятий, внутренний экзамен.</p>  
   <p>Консультации и тестирование с психологом.</p>
-  <p>Обучение преподователем с многолетним стажем.</p>
+  <p>Обучение преподавателем с многолетним стажем.</p>
    </div>
-</div>
+ </div></div><div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:100;infinite:false;animationClass:animated;duration:1500;callback:;" >
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/drive1.png"></div>
   <div class="col-xs-7"><p><b>Вождение</b></p> <p>56 часов вождения. </p>
-  <p>+2 часа подготовки к сдачи экзаменов в ГИБДД (внутренний экзамен).</p>
+  <p>+2 часа подготовки к сдаче экзаменов в ГИБДД (внутренний экзамен).</p>
   <p>Учебные маршруты по всему городу.</p>
   </div>
-</div>
-
+  </div></div>
+<div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:200;infinite:false;animationClass:animated;duration:1500;callback:;" >
   <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
   <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
-</div>
-
+  </div></div>
+<div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:300;infinite:false;animationClass:animated;duration:1500;callback:;" >
 <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
   <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p></div>
-</div>
+  </div></div>
+
+  
 </div>
 
 <br/><br/>
@@ -470,7 +474,7 @@ var myConfig =         {
     "backgroundColor": "none",
     "padding": 0,
     "placement": "node:center",
-    "text": "<div class='zingchart-tooltip'><div class='scalex-value'>%kt<\/div><div class='scaley-value'>$%v<\/div><\/div>"
+    "text": "<div class='zingchart-tooltip'><div class='scalex-value'>%kt<\/div><div class='scaley-value'>Всего дней: %v<\/div><\/div>"
   },
   
             "font-family":"Arial",
@@ -503,7 +507,7 @@ var myConfig =         {
           
             },
             "plotarea":{
-                "margin":"60px 150px 20px 210px",
+                "margin":"60px 130px 20px 210px",
                 "backgroundColor":"transparent",
 
             }, 
@@ -554,11 +558,10 @@ var myConfig =         {
             }, 
   "scale-y":{
 "label": {
-      "text": "This is a scale title",
-      "color": "red",
+      "text": "Кол-во дней",
+      "color": "black",
       "fontSize": 14,
-      "borderWidth": 1,
-      "borderColor": "black"
+      "font-style": "italic"
     },
                "line-color":"green",
 
@@ -722,9 +725,8 @@ var myConfig =         {
                 },
                     "bar-width":"32px",
                     "background-color":"#6fbadf #6FA6DF",
-                 "hover-state" : { backgroundColor: '#2956A0'},
+                 "hover-state" : { backgroundColor: 'green'},
                     "border-color": "transparent",
-                     "max-trackers":0,
 
                     "fill-angle":100,
                  "value-box":{
