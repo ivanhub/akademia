@@ -5,11 +5,14 @@
 /* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
-use yii\captcha\Captcha;
-use yii\bootstrap\Modal;
-use yii\bootstrap\Button;
-use \yii\widgets\MaskedInput;
+//use yii\bootstrap\ActiveForm;
+//use yii\captcha\Captcha;
+//use yii\bootstrap\Modal;
+//use yii\bootstrap\Button;
+//use \yii\widgets\MaskedInput;
+
+
+use branchonline\lightbox\Lightbox;
 
 $this->title = 'Сведения об образовательной организации';
 
@@ -151,10 +154,22 @@ $this->params['breadcrumbs'][] = $this->title;
 <p class="text">Коллегиальные органы управления — Правление, общее собрание работников организации, педагогический совет, совет обучающихся.</p>
 <p class="text">Единоличный исполнительный орган: ректор. </p>
 <p class="text">Ректор АНО ДПО «Академия» <u><strong>Семенычев Виталий Валерьевич</strong></u><br>
-</p><center><br>
+</p><center>
 <h1>Структура АНО ДПО «Академия»</h1>
-<p></p></center><p></p>
-<p></p><center><a href="http://samarapb.ru/documents/organization/structure.jpg"><img style="background: transparent;  border: none; class=" aligncenter="" size-full="" wp-image-338"="" src="http://samarapb.ru/documents/organization/structure.png" alt="" width="500" height="236"></a></center><p></p>
+<p></p></center>
+<p></p><center>
+<?php echo  Lightbox::widget([
+    'files' => [
+        [
+            'thumb' => '../images/thmb/structure-th.jpg',
+            'original' => 'http://samarapb.ru/documents/organization/structure.jpg',
+            'title' => 'Удостоверение тракториста',
+        ],
+        
+    ]
+]); ?>
+
+</center><p></p>
 <p class="text"><strong>Адрес электронной почты всех структурных подразделений:</strong> <a href="mailto:samarapb@mail.ru">samarapb@mail.ru</a></p>
 <p class="text"><strong>Телефоны всех структурных подразделений:</strong> 205-77-66</p>
 </div></div>

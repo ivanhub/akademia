@@ -5,12 +5,12 @@
 /* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
-use yii\captcha\Captcha;
-use phpnt\yandexMap\YandexMaps;
-use yii\widgets\Breadcrumbs;
+//use yii\bootstrap\ActiveForm;
+//use yii\captcha\Captcha;
+//use phpnt\yandexMap\YandexMaps;
+//use yii\widgets\Breadcrumbs;
 
-use frontend\components\Leftmenu;
+//use frontend\components\Leftmenu;
 
 
 $this->title = 'Расписание занятий';

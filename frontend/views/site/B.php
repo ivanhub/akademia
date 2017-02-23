@@ -5,11 +5,11 @@
 /* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
+//use yii\bootstrap\ActiveForm;
 //use yii\captcha\Captcha;
 //use yii\bootstrap\Modal;
 //use yii\bootstrap\Button;
-use \yii\widgets\MaskedInput;
+//use \yii\widgets\MaskedInput;
 
 //use yii\widgets\Menu;
 
@@ -253,7 +253,7 @@ JS
   <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p></div>
   </div></div>
 
-  
+
 </div>
 
 <br/><br/>

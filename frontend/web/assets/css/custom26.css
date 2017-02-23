@@ -2013,6 +2013,16 @@ color:#3a7849;
     height: 30px;
 }
 
+.gal2 li::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    left: -4px;
+    top: 4px;
+    background: url(../../images/pics/gal8.png) center center no-repeat;
+    width: 30px;
+    height: 30px;
+}
 
 .gal3 li::before {
     content: "";

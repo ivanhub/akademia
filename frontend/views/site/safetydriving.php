@@ -5,8 +5,8 @@
 /* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
-use yii\captcha\Captcha;
+//use yii\bootstrap\ActiveForm;
+//use yii\captcha\Captcha;
 
 
 $this->title = 'Защитное вождение';
@@ -38,7 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <h4 class='text-center' style="margin-top:30px">Задачи обучения</h4>
 
 
- <ul class=" preimul2  gal">
+ <ul class=" preimul2  gal2">
   <li> Мотивировать водителей к применению защитного стиля поведения.</li>
  <li> Показать возможные потери в случае ДТП и те преимущества, которые дает защитное вождение.</li>
  <li> Усовершенствовать навыки определения дорожно-транспортных опасностей и способы защиты в этих ситуациях.</li>
