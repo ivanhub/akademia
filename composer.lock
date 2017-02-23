@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6098368ada2f78efd8ecc104b02ea3e3",
+    "content-hash": "7c6ded0724d565025ce9699be22549c4",
     "packages": [
         {
             "name": "alexandernst/yii2-device-detect",
@@ -205,6 +205,44 @@
             ]
         },
         {
+            "name": "bower-asset/lightbox2",
+            "version": "2.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lokesh/lightbox2.git",
+                "reference": "2e7daa84b9cf6412084ed5c97fdb448942c62d31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lokesh/lightbox2/zipball/2e7daa84b9cf6412084ed5c97fdb448942c62d31",
+                "reference": "2e7daa84b9cf6412084ed5c97fdb448942c62d31",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "js/lightbox.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "Gruntfile.js",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "CC BY 2.5"
+            ],
+            "description": "The original Lightbox script. Uses jQuery.",
+            "keywords": [
+                "gallery",
+                "images",
+                "jquery",
+                "lightbox",
+                "overlay"
+            ]
+        },
+        {
             "name": "bower-asset/punycode",
             "version": "v1.3.2",
             "source": {
@@ -301,6 +339,47 @@
             "license": [
                 "MIT"
             ]
+        },
+        {
+            "name": "branchonline/yii2-lightbox",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BranchOnline/yii2-lightbox.git",
+                "reference": "6cfe1a4a4fba046294b718904f7e57f671558fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BranchOnline/yii2-lightbox/zipball/6cfe1a4a4fba046294b718904f7e57f671558fd1",
+                "reference": "6cfe1a4a4fba046294b718904f7e57f671558fd1",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/lightbox2": "2.7.1",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "branchonline\\lightbox\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jap Mul",
+                    "email": "jap@branchonline.nl"
+                }
+            ],
+            "description": "Lightbox widget for Yii2",
+            "keywords": [
+                "module",
+                "yii2"
+            ],
+            "time": "2016-10-27T15:13:14+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -805,51 +884,6 @@
                 "yii2"
             ],
             "time": "2016-09-21 07:25:56"
-        },
-        {
-            "name": "phpnt/yandex-map",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpnt/yandex-map.git",
-                "reference": "dd73e010e460d008aa3f56fac5ad1e18c34552b0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpnt/yandex-map/zipball/dd73e010e460d008aa3f56fac5ad1e18c34552b0",
-                "reference": "dd73e010e460d008aa3f56fac5ad1e18c34552b0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0",
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "phpnt\\yandexMap\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "phpNT",
-                    "email": "phpnt@phpnt.com",
-                    "homepage": "http://phpnt.com"
-                }
-            ],
-            "description": "Yii2 Yandex Map widget",
-            "keywords": [
-                "map",
-                "phpnt",
-                "widget",
-                "yandex",
-                "yii2"
-            ],
-            "time": "2016-06-30 20:46:25"
         },
         {
             "name": "skeeks/yii2-mobile-detect",
@@ -1583,7 +1617,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2016-11-02 14:11:11"
+            "time": "2016-11-02T14:11:11+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1772,6 +1806,51 @@
                 }
             ],
             "time": "2016-11-25T06:54:22+00:00"
+        },
+        {
+            "name": "phpnt/yandex-map",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpnt/yandex-map.git",
+                "reference": "dd73e010e460d008aa3f56fac5ad1e18c34552b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpnt/yandex-map/zipball/dd73e010e460d008aa3f56fac5ad1e18c34552b0",
+                "reference": "dd73e010e460d008aa3f56fac5ad1e18c34552b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "phpnt\\yandexMap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "phpNT",
+                    "email": "phpnt@phpnt.com",
+                    "homepage": "http://phpnt.com"
+                }
+            ],
+            "description": "Yii2 Yandex Map widget",
+            "keywords": [
+                "map",
+                "phpnt",
+                "widget",
+                "yandex",
+                "yii2"
+            ],
+            "time": "2016-06-30 20:46:25"
         },
         {
             "name": "phpspec/php-diff",
@@ -2198,7 +2277,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-10 09:05:10"
+            "time": "2017-02-10T09:05:10+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2992,7 +3071,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-06 12:04:42"
+            "time": "2017-02-06T12:04:42+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -3101,7 +3180,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-28 02:39:08"
+            "time": "2017-01-28T02:39:08+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -3269,7 +3348,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-08 22:54:13"
+            "time": "2017-02-08T22:54:13+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -3383,7 +3462,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-21 17:10:26"
+            "time": "2017-01-21T17:10:26+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -3480,7 +3559,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-02-08 09:02:13"
+            "time": "2017-02-08T09:02:13+00:00"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -3527,7 +3606,7 @@
                 "faker",
                 "yii2"
             ],
-            "time": "2017-02-02 18:01:25"
+            "time": "2017-02-02T18:01:25+00:00"
         },
         {
             "name": "yiisoft/yii2-gii",

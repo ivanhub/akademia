@@ -8,6 +8,8 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
+use branchonline\lightbox\Lightbox;
+
 
 $this->title = 'Самоходная техника';
 
@@ -81,8 +83,34 @@ $this->params['breadcrumbs'][] = $this->title;
 <table style="width: 100%;">
 <tbody>
 <tr>
-<td><a href="http://samarapb.ru/documents/avto/yd.png"><img class="aligncenter size-full wp-image-338" src="http://samarapb.ru/documents/avto/yd.png" alt="" width="254" height="180"></a></td>
-<td><a href="http://samarapb.ru/documents/avto/vr.png"><img class="aligncenter size-full wp-image-338" src="http://samarapb.ru/documents/avto/vr.png" alt="" width="141" height="200"></a></td>
+<td>
+
+
+<?php echo  Lightbox::widget([
+    'files' => [
+        [
+            'thumb' => '../images/thmb/yd-th.jpg',
+            'original' => 'http://samarapb.ru/documents/avto/yd.png',
+            'title' => 'Удостоверение тракториста',
+        ],
+        
+    ]
+]); ?>
+
+</td>
+<td>
+    <?php echo  Lightbox::widget([
+    'files' => [
+  
+        [
+            'thumb' => '../images/thmb/vr-th.jpg',
+            'original' => 'http://samarapb.ru/documents/avto/vr.png',
+            'title' => 'Временное разрешение',
+        ],
+    ]
+]); ?>
+
+</td>
 
 </tr>
 </tbody>
