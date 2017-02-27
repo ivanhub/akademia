@@ -60,8 +60,8 @@ JS
             }
             ?>
             <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10 text-center">
                     <?php
                     if (!empty($items))
                         echo Gallery::widget([
@@ -74,7 +74,7 @@ JS
                         ]);
                     ?>
                 </div>
-                <div class="col-md-1"></div>
+                <div class="col-xs-1"></div>
             </div>
      <div id="w1" class="download-collapse panel-group collapse in" aria-expanded="true">
       <div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"> Ждём Вас на наших курсах! 

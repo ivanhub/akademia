@@ -44,3 +44,16 @@ function isActive($routes = array())
     }
     return false;
 }
+
+function hm($check)
+{
+
+ $controllerl = Yii::$app->controller;
+ $homecheker = $controllerl->id.'/'.$controllerl->action->id;
+
+    if ($check == $homecheker) {
+    return true;
+    } else { return false;}
+
+}
+

@@ -10,9 +10,16 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['mobileDetect'],
-    'controllerNamespace' => 'frontend\controllers',
+    'bootstrap' => ['mobileDetect',],
+    'controllerNamespace' => '\frontend\controllers',
+    
     'components' => [
+    'MyCheck'         => [
+            'class' => '\frontend\components\HomeCheck',
+        ],
+        'MyNav'         => [
+            'class' => '\frontend\components\CustomNav',
+        ],
          'urlManagerBackend' => [
                 'class' => 'yii\web\urlManager',
                 'baseUrl' => '/backend/web/img/gallery/',//i.e. $_SERVER['DOCUMENT_ROOT'] .'/yiiapp/web/'

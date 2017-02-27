@@ -23,6 +23,8 @@ $this->params['breadcrumbs'][] = [
                                     'url' => ['/automotoschool']
                                  ];
 $this->params['breadcrumbs'][] = $this->title;
+
+
 ?>
 
 
@@ -245,16 +247,17 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <?php 
 
+Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']); 
 
 $this->registerJs(<<<JS
-$(".flash-success").animate({opacity: 1.0}, 1000).fadeOut("slow");
 
 
-$('#idmodal').on('close.bs.modal', function(e) { 
-setTimeout(function() {  $("#wrapacket").text('BUBUBU'); }, 6000);
 
+//$(".flash-success").animate({opacity: 1.0}, 1000).fadeOut("slow");
 
-});
+//$('#idmodal').on('close.bs.modal', function(e) { 
+//setTimeout(function() {  $("#wrapacket").text(''); }, 6000);
+//});
 
 
 $('#idmodal').on('show.bs.modal', function(e) {
@@ -289,4 +292,3 @@ JS
 
 
 
-<?php Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']); ?>

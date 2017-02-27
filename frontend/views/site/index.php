@@ -54,19 +54,18 @@ $this->title = 'Учебный центр "Академия"';
  <section class="main ">
 
 <div class="row">
- <div class="col-md-offset-1 col-md-10 col-sm-12 text-left mainbox">
 
  <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12  box1  cl-effect-12">
+<div class="col-xs-6  box1  cl-effect-12">
 <a style="display:block" href="/automotoschool">
-<img class="hvr-bounce-in" src="../images/1car.png" width="365">
-<p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p></a>
+<img class="hvr-bounce-in img-responsive" src="../images/1car.png" width="365">
+<p class="blocktitle anim_one">Автомотошкола</p></a>
 </div>
 <div class="forsafari">
-<div class="col-md-6 col-sm-6 col-xs-12 box2 cl-effect-12">
+<div class="col-xs-6 box2 cl-effect-12">
 <a style="display:block" href="/samohodnaya-tehnika">
-<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325" style="margin-top: -1px;  margin-left: -5px;">
-<p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
+<img class="hvr-wobble-to-top-right img-responsive" src="../images/2tr.png" width="325" style="margin-top: -1px;  margin-left: -5px;">
+<p class="blocktitle anim_two">Самоходная техника</p>
 </a>
   </div></div>
 
@@ -74,25 +73,25 @@ $this->title = 'Учебный центр "Академия"';
 </div> 
 
 
-<div class="row" style="padding-top: 0px;">
+<div  class="row" style="padding-top: 0px;">
 
   <div class="clearfix visible-sm"></div>
   <div class="forsafari">
-<div class="col-md-6 col-sm-6 col-xs-12  box3  cl-effect-12">
+<div class="col-xs-6  box3  cl-effect-12">
 <a style="display:block" href="/sudovozhdenie">
-<img class="boat" src="../images/boat78.png" width="323" style="margin-top: -15px;" >
-<p class="blocktitle  hvr-bob anim_three">Судовождение</p>
+<img class="boat img-responsive" src="../images/boat78.png" width="323" style="margin-top: -15px;" >
+<p class="blocktitle anim_three">Судовождение</p>
 </a>
   </div></div>
-<div class="col-md-6 col-sm-6 col-xs-12  box4  cl-effect-12">
+<div class="col-xs-6  box4  cl-effect-12">
 <a style="display:block;" href="/safety-driving"> <!-- 22 -->
-<img class="hvr-wobble-top" src="../images/yellow2.png" width="405" style="  margin-left: 30px; margin-top: 19px;">
-<p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
+<img class="hvr-wobble-top img-responsive" src="../images/yellow2.png" width="405" style="  margin-left: 30px; margin-top: 19px;">
+<p class="blocktitle anim_four">Защитное вождение</p>
 </a>
 </div></div>
 
 
-</div> 
+
 <br> 
 <!-- 
 

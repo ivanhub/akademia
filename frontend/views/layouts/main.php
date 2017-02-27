@@ -21,10 +21,6 @@ AppAsset::register($this);
 $controll = Yii::$app->controller;
 $action = $controll->action->id;
 
-
- $controllerl = Yii::$app->controller;
- $homecheker = $controllerl->id.'/'.$controllerl->action->id;
-
 $this->beginPage() ?>
 
 <!DOCTYPE html>
@@ -85,36 +81,30 @@ TesttWidget::end()
         <?= $content ?>
  <?= $this->render('../layouts/footer');?>
 </div>   </div>
-
+  <a href="#0" class="cd-top">Вверх</a>
 
 </div>
 <?php $this->endBody() ?>
 <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
  -->
 <script type="text/javascript">
-var items = document.querySelectorAll(".navbar-collapse ul li");
- var lastchild = items[items.length-1];
-  lastchild.classList.add('last');
 
-  document    .getElementsByTagName("ul")[0] .getElementsByTagName("li")[0]
-    .classList.add('first');
+ $('#affix').affix({
+      offset: {
+      top: function () {
+      return (this.bottom = $('.header-top').outerHeight(true) + 1)
+    }
+      }
 
+   });
 
-var links = document.querySelectorAll('.navbar-collapse ul li');
-var i=1;
-[].forEach.call(links, function(item) {
-      item.classList.add('fadeInUp1');
-      item.classList.add('animated' + i );
-
-    i++;
-});
-
+//$('#affix').affix('checkPosition');
 
 (function($){
     // console.log(navigator.userAgent);
     /* Adjustments for Safari on Mac */
     if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Mac') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-     console.log('Safari on Mac detected, applying class...');
+     //console.log('Safari on Mac detected, applying class...');
         $('html').addClass('safari'); // provide a class for the safari-mac specific css to filter with
     }
 })(jQuery);
@@ -125,7 +115,7 @@ window.addEventListener("load", function() {
 
 <?php  
  
-  if($homecheker=='site/index')
+  if(hm('site/index'))
   { ?>
   var loader = setTimeout(function() {
                 document.querySelector(".page-loader").classList.add('loaded');   
@@ -181,7 +171,7 @@ if (!(window.clipboardData))
 //4 if(Function('/*@cc_on return 10===document.documentMode@*/')()){document.documentElement.className='ie10';}
 
     
- <?php } elseif (($homecheker=='site/students')) { ?>
+ <?php } elseif (hm('site/students')) { ?>
 
 var $el = $(".cube");
 var rotate = function(index){
@@ -323,6 +313,7 @@ var blocks = document.querySelectorAll(".blocktitle");
  var i=1;
 [].forEach.call(blocks, function(item) {
       item.classList.add('bounceInLeft');
+
     i++;
 });
     }, 1000);
@@ -336,10 +327,14 @@ for (i = 0; i < blocks.length; i++) {
 */
 
  setTimeout(function(){
- var i=1; var blocktitles = document.getElementsByClassName("blocktitle");
+ var blocktitles = document.getElementsByClassName("blocktitle");
 
-[].forEach.call(blocks, function(item) { item.classList.remove('bounceInLeft'); });
-for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
+[].forEach.call(blocks, function(item) { 
+  item.classList.remove('bounceInLeft');
+  item.classList.add('hvr-bob');
+  item.style.opacity = "1";
+   });
+//for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
 
     }, 2000);
 
@@ -395,6 +390,16 @@ jQuery(document).ready(function($){
 });
 
 </script>
+
+
+<?php  if(hm('site/b'))
+  { ?>
+
+<!-- <script src="https://cdn.zingchart.com/zingchart.min.js" type="text/javascript" async="async"></script> -->
+
+<script src="/assets/js/zingchart.min.js" type="text/javascript" async="async"></script>
+<?php };
+?>
 
 </body>
 </html>

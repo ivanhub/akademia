@@ -11,6 +11,9 @@ return [
     'bootstrap' => ['log'],
     'defaultRoute' => 'site/index'
     'components' => [
+    'MyNav'         => [
+            'class' => 'frontend\components\CustomNavBar',
+        ],
         'request' => [ 'baseUrl' => '',],
 //        'devicedetect' => [
 //        'class' => 'alexandernst\devicedetect\DeviceDetect'

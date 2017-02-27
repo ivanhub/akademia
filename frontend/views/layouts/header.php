@@ -15,9 +15,6 @@ use yii\helpers\Url;
 
 
 
- $controllerl = Yii::$app->controller;
- $homecheker = $controllerl->id.'/'.$controllerl->action->id;
-
 $des = Yii::$app->mobileDetect->isDesktop();
 $mobi = Yii::$app->mobileDetect->isMobile();
 $tablet = Yii::$app->mobileDetect->isTablet();
@@ -39,7 +36,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 <div class="header-top row ">
 
 
-<div class="col-sm-3 col-xs-3 forlogo" >
+<div class="col-md-2 col-lg-3 col-sm-2 col-xs-1 forlogo" >
 
 
 <?php $forma = new Forma(); ?>
@@ -51,24 +48,54 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 
 
-  if($homecheker=='site/index')
+  if(hm('site/index'))
   {
-    echo '<a href="/"><div class="logo-akademia hvr-up onload-logo" ></div></a>';
+    echo '<a href="/" ><div class="logo-akademia hvr-up onload-logo" ></div></a>';
     
   }else
   { 
    echo '<a href="/"><div class="logo-akademia hvr-up animated fadeIn" ></div></a>';
 
   } ?>
-<!-- <img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->
-</div>
-<div class="col-md-3 col-sm-4 col-xs-5">
 
-<img class="logotop anilogo fadeIn" src="/images/rosauto3.png" width="540px">
-<!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>-->
- <p class="logotextbottom">Лицензия № 4913 от 16.04.2013 г. </p> 
+ <!--  <map name="map">
+    <area shape="poly" href="sun.htm" coords="41, 88, 10, 69, 9, 26, 7, 12, 16, 5, 43, 3, 71, 5, 74, 10, 68, 30, 73, 44, 75, 63" />
+</map>
+<img src="logo80.png" alt="" usemap="#map" />
+
+
+<img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->
 </div>
-<div class="col-lg-offset-4 col-lg-3 col-md-offset-2 col-md-4 col-sm-5 text-right rightblock"><p class="phone"><a href="tel:8846255-69-99"> +7 (846) 255-69-99</a></p>
+<div class="col-md-6 col-lg-6 col-sm-6 col-xs-7 mob">
+
+<img class="logotop anilogo fadeIn" src="/images/rosauto3.png" width="100%">
+<!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>-->
+ <p class="logotextbottom hidemobi">Лицензия № 4913 от 16.04.2013 г. </p> 
+
+
+  <div class="justmobi">
+    <div class="row">
+      
+      <p class="phone"><a href="tel:8846255-69-99"> +7 (846) 255-69-99</a></p>
+<span class="take">
+<?php    echo Html::a(
+    'Заявка ОН-ЛАЙН',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '0',
+    'class' => 'hvr-wobble-horizontal'
+  ]
+    ); ?>
+
+</span>
+
+    </div>
+  </div>
+
+
+</div>
+<div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-4 col-xs-4 text-right rightblock hidemobi"><p class="phone"><a href="tel:8846255-69-99"> +7 (846) 255-69-99</a></p>
 <p class="take">
 <?php    echo Html::a(
     'Запись ОН-ЛАЙН',
@@ -83,6 +110,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 </p>
 </div>
 
+
 </div>
 
 
@@ -91,7 +119,10 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 </div>
 </div> -->
 
-<div class="wrap  animated fadeIn" data-spy="affix" data-offset-top="101">
+
+
+
+<div class="wrap  animated fadeIn" data-spy="" id="affix">
 <!--   <div class="greenlineup"></div>
  -->
 
@@ -101,6 +132,8 @@ $tablet = Yii::$app->mobileDetect->isTablet();
     NavBar::begin([
      //   'brandLabel' => 'Учебный центр "Академия"',
         'brandUrl' => Yii::$app->homeUrl,
+                    'containerOptions' => ['id' => 'topmen'],
+
         'options' => [
             'class' => 'navbar navbar-default navshadow skew-menu centering',
 
@@ -128,4 +161,30 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 </header>
 
 
+
+<script type="text/javascript">
+
+var items = document.querySelectorAll(".navbar-collapse ul li");
+ var lastchild = items[items.length-1];
+
+   lastchild.classList.add('last');
+   items[0].classList.add('first');
+
+
+
+var links = document.querySelectorAll('.navbar-collapse ul li');
+var i=1;
+[].forEach.call(links, function(item) {
+      item.classList.add('fadeInUp1');
+      item.classList.add('animated' + i );
+
+    i++;
+});
+
+
+
+  var str = '<img src="/img/ico-menu.png" alt=""> <span>МЕНЮ</span>'; 
+document.getElementsByClassName("navbar-toggle")[0].innerHTML=str;
+
+  </script>
 

@@ -932,10 +932,18 @@ section .row .main-text { padding: 0 45px 0;
     padding: 1rem 3.5rem 0 2.5rem;
   }
 
+
+
+@media (max-width:767px) {
+#index section.main {
+margin-top: 25px !important;
+}                         }
+
+
+
 #index section.main {
 margin-top: 46px;
 }
-
 
 section.main {
 margin-top: 80px;
@@ -1049,7 +1057,13 @@ section.map.full-width {  margin-top: 0 !important; height:0;}
 font-family: 'Cambria' !important; 
  */
 
-.my {    padding-left: 70px; padding-top:0}
+@media (min-width:992px) { .my {   
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+} }
 /*a.myvk:hover ~ a.icon-circle   {    color: #4b76a5;    background: #fff;}*/
 
 footer p.pull-top {
@@ -1175,15 +1189,44 @@ footer p {
 
 
 .navbar-collapse {
-    left: 155px;
-    position: absolute;
+  
+    right:6px !important;
 }
 }
 
 
+
+@media (max-width:768px) { 
+
+#topmen .navbar-nav>li>a {
+ color:#fff; opacity:.9;
+   
+}
+
+#topmen .navbar-nav>.active>a, #topmen .navbar-nav>.active>a:hover, #topmen .navbar-nav>.active>a:focus {
+    color: #555;
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #33934c;
+}
+
+#topmen { left: 0 !important; top:35px;	
+/* background: linear-gradient(to bottom, rgb(223, 239, 206) 0%,rgba(51, 147, 76,0.9) 100%); */
+    background: rgb(85, 165, 104);
+position:relative;
+padding-left:15px;
+padding-right:15px;
+}
+.navbar-nav {     margin-left: 37% !important;}
+}
 
 @media (max-width:991px) {
 
+
+.navbar-nav { 
+font-size:13px !important; }
   .box3,.box4 {margin-top:40px;}
 
   section .row .main-text { padding: 100px 45px 0;
@@ -1210,14 +1253,11 @@ footer p {
 
 @media (max-width:900px) and (min-width:784px) {
   .navbar-nav {font-size:15px;}
-  .navbar-collapse {
-    left: 145px !important;}    
+
 }
 
 @media (max-width:783px) and (min-width:768px) {
   .navbar-nav {font-size:14px;}
-  .navbar-collapse {
-    left: 145px !important;}    
 }
 
 
@@ -1230,29 +1270,33 @@ footer p {
 
 
 
+
+
 .navbar-collapse {overflow:hidden !important;
 margin-left:auto;
 margin-right:auto;
 }
 
 
-@media (max-width:686px) {
-  .phone { font-size:27px !important; }
-  .logotext { font-size:20px; }
-}
-@media (max-width:600px) {
-  .rightblock {margin-right:-8px;}
-  .phone { font-size:23px !important; }
-  .logotext { font-size:20px !important; }
-}
-@media (max-width:545px) {
-   .logotext {margin-left:0 !important}
-  .phone { font-size:20px !important; 
+.navbar-toggle {
+/*	margin-top: -2px !important;*/
+	padding: 0;
+	border: 0 solid transparent;
+	opacity:0.95;
+	position:absolute; 
+	right:5px; top:-6px;
 }
 
-}
+.navbar-toggle span { display:block; color:#fff; font-size:7px; margin-top:1px;}
 
-.navbar-toggle {margin-top: 4px !important;}
+
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: initial !important;
+
+}
+ 
+.navbar-default .navbar-toggle:hover  > span {   color: #eae9e9 !important; }
+.navbar-default .navbar-toggle:hover  > img {   opacity:0.85; }
 /* 
 @media (min-width:1500px) {
   .blocktitle { font-size:20px !important; }
@@ -1280,14 +1324,11 @@ margin-right:auto;
 
 
 /*vremenno */
-img.hvr-up.onload-logo {
-    z-index: 555;
-    position: relative;
-}
 
 
-
+@media (min-width:1200px) {
 .forlogo { width:165px }
+}
 /* .logo-akademia {
   z-index:50;
 width:170px; 

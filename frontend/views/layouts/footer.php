@@ -6,7 +6,7 @@ use yii\helpers\Html;
 
 <div class=" foot1">
 <div class="row">
-<div class="col-md-1 col-xs-2"></div>
+<div class="col-md-1 col-xs-2 foocol"></div>
 
 <div class="col-md-2 col-xs-5">
  <p><a href="/automotoschool">Автомотошкола</a></p>   
@@ -26,7 +26,7 @@ use yii\helpers\Html;
  <p>Дополнительные услуги</p>
 </div>
   <div class="clearfix visible-sm"></div>
-  <div class="col-xs-2 visible-sm visible-xs"></div>
+  <div class="col-xs-2 foocol visible-sm visible-xs"></div>
 <div class="col-md-2 col-xs-5 col3">
 <p><a href="/sudovozhdenie">Судовождение</a></p>   
  <p>Расписание</p>
@@ -74,7 +74,6 @@ use yii\helpers\Html;
 
 
 
-  <a href="#0" class="cd-top">Top</a>
 
 <!-- <div id="w00" class="col-xs-11 col-sm-3 alert alert-custom  fadeInDown" role="alert" data-notify="container" data-notify-position="top-center" style="display: inline-block; margin: 0px auto; position: fixed; transition: all 0.5s ease-in-out; z-index: 1031; top: 20px; left: 0px; right: 0px; animation-iteration-count: 1;"><button type="button" class="close" data-notify="dismiss"><span aria-hidden="true">×</span></button><span data-notify="icon" class="fa fa-envelope"></span><span data-notify="title">Сообщение отправлено!</span><hr class="kv-alert-separator"><span data-notify="message">Спасибо, что обратились к Нам. <br/>Мы ответим Вам в ближайшее время.</span><a href="#" data-notify="url" target="_blank"></a></div> -->
 

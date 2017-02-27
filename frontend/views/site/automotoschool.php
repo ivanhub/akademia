@@ -11,11 +11,11 @@ use yii\bootstrap\ActiveForm;
 
 $this->title = 'Автомотошкола';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
 
 
 
-<!-- <?= Html::encode($this->title) ?> -->
 
 <!-- <ul class="left2">
         <li><a href="/postupayushchim">Поступающим</a></li>
@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="row">
 
-<h1 class="text-center">Автомотошкола</h1>
+<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
 <br/>
 
 <div class="text-center">
@@ -356,7 +356,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
 <div class="col-sm-9"><div class="inside1 advpr2">Современные оборудованные классы</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Современные оборудованные классы</p>
-  <p class="xi-text">Учебные классы оборудованы всем необходимым инвентарем,  тематическими плакатами, компьютерами и тренажерами для 
+  <p class="xi-text sml">Учебные классы оборудованы всем необходимым инвентарем,  тематическими плакатами, компьютерами и тренажерами для 
 первоначальных навыков вождения. У нас большая видеотека с обучающими роликами. Доверившись нам, вы 
 получите высококлассное обучение в этой сфере, что позволит Вам успешно сдать экзамены на права.</p></div> </new> </div>
 </div>
@@ -426,8 +426,20 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 
 <br/><br/>
-<div class="forsafari">
-<h5 style="font-size:40px !important" class="text-center " data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
+
+<?php $user_agent = $_SERVER['HTTP_USER_AGENT'];
+if (stripos( $user_agent, 'Chrome') !== false)
+{
+    echo "<div class=''>";
+}
+
+elseif (stripos( $user_agent, 'Safari') !== false)
+{
+   echo "<div class='forsafari'>";
+} ?>
+
+
+<h5 style="font-size:40px !important" class="text-center hideme" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  </div>
  <ul class=" preimul2 in60in gal">
   <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
@@ -450,14 +462,9 @@ next showing
 
 
 <?php 
+Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']);
 
 $this->registerJs(<<<JS
-
-
-
-
-
-
 
 var \$animation_elements = $('.gal li');
 var \$window = $(window);
@@ -514,8 +521,4 @@ JS
 
 
 
-<?php Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']); ?>
-
-
-
-
+ 

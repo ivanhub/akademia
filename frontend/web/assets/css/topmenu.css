@@ -3,13 +3,46 @@
     0% { width:38px; height: 44px; margin: 0% 0%; opacity:0}
     100% { width: 110px; height:132px; margin: 0% 0%; opacity:1}
 }
+@keyframes animate {
+    0% { width:38px; height: 44px; margin: 0% 0%; opacity:0}
+    100% { width: 110px; height:132px; margin: 0% 0%; opacity:1}
+}
 
-/*
-    100% { width: 150px; height:176px; margin: 0% 0%; opacity:1}*/
+@-webkit-keyframes animate2 {
+    0% { -webkit-transform: scale(0.1); -webkit-transform-origin:0% 0%; margin: 0% 0%; opacity:0}
+    100% { -webkit-transform: scale(1); margin: 0% 0%; opacity:1}
+}
+
+@keyframes animate2 {
+    0% { transform: scale(0.1); transform-origin:0% 0%; margin: 0% 0%; opacity:0}
+    100% { transform: scale(1); margin: 0% 0%; opacity:1}
+}
+
+/* 100% { width: 150px; height:176px; margin: 0% 0%; opacity:1}*/
 
 .onload-logo {
--webkit-animation: animate 1.4s ease-in;
+-webkit-animation: animate2 1.4s ease-in;
+animation: animate2 1.4s ease-in;
 }
+
+
+@media (max-width:768px) {
+.onload-logo {
+-webkit-animation: animate2 1.4s ease-in;
+animation: animate2 1.4s ease-in;
+
+}
+}
+
+
+
+
+
+img.hvr-up.onload-logo {
+    z-index: 555;
+    position: relative;
+}
+
 
 @-webkit-keyframes logotextanim {
     0% { opacity:0}
@@ -47,9 +80,19 @@ p.logotextbottom {
 div.affix-top {
     margin-left: 0;
     margin-right: 0;
+
+z-index: 555;
+position: relative;
+
 }
 
+@media (min-width:768px) {
 .header-top {height:100px}
+}
+
+@media (max-width:767px) {
+.header-top {height:80px}
+}
 
 img.logotop {  
     margin-top: 25px;
@@ -57,13 +100,32 @@ img.logotop {
     opacity: 0.9;
 }
 
+@media (max-width:768px) {
+img.logotop {
+    margin-left: 37px;     margin-top: 18px; }
 
+p.logotextbottom {
+    margin-left: 54px;
+}
+
+}
+
+
+
+@media (min-width:1200px) {
 .rightblock {
     /* margin-right: -120px !important; */
     right: -26px !important;
     padding-top:10px;
 }
+}
 
+
+
+.rightblock {
+    right: 5px !important;
+    padding-top:10px;
+}
 
 
 
@@ -83,6 +145,14 @@ img.logotop {
 min-height: 37px ; 
 height: 37px }
 
+@media (min-width:768px) and (max-width:991px) {
+
+.navbar { 
+min-height: 35px ; 
+height: 35px }
+.greenlinebot { height:36px }
+
+}
 
 
 .right-aside {margin-top:-45px !important;}
@@ -125,15 +195,15 @@ height: 37px }
 .logo-akademia {
   background: url(/images/logo150.png) no-repeat;
   background-size: contain;
-  z-index:50;
+  background-position: top right;                        
+  width:110px; 
+  height:132px; 
+
+  z-index:700;
 /*   width:170px; 
  height:195px;
  width:165px; 
  height:185px; */ 
-  width:110px; 
-  height:132px;
-  
-  background-position: top right;
   position: absolute;
   top: 0;
   left:6px;
@@ -161,13 +231,19 @@ span.icos {
 }
 
 span.icos{
- display:none;
 top:4px
 }
+
+
 
 .skew-menu ul li:hover span.icos{ display:inherit; 
 }
 
+@media (min-width:768px) {
+
+span.icos{
+ display:none;
+}
 
 ul li:nth-child(1) span.icos {
     transform: scale(1.1) skew(25deg);
@@ -191,4 +267,149 @@ ul li:nth-child(5) span.icos {
    top:6px;
 }
 
+}
 
+
+
+
+@media (max-width:767px){
+span.icos { 
+    left: -10px;
+    top: 9px;
+    color: #fff;
+    transform: skew(0deg);
+    font-size:14px;
+}
+#topmen .navbar-nav>.active> .icos {color:#555}
+
+   .affix {
+    }
+}
+
+
+
+
+
+@media (max-width:768px) {
+
+.logo-akademia {
+left: 10px !important;
+width:80px !important;
+height:100px !important;
+
+}
+}
+
+@media (max-width:550px) {
+
+.logo-akademia {
+left: 10px !important;
+width:70px !important;
+
+}
+}
+
+
+@media (max-width:710px) {
+  .phone { font-size:29px !important; }
+  .logotext { font-size:20px; }
+}
+
+
+@media (max-width:686px) {
+  .phone { font-size:25px !important; }
+  .logotext { font-size:20px; }
+}
+@media (max-width:600px) {
+  .rightblock {margin-right:-8px;}
+  .phone { font-size:21px !important; }
+  .logotext { font-size:20px !important; }
+}
+@media (max-width:545px) {
+   .logotext {margin-left:0 !important}
+  .phone { font-size:18px !important; 
+}
+
+.foocol {width:13%}
+}
+
+.foocenter {margin-left:auto; margin-right:auto;dislay:block;}
+
+
+
+@media (max-width:500px) { .foocol {width:11%} }
+@media (max-width:460px) { .foocol {width:9%} }
+
+
+.justmobi {display:none}
+
+@media (max-width:530px) {
+.justmobi {display:block}
+.hidemobi {display:none}    
+.mob {width:76% !important }
+
+ .navbar-nav {     margin-left: 34% !important;} 
+
+}
+
+@media (max-width:409px) {
+
+.breadcrumb {font-size:11px}
+.justmobi .take {
+    position: absolute;
+    top: 62px;
+    right: initial !important;
+    left:60px;
+    font-size:15px !important;
+}
+ .navbar-nav { margin-left: 32% !important; } 
+
+}
+
+@media (max-width:385px) {
+ .navbar-nav { margin-left: 30% !important; } 
+.foot1 p {font-size:13px !important}
+}
+
+
+@media (max-width:350px) {
+.foot1 p {font-size:12px !important}
+
+.justmobi   .phone { font-size:16px !important; 
+}  
+ .breadcrumb {font-size:10px;
+padding: 6px 10px;}
+
+ .navbar-nav {     margin-left: 27% !important;} 
+
+  }
+  
+
+@media (max-width:330px) {
+ .navbar-nav {     margin-left: 25% !important;} 
+.foot1 p {font-size:11px !important}
+.justmobi   .phone { font-size:15px !important; } 
+.justmobi .take { font-size:14px !important; top: 61px !important; }
+
+ .breadcrumb {font-size:9px;
+ padding: 4px 10px;}
+
+   }
+
+
+
+.justmobi .phone {
+    right: -15px;
+    top: 47px;    
+    position: absolute;
+}
+
+.justmobi .take {
+    position: absolute;
+    top: 63px;
+    right: 140px;
+}
+
+
+
+#topmen.collapse.in { border-radius:4px;}

@@ -153,11 +153,16 @@ to {  -webkit-transform: none;
         -webkit-transform: perspective(400px) rotateX(10deg);
     }
 
-    100% {
+    95% {
         -webkit-transform: perspective(400px) rotateX(0deg);
         opacity: 1;
     }
+   100% { -webkit-transform: translate(0, 0);
+         opacity: 1;
+ }
 }
+
+
 @-moz-keyframes flipInX {
     0% {
         -moz-transform: perspective(400px) rotateX(90deg);
@@ -172,10 +177,14 @@ to {  -webkit-transform: none;
         -moz-transform: perspective(400px) rotateX(10deg);
     }
 
-    100% {
+    95% {
         -moz-transform: perspective(400px) rotateX(0deg);
         opacity: 1;
     }
+   100% { -moz-transform: translate(0, 0);
+         opacity: 1;
+ }
+
 }
 @-o-keyframes flipInX {
     0% {
@@ -191,10 +200,14 @@ to {  -webkit-transform: none;
         -o-transform: perspective(400px) rotateX(10deg);
     }
 
-    100% {
+    95% {
         -o-transform: perspective(400px) rotateX(0deg);
         opacity: 1;
     }
+   100% { -o-transform: translate(0, 0);
+         opacity: 1;
+ }
+
 }
 @keyframes flipInX {
     0% {
@@ -210,10 +223,14 @@ to {  -webkit-transform: none;
         transform: perspective(400px) rotateX(10deg);
     }
 
-    100% {
+    95% {
         transform: perspective(400px) rotateX(0deg);
         opacity: 1;
     }
+   100% { transform: translate(0, 0);
+         opacity: 1;
+ }
+
 }
 
 .animated.flipInX {
@@ -225,6 +242,10 @@ to {  -webkit-transform: none;
 	-o-animation-name: flipInX;
 	backface-visibility: visible !important;
 	animation-name: flipInX;
+
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+
 }
 
 
