@@ -283,3 +283,26 @@ Leftmenu::widget()
 
 </div>
 
+<?php 
+
+//peremotka vverh to active accordion, after click
+$this->registerJs(<<<JS
+
+var lanopt = $(".panel-group");
+
+lanopt.on("show.bs.collapse",".collapse", function(){
+   lanopt.find(".collapse.in").collapse("hide");
+   
+    var offset = $(this).find('.collapse.in').prev('.panel-heading');
+        if(offset) {
+            $('html,body').animate({
+                scrollTop: $('.panel-title a').offset().top -50
+            }, 500); 
+        }
+});
+
+JS
+, yii\web\View::POS_READY); ?>
+
+
+

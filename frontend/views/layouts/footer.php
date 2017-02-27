@@ -24,12 +24,26 @@ use yii\helpers\Html;
   <div class="col-xs-2 foocol visible-sm visible-xs"></div>
 
 <div class="col-md-3 col-xs-5 col4">
+
+<?php if (hm('site/dopuslugi')) {
+  ?>
+<p><a href="#">Дополнительные услуги</a></p>   
+ <p><a data-toggle="collapse" href="#specialsignals">Курс "Спецсигналы"</a></p>
+ <p><a data-toggle="collapse" href="#DOPOG">Курс "ДОПОГ"</a></p>
+ <p><a data-toggle="collapse" href="#instructor_training">Обучение инструкторов</a></p>
+ <p><a data-toggle="collapse" href="#Arenda_avtodroma">Аренда автодрома</a></p>
+ <p><a data-toggle="collapse" href="#consultation">Консультации</a></p>
+
+  <?php } else { ?>
 <p><a href="/dop-uslugi">Дополнительные услуги</a></p>   
  <p><a href="/dop-uslugi#specialsignals">Курс "Спецсигналы"</a></p>
  <p><a href="/dop-uslugi#DOPOG">Курс "ДОПОГ"</a></p>
  <p><a href="/dop-uslugi#instructor_training">Обучение инструкторов</a></p>
  <p><a href="/dop-uslugi#Arenda_avtodroma">Аренда автодрома</a></p>
  <p><a href="/dop-uslugi#consultation">Консультации</a></p>
+
+<?php } ?>
+
 </div>
 <div class="col-md-3 col-xs-12 my"><div class="vk"><BR/>
 <p><?php    echo Html::a(
@@ -131,6 +145,17 @@ $("#idmodal").modal('hide');
 });
 
 
+/*
+"use strict";
+function start5() {
+    if (jQuery("#specialsignals").hasClass("in")) {
+        jQuery("#specialsignals").removeClass("in");
+    } else {
+        jQuery("#specialsignals").addClass("in").css({
+            height: "auto !important"
+        });
+    }
+}*/
 
 JS
 , yii\web\View::POS_READY, 'contact-form'); ?>
