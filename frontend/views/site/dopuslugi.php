@@ -12,11 +12,10 @@ use yii\helpers\Html;
 
 
 $this->title = 'Дополнительные услуги';
-$this->params['breadcrumbs'][] = [
-                                   /* 'template' => "<li><b>{link}</b></li>\n", */
+/* $this->params['breadcrumbs'][] = [ /* 'template' => "<li><b>{link}</b></li>\n", 
                                     'label' => 'Автомотошкола', 
                                     'url' => ['/automotoschool'] 
-                                 ];
+                                 ]; */
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
