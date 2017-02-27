@@ -58,13 +58,13 @@ $this->title = 'Учебный центр "Академия"';
  <div class="row">
 <div class="col-xs-6  box1  cl-effect-12">
 <a style="display:block" href="/automotoschool">
-<img class="hvr-bounce-in img-responsive" src="../images/1car.png" width="365">
+<img class="hvr-bounce-in img-responsive" src="../images/1car.png">
 <p class="blocktitle anim_one">Автомотошкола</p></a>
 </div>
 <div class="forsafari">
 <div class="col-xs-6 box2 cl-effect-12">
 <a style="display:block" href="/samohodnaya-tehnika">
-<img class="hvr-wobble-to-top-right img-responsive" src="../images/2tr.png" width="325" style="margin-top: -1px;  margin-left: -5px;">
+<img class="hvr-wobble-to-top-right img-responsive" src="../images/2tr.png"  style="margin-top: -1px;  margin-left: -5px;">
 <p class="blocktitle anim_two">Самоходная техника</p>
 </a>
   </div></div>
@@ -79,13 +79,13 @@ $this->title = 'Учебный центр "Академия"';
   <div class="forsafari">
 <div class="col-xs-6  box3  cl-effect-12">
 <a style="display:block" href="/sudovozhdenie">
-<img class="boat img-responsive" src="../images/boat78.png" width="323" style="margin-top: -15px;" >
+<img class="boat img-responsive" src="../images/boat78.png" style="margin-top: -15px;" >
 <p class="blocktitle anim_three">Судовождение</p>
 </a>
   </div></div>
 <div class="col-xs-6  box4  cl-effect-12">
 <a style="display:block;" href="/dop-uslugi"> <!-- 22 -->
-<img class="hvr-wobble-top img-responsive" src="../images/yellow2.png" width="405" style="  margin-left: 30px; margin-top: 19px;">
+<img class="hvr-wobble-top img-responsive" src="../images/yellow2.png" style="margin-left: 30px; margin-top: 19px;">
 <p class="blocktitle anim_four">Дополнительные услуги</p>
 </a>
 </div></div>
@@ -141,7 +141,7 @@ $this->title = 'Учебный центр "Академия"';
 </div>
 
 <div class="mtwrap">
-<p class="mtext2" style="clear:both; margin-top:70px;text-align:justify">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
+<p class="mtext2" style="clear:both; text-align:justify">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
 Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
 Проанализировав накопившийся опыт, изучив европейскую систему подготовки водителей, 
 взяв на вооружение передовые технологии, мы разработали свои, адаптированные к нашим реалиям, 

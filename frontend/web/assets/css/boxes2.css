@@ -13,7 +13,7 @@
 
 #index .box1 {
     cursor:pointer;
-   	padding-left:20px;
+   padding-left:20px;
    -webkit-animation:slideInRight 1s forwards;
    animation:slideInRight 1s forwards;
 
@@ -32,6 +32,7 @@ animation:flipInXX 1s forwards;
    -moz-animation-delay: 1s;
    -o-animation-delay: 1s;
    animation-delay: 1s; }
+
 #index .box3 {
     cursor:pointer;
     -webkit-animation:flipInXX 1s forwards;
@@ -41,6 +42,7 @@ animation:flipInXX 1s forwards;
    -moz-animation-delay: 1.3s;
    -o-animation-delay: 1.3s;
    animation-delay: 1.3s; }
+
 #index .box4 {
 cursor:pointer;
     padding-left:0 !important;

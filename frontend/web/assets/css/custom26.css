@@ -20,17 +20,17 @@ a:focus {
 
 
 
-.mtext2 {text-align:left;  
+.mtext2 {
+margin-top:55px;
+text-align:left;  
 position: relative;
 padding:49px 60px 0px 60px;
 margin-bottom:50px;
 text-indent:50px;
 font-family: 'Myriadsetpro';
 font-size:21px;
-
 background: url(../../images/fon/line.jpg) 0 top  repeat-x;
-  width:100%;
-
+width:100%;
 opacity:.8;
 }
 
@@ -114,8 +114,11 @@ padding-bottom:50px;}
 
 
 
-.mtwrap {margin-left:15px; margin-right:15px; 
-/*padding-left:15px; padding-right:15px; 
+.mtwrap {
+
+/*
+margin-left:15px; margin-right:15px; 
+padding-left:15px; padding-right:15px; 
     background: url(../../img/bg.jpg);   */
 background:#fff;
 }
@@ -334,11 +337,6 @@ section.main {
      
 }}
 
-@media (max-width:768px) {
-
-.box1, .box2,.box3,.box4 { text-align: center !important; }
-
-}
 
 .box1, .box3 { text-align: right;}
 
@@ -2122,3 +2120,56 @@ color:#3a7849;
     text-decoration: underline;
 }
 #dopuslugi #accordion p {text-indent:60px !important;}
+
+#index .box1 img {width:365px}
+#index .box2 img {width:325px}
+#index .box3 img {width:323px}
+#index .box4 img {width:405px}
+
+
+
+#index .box1,#index .box2 { margin-top:31px !important; }
+#index .box3,#index .box4 { margin-top:30px !important; margin-bottom:30px; }
+
+@media (min-width:700px) and (max-width:991px) {
+#index .box1 img {width:298px}
+#index .box2 img {width:260px}
+#index .box3 img {width:259px}
+#index .box4 img {width:324px}
+#index .box3, #index .box4 {
+    margin-top: 0px !important;
+    margin-bottom: -30px;}
+}
+
+@media (max-width:499px) { 
+#index .box3, #index .box4 {
+    margin-top: -20px !important;
+    margin-bottom: -50px;}
+
+
+}
+
+@media (min-width:500px) and (max-width:699px) {
+#index .box1 img {width:268px}
+#index .box2 img {width:215px}
+#index .box3 img {width:215px}
+#index .box4 img {width:272px}
+
+#index .box3, #index .box4 {
+    margin-top: -20px !important;
+    margin-bottom: -40px;}
+
+
+}
+
+
+#index .box1 {padding-left:35px !important}
+#index .box2 {padding-left:35px !important}
+
+#index .box4 {padding-left:0px}
+
+@media (max-width:768px) {
+
+/*.box1, .box2,.box3,.box4 { text-align: center !important; }*/
+
+}
