@@ -152,17 +152,15 @@ var j=1;
 /* IE10-11 target END*/
 
 
-/* IF IE all version */
-if (!(window.clipboardData))
-{
-                    var j=1;
+/* IF not IE all version */
+//if (!(window.clipboardData)) { } has been corrected
+var j=1;
 [].forEach.call(mainblok, function(item) {
       //for IE11
       item.style["opacity"] = "0";
     j++;
 });
-          };
-
+          
 
 // if ie9 or > var isIE = false; if (window.navigator.msPointerEnabled) {    isIE = true;}
 //1 var isIE10 = !!navigator.userAgent.match(/MSIE 10/);

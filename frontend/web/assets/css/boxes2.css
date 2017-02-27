@@ -818,7 +818,7 @@ left: 56% !important;
 .anim_one {    margin-top:5px !important; }
 .anim_two {     text-indent: 54px !important }
 .anim_three {    margin-top:3px !important; }
-.anim_four {     text-indent: 110px !important; margin-top:12px !important;}
+.anim_four {     text-indent: 75px !important; margin-top:12px !important;}
 
 
 
@@ -990,3 +990,122 @@ left: 56% !important;
 
 
 .revealOnScroll { opacity: 0; }
+
+
+
+
+/* super-button */
+
+.wrapperb {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+.wrapperb:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://dl.dropboxusercontent.com/u/5233512/f2DRJ.png);
+}
+
+.innerb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -66px 0 0 -116px;
+}
+
+.buttonn {
+  position: absolute;
+  display: block;
+  width: 210px;
+  height: 32px;
+  color: green;
+  font-size: 16px;
+  line-height: 200%;
+  text-decoration: none;
+  text-align: center;
+  z-index: 1;
+}
+.buttonn span {
+  position: absolute;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  z-index: 1;
+}
+.buttonn .borderr {
+  border: 1px solid green;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+/*  background-color: rgba(0, 0, 0, 0.1);*/
+}
+.buttonn .topp, .buttonn .bottomm, .buttonn .leftt, .buttonn .rightt {
+  background-color: green;
+  height: 1px;
+  width: 0;
+}
+.buttonn .leftt, .buttonn .rightt {
+  height: 0;
+  width: 1px;
+}
+.buttonn .topp {
+  top: -5px;
+  left: -15px;
+}
+.buttonn .bottomm {
+  bottom: -5px;
+  right: -15px;
+}
+.buttonn .leftt {
+  top: -15px;
+  right: -5px;
+}
+.buttonn .rightt {
+  bottom: -15px;
+  left: -5px;
+}
+.buttonn:hover {
+  color: #fff;
+}
+.buttonn:hover .borderr {
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+}
+.buttonn:hover .topp, .buttonn:hover .bottomm {
+  width: 210px;
+}
+.buttonn:hover .leftt, .buttonn:hover .rightt {
+  height: 30px;
+}
+.buttonn:hover .topp {
+  left: -5px;
+}
+.buttonn:hover .bottomm {
+  right: -5px;
+}
+.buttonn:hover .leftt {
+  top: -5px;
+}
+.buttonn:hover .rightt {
+  bottom: -5px;
+}
+.buttonn .textt {
+  position: relative;
+  letter-spacing: .03em;
+}

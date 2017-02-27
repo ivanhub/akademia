@@ -84,7 +84,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="col-md-offset-1 col-md-10">
 <div class="col-sm-12 col-md-4">  
-        <div class="span3 pull-right-md animated fadeInLeft" style="" data-nohover="0" >
+        <div class="span3 pull-right-md animatedb fadeInLeft" style="" data-nohover="0" >
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -111,7 +111,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 <div class="forsafari">
-        <div class="span3 pull-center-md animated flipInY" style="animation-delay:.2s" data-nohover="0">
+        <div class="span3 pull-center-md animatedb flipInY" style="animation-delay:.2s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Двойной A+B"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -140,7 +140,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
       <div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
 
-        <div class="span3 pull-left-md animated fadeInRight" style="animation-delay:.4s" data-nohover="0">
+        <div class="span3 pull-left-md animatedb fadeInRight" style="animation-delay:.4s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>

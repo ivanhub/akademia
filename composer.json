@@ -23,9 +23,9 @@
         "leoshtika/yii2-nav-sidebar": "*",
         "alexandernst/yii2-device-detect": "^0.0.11",
         "skeeks/yii2-mobile-detect": "^1.0",
-        "onmotion/yii2-gallery": "*",
         "kartik-v/yii2-widget-sidenav": "*",
-        "branchonline/yii2-lightbox": "*"
+        "branchonline/yii2-lightbox": "*",
+        "onmotion/yii2-gallery": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

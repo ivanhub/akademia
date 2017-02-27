@@ -84,9 +84,9 @@ $this->title = 'Учебный центр "Академия"';
 </a>
   </div></div>
 <div class="col-xs-6  box4  cl-effect-12">
-<a style="display:block;" href="/safety-driving"> <!-- 22 -->
+<a style="display:block;" href="/dop-uslugi"> <!-- 22 -->
 <img class="hvr-wobble-top img-responsive" src="../images/yellow2.png" width="405" style="  margin-left: 30px; margin-top: 19px;">
-<p class="blocktitle anim_four">Защитное вождение</p>
+<p class="blocktitle anim_four">Дополнительные услуги</p>
 </a>
 </div></div>
 
@@ -152,17 +152,17 @@ $this->title = 'Учебный центр "Академия"';
 <div class="text-center  akcii">
 
 <div class="insideakcii">
-<!--<h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Наши акции:</h2></div>
+<h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Наши акции:</h2></div>
 <img style="margin-top:-15px;" src="../../images/pics/baner50.png" class="saleimg" width="250px" >
--->
-  <img style="margin-top:-15px;" src="../../images/pics/bnew11.png" class="saleimg" width="250px" >
+
+ <!-- <img class="" style="margin-top:-15px;" src="../../images/pics/bnew11.png" class="saleimg" width="250px" >-->
 &nbsp;
- <img style="margin-top:-15px;" src="../../images/pics/banner2g.png" class="saleimg" width="250px" >
+ <img class="" style="margin-top:-15px;" src="../../images/pics/banner2g.png" class="saleimg" width="250px" >
  &nbsp;&nbsp;
-   <img style="margin-top:-15px;" src="../../images/pics/bnew22.png" class="saleimg" width="250px" >
-<!--
+ <!--  <img class="" style="margin-top:-15px;" src="../../images/pics/bnew22.png" class="saleimg" width="250px" >-->
+
  <img style="margin-top:-15px;" src="../../images/pics/banner61.png" class="saleimg" width="250px" >
- -->
+ 
  </div>
 <div class="white255"></div>
 

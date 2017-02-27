@@ -51,7 +51,20 @@ use yii\helpers\Html;
     'data-target' => '#idmodal',
     'data-which' => '8',
   ]
-    ); ?></p>
+    ); ?></p> 
+
+  <!--  <div class="wrapperb">
+    <p class="innerb">
+        <a href="/" class="buttonn">
+            <span class="borderr"></span>
+            <span class="topp"></span>
+            <span class="rightt"></span>
+            <span class="bottomm"></span>
+            <span class="leftt"></span>
+            <span class="textt">Запись на обучение</span>
+        </a>
+    </p>
+</div>http://codepen.io/anon/pen/mWJmmm?editors=1100-->
 <p style="margin-left:-10px">  <a target="blank" href="https://vk.com/club66648747" class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></a><a href="https://vk.com/club66648747" target="blank" class="myvk">Мы Вконтакте</a></p><BR/>
 <!--<div class="hi-icon-effect-8 "> -->
 

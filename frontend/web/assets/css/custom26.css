@@ -2017,7 +2017,7 @@ color:#3a7849;
     position: relative;
     left: -4px;
     top: 4px;
-    background: url(../../images/pics/gal5.png) center center no-repeat;
+    background: url(../../images/pics/gal11.png) center center no-repeat;
     width: 30px;
     height: 30px;
 }
@@ -2032,6 +2032,21 @@ color:#3a7849;
     width: 30px;
     height: 30px;
 }
+
+
+.gal4 li::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    left: -4px;
+    top: 5px;
+    background: url(../../images/pics/gal8.png) center center no-repeat;
+    background-size:85%;
+    width: 24px;
+    height: 24px;
+}
+
+
 
 .gal3 li::before {
     content: "";
@@ -2100,3 +2115,9 @@ color:#3a7849;
 
 
 
+
+
+#dopuslugi .panel-group a:hover {
+    text-decoration: underline;
+}
+#dopuslugi #accordion p {text-indent:60px !important;}
