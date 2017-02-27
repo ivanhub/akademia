@@ -94,10 +94,10 @@ Leftmenu::widget()
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title text-center">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Курс "Спецсигналы"</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#specialsignals">Курс "Спецсигналы"</a>
         </h4>
       </div>
-      <div id="collapse1" class="panel-collapse collapse">
+      <div id="specialsignals" class="panel-collapse collapse">
         <div class="panel-body"><p>
          Подготовка водителей к управлению транспортными средствами категории «А»,
     «В», «С» и «D» оборудованными устройствами для подачи специальных световых
@@ -150,10 +150,10 @@ Leftmenu::widget()
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title text-center">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Курс "Перевозка опасных крузов (ДОПОГ)"</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#DOPOG">Курс "Перевозка опасных крузов (ДОПОГ)"</a>
         </h4>
       </div>
-      <div id="collapse2" class="panel-collapse collapse">
+      <div id="DOPOG" class="panel-collapse collapse">
         <div class="panel-body">
 
 <div class="post-bodycopy clearfix">
@@ -201,10 +201,11 @@ Leftmenu::widget()
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title text-center">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><img src="../images/pics/q4.png" width="50" style="margin-right:15px">Курс "Обучение инструкторов по вождению"</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#instructor_training">
+          <img src="../images/pics/q4.png" width="50" style="margin-right:15px">Курс "Обучение инструкторов по вождению"</a>
         </h4>
       </div>
-      <div id="collapse3" class="panel-collapse collapse">
+      <div id="instructor_training" class="panel-collapse collapse">
         <div class="panel-body">
 <p><b>Наш Учебный Центр</b> проводит подготовку мастеров производственного обучения как для получения права на обучение вождению, так и для его подтверждения (1 раз в 3 года). </p>
 
@@ -231,11 +232,11 @@ Leftmenu::widget()
         <div class="panel panel-default">
       <div class="panel-heading"  style="padding: 15px 15px;">
         <h4 class="panel-title text-center">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+          <a data-toggle="collapse" data-parent="#accordion" href="#Arenda_avtodroma">
           <img src="../images/pics/q22.png" width="55" style="margin-right:15px">Аренда автодрома</a>
         </h4>
       </div>
-      <div id="collapse4" class="panel-collapse collapse">
+      <div id="Arenda_avtodroma" class="panel-collapse collapse">
         <div class="panel-body">
 
 <p style="text-indent:60px"><strong>Учебный центр «Академия»</strong> имеет свою собственную, не арендованную, оборудованную учебную площадку.
@@ -251,10 +252,10 @@ Leftmenu::widget()
         <div class="panel panel-default">
       <div class="panel-heading" style="padding: 15px 15px;">
         <h4 class="panel-title text-center">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><img src="../images/pics/q44.png" width="50" style="margin-right:15px">Консультации</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#consultation"><img src="../images/pics/q44.png" width="50" style="margin-right:15px">Консультации</a>
         </h4>
-      </div>
-      <div id="collapse5" class="panel-collapse collapse">
+      </div><a name="consultation"></a>
+      <div id="consultation" class="panel-collapse collapse">
         <div class="panel-body"  style="text-indent:60px"><p>
             Консультации по приобретению, эксплуатации, хранению мотоцикла, выбору запчастей.
 
@@ -264,7 +265,6 @@ Leftmenu::widget()
       </div>
     </div>
 </div>
-
 
 
 

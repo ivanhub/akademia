@@ -6,42 +6,30 @@ use yii\helpers\Html;
 
 <div class=" foot1">
 <div class="row">
-<div class="col-md-1 col-xs-2 foocol"></div>
+<div class="col-md-2 col-xs-2 foocol"></div>
 
-<div class="col-md-2 col-xs-5">
+<div class="col-md-3 col-xs-5">
  <p><a href="/automotoschool">Автомотошкола</a></p>   
  <p><a href="/automotoschool/A">Категория А</a></p>
   <p><a href="/automotoschool/B">Категория B</a></p>
- <p><a href="/postupayushchim">Запись на обучение</a></p>
+  <p style="padding-top:5px"><b><a href="/samohodnaya-tehnika">Самоходная техника</a></b></p>
+  <p style="padding-top:5px"><b><a href="/sudovozhdenie">Судовождение</a></b></p>   
+ <!-- <p><a href="/postupayushchim">Запись на обучение</a></p>
  <p><a href="/raspisanie">Расписание занятий</a></p>
- <!-- <p><a href="/our-advantages">Наши преимущества</a></p> -->
- <p><a href="/dop-uslugi">Дополнительные услуги</a></p>
+ <p><a href="/our-advantages">Наши преимущества</a></p>
+ <p><a href="/dop-uslugi">Дополнительные услуги</a></p> -->
  </div>
- <div class="col-md-2 col-xs-5">
- <p><a href="/samohodnaya-tehnika">Самоходная техника</a></p>   
- <p>Расписание</p>
-  <p>Условия обучения</p>
- <p>Поступающим</p>
- <p>Учащимся</p>
- <p>Дополнительные услуги</p>
-</div>
+
   <div class="clearfix visible-sm"></div>
   <div class="col-xs-2 foocol visible-sm visible-xs"></div>
-<div class="col-md-2 col-xs-5 col3">
-<p><a href="/sudovozhdenie">Судовождение</a></p>   
- <p>Расписание</p>
-  <p>Условия обучения</p>
- <p>Поступающим</p>
- <p>Учащимся</p>
- <p>Дополнительные услуги</p>
-</div>
-<div class="col-md-2 col-xs-5 col4">
-<p><a href="/safety-driving">Защитное вождение</a></p>   
- <p>Расписание</p>
-  <p>Условия обучения</p>
- <p>Поступающим</p>
- <p>Учащимся</p>
- <p>Дополнительные услуги</p>
+
+<div class="col-md-3 col-xs-5 col4">
+<p><a href="/dop-uslugi">Дополнительные услуги</a></p>   
+ <p><a href="/dop-uslugi#specialsignals">Курс "Спецсигналы"</a></p>
+ <p><a href="/dop-uslugi#DOPOG">Курс "ДОПОГ"</a></p>
+ <p><a href="/dop-uslugi#instructor_training">Обучение инструкторов</a></p>
+ <p><a href="/dop-uslugi#Arenda_avtodroma">Аренда автодрома</a></p>
+ <p><a href="/dop-uslugi#consultation">Консультации</a></p>
 </div>
 <div class="col-md-3 col-xs-12 my"><div class="vk"><BR/>
 <p><?php    echo Html::a(
