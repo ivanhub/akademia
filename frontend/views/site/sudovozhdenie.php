@@ -48,8 +48,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <td style="background-color: transparent;"></td>
 </tr>
 <tr>
-<td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/boat.png" alt="" height="136" width="246"><p></p>
-</td><td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/watercraft.png" alt="" width="240" height="136"></td>
+<td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/boat.png" class="img-responsive" alt="" height="136" width="246"><p></p>
+</td><td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/watercraft.png" class="img-responsive" alt="" width="240" height="136"></td>
 </tr>
 
 </tbody>

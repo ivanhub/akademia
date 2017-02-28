@@ -981,31 +981,9 @@ aside p {
 
 
 
-h1,h2,h6 {
-    color: #232323 !important;
-    font-family: 'Myriadsetpro', sans-serif;
-    font-size:30px !important;
-}
 
 .siteblock {     font-family: 'Myriadsetpro';  }
 
-#distance .site-distance p, .safetydriving {font-size:19px;}
-
-
-.post-bodycopy{font-size:17px;}
-
-h5,h4 {
-    font-family: 'Myriadsetpro';
-    color:#343434;
-    line-height:1 !important;
-}
-
-h4,h5 {
-    font-size: 30px !important;
-}
-
-h5 {margin-top:25px;}
-h4 + p, h5 + p { margin-top:0 !important; }
 
 aside img { margin: 0 12px 7px 0;}
 
@@ -1050,7 +1028,7 @@ section.map.full-width {  margin-top: 0 !important; height:0;}
 .page-footer { margin-top:0; }
 
 
-.foot1 { height:150px; padding-top:30px; margin-bottom:20px;}
+.foot1 { height:150px; padding-top:30px; margin-bottom:25px;}
 .foot1 p:first-child, .my {font-weight:bolder; font-size:15px; padding-bottom:5px;}
 /* .foot1 p:not(:first-child) {text-indent:15px;}
 
@@ -1505,4 +1483,63 @@ filter: alpha(opacity=80);
 
 .modal-backdrop.in {
 background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/* Font size */
+h1,h2,h6 {
+    color: #232323 !important;
+    font-family: 'Myriadsetpro', sans-serif;
+    font-size: calc(20px + 0.9vw);
+}
+
+
+h5,h4 {
+    font-family: 'Myriadsetpro';
+    color:#343434;
+    line-height:1 !important;
+}
+
+h4,h5 {
+    font-size: calc(20px + 0.9vw);
+}
+
+h5 {margin-top:25px;}
+h4 + p, h5 + p { margin-top:0 !important; }
+.exam h5 {font-size:19px !important}
+
+#aboutus h4.panel-title {
+font-size: calc(15px + 0.8vw) !important;
+text-align:justify;
+}
+
+
+@media (max-width:767px) {
+ .site-distance {
+    margin-bottom: 0 !important;
+}
+}
+@media (max-width:360px) {
+
+.site-distance.siteblock {
+    width: 90% !important;
+}
+
+#aboutus h4.panel-title {
+text-align:center;
+}
+
+}
+
+
+.post-bodycopy{ font-size: calc(13px + 0.3vw)}
+
+#distance .site-distance p, .safetydriving {font-size: calc(13px + 0.4vw)}
+
+.texts {font-size: calc(12px + 0.4vw);   margin-top:10px;}
+
+@media (max-width:550px) {
+.texts {margin-left:30px;}
 }

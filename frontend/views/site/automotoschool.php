@@ -39,13 +39,13 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-xs-6">
  <div class="blockBB AA1">
  <a href="/automotoschool/A"  title="Выберите категорию">
- <img class="" src="../../images/pics/AA.png" width="260px">
+ <img class="img-responsive" src="../../images/pics/AA.png">
    </a></div></div>
 
 <div class="col-xs-6">
  <div class="blockBB BB1">
  <a href="/automotoschool/B">
- <img  class="B1" src="../../images/pics/b-l.png" width="260px" title="Выберите категорию">
+ <img  class="B1 img-responsive" src="../../images/pics/b-l.png" title="Выберите категорию">
  </a>
 </div></div>
 
@@ -300,8 +300,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-md-4 col-sm-6 col-xs-12">
  <div class="box bx1">
 <div class="style5" id="style5">
- <div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-road fa-3x"></span></div>
-<div class="col-sm-9"><div class="inside1 advpr">Собственный Автодром</div></div>
+ <div class="col-xs-3"><span class="inside vc_icon_element-icon fa fa-road fa-3x"></span></div>
+<div class="col-xs-9"><div class="inside1 advpr">Собственный Автодром</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Собственный Автодром</p>
   <p class="xi-text">Автошкола Академия имеет свой собственный учебный автодром.
   Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование.
@@ -311,8 +311,8 @@ $this->params['breadcrumbs'][] = $this->title;
  <div class="box bx4">
 
 <div class="style5">
-<div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-handshake-o fa-3x"></span></div>
-<div class="col-sm-9"><div class="inside1 advpr2">Обучение без ОБМАНА - Все часы вождения!!!</div></div>
+<div class="col-xs-3"><span class="inside vc_icon_element-icon fa fa-handshake-o fa-3x"></span></div>
+<div class="col-xs-9"><div class="inside1 advpr2">Обучение без ОБМАНА - Все часы вождения!!!</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Обучение без ОБМАНА - Все часы вождения!!!</p>
   <p class="xi-text">Мы заинтересованы в качественном обучении студентов и успешной сдаче экзаменов в ГИБДД. От этого зависит наша репутация. 
 В нашем учебном центре прозрачная система обучения. Мы всегда открыты для вас. Задача центра НАУЧИТЬ вас водить,
@@ -324,8 +324,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
  <div class="box bx2">
 <div class="style5 cntr">
-<div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
-<div class="col-sm-9"> <div class="inside1 advpr2">Рассрочка платежа на весь период обучения.</div></div>
+<div class="col-xs-3"><span class="inside vc_icon_element-icon fa fa-rub  fa-3x"></span></div>
+<div class="col-xs-9"> <div class="inside1 advpr2">Рассрочка платежа на весь период обучения.</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Рассрочка платежа на весь период обучения.</p>
   <p class="xi-text">Первоначальный взнос от 5 000 р. Остальную сумму Вы оплачиваете в период всего обучения.</p></div> </new> 
 </div>
@@ -333,13 +333,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
  <div class="box bx5">
 <div class="style5 cntr">
-<div class="col-sm-3"><span class="inside fa-stack">
+<div class="col-xs-3"><span class="inside fa-stack">
   <i class="fa fa-desktop fa-stack-2x"></i>
   <i class="fa fa-car fa-stack-1x" style="top:auto;bottom:17%;%;left:-1%"></i>
   <i class="fa fa-circle fa-badge-bg fa-inverse2 fa-outline-inverse" style="top:45%;left:55%"></i>
   <i class="fa fa-user fa-badge"style="left:55%"></i>
 </span></div>
-<div class="col-sm-9"> <div class="inside1 advpr2" >Тренажер для первоначальных навыков</div></div>
+<div class="col-xs-9"> <div class="inside1 advpr2" >Тренажер для первоначальных навыков</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Тренажер для первоначальных навыков</p>
   <p class="xi-text">Занятия на автотренажере в нашей автошколе являются обязательными по программе обучения. Обучить курсантов автошкол 
 базовым навыкам управления автомобилей с механической КПП позволяет виртуальное вождение автомобиля на тренажере.</p></div> </new> 
@@ -355,8 +355,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
  <div class="box bx3">
 <div class="style5 lst">
-<div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
-<div class="col-sm-9"><div class="inside1 advpr2">Современные оборудованные классы</div></div>
+<div class="col-xs-3"><span class="inside vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
+<div class="col-xs-9"><div class="inside1 advpr2">Современные оборудованные классы</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Современные оборудованные классы</p>
   <p class="xi-text sml">Учебные классы оборудованы всем необходимым инвентарем,  тематическими плакатами, компьютерами и тренажерами для 
 первоначальных навыков вождения. У нас большая видеотека с обучающими роликами. Доверившись нам, вы 
@@ -365,8 +365,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="box bx6">
 <div class="style5 lst">
-<div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
-<div class="col-sm-9"> <div class="inside1 advpr2">Помощь в прохождении медицинской комиссии</div></div>
+<div class="col-xs-3"><span class="inside vc_icon_element-icon fa fa-medkit fa-3x"></span></div>
+<div class="col-xs-9"> <div class="inside1 advpr2">Помощь в прохождении медицинской комиссии</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Помощь в прохождении медицинской комиссии</p>
   <p class="xi-text">
   Мы поможем вам пройти медицинскую комиссию в самые короткие сроки и без очередей.<br/> Для удобства наших учеников мы организовываем медицинскую комиссию в Автошколе! * ООО «АсокмаМед» лицензия № ЛО-63-01-002110 от 31.07.2013 г.</p>
@@ -377,16 +377,15 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
    
 
-    </div>
+   
 
-    <div class="row">
 <div class="col-md-4 col-sm-6 col-xs-12">
 
 <div class="box bx7">
 <div class="style5">
-<div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-car fa-3x"></span>
+<div class="col-xs-3"><span class="inside vc_icon_element-icon fa fa-car fa-3x"></span>
 </div>
-<div class="col-sm-9"><div class="inside1 advpr2">Парк новых автомобилей и мотоциклов </div></div>
+<div class="col-xs-9"><div class="inside1 advpr2">Парк новых автомобилей и мотоциклов </div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Парк новых автомобилей и мотоциклов </p>
   <p class="xi-text">Срок их эксплуатации не превышает 4-х лет, поэтому техническое состояние транспортных средств находится на
 очень достойном уровне. Все машины оснащены видео- и аудиосистемами регистрации.</p></div> </new> 
@@ -398,8 +397,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <div class="box bx8">
 <div class="style5 cntr">
-<div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
-<div class="col-sm-9"> <div class="inside1 advpr">Бесплатная литература</div></div>
+<div class="col-xs-3"><span class="inside vc_icon_element-icon fa fa-leanpub fa-3x"></span></div>
+<div class="col-xs-9"> <div class="inside1 advpr">Бесплатная литература</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Бесплатная литература</p>
   <p class="xi-text">Всю необходимую литературу: экзаменационные билеты, правила дорожного движения, методички Вы получите на первом 
 теоретическом занятии.</p></div> </new> 
@@ -414,16 +413,15 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="box bx9">
         <div class="style5 lst">
 <!--             <div class="x99"></div>
- --><div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
-<div class="col-sm-9"> <div class="inside1 advpr2 advprm">Сопровождение на экзамене</div></div>
+ --><div class="col-xs-3"><span class="inside vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
+<div class="col-xs-9"> <div class="inside1 advpr2 advprm">Сопровождение на экзамене</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Сопровождение на экзамене</p>
   <p class="xi-text">Мы подготовим пакет документов для сдачи экзамена, предоставим учебные автомобили и мотоциклы на экзамены в ГИБДД. Представитель автошколы будет сопровождать Вас на протяжении всего экзамена.</p></div> </new> </div>
         </div>
 
 
         </div>
-</div>
-</div>
+</div>    </div>
 
 </div>
 
@@ -443,7 +441,7 @@ elseif (stripos( $user_agent, 'Safari') !== false)
 
 <h5 style="font-size:40px !important" class="text-center hideme" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  </div>
- <ul class=" preimul2 in60in gal">
+ <ul class=" preimul2 lr10 gal text-justify">
   <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
  <li style="animation-duration: 1s; animation-delay: .5s;"> Организация и предоставление учебных транспортных средств на первичные экзамены (выпускной и ГИБДД).</li>
  <li style="animation-duration: 1s; animation-delay: 1s;"> Учебная литература в подарок: экзаменационные билеты, правила дорожного движения, 

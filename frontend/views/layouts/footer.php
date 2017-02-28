@@ -12,8 +12,10 @@ use yii\helpers\Html;
  <p><a href="/automotoschool">Автомотошкола</a></p>   
  <p><a href="/automotoschool/A">Категория А</a></p>
   <p><a href="/automotoschool/B">Категория B</a></p>
-  <p style="padding-top:5px"><b><a href="/samohodnaya-tehnika">Самоходная техника</a></b></p>
-  <p style="padding-top:5px"><b><a href="/sudovozhdenie">Судовождение</a></b></p>   
+  <p style="padding-top:2px"><b><a href="/samohodnaya-tehnika">Самоходная техника</a></b></p>
+  <p style="padding-top:2px"><b><a href="/sudovozhdenie">Судовождение</a></b></p>   
+  <p style="padding-top:2px"><b><a href="/safety-driving">Защитное вождение</a></b></p>   
+
  <!-- <p><a href="/postupayushchim">Запись на обучение</a></p>
  <p><a href="/raspisanie">Расписание занятий</a></p>
  <p><a href="/our-advantages">Наши преимущества</a></p>

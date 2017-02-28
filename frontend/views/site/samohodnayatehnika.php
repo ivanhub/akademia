@@ -80,25 +80,27 @@ $this->params['breadcrumbs'][] = $this->title;
 </tbody>
 </table>
 <br/><br/>
-<table style="width: 100%;">
-<tbody>
-<tr>
-<td>
-
-
+<div class="row">
+<div class="col-xs-6 text-center">
+<div id='pics_container  text-center'>
 <?php echo  Lightbox::widget([
     'files' => [
         [
             'thumb' => '../images/thmb/yd-th.jpg',
             'original' => 'http://samarapb.ru/documents/avto/yd.png',
             'title' => 'Удостоверение тракториста',
+             'thumbOptions' => [
+            'class' => 'img-responsive' ]
+      
         ],
         
     ]
 ]); ?>
+</div>
+</div>
+<div class="col-xs-6 text-center">
+<div id='pics_container text-center'>
 
-</td>
-<td>
     <?php echo  Lightbox::widget([
     'files' => [
   
@@ -106,15 +108,14 @@ $this->params['breadcrumbs'][] = $this->title;
             'thumb' => '../images/thmb/vr-th.jpg',
             'original' => 'http://samarapb.ru/documents/avto/vr.png',
             'title' => 'Временное разрешение',
+             'thumbOptions' => [
+            'class' => 'img-responsive2' ]
         ],
     ]
 ]); ?>
-
-</td>
-
-</tr>
-</tbody>
-</table>
+</div>
+</div>
+</div>
 <br/><br/>
 <p class="text">В графе удостоверения тракториста-машиниста (тракториста) «Особые отметки» производятся информационные, ограничительные и разрешительные отметки.</p>
 <p class="text">Удостоверение тракториста-машиниста (тракториста) выдается <strong>на 10 лет</strong>.</p>
@@ -155,12 +156,12 @@ $this->params['breadcrumbs'][] = $this->title;
      
         <div class="row ">
 
-            <div class="col-md-offset-4 col-md-4">
+            <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" title="Нажмите, чтобы раскрыть список">
 
                 <div class="style5">
-                <div class="col-sm-3"><span class=" fa fa-graduation-cap fa-2x"></span></div>
-                <div class="col-sm-9"><div class="advpr2"><h5 style="font-size:20px !important">Порядок сдачи экзаменов</h5></div></div>
+                <div class="col-xs-3"><span class=" fa fa-graduation-cap fa-2x"></span></div>
+                <div class="col-xs-9 exam"><div class="advpr2"><h5 style="">Порядок сдачи экзаменов</h5></div></div>
                 </div>
                             </a>
 

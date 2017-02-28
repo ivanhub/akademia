@@ -519,13 +519,11 @@ var myConfig =         {
               
                       "mirrored":true,
                 "line-color":"none",
-                "values":["Ознакомительное занятие",
-                          "Заключение договора",
+                "values":["Заключение договора",
                           "Медкомиссия",
-                          "Руление",
-                          "Тренажеры", "Автодром", "Город"
+                          "Тренажеры (Руление)", "Автодром", "Город"
                          , "Теория", "Экзамен по теории", 
-                         "Экзамен Автодром","Экзамен Город"],
+                         "Экзамен Автодром"],
                 "tick":{
                     "visible":false
                 },
@@ -543,19 +541,32 @@ var myConfig =         {
                         },
                         {
                             "rule":"%i==1",
+                           "font-color":"#FA8452"
+
+                        },
+                       {
+                            "rule":"%i==2",
                             "font-color":"#FCAE48"
                         },
                         {
-                            "rule":"%i==2",
+                            "rule":"%i==3",
                             "font-color":"#FCCC65"
                         },
                         {
-                            "rule":"%i==3",
+                            "rule":"%i==4",
                             "font-color":"#A0BE4A"
                         },
                         {
-                            "rule":"%i==4",
+                            "rule":"%i==5",
                             "font-color":"#6FA6DF"
+                        },
+                      {
+                            "rule":"%i==6",
+                            "font-color":"#6FA6DF"
+                        },
+                      {
+                            "rule":"%i==7",
+                            "font-color":"#5c5a8b"
                         }
                     ]
                 }
@@ -599,11 +610,11 @@ var myConfig =         {
                 "x": "199px",
                 "y": 79,
                 "backgroundColor": "white",
-                "borderColor":"#6FA6DF",
-                "borderWidth":4,
-                "size": 5
+                "borderColor":"lightgray",
+                "borderWidth":2,
+                "size": 7
               },
-               {
+              {
                 "type":"circle",
                 "x": "199px",
                 "y": 79,
@@ -612,10 +623,20 @@ var myConfig =         {
                 "borderWidth":4,
                 "size": 5
               },
-                       {
+                             {
                 "type":"circle",
                 "x": "199px",
-                "y": 118,
+                "y": 115,
+                "backgroundColor": "white",
+                "borderColor":"lightgray",
+                "borderWidth":2,
+                "size": 7
+              },
+            
+                                      {
+                "type":"circle",
+                "x": "199px",
+                "y": 115,
                 "backgroundColor": "white",
                 "borderColor":"#6FA6DF",
                 "borderWidth":4,
@@ -624,85 +645,126 @@ var myConfig =         {
                        {
                 "type":"circle",
                 "x": "199px",
-                "y": 156,
+                "y": 152,
+                "backgroundColor": "white",
+                "borderColor":"lightgray",
+                "borderWidth":2,
+                "size": 7
+              },       
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 152,
                 "backgroundColor": "white",
                 "borderColor":"#6FA6DF",
                 "borderWidth":4,
                 "size": 5
               },
-                       {
+              {
                 "type":"circle",
                 "x": "199px",
-                "y": 195,
+                "y": 188,
                 "backgroundColor": "white",
-                "borderColor":"#6FA6DF",
-                "borderWidth":4,
-                "size": 5
+                "borderColor":"lightgray",
+                "borderWidth":2,
+                "size": 7
               },
                        {
                 "type":"circle",
                 "x": "199px",
-                "y": 234,
-                "backgroundColor": "white",
-                "borderColor":"#6FA6DF",
-                "borderWidth":4,
-                "size": 5
-              },
-                       {
-                "type":"circle",
-                "x": "199px",
-                "y": 271,
-                "backgroundColor": "white",
-                "borderColor":"#6FA6DF",
-                "borderWidth":4,
-                "size": 5
-              },
-                       {
-                "type":"circle",
-                "x": "199px",
-                "y": 309,
-                "backgroundColor": "white",
-                "borderColor":"#6FA6DF",
-                "borderWidth":4,
-                "size": 5
-              },
-                       {
-                "type":"circle",
-                "x": "199px",
-                "y": 347,
-                "backgroundColor": "white",
-                "borderColor":"#6FA6DF",
-                "borderWidth":4,
-                "size": 5
-              },
-                       {
-                "type":"circle",
-                "x": "199px",
-                "y": 386,
-                "backgroundColor": "white",
-                "borderColor":"#6FA6DF",
-                "borderWidth":4,
-                "size": 5
-              },
-                       {
-                "type":"circle",
-                "x": "199px",
-                "y": 424,
+                "y": 188,
                 "backgroundColor": "white",
                 "borderColor":"#6FA6DF",
                 "borderWidth":4,
                 "size": 5
               },
               
-                                     {
+              {
                 "type":"circle",
                 "x": "199px",
-                "y": 462,
+                "y": 224,
                 "backgroundColor": "white",
                 "borderColor":"#6FA6DF",
                 "borderWidth":4,
                 "size": 5
               },
+              {
+                "type":"circle",
+                "x": "199px",
+                "y": 224,
+                "backgroundColor": "white",
+                "borderColor":"lightgray",
+                "borderWidth":2,
+                "size": 7
+              },
+              
+              {
+                "type":"circle",
+                "x": "199px",
+                "y": 224,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+              
+              {
+                "type":"circle",
+                "x": "199px",
+                "y": 260,
+                "backgroundColor": "white",
+                "borderColor":"lightgray",
+                "borderWidth":2,
+                "size": 7
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 260,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+              {
+                "type":"circle",
+                "x": "199px",
+                "y": 297,
+                "backgroundColor": "white",
+                "borderColor":"lightgray",
+                "borderWidth":2,
+                "size": 7
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 297,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                {
+                "type":"circle",
+                "x": "199px",
+                "y": 333,
+                "backgroundColor": "white",
+                "borderColor":"lightgray",
+                "borderWidth":1,
+                "size": 8
+              },
+                       {
+                "type":"circle",
+                "x": "199px",
+                "y": 333,
+                "backgroundColor": "white",
+                "borderColor":"#6FA6DF",
+                "borderWidth":4,
+                "size": 5
+              },
+                       
+                 
+              
               
               
              
@@ -711,7 +773,7 @@ var myConfig =         {
             "series":[
             
                 {
-                    "values":[0,0,0,13,16,28,41,8,90,91,92],
+                    "values":[0,0,5,21,30,7,79,80,81],
                     "bar-width":"32px",
                     "max-trackers":0,
                     "background-color":"transparent"
@@ -719,7 +781,7 @@ var myConfig =         {
                   
                 },
               {
-                    "values":[1,13,13,2,4,13,36,81,1,1,1], 
+                    "values":[5,5,15,8,36,71,1,1], 
                           "animation": {
                     "delay": "1000",
                     "effect": 3, //3
@@ -737,64 +799,48 @@ var myConfig =         {
                         "placement":"top-out",
                         "text":"%v день",
                         "decimals":0,
-                        "font-color":"#A4A4A4",
+                        "font-color":"#979595",
                         "font-size":"14px",
                         "alpha":1,
                      "rules":[
                         {
                             "rule":"%i==0",
-                            "font-color":"#FA8452",
-                        "text":"1 день",
-
+                        "text":"1-5 день",
                         },
                         {
                             "rule":"%i==1",
-                            "text":"1-13 день",
-
+                            "text":"1-5 день",
                         },
                         {
                             "rule":"%i==2",
-                            "text":"1-13 день",
-
+                            "text":"6-21 день",
                         },
                         { 
                             "rule":"%i==3",
-                            "text":"14-15 день",
+                            "text":"22-30 день",
 
                         },
                         {
                             "rule":"%i==4",
-                            "text":"16-22 день",
+                            "text":"31-67 день",
 
                         },
                        {
                             "rule":"%i==5",
-                            "text":"28-41 день",
+                            "text":"8-79 день",
 
                         },
-                        {
-                            "rule":"%i==6",
-                            "text":"41-77 день",
-
-                        }, 
-                      {
-                            "rule":"%i==7",
-                            "text":"8-89 день",
-                        },
+                        
                       {
                             "rule":"%i==8",
-                            "text":"90 день",
+                            "text":"80 день",
 
                         },
                       {
                             "rule":"%i==9",
-                            "text":"91 день",
+                            "text":"81 день",
                         },
-                      {
-                            "rule":"%i==10",
-                            "text":"92 день",
-                        },
-                      
+                                           
                     ],
                     },
                 
@@ -813,7 +859,7 @@ var myConfig =         {
 zingchart.render({ 
   id : 'myChart', 
   data : myConfig, 
-  height:'100%',
+  height:'370px',
   width:'100%',
   'min-height':'150px'
 });
