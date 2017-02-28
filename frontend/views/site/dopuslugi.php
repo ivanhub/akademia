@@ -252,7 +252,7 @@ Leftmenu::widget()
         <div class="panel panel-default">
       <div class="panel-heading" style="padding: 15px 15px;">
         <h4 class="panel-title text-center">
-          <a data-toggle="collapse" data-parent="#accordion" href="#consultation"><img src="../images/pics/q44.png" width="50" style="margin-right:15px">Консультации</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#consultation"><img src="../images/pics/q44.png" width="50" style="margin-right:15px">Индивидуальные занятия с инструктором</a>
         </h4>
       </div><a name="consultation"></a>
       <div id="consultation" class="panel-collapse collapse">

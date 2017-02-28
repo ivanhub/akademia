@@ -1233,10 +1233,8 @@ font-size:13px !important; }
     padding: 10rem 4.5rem 0;
   }
 
-  .foot1 .col3, .foot1 .col4
-  { margin-top: 40px; }
 
-  .my {     text-align: center; padding-top:50px; }
+
 
   h5 {    margin-top: 85px;}
   .right-aside { padding-bottom: 25px;}
@@ -1398,14 +1396,6 @@ div.affix-top {
 
 
 
-@media (min-width:845px) {
-p.anim_one,p.anim_three {text-align: right;
-    right: 92px;}}
-@media (max-width:844px) {
-p.anim_one,p.anim_three {text-align: center;
-    right: 0;}}
-
-
 
 
 
@@ -1508,8 +1498,8 @@ font-size:35px !important;
 /*.modal-backdrop.in { opacity: 1 !important }*/
 
  .modal-backdrop.fade.in {
-opacity: 0.5 !important;
-filter: alpha(opacity=50);
+opacity: 0.8 !important;
+filter: alpha(opacity=80);
 } 
 
 

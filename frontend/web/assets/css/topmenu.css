@@ -344,6 +344,10 @@ width:70px !important;
 .justmobi {display:none}
 
 @media (max-width:530px) {
+
+
+.foot1 p {text-align:center;}
+
 .justmobi {display:block}
 .hidemobi {display:none}    
 .mob {width:76% !important }
@@ -387,7 +391,7 @@ padding: 6px 10px;}
 
 @media (max-width:330px) {
  .navbar-nav {     margin-left: 25% !important;} 
-.foot1 p {font-size:11px !important}
+.foot1 p {font-size:11px !important; }
 .justmobi   .phone { font-size:15px !important; } 
 .justmobi .take { font-size:14px !important; top: 61px !important; }
 

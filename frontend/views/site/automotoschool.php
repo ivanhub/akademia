@@ -36,13 +36,13 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="text-center">
 
 
-<div class="col-md-6 col-xs-12">
+<div class="col-xs-6">
  <div class="blockBB AA1">
  <a href="/automotoschool/A"  title="Выберите категорию">
  <img class="" src="../../images/pics/AA.png" width="260px">
    </a></div></div>
 
-<div class="col-md-6 col-xs-12">
+<div class="col-xs-6">
  <div class="blockBB BB1">
  <a href="/automotoschool/B">
  <img  class="B1" src="../../images/pics/b-l.png" width="260px" title="Выберите категорию">
@@ -339,7 +339,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <i class="fa fa-circle fa-badge-bg fa-inverse2 fa-outline-inverse" style="top:45%;left:55%"></i>
   <i class="fa fa-user fa-badge"style="left:55%"></i>
 </span></div>
-<div class="col-sm-9"> <div class="inside1 advpr2"  style="margin-left: 0px;">Тренажер для первоначальных навыков</div></div>
+<div class="col-sm-9"> <div class="inside1 advpr2" >Тренажер для первоначальных навыков</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Тренажер для первоначальных навыков</p>
   <p class="xi-text">Занятия на автотренажере в нашей автошколе являются обязательными по программе обучения. Обучить курсантов автошкол 
 базовым навыкам управления автомобилей с механической КПП позволяет виртуальное вождение автомобиля на тренажере.</p></div> </new> 
@@ -348,6 +348,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
 </div>
 
+
+   <div class="clearfix visible-sm"></div>
 
 <div class="col-md-4 col-sm-6 col-xs-12">
 
@@ -413,7 +415,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="style5 lst">
 <!--             <div class="x99"></div>
  --><div class="col-sm-3"><span class="inside vc_icon_element-icon fa fa-graduation-cap fa-3x"></span></div>
-<div class="col-sm-9"> <div class="inside1 advpr2">Сопровождение на экзамене</div></div>
+<div class="col-sm-9"> <div class="inside1 advpr2 advprm">Сопровождение на экзамене</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Сопровождение на экзамене</p>
   <p class="xi-text">Мы подготовим пакет документов для сдачи экзамена, предоставим учебные автомобили и мотоциклы на экзамены в ГИБДД. Представитель автошколы будет сопровождать Вас на протяжении всего экзамена.</p></div> </new> </div>
         </div>

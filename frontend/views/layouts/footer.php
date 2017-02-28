@@ -6,9 +6,9 @@ use yii\helpers\Html;
 
 <div class=" foot1">
 <div class="row">
-<div class="col-md-2 col-xs-2 foocol"></div>
+<div class="col-md-2  col-sm-2 col-xs-2 foocol"></div>
 
-<div class="col-md-3 col-xs-5">
+<div class="col-md-3   col-sm-3 col-xs-5">
  <p><a href="/automotoschool">Автомотошкола</a></p>   
  <p><a href="/automotoschool/A">Категория А</a></p>
   <p><a href="/automotoschool/B">Категория B</a></p>
@@ -20,10 +20,10 @@ use yii\helpers\Html;
  <p><a href="/dop-uslugi">Дополнительные услуги</a></p> -->
  </div>
 
-  <div class="clearfix visible-sm"></div>
-  <div class="col-xs-2 foocol visible-sm visible-xs"></div>
+  <!-- <div class="clearfix visible-sm"></div> -->
+  <div class="col-xs-2 foocol hidden-sm visible-xs"></div>
 
-<div class="col-md-3 col-xs-5 col4">
+<div class="col-md-3 col-sm-3  col-xs-5 col4">
 
 <?php if (hm('site/dopuslugi')) {
   ?>
@@ -45,7 +45,7 @@ use yii\helpers\Html;
 <?php } ?>
 
 </div>
-<div class="col-md-3 col-xs-12 my"><div class="vk"><BR/>
+<div class="col-md-3  col-sm-3 col-xs-12 my"><div class="vk"><BR/>
 <p><?php    echo Html::a(
     'Запись на занятия',
   ['#'],

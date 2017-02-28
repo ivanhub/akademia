@@ -8,6 +8,7 @@ use yii\helpers\Html;
 //use yii\bootstrap\ActiveForm;
 //use yii\captcha\Captcha;
 
+use branchonline\lightbox\Lightbox;
 
 $this->title = 'Защитное вождение';
 
@@ -60,7 +61,18 @@ $this->params['breadcrumbs'][] = $this->title;
 <p>График обучения, даты, время согласовываются с руководителями структурных        подразделений.</p>
 
 <p>По окончанию курса выдается свидетельство. </p>
-
+<center>
+<?php echo  Lightbox::widget([
+    'files' => [
+        [
+            'thumb' => '../images/thmb/svidetelstvo-th.jpg',
+            'original' => '../images/svidetelstvo.jpg',
+            'title' => 'Защитное и зимнее вождение. Образец выдаваемого свидетельства.',
+        ],
+        
+    ]
+]); ?>
+</center>
   </section>
 
 

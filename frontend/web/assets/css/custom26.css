@@ -28,7 +28,9 @@ padding:49px 60px 0px 60px;
 margin-bottom:50px;
 text-indent:50px;
 font-family: 'Myriadsetpro';
-font-size:21px;
+font-size:calc(12px + 0.8vw);
+/*font-size:calc(12px + 1vw);
+/*font-size:calc(12px + 1vw);*/
 background: url(../../images/fon/line.jpg) 0 top  repeat-x;
 width:100%;
 opacity:.8;
@@ -1864,7 +1866,7 @@ font-size:15px;
 }
 
 
-.xi-text {width:528px}
+
 
 
 .vk a:hover {color:#444 !important}
@@ -2121,27 +2123,141 @@ color:#3a7849;
 }
 #dopuslugi #accordion p {text-indent:60px !important;}
 
-#index .box1 img {width:365px}
-#index .box2 img {width:325px}
-#index .box3 img {width:323px}
-#index .box4 img {width:405px}
 
 
 
-#index .box1,#index .box2 { margin-top:31px !important; }
-#index .box3,#index .box4 { margin-top:30px !important; margin-bottom:30px; }
 
+/*
+.anim_one {    margin-top:5px !important; }
+	.anim_two {     text-indent: 54px}
+.anim_three {    margin-top:3px !important; }
+	.anim_four {     text-indent: 75px; margin-top:17px !important;}
+
+
+#index .box1 {padding-left:35px !important}
+#index .box2 {padding-left:35px !important}
+#index .box4 {padding-left:0px}
+
+
+
+
+@media (min-width:845px) {
+p.anim_one,p.anim_three {
+
+#text-align: right;
+#right: 92px;
+}}
+@media (max-width:844px) {
+p.anim_one,p.anim_three {
+#text-align: center;
+#right: 0;
+}}
+
+*/
+
+
+
+#index .box1,#index .box2 { margin-top:30px !important; }
+#index .box3,#index .box4 { margin-top:60px !important; margin-bottom:30px; }
+
+.fill {max-width:365px; float:right;}
+.fill2 {max-width:365px; float:left;}
+
+
+.rowm {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+/*  .foot1 .col3, .foot1 .col4
+  { margin-top: 40px; }
+  .my {     text-align: center; padding-top:50px; }*/
+  .my {     text-align: center; }
+
+@media (max-width:767px) {
+  .my {  padding-top:30px;    }
+
+
+}
+@media (min-width:450px) and (max-width:991px) {
+
+.fill {max-width:300px; float:right;}
+.fill2 {max-width:300px; float:left;}
+
+#index .box3, #index .box4 {
+    margin-top: 15px !important;
+    margin-bottom: -5px;}
+
+}
+@media (min-width:380px) and (max-width:449px) {
+.blocktitle {
+font-size:calc(9px + 0.6vw) !important;}
+
+#index .box3, #index .box4 {
+    margin-top: 15px !important;
+    margin-bottom: -20px;}
+}
+
+#index .box1 img, #index .box3  img {margin-right:-5px; }
+#index .box2 img, #index .box4  img {margin-left:-5px; }
+
+@media (max-width:379px) {
+.mtext2 {
+padding: 29px 30px 0px 30px;
+margin-bottom:30px;
+}
+
+
+.rowm {    margin-bottom: -20px;}
+.blocktitle {
+font-size:calc(7px + 0.6vw) !important;}
+
+#index .box3, #index .box4 {
+    margin-top: 15px !important;
+    margin-bottom: -5px;}
+}
+
+
+   .bx5 .inside1 {margin-left:0px !important}
+
+@media (max-width:1199px) {
+
+.style1 .advpr, .style5 .advpr, .style5 .advpr2 {
+font-size:14px !important; }
+.style5 .advpr {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.style5 .advpr2 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.style5 .advprm {
+    margin-top: 25px !important;
+    margin-left: 20px;
+}
+
+.bx5 .inside1 {margin-left:25px !important}
+.bx6 .inside1 {margin-left:35px !important; margin-top:10px;}
+}
+
+
+/*
 @media (min-width:700px) and (max-width:991px) {
 #index .box1 img {width:298px}
 #index .box2 img {width:260px}
 #index .box3 img {width:259px}
-#index .box4 img {width:324px}
+#index .box4 img {width:290px; margin-top: 5px;}
 #index .box3, #index .box4 {
     margin-top: 0px !important;
     margin-bottom: -30px;}
+
+.anim_four { text-indent: 35px !important; }
+.anim_two { text-indent: 28px !important; }
 }
 
-@media (max-width:499px) { 
+@media (max-width:399px) { 
 #index .box3, #index .box4 {
     margin-top: -20px !important;
     margin-bottom: -50px;}
@@ -2149,27 +2265,31 @@ color:#3a7849;
 
 }
 
-@media (min-width:500px) and (max-width:699px) {
+@media (min-width:400px) and (max-width:699px) {
 #index .box1 img {width:268px}
-#index .box2 img {width:215px}
+#index .box2 img {width:210px}
 #index .box3 img {width:215px}
-#index .box4 img {width:272px}
+#index .box4 img {width:250px; margin-top: 0px;}
 
 #index .box3, #index .box4 {
     margin-top: -20px !important;
     margin-bottom: -40px;}
 
 
+.anim_two { text-indent: 17px !important; }
+.anim_four { text-indent: 30px !important; }
+
 }
 
-
-#index .box1 {padding-left:35px !important}
-#index .box2 {padding-left:35px !important}
-
-#index .box4 {padding-left:0px}
 
 @media (max-width:768px) {
 
-/*.box1, .box2,.box3,.box4 { text-align: center !important; }*/
+/*.box1, .box2,.box3,.box4 { text-align: center !important; }
 
 }
+*/
+
+
+
+
+

@@ -53,42 +53,45 @@ $this->title = 'Учебный центр "Академия"';
   </div>   --> 
  <section class="main ">
 
-<div class="row">
+<div class="row rowm">
 
- <div class="row">
 <div class="col-xs-6  box1  cl-effect-12">
+<div class="fill">
 <a style="display:block" href="/automotoschool">
-<img class="hvr-bounce-in img-responsive" src="../images/1car.png">
-<p class="blocktitle anim_one">Автомотошкола</p></a>
+<img class="hvr-bounce-in img-responsive" src="../images/c1.png">
+<p class="blocktitle anim_one text-center">Автомотошкола</p></a>
+</div>
 </div>
 <div class="forsafari">
 <div class="col-xs-6 box2 cl-effect-12">
+<div class="fill2">
 <a style="display:block" href="/samohodnaya-tehnika">
-<img class="hvr-wobble-to-top-right img-responsive" src="../images/2tr.png"  style="margin-top: -1px;  margin-left: -5px;">
-<p class="blocktitle anim_two">Самоходная техника</p>
+<img class="hvr-wobble-to-top-right img-responsive" src="../images/c2.png">
+<p class="blocktitle anim_two text-center">Самоходная техника</p>
 </a>
+</div>
   </div></div>
 
 
-</div> 
 
 
-<div  class="row" style="padding-top: 0px;">
 
-  <div class="clearfix visible-sm"></div>
+ <!--  <div class="clearfix visible-sm"></div> -->
   <div class="forsafari">
 <div class="col-xs-6  box3  cl-effect-12">
+<div class="fill">
 <a style="display:block" href="/sudovozhdenie">
-<img class="boat img-responsive" src="../images/boat78.png" style="margin-top: -15px;" >
-<p class="blocktitle anim_three">Судовождение</p>
-</a>
+<img class="boat img-responsive" src="../images/c3.png"  >
+<p class="blocktitle anim_three text-center">Судовождение</p>
+</a></div>
   </div></div>
 <div class="col-xs-6  box4  cl-effect-12">
-<a style="display:block;" href="/dop-uslugi"> <!-- 22 -->
-<img class="hvr-wobble-top img-responsive" src="../images/yellow2.png" style="margin-left: 30px; margin-top: 19px;">
-<p class="blocktitle anim_four">Дополнительные услуги</p>
-</a>
-</div></div>
+<div class="fill2">
+<a style="display:block;" href="/dop-uslugi"> 
+<img class="hvr-wobble-top img-responsive" src="../images/c4.png">
+<p class="blocktitle anim_four text-center">Дополнительные услуги</p>
+</a></div>
+</div>
 
 
 
