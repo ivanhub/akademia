@@ -2157,8 +2157,6 @@ p.anim_one,p.anim_three {
 #index .box1,#index .box2 { margin-top:30px !important; }
 #index .box3,#index .box4 { margin-top:60px !important; margin-bottom:30px; }
 
-.fill {max-width:365px; float:right;}
-.fill2 {max-width:365px; float:left;}
 
 
 .rowm {
@@ -2178,8 +2176,8 @@ p.anim_one,p.anim_three {
 }
 @media (min-width:450px) and (max-width:991px) {
 
-.fill {max-width:300px; float:right;}
-.fill2 {max-width:300px; float:left;}
+.fill {max-width:365px; float:right; display:contents;}
+.fill2 {max-width:365px; float:left; display:contents;}
 
 #index .box3, #index .box4 {
     margin-top: 15px !important;

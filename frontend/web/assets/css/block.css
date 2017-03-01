@@ -613,7 +613,8 @@ form sup { color:red }
   transform:scale(0.95);
   width:auto;
   height: auto;
-  display: inline-block;
+/*  display: inline-block;*/
+	display:contents;
 
     
 }

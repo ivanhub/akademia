@@ -1,0 +1,33 @@
+http://findicons.com/
+
+
+xn--80aaagmgvmvmcuoq7r.xn--p1ai
+https://www.microsoft.com/downloads/details.aspx?familyid=2f465be0-94fd-4569-b3c4-dffdf19ccd99&displaylang=en
+
+
+https://www.microsoft.com/ru-ru/windowsforbusiness/end-of-ie-support
+
+даже гугл не поддерживает
++Про Jqury
+ Internet Explorer 8: http://росавтоакадемия.рф/assets/565f3faa/jquery.min.js?v=1487270240 (line 2): Error Object doesn't support this property or method
+
+
+http://www.my-debugbar.com/wiki/CompanionJS/Installing
+Press F12, go to "Script" and press "Start debugging" (or something like that. I'm using the german version).
+
+https://habrahabr.ru/post/15404/
+
+IE9:
+https://netrenderer.com/index.php
+https://turbo.net/hub/microsoft/ie-9
+https://ivan11.browsera.com/tests/120568-2017-03-01#page=556458
+
+ВОПРОСЫ УБРАТЬ + пока не нада 
+
+Internet Explorer 9: http://росавтоакадемия.рф/ (line 172): Error Unable to get value of the property 'add': object is null or undefined
+ Internet Explorer 9: http://росавтоакадемия.рф/ (line 708): Error Unable to get value of the property 'add': object is null or undefined
+ Internet Explorer 9: http://росавтоакадемия.рф/ (line 552): Error Unable to get value of the property 'add': object is null or undefined
+ Internet Explorer 9: http://росавтоакадемия.рф/ (line 562): Error Unable to get value of the property 'add': object is null or undefined
+
+MOBILE DEVELOP DEBUGGIN
+https://www.broken-links.com/2013/06/28/remote-debugging-with-weinre/
