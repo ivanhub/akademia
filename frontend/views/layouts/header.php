@@ -164,6 +164,9 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 <script type="text/javascript">
 
+var str = '<img src="/img/ico-menu.png" alt=""> <span>МЕНЮ</span>'; 
+document.getElementsByClassName("navbar-toggle")[0].innerHTML=str;
+
 var items = document.querySelectorAll(".navbar-collapse ul li");
  var lastchild = items[items.length-1];
 
@@ -183,8 +186,6 @@ var i=1;
 
 
 
-  var str = '<img src="/img/ico-menu.png" alt=""> <span>МЕНЮ</span>'; 
-document.getElementsByClassName("navbar-toggle")[0].innerHTML=str;
 
   </script>
 

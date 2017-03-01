@@ -21,6 +21,10 @@ AppAsset::register($this);
 $controll = Yii::$app->controller;
 $action = $controll->action->id;
 
+//temporary, for testing
+header("Access-Control-Allow-Origin: *");
+
+
 $this->beginPage() ?>
 
 <!DOCTYPE html>

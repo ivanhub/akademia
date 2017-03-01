@@ -1353,7 +1353,12 @@ box-shadow: 0 0 5px #000 inset, 0 0 5px #000;  transition: background 1s ease;
 
 
 
-@media (max-width:992px) {
+@media (max-width:991px) {
+
+.style5 .advpr, .style5 .advpr2 {
+font-size:16px}
+}
+
 
 div.affix-top {
     margin-left: -12%;
@@ -1517,9 +1522,14 @@ text-align:justify;
 
 
 @media (max-width:767px) {
+.style1 .advpr, .style5 .advpr, .style5 .advpr2 {
+    font-size: 19px}
+
  .site-distance {
     margin-bottom: 0 !important;
 }
+
+.exam h5 {padding-top: 7px;}
 }
 @media (max-width:360px) {
 
@@ -1540,6 +1550,34 @@ text-align:center;
 
 .texts {font-size: calc(12px + 0.4vw);   margin-top:10px;}
 
+@media (max-width:1199px) {
+.exam h5 {font-size: 18px !important;}
+}
 @media (max-width:550px) {
+
 .texts {margin-left:30px;}
+.exam h5 {font-size: 17px !important;}
+.style5.exam span { margin-left:40px;}
+}
+
+
+@media (max-width:400px) {
+.exam h5 {font-size: 15px !important; margin-left:-10px}
+.style5.exam span { margin-left:30px;}
+}
+
+.advpr, .advpr2 {
+    margin-left: 15px;
+font-size:16px !important;
+}
+
+
+.site-automotoschool p, .preimul, .preimul2 {
+    font-family: 'Myriadsetpro', sans-serif !important;
+    font-size: calc(13px + 0.3vw);
+}
+
+
+new.x1 {
+    line-height: 1.42857143;
 }

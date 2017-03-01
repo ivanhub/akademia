@@ -9,7 +9,7 @@ $this->title = 'Учебный центр "Академия"';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<div class="page-loader">
+ <div class="page-loader">
 <div>
 <div class="page-loader-body">
 <div class="cssload-loader">
@@ -20,7 +20,7 @@ $this->title = 'Учебный центр "Академия"';
 </div>
 </div>
 </div> 
-  
+   
 
 <!--<div class="container">
 
