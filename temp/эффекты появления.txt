@@ -31,3 +31,6 @@ Internet Explorer 9: http://росавтоакадемия.рф/ (line 172): Error Unable to get 
 
 MOBILE DEVELOP DEBUGGIN
 https://www.broken-links.com/2013/06/28/remote-debugging-with-weinre/
+http://people.apache.org/~pmuellr/weinre/docs/latest/
+http://browsershots.org/http://xn--80aaagmgvmvmcuoq7r.xn--p1ai/
+https://www.browserstack.com/start
