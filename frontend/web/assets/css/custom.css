@@ -1508,7 +1508,7 @@ h5,h4 {
 }
 
 h4,h5 {
-    font-size: calc(20px + 0.9vw);
+    font-size: calc(20px + 0.9vw) !important;
 }
 
 h5 {margin-top:25px;}
