@@ -552,7 +552,7 @@ button.accordion.active + div.panell {display:table !important;}
 .preimul3 {padding-bottom:10px; margin-left:40px; }                                              
 .preimul2 {padding-bottom:30px; padding-left:0px;}
 .dopuslugi {padding-bottom:30px}
-.safetydriving {margin-left:30px;padding-bottom:30px}
+.safetydriving {padding-bottom:30px}
 
 
 .students a:hover {
@@ -2452,3 +2452,7 @@ border: 1px solid #b86132; top:-10px ; left:35px; }
 .advpr, .advpr2 { display: inline-block;
   vertical-align: middle;
   line-height: normal;}
+
+.exam .advpr2 h5 {
+    margin-top: -11px;
+}

@@ -34,7 +34,7 @@ use yii\helpers\Html;
  <p><a data-toggle="collapse" href="#DOPOG">Курс "ДОПОГ"</a></p>
  <p><a data-toggle="collapse" href="#instructor_training">Обучение инструкторов</a></p>
  <p><a data-toggle="collapse" href="#Arenda_avtodroma">Аренда автодрома</a></p>
- <p><a data-toggle="collapse" href="#consultation">Консультации</a></p>
+ <p><a data-toggle="collapse" href="#consultation">Занятия с инструктором</a></p>
 
   <?php } else { ?>
 <p><a href="/dop-uslugi">Дополнительные услуги</a></p>   
@@ -42,7 +42,7 @@ use yii\helpers\Html;
  <p><a href="/dop-uslugi#DOPOG">Курс "ДОПОГ"</a></p>
  <p><a href="/dop-uslugi#instructor_training">Обучение инструкторов</a></p>
  <p><a href="/dop-uslugi#Arenda_avtodroma">Аренда автодрома</a></p>
- <p><a href="/dop-uslugi#consultation">Консультации</a></p>
+ <p><a href="/dop-uslugi#consultation">Занятия с инструктором</a></p>
 
 <?php } ?>
 

@@ -1560,9 +1560,13 @@ text-align:center;
 .style5.exam span { margin-left:40px;}
 }
 
-
+@media (max-width:510px) {
+.style5 .advpr2 {
+    margin-left: 22px !important;
+}
+}
 @media (max-width:400px) {
-.exam h5 {font-size: 15px !important; margin-left:-10px}
+.exam h5 {font-size: 15px !important; margin-left:-3px}
 .style5.exam span { margin-left:30px;}
 }
 
@@ -1580,4 +1584,14 @@ font-size:16px !important;
 
 new.x1 {
     line-height: 1.42857143;
+}
+
+.post img {
+    padding: 5px;
+    border: solid 1px #dddddd;
+    background-color: #f3f3f3;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }

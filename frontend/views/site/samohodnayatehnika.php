@@ -81,7 +81,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </table>
 <br/><br/>
 <div class="row">
-<div class="col-xs-6 text-center">
+<div class="col-xs-4 text-center">
 <div id='pics_container  text-center'>
 <?php echo  Lightbox::widget([
     'files' => [
@@ -98,7 +98,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ]); ?>
 </div>
 </div>
-<div class="col-xs-6 text-center">
+<div class="col-xs-4 text-center">
 <div id='pics_container text-center'>
 
     <?php echo  Lightbox::widget([
@@ -115,6 +115,25 @@ $this->params['breadcrumbs'][] = $this->title;
 ]); ?>
 </div>
 </div>
+
+<div class="col-xs-4 text-center">
+<div id='pics_container text-center'>
+
+    <?php echo  Lightbox::widget([
+    'files' => [
+  
+        [
+            'thumb' => '../images/thmb/sv-th.jpg',
+            'original' => 'http://samarapb.ru/documents/avto/sv.png',
+            'title' => 'Временное разрешение',
+             'thumbOptions' => [
+            'class' => 'img-responsive2' ]
+        ],
+    ]
+]); ?>
+</div>
+</div>
+
 </div>
 <br/><br/>
 <p class="text">В графе удостоверения тракториста-машиниста (тракториста) «Особые отметки» производятся информационные, ограничительные и разрешительные отметки.</p>
