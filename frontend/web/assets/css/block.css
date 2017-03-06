@@ -300,7 +300,7 @@ width:50px;
   *width: 23.351063829787233%;
 }      
 
-.span3 {float:left}
+.span3 {float:left; }
  }
 
 @media (max-width:767px) {
@@ -515,7 +515,8 @@ body .wrapper label:nth-of-type(9) {
 -moz-transition-duration: 0.5s; /*Mozilla duration version*/
 -o-transition-duration: 0.5s; /*Opera duration version*/
 transition-duration: 0.5s; /*Opera duration version*/
-opacity: 1; /*initial opacity of images*/
+opacity: 0; /*initial opacity of images*/
+
 margin: 0 0 5px 0; /*margin between images*/
 }
 
