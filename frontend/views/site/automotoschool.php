@@ -358,7 +358,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="col-xs-3"><span class="inside vc_icon_element-icon fa fa-laptop fa-3x"></span></div>
 <div class="col-xs-9"><div class="inside1 advpr2">Современные оборудованные классы</div></div>
 <new class="x1"><div class="showing1"><p class="xi-title">Современные оборудованные классы</p>
-  <p class="xi-text sml">Учебные классы оборудованы всем необходимым инвентарем,  тематическими плакатами, компьютерами и тренажерами для 
+  <p class="xi-text">Учебные классы оборудованы всем необходимым инвентарем,  тематическими плакатами, компьютерами и тренажерами для 
 первоначальных навыков вождения. У нас большая видеотека с обучающими роликами. Доверившись нам, вы 
 получите высококлассное обучение в этой сфере, что позволит Вам успешно сдать экзамены на права.</p></div> </new> </div>
 </div>
@@ -439,7 +439,7 @@ elseif (stripos( $user_agent, 'Safari') !== false)
 } ?>
 
 
-<h5 style="font-size:40px !important" class="text-center hideme" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
+<h5 style="" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  </div>
  <ul class=" preimul2 lr10 gal text-justify">
   <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>

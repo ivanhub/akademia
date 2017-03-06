@@ -399,7 +399,31 @@ $(document).ready(function () {
     $(location.hash).collapse('show');
     $(location.hash).parents('.accordion-body').collapse('show');
   }
+
+
+$('#idmodal').on('show.bs.modal', function(e) {
+  var which = e.relatedTarget.dataset.which;
+        //var newspan = document.createElement('div');
+        //newspan.className = "wpacket";
+if (which==0) {
+ $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[fromfield]" value="0"><p class="help-block help-block-error"></p></div>');
+  } else if (which==1)
+  {
+
+ $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[fromfield]" value="1"><p class="help-block help-block-error"></p></div>');
+
+  }; 
+
 });
+
+
+
+});
+
+
+
+
+
 </script>
 
 

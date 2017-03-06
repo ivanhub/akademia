@@ -1559,12 +1559,28 @@ text-align:center;
 .style5.exam span { margin-left:-30px;}
 }
 
-@media (max-width:510px) {
-.style5 .advpr2 {
+
+@media (max-width:500px) {
+#automotoschool .col-xs-3 {width:30% }
+#automotoschool .col-xs-9 {width:70% }
+}
+/*@media (max-width:510px) {
+.style5 .advpr, .style5 .advpr2 {
     margin-left: 22px !important;
 }
+} */
+@media (max-width:370px) {
+#automotoschool .col-xs-3 {width:35% }
+#automotoschool .col-xs-9 {width:65% }
+.inside1.advpr, .inside1.advpr2 {
+    margin-left: 0px;
 }
+
+}
+
 @media (max-width:400px) {
+
+
 .exam h5 {font-size: 15px !important; margin-left:-3px}
 .style5.exam span { margin-left:-10px;}
 }

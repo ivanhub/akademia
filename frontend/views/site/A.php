@@ -83,7 +83,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <br/>
 
 <div class="col-md-offset-1 col-md-10">
-<div class="col-sm-12 col-md-4">  
+<div class="col-xs-12 col-sm-4">  
         <div class="span3 pull-right-md animatedb fadeInLeft" style="" data-nohover="0" >
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
@@ -109,7 +109,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
  </div>
         </div>
-        </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
+        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4">
 <div class="forsafari">
         <div class="span3 pull-center-md animatedb flipInY" style="animation-delay:.2s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
@@ -138,7 +138,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
       </div>
 
-      <div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
+      <div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4">
 
         <div class="span3 pull-left-md animatedb fadeInRight" style="animation-delay:.4s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
@@ -265,20 +265,27 @@ $('#idmodal').on('show.bs.modal', function(e) {
         //var newspan = document.createElement('div');
         //newspan.className = "wpacket";
 if (which==4) {
-          $("#wrapacket").text('Пакет "Стандарт"');
-
- $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Дневной"><p class="help-block help-block-error"></p></div>');
+$("#wrapacket").text('Пакет "Стандарт"');
+$( ".field-forma-packet" ).hide();          
+ $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Стандарт"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория А / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
 
 
   } else if (which==5)
   {
 $("#wrapacket").text('Пакет "Двойной A+B"');
- $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Стандарт"><p class="help-block help-block-error"></p></div>');
+$( ".field-forma-packet" ).hide();          
+$("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Двойной А+В"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория А / Пакет Двойной А+В"><p class="help-block help-block-error"></p></div>');
 
   } else if (which==6) 
   {
 $("#wrapacket").text('Пакет "Индивидуальный"');
- $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Индивидуальный"><p class="help-block help-block-error"></p></div>');
+$( ".field-forma-packet" ).hide();          
+$("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Индивидуальный"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория А / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
+
+  } else if (which==0 || which==1) 
+  {
+$("#wrapacket").text('');
+$( ".field-forma-packet" ).show();          
 
   };
 

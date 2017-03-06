@@ -53,7 +53,7 @@ use yii\helpers\Html;
   ['#'],
   [ 'data-toggle' => 'modal',
     'data-target' => '#idmodal',
-    'data-which' => '8',
+    'data-which' => '1',
   ]
     ); ?></p> 
 

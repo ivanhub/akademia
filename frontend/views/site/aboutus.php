@@ -164,6 +164,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'thumb' => '../images/thmb/structure-th.jpg',
             'original' => 'http://samarapb.ru/documents/organization/structure.jpg',
             'title' => 'Удостоверение тракториста',
+               'thumbOptions' => [
+            'class' => 'img-responsive' ]
         ],
         
     ]

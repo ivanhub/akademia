@@ -37,7 +37,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <br/>
 
 <div class="col-md-offset-1 col-md-10">  
-<div class="col-sm-12 col-md-4">  
+<div class="col-xs-12 col-sm-4">  
         <div class="span3 pull-right-md  animatedb fadeInLeft" style=""  data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
@@ -55,7 +55,7 @@ $this->params['breadcrumbs'][] = $this->title;
   ['#'],
   [ 'data-toggle' => 'modal',
     'data-target' => '#idmodal',
-    'data-which' => '1',
+    'data-which' => '5',
     'class' => 'send-price call-back'
   ]
     ); 
@@ -83,21 +83,27 @@ $('#idmodal').on('show.bs.modal', function(e) {
   var which = e.relatedTarget.dataset.which;
         //var newspan = document.createElement('div');
         //newspan.className = "wpacket";
-if (which==1) {
-          $("#wrapacket").text('Пакет "Дневной"');
+if (which==5) {
+$("#wrapacket").text('Пакет "Дневной"');
+$( ".field-forma-packet" ).hide();          
+$("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Дневной"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Дневной"><p class="help-block help-block-error"></p></div>');
 
- $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Дневной"><p class="help-block help-block-error"></p></div>');
-
-
-  } else if (which==2)
+  } else if (which==6)
   {
 $("#wrapacket").text('Пакет "Стандарт"');
- $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Стандарт"><p class="help-block help-block-error"></p></div>');
+$( ".field-forma-packet" ).hide();          
+$("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Стандарт"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
 
-  } else if (which==3) 
+  } else if (which==7) 
   {
 $("#wrapacket").text('Пакет "Индивидуальный"');
- $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Индивидуальный"><p class="help-block help-block-error"></p></div>');
+$( ".field-forma-packet" ).hide();          
+$("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Индивидуальный"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
+
+  } else if (which==0 || which==1) 
+  {
+$("#wrapacket").text('');
+$( ".field-forma-packet" ).show();          
 
   };
 
@@ -107,7 +113,7 @@ JS
 , yii\web\View::POS_READY); ?>
  </div>
         </div>
-        </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
+        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4">
         <div class="forsafari">
         <div class="span3 pull-center-md  animatedb flipInY"  style="animation-delay:.2s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
@@ -127,7 +133,7 @@ JS
   ['#'],
   [ 'data-toggle' => 'modal',
     'data-target' => '#idmodal',
-    'data-which' => '2',
+    'data-which' => '6',
     'class' => 'send-price call-back'
   ]
     ); ?>
@@ -136,7 +142,7 @@ JS
       </div>
 
 
-        </div><div class="clearfix visible-xs"></div><div class="col-sm-12 col-md-4">
+        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4">
 
         <div class="span3 pull-left-md  animatedb fadeInRight"  style="animation-delay:.4s" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
@@ -157,7 +163,7 @@ JS
   ['#'],
   [ 'data-toggle' => 'modal',
     'data-target' => '#idmodal',
-    'data-which' => '3',
+    'data-which' => '7',
     'class' => 'send-price call-back but3 '
   ]
     ); ?></div>
