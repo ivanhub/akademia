@@ -58,7 +58,7 @@ class Forma extends \yii\db\ActiveRecord
     {
     if(Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => $this->body, 'phone' => $this->phone, 'name'=>$this->name, 'pack' => $this->pack, 'packet' => $this->packet])
         ->setFrom(Yii::$app->params['supportEmail'])
-        ->setTo(Yii::$app->params['adminEmail'])
+        ->setTo(Yii::$app->params['orderEmail'])
         ->setSubject('Заявка с сайта Росавтоакадемия.РФ' )
         ->send())
     { return true; }
