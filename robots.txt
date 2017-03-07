@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /advanced/
+Disallow: /backend/
+Disallow: /common/
+Disallow: /console/
+Disallow: /environments/
+Disallow: /temp/
+Disallow: /vagrant/
+Disallow: /vendor/
+Disallow: /.git/
+Host: росавтоакадемия.рф
