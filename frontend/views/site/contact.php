@@ -62,6 +62,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
   </div> </div>
   <br/>
+
+  <div class="START5"></div>
+
 <p style="font-size:20px;"><b>Тел.:</b> <span class="fa fa-phone" style="color:#0c500c;"></span> +7 (846) 255-69-99</p> 
 <p><b>Электронная почта: </b> <span class="fa fa-envelope" style="color:#0c500c;"></span> <a href="mailto:samarapb@mail.ru" style="color:#0c500c;">samarapb@mail.ru</a></p>
 <br/><br/>
@@ -78,7 +81,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
- <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-<?php Yii::$app->view->registerJsFile('/assets/js/map.js',  ['depends' => 'yii\web\JqueryAsset']); ?>
+ <script src="http://api-maps.yandex.ru/2.1/?mode=debug&lang=ru_RU" type="text/javascript"></script>
+ <script src="http://pb.loc/js/map2.js" type="text/javascript"></script>
+
+<?php Yii::$app->view->registerJsFile('/assets/js/map2.js',  ['depends' => 'yii\web\JqueryAsset']); ?>
 
 

@@ -1,7 +1,7 @@
 <?php
 return [
     'adminEmail' => 'ivan@webera.pro',
-    'orderEmail' => 'test-11@list.ru',
+    'orderEmail' => 'samarapb@mail.ru',
     'supportEmail' => 'support@akademia-site.com',
     'user.passwordResetTokenExpire' => 3600,
 ];
