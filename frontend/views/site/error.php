@@ -7,7 +7,9 @@
 
 use yii\helpers\Html;
 
-$this->title = $name;
+$title = $name;
+$this->title = title(Yii::$app->params['title'].$title);
+
 
 /*
  if ($exception->statusCode == 404) { 
@@ -19,7 +21,7 @@ $this->title = $name;
 ?>
 <div class="site-error">
 <br/><br/>
-    <h1 style="text-indent:70px"><?= Html::encode($this->title) ?></h1>
+    <h1 style="text-indent:70px"><?= Html::encode($title) ?></h1>
 <br/><br/>
     <div class="alert alert-danger">
     <?php if ($exception->statusCode == 404) { 

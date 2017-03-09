@@ -11,13 +11,15 @@ use yii\helpers\Html;
 use frontend\components\Leftmenu;
 
 
-$this->title = 'Наши преимущества';
+$title = 'Наши преимущества';
+$this->title = title(Yii::$app->params['title'].$title);
+
 $this->params['breadcrumbs'][] = [
                                   'template' => "<li>{link}</li>\n", 
                                     'label' => 'Автомотошкола', 
                                     'url' => ['/automotoschool'] 
                                  ];
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = $title;
 ?>
 
 
@@ -25,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 
-<!-- <?= Html::encode($this->title) ?> -->
+
 <div class="site-automotoschool  siteblock">
    
 
@@ -79,7 +81,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <div class="row preimbox">
-<h2 class="text-center">Наши преимущества</h2>
+<h2 class="text-center"><?= Html::encode($title) ?></h2>
 <br/><br/><br/><br/>
 
 <div class="style2">

@@ -40,8 +40,7 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-         $controllerl = Yii::$app->controller;
-         $home = $controllerl->id.'/'.$controllerl->action->id;
+     //$this->getView()->title = 'Мой заголовок';
         return $this->render('index', compact('home'));
     }
 

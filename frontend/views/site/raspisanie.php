@@ -13,13 +13,15 @@ use yii\helpers\Html;
 //use frontend\components\Leftmenu;
 
 
-$this->title = 'Расписание занятий';
+$title = 'Расписание занятий';
+$this->title = title(Yii::$app->params['title'].$title);
+
 $this->params['breadcrumbs'][] = [
                                    /* 'template' => "<li><b>{link}</b></li>\n", */
                                     'label' => 'Автомотошкола', 
                                     'url' => ['/automotoschool'] 
                                  ];
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = $title;
 ?>
 
 
@@ -46,7 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="wrapall">
 <section class="raspisanie">
-<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
+<h1 class="text-center"><?= Html::encode($title) ?></h1>
  <br/>
  <p>Обучение в автошколе проводится по программе профессиональной подготовки водителей транспортных средств категории «В», «А» и подкатегории «А1». Учебный план, календарный учебный график и программы подготовки согласованы в установленном законодательстве порядке.</p>
 

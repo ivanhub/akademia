@@ -10,9 +10,11 @@ use yii\helpers\Html;
 
 use branchonline\lightbox\Lightbox;
 
-$this->title = 'Защитное вождение';
+$title = 'Защитное вождение';
+$this->title = title(Yii::$app->params['title'].$title);
 
-$this->params['breadcrumbs'][] = $this->title;
+
+$this->params['breadcrumbs'][] = $title;
 ?>
 
 
@@ -28,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <section class="safetydriving">
-<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
+<h1 class="text-center"><?= Html::encode($title) ?></h1>
  <br/>
   <p>Подготовка по программе «Защитное вождение» формирует у водителей особое мышление, направленное на предотвращение аварийных и предаварийных ситуаций путем системного наблюдения и своевременного обнаружения опасностей на дороге, на прилегающих территориях и в самом автомобиле.</p>
 

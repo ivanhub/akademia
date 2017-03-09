@@ -15,14 +15,15 @@ use yii\helpers\Html;
 
 
 
-$this->title = 'Категория A';
+$title = 'Категория A';
+$this->title = title(Yii::$app->params['title'].$title);
 
 $this->params['breadcrumbs'][] = [
                                    /* 'template' => "<li><b>{link}</b></li>\n", */
                                     'label' => 'Автомотошкола', 
                                     'url' => ['/automotoschool']
                                  ];
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = $title;
 
 
 ?>
@@ -50,7 +51,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </div> -->
 
 
-<h1 class="text-center"> <?= Html::encode($this->title) ?></h1>
+<h1 class="text-center"> <?= Html::encode($title) ?></h1>
 <!-- 
   <div class="containerrr">
     <div class="bike-body">

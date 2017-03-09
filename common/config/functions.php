@@ -57,3 +57,20 @@ function hm($check)
 
 }
 
+
+function title($title)
+  {
+          // Remove all characters that are not the separator, a-z, 0-9, or whitespace and arabic lang
+          //$title = preg_replace ( "/&([\x{0600}-\x{06FF}а-яА-Яa-zA-Z])(uml|acute|grave|circ|tilde|ring),/u", "", $title );
+          //$title = preg_replace ( "/[^\x{0600}-\x{06FF}а-яА-Яa-zA-Z0-9_ .-]/u", "", $title );
+
+          // Remove all characters that are not the separator, a-z, 0-9, or whitespace
+          //        $title = preg_replace('/[^'.$separator.'a-z0-9\s]+/', '', strtolower($title));
+
+          // Replace all separator characters and whitespace by a single separator
+          //$title = preg_replace('/['."-".'\s]+/', "", $title);
+
+          // Trim separators from the beginning and end
+    ///$title = $title."-";
+          return $title;
+  }

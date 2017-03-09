@@ -11,8 +11,6 @@ use yii\bootstrap\Modal;
 
 
 
- $controllerl = Yii::$app->controller;
- $homecheker = $controllerl->id.'/'.$controllerl->action->id;
 
 
 

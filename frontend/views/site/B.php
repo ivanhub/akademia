@@ -14,14 +14,16 @@ use yii\helpers\Html;
 //use yii\widgets\Menu;
 
 
-$this->title = 'Категория B';
+$title = 'Категория B';
+$this->title = title(Yii::$app->params['title'].$title);
+
 
 $this->params['breadcrumbs'][] = [
                                    /* 'template' => "<li><b>{link}</b></li>\n", */
                                     'label' => 'Автомотошкола', 
                                     'url' => ['/automotoschool']
                                  ];
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = $title;
 
 ?>
 
@@ -31,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-automotoschool siteblock">
  <div class="row">
 
-<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
+<h1 class="text-center"><?= Html::encode($title) ?></h1>
 
 <h4 class="text-center hideme"  data-ros="fadeInN"  data-options="delay:0;infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>

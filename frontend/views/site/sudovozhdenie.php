@@ -9,9 +9,11 @@ use yii\helpers\Html;
 //use yii\captcha\Captcha;
 
 
-$this->title = 'Судовождение';
+$title = 'Судовождение';
+$this->title = title(Yii::$app->params['title'].$title);
 
-$this->params['breadcrumbs'][] = $this->title;
+
+$this->params['breadcrumbs'][] = $title;
 ?>
 
 
@@ -29,7 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="post post-2000  type-page status-publish hentry odd" id="post-2000">
 
 
-<div class="post-headline text-center">     <h1><?= Html::encode($this->title) ?></h1>
+<div class="post-headline text-center">     <h1><?= Html::encode($title) ?></h1>
         </div>
         <br/>
 

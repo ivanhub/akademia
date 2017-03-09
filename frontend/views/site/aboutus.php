@@ -14,10 +14,11 @@ use yii\helpers\Html;
 
 use branchonline\lightbox\Lightbox;
 
-$this->title = 'Сведения об образовательной организации';
+$title = 'Сведения об образовательной организации';
+$this->title = title(Yii::$app->params['title'].$title);
 
 
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = $title;
 ?>
 
 
@@ -119,7 +120,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <br/>
-<h1 class="text-center"><?= Html::encode($this->title) ?></h1><br/>
+<h1 class="text-center"><?= Html::encode($title) ?></h1><br/>
 
  <div class="panel-group" id="accordion">
     <div class="panel panel-default">

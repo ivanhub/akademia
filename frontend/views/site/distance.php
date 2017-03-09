@@ -9,8 +9,10 @@ use yii\helpers\Html;
 //use yii\captcha\Captcha;
 //use phpnt\yandexMap\YandexMaps;
 
-$this->title = 'Дистанционное обучение';
-$this->params['breadcrumbs'][] = $this->title;
+$title = 'Дистанционное обучение';
+$this->title = title(Yii::$app->params['title'].$title);
+
+$this->params['breadcrumbs'][] = $title;
 ?>
 
 
@@ -41,7 +43,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <!-- <?= Html::encode($this->title) ?> -->
 <div class="site-distance  siteblock">
    
-<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
+<h1 class="text-center"><?= Html::encode($title) ?></h1>
 <br/>
 <p> Существенное преимущество дистанционных занятий 
 - это возможность обучения в любое время и в любом месте. </p>

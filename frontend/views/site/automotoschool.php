@@ -9,8 +9,13 @@ use yii\bootstrap\ActiveForm;
 //use yii\captcha\Captcha;
 //use phpnt\yandexMap\YandexMaps;
 
-$this->title = 'Автомотошкола';
-$this->params['breadcrumbs'][] = $this->title;
+$title = 'Автомотошкола';
+$this->title = title(Yii::$app->params['title'].$title);
+
+
+
+$this->params['breadcrumbs'][] = $title;
+
 
 ?>
 
@@ -30,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="row">
 
-<h1 class="text-center"><?= Html::encode($this->title) ?></h1>
+<h1 class="text-center"><?= Html::encode($title) ?></h1>
 <br/>
 
 <div class="text-center">

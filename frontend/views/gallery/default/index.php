@@ -12,8 +12,10 @@ use yii\widgets\Breadcrumbs;
 
 $dataProvider->pagination->pageSize = 20;
 
-$this->title = 'Галерея';
-$this->params['breadcrumbs'][] = $this->title;
+$title = 'Галерея';
+$this->title = title(Yii::$app->params['title'].$title);
+
+$this->params['breadcrumbs'][] = $title;
 
 ?>
 <h1 style="text-align:center">Галерея </h1>

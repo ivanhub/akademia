@@ -4,4 +4,5 @@ return [
     'orderEmail' => 'samarapb@mail.ru',
     'supportEmail' => 'support@akademia-site.com',
     'user.passwordResetTokenExpire' => 3600,
+    'title' => 'РОСАВТОАКАДЕМИЯ - ',
 ];

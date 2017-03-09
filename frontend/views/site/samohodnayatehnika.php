@@ -11,9 +11,11 @@ use yii\helpers\Html;
 use branchonline\lightbox\Lightbox;
 
 
-$this->title = 'Самоходная техника';
+$title = 'Самоходная техника';
+$this->title = title(Yii::$app->params['title'].$title);
 
-$this->params['breadcrumbs'][] = $this->title;
+
+$this->params['breadcrumbs'][] = $title;
 ?>
 
 
@@ -30,7 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="post post-1771  type-page status-publish hentry odd" id="post-1771">
 
 
-<div class="post-headline text-center">     <h1><?= Html::encode($this->title) ?></h1>
+<div class="post-headline text-center">     <h1><?= Html::encode($title) ?></h1>
         </div>
 
 <div class="post-bodycopy clearfix">

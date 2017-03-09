@@ -9,8 +9,10 @@ use yii\helpers\Html;
 //use yii\captcha\Captcha;
 //use phpnt\yandexMap\YandexMaps;
 
-$this->title = 'Контакты';
-$this->params['breadcrumbs'][] = $this->title;
+$title = 'Контакты';
+$this->title = title(Yii::$app->params['title'].$title);
+
+$this->params['breadcrumbs'][] = $title;
 ?>
 
 
@@ -21,7 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-contact container siteblock">
    
     <div class="row">
-    <h1 class="text-center"><?= Html::encode($this->title) ?></h1>
+    <h1 class="text-center"><?= Html::encode($title) ?></h1>
     <div class="col-md-6 col-sm-6 cont">
  
 
