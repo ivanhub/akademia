@@ -13,6 +13,13 @@
         "source": "https://github.com/yiisoft/yii2"
     },
     "minimum-stability": "dev",
+    "repositories":
+    [
+            {
+                "type": "vcs",
+                "url": "https://github.com/ivanhub/yii2-gallery"
+            }
+    ],
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.6",
@@ -25,7 +32,7 @@
         "skeeks/yii2-mobile-detect": "^1.0",
         "kartik-v/yii2-widget-sidenav": "*",
         "branchonline/yii2-lightbox": "*",
-        "onmotion/yii2-gallery": "*"
+        "onmotion/yii2-gallery": "dev-custom"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
