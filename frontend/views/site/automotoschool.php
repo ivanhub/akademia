@@ -44,13 +44,13 @@ $this->params['breadcrumbs'][] = $title;
 <div class="col-xs-6">
  <div class="blockBB AA1">
  <a href="/automotoschool/A"  title="Выберите категорию">
- <img class="img-responsive" src="../../images/pics/AA.png">
+ <img class="img-responsive" src="../../images/pics/AA.png" style="width:100%">
    </a></div></div>
 
 <div class="col-xs-6">
  <div class="blockBB BB1">
  <a href="/automotoschool/B">
- <img  class="B1 img-responsive" src="../../images/pics/b-l.png" title="Выберите категорию">
+ <img  style="width:100%" class="B1 img-responsive" src="../../images/pics/b-l.png" title="Выберите категорию">
  </a>
 </div></div>
 
