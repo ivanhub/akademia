@@ -2595,8 +2595,9 @@ top:78%;
 .bb img {transform:rotate(-90deg);}
 
 
-.spaceblock {margin-top:20px;}
+
 @media (max-width:767px) {
+.spaceblock {margin-top:20px;}
 .centerxs {text-align:center; margin-top:20px;}
 }
 
