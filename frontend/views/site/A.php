@@ -83,9 +83,14 @@ $this->params['breadcrumbs'][] = $title;
  --><h4 class="text-center hideme"  data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>
 
+
 <div class="col-md-offset-1 col-md-10">
 <div class="col-xs-12 col-sm-4">  
+<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
+        <div class="span3 pull-right-md animatedb fadeInLeft opac1" data-nohover="0" >
+<?php } else { ?>
         <div class="span3 pull-right-md animatedb hideme" data-ros="fadeInLeft" data-options="delay:0;infinite:false;animationClass:opac1;duration:;callback:;"  style="" data-nohover="0" >
+<?php } ?>
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -110,9 +115,15 @@ $this->params['breadcrumbs'][] = $title;
 ?>
  </div>
         </div>
-        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4">
+        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4 spaceblock">
 <div class="forsafari">
+<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
+        <div class="span3 pull-center-md animatedb flipInY opac1" data-nohover="0">
+<?php } else { ?>
         <div class="span3 pull-center-md animatedb hideme" data-ros="flipInY" data-options="delay:200;infinite:false;animationClass:opac1;duration:;callback:;"  data-nohover="0">
+
+<?php } ?>
+
           <div class="p-item-title">ПАКЕТ<br>
           "Двойной A+B"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -139,9 +150,12 @@ $this->params['breadcrumbs'][] = $title;
 
       </div>
 
-      <div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4">
-
-        <div class="span3 pull-left-md animatedb hideme" data-ros="fadeInRight" data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;"  data-nohover="0">
+      <div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4 spaceblock">
+<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
+        <div class="span3 pull-left-md animatedb fadeInRight opac1"  data-nohover="0">
+<?php } else { ?>
+            <div class="span3 pull-left-md animatedb hideme" data-ros="fadeInRight" data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;"  data-nohover="0">
+<?php } ?>    
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -176,15 +190,15 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="wrapetap"> <div class="forsafari">
 <div class="row text-center uslv " data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
-  <div class="col-xs-7"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
+  <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/theory1.png"></div>
+  <div class="col-sm-7 centerxs"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
   <p>Консультации и тестирование с психологом.</p>
   <p>Лекции проводит преподаватель с многолетним стажем.</p>
    </div>
  </div> </div><div class="forsafari">
 <div class="row text-center uslv" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:100;duration:1500;callback:;">
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/drive1.png"></div>
-  <div class="col-xs-7"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
+  <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/drive1.png"></div>
+  <div class="col-sm-7 centerxs"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
   <p>+2 часа подготовки к сдаче экзаменов в ГИБДД (внутренний экзамен).</p>
     <p>На время занятий выдается экипировка (шлем, наколенники). </p>
 
@@ -192,14 +206,14 @@ $this->params['breadcrumbs'][] = $title;
   </div>
   </div></div> <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:200;duration:1500;callback:;">
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/clock1.png"></div>
-  <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
+  <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/clock1.png"></div>
+  <div class="col-sm-7 centerxs"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
   <p>Обучение проводится в период с мая по октябрь.</p></div>
   </div></div>
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:300;duration:1500;callback:;">
-<div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
-  <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p>  <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p></div>
+<div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
+  <div class="col-sm-7 centerxs"> <p><b>Экзамен в ГИБДД</b></p>  <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p></div>
   </div></div>
 </div>
 
@@ -219,18 +233,18 @@ $this->params['breadcrumbs'][] = $title;
 <br/><br/>
 <div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:100;duration: 1100;callback:;">
 <p class="">Тяжелые мотоциклы с объемом двигателя от 125 куб. см.</p>
-<img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A-1.png">
+<img class="img-responsive"  style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A-1.png">
 </div>
 <br/>
 <div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:200;duration: 1100;callback:;">
 <p class="">Легкие мотоциклы с объемом двигателя от 50 до 125 куб. см.</p>
-<img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A1.png">
+<img  class="img-responsive" style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A1.png">
 </div>
 
 <br/>
 <div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1100;callback:;">
 <p class=" " style="">(открывается автоматически при получении водительского удостоверения)</p>
-<img style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/M-.png">
+<img  class="img-responsive" style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/M-.png">
 </div>
 
 

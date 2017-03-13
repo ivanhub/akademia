@@ -115,7 +115,7 @@ JS
 , yii\web\View::POS_READY); ?>
  </div>
         </div>
-        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4">
+        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4 spaceblock">
         <div class="forsafari">
         <div class="span3 pull-center-md  animatedb hideme" data-ros="flipInY" data-options="delay:200;infinite:false;animationClass:opac1;duration:;callback:;"   data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
@@ -144,7 +144,7 @@ JS
       </div>
 
 
-        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4">
+        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4 spaceblock">
 
         <div class="span3 pull-left-md  animatedb hideme"  data-ros="fadeInRight"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0">
           <div class="p-item-title">ПАКЕТ<br>
@@ -239,28 +239,28 @@ JS
 
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
-  <div class="col-xs-7"><p><b>Теория</b></p> <p>134 часа теоретических занятий, внутренний экзамен.</p>  
+  <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/theory1.png"></div>
+  <div class="col-sm-7 centerxs"><p><b>Теория</b></p> <p>134 часа теоретических занятий, внутренний экзамен.</p>  
   <p>Консультации и тестирование с психологом.</p>
   <p>Обучение преподавателем с многолетним стажем.</p>
    </div>
  </div></div><div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:100;infinite:false;animationClass:animated;duration:1500;callback:;" >
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/drive1.png"></div>
-  <div class="col-xs-7"><p><b>Вождение</b></p> <p>56 часов вождения. </p>
+  <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/drive1.png"></div>
+  <div class="col-sm-7 centerxs"><p><b>Вождение</b></p> <p>56 часов вождения. </p>
   <p>+2 часа подготовки к сдаче экзаменов в ГИБДД (внутренний экзамен).</p>
   <p>Учебные маршруты по всему городу.</p>
   </div>
   </div></div>
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:200;infinite:false;animationClass:animated;duration:1500;callback:;" >
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/theory1.png"></div>
-  <div class="col-xs-7"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
+  <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/theory1.png"></div>
+  <div class="col-sm-7 centerxs"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
   </div></div>
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:300;infinite:false;animationClass:animated;duration:1500;callback:;" >
-<div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
-  <div class="col-xs-7"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p></div>
+<div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
+  <div class="col-sm-7 centerxs"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p></div>
   </div></div>
 
 

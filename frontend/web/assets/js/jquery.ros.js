@@ -302,6 +302,7 @@ var ros = {
 				if ($(this).css("visibility") == 'hidden') {
 					var options = getDataOptions($this.data('options')) || null;
 					$(this).animateCSS($this.data('ros'), options);
+					//console.log('srabotalo');
 				}
 
 				// element is now visible in the viewport

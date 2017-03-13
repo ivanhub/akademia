@@ -1605,12 +1605,14 @@ text-align:left}
 
 .uslv img p:first-child {font-weight:bold}
 .uslv {margin-top:30px;
-	line-height: 0.8;
+    line-height: 0.8;
     text-align: left;
-
     align-items: center;
 }
 
+@media (max-width:500px) {
+.uslv {line-height:1;}
+}
 
 .indent50 {text-indent:50px;}
 
@@ -2121,8 +2123,13 @@ margin-top: 24px;
 .width70 {width:80%}
 /* Zing Chart END */
 
+
 .hideme {visibility:hidden;}
 
+@media (max-width:767px) {
+
+#b .hideme, #a .hideme {visibility:visible !important;}
+}
 
 .sml {font-size:17px !Important;}
 
@@ -2569,3 +2576,9 @@ top:78%;
 }
 
 .bb img {transform:rotate(-90deg);}
+
+
+.spaceblock {margin-top:20px;}
+@media (max-width:767px) {
+.centerxs {text-align:center; margin-top:20px;}
+}

@@ -5,6 +5,7 @@
 use yii\helpers\Html;
 
 $this->title = 'Учебный центр "Академия"';
+
 //$this->params['breadcrumbs'][] = ['label' => 'Employees', 'url' => ['index']];
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
