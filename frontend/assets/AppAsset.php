@@ -10,6 +10,15 @@ use yii\web\View;
  */
 class AppAsset extends AssetBundle
 {
+
+    public function init()
+{
+    $this->js = !YII_DEBUG ? ['js/wfapp_all_min.js'] : [
+'assets/js/cssrefresh.js'
+    ];
+    parent::init();
+}
+
     public $basePath = '@webroot';
     public $baseUrl = '@web';
         public $css = [
@@ -43,7 +52,7 @@ class AppAsset extends AssetBundle
 
     ];
     public $js = [
-  'assets/js/cssrefresh.js'
+ // 'assets/js/cssrefresh.js'
     ];
     public $depends = [
   //      'yii\web\YiiAsset',

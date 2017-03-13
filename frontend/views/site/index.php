@@ -161,15 +161,14 @@ $this->title = 'РОСАВТОАКАДЕМИЯ';
 
  <!-- <img class="" style="margin-top:-15px;" src="../../images/pics/bnew11.png" class="saleimg" width="250px" >-->
 &nbsp;
- <img class="" style="margin-top:-15px;" src="../../images/pics/banner2g.png" class="saleimg" width="250px" >
+ <img  style="margin-top:-15px;" src="../../images/pics/banner2g.png" class="saleimg" width="250px" >
  &nbsp;&nbsp;
  <!--  <img class="" style="margin-top:-15px;" src="../../images/pics/bnew22.png" class="saleimg" width="250px" >-->
 
  <img style="margin-top:-15px;" src="../../images/pics/banner61.png" class="saleimg" width="250px" >
  
  </div>
-<div class="white255"></div>
-
+<p class="hidden-xs hidden-sm"><br/></p>
 
  </div>
 <br/><br/>

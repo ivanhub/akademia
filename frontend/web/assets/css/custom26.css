@@ -2118,7 +2118,7 @@ margin-top: 24px;
 #myChart {
 	height:100%;
 	width:100%;
-	min-height:500px;
+/*	min-height:500px; */
 }
 
 @media (min-width:768px) { .width70 {width:80%} }
@@ -2126,7 +2126,7 @@ margin-top: 24px;
 #chart {
     transform: scale(0.8);
     margin-top: -80px;
-    margin-bottom: -150px;
+    margin-bottom: -65px;
     margin-left:-60px;
     margin-right:-60px;
 }

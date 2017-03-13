@@ -260,7 +260,7 @@ $this->params['breadcrumbs'][] = $title;
 
 <br/>
 <div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1100;callback:;">
-<p class=" " style="">Открывается автоматически при получении водительского удостоверения.</p>
+<p class=" " style="">Открывается автоматически при получении водительского удостоверения.<span class="visible-xs">(Категория М)</span></p>
 <img  class="img-responsive acat" src="../../images/pics/M-cat.png">
 <div class="clearfix visible-xs"></div>
 <div class="leftarrow acat"></div>
