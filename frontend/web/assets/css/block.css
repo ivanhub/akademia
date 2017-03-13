@@ -522,6 +522,7 @@ margin: 0 0 5px 0; /*margin between images*/
 
 .rowpacket {width:80%;}
 
+@media (min-width:768px) {
  .span3[data-nohover="0"]:hover{
 -webkit-transform:scale(1.2); /*Webkit: Scale up image to 1.2x original size*/
 -moz-transform:scale(1.2); /*Mozilla scale version*/
@@ -532,6 +533,7 @@ box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around imag
 -moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
 box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
 opacity: 1;
+}
 }
 
 

@@ -2120,7 +2120,24 @@ margin-top: 24px;
 	width:100%;
 	min-height:500px;
 }
-.width70 {width:80%}
+
+@media (min-width:768px) { .width70 {width:80%} }
+@media (max-width:550px) {
+#chart {
+    transform: scale(0.8);
+    margin-top: -80px;
+    margin-bottom: -150px;
+    margin-left:-60px;
+    margin-right:-60px;
+}
+}
+
+@media (max-width:400px) {
+#chart {
+    transform: scale(0.75);
+    margin-left:-65px;
+}}
+
 /* Zing Chart END */
 
 
@@ -2582,3 +2599,48 @@ top:78%;
 @media (max-width:767px) {
 .centerxs {text-align:center; margin-top:20px;}
 }
+
+
+@media (min-width:768px) {
+.kakpr { white-space:nowrap; display:inline-block; line-height:1;
+margin-left:9px;
+margin-right:9px;
+    font-size: calc(11px + 0.35vw) !important;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px 6px #98b8a1;
+}
+.acat {margin-top:-15px;  white-space:nowrap; display:inline-block;}
+.leftarrow {
+background:url(../../images/pics/leftarrow.png);
+height: 27px;
+    width: 25px;}
+
+
+
+}
+
+
+
+@media (max-width:767px) {
+.kakpr { 
+line-height:1;
+margin-left:9px;
+margin-right:9px;
+    font-size: calc(11px + 0.35vw) !important;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px 6px #98b8a1;
+}
+.acat {margin-top:8px;margin-bottom:8px;  display:inline-block;}
+.acat:last-child {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.leftarrow {
+background:url(../../images/pics/downarrow.png);
+height: 27px;
+    width: 25px;}
+
+}
+

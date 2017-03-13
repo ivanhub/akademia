@@ -40,7 +40,13 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="col-md-offset-1 col-md-10">  
 <div class="col-xs-12 col-sm-4">  
+<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
+        <div class="span3 pull-right-md  animatedb fadeInLeft opac1" data-nohover="0">
+<?php } else { ?>
         <div class="span3 pull-right-md  animatedb  hideme" data-ros="fadeInLeft" data-options="delay:0;infinite:false;animationClass:opac1;duration:;callback:;"    data-nohover="0" style="">
+
+<?php } ?>
+
           <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -117,7 +123,14 @@ JS
         </div>
         </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4 spaceblock">
         <div class="forsafari">
+
+
+<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
+        <div class="span3 pull-center-md  animatedb flipInY opac1" data-nohover="0">
+<?php } else { ?>
         <div class="span3 pull-center-md  animatedb hideme" data-ros="flipInY" data-options="delay:200;infinite:false;animationClass:opac1;duration:;callback:;"   data-nohover="0">
+<?php } ?>
+
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -146,7 +159,11 @@ JS
 
         </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4 spaceblock">
 
-        <div class="span3 pull-left-md  animatedb hideme"  data-ros="fadeInRight"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0">
+<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
+        <div class="span3 pull-left-md  animatedb fadeInRight opac1"  data-nohover="0"><?php } else { ?>
+        <div class="span3 pull-left-md  animatedb hideme"  data-ros="fadeInRight"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0"><?php } ?>
+
+
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -228,8 +245,9 @@ JS
 <!--  <h5 class="m420" style="font-weight:bold; text-align:center">Без скрытых платежей и сборов</h5> -->
 <!--   <h6 class="m420" style="font-weight:bold; text-align:center">Выберите желаемый пакет обучения.</h6>
   <h5  style="font-weight:bold; text-align:center">Порядок обучения</h5> -->
-  <br/>
-   <h5 class="m420 hideme" style="font-weight:bold; text-align:center"   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
+  </div><br/>
+    <h5 class="hideme" style="font-weight:bold; text-align:center"  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
+
 
 
 

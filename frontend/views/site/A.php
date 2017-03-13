@@ -223,7 +223,7 @@ $this->params['breadcrumbs'][] = $title;
 <br/>
 
 <div class="row">
-<div class="col-md-offset-2 col-md-8">
+<div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10  col-sm-12 text-center ">
  <section class="stylecenter">
 
 
@@ -233,23 +233,48 @@ $this->params['breadcrumbs'][] = $title;
 <br/><br/>
 <div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:100;duration: 1100;callback:;">
 <p class="">Тяжелые мотоциклы с объемом двигателя от 125 куб. см.</p>
-<img class="img-responsive"  style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A-1.png">
+<img  class="img-responsive acat" src="../../images/pics/A-cat.png">
+<div class="clearfix visible-xs"></div>
+<div class="leftarrow acat"></div>
+<p class="kakpr"> Обучение <br/>с 16 лет </p>
+<div class="leftarrow acat"></div>
+<p class="kakpr"> Открытие категории <br/>с 18 лет </p>
+<div class="leftarrow acat"></div>
+<p class="kakpr">Получение<br/> прав</p>
+<img  class="img-responsive acat" src="../../images/pics/prava.png">
+
 </div>
 <br/>
 <div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:200;duration: 1100;callback:;">
 <p class="">Легкие мотоциклы с объемом двигателя от 50 до 125 куб. см.</p>
-<img  class="img-responsive" style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/A1.png">
+<img  class="img-responsive acat" src="../../images/pics/A1-cat.png">
+<div class="clearfix visible-xs"></div>
+<div class="leftarrow acat"></div>
+<p class="kakpr"> Обучение <br/>с 16 лет </p>
+<div class="leftarrow acat"></div>
+<p class="kakpr"> Открытие категории <br/>с 16 лет </p>
+<div class="leftarrow acat"></div>
+<p class="kakpr">Получение<br/> прав</p>
+<img  class="img-responsive acat" src="../../images/pics/prava.png">
 </div>
 
 <br/>
 <div class="" data-ros="fadeInLeft"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1100;callback:;">
-<p class=" " style="">(открывается автоматически при получении водительского удостоверения)</p>
-<img  class="img-responsive" style="display:block;margin-left:auto;margin-right:auto;margin-top:-15px" src="../../images/pics/M-.png">
+<p class=" " style="">Открывается автоматически при получении водительского удостоверения.</p>
+<img  class="img-responsive acat" src="../../images/pics/M-cat.png">
+<div class="clearfix visible-xs"></div>
+<div class="leftarrow acat"></div>
+<p class="kakpr"> Обучение <br/>с 14 лет </p>
+<div class="leftarrow acat"></div>
+<p class="kakpr"> Открытие категории <br/>с 16 лет </p>
+<div class="leftarrow acat"></div>
+<p class="kakpr">Получение<br/> прав</p>
+<img  class="img-responsive acat" src="../../images/pics/prava.png">
 </div>
 
 
 
-<br/>
+
 
  </section>
 <br/><br/>
