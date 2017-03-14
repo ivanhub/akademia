@@ -278,7 +278,7 @@ JS
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:300;infinite:false;animationClass:animated;duration:1500;callback:;" >
 <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
-  <div class="col-sm-7 centerxs"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четверый четверг месяца.</p></div>
+  <div class="col-sm-7 centerxs"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четвертый четверг месяца.</p></div>
   </div></div>
 
 

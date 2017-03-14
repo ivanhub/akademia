@@ -8,4 +8,5 @@ Disallow: /temp/
 Disallow: /vagrant/
 Disallow: /vendor/
 Disallow: /.git/
-Host: СЂРѕСЃР°РІС‚РѕР°РєР°РґРµРјРёСЏ.СЂС„
+
+Host: росавтоакадемия.рф
