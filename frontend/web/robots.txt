@@ -1,3 +1,7 @@
+#
+# Web-development ivan@webera.pro +7 (96Р—) 911-2595
+#
+
 User-Agent: *
 Disallow: /advanced/
 Disallow: /backend/
@@ -9,4 +13,4 @@ Disallow: /vagrant/
 Disallow: /vendor/
 Disallow: /.git/
 
-Host: росавтоакадемия.рф
+Host: СЂРѕСЃР°РІС‚РѕР°РєР°РґРµРјРёСЏ.СЂС„

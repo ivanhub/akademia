@@ -157,15 +157,15 @@ $this->title = 'РОСАВТОАКАДЕМИЯ';
 
 <div class="insideakcii">
 <h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Наши акции:</h2></div>
-<img style="margin-top:-15px;" src="../../images/pics/baner50.png" class="saleimg" width="250px" >
+<img style="margin-top:-15px;" src="../../images/pics/banner-4.png" class="saleimg" width="250px" alt="Лови момент" title="Лови момент">
 
  <!-- <img class="" style="margin-top:-15px;" src="../../images/pics/bnew11.png" class="saleimg" width="250px" >-->
 &nbsp;
- <img  style="margin-top:-15px;" src="../../images/pics/banner2g.png" class="saleimg" width="250px" >
+ <img  style="margin-top:-15px;" src="../../images/pics/banner2g.png" class="saleimg" width="250px" alt="Супер Акция" title="Супер Акция"  >
  &nbsp;&nbsp;
  <!--  <img class="" style="margin-top:-15px;" src="../../images/pics/bnew22.png" class="saleimg" width="250px" >-->
 
- <img style="margin-top:-15px;" src="../../images/pics/banner61.png" class="saleimg" width="250px" >
+ <img style="margin-top:-15px;" src="../../images/pics/banner61.png" class="saleimg" width="250px" alt="Выгодное предложение" title="Выгодное предложение">
  
  </div>
 <p class="hidden-xs hidden-sm"><br/></p>
