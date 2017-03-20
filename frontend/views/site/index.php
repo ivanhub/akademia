@@ -58,7 +58,7 @@ $this->title = 'РОСАВТОАКАДЕМИЯ';
 
 <div class="col-xs-6  box1  cl-effect-12">
 <div class="fill">
-<a style="display:block" href="/automotoschool">
+<a style="display:block" href="/driving-school">
 <img class="hvr-bounce-in img-responsive" src="../images/c1.png">
 <p class="blocktitle anim_one text-center">Автомотошкола</p></a>
 </div>

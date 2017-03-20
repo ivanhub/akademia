@@ -9,9 +9,9 @@ use yii\helpers\Html;
 <div class="col-md-2  col-sm-2 col-xs-2 foocol"></div>
 
 <div class="col-md-3   col-sm-3 col-xs-5">
- <p><a href="/automotoschool">Автомотошкола</a></p>   
- <p><a href="/automotoschool/A">Категория А</a></p>
-  <p><a href="/automotoschool/B">Категория B</a></p>
+ <p><a href="/driving-school">Автомотошкола</a></p>   
+ <p><a href="/driving-school/A">Категория А</a></p>
+  <p><a href="/driving-school/B">Категория B</a></p>
   <p style="padding-top:0px"><b><a href="/self-propelled-machinery">Самоходная техника</a></b></p>
   <p style="padding-top:0px"><b><a href="/navigation">Судовождение</a></b></p>   
   <p style="padding-top:0px"><b><a href="/safety-driving">Защитное вождение</a></b></p>   

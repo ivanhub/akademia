@@ -17,7 +17,7 @@ $this->title = title(Yii::$app->params['title'].$title);
 $this->params['breadcrumbs'][] = [
                                    /* 'template' => "<li><b>{link}</b></li>\n", */
                                     'label' => 'Автомотошкола', 
-                                    'url' => ['/automotoschool']
+                                    'url' => ['/driving-school']
                                  ];
 $this->params['breadcrumbs'][] = $title;
 ?>
