@@ -66,7 +66,7 @@ $this->title = 'РОСАВТОАКАДЕМИЯ';
 <div class="forsafari">
 <div class="col-xs-6 box2 cl-effect-12">
 <div class="fill2">
-<a style="display:block" href="/samohodnaya-tehnika">
+<a style="display:block" href="/self-propelled-machinery">
 <img class="hvr-wobble-to-top-right img-responsive" src="../images/c2.png">
 <p class="blocktitle anim_two text-center">Самоходная техника</p>
 </a>
@@ -81,14 +81,14 @@ $this->title = 'РОСАВТОАКАДЕМИЯ';
   <div class="forsafari">
 <div class="col-xs-6  box3  cl-effect-12">
 <div class="fill">
-<a style="display:block" href="/sudovozhdenie">
+<a style="display:block" href="/navigation">
 <img class="boat img-responsive" src="../images/c3.png"  >
 <p class="blocktitle anim_three text-center">Судовождение</p>
 </a></div>
   </div></div>
 <div class="col-xs-6  box4  cl-effect-12">
 <div class="fill2">
-<a style="display:block;" href="/dop-uslugi"> 
+<a style="display:block;" href="/additional-services"> 
 <img class="hvr-wobble-top img-responsive" src="../images/c4.png">
 <p class="blocktitle anim_four text-center">Дополнительные услуги</p>
 </a></div>

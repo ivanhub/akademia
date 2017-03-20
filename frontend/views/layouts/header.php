@@ -142,7 +142,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
     ]);
     $menuItems = [
  ['label' => 'Главная', 'url' => ['/'], 'active' => $this->context->route == 'site/index'],
-        ['label' => 'Дистанционное обучение', 'url' => ['/distance'], 'active' => $this->context->route == 'site/distance'],
+        ['label' => 'Дистанционное обучение', 'url' => ['/distance-education'], 'active' => $this->context->route == 'site/distance'],
         ['label' => 'Галерея', 'url' => ['/gallery'], 'active' => $this->context->route == 'site/gallery'],
         ['label' => 'Об организации', 'url' => ['/about-us'], 'active' => $this->context->route == 'site/aboutus'],
         ['label' => 'Контакты', 'url' => ['/contact'], 'active' => $this->context->route == 'site/contact']];

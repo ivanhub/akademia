@@ -86,7 +86,6 @@ echo $form->field($model, 'body')->textArea(['rows' => 6])->label('Коммен�
 echo $form->field($model, 'fromfield')->hiddenInput(['value'=> '1'])->label(false);
 echo $form->field($model, 'pack')->hiddenInput(['value'=> ''])->label(false);
 
-
 echo ' <div class="form-group text-center">';
 
 echo Html::submitButton('Отправить', ['class' => 'btn btn-primary btn-success', 'name' => 'contact-button']) ;
