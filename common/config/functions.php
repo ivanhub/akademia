@@ -118,7 +118,7 @@ return Yii::$app->params['titlebot'].$title;;
  {
  return  Yii::$app->params['title'].$title; }
   }
-else if (agent($_SERVER['HTTP_USER_AGENT'])) return  'Автомотошкола «Росавтоакадемия» г. Самара';
+else if (agent($_SERVER['HTTP_USER_AGENT'])) return  'Автошкола и Мотошкола «Росавтоакадемия» г. Самара';
 else return '«РОСАВТОАКАДЕМИЯ» - Автомотошкола г. Самара';
 }
 

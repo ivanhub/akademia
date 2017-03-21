@@ -32,7 +32,8 @@
         "skeeks/yii2-mobile-detect": "^1.0",
         "kartik-v/yii2-widget-sidenav": "*",
         "branchonline/yii2-lightbox": "*",
-        "onmotion/yii2-gallery": "dev-custom"
+        "onmotion/yii2-gallery": "dev-custom",
+        "mrssoft/yii2-sitemap": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

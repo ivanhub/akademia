@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f70bcb1a59fe08805f4d50a66de5027",
+    "content-hash": "2a305db9a9d4c9a1647aa1fd1a62788c",
     "packages": [
         {
             "name": "alexandernst/yii2-device-detect",
@@ -713,6 +713,47 @@
                 "php mobile detect"
             ],
             "time": "2016-11-11T14:56:25+00:00"
+        },
+        {
+            "name": "mrssoft/yii2-sitemap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrs2000/yii2-sitemap.git",
+                "reference": "44ddcfd8a2e8db93829e2afc5bbd5086ba49585b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrs2000/yii2-sitemap/zipball/44ddcfd8a2e8db93829e2afc5bbd5086ba49585b",
+                "reference": "44ddcfd8a2e8db93829e2afc5bbd5086ba49585b",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "mrssoft\\sitemap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Melnikov Ruslan",
+                    "email": "mrs2000@inbox.ru"
+                }
+            ],
+            "description": "Yii2 sitemap extension",
+            "keywords": [
+                "Sitemap",
+                "extension",
+                "yii2"
+            ],
+            "time": "2016-04-26T02:59:18+00:00"
         },
         {
             "name": "omnilight/yii2-vuejs",
@@ -1538,7 +1579,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-03-06T08:47:54+00:00"
+            "time": "2017-03-06 08:47:54"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1603,7 +1644,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-02-27T10:51:17+00:00"
+            "time": "2017-02-27 10:51:17"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1892,7 +1933,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-03-03T17:09:02+00:00"
+            "time": "2017-03-03 17:09:02"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1955,7 +1996,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-07T10:28:00+00:00"
+            "time": "2017-03-07 10:28:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -2092,7 +2133,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2017-03-07T15:42:04+00:00"
+            "time": "2017-03-07 15:42:04"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -2141,7 +2182,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-03-07T07:36:57+00:00"
+            "time": "2017-03-07 07:36:57"
         },
         {
             "name": "phpunit/phpunit",
@@ -2223,7 +2264,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-09T13:47:42+00:00"
+            "time": "2017-03-09 13:47:42"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2282,7 +2323,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2017-03-07T08:47:31+00:00"
+            "time": "2017-03-07 08:47:31"
         },
         {
             "name": "psr/http-message",
@@ -2424,7 +2465,7 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2017-03-04T10:23:55+00:00"
+            "time": "2017-03-04 10:23:55"
         },
         {
             "name": "sebastian/comparator",
@@ -2488,7 +2529,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2017-03-07T10:34:43+00:00"
+            "time": "2017-03-07 10:34:43"
         },
         {
             "name": "sebastian/diff",
@@ -2540,7 +2581,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2017-03-07T07:26:53+00:00"
+            "time": "2017-03-07 07:26:53"
         },
         {
             "name": "sebastian/environment",
@@ -2590,7 +2631,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2017-03-07T12:59:58+00:00"
+            "time": "2017-03-07 12:59:58"
         },
         {
             "name": "sebastian/exporter",
@@ -2657,7 +2698,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2017-03-07T10:36:49+00:00"
+            "time": "2017-03-07 10:36:49"
         },
         {
             "name": "sebastian/global-state",
@@ -2754,7 +2795,7 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "time": "2017-03-07T10:37:45+00:00"
+            "time": "2017-03-07 10:37:45"
         },
         {
             "name": "sebastian/recursion-context",
@@ -2807,7 +2848,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2017-03-08T08:21:15+00:00"
+            "time": "2017-03-08 08:21:15"
         },
         {
             "name": "sebastian/resource-operations",
@@ -3017,7 +3058,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-07T16:28:52+00:00"
+            "time": "2017-03-07 16:28:52"
         },
         {
             "name": "symfony/css-selector",
@@ -3245,7 +3286,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-28T02:18:26+00:00"
+            "time": "2017-02-28 02:18:26"
         },
         {
             "name": "symfony/finder",
@@ -3408,7 +3449,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-07T16:54:31+00:00"
+            "time": "2017-03-07 16:54:31"
         },
         {
             "name": "webmozart/assert",
@@ -3605,13 +3646,14 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2017-03-07T11:12:54+00:00"
+            "time": "2017-03-07 11:12:54"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "onmotion/yii2-gallery": 20
+        "onmotion/yii2-gallery": 20,
+        "mrssoft/yii2-sitemap": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -13,7 +13,7 @@ class AppAsset extends AssetBundle
 
     public function init()
 {
-    $this->js = !YII_DEBUG ? ['js/wfapp_all_min.js'] : [
+    $this->js = !YII_DEBUG ? [''] : [
 'assets/js/cssrefresh.js'
     ];
     parent::init();
