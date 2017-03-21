@@ -8,9 +8,13 @@ use yii\helpers\Html;
 //use yii\bootstrap\ActiveForm;
 //use yii\captcha\Captcha;
 //use phpnt\yandexMap\YandexMaps;
+//$agent=$_SERVER['HTTP_USER_AGENT'];
+//dd($agent);
+//if(agent($_SERVER['HTTP_USER_AGENT'])) echo '555';
+
 
 $title = 'Дистанционное обучение';
-$this->title = title(Yii::$app->params['title'].$title);
+$this->title = title($title);
 
 $this->params['breadcrumbs'][] = $title;
 ?>

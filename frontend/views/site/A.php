@@ -16,7 +16,7 @@ use yii\helpers\Html;
 
 
 $title = 'Категория A';
-$this->title = title(Yii::$app->params['title'].$title);
+$this->title = title($title);
 
 $this->params['breadcrumbs'][] = [
                                    /* 'template' => "<li><b>{link}</b></li>\n", */

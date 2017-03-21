@@ -10,7 +10,7 @@ use yii\bootstrap\ActiveForm;
 //use phpnt\yandexMap\YandexMaps;
 
 $title = 'Автомотошкола';
-$this->title = title(Yii::$app->params['title'].$title);
+$this->title = title($title);
 
 
 

@@ -10,7 +10,7 @@ use yii\helpers\Html;
 //use phpnt\yandexMap\YandexMaps;
 
 $title = 'Контакты';
-$this->title = title(Yii::$app->params['title'].$title);
+$this->title = title($title);
 
 $this->params['breadcrumbs'][] = $title;
 ?>

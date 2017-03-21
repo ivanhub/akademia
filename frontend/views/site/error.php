@@ -8,7 +8,7 @@
 use yii\helpers\Html;
 
 $title = $name;
-$this->title = title(Yii::$app->params['title'].$title);
+$this->title = title($title);
 
 
 /*

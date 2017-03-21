@@ -12,7 +12,7 @@ use frontend\components\Leftmenu;
 
 
 $title = 'Наши преимущества';
-$this->title = title(Yii::$app->params['title'].$title);
+$this->title = title($title);
 
 $this->params['breadcrumbs'][] = [
                                   'template' => "<li>{link}</li>\n", 

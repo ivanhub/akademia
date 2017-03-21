@@ -18,8 +18,7 @@ use yii\base\Widget;
 
 
 AppAsset::register($this);
-$controll = Yii::$app->controller;
-$action = $controll->action->id;
+$action = Yii::$app->controller->action->id;
 
 //temporary, for testing
 header("Access-Control-Allow-Origin: *");
@@ -40,7 +39,7 @@ $this->beginPage() ?>
 
 </head>
 
-<body id="<?php echo $action; ?>" >
+<body id="<?php echo $action; ?>">
 
 
 <?php $this->beginBody() 

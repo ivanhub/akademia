@@ -12,7 +12,7 @@ use branchonline\lightbox\Lightbox;
 
 
 $title = 'Самоходная техника';
-$this->title = title(Yii::$app->params['title'].$title);
+$this->title = title($title);
 
 
 $this->params['breadcrumbs'][] = $title;

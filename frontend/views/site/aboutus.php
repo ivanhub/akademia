@@ -15,7 +15,7 @@ use yii\helpers\Html;
 use branchonline\lightbox\Lightbox;
 
 $title = 'Сведения об образовательной организации';
-$this->title = title(Yii::$app->params['title'].$title);
+$this->title = title($title);
 
 
 $this->params['breadcrumbs'][] = $title;

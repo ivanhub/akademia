@@ -4,7 +4,9 @@
 
 use yii\helpers\Html;
 
-$this->title = 'РОСАВТОАКАДЕМИЯ';
+
+$this->title = title('cd');
+
 //$this->params['breadcrumbs'][] = ['label' => 'Employees', 'url' => ['index']];
 //$this->params['breadcrumbs'][] = $this->title;
 

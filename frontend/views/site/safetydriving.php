@@ -11,7 +11,7 @@ use yii\helpers\Html;
 use branchonline\lightbox\Lightbox;
 
 $title = 'Защитное вождение';
-$this->title = title(Yii::$app->params['title'].$title);
+$this->title = title($title);
 
 
 $this->params['breadcrumbs'][] = $title;
