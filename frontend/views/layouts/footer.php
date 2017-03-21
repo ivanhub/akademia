@@ -70,7 +70,7 @@ use yii\helpers\Html;
         </a>
     </p>
 </div>http://codepen.io/anon/pen/mWJmmm?editors=1100-->
-<p style="margin-left:-10px">  <a target="blank" href="https://vk.com/club66648747" class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></a><a href="https://vk.com/club66648747" target="blank" class="myvk">Мы Вконтакте</a></p><BR/>
+<p style="margin-left:-10px">  <a target="blank" href="https://vk.com/rosavtoakademia" class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></a><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk">Мы Вконтакте</a></p><BR/>
 <!--<div class="hi-icon-effect-8 "> -->
 
 </div>
