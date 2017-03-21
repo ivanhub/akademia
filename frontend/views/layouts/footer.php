@@ -20,7 +20,7 @@ use yii\helpers\Html;
  <!-- <p><a href="/postupayushchim">Запись на обучение</a></p>
  <p><a href="/raspisanie">Расписание занятий</a></p>
  <p><a href="/our-advantages">Наши преимущества</a></p>
- <p><a href="/dop-uslugi">Дополнительные услуги</a></p> -->
+ <p><a href="/additional-services">Дополнительные услуги</a></p> -->
  </div>
 
   <!-- <div class="clearfix visible-sm"></div> -->
@@ -38,12 +38,12 @@ use yii\helpers\Html;
  <p><a data-toggle="collapse" href="#consultation">Занятия с инструктором</a></p>
 
   <?php } else { ?>
-<p><a href="/dop-uslugi">Дополнительные услуги</a></p>   
- <p><a href="/dop-uslugi#specialsignals">Курс "Спецсигналы"</a></p>
- <p><a href="/dop-uslugi#DOPOG">Курс "ДОПОГ"</a></p>
- <p><a href="/dop-uslugi#instructor_training">Обучение инструкторов</a></p>
- <p><a href="/dop-uslugi#Arenda_avtodroma">Аренда автодрома</a></p>
- <p><a href="/dop-uslugi#consultation">Занятия с инструктором</a></p>
+<p><a href="/additional-services">Дополнительные услуги</a></p>   
+ <p><a href="/additional-services#specialsignals">Курс "Спецсигналы"</a></p>
+ <p><a href="/additional-services#DOPOG">Курс "ДОПОГ"</a></p>
+ <p><a href="/additional-services#instructor_training">Обучение инструкторов</a></p>
+ <p><a href="/additional-services#Arenda_avtodroma">Аренда автодрома</a></p>
+ <p><a href="/additional-services#consultation">Занятия с инструктором</a></p>
 
 <?php } ?>
 
