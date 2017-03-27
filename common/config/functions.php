@@ -119,7 +119,7 @@ return Yii::$app->params['titlebot'].$title;;
  return  Yii::$app->params['title'].$title; }
   }
 else if (agent($_SERVER['HTTP_USER_AGENT'])) return  'Автошкола и Мотошкола «Росавтоакадемия» г. Самара';
-else return '«РОСАВТОАКАДЕМИЯ» - Автомотошкола г. Самара';
+else return '«РОСАВТОАКАДЕМИЯ» - Автошкола и Мотошкола г. Самара';
 }
 
     // Remove all characters that are not the separator, a-z, 0-9, or whitespace and arabic lang
