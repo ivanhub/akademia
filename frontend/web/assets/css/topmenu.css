@@ -60,7 +60,7 @@ img.hvr-up.onload-logo {
 
  .phone {
       color:#1a2a0f;
-    font-family: 'Myriadprocond';
+    font-family: "Myriadprocond","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 37px;
     font-weight: 900;
 
@@ -132,7 +132,7 @@ p.logotextbottom {
 
 
 .navbar-nav {
-    font-family: 'Myriadsetpro';
+    font-family: "Myriadsetpro","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 16px;
     font-weight: 500;
 }

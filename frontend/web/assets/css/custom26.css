@@ -27,7 +27,7 @@ position: relative;
 padding:49px 60px 0px 60px;
 margin-bottom:50px;
 text-indent:50px;
-font-family: 'Myriadsetpro';
+font-family: "Myriadsetpro","Helvetica Neue","Helvetica","Arial",sans-serif;
 font-size:calc(12px + 0.8vw);
 /*font-size:calc(12px + 1vw);
 /*font-size:calc(12px + 1vw);*/
@@ -57,7 +57,7 @@ padding:50px 60px 50px 60px;
 margin-bottom:80px;
 text-indent:50px;
 
-font-family: 'Myriadsetpro';
+font-family: "Myriadsetpro","Helvetica Neue","Helvetica","Arial",sans-serif;
 font-size:21px;
 
 	border-top: 2px dashed #5b9937;
@@ -208,7 +208,7 @@ padding-right:15px;
 }
 .take {  
      margin-top: -14px;
-  font-family: 'Rex';  
+  font-family: "Rex","Helvetica Neue","Helvetica","Arial",sans-serif;  
 
      font-weight:600;
      font-size:17px;
