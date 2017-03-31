@@ -15,7 +15,7 @@ use yii\base\Widget;
 //use frontend\components\TesttWidget;
 //use kartik\base;
 //use kartik\growl;
-
+//"<?= Yii::$app->language >"
 
 AppAsset::register($this);
 $action = Yii::$app->controller->action->id;
@@ -26,7 +26,7 @@ header("Access-Control-Allow-Origin: *");
 
 $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="ru">
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
