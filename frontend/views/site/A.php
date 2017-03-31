@@ -99,7 +99,7 @@ $this->params['breadcrumbs'][] = $title;
        <p style="margin-bottom: -6px;margin-top: -6px;font-size: calc(9px + 0.35vw);">до 7 апреля</p>
 <p style="margin-top:7px;">от <b style="color:darkgreen;text-decoration:line-through">10 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
-    <p>с 9:00 до 16:00 Вт-Пт.</p>
+    <p>с 9:00 до 19:00 Вт-Пт.</p>
     <p>Теоретические занятия:</p>
     <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>      </div>
           <div class="butt">
