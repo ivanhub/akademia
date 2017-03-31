@@ -25,7 +25,6 @@ header("Access-Control-Allow-Origin: *");
 
 
 $this->beginPage() ?>
-
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
