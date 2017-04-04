@@ -1497,7 +1497,7 @@ background: rgba(0, 0, 0, 0.5);
 h1,h2,h6 {
     color: #232323 !important;
     font-family: 'Myriadsetpro', sans-serif;
-    font-size: calc(20px + 0.9vw);
+    font-size: calc(20px - -0.9vw);
 }
 
 
@@ -1508,11 +1508,11 @@ h5,h4 {
 }
 
 h4,h5 {
-    font-size: calc(20px + 0.9vw) !important;
+    font-size: calc(20px - -0.9vw) !important;
 }
 
 #contact h4, #contact h5 {
-    font-size: calc(18px + 0.9vw) !important;
+    font-size: calc(18px - -0.9vw) !important;
 }
 
 
@@ -1521,7 +1521,7 @@ h4 + p, h5 + p { margin-top:0 !important; }
 .exam h5 {font-size:19px !important}
 
 #aboutus h4.panel-title {
-font-size: calc(15px + 0.8vw) !important;
+font-size: calc(15px - -0.8vw) !important;
 text-align:justify;
 }
 
@@ -1548,11 +1548,11 @@ text-align:center;
 }
 
 
-.post-bodycopy{ font-size: calc(13px + 0.3vw)}
+.post-bodycopy{ font-size: calc(13px - -0.3vw)}
 
-#distance .site-distance p, .safetydriving {font-size: calc(13px + 0.4vw)}
+#distance .site-distance p, .safetydriving {font-size: calc(13px - -0.4vw)}
 
-.texts {font-size: calc(12px + 0.4vw);   margin-top:10px;}
+.texts {font-size: calc(12px - -0.4vw);   margin-top:10px;}
 
 @media (max-width:1199px) {
 .exam h5 {font-size: 18px !important;}
@@ -1598,7 +1598,7 @@ font-size:16px !important;
 
 .site-automotoschool p, .preimul, .preimul2 {
     font-family: 'Myriadsetpro', sans-serif !important;
-    font-size: calc(12px + 0.35vw);
+    font-size: calc(12px - -0.35vw);
 }
 
 

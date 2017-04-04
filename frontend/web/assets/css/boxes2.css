@@ -534,7 +534,7 @@ opacity:1;
 .blocktitle {
     font-family: 'Myriadsetpro', sans-serif;
     white-space: nowrap;
-font-size:calc(10px + 0.9vw);
+    font-size:calc(10px - -0.9vw);
 
     font-weight:900;
     text-transform: uppercase;

@@ -28,7 +28,7 @@ padding:49px 60px 0px 60px;
 margin-bottom:50px;
 text-indent:50px;
 font-family: "Myriadsetpro","Helvetica Neue","Helvetica","Arial",sans-serif;
-font-size:calc(12px + 0.8vw);
+font-size:calc(12px - -0.8vw);
 /*font-size:calc(12px + 1vw);
 /*font-size:calc(12px + 1vw);*/
 background: url(../../images/fon/line.jpg) 0 top  repeat-x;
@@ -2225,7 +2225,7 @@ p.anim_one,p.anim_three {
 }
 @media (min-width:380px) and (max-width:449px) {
 .blocktitle {
-font-size:calc(9px + 0.6vw) !important;}
+font-size:calc(9px - -0.6vw) !important;}
 
 #index .box3, #index .box4 {
     margin-top: 15px !important;
@@ -2249,7 +2249,7 @@ margin-bottom:30px;
 
 .rowm {    margin-bottom: -20px;}
 .blocktitle {
-font-size:calc(7px + 0.6vw) !important;}
+font-size:calc(7px - -0.6vw) !important;}
 
 #index .box3, #index .box4 {
     margin-top: 15px !important;
@@ -2606,7 +2606,7 @@ top:78%;
 .kakpr { white-space:nowrap; display:inline-block; line-height:1;
 margin-left:9px;
 margin-right:9px;
-    font-size: calc(11px + 0.35vw) !important;
+    font-size: calc(11px - -0.35vw) !important;
     font-weight: 600;
     text-align: center;
     text-shadow: 1px 1px 6px #98b8a1;
@@ -2628,7 +2628,7 @@ height: 27px;
 line-height:1;
 margin-left:9px;
 margin-right:9px;
-    font-size: calc(11px + 0.35vw) !important;
+    font-size: calc(11px - -0.35vw) !important;
     font-weight: 600;
     text-align: center;
     text-shadow: 1px 1px 6px #98b8a1;
