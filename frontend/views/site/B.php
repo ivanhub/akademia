@@ -135,8 +135,9 @@ JS
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-<p class="linet2">Удобен для всех!</p>
-<p class="little2">от <b style="color:darkgreen">20 000 р.</b> </p>
+  <p style="margin-bottom:0px">Удобен для всех<br/><b style="color:#f62a2a;font-size: calc(14px + 0.35vw);">АКЦИЯ 18000 р.</b></p>
+       <p style="margin-bottom: -6px;margin-top: -6px;font-size: calc(8.5px + 0.35vw);">до 28 апреля</p>
+<p style="margin-top:7px;margin-bottom: 2px;">от <b style="color:darkgreen;text-decoration:line-through">20 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
     <p>с 9:00 до 20:00 Вт.-Сб.</p>
     <p>Теоретические занятия:</p>
