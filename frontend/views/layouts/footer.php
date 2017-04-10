@@ -109,6 +109,7 @@ div.className = "greenlinebot";
         data: formData,
         success: function (result) {
         yaCounter43279694.reachGoal("click123"); 
+        ga('send', 'event', 'forma', 'ok');
 //     $("#w00").addClass('animated');
 //                                  $('#idmodal').modal('toggle');
 //                      setTimeout(function(){        $("#w00").removeClass('animated');
