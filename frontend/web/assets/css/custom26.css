@@ -2214,8 +2214,8 @@ p.anim_one,p.anim_three {
 
 }
 
-.fill {max-width:365px; float:right; display:contents;}
-.fill2 {max-width:365px; float:left; display:contents;}
+.fill {max-width:365px; float:right; display:table-cell; }
+.fill2 {max-width:365px; float:left; display:table-cell; }
 
 @media (min-width:450px) and (max-width:991px) {
 #index .box3, #index .box4 {
