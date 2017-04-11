@@ -1,6 +1,0 @@
-Mobile devices with 320?480 or 480?800, I guess. But they should get a completely different layout on most sites.
-
-
-310px
-and up
-http://web.archive.org/web/20160330034016/http://www.websitedimensions.com/

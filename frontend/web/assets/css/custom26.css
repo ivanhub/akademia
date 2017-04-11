@@ -2215,7 +2215,7 @@ p.anim_one,p.anim_three {
 }
 
 .fill {max-width:365px; float:right; display:inline-block; width:100%; }
-.fill2 {max-width:365px; float:left; display:inline-block; width:100%;}
+.fill2 {max-width:365px; float:left; display:inline-block; width:100%; }
 
 @media (min-width:450px) and (max-width:991px) {
 #index .box3, #index .box4 {
@@ -2645,3 +2645,5 @@ height: 27px;
 
 }
 
+
+a:active, a:focus {outline: 0}

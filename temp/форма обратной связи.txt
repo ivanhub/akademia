@@ -1,2 +1,0 @@
-http://bootsnipp.com/snippets/featured/bootstrap-300-contact-form
-http://bootsnipp.com/snippets/featured/simplest-contact-form
