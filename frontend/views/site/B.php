@@ -135,13 +135,14 @@ JS
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-  <p style="margin-bottom:0px">Удобен для всех<br/><b style="color:#f62a2a;font-size: calc(14px + 0.35vw);">АКЦИЯ 18000 р.</b></p>
-       <p style="margin-bottom: -6px;margin-top: -6px;font-size: calc(8.5px + 0.35vw);">до 28 апреля</p>
-<p style="margin-top:7px;margin-bottom: 2px;">от <b style="color:darkgreen;text-decoration:line-through">20 000 р.</b> </p>
+  <p style="margin-bottom:0px">Удобен для всех</p><p style="color:#f62a2a;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ 18000 р.</p>
+       <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">до 28 апреля</p>
+<p style="margin-top:2px;margin-bottom: 7px;">от <b style="color:darkgreen;text-decoration:line-through">20 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
-    <p>с 9:00 до 20:00 Вт.-Сб.</p>
+    <p style="font-size:12px !important">с 9:00 до 20:00 Вт.-Пт.</p>
+    <p style="font-size:12px !important">Суббота: с 8:00 до 14:00</p>
     <p>Теоретические занятия:</p>
-    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>
+    <p style="margin-bottom:5px;font-size:12px !important">с 18:00 до 20:00 Пн.,Ср.</p>    </div>
           </div>
           <div class="butt">
             <?php    echo Html::a(

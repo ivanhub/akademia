@@ -37,7 +37,7 @@ return [
             'jsFileCompress'                => true,        //Enable compression and processing js before saving a file
             'jsFileCompressFlaggedComments' => true,        //Cut comments during processing js
  
-            'htmlCompress'                  => true,        //Enable compression html
+            'htmlCompress'                  => false,        //Enable compression html
             'htmlCompressOptions'           =>              //options for compressing output result
             [
                 'extra' => true,        //use more compact algorithm
