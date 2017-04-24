@@ -8,11 +8,14 @@ $params = ArrayHelper::merge(
  
 return [
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'Animation'],
     'defaultRoute' => 'site/index'
     'components' => [
     'MyNav'         => [
             'class' => 'frontend\components\CustomNavBar',
+        ],
+         'Animation'         => [
+            'class' => 'common\components\phpclasses\Animation',
         ],
         'request' => [ 'baseUrl' => '',],
 //        'devicedetect' => [

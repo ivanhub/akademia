@@ -1,0 +1,15 @@
+A liszensze ennek a Class-nek megváltozott és Freeware
+lett.
+Szabadon használható ingyenes és kereskedelmi jellegû
+oldalakon, valamint publikálható és terjeszthetõ, de
+a forráskód nem módosítható a szerzõ beleegyezése nélkül.
+Ha használod a kódokat kérlek helyezz el egy felém mutató
+linket.
+=======================================================
+Licence of This class has been changed freeware!
+Can be used for freeware or commercial services,
+can be distributed anywhere but cannot be modified sourcecode
+without permission of author.
+If you use this class please refer with a link to me.
+
+ 

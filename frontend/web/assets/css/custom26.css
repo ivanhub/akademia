@@ -1578,7 +1578,7 @@ text-align:left}
 
 
 .style2 {
-font-family: 'Roboto', Helvetica, sans-serif !important;
+/*font-family: 'Roboto', Helvetica, sans-serif !important;*/
 font-size:14pt;
 color:#666;
 font-weight:300;
@@ -1884,13 +1884,13 @@ text-align:left}
 
 
 .akcii {
-    margin-top: 70px;
+    margin-top: 50px;
 /*    border: 2px solid #75b650;*/
     border-radius: 1px;
 /*    margin: 29px 0 23px 0;*/
     text-align: center;
 /*    padding: 0 15px 15px 15px;*/
-width:70%;
+width:75%;
 margin-left:auto;
 margin-right:auto;
 text-align: center;
@@ -1907,7 +1907,7 @@ text-align: center;
     padding: 5px 37px 4px 50px;
     border-radius: 3px;
     position: relative;
-    top: -16px;
+    top: -25px;
     color: #31710d !important;
     display: inline-block;
 /*    color: #fff !important;
@@ -2647,3 +2647,126 @@ height: 27px;
 
 
 a:active, a:focus {outline: 0}
+
+.akciya { background:url(../../images/pics/akciya-bg.png);  height:343px; width:269px;}
+.saleSkidka { background:url(../../images/pics/sale-bg.png);  height:50px; width:96px; margin-left:3px; margin-top:-7px;}
+.sale50 { background:url(../../images/pics/sale50.png);  height:50px; width:96px; margin-left:3px; margin-top:-23px;}
+.saleMot { background:url(../../images/pics/motorcycle-sale.png);  height:49px; width:103px;     margin-left: auto;
+    margin-right: auto;    margin-top: 61px;}
+.saleATV { background:url(../../images/pics/sale-ATV-quadro.png);  height:60px; width:204px;     margin-left: auto;
+    margin-right: auto; margin-top:-10px;    margin-top: 53px;}
+
+.saleCar { background:url(../../images/pics/saleCar.png);  height:56px; width:204px;     margin-left: auto;
+    margin-right: auto; margin-top:-5px;     margin-top: 55px;}
+
+.start-akciya { color:#897bc1; font-style:italic; font-family: 'Times New Roman', Times, serif; font-size:16px; 
+}
+.akciya-h2 {color:#4e466c; font-size:28px; font-style:italic; font-weight:600; font-family: 'Exo 2', sans-serif;line-height: .9;
+ }
+
+.outlineA {
+    font-family: 'Exo 2', sans-serif;
+    font-weight:700;
+    font-size:27px;
+    color: #fff;
+text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+.speshite {color:#b12e2a;font-size:23px; font-style:italic; font-family: 'Times New Roman', Times, serif; width: 138px; 
+ position:absolute;}
+
+.skidka{white-space:nowrap;display:inline; font-style:italic; font-family: 'Times New Roman', Times, serif; font-size:19px; color:#fff;
+margin-left:13px;position:relative;top:6px;}
+
+
+
+.flag {
+  position: relative;
+float:left;
+}
+
+.flag > div {
+ /* position: absolute is always in reference to the closest parent element that has its position attribute set. */
+  position: absolute;
+ /* The container will have its height set explicitly to match the image, so we want the strips to be the same height. */
+  height: 100%;
+  /* this is for the shadow strips. The image strips will override the background attribute. */
+  background-color: transparent;
+}
+
+
+
+@keyframes fdIn {   0% { opacity: 0; }   100% { opacity: 1; }  }
+@-o-keyframes fdIn {   0% { opacity: 0; }   100% { opacity: 1; }  }
+@-moz-keyframes fdIn {   0% { opacity: 0; }   100% { opacity: 1; }  }
+@-webkit-keyframes fdIn {   0% { opacity: 0; }   100% { opacity: 1; }  }
+
+.an-flick {
+/*    -webkit-animation: fdIn 4s infinite alternate;
+    -o-animation: fdIn 4s infinite alternate;
+    -moz-animation: fdIn 4s infinite alternate; */
+    animation: fdIn 4s infinite alternate;
+}
+
+
+.cross {
+    position: relative;
+    display: inline-block;
+    transition: top 2s ease-out 2.5s;
+
+}
+.cross::before {
+    content: '';
+animation: krest 4s;
+    position: absolute;
+    right: -1px;
+    top: 55%;
+}
+.cross::before {
+    border-bottom: 2px solid blue;
+    -webkit-transform: skewY(-16deg);
+    transform: skewY(-16deg);
+}
+
+@keyframes krest {
+0% { width:1%; }
+100% { width:105%} }
+
+
+svg.line {
+    z-index: 10;
+    position: absolute;
+    top: 143px;
+    left: 65px;}
+
+
+svg.line.visible path {
+  fill: none;
+  stroke: #761a1a;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 550;
+  -webkit-animation: dash 1s linear forwards;
+  animation: dash 1s linear forwards;
+
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pyat {
+    position: relative;
+    z-index: 1;
+    left:10px;
+}

@@ -18,7 +18,8 @@
             {
                 "type": "vcs",
                 "url": "https://github.com/ivanhub/yii2-gallery"
-            }
+            },
+
     ],
     "require": {
         "php": ">=5.4.0",

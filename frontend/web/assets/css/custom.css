@@ -6,9 +6,10 @@
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700|Roboto:300,400,700|Exo+2:300&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,700,600i&subset=cyrillic');
 
 /*
+Arsenal:400,700| Roboto:300,400,700|
 @font-face {
   font-family: 'Calibri';
   src: url('../fonts/calibri/Calibri.eot?#iefix') format('embedded-opentype'),  url('../fonts/calibri/Calibri.woff') format('woff'), url('../fonts/calibri/Calibri.ttf')  format('truetype'), url('../fonts/calibri/Calibri.svg#Calibri') format('svg');
@@ -1403,7 +1404,7 @@ font-size:35px !important;
 
 .cont p:nth-child(2) {
     font-size:25px !important;
-    font-family: 'Arsenal', sans-serif !important;
+/*    font-family: 'Arsenal', sans-serif !important;*/
 }
 
 
