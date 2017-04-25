@@ -435,6 +435,8 @@ if (which==0) {
 ?>
 
 <script src="/assets/js/jquery.viewportchecker.js"></script>
+<script src="/assets/js/jquery.waypoints.js"></script>
+
 </body>
 </html>
 <?php $this->endPage() ?>

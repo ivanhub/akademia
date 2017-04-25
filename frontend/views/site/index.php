@@ -602,6 +602,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 <?php 
 $this->registerJs(<<<JS
 
+$(function() {
+       $('.outlineA').waypoint(function() {
+jQuery('.count').each(function () {
+            var \$this = jQuery(this);
+            jQuery({ Counter: 10000 }).animate({ Counter: 5000 }, {
+                duration: 1300,
+                easing: 'swing',
+                step: function (now) {
+                    \$this.text(Math.ceil(now));
+                }
+            });
+        });
+         },{
+           offset: '90%',
+           triggerOnce: true 
+
+         });
+    });
+
+/*
 
 jQuery(window).scroll(startCounter);
 function startCounter() {
@@ -619,7 +639,7 @@ function startCounter() {
         });
     }
 }
-
+*/
 /*
 jQuery(window).scroll(startCounter);
 function startCounter() {
