@@ -2770,3 +2770,20 @@ svg.line.visible path {
     z-index: 1;
     left:10px;
 }
+
+
+@media (max-width:380px) {
+section.main .akcii .col-md-4 { padding-left: initial; padding-right:initial}
+.akciya {transform: scale(.9); }
+}
+@media (max-width:340px) {
+.akciya {transform: scale(.8);margin-left:-3%; }
+}
+@media (max-width:325px) {
+.akciya {margin-left:-5%; }
+}
+
+
+@media (max-width:992px) { 
+.akciya { margin-top:15px;}
+}
