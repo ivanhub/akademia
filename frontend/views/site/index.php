@@ -13,7 +13,7 @@ $this->title = title('cd');
 //$this->params['breadcrumbs'][] = $this->title;
 
 ?>
-<!--
+
  <div class="page-loader">
 <div>
 <div class="page-loader-body">
@@ -25,7 +25,7 @@ $this->title = title('cd');
 </div>
 </div>
 </div> 
-   -->
+
 
 <!--<div class="container">
 
