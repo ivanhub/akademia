@@ -618,16 +618,31 @@ var waypoint2 = new Waypoint({
     }
   },
   offset: '90%'
-})
+});
 
-$(function() {
 
-           $('.insideakcii').waypoint(function() {                 
-                             $('.third').removeClass('offscreen');
-               },{
-           offset: '90%',
-         });
+$('.count').each(function() {
+var waypoint = new Waypoint({
+element: this, handler: function(direction) {
+Counter(this.element);
+waypoint.destroy();
+  },
+  offset: '90%'
+});
+});
 
+function Counter(th) {
+    var \$this = jQuery(th);
+            jQuery({ Counter: 10000 }).stop(true, true).delay(900).animate({ Counter: 5000 }, {
+                duration: 1700,
+                easing: 'swing',
+                step: function (now) {
+                    \$this.text(Math.ceil(now));
+                }
+            });
+};
+
+/*$(function() {
        $('.count').waypoint(function() {
             var \$this = jQuery(this);
             jQuery({ Counter: 10000 }).stop(true, true).delay(900).animate({ Counter: 5000 }, {
@@ -640,10 +655,9 @@ $(function() {
      
          },{
            offset: '90%',
-           triggerOnce: true 
 
          });
-    });
+    }); */
 
 /*
 
