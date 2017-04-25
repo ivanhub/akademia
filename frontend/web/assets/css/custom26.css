@@ -2749,8 +2749,8 @@ svg.line.visible path {
   stroke-linejoin: round;
   stroke-dasharray: 550;
   stroke-dashoffset: 550;
-  -webkit-animation: dash 1s linear forwards;
-  animation: dash 1s linear forwards;
+  -webkit-animation: dash 2s linear forwards;
+  animation: dash 2s linear forwards;
 
 }
 

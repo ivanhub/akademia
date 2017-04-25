@@ -607,7 +607,7 @@ $(function() {
 jQuery('.count').each(function () {
             var \$this = jQuery(this);
             jQuery({ Counter: 10000 }).animate({ Counter: 5000 }, {
-                duration: 1300,
+                duration: 1800,
                 easing: 'swing',
                 step: function (now) {
                     \$this.text(Math.ceil(now));
