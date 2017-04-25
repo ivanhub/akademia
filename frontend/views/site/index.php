@@ -609,8 +609,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 $this->registerJs(<<<JS
 
 $(function() {
-       $('.outlineA').waypoint(function() {
-jQuery('.count').each(function () {
+       $('.count').waypoint(function() {
             var \$this = jQuery(this);
             jQuery({ Counter: 10000 }).stop(true, true).delay(900).animate({ Counter: 5000 }, {
                 duration: 1700,
@@ -619,7 +618,7 @@ jQuery('.count').each(function () {
                     \$this.text(Math.ceil(now));
                 }
             });
-        });
+     
          },{
            offset: '90%',
            triggerOnce: true 
