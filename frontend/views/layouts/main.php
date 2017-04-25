@@ -435,7 +435,7 @@ if (which==0) {
 ?>
 
 <!--<script src="/assets/js/jquery.viewportchecker.js"></script>-->
-<script src="/assets/js/jquery.waypoints.js"></script>
+<script src="/assets/js/jquery.waypoints.js?v=4.0.1"></script>
 <!--<script src="/assets/js/jquery.inview.min.js"></script> -->
 
 
