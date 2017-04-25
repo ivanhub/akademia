@@ -566,4 +566,55 @@ expandUp
 	}				
 }
 
-/*
+/* thre akcii block */
+
+@media (min-width:992px) {
+.row2 {
+  width: 100%;
+  clear: both;
+  padding: 2em 0;
+  position: relative;
+  min-height: 25em;
+  -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.third {
+  width: 30.3%;
+  position: absolute;
+
+  min-height: 15em;
+  opacity: 1;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.one-third {
+	left: 0;
+}
+.two-third {
+	left: 33%;
+}
+.three-third {
+	left: 66%;
+}
+.offscreen {
+	opacity: 0;
+}
+.one-third.offscreen {
+	left: -50%;
+}
+.two-third.offscreen {
+	margin-top:50%;
+}
+.three-third.offscreen {
+	left: 133%;
+}
+}
+/* end three akcii block */

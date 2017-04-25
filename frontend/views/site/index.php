@@ -166,8 +166,8 @@ $this->title = title('cd');
 <!-- <img style="margin-top:-15px;" src="../../images/svet7.png" width="815" class="saleimg" width="" alt="Выгодное предложение" title="Выгодное предложение">  -->
 
 
-<div class="row">
-<div class="col-md-4">
+<div class="row row2">
+<div class="col-md-4 one-third third offscreen">
 <div class="akciya">
 <p class="start-akciya" style="padding-top:20px; margin-bottom:0">1 апреля - 28 апреля</p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
@@ -182,7 +182,7 @@ $this->title = title('cd');
 <div class="" style="margin-left:5px;margin-top:-7px;"><img src="/images/pics/sale50.png" class="flag"><p class="speshite" style="margin-left:99px;padding-top:6px;">Спешите!</p></div> 
 <div class="saleMot"></div> 
 </div></div>
-<div class="col-md-4">
+<div class="col-md-4 two-third third offscreen">
 <div class="akciya">
 <p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
@@ -194,7 +194,7 @@ $this->title = title('cd');
 <div class="saleCar"></div> 
 </div>
 </div>
-<div class="col-md-4">
+<div class="col-md-4 three-third third offscreen">
 <div class="akciya">
 <p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
@@ -608,7 +608,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 <?php 
 $this->registerJs(<<<JS
 
+var waypoint2 = new Waypoint({
+  element: $('.third'),
+  handler: function(direction) {
+    if (direction == 'down') {
+                             $('.third').removeClass('offscreen');
+    } else {
+                             $('.third').addClass('offscreen');
+    }
+  },
+  offset: '90%'
+})
+
 $(function() {
+
+           $('.insideakcii').waypoint(function() {                 
+                             $('.third').removeClass('offscreen');
+               },{
+           offset: '90%',
+         });
+
        $('.count').waypoint(function() {
             var \$this = jQuery(this);
             jQuery({ Counter: 10000 }).stop(true, true).delay(900).animate({ Counter: 5000 }, {

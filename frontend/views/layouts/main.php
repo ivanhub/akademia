@@ -434,8 +434,10 @@ if (which==0) {
 <?php };
 ?>
 
-<script src="/assets/js/jquery.viewportchecker.js"></script>
+<!--<script src="/assets/js/jquery.viewportchecker.js"></script>-->
 <script src="/assets/js/jquery.waypoints.js"></script>
+<!--<script src="/assets/js/jquery.inview.min.js"></script> -->
+
 
 </body>
 </html>
