@@ -158,7 +158,7 @@ $this->title = title('cd');
 
 </div>
 <div class="text-center  akcii">
-
+<center>
 <div class="insideakcii"><a id="Akcii"></a>
 <!-- <h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Наши акции:</h2> -->
 
@@ -208,7 +208,7 @@ $this->title = title('cd');
 </div>
 </div>
 
-
+</center>
 </div>
 <br/><br/><p></p>
 
@@ -613,7 +613,7 @@ $(function() {
 jQuery('.count').each(function () {
             var \$this = jQuery(this);
             jQuery({ Counter: 10000 }).stop(true, true).delay(1000).animate({ Counter: 5000 }, {
-                duration: 1800,
+                duration: 1700,
                 easing: 'swing',
                 step: function (now) {
                     \$this.text(Math.ceil(now));
