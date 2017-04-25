@@ -612,7 +612,7 @@ $(function() {
        $('.outlineA').waypoint(function() {
 jQuery('.count').each(function () {
             var \$this = jQuery(this);
-            jQuery({ Counter: 10000 }).stop(true, true).delay(1000).animate({ Counter: 5000 }, {
+            jQuery({ Counter: 10000 }).stop(true, true).delay(900).animate({ Counter: 5000 }, {
                 duration: 1700,
                 easing: 'swing',
                 step: function (now) {
