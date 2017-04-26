@@ -83,7 +83,7 @@ $this->params['breadcrumbs'][] = $title;
 
 
 
- <script src="http://api-maps.yandex.ru/2.1/?mode=debug&lang=ru_RU" type="text/javascript"></script>
+ <script src="//api-maps.yandex.ru/2.1/?mode=debug&lang=ru_RU" type="text/javascript"></script>
 
 
 <?php Yii::$app->view->registerJsFile('/assets/js/map.js',  ['depends' => 'yii\web\JqueryAsset']); ?>
