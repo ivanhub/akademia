@@ -13,6 +13,10 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'descr')->textarea(['rows' => 6]) ?>
+
+    <?= $form->field($model, 'main')->textInputInput(['maxlength'=> true]) ?>
+
+
 	
 	<?php if (!Yii::$app->request->isAjax){ ?>
 	  	<div class="form-group">

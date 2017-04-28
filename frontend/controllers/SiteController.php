@@ -55,6 +55,9 @@ class SiteController extends Controller
          
         return $this->render('sudovozhdenie');
     }
+
+     public function actionDopog() { return $this->render('dopog');}
+
       public function actionSamohodnayatehnika()
     {
          

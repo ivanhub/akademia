@@ -191,15 +191,15 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="wrapetap"> <div class="forsafari">
 <div class="row text-center uslv " data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >
-  <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/theory1.png"></div>
-  <div class="col-sm-7 centerxs"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
+  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/theory1.png"></div>
+  <div class="col-sm-7 centerxs vc"><p><b>Теория</b></p> <p>112 часов теоретических занятий, внутренний экзамен. </p>  
   <p>Консультации и тестирование с психологом.</p>
   <p>Лекции проводит преподаватель с многолетним стажем.</p>
    </div>
  </div> </div><div class="forsafari">
 <div class="row text-center uslv" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:100;duration:1500;callback:;">
-  <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/drive1.png"></div>
-  <div class="col-sm-7 centerxs"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
+  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/drive1.png"></div>
+  <div class="col-sm-7 centerxs vc"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
   <p>+2 часа подготовки к сдаче экзаменов в ГИБДД (внутренний экзамен).</p>
     <p>На время занятий выдается экипировка (шлем, наколенники). </p>
 
@@ -207,14 +207,14 @@ $this->params['breadcrumbs'][] = $title;
   </div>
   </div></div> <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:200;duration:1500;callback:;">
-  <div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/clock1.png"></div>
-  <div class="col-sm-7 centerxs"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
+  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/clock1.png"></div>
+  <div class="col-sm-7 centerxs vc"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
   <p>Обучение проводится в период с мая по октябрь.</p></div>
   </div></div>
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:300;duration:1500;callback:;">
-<div class="col-sm-offset-2 col-sm-2 text-center"><img src="../../images/pics/gibdd1.png"></div>
-  <div class="col-sm-7 centerxs"> <p><b>Экзамен в ГИБДД</b></p>  <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p></div>
+<div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/gibdd1.png"></div>
+  <div class="col-sm-7 centerxs vc"> <p><b>Экзамен в ГИБДД</b></p>  <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p></div>
   </div></div>
 </div>
 
@@ -273,17 +273,37 @@ $this->params['breadcrumbs'][] = $title;
 <img  class="img-responsive acat" src="../../images/pics/prava.png">
 </div>
 
-
-
-
+<br/><br/><br/>
 
  </section>
+</div></div><!--<div class="linetire"></div>
+<br/><br/>
+<p class="green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;">
+<!-- При поступлении в Автошколу кандидат в водители предоставляет следующие документы: 
+Необходимые документы для поступления в Автошколу:</p>
+<center>
+<p style="font-weight:700;color: green;"><img  class="img-responsive acat2" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Фотографии (3х4) - 2 шт.</p>
+<img src="../images/photos.png" width=38>
+<p style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Паспорт РФ</p>
+<img src="../images/passport.png" width=38>
+<p style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Медицинская справка</p>
+<img src="../images/spravka.jpg" width=19>
+<p class="green" style="font-size:20px;padding-top:20px;font-weight:bold;"">Может также понадобится:</p>
+</center>
+<div class="text-center" style="width:58%;margin-left: auto;margin-right: auto;">
+<p style="font-size:16px;line-height: 1;" align="left"><img  class="" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-right:7px;">Ксерокопия свидетельства о рождении (лицам моложе 16 лет, либо сменившим фамилию)</p>
+<p style="font-size:16px;line-height: 1;" align="left"><img  class="acat" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-right:7px;">Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества</p>
+<p style="font-size:16px;line-height: 1;" align="left"><img  class="acat" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-right:7px;">Ксерокопия водительского удостоверения (при открытии новой категории) </p>
+</div>
+<!-- <div class="col-sm-offset-1 col-md-offset-1 col-xs-11 col-sm-10 col-md-10" style="">
+<p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия свидетельства о рождении (лицам моложе 16 лет, либо сменившим фамилию)</p>
+<p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества</p>
+<p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия водительского удостоверения (при открытии новой категории) </p>
+</div>
+</div> -->
 <br/><br/>
 
-</div></div></div>
-
 </div>
-
 
 
 <?php 

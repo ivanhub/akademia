@@ -190,7 +190,7 @@ Leftmenu::widget()
 <br/>
 <p class="text"><strong>Форма обучения:</strong> очная.</p>
 
-<p class="text-center">Для более подробной информации по курсу, перейдите <a style="text-decoration:underline;" href="http://samarapb.ru/napravleniya/obuchenie-v-oblasti-avtomobilnyh-perevozok/perevozka-og-dopog/" target="_blank">по ссылке.</a></p>
+<p class="text-center">Для более подробной информации по курсу, перейдите <a style="text-decoration:underline;" href="/DOPOG">по ссылке.</a></p>
 
 </div>
 </div>

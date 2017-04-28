@@ -1023,7 +1023,10 @@ h2 {    margin-top: 50px;}
 
 /* map yandex */
 section.map.full-width {  margin-top: 0 !important; height:0;}
-.page-footer { margin-top:0; }
+.page-footer { margin-top:0;     
+box-shadow: 0 5px 5px #ccc;
+-moz-box-shadow: 0 5px 5px #ccc;
+-webkit-box-shadow: 0 5px 5px #ccc;}
 
 
 .foot1 { height:150px; padding-top:30px; margin-bottom:25px;}
@@ -1547,8 +1550,6 @@ text-align:center;
 
 
 .post-bodycopy{ font-size: calc(13px - -0.3vw)}
-
-#distance .site-distance p, .safetydriving {font-size: calc(13px - -0.4vw)}
 
 .texts {font-size: calc(12px - -0.4vw);   margin-top:10px;}
 
