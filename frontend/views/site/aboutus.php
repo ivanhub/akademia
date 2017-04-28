@@ -694,9 +694,9 @@ $this->params['breadcrumbs'][] = $title;
         </h4>
       </div>
       <div id="collapse7" class="panel-collapse collapse">
-        <div class="panel-body"><div class="post-bodycopy clearfix"><p></p><center><strong>по программам профессионального обучения водителей транспортных средств категории «В»</strong><br>
+        <div class="panel-body"><div class="post-bodycopy clearfix"><p></p><center><strong>По программам профессионального обучения водителей транспортных средств категории «В»</strong><br>
 (без учета помещений, оргтехники, оборудования, аппаратно-программных средств, использующихся для административных целей)</center><p></p>
-<p class="text"><strong>Оборудованные учебные кабинеты и площадки для практического обучения:</strong></p>
+<p class="text" style="text-align:center"><strong>Оборудованные учебные кабинеты и площадки для практического обучения:</strong></p>
 <p></p><center><p></p>
 <table  class="table table-bordered table-striped table-hover table-condensed table-responsive" style="width: 100%;" border="2" bordercolor="#ccccff">
 <tbody>
@@ -722,8 +722,7 @@ $this->params['breadcrumbs'][] = $title;
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p class="text"><strong>Средства обучения и воспитания:</strong></p>
+<p class="text" style="text-align:center;text-indent:0"><strong>Средства обучения и воспитания:</strong></p>
 <table  class="table table-bordered table-striped table-hover table-condensed table-responsive" style="width: 100%;" border="2" bordercolor="#ccccff">
 <tbody>
 <tr class="alt">
@@ -1054,8 +1053,7 @@ $this->params['breadcrumbs'][] = $title;
 <p class="text">В учебном центре организован медицинский кабинет, осуществляется текущий контроль за состоянием здоровья обучающихся, проведение санитарно-гигиенических, профилактических и оздоровительных мероприятий, пропаганда здорового образа жизни, оказание первичной доврачебной медико-санитарной помощи обучающимся.</p>
 <p class="text"><strong>Доступ к информационным системам и информационно-телекоммуникационным сетям:</strong></p>
 <p class="text">На всех персональных компьютерах, использующихся для обучения, есть доступ в сеть Интернет, работает бесплатный Wi-Fi</p>
-<p>&nbsp;</p>
-<p class="text"><strong>Обеспечение образовательной деятельности оборудованными учебными транспортными средствами</strong></p>
+<p class="text" style="text-align:center;text-indent:0;"><strong>Обеспечение образовательной деятельности оборудованными учебными транспортными средствами</strong></p>
 <p></p><center><p></p>
 <table  class="table table-bordered table-striped table-hover table-condensed table-responsive" style="width: 100%;" border="2" bordercolor="#ccccff">
 <tbody>
