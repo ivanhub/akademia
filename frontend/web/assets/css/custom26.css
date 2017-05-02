@@ -2959,6 +2959,10 @@ padding: 15px 55px;
     width: 32%;}
 .timetable td:nth-child(3) {
     width: 31%;}
+.timetable td span.span2, .timetable__theory span {
+    font-size:calc(10px - -0.7vw);
+}
+
 }
 
 
@@ -2970,7 +2974,7 @@ padding: 15px 55px;
 
 
 .timetable td span, .timetable__theory span {
-    font-size:calc(10px - -0.7vw);
+    font-size:calc(12px - -0.7vw);
 }
 .timetable__theory td { width:100%; /* fill entire width,row */
   flex:auto;}
