@@ -2830,3 +2830,8 @@ section.main .akcii .col-md-4 { padding-left: initial; padding-right:initial}
 vertical-align:middle;
 }
 .acat2 {    display: inline-block; }
+
+
+.darker {filter: brightness(70%); 
+-webkit-filter: brightness(70%); 
+-moz-filter:brightness(70%); }
