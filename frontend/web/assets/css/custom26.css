@@ -2944,6 +2944,8 @@ padding: 15px 55px;
 
 
 .timetable tr {   display:flex;
+    align-items: center;
+    justify-content: center;
 /*  flex-wrap:wrap; /* allow to wrap on multiple rows */
 }
 
