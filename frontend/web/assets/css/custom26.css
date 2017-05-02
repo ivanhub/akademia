@@ -2836,4 +2836,9 @@ vertical-align:middle;
 -webkit-filter: brightness(70%); 
 -moz-filter:brightness(70%); }
 
+.darker20 {filter: brightness(95%); 
+-webkit-filter: brightness(95%); 
+-moz-filter:brightness(95%); }
+
+
 .poryadok {width:100%; position:relative;}
