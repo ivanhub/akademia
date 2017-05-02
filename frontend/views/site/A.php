@@ -279,11 +279,8 @@ $this->params['breadcrumbs'][] = $title;
 
 </div></div><!-- При поступлении в Автошколу кандидат в водители предоставляет следующие документы:--><div class="linetire"></div>
 <br/><br/>
-
- 
-
 <p class="poryadok green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
-Необходимые документы для поступления в Автошколу:</p>
+Необходимые документы для поступления в Автомотошколу:</p>
 <center class="block-documents">
 <p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:300;duration: 400;callback:;" style="font-weight:700;color: green;"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Фотографии (3х4) - 2 шт.</p>
 <img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;"  src="../images/photos.png" width=38>
@@ -304,7 +301,63 @@ $this->params['breadcrumbs'][] = $title;
 <p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия водительского удостоверения (при открытии новой категории) </p>
 </div>
 </div> -->
-<br/><br/>
+<br/><br/><div class="linetire"></div>
+<br/>
+<p class="poryadok green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
+Расписание занятий</p>
+<table cellspacing="0" cellpadding="0" border="0" class="timetable  table-responsive" align="center">
+    <thead>
+        <tr>
+            <th>Планируемая дата<br/>начала обучения</th>
+            <th><p>Адрес&nbsp;учебного&nbsp;класса</p></th>
+          <?php if (Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <th class="last"><p>Дни&nbsp;и&nbsp;время&nbsp;занятий в&nbsp;учебной&nbsp;группе</p></th><?php } ?>
+          <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <th><p>Дни&nbsp;и&nbsp;время&nbsp;занятий в&nbsp;учебной&nbsp;группе</p></th>
+             <th class="last"><p>Свободные места</p></th> <?php } ?>
+        </tr>
+    </thead>
+    <tbody>
+         <tr class="timetable__theory-tr"><td class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
+        <tr>
+            <td><span>12.05.2017</span></td>
+
+            <td>ул. Молодогвардейская, 33<br>т.: 255-69-99</td>
+            <td>
+                <span class="span2">ПН,СР: 18:00-20:00</span>
+            
+            </td>
+             <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
+        </tr>
+        
+        <tr>
+            <td><span>12.05.2017</span></td>
+
+            <td>ул. Осипенко, 11<br>т.: 255-69-99</td>
+            <td>
+                <span class="span2">ВТ,ЧТ: 18:00-20:00</span>
+            </td>
+             <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
+        </tr>
+                         <tr class="timetable__theory-tr"><td class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
+
+         <tr>
+            <td><span>12.05.2017</span></td>
+
+            <td>Автодром,<br> ул. Уральская, 34 <br>т.: 255-69-99</td>
+            <td class="text-left">
+                <span class="span2">Индивидуальный график вождения</span>
+            </td>
+             <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
+        </tr>
+
+    </tbody>
+    </table>
+<br/>
+<br/>
 
 </div>
 

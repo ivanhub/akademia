@@ -136,7 +136,7 @@ JS
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
   <p style="margin-bottom:0px">Удобен для всех</p><p style="color:#f62a2a;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ 18000 р.</p>
-       <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">до 28 апреля</p>
+       <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">до 31 мая</p>
 <p style="margin-top:2px;margin-bottom: 7px;">от <b style="color:darkgreen;text-decoration:line-through">20 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
     <p style="font-size:12px !important">с 9:00 до 20:00 Вт.-Пт.</p>
@@ -287,7 +287,7 @@ JS
 </div>
 
 <br/><br/>
-<br/>
+
 <!-- <img class="stylecenter" src="../../images/pics/plan.jpg" width="800px" align="center">
  --><div class="center-block width70" id="chart">
     <div class="stylecenter" id="myChart"></div></div>
@@ -433,7 +433,31 @@ JS
  
  </section> -->
 <br/><br/>
-
+<div class="linetire"></div>
+<br/><br/>
+<p class="poryadok green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
+Необходимые документы для поступления в Автошколу:</p>
+<center class="block-documents">
+<p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:300;duration: 400;callback:;" style="font-weight:700;color: green;"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Фотографии (3х4) - 2 шт.</p>
+<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;"  src="../images/photos.png" width=38>
+<p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:400;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Паспорт РФ</p>
+<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/passport.png" width=38>
+<p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:500;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Медицинская справка</p>
+<img class=" darker20" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/spravka.jpg" width=19>
+<p class="green" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:500;duration: 1000;callback:;"  style="font-size:20px;padding-top:20px;font-weight:bold;"">Может понадобится:</p>
+</center>
+<div  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:600;duration: 1000;callback:;"  class="text-center" style="width:58%;margin-left: auto;margin-right: auto;">
+<p style="font-size:16px;line-height: 1;" align="left"><img  class=" darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия водительского удостоверения (при открытии новой категории)</p>
+<p style="font-size:16px;line-height: 1;" align="left"><img  class="darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия свидетельства о рождении (лицам моложе 16 лет, либо сменившим фамилию)</p>
+<p style="font-size:16px;line-height: 1;" align="left"><img  class=" darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества.</p>
+</div>
+<!-- <div class="col-sm-offset-1 col-md-offset-1 col-xs-11 col-sm-10 col-md-10" style="">
+<p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия свидетельства о рождении (лицам моложе 16 лет, либо сменившим фамилию)</p>
+<p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества</p>
+<p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия водительского удостоверения (при открытии новой категории) </p>
+</div>
+</div> -->
+<br/><br/>
 </div>
 </div>
 

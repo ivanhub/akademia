@@ -2842,3 +2842,179 @@ vertical-align:middle;
 
 
 .poryadok {width:100%; position:relative;}
+
+
+.timetable {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+
+    color: #000;
+    font-size: 14px;
+
+}
+
+
+.timetable th.last {
+    border-right: none;
+}
+.timetable th {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    vertical-align: middle;
+    border-right: 1px solid #dddcdc;
+    padding: 15px 25px;
+    text-align: left;
+}
+
+.timetable td {padding: 15px 25px;
+}
+
+
+.timetable thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+.zel {
+    color: #36dc57;
+  
+} 
+
+.timetable tr {
+    border-top: 1px solid #ddd;
+}
+.timetable td span.krug {
+    font-size: 25px;
+    font-weight: bold;
+}
+.timetable td span, .timetable__theory span {
+    font-size:calc(13px - -0.7vw);
+    font-weight: bold;
+}
+
+td.timetable__theory {
+flex: 1 /* to evenly distributs flex elements;;;;; */;
+    text-shadow: #363636 0 1px 1px;
+    color: #ffc107;
+    letter-spacing: 13px;
+    padding: 5px 25px;
+}
+
+
+.timetable thead tr {
+    background: rgba(155, 239, 155, 0.34);
+margin-bottom: -2px;
+}
+
+
+/*.timetable__theory-tr {background: #f6fcf0;}
+.timetable__theory-tr:hover {background:#ebfbdb;}*/
+
+.timetable tr:hover {
+    background: #f6fcf0;
+}
+
+.timetable td:nth-child(2), .timetable td:nth-child(3) {
+}
+
+.timetable p {
+    margin-top: 10px;
+}
+
+
+.timetable td:nth-child(1) { width:19% }
+.timetable td:nth-child(2) {
+    width: 30%;
+    margin-left: 1%;
+}
+
+.timetable td:nth-child(3) {
+    flex: 1;
+}
+.timetable td:nth-child(4) {
+padding: 15px 55px;
+}
+.timetable__theory-tr td span {font-size:25px;}
+
+
+.timetable tr {   display:flex;
+/*  flex-wrap:wrap; /* allow to wrap on multiple rows */
+}
+
+.timetable thead tr th {
+    text-align: center;
+}
+
+@media (max-width:992px) {
+.timetable td:nth-child(4) {
+    widtH: 20%;
+}
+.timetable td:nth-child(2) {
+    width: 32%;}
+.timetable td:nth-child(3) {
+    width: 31%;}
+}
+
+
+@media (max-width:730px) {
+.timetable th, .timetable th p {     font-size: calc(10px - -0.35vw); }
+}
+
+
+
+
+.timetable td span, .timetable__theory span {
+    font-size:calc(10px - -0.7vw);
+}
+.timetable__theory td { width:100%; /* fill entire width,row */
+  flex:auto;}
+
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+
+@-webkit-keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+
+#advanced-circle {
+    margin-top: 4px;
+    margin-right:9px;
+    position:static;
+
+    width: 20px;
+    height: 20px;
+    background-image: -webkit-radial-gradient(6px 6px, circle cover, #43cf43, #b6f8b6);
+    background-image: -moz-radial-gradient(6px 6px, circle cover, #43cf43, #b6f8b6);
+    background-image: radial-gradient(6px 6px, circle cover, #43cf43, #b6f8b6);
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
+
+.circle {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.fl {float:left}
