@@ -1508,7 +1508,7 @@ h5,h4 {
     line-height:1 !important;
 }
 
-h4,h5 {
+h4,h5, .poryadok {
     font-size: calc(20px - -0.9vw) !important;
 }
 
