@@ -169,11 +169,11 @@ $this->title = title('cd');
 <div class="row row2">
 <div class="col-md-4 one-third third offscreen">
 <div class="akciya">
-<p class="start-akciya" style="padding-top:20px; margin-bottom:0">1 апреля - 28 апреля</p>
+<p class="start-akciya" style="padding-top:20px; margin-bottom:0">1 мая - 31 мая</p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
 <p class="akciya-h2" style="margin-top:-7px">Обучение на<br/>категорию А</p>
 <p class="outlineA" style="color:#f9fa83;margin-top:-7px">Всего:</p>
-<p class="outlineA" style="font-size:50px;color:#f9fa83;margin-top:-30px"><span class="pyat count">10000</span>
+<p class="outlineA" style="font-size:50px;color:#f9fa83;margin-top:-30px"><span class="pyat count1">10000</span>
 <span style="font-size:35px;">р.</span></p>
 <!-- <svg class="line" x="0px" y="0px"  width="153" height="67" >
    <path stroke="" d="m2.5,3.37535c0.67757,0 2.08708,-0.40881 4.06542,0c1.47456,0.3047 3.33782,1.2873 9.48598,3.55865c3.36169,1.24193 9.45938,3.59987 14.22897,5.93109c7.41266,3.62306 15.46495,7.34561 27.1028,11.86217c8.05247,3.1251 16.44669,5.56067 23.03738,8.30352c6.30021,2.62196 12.9356,6.40301 17.61682,8.30352c4.12338,1.67403 5.89656,2.70665 9.48598,4.15176c1.94663,0.78372 4.74299,2.37243 8.13084,4.15176c3.38785,1.77933 7.29138,3.80532 9.48598,4.74487c3.84959,1.64807 6.7757,2.37243 9.48598,3.55865c1.35514,0.59311 3.18014,1.45834 4.06542,1.77933c1.25198,0.45394 2.03271,0 2.71028,0c0.67757,0 1.48117,-0.18235 2.71028,0.59311c0.77736,0.49044 1.35514,0.59311 2.03271,0.59311l0.67757,0l0.67757,0.59311" id="svg_4" fill-opacity="0" stroke-opacity="null" stroke-width="1.5" fill="none"/>
@@ -601,19 +601,35 @@ var waypoint2 = new Waypoint({
 });
 
 
+/*
 $('.count').each(function() {
 var waypoint = new Waypoint({
 element: this, handler: function(direction) {
-Counter(this.element);
+Counter(this.element,5000);
 waypoint.destroy();
   },
   offset: '90%'
 });
-});
+});*/
 
-function Counter(th) {
+
+var waypoint = new Waypoint({
+element: $('.count'), handler: function(direction) {
+Counter(this.element,5000);
+waypoint.destroy();
+  }, offset: '90%' });
+
+var waypoint3 = new Waypoint({
+element: $('.count1'), handler: function(direction) {
+Counter(this.element,8000);
+waypoint.destroy();
+  }, offset: '90%' });
+
+
+
+function Counter(th,\$num) {
     var \$this = jQuery(th);
-            jQuery({ Counter: 10000 }).stop(true, true).delay(900).animate({ Counter: 5000 }, {
+            jQuery({ Counter: 10000 }).stop(true, true).delay(900).animate({ Counter: \$num }, {
                 duration: 1700,
                 easing: 'swing',
                 step: function (now) {

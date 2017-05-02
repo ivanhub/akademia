@@ -95,8 +95,8 @@ $this->params['breadcrumbs'][] = $title;
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-       <p style="margin-bottom:0px">Удобен для всех<br/><b style="color:#f62a2a;font-size: calc(14px + 0.35vw);">АКЦИЯ 5000 р.</b></p>
-       <p style="margin-bottom: -6px;margin-top: -6px;font-size: calc(8.5px + 0.35vw);">до 28 апреля</p>
+       <p style="margin-bottom:0px">Удобен для всех<br/><b style="color:#f62a2a;font-size: calc(14px + 0.35vw);">АКЦИЯ 8000 р.</b></p>
+       <p style="margin-bottom: -6px;margin-top: -6px;font-size: calc(8.5px + 0.35vw);">до 31 мая</p>
 <p style="margin-top:7px;margin-bottom: 2px;">от <b style="color:darkgreen;text-decoration:line-through">10 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
     <p>с 9:00 до 19:00 Вт-Пт.</p>
@@ -279,8 +279,7 @@ $this->params['breadcrumbs'][] = $title;
 </div></div><!--<div class="linetire"></div>
 <br/><br/>
 <p class="green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;">
-<!-- При поступлении в Автошколу кандидат в водители предоставляет следующие документы: 
-Необходимые документы для поступления в Автошколу:</p>
+ При поступлении в Автошколу кандидат в водители предоставляет следующие документы:Необходимые документы для поступления в Автошколу:</p>
 <center>
 <p style="font-weight:700;color: green;"><img  class="img-responsive acat2" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Фотографии (3х4) - 2 шт.</p>
 <img src="../images/photos.png" width=38>
@@ -288,20 +287,20 @@ $this->params['breadcrumbs'][] = $title;
 <img src="../images/passport.png" width=38>
 <p style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Медицинская справка</p>
 <img src="../images/spravka.jpg" width=19>
-<p class="green" style="font-size:20px;padding-top:20px;font-weight:bold;"">Может также понадобится:</p>
+<p class="green" style="font-size:20px;padding-top:20px;font-weight:bold;"">Может понадобится:</p>
 </center>
 <div class="text-center" style="width:58%;margin-left: auto;margin-right: auto;">
 <p style="font-size:16px;line-height: 1;" align="left"><img  class="" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-right:7px;">Ксерокопия свидетельства о рождении (лицам моложе 16 лет, либо сменившим фамилию)</p>
 <p style="font-size:16px;line-height: 1;" align="left"><img  class="acat" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-right:7px;">Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества</p>
 <p style="font-size:16px;line-height: 1;" align="left"><img  class="acat" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-right:7px;">Ксерокопия водительского удостоверения (при открытии новой категории) </p>
 </div>
-<!-- <div class="col-sm-offset-1 col-md-offset-1 col-xs-11 col-sm-10 col-md-10" style="">
+<div class="col-sm-offset-1 col-md-offset-1 col-xs-11 col-sm-10 col-md-10" style="">
 <p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия свидетельства о рождении (лицам моложе 16 лет, либо сменившим фамилию)</p>
 <p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества</p>
 <p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия водительского удостоверения (при открытии новой категории) </p>
 </div>
-</div> -->
-<br/><br/>
+</div> 
+<br/><br/>-->
 
 </div>
 
