@@ -457,8 +457,66 @@ JS
 <p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия водительского удостоверения (при открытии новой категории) </p>
 </div>
 </div> -->
-<br/><br/>
+
+<br/><br/><div class="linetire"></div>
+<br/>
+<p class="poryadok green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
+Расписание занятий</p>
+<table cellspacing="0" cellpadding="0" border="0" class="timetable  table-responsive" align="center">
+    <thead>
+        <tr>
+            <th>Планируемая дата<br/>начала обучения</th>
+            <th><p>Адрес&nbsp;учебного&nbsp;класса</p></th>
+          <?php if (Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <th class="last"><p>Дни&nbsp;и&nbsp;время&nbsp;занятий в&nbsp;учебной&nbsp;группе</p></th><?php } ?>
+          <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <th><p>Дни&nbsp;и&nbsp;время&nbsp;занятий в&nbsp;учебной&nbsp;группе</p></th>
+             <th class="last"><p>Свободные места</p></th> <?php } ?>
+        </tr>
+    </thead>
+    <tbody>
+         <tr class="timetable__theory-tr"><td class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
+        <tr>
+            <td><span>22.05.2017</span></td>
+
+            <td>ул. Молодогвардейская, 33<br>т.: 255-69-99</td>
+            <td>
+                <span class="span2">ПН,СР: 18:00-20:00</span>
+            
+            </td>
+             <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
+        </tr>
+        
+        <tr>
+            <td><span>22.05.2017</span></td>
+
+            <td>ул. Осипенко, 11<br>т.: 255-69-99</td>
+            <td>
+                <span class="span2">ВТ,ЧТ: 18:00-20:00</span>
+            </td>
+             <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
+        </tr>
+                         <tr class="timetable__theory-tr"><td class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
+
+         <tr>
+            <td><span>22.05.2017</span></td>
+
+            <td>Автодром,<br> ул. Уральская, 34 <br/>т.: 255-69-99</td>
+            <td class="text-left">
+                <span class="span2">ВТ-ПТ: 9-20, CБ: 9-16</span>
+            </td>
+             <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
+            <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
+        </tr>
+
+    </tbody>
+    </table>
+<br/>
+<br/>
 </div>
+
 </div>
 
 

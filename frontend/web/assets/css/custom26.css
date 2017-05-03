@@ -2847,8 +2847,8 @@ vertical-align:middle;
 .timetable {
     display: table;
     border-collapse: separate;
-    border-spacing: 2px;
-    border-color: grey;
+/*    border-spacing: 2px;
+    border-color: grey;*/
 
     color: #000;
     font-size: 14px;
@@ -2894,7 +2894,7 @@ vertical-align:middle;
     font-weight: bold;
 }
 .timetable td span, .timetable__theory span {
-    font-size:calc(13px - -0.7vw);
+    font-size:calc(12px - -0.7vw);
     font-weight: bold;
 }
 
@@ -2909,7 +2909,7 @@ flex: 1 /* to evenly distributs flex elements;;;;; */;
 
 .timetable thead tr {
     background: rgba(155, 239, 155, 0.34);
-margin-bottom: -2px;
+/*margin-bottom: -2px;*/
 }
 
 
@@ -2951,33 +2951,90 @@ padding: 15px 55px;
 
 .timetable thead tr th {
     text-align: center;
+
 }
 
+@media (max-width:625px) {
+.timetable thead tr{
+ display: table;
+    
+/*   padding: 15px 14px;*/
+} }
+
+@media (min-width:768px) and (max-width:992px) {
+.timetable thead tr{display: table;}
+}
 @media (max-width:992px) {
+
+
+.timetable th {     padding: 15px 20px; }
+
 .timetable td:nth-child(4) {
+    padding: 15px 25px;
     widtH: 20%;
 }
 .timetable td:nth-child(2) {
-    width: 32%;}
+    width: 40%;}
 .timetable td:nth-child(3) {
     width: 31%;}
+.timetable td:nth-child(1) {
+    width: 23%;
+}
 .timetable td span.span2, .timetable__theory span {
     font-size:calc(10px - -0.7vw);
 }
-
 }
 
+@media (max-width:767px) {
+.timetable td:nth-child(2) {
+    width: 35%;}
+
+ .timetable td:nth-child(1) { width: 24%;     text-align: center;}
+}
 
 @media (max-width:730px) {
 .timetable th, .timetable th p {     font-size: calc(10px - -0.35vw); }
 }
 
-
-
-
-.timetable td span, .timetable__theory span {
-    font-size:calc(12px - -0.7vw);
+@media (max-width:550px) {
+ .timetable td:nth-child(3) { text-align: center;}
 }
+
+
+@media (max-width:530px) {
+.timetable th {    padding: 5px 6px; !important}
+.timetable td {    padding: 5px 5px; !important}
+.timetable td:nth-child(2) { font-size:12px; width:27%;}
+}
+
+@media (max-width:420px) {
+.timetable td:nth-child(2) { font-size:11px; width:36%;}
+.timetable td span, .timetable__theory span,.timetable td span.span2 {
+    font-size:calc(9px - -0.7vw);
+}
+}
+
+
+@media (max-width:400px) {
+.timetable th, .timetable th p {     font-size: calc(8px - -0.35vw); }
+.timetable td:nth-child(2) { font-size:9px; width:31%;}
+.timetable td span, .timetable__theory span,.timetable td span.span2 {
+    font-size:calc(9px - -0.7vw);
+}
+}
+
+
+@media (max-width:330px) {
+.timetable th {    padding: 5px 1px; !important}
+.timetable td {    padding: 5px 1px; !important}
+.timetable th, .timetable th p {     font-size: calc(8px - -0.35vw); }
+.timetable td:nth-child(2) { font-size:9px; width:36%;}
+.timetable td span, .timetable__theory span,.timetable td span.span2 {
+    font-size:calc(8px - -0.6vw);
+}
+}
+
+
 .timetable__theory td { width:100%; /* fill entire width,row */
   flex:auto;}
 
@@ -2994,7 +3051,7 @@ padding: 15px 55px;
 
 
 #advanced-circle {
-    margin-top: 4px;
+    margin-top: 5px;
     margin-right:9px;
     position:static;
 
