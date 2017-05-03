@@ -2846,7 +2846,7 @@ vertical-align:middle;
 
 .timetable {
     display: table;
-    border-collapse: separate;
+    border-collapse: collapse;
 /*    border-spacing: 2px;
     border-color: grey;*/
 
