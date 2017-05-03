@@ -319,7 +319,7 @@ $this->params['breadcrumbs'][] = $title;
         </tr>
     </thead>
     <tbody>
-         <tr class="timetable__theory-tr"><td class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
+         <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
         <tr>
             <td><span>12.05.2017</span></td>
 
@@ -342,7 +342,7 @@ $this->params['breadcrumbs'][] = $title;
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
             <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
         </tr>
-                         <tr class="timetable__theory-tr"><td class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
+                         <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
 
          <tr>
             <td><span>12.05.2017</span></td>

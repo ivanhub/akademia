@@ -2899,7 +2899,7 @@ vertical-align:middle;
 }
 
 td.timetable__theory {
-flex: 1 /* to evenly distributs flex elements;;;;; */;
+
     text-shadow: #363636 0 1px 1px;
     color: #ffc107;
     letter-spacing: 13px;
@@ -2928,14 +2928,14 @@ flex: 1 /* to evenly distributs flex elements;;;;; */;
 }
 
 
-.timetable td:nth-child(1) { width:19% }
+.timetable td:nth-child(1) { }
 .timetable td:nth-child(2) {
-    width: 30%;
+
     margin-left: 1%;
 }
 
 .timetable td:nth-child(3) {
-    flex: 1;
+    
 }
 .timetable td:nth-child(4) {
 padding: 15px 55px;
@@ -2943,10 +2943,10 @@ padding: 15px 55px;
 .timetable__theory-tr td span {font-size:25px;}
 
 
-.timetable tr {   display:flex;
+.timetable tr {   
     align-items: center;
     justify-content: center;
-/*  flex-wrap:wrap; /* allow to wrap on multiple rows */
+
 }
 
 .timetable thead tr th {
@@ -2956,13 +2956,12 @@ padding: 15px 55px;
 
 @media (max-width:625px) {
 .timetable thead tr{
- display: table;
     
 /*   padding: 15px 14px;*/
 } }
 
 @media (min-width:768px) and (max-width:992px) {
-.timetable thead tr{display: table;}
+.timetable thead tr{}
 }
 @media (max-width:992px) {
 
@@ -2971,14 +2970,14 @@ padding: 15px 55px;
 
 .timetable td:nth-child(4) {
     padding: 15px 25px;
-    widtH: 20%;
+
 }
 .timetable td:nth-child(2) {
-    width: 40%;}
+}
 .timetable td:nth-child(3) {
-    width: 31%;}
+}
 .timetable td:nth-child(1) {
-    width: 23%;
+
 }
 .timetable td span.span2, .timetable__theory span {
     font-size:calc(10px - -0.7vw);
@@ -2991,9 +2990,9 @@ padding: 15px 55px;
 
 @media (max-width:767px) {
 .timetable td:nth-child(2) {
-    width: 35%;}
+}
 
- .timetable td:nth-child(1) { width: 24%;     text-align: center;}
+ .timetable td:nth-child(1) {   text-align: center;}
 }
 
 @media (max-width:730px) {
@@ -3008,11 +3007,11 @@ padding: 15px 55px;
 @media (max-width:530px) {
 .timetable th {    padding: 5px 6px; !important}
 .timetable td {    padding: 5px 5px; !important}
-.timetable td:nth-child(2) { font-size:12px; width:27%;}
+.timetable td:nth-child(2) { font-size:12px; }
 }
 
 @media (max-width:420px) {
-.timetable td:nth-child(2) { font-size:11px; width:36%;}
+.timetable td:nth-child(2) { font-size:11px; }
 .timetable td span, .timetable__theory span,.timetable td span.span2 {
     font-size:calc(9px - -0.7vw);
 }
@@ -3021,7 +3020,7 @@ padding: 15px 55px;
 
 @media (max-width:400px) {
 .timetable th, .timetable th p {     font-size: calc(8px - -0.35vw); }
-.timetable td:nth-child(2) { font-size:9px; width:31%;}
+.timetable td:nth-child(2) { font-size:9px; }
 .timetable td span, .timetable__theory span,.timetable td span.span2 {
     font-size:calc(9px - -0.7vw);
 }
@@ -3040,7 +3039,7 @@ padding: 15px 55px;
 
 
 .timetable__theory td { width:100%; /* fill entire width,row */
-  flex:auto;}
+}
 
 @keyframes spin {
 	from { transform: rotate(0deg); }

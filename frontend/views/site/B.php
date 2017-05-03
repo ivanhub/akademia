@@ -447,7 +447,7 @@ JS
 </center>
 <div  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:600;duration: 1000;callback:;"  class="text-center" style="width:58%;margin-left: auto;margin-right: auto;">
 <p style="font-size:16px;line-height: 1;" align="left"><img  class=" darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия водительского удостоверения (при открытии новой категории)</p>
-<p style="font-size:16px;line-height: 1;" align="left"><img  class="darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия свидетельства о рождении (лицам моложе 16 лет, либо сменившим фамилию)</p>
+<p style="font-size:16px;line-height: 1;" align="left"><img  class="darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия свидетельства о рождении (сменившим фамилию)</p>
 <p style="font-size:16px;line-height: 1;" align="left"><img  class=" darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества.</p>
 </div>
 <!-- <div class="col-sm-offset-1 col-md-offset-1 col-xs-11 col-sm-10 col-md-10" style="">
@@ -474,7 +474,7 @@ JS
         </tr>
     </thead>
     <tbody>
-         <tr class="timetable__theory-tr"><td class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
+         <tr class="timetable__theory-tr"><td colspan="4" class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
         <tr>
             <td><span>22.05.2017</span></td>
 
@@ -497,7 +497,7 @@ JS
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
             <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
         </tr>
-                         <tr class="timetable__theory-tr"><td class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
+                         <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
 
          <tr class="otstup">
             <td><span>22.05.2017</span></td>
@@ -505,7 +505,7 @@ JS
             <td>Автодром,<br> ул. Уральская, 34 <br/>т.: 255-69-99</td>
             <td class="text-left 
             ">
-                <span class="span2">ВТ-ПТ: 9.00-20.00<br/> CБ: 9.00-16.00</span>
+                <span class="span2">ВТ-ПТ: 9.00-20.00<br/>CБ: 9.00-16.00</span>
             </td>
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
             <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
