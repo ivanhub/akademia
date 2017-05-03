@@ -462,7 +462,7 @@ JS
 <br/>
 <p class="poryadok green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
 Расписание занятий</p>
-<table cellspacing="0" cellpadding="0" border="0" class="timetable  table-responsive" align="center">
+<table cellspacing="0" cellpadding="0" border="0" class="timetable  table-responsive" align="center"  data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
     <thead>
         <tr>
             <th>Планируемая дата<br/>начала обучения</th>
