@@ -500,12 +500,13 @@ JS
         </tr>
                          <tr class="timetable__theory-tr"><td class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
 
-         <tr>
+         <tr class="otstup">
             <td><span>22.05.2017</span></td>
 
             <td>Автодром,<br> ул. Уральская, 34 <br/>т.: 255-69-99</td>
-            <td class="text-left">
-                <span class="span2">ВТ-ПТ: 9-20, CБ: 9-16</span>
+            <td class="text-left 
+            ">
+                <span class="span2">ВТ-ПТ: 9:00-20:00<br/> CБ: 9:00-16:00</span>
             </td>
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
             <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
