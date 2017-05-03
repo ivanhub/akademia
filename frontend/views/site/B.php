@@ -272,18 +272,17 @@ JS
   <p>Учебные маршруты по всему городу.</p>
   </div>
   </div></div>
-<div class="forsafari">
-<div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:200;infinite:false;animationClass:animated;duration:1500;callback:;" >
-  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/theory1.png"></div>
-  <div class="col-sm-7 centerxs vc"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
-  </div></div>
+
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:300;infinite:false;animationClass:animated;duration:1500;callback:;" >
 <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/gibdd1.png"></div>
   <div class="col-sm-7 centerxs vc"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четвертый четверг месяца.</p></div>
   </div></div>
-
-
+<div class="forsafari">
+<div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:200;infinite:false;animationClass:animated;duration:1500;callback:;" >
+  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/clock1.png"></div>
+  <div class="col-sm-7 centerxs vc"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
+  </div></div>
 </div>
 
 <br/><br/>
@@ -481,7 +480,7 @@ JS
 
             <td>ул. Молодогвардейская, 33<br>т.: 255-69-99</td>
             <td>
-                <span class="span2">ПН,СР: 18:00-20:00</span>
+                <span class="span2">ПН,СР: 18.00-20.00</span>
             
             </td>
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
@@ -493,7 +492,7 @@ JS
 
             <td>ул. Осипенко, 11<br>т.: 255-69-99</td>
             <td>
-                <span class="span2">ВТ,ЧТ: 18:00-20:00</span>
+                <span class="span2">ВТ,ЧТ: 18.00-20.00</span>
             </td>
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
             <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>
@@ -506,7 +505,7 @@ JS
             <td>Автодром,<br> ул. Уральская, 34 <br/>т.: 255-69-99</td>
             <td class="text-left 
             ">
-                <span class="span2">ВТ-ПТ: 9:00-20:00<br/> CБ: 9:00-16:00</span>
+                <span class="span2">ВТ-ПТ: 9.00-20.00<br/> CБ: 9.00-16.00</span>
             </td>
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
             <td><div id="advanced-circle" class="circle fl"></div><span class="fl zel">ЕСТЬ</span></td><?php } ?>

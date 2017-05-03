@@ -57,6 +57,7 @@ class SiteController extends Controller
     }
 
      public function actionDopog() { return $this->render('dopog');}
+     public function actionSpecialoffers() { return $this->render('special-offers');}
 
       public function actionSamohodnayatehnika()
     {

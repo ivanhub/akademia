@@ -55,9 +55,8 @@ $this->params['breadcrumbs'][] = $title;
 </div></div>
 
 </div>
-
-
- </div>
+</div>
+<br/><br/>
 
  <!-- <div class="blockAB" style="margin-top:10px" >
  <div class="blockTT">
@@ -230,7 +229,7 @@ $this->params['breadcrumbs'][] = $title;
  
  
  </section> -->
-<br/><br/>
+
 
 <!-- 
 <div class="row preimbox">
@@ -447,12 +446,12 @@ elseif (stripos( $user_agent, 'Safari') !== false)
 <h5 style="" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
  </div>
  <ul class=" preimul2 lr10 gal text-justify">
-  <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
- <li style="animation-duration: 1s; animation-delay: .5s;"> Организация и предоставление учебных транспортных средств на первичные экзамены (выпускной и ГИБДД).</li>
- <li style="animation-duration: 1s; animation-delay: 1s;"> Учебная литература в подарок: экзаменационные билеты, правила дорожного движения, 
+ <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
+ <li style="animation-duration: 1s; animation-delay: .4s;"> Организация и предоставление учебных транспортных средств на первичные экзамены (выпускной и ГИБДД).</li>
+ <li style="animation-duration: 1s; animation-delay: .7s;"> Учебная литература в подарок: экзаменационные билеты, правила дорожного движения, 
  методичка по вождению, памятка по упражнениям на площадке.</li>
- <li style="animation-duration: 1s; animation-delay: 1.5s;"> Консультация с преподавателем теоретического курса по пропущенным занятиям.</li>
- <li style="animation-duration: 1s; animation-delay: 2s;"> Улыбка и доброжелательное отношение со стороны администрации.</li>
+ <li style="animation-duration: 1s; animation-delay: 1s;"> Консультация с преподавателем теоретического курса по пропущенным занятиям.</li>
+ <li style="animation-duration: 1s; animation-delay: 1.3s;"> Улыбка и доброжелательное отношение со стороны администрации.</li>
  </ul>
 
 <br/><br/>

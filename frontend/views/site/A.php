@@ -205,16 +205,17 @@ $this->params['breadcrumbs'][] = $title;
 
 
   </div>
-  </div></div> <div class="forsafari">
-<div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:200;duration:1500;callback:;">
-  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/clock1.png"></div>
-  <div class="col-sm-7 centerxs vc"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
-  <p>Обучение проводится в период с мая по октябрь.</p></div>
-  </div></div>
+  </div></div> 
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:300;duration:1500;callback:;">
 <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/gibdd1.png"></div>
   <div class="col-sm-7 centerxs vc"> <p><b>Экзамен в ГИБДД</b></p>  <p>Дни сдачи экзаменов в ГИБДД: по субботам.</p></div>
+  </div></div>
+  <div class="forsafari">
+<div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:200;duration:1500;callback:;">
+  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/clock1.png"></div>
+  <div class="col-sm-7 centerxs vc"><p><b>Срок обучения</b></p> <p>1,5 месяца. </p>
+  <p>Обучение проводится в период с мая по октябрь.</p></div>
   </div></div>
 </div>
 
