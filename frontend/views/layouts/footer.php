@@ -48,28 +48,27 @@ use yii\helpers\Html;
 <?php } ?>
 
 </div>
-<div class="col-md-3  col-sm-3 col-xs-12 my"><div class="vk"><BR/>
-<p><?php    echo Html::a(
-    'Запись на занятия',
-  ['#'],
-  [ 'data-toggle' => 'modal',
-    'data-target' => '#idmodal',
-    'data-which' => '1',
-  ]
-    ); ?></p> 
-
-  <!--  <div class="wrapperb">
-    <p class="innerb">
-        <a href="/" class="buttonn">
+<div class="col-md-3  col-sm-3 col-xs-12 my"><div class="vk">
+<?php    echo Html::a(
+   '<div class="wrapperb">
+        <p class="buttonn">
             <span class="borderr"></span>
             <span class="topp"></span>
             <span class="rightt"></span>
             <span class="bottomm"></span>
             <span class="leftt"></span>
-            <span class="textt">Запись на обучение</span>
-        </a>
-    </p>
-</div>http://codepen.io/anon/pen/mWJmmm?editors=1100-->
+            <span class="textt">Запись на занятия</span>
+        </p>
+</div>',
+  ['#'],
+  [
+  'data-toggle' => 'modal',
+  'data-target' => '#idmodal',
+  'data-which' => '1',
+  ]
+    ); ?> 
+<BR/><BR/>
+  <!--http://codepen.io/anon/pen/mWJmmm?editors=1100-->
 <p style="margin-left:-10px">  <a target="blank" href="https://vk.com/rosavtoakademia" class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></a><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk">Мы Вконтакте</a></p><BR/>
 <!--<div class="hi-icon-effect-8 "> -->
 
@@ -93,6 +92,8 @@ use yii\helpers\Html;
 <!-- <div id="w00" class="col-xs-11 col-sm-3 alert alert-custom  fadeInDown" role="alert" data-notify="container" data-notify-position="top-center" style="display: inline-block; margin: 0px auto; position: fixed; transition: all 0.5s ease-in-out; z-index: 1031; top: 20px; left: 0px; right: 0px; animation-iteration-count: 1;"><button type="button" class="close" data-notify="dismiss"><span aria-hidden="true">×</span></button><span data-notify="icon" class="fa fa-envelope"></span><span data-notify="title">Сообщение отправлено!</span><hr class="kv-alert-separator"><span data-notify="message">Спасибо, что обратились к Нам. <br/>Мы ответим Вам в ближайшее время.</span><a href="#" data-notify="url" target="_blank"></a></div> -->
 
 <?php 
+
+
 
 $this->registerJs(<<<JS
 var div = document.createElement('div');

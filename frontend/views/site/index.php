@@ -622,7 +622,7 @@ waypoint.destroy();
 var waypoint3 = new Waypoint({
 element: $('.count1'), handler: function(direction) {
 Counter(this.element,8000);
-waypoint.destroy();
+waypoint3.destroy();
   }, offset: '90%' });
 
 
