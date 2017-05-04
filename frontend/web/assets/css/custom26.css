@@ -2652,7 +2652,7 @@ height: 27px;
 }
 
 
-a:active, a:focus {outline: 0}
+a:active, a:focus {outline: 0} /*remove mozilla bag - link area */
 
 .akciya { background:url(../../images/pics/akciya-bg.png);  height:343px; width:269px;}
 .saleSkidka { background:url(../../images/pics/sale-bg.png);  height:50px; width:96px; margin-left:3px; margin-top:-7px;}

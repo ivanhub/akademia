@@ -220,6 +220,7 @@ $this->title = title('cd');
 
 
 
+<?php if (!Yii::$app->mobileDetect->isMobile()) { ?>
 
 <script type="text/javascript">
 
@@ -584,6 +585,8 @@ animate(function (dt) {
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
   </script>
+
+  <?php } ?>
 
 <?php 
 $this->registerJs(<<<JS
