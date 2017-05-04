@@ -2211,8 +2211,8 @@ p.anim_one,p.anim_three {
 
 /*  .foot1 .col3, .foot1 .col4
   { margin-top: 40px; }
-  .my {     text-align: center; padding-top:50px; }*/
-  .my {     text-align: center; }
+  .my {     text-align: center; padding-top:50px; }
+  .my {     text-align: center;      }             */
 
 @media (max-width:767px) {
   .my {  padding-top:30px;    }

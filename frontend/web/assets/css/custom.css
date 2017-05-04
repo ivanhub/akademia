@@ -114,6 +114,37 @@ Arsenal:400,700| Roboto:300,400,700|
 /*end reset*/
 
 
+/*scrollbar*/
+::-webkit-scrollbar-button {
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 0px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ecedee
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #70b654;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #62b643;
+}
+
+::-webkit-resizer {
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 0px
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
 
 /*buble*/
 .hvr-bubble-float-bottom2 {
@@ -1030,18 +1061,15 @@ box-shadow: 0 5px 5px #ccc;
 
 
 .foot1 { height:150px; padding-top:30px; margin-bottom:25px;}
-.foot1 p:first-child, .my {font-weight:bolder; font-size:15px; padding-bottom:5px;}
+.foot1 p:first-child, .my {font-weight:bolder; font-size:15px;}
 /* .foot1 p:not(:first-child) {text-indent:15px;}
 
 font-family: 'Cambria' !important; 
  */
 
 @media (min-width:992px) { .my {   
-
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-
 } }
 /*a.myvk:hover ~ a.icon-circle   {    color: #4b76a5;    background: #fff;}*/
 

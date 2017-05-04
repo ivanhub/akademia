@@ -14,7 +14,7 @@ class AppAsset extends AssetBundle
     public function init()
 {
     $this->js = !YII_DEBUG ? ['param.js'] : [
-//'assets/js/cssrefresh.js'
+'assets/js/cssrefresh.js'
     ];
     parent::init();
 }
