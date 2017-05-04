@@ -360,7 +360,7 @@ transform-style: preserve-3d;
 
 
 
-.foot1 p a:hover,.foot1 .p a:hover,.foot1 .list a:hover, .myvk {
+.foot1 p a:hover,.foot1 .p a:hover,.foot1 .list a:hover, .myvk:hover {
 color: #115911;
 }
 
