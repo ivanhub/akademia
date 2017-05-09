@@ -76,7 +76,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
   <div class="justmobi">
     <div class="row">
       
-      <p class="phone"><a href="tel:8846255-69-99"> +7 (846) 255-69-99</a></p>
+      <p class="phone"><a href="tel:+78462556999"> +7 (846) 255-69-99</a></p>
 <span class="take">
 <?php    echo Html::a(
     'Заявка ОН-ЛАЙН',
@@ -95,7 +95,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 
 </div>
-<div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-4 col-xs-4 text-right rightblock hidemobi"><p class="phone"><a href="tel:8846255-69-99"> +7 (846) 255-69-99</a></p>
+<div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-4 col-xs-4 text-right rightblock hidemobi"><p class="phone"><a href="tel:+78462556999"> +7 (846) 255-69-99</a></p>
 <p class="take">
 <?php    echo Html::a(
     'Запись ОН-ЛАЙН',
