@@ -1227,7 +1227,7 @@ font-size:13px !important; }
 
 
 @media (max-width:1050px) { 
-.header-top .phone { font-size:32px !important; } 
+.phone { font-size:32px !important; } 
 .rightblock {margin-right:-10px;} 
 }
 

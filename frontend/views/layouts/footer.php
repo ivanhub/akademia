@@ -6,28 +6,25 @@ use yii\helpers\Html;
 
 <div class=" foot1">
 <div class="row">
-<div class="col-md-2  col-sm-2 col-xs-2 foocol"></div>
 
-<div class="col-md-3   col-sm-3 col-xs-5 col1">
-<i class="footer__vline footer__vline_1"></i>
+        <div class="col-sm-4 col-xs-12">
+                <div class="footer-col-1 col1">
+                <i class="footer__vline footer__vline_1"></i>
  <ul class="footer-links">
- <li><a href="/driving-school"><i class="footer__hline footer__hline_1"></i>Автомотошкола</a></li>
+ <li><a href="/driving-school"></i>Автомотошкола</a></li>
  <li class="indent10"><i class="footer__hline footer__hline_1"></i><a href="/driving-school/A">Категория А</a></li>
-  <li class="indent10"><a href="/driving-school/B">Категория B</a></li>
+ <li class="indent10"><i class="footer__hline footer__hline_1"></i><a href="/driving-school/B">Категория B</a></li>
   <li style="font-size:14.5px;padding-top:0px"><b><a href="/self-propelled-machinery">Самоходная техника</a></b></li>
   <li style="font-size:14.5px;padding-top:0px"><b><a href="/navigation">Судовождение</a></b></li>   
   <li style="font-size:14.5px;padding-top:0px"><b><a href="/safety-driving">Защитное вождение</a></b></li>   
 </ul>
- <!-- <p><a href="/postupayushchim">Запись на обучение</a></p>
- <p><a href="/raspisanie">Расписание занятий</a></p>
- <p><a href="/our-advantages">Наши преимущества</a></p>
- <p><a href="/additional-services">Дополнительные услуги</a></p> -->
- </div>
+                  </div>
+        </div>
+        <div class="clearfix visible-xs" style="margin-bottom:20px;"></div>
+       <div class="col-sm-4 col-xs-12">
+                       <div class="footer-col-2 col4">
+   
 
-  <!-- <div class="clearfix visible-sm"></div> -->
-  <div class="col-xs-2 foocol hidden-sm visible-xs"></div>
-
-<div class="col-md-3 col-sm-3  col-xs-5 col4">
 <i class="footer__vline footer__vline_2"></i>
 
 <?php if (hm('site/dopuslugi')) {
@@ -51,12 +48,17 @@ use yii\helpers\Html;
 </ul>
 <?php } ?>
 
-</div>
-<div class="col-md-3  col-sm-3 col-xs-12 my">
+
+
+        </div>
+                </div>
+        <div class="col-sm-4 col-xs-12">
+                        <div class="footer-col-3 my">
+
 
 <div class="footer-phone">
 <p class="phone">
-<a href="tel:8846255-69-99"><i class="footer-phone__pic"></i> <span>+7 (846) 255-69-99</span></a></p>
+<a href="tel:+78462556999"><i class="footer-phone__pic"></i> <span>+7 (846) 255-69-99</span></a></p>
 <p class="footer-phone__p">пн-чт с 8.00 до 17.00</p>
 <p class="footer-phone__p">пт с 8.00 до 16.00</p>
 </div>
@@ -79,6 +81,31 @@ use yii\helpers\Html;
   'data-which' => '1',
   ]
     ); ?> 
+
+<p class="footer__myvkontakte  text-right"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы Вконтакте </span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
+
+                  </div>
+        </div>
+
+<div class="col-md-2  col-sm-2 col-xs-2 foocol"></div>
+
+<div class="col-md-3   col-sm-3 col-xs-5 col1">
+
+ <!-- <p><a href="/postupayushchim">Запись на обучение</a></p>
+ <p><a href="/raspisanie">Расписание занятий</a></p>
+ <p><a href="/our-advantages">Наши преимущества</a></p>
+ <p><a href="/additional-services">Дополнительные услуги</a></p> -->
+ </div>
+
+  <!-- <div class="clearfix visible-sm"></div> -->
+  <div class="col-xs-2 foocol hidden-sm visible-xs"></div>
+
+<div class="col-md-3 col-sm-3  col-xs-5 col4">
+
+
+</div>
+<div class="col-md-3  col-sm-3 col-xs-12 my">
+
 <BR/>
 
   <!--http://codepen.io/anon/pen/mWJmmm?editors=1100-->
@@ -88,7 +115,6 @@ use yii\helpers\Html;
 
 <!--<p style="margin-top:15px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы Вконтакте &nbsp;</span> <i class="icon-button vk1"> <i class="fa fa-vk"><span></span></i></i></a></p>-->
 
-<p class="footer__myvkontakte  text-right"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы Вконтакте </span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 
 
 </div>
@@ -192,8 +218,20 @@ JS
 </footer> -->
 
 
-<!-- Google.Analytics counter --> <script>!function(e,t,a,n,c,s,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=t.createElement(a),o=t.getElementsByTagName(a)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-93157723-1","auto"),ga("send","pageview");</script>
-<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43279694 = new Ya.Metrika({ id:43279694, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/43279694" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+<script type="text/javascript"> 
+var host = window.location.hostname;
+if (host != "front.loc")
+{
+// Google.Analytics counter
+!function(e,t,a,n,c,s,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=t.createElement(a),o=t.getElementsByTagName(a)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-93157723-1","auto"),ga("send","pageview");
+// Yandex.Metrika counter 
+(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43279694 = new Ya.Metrika({ id:43279694, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); 
+}
+</script>
+<!-- Yandex.Metrika counter -->
+<noscript><div><img src="https://mc.yandex.ru/watch/43279694" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+<!-- /Yandex.Metrika counter -->
 
 
 <!-- Google Code for Conversion Page
@@ -225,4 +263,10 @@ phone number link or button. -->
 }
 /* ]]> */
 </script>
-<script type="text/javascript"  src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+
+<?php 
+
+if ($_SERVER['HTTP_HOST']!=="front.loc"){  ?>
+ <script type="text/javascript"  src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+<?php } ?>
+

@@ -34,7 +34,6 @@
         "kartik-v/yii2-widget-sidenav": "*",
         "branchonline/yii2-lightbox": "*",
         "onmotion/yii2-gallery": "dev-custom",
-        "skeeks/yii2-assets-auto-compress": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

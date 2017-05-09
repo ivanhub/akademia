@@ -67,7 +67,7 @@ img.hvr-up.onload-logo {
 }
 .footer-phone__p {text-align:right;   font-family: "Myriadprocond","Helvetica Neue","Helvetica","Arial",sans-serif; font-size:18px;font-weight:500; line-height:.5}
 .footer-phone p:nth-child(2) {margin-top:-6px;}
-.vk {   margin-top: -1px;}
+.vk {   margin-top: -1px;    text-align: right;}
 .footer-phone__img {
     margin-top: -4px;
     margin-right: 5px;
@@ -416,7 +416,7 @@ width:70px !important;
 @media (max-width:530px) {
 
 
-.foot1 p {text-align:center;}
+/*.foot1 p {text-align:center;}*/
 
 .justmobi {display:block}
 .hidemobi {display:none}    
@@ -442,12 +442,12 @@ width:70px !important;
 
 @media (max-width:385px) {
  .navbar-nav { margin-left: 30% !important; } 
-.foot1 p {font-size:13px !important}
+/*.foot1 p {font-size:13px !important}*/
 }
 
 
-@media (max-width:350px) {
-.foot1 p {font-size:12px !important}
+@media (max-width:350px) {              
+/*.foot1 p {font-size:12px !important}*/
 
 .justmobi   .phone { font-size:16px !important; 
 }  
@@ -461,7 +461,7 @@ padding: 6px 10px;}
 
 @media (max-width:330px) {
  .navbar-nav {     margin-left: 25% !important;} 
-.foot1 p {font-size:11px !important; }
+/*.foot1 p {font-size:11px !important; }*/
 .justmobi   .phone { font-size:15px !important; } 
 .justmobi .take { font-size:14px !important; top: 61px !important; }
 
@@ -486,19 +486,40 @@ padding: 6px 10px;}
 
 
 
-#topmen.collapse.in { border-radius:4px;}
 
-.footer__myvkontakte {margin-top:22px}
+
+.footer__myvkontakte {margin-top:3px}
 @media (min-width:992px) and (max-width:1199px) {
-.my p.phone {
+.my p.phone span {
     font-size: 27px; }
-.my {    margin-top: 5px;}
-.footer__myvkontakte {margin-top:25px}
+.my {    margin-top: 2px;}
+.footer__myvkontakte {margin-top:6px}  
 }
 
-@media (max-width:992px) {
+@media (min-width:768px) and (max-width:992px) {
+.my p.phone span{
+    font-size: 21px;    }
 .my p.phone {
-    font-size: 21px; }
-.my {    margin-top: 5px;}
-.footer__myvkontakte {margin-top:25px}
+    text-align: right; }
+
+.footer__myvkontakte {margin-top:6px}
+.footer-col-3 {
+    margin-right: 30%;
+}
+.footer-col-1 {
+    margin-left: 30%;
+}
+
+.footer-phone__pic {width:18px;height:18px; background-size:cover;}
+}
+
+@media (max-width:767px) {
+.my p.phone span {
+    font-size: 21px;     }
+
+.my p.phone {
+text-align: right; }
+
+.footer-col-1 { max-width:136px; 	}
+.footer-col-3 { max-width:158px; 	}
 }
