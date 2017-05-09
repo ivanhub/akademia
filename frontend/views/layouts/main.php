@@ -283,7 +283,7 @@ function handleClick()
  var newspan = document.createElement('span');
  newspan.className = "icos";
 
-var childTag = document.querySelectorAll("ul li a");
+var childTag = document.querySelectorAll("ul.nav li a");
 var childTag1 = document.querySelector(".first");
 
 

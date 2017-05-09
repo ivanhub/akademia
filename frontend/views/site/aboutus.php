@@ -245,7 +245,7 @@ $this->params['breadcrumbs'][] = $title;
 <tr>
 <td>11.</td>
 <td>Заключение ГИБДД</td>
-<td><a href="http://samarapb.ru/documents/organization/zakljuchenie_gibdd.pdf">Скачать</a></td>
+<td><a href="/documents/zakljuchenie_gibdd.pdf">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>12.</td>
@@ -255,6 +255,14 @@ $this->params['breadcrumbs'][] = $title;
 <tr><td>13.</td>
 <td>Отчет о самообследовании 2015г.</td>
 <td><a href="http://samarapb.ru/documents/organization/otchet_o_samoobsledovanii_2015.pdf">Скачать</a></td>
+</tr>
+<tr><td>14.</td>
+<td>Отчет о самообследовании 2016 г.</td>
+<td><a href="/documents/otchet-o-samoobsledovanii-2016.pdf">Скачать</a></td>
+</tr>
+<tr><td>15.</td>
+<td>Акт обследования ГИБДД 2017 г.</td>
+<td><a href="/documents/akt-obsledovaniya-gibdd-2017.pdf">Скачать</a></td>
 </tr>
 </tbody>
 </table>

@@ -93,13 +93,10 @@ use yii\helpers\Html;
 <!-- <div id="w00" class="col-xs-11 col-sm-3 alert alert-custom  fadeInDown" role="alert" data-notify="container" data-notify-position="top-center" style="display: inline-block; margin: 0px auto; position: fixed; transition: all 0.5s ease-in-out; z-index: 1031; top: 20px; left: 0px; right: 0px; animation-iteration-count: 1;"><button type="button" class="close" data-notify="dismiss"><span aria-hidden="true">×</span></button><span data-notify="icon" class="fa fa-envelope"></span><span data-notify="title">Сообщение отправлено!</span><hr class="kv-alert-separator"><span data-notify="message">Спасибо, что обратились к Нам. <br/>Мы ответим Вам в ближайшее время.</span><a href="#" data-notify="url" target="_blank"></a></div> -->
 
 <?php 
-
 $this->registerJs(<<<JS
 var div = document.createElement('div');
 div.className = "greenlinebot";
-
   document.getElementsByClassName("navbar-header")[0].appendChild(div);
-
   $('form').on('beforeSubmit', function(e) {
     var form = $(this);
     var formData = form.serialize();
@@ -114,10 +111,8 @@ div.className = "greenlinebot";
 //                                  $('#idmodal').modal('toggle');
 //                      setTimeout(function(){        $("#w00").removeClass('animated');
 //                        }, 3000);
-
   //console.log(result);
 //if (result == 'true') {
-
 var modalContainer = $('#idmodal');
 var modalBody = modalContainer.find('.modal-body');
 var insidemodalBody = modalContainer.find('#contact-form');
@@ -126,17 +121,12 @@ $('.sel').html("<div class='alert alert-success'>");
 $('.sel > .alert-success').append("<strong>Спасибо! Заявка отправлена.</strong>");
 $('.sel > .alert-success').append('</div>');
 //$('.sel').css('visibility', 'visible');
-
 setTimeout(function() { 
 $("#idmodal").modal('hide');
 //$('#w00').css('visibility', 'hidden');
 }, 4000);
-
 //}
-
 //else { modalBody.html(result).hide().fadeIn();                }
-
-
         },
         error: function () {
             alert("Something went wrong");
@@ -145,8 +135,6 @@ $("#idmodal").modal('hide');
 }).on('submit', function(e){
     e.preventDefault();
 });
-
-
 /*
 "use strict";
 function start5() {
@@ -158,7 +146,6 @@ function start5() {
         });
     }
 }*/
-
 JS
 , yii\web\View::POS_READY, 'contact-form'); ?>
 
@@ -166,7 +153,6 @@ JS
 <footer class="footer">
     <div class="container">
         <p class="pull-left"> My Company </p>
-
         <p class="pull-right"></p>
     </div>
 </footer> -->

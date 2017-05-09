@@ -11,7 +11,7 @@ use yii\web\View;
 
 class Menu4Asset extends AssetBundle
 {
-    public $basePath = '@webroot';
+    public $basePath = '@app';
     public $baseUrl = '@web';
         public $css = [
         'assets/css/bootstrap.css',

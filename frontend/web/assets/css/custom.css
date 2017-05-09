@@ -417,11 +417,11 @@ transform: rotateY(5deg);
 }
 
 .page .icon-xxs.icon-circle {
-    width: 34px;
-    height: 34px;
-    line-height: 34px;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
 }
-.page a.icon-gray-lighter, .page a.icon-white, .page a.icon-transparent, .page a.icon-white-transparent {
+.page a.icon-gray-lighter, .page i.icon-white, .page a.icon-transparent, .page a.icon-white-transparent {
     transition: .3s all ease;
 }
 .page .icon {
@@ -437,7 +437,7 @@ transform: rotateY(5deg);
     background: #4b76a5;
 }
 
-.page a.icon-gray-lighter:hover, .page a.icon-white:hover, .page a.icon-transparent:hover, .page a.icon-white-transparent:hover {
+a.myvk:hover > i.icon-white,.page a.icon-gray-lighter:hover, .page i.icon-white:hover, .page a.icon-transparent:hover, .page a.icon-white-transparent:hover {
     color: #4b76a5 !important;
     background: #fff;
 }
@@ -1060,36 +1060,11 @@ box-shadow: 0 5px 5px #ccc;
 -webkit-box-shadow: 0 5px 5px #ccc;}
 
 
-.foot1 { height:150px; padding-top:30px; margin-bottom:25px;}
-.foot1 p:first-child, .my {font-weight:bolder; font-size:15px;}
 /* .foot1 p:not(:first-child) {text-indent:15px;}
 
 font-family: 'Cambria' !important; 
  */
 
-@media (min-width:992px) { .my {   
-    margin-left: auto;
-    margin-right: auto;
-} }
-/*a.myvk:hover ~ a.icon-circle   {    color: #4b76a5;    background: #fff;}*/
-
-footer p.pull-top {
-    padding-top: 15px;
-}
-footer p {
-/*     font-family: 'Calibri' !important; */
-/*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
- font-family: 'Myriadsetpro', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  line-height:0.6;
-     }
-    
-    .minilogo { margin-top:2px !important; }
-
-
-    footer .rangelogo {height:40px;
-        clear: both;
-    border-top: 1px solid #e3e3e3;
-}
 
 
 
@@ -1188,11 +1163,12 @@ h1,h2 {font-weight:700;}
      font-size: 14px;
 }
 footer p {
-     line-height:0.9;
+     line-height:1.1;
      }
      .container.foot1 {
     margin-bottom: 45px;
 }
+
 
 
 .navbar-collapse {
@@ -1251,7 +1227,7 @@ font-size:13px !important; }
 
 
 @media (max-width:1050px) { 
-.phone { font-size:32px !important; } 
+.header-top .phone { font-size:32px !important; } 
 .rightblock {margin-right:-10px;} 
 }
 

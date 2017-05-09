@@ -1019,6 +1019,7 @@ left: 56% !important;
   text-decoration: none;
   text-align: center;
   z-index: 1;
+  right: 4.5%;
 }
 .buttonn span {
   position: absolute;
@@ -1071,8 +1072,13 @@ left: 56% !important;
 }
 .buttonn:hover {
   color: green;
+/*    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #36623e;*/
 }
-.buttonn:hover .textt { }
+
+.textt {display:inline-block;     line-height:1.1em; }
+.buttonn:hover .textt { border-bottom: 1px darkgreen dashed; }
 .buttonn:hover .borderr {
   top: -5px;
   bottom: -5px;

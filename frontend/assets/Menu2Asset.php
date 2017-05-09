@@ -10,7 +10,7 @@ use yii\web\View;
  */
 class Menu2Asset extends AssetBundle
 {
-    public $basePath = '@webroot';
+    public $basePath = '@app';
     public $baseUrl = '@web';
         public $css = [
         'assets/css/bootstrap.css',

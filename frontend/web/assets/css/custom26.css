@@ -360,9 +360,6 @@ transform-style: preserve-3d;
 
 
 
-.foot1 p a:hover,.foot1 .p a:hover,.foot1 .list a:hover, .myvk:hover {
-color: #115911;
-}
 
 
 .news {
@@ -2512,9 +2509,6 @@ new {left:-0.5%; padding-bottom:20px}
 
 
 /*footer */
-.col4 p {
-    line-height: 0.75;
-}
 
 
 #pics_container {
@@ -3084,3 +3078,255 @@ padding: 15px 55px;
 }
 
 .fl {float:left}
+
+
+#.col4 p:not(:first-child) { text-indent:10px}
+.col4 p:first-child, .col1 p:first-child {margin-bottom:10px;}
+.col1 p:first-child a{border-bottom: 1px solid #c6c6c6;}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+.footer-links li {    list-style-type: none !important;}
+.footer-links .footer-links__header {
+    border-bottom: 1px solid #c6c6c6;
+    font-weight: bold;
+    padding: 0 5px 3px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
+
+.col1 a, .col1 p,.col4 p, .col4 li a {
+#line-height:1.76;
+}
+
+
+.foot1 li a:hover,.foot1 p a:hover,.foot1 .p a:hover,.foot1 .list a:hover, .myvk:hover {
+color: #115911;
+}
+
+
+.foot1 { height:150px; padding-top:30px; margin-bottom:51px;}
+.foot1 p:first-child, .my {font-weight:bolder; font-size:15px;    }
+/*.foot1 .footer-links li:first-child {border-bottom: 1px solid #c6c6c6;     padding: 0 2px 1px;font-weight:bolder; font-size:15px;}*/
+.foot1 .footer-links li:first-child { font-weight:bolder; font-size:14.5px;}
+.footer-links_right li:not(:first-child) {text-indent:12px;}
+.indent10 { text-indent:12px}
+/*.col1 .footer-links:first-child li:not(:first-child) {}*/
+
+.footer-links li:nth-child(2) {
+    margin-top: 1px;
+}
+
+@media (min-width:992px) { .my {   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+} }
+/*a.myvk:hover ~ a.icon-circle   {    color: #4b76a5;    background: #fff;}*/
+
+footer p.pull-top {
+    padding-top: 15px;
+}
+footer p, footer li {
+ font-family: 'Myriadsetpro', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+     }
+    
+    .minilogo { margin-top:2px !important; }
+
+
+    footer .rangelogo {height:40px;
+        clear: both;
+    border-top: 1px solid #e3e3e3;
+}
+
+/* VK ICON */
+/* Wrapper */
+.icon-button {
+	background-color: #4b76a5;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.1rem;
+	line-height: 3.1rem;
+	margin: 0 -1px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.1rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 80%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.2rem;
+	height: 3.2rem;
+	border-radius: .4rem;
+	margin: -1.55rem;
+	margin-top: -2.5rem;
+	margin-left: -1.6rem;
+        z-index: -1;
+}
+
+.vk1 span {
+	background-color: #f5fef4;
+}
+
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.1rem;
+	left: 0;
+	line-height: 3.1rem;
+	position: relative;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.1rem;
+	z-index: 10;
+}
+
+.icon-button .fa-vk {
+	color: #fff;
+}
+
+.icon-button:hover .fa-vk {
+	color: #4b76a5;
+}
+/* VK ICON END */
+
+
+/* VK ICON type2 */
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+/*  -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+          transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);*/
+
+  -webkit-transition-timing-function: cubic-bezier(0.55, 0.77, 0.43, 1.59);
+          transition-timing-function: cubic-bezier(0.55, 0.77, 0.43, 1.59);
+
+
+}
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+.social-btns .btn.vk:before {
+  background-color: #fff;
+}
+.social-btns .btn.vk .fa {
+    margin-left: -17px;
+    margin-top: -15px;
+    color: #fff;
+}
+.myvk:focus .social-btns .btn:before,.myvk:hover .social-btns .btn:before {
+  top: -10%;
+  left: -10%;
+}
+.myvk:focus  .btn .fa,.myvk:hover  .btn .fa{
+  color: #4b76a5;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+a.myvk:hover  i.btn {  color: #4b76a5; }
+
+a i.social-btns {color:#fff}
+
+.social-btns {
+  height: 33px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  position: relative;
+}
+
+
+.social-btns .btn {
+  margin-top:-14px;
+  display: inline-block;
+  background-color: #4b76a5;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+  margin-right:-1px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 25%;
+  box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+  opacity: 0.99;
+}
+.social-btns .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 38px;
+  vertical-align: middle;
+}
+
+/* VK ICON END type 2  */
+
+
+
+/*footer lines */
+.footer__vline{
+    top: 22px;
+    border-left: 1px solid #bcbaba;
+    position: absolute;
+    width: 1px;
+    margin-left:3px;
+}
+
+.footer__vline_2{    height: 113px;}
+.footer__vline_1 {      height: 39px;}
+.footer__hline {
+    border-top: 1px solid #bcbaba;
+    position: absolute;
+    width: 7px;
+    height: 1px;
+    left: 18px;
+}
+
+i.footer__hline:first-child {    top: 37px;}
+.footer-links li:nth-child(2) i {    top: 61px;}
+.footer-links li:nth-child(3) i {    top: 86px;}
+.footer-links li:nth-child(4) i {    top: 109px;}
+.footer-links li:nth-child(5) i {    top: 135px;}
