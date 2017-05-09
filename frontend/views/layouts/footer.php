@@ -1,10 +1,13 @@
 <?PHP
 use yii\helpers\Html;
 ?>
-
 <footer class="page-footer bg-gray-lighter">
 
 <div class=" foot1">
+ <div class="foot1__preload-hide">
+   <img src="../../img/phone_icon.png" width="1" height="1" alt="Hover Phone Icon RosAvtoAkademia" />
+ </div>
+
 <div class="row">
 
         <div class="col-sm-4 col-xs-12">
