@@ -130,6 +130,17 @@ span.rwd-table__time { font-size: calc(15px - -1vw); }
 
 
 
+.rwd-table .timetable__theory:before { content:none !important;}
+.rwd-table .timetable__theory:before { content:none !important;}
+.rwd-table .timetable__theory { margin-bottom:0; margin-top:0}
+.rwd-table .timetable__theory span { margin-top:0}
+
+
+
+ .timetable__theory-tr {background: #f6fcf0;}
+
+
+
 @media (max-width:768px) {#advanced-circle {     margin-top: 10%;     width: 17px; margin-left:10%; margin-right:-10%;
     height: 17px; }
 }
@@ -140,14 +151,26 @@ span.rwd-table__time { font-size: calc(15px - -1vw); }
 }
 
 @media (max-width:480px) {#advanced-circle {     display:none}
+
+.rwd-table {border: 1px solid lightgray;
+    border-right: inset 2px lightgray;
+    border-bottom: inset 2px lightgray;
+}
+
+
 .rwd-table td span {
     color: darkgreen;
 }
+.rwd-table tr.alt {
+    background: #f0ffef;
+}
+.rwd-table tr.alt2 {
+    background: #fff;
+}
+
+ .timetable__theory-tr {background: #ddf9d1;}
 }
 
 
 
-.rwd-table .timetable__theory:before { content:none !important;}
-.rwd-table .timetable__theory:before { content:none !important;}
-.rwd-table .timetable__theory { margin-bottom:0; margin-top:0}
-.rwd-table .timetable__theory span { margin-top:0}
+

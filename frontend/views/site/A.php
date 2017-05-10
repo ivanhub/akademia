@@ -372,19 +372,19 @@ $this->params['breadcrumbs'][] = $title;
     <th>Свободные места</th>
   </tr></thead>
   <tr class="timetable__theory-tr"><td  colspan="3" class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
-  <tr>
+  <tr class="alt">
     <td data-th="Адрес учебного класса"><span>ул. Молодогвардейская, 33</span></td>
     <td data-th="Дни и время занятий в учебной группе"><span class="rwd-table__time">ПН,СР: 18:00-20:00</span></td>
     <td data-th="Свободные места"><div id="advanced-circle" class="circle fl"></div><span>ЕСТЬ</span></td>
   </tr>
-  <tr>
-    <td data-th="Адрес учебного класса"><span>ул. Осипенко, 11</span></td>
+  <tr class="alt2">
+    <td data-th="Адрес учебного класса" style="margin-top:15px;"><span>ул. Осипенко, 11</span></td>
     <td data-th="Дни и время занятий в учебной группе"><span class="rwd-table__time">ВТ,ЧТ: 18:00-20:00</span></td>
     <td data-th="Свободные места"><div id="advanced-circle" class="circle fl"></div><span>ЕСТЬ</span></td>
   </tr>
  <tr class="timetable__theory-tr"><td  colspan="3" class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
 
-  <tr>
+  <tr class="alt">
     <td data-th="Адрес учебного класса"><span>Автодром,<br/>ул. Уральская, 34</span></td>
     <td data-th="Дни и время занятий в учебной группе"><span class="rwd-table__time">Индивидуальный график вождения</span></td>
     <td data-th="Свободные места"><div id="advanced-circle" class="circle fl"></div><span>ЕСТЬ</span></td>

@@ -824,11 +824,15 @@ background-image: linear-gradient(to bottom, #f5f5f5, #f1f1f1 100%);
 /*.navbar {    border: none !important }*/
 
 
-.bg-gray-lighter {
+/*.bg-gray-lighter {
     background: #f5f5f5 !important;
     fill: #f5f5f5 !important;
-}
+} */
 
+.bg-gray-lighter {
+    background: #f1f1f1 !important;
+    fill: #f1f1f1 !important;
+} 
 
 .full-width {
     position: absolute;
