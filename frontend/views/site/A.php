@@ -378,7 +378,7 @@ $this->params['breadcrumbs'][] = $title;
     <td data-th="Свободные места"><div id="advanced-circle" class="circle fl"></div><span>ЕСТЬ</span></td>
   </tr>
   <tr class="alt2">
-    <td data-th="Адрес учебного класса" style="margin-top:15px;"><span>ул. Осипенко, 11</span></td>
+    <td data-th="Адрес учебного класса"><span>ул. Осипенко, 11</span></td>
     <td data-th="Дни и время занятий в учебной группе"><span class="rwd-table__time">ВТ,ЧТ: 18:00-20:00</span></td>
     <td data-th="Свободные места"><div id="advanced-circle" class="circle fl"></div><span>ЕСТЬ</span></td>
   </tr>

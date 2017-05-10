@@ -171,6 +171,4 @@ span.rwd-table__time { font-size: calc(15px - -1vw); }
  .timetable__theory-tr {background: #ddf9d1;}
 }
 
-
-
-
+.rwd-table .alt td, .rwd-table .alt2 td{margin-top: 15px;}

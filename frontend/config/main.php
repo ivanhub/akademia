@@ -10,7 +10,7 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['mobileDetect','assetsAutoCompress'],
+    'bootstrap' => ['mobileDetect'],
     'controllerNamespace' => '\frontend\controllers',
     
     'components' => [
