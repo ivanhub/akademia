@@ -90,27 +90,24 @@ use yii\helpers\Html;
                   </div>
         </div>
 
+<!--
 <div class="col-md-2  col-sm-2 col-xs-2 foocol"></div>
+<div class="col-md-3   col-sm-3 col-xs-5 col1"> 
 
-<div class="col-md-3   col-sm-3 col-xs-5 col1">
-
+</div> -->
  <!-- <p><a href="/postupayushchim">Запись на обучение</a></p>
  <p><a href="/raspisanie">Расписание занятий</a></p>
  <p><a href="/our-advantages">Наши преимущества</a></p>
  <p><a href="/additional-services">Дополнительные услуги</a></p> -->
- </div>
-
+ 
   <!-- <div class="clearfix visible-sm"></div> -->
-  <div class="col-xs-2 foocol hidden-sm visible-xs"></div>
-
+<!--  <div class="col-xs-2 foocol hidden-sm visible-xs"></div>
 <div class="col-md-3 col-sm-3  col-xs-5 col4">
-
-
 </div>
 <div class="col-md-3  col-sm-3 col-xs-12 my">
-
 <BR/>
-
+</div>
+-->
   <!--http://codepen.io/anon/pen/mWJmmm?editors=1100-->
 <!-- <p style="margin-left:85px;text-align:center"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><i class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></i>Мы Вконтакте</a></p>
 -->
@@ -118,9 +115,7 @@ use yii\helpers\Html;
 
 <!--<p style="margin-top:15px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы Вконтакте &nbsp;</span> <i class="icon-button vk1"> <i class="fa fa-vk"><span></span></i></i></a></p>-->
 
-
-
-</div>
+<BR/>
 </div>
 </div>
 </div>
