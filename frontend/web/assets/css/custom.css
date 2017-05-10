@@ -646,7 +646,7 @@ font-size:40px; font-weight:900;
 /*End light speed in*/
 
 
-body {color:#333 !important;    overflow-x: hidden; }
+body {color:#333 !important;    overflow-x: hidden; -webkit-font-smoothing: antialiased;   text-rendering: optimizeLegibility; }
 
 .navbar-default {
 /*     background-color: #F5F5F5 !important; */

@@ -305,8 +305,8 @@ $this->params['breadcrumbs'][] = $title;
 <br/><br/><div class="linetire"></div>
 <br/>
 <p class="poryadok green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
-Расписание занятий</p>
-<table cellspacing="0" cellpadding="0" border="0" class="timetable  table-responsive" align="center"  data-ros="fadeIn"   data-options="delay:200;infinite:false;animationClass:animated;duration:1200;callback:;">
+Расписание занятий</p><div class="hidden-xs">
+<table cellspacing="0" cellpadding="0" border="0" class="timetable" align="center"  data-ros="fadeIn"   data-options="delay:200;infinite:false;animationClass:animated;duration:1200;callback:;">
     <thead>
         <tr>
             <th>Планируемая дата<br/>начала обучения</th>
@@ -359,7 +359,38 @@ $this->params['breadcrumbs'][] = $title;
     </table>
 <br/>
 <br/>
+</div>
+<div class="visible-xs" style="margin-top:-15px">
+<p align="center" style="font-size:18px;font-weight:bold"> Планируемая дата начала обучения:<br/>
+<span style="font-size:140%;color:#0c500c;font-weight:bold">12.05.2017</span> </p>
+<center>
+<table class="rwd-table">
+<thead>
+  <tr> 
+    <th>Адрес учебного класса</th>
+    <th>Дни и время занятий в учебной группе</th>
+    <th>Свободные места</th>
+  </tr></thead>
+  <tr class="timetable__theory-tr"><td  colspan="3" class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
+  <tr>
+    <td data-th="Адрес учебного класса"><span>ул. Молодогвардейская, 33</span></td>
+    <td data-th="Дни и время занятий в учебной группе"><span class="rwd-table__time">ПН,СР: 18:00-20:00</span></td>
+    <td data-th="Свободные места"><div id="advanced-circle" class="circle fl"></div><span>ЕСТЬ</span></td>
+  </tr>
+  <tr>
+    <td data-th="Адрес учебного класса"><span>ул. Осипенко, 11</span></td>
+    <td data-th="Дни и время занятий в учебной группе"><span class="rwd-table__time">ВТ,ЧТ: 18:00-20:00</span></td>
+    <td data-th="Свободные места"><div id="advanced-circle" class="circle fl"></div><span>ЕСТЬ</span></td>
+  </tr>
+ <tr class="timetable__theory-tr"><td  colspan="3" class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
 
+  <tr>
+    <td data-th="Адрес учебного класса"><span>Автодром,<br/>ул. Уральская, 34</span></td>
+    <td data-th="Дни и время занятий в учебной группе"><span class="rwd-table__time">Индивидуальный график вождения</span></td>
+    <td data-th="Свободные места"><div id="advanced-circle" class="circle fl"></div><span>ЕСТЬ</span></td>
+  </tr>
+</table>
+</center><br/><br/></div>
 </div>
 
 

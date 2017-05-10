@@ -1083,6 +1083,7 @@ display:inline-block;
 .textt {display:inline-block;     line-height:1.1em; }
 .buttonn:hover .textt { border-bottom: 1px darkgreen dashed; }
 .buttonn:hover .borderr {
+  cursor:pointer;
   top: -5px;
   bottom: -5px;
   left: -5px;

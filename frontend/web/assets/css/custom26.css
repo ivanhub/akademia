@@ -2892,6 +2892,8 @@ vertical-align:middle;
     font-weight: bold;
 }
 
+
+td.timetable__theory span{     color: #ffc107 !important}
 td.timetable__theory {
 
     text-shadow: #363636 0 1px 1px;
@@ -2990,7 +2992,7 @@ padding: 15px 55px;
 }
 
 @media (max-width:730px) {
-.timetable th, .timetable th p {     font-size: calc(10px - -0.35vw); }
+.timetable th, .timetable th p {     font-size: calc(11px - -0.35vw); }
 }
 
 @media (max-width:550px) {
@@ -3098,8 +3100,8 @@ padding: 15px 55px;
     margin-bottom: 5px;
 }
 
-@media (min-width:768px) {.footer-col-1 { margin-left:30%;	} 
-.footer-col-3 { margin-right:30%;	}
+@media (min-width:768px) {.footer-col-1 { margin-left:28% !important;	} 
+.footer-col-3 { margin-right:28% !important;	}
 }
 .footer-col-1 { max-width:215px; margin-left:auto;margin-right:auto; white-space: nowrap;	}
 .footer-col-2 { max-width:160px; margin-left:auto;margin-right:auto; white-space: nowrap;}
@@ -3140,7 +3142,7 @@ footer p.pull-top {
 }
 footer p, footer li {
  font-family: 'Myriadsetpro', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-
+ text-rendering: optimizeLegibility;
      }
     
     .minilogo { margin-top:2px !important; }
