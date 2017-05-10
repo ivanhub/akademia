@@ -94,7 +94,7 @@ img.hvr-up.onload-logo {
 background:url('../../img/phone_icon.png') 100% 100% no-repeat;
 width:22px;
 height:22px;
-display: table-caption;
+/*display: table-caption;*/
 margin-right: 5px;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
