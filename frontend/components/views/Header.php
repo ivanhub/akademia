@@ -43,9 +43,9 @@ else: $form = ActiveForm::begin(['id' => 'contact-form',  'action' => '',
 'validateOnSubmit'=>true,'validateOnChange' => false, 
         ],
     ]); 
-echo  $form->field($model, 'name')->label('Ваше Имя <sup>*</sup>')->textInput(['placeholder'=>"Введите Ваше Имя"]);
+echo  $form->field($model, 'name')->label('Ваше Имя <sup>*</sup>')->textInput(['name'=>'name'],['placeholder'=>"Введите Ваше Имя"]);
 //echo $form->field($model, 'phone')->label('Номер телефона')->textInput(['placeholder'=>"+7 (__) ___-____"]);
-echo $form->field($model, 'phone')->label('Номер телефона <sup>*</sup>')->widget(MaskedInput::className(),['mask' => '+7 (999) 999-9999'])->textInput(['placeholder'=>"+7 (___) ___-____"]);; 
+echo $form->field($model, 'phone')->label('Номер телефона <sup>*</sup>')->widget(MaskedInput::className(),['mask' => '+7 (999) 999-9999'])->textInput(['name'=>'phone'],['placeholder'=>"+7 (___) ___-____"]);; 
 
 
  $items = [
