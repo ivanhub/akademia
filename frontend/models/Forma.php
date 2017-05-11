@@ -21,7 +21,10 @@ class Forma extends \yii\db\ActiveRecord
         return 'forma';
     }
 
-  
+  public function formName()
+{
+    return '';
+}
     public function rules()
     {
         return [
