@@ -16,8 +16,6 @@ use kartik\widgets\Growl;
 
 class SiteController extends Controller
 {
-    
-
    //   public $layout = 'main';
 
     public function actions()
@@ -40,6 +38,8 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
+
+        
      //$this->getView()->title = 'Мой заголовок';
         return $this->render('index', compact('home'));
     }
@@ -293,6 +293,7 @@ compose(
             ]);*/
        
     }
+
 
     public function actionIndex2()
     {
