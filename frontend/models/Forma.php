@@ -31,7 +31,7 @@ class Forma extends \yii\db\ActiveRecord
             [['name', 'phone', 'fromfield'], 'required','message' => 'Заполните поле'],
             [['fromfield'], 'integer'],
             [['body'], 'string'],
-            [['name', 'pack'], 'string', 'max' => 30],
+            [['name', 'pack'], 'string', 'max' => 85],
             [['packet'], 'string', 'max' => 50],
             [['date'], 'safe'],
             [['phone'], 'string', 'max' => 20],
