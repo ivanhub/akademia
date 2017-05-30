@@ -214,7 +214,7 @@ $this->params['breadcrumbs'][] = $title;
  </div> </div><div class="forsafari">
 <div class="row text-center uslv" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;delay:100;duration:1500;callback:;">
   <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/drive1.png"></div>
-  <div class="col-sm-7 centerxs vc"><p><b>Вождение</b></p> <p>18 часов вождения или 6 занятий. </p>
+  <div class="col-sm-7 centerxs vc"><p><b>Вождение</b></p> <p>6 занятий. </p>
   <p>+2 часа подготовки к сдаче экзаменов в ГИБДД (внутренний экзамен).</p>
     <p>На время занятий выдается экипировка (шлем, наколенники). </p>
 
