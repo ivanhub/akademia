@@ -50,12 +50,12 @@ $this->params['breadcrumbs'][] = $title;
 <h4 class="text-center hideme"  data-ros="fadeInN"  data-options="delay:0;infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>
 
-<div class="col-md-10 col-centered" >   
-<div class="col-xs-12 col-sm-3">  
+<div class="col-md-offset-1 col-md-10">  
+<div class="col-xs-12 col-sm-4">  
 <?php if (Yii::$app->mobileDetect->isMobile()) { ?>
-        <div class="span3  pull-center-md   animatedb fadeInLeft opac1" data-nohover="0">
+        <div class="span3 pull-right-md  animatedb fadeInLeft opac1" data-nohover="0">
 <?php } else { ?>
-        <div class="span3  pull-center-md  animatedb  hideme" data-ros="fadeInLeft" data-options="delay:0;infinite:false;animationClass:opac1;duration:;callback:;"    data-nohover="0" style="">
+        <div class="span3 pull-right-md  animatedb  hideme" data-ros="fadeInLeft" data-options="delay:0;infinite:false;animationClass:opac1;duration:;callback:;"    data-nohover="0" style="">
 
 <?php } ?>
 
@@ -64,11 +64,11 @@ $this->params['breadcrumbs'][] = $title;
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
          <p class="linet">Идеальный выбор для студентов! </p>
-<p>от<b style="color:darkgreen"> 16 500 р.</b> </p>
+<p>от<b style="color:darkgreen"> 18 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
     <p>с 9:00 до 16:00 Вт-Пт.</p>
     <p>Теоретические занятия:</p>
-    <p>с 18:00 до 20:00 Пн.-Чт.</p>    </div>      </div>
+    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>      </div>
           <div class="butt">
 <?php    echo Html::a(
     'Записаться',
@@ -107,33 +107,23 @@ if (which==5) {
 $("#wrapacket").text('Пакет "Дневной"');
 $( ".field-forma-packet" ).hide();          
 $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Дневной"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Дневной"><p class="help-block help-block-error"></p></div>');
-$("#contact-form").children('.field-packet').hide();
+
   } else if (which==6)
   {
 $("#wrapacket").text('Пакет "Стандарт"');
 $( ".field-forma-packet" ).hide();          
 $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Стандарт"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
-$("#contact-form").children('.field-packet').hide();
 
   } else if (which==7) 
   {
 $("#wrapacket").text('Пакет "Индивидуальный"');
 $( ".field-forma-packet" ).hide();          
 $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Индивидуальный"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
-$("#contact-form").children('.field-packet').hide();
 
-  } else if (which==8) 
-  {
-$("#wrapacket").text('Пакет "Автомат"');
-$( ".field-forma-packet" ).hide();          
-$("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Автомат"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Автомат"><p class="help-block help-block-error"></p></div>');
-$("#contact-form").children('.field-packet').hide();
-
-  }  else if (which==0 || which==1) 
+  } else if (which==0 || which==1) 
   {
 $("#wrapacket").text('');
 $( ".field-forma-packet" ).show();          
-$("#contact-form").children('.field-packet').show();
 
   };
 
@@ -143,7 +133,7 @@ JS
 , yii\web\View::POS_READY); ?>
  </div>
         </div>
-        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-3 spaceblock">
+        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4 spaceblock">
         <div class="forsafari">
 
 
@@ -181,11 +171,11 @@ JS
       </div>
 
 
-        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-3 spaceblock">
+        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-4 spaceblock">
 
 <?php if (Yii::$app->mobileDetect->isMobile()) { ?>
-        <div class="span3  pull-center-md  animatedb flipInY opac1"  data-nohover="0"><?php } else { ?>
-        <div class="span3 pull-center-md  animatedb hideme"  data-ros="flipInY"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0"><?php } ?>
+        <div class="span3 pull-left-md  animatedb fadeInRight opac1"  data-nohover="0"><?php } else { ?>
+        <div class="span3 pull-left-md  animatedb hideme"  data-ros="fadeInRight"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0"><?php } ?>
 
 
           <div class="p-item-title">ПАКЕТ<br>
@@ -211,46 +201,9 @@ JS
   ]
     ); ?></div>
         </div>    </div>    
-     
-
-
-
-<div class="col-xs-12 col-sm-3 spaceblock">
-
-<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
-        <div class="span3 pull-center-md  animatedb fadeInRight opac1"  data-nohover="0"><?php } else { ?>
-        <div class="span3 pull-center-md  animatedb hideme"  data-ros="fadeInRight"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0"><?php } ?>
-
-
-          <div class="p-item-title">ПАКЕТ<br>
-          "Автомат"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
-          <div class="mt5">
-  <p style="margin-bottom:0px">Авто с автоматической</p>
-  <p style="margin-bottom:0px">коробкой передач</p>
-
-  
-<p style="margin-top:2px;margin-bottom: 7px;"><b style="color:darkgreen;">20 000 р.</b> </p>
-<div class="little"><p>Практические занятия:</p>
-    <p style="font-size:12px !important">с 9:00 до 20:00 Вт.-Пт.</p>
-    <p style="font-size:12px !important">Суббота: с 8:00 до 14:00</p>
-    <p>Теоретические занятия:</p>
-    <p style="margin-bottom:5px;font-size:12px !important">с 18:00 до 20:00 Пн.-Чт.</p>    </div>
-          </div>
-          <div class="butt">
-            <?php    echo Html::a(
-    'Записаться',
-  ['#'],
-  [ 'data-toggle' => 'modal',
-    'data-target' => '#idmodal',
-    'data-which' => '8',
-    'class' => 'send-price call-back but4 '
-  ]
-    ); ?></div>
-        </div>    </div>    
       </div>
 
- </div>
+
 <!-- 
 <div class="contblock">
 <div class="blockpack">
@@ -535,7 +488,7 @@ JS
     <tbody>
          <tr class="timetable__theory-tr"><td colspan="4" class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
         <tr>
-            <td><span>15.07.2017</span></td>
+            <td><span>22.05.2017</span></td>
 
             <td>ул. Молодогвардейская, 33<br>т.: 255-69-99</td>
             <td>
@@ -547,7 +500,7 @@ JS
         </tr>
         
         <tr>
-            <td><span>15.07.2017</span></td>
+            <td><span>22.05.2017</span></td>
 
             <td>ул. Осипенко, 11<br>т.: 255-69-99</td>
             <td>
@@ -559,7 +512,7 @@ JS
                          <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
 
          <tr class="otstup">
-            <td><span>15.07.2017</span></td>
+            <td><span>22.05.2017</span></td>
 
             <td>Автодром,<br> ул. Уральская, 34 <br/>т.: 255-69-99</td>
             <td class="text-left 

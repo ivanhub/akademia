@@ -333,11 +333,22 @@ margin-bottom:40px !important;
 
 		margin-top: 30px;
 		text-align: center;
+
 }
 
+#b .col-md-10  {padding-left:0 !important;padding-right:0 !important;}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 
 .butt .but3 {
     margin-top: 25px;
+}
+
+.butt .but4 {
+    margin-top: 11px;
 }
 
 .span4 {

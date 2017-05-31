@@ -336,7 +336,7 @@ $this->params['breadcrumbs'][] = $title;
     <tbody>
          <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
         <tr>
-            <td><span>12.05.2017</span></td>
+            <td><span>16.06.2017</span></td>
 
             <td>ул. Молодогвардейская, 33<br>т.: 255-69-99</td>
             <td>
@@ -348,7 +348,7 @@ $this->params['breadcrumbs'][] = $title;
         </tr>
         
         <tr>
-            <td><span>12.05.2017</span></td>
+            <td><span>16.06.2017</span></td>
 
             <td>ул. Осипенко, 11<br>т.: 255-69-99</td>
             <td>
@@ -360,7 +360,7 @@ $this->params['breadcrumbs'][] = $title;
                          <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
 
          <tr>
-            <td><span>12.05.2017</span></td>
+            <td><span>16.06.2017</span></td>
 
             <td>Автодром,<br> ул. Уральская, 34 <br>т.: 255-69-99</td>
             <td class="text-left">
@@ -432,24 +432,27 @@ if (which==4) {
 $("#wrapacket").text('Пакет "Стандарт"');
 $( ".field-forma-packet" ).hide();          
  $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Стандарт"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория А / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
-
+$("#contact-form").children('.field-packet').hide();
 
   } else if (which==5)
   {
 $("#wrapacket").text('Пакет "Двойной A+B"');
 $( ".field-forma-packet" ).hide();          
 $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Двойной А+В"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория А / Пакет Двойной А+В"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
 
   } else if (which==6) 
   {
 $("#wrapacket").text('Пакет "Индивидуальный"');
 $( ".field-forma-packet" ).hide();          
 $("#contact-form").append('<div class="form-group field-forma-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Индивидуальный"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория А / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
 
   } else if (which==0 || which==1) 
   {
 $("#wrapacket").text('');
 $( ".field-forma-packet" ).show();          
+$("#contact-form").children('.field-packet').show();
 
   };
 
