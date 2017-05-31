@@ -430,19 +430,19 @@ $('#idmodal').on('show.bs.modal', function(e) {
         //newspan.className = "wpacket";
 if (which==4) {
 $("#wrapacket").text('Пакет "Стандарт"');
- $("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Стандарт"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория А / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
+ $("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Стандарт"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория А / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
 $("#contact-form").children('.field-packet').hide();
 
   } else if (which==5)
   {
 $("#wrapacket").text('Пакет "Двойной A+B"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Двойной А+В"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория А / Пакет Двойной А+В"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Двойной А+В"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория А / Пакет Двойной А+В"><p class="help-block help-block-error"></p></div>');
 $("#contact-form").children('.field-packet').hide();
 
   } else if (which==6) 
   {
 $("#wrapacket").text('Пакет "Индивидуальный"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Индивидуальный"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория А / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Индивидуальный"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория А / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
 $("#contact-form").children('.field-packet').hide();
 
   } else if (which==0 || which==1) 
