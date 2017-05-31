@@ -51,11 +51,11 @@ $this->params['breadcrumbs'][] = $title;
 <br/>
 
 <div class="col-md-10 col-centered" >   
-<div class="col-xs-12 col-sm-3">  
+<div class="col-xs-12 col-sm-6 col-md-3">  
 <?php if (Yii::$app->mobileDetect->isMobile()) { ?>
-        <div class="span3  pull-center-md   animatedb fadeInLeft opac1" data-nohover="0">
+        <div class="span3   animatedb fadeInLeft opac1" data-nohover="0">
 <?php } else { ?>
-        <div class="span3  pull-center-md  animatedb  hideme" data-ros="fadeInLeft" data-options="delay:0;infinite:false;animationClass:opac1;duration:;callback:;"    data-nohover="0" style="">
+        <div class="span3  animatedb  hideme" data-ros="fadeInLeft" data-options="delay:0;infinite:false;animationClass:opac1;duration:;callback:;"    data-nohover="0" style="">
 
 <?php } ?>
 
@@ -79,8 +79,128 @@ $this->params['breadcrumbs'][] = $title;
     'class' => 'send-price call-back'
   ]
     ); 
+?>
 
-/*
+ </div>
+        </div>
+        </div><div class="clearfix visible-xs"></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 spaceblock">
+        <div class="forsafari">
+
+
+<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
+        <div class="span3  animatedb flipInY opac1" data-nohover="0">
+<?php } else { ?>
+        <div class="span3 animatedb hideme" data-ros="flipInY" data-options="delay:200;infinite:false;animationClass:opac1;duration:;callback:;"   data-nohover="0">
+<?php } ?>
+
+          <div class="p-item-title">ПАКЕТ<br>
+          "Стандарт"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="mt5">
+  <p style="margin-bottom:0px">Удобен для всех</p><p style="color:#f62a2a;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ 15000 р.</p>
+       <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">(только до 15 июня)</p>
+<p style="margin-top:2px;margin-bottom: 7px;">от <b style="color:darkgreen;text-decoration:line-through">20 000 р.</b> </p>
+<div class="little"><p>Практические занятия:</p>
+    <p style="font-size:12px !important">с 9:00 до 20:00 Вт.-Пт.</p>
+    <p style="font-size:12px !important">Суббота: с 8:00 до 14:00</p>
+    <p>Теоретические занятия:</p>
+    <p style="margin-bottom:5px;font-size:12px !important">с 18:00 до 20:00 Пн.,Ср.</p>    </div>
+          </div>
+          <div class="butt">
+            <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '6',
+    'class' => 'send-price call-back'
+  ]
+    ); ?>
+          </div>
+        </div>
+      </div>
+
+
+        </div><div class="clearfix visible-xs"></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 spaceblock">
+
+<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
+        <div class="span3  animatedb flipInY opac1"  data-nohover="0"><?php } else { ?>
+        <div class="span3  animatedb hideme"  data-ros="flipInY"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0"><?php } ?>
+
+
+          <div class="p-item-title">ПАКЕТ<br>
+          "Индивидуальный"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="mt5">
+<p class="linet">Вы выбираете,<br/>Мы исполняем </p>
+<p>от<b style="color:darkgreen"> 25 000 р. </b></p>  
+<div class="little "><p>Индивидуальный график</p>
+<p>занятий составляем</p>
+    <p> по вашему желанию</p>
+  </div>
+
+          </div>
+          <div class="butt">
+            <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '7',
+    'class' => 'send-price call-back but3 '
+  ]
+    ); ?></div>
+        </div>    </div>    
+     
+
+
+
+<div class="col-xs-12 col-sm-6 col-md-3 spaceblock">
+
+<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
+        <div class="span3  animatedb fadeInRight opac1"  data-nohover="0"><?php } else { ?>
+        <div class="span3   animatedb hideme"  data-ros="fadeInRight"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0"><?php } ?>
+
+
+          <div class="p-item-title">ПАКЕТ<br>
+          "Автомат"</div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="mt5">
+  <p style="margin-bottom:0px">Авто с автоматической</p>
+  <p style="margin-bottom:0px">коробкой передач</p>
+
+  
+<p style="margin-top:2px;margin-bottom: 7px;"><b style="color:darkgreen;">20 000 р.</b> </p>
+<div class="little"><p>Практические занятия:</p>
+    <p style="font-size:12px !important">с 9:00 до 20:00 Вт.-Пт.</p>
+    <p style="font-size:12px !important">Суббота: с 8:00 до 14:00</p>
+    <p>Теоретические занятия:</p>
+    <p style="margin-bottom:5px;font-size:12px !important">с 18:00 до 20:00 Пн.-Чт.</p>    </div>
+          </div>
+          <div class="butt">
+            <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '8',
+    'class' => 'send-price call-back but4 '
+  ]
+    ); ?></div>
+        </div>    </div>    
+      </div>
+
+ </div>
+
+
+
+
+
+
+<?php
+ /*
 $this->registerJs(<<<JS
 JS
 , yii\web\View::POS_READY);
@@ -137,116 +257,6 @@ $("#contact-form").children('.field-packet').show();
 
 JS
 , yii\web\View::POS_READY); ?>
- </div>
-        </div>
-        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-3 spaceblock">
-        <div class="forsafari">
-
-
-<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
-        <div class="span3 pull-center-md  animatedb flipInY opac1" data-nohover="0">
-<?php } else { ?>
-        <div class="span3 pull-center-md  animatedb hideme" data-ros="flipInY" data-options="delay:200;infinite:false;animationClass:opac1;duration:;callback:;"   data-nohover="0">
-<?php } ?>
-
-          <div class="p-item-title">ПАКЕТ<br>
-          "Стандарт"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
-          <div class="mt5">
-  <p style="margin-bottom:0px">Удобен для всех</p><p style="color:#f62a2a;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ 15000 р.</p>
-       <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">(только до 15 июня)</p>
-<p style="margin-top:2px;margin-bottom: 7px;">от <b style="color:darkgreen;text-decoration:line-through">20 000 р.</b> </p>
-<div class="little"><p>Практические занятия:</p>
-    <p style="font-size:12px !important">с 9:00 до 20:00 Вт.-Пт.</p>
-    <p style="font-size:12px !important">Суббота: с 8:00 до 14:00</p>
-    <p>Теоретические занятия:</p>
-    <p style="margin-bottom:5px;font-size:12px !important">с 18:00 до 20:00 Пн.,Ср.</p>    </div>
-          </div>
-          <div class="butt">
-            <?php    echo Html::a(
-    'Записаться',
-  ['#'],
-  [ 'data-toggle' => 'modal',
-    'data-target' => '#idmodal',
-    'data-which' => '6',
-    'class' => 'send-price call-back'
-  ]
-    ); ?>
-          </div>
-        </div>
-      </div>
-
-
-        </div><div class="clearfix visible-xs"></div><div class="col-xs-12 col-sm-3 spaceblock">
-
-<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
-        <div class="span3  pull-center-md  animatedb flipInY opac1"  data-nohover="0"><?php } else { ?>
-        <div class="span3 pull-center-md  animatedb hideme"  data-ros="flipInY"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0"><?php } ?>
-
-
-          <div class="p-item-title">ПАКЕТ<br>
-          "Индивидуальный"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
-          <div class="mt5">
-<p class="linet">Вы выбираете,<br/>Мы исполняем </p>
-<p>от<b style="color:darkgreen"> 25 000 р. </b></p>  
-<div class="little "><p>Индивидуальный график</p>
-<p>занятий составляем</p>
-    <p> по вашему желанию</p>
-  </div>
-
-          </div>
-          <div class="butt">
-            <?php    echo Html::a(
-    'Записаться',
-  ['#'],
-  [ 'data-toggle' => 'modal',
-    'data-target' => '#idmodal',
-    'data-which' => '7',
-    'class' => 'send-price call-back but3 '
-  ]
-    ); ?></div>
-        </div>    </div>    
-     
-
-
-
-<div class="col-xs-12 col-sm-3 spaceblock">
-
-<?php if (Yii::$app->mobileDetect->isMobile()) { ?>
-        <div class="span3 pull-center-md  animatedb fadeInRight opac1"  data-nohover="0"><?php } else { ?>
-        <div class="span3 pull-center-md  animatedb hideme"  data-ros="fadeInRight"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0"><?php } ?>
-
-
-          <div class="p-item-title">ПАКЕТ<br>
-          "Автомат"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
-          <div class="mt5">
-  <p style="margin-bottom:0px">Авто с автоматической</p>
-  <p style="margin-bottom:0px">коробкой передач</p>
-
-  
-<p style="margin-top:2px;margin-bottom: 7px;"><b style="color:darkgreen;">20 000 р.</b> </p>
-<div class="little"><p>Практические занятия:</p>
-    <p style="font-size:12px !important">с 9:00 до 20:00 Вт.-Пт.</p>
-    <p style="font-size:12px !important">Суббота: с 8:00 до 14:00</p>
-    <p>Теоретические занятия:</p>
-    <p style="margin-bottom:5px;font-size:12px !important">с 18:00 до 20:00 Пн.-Чт.</p>    </div>
-          </div>
-          <div class="butt">
-            <?php    echo Html::a(
-    'Записаться',
-  ['#'],
-  [ 'data-toggle' => 'modal',
-    'data-target' => '#idmodal',
-    'data-which' => '8',
-    'class' => 'send-price call-back but4 '
-  ]
-    ); ?></div>
-        </div>    </div>    
-      </div>
-
- </div>
 <!-- 
 <div class="contblock">
 <div class="blockpack">
