@@ -145,7 +145,7 @@ $this->params['breadcrumbs'][] = $title;
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
 <p class="linet2">Скидка 5 000 р. </p>
-<p class="little2">от <b style="color:darkgreen">25 000 р.</b> </p>
+<p class="little2">от <b style="color:darkgreen">23 000 р.</b> </p>
 <div class="little"><p>Практические занятия:</p>
     <p>с 9:00 до 20:00 Вт.-Сб.</p>
     <p>Теоретические занятия:</p>
