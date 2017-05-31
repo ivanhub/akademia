@@ -124,7 +124,7 @@ $this->params['breadcrumbs'][] = $title;
 
         </div><div class="clearfix visible-xs"></div>
         <div class="col-xs-12 col-sm-6 col-md-3 spaceblock">
-
+<div class="forsafari">
 <?php if (Yii::$app->mobileDetect->isMobile()) { ?>
         <div class="span3  animatedb flipInY opac1"  data-nohover="0"><?php } else { ?>
         <div class="span3  animatedb hideme"  data-ros="flipInY"  data-options="delay:400;infinite:false;animationClass:opac1;duration:;callback:;" data-nohover="0"><?php } ?>
@@ -152,7 +152,7 @@ $this->params['breadcrumbs'][] = $title;
     'class' => 'send-price call-back but3 '
   ]
     ); ?></div>
-        </div>    </div>    
+        </div>    </div>     </div>
      
 
 
@@ -190,73 +190,13 @@ $this->params['breadcrumbs'][] = $title;
   ]
     ); ?></div>
         </div>    </div>    
+
       </div>
-
- </div>
-
+ 
 
 
 
 
-
-<?php
- /*
-$this->registerJs(<<<JS
-JS
-, yii\web\View::POS_READY);
-*/
-Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']); 
-
-$this->registerJs(<<<JS
-
-ros.init(); 
-
-//$(".flash-success").animate({opacity: 1.0}, 1000).fadeOut("slow");
-
-
-//$('#idmodal').on('close.bs.modal', function(e) { 
-//setTimeout(function() {  $("#wrapacket").text(''); }, 6000);
-//});
-
-
-$('#idmodal').on('show.bs.modal', function(e) {
-  var which = e.relatedTarget.dataset.which;
-        //var newspan = document.createElement('div');
-        //newspan.className = "wpacket";
-if (which==5) {
-$("#wrapacket").text('Пакет "Дневной"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Дневной"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Дневной"><p class="help-block help-block-error"></p></div>');
-$("#contact-form").children('.field-packet').hide();
-  } else if (which==6)
-  {
-$("#wrapacket").text('Пакет "Стандарт"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Стандарт"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
-$("#contact-form").children('.field-packet').hide();
-
-  } else if (which==7) 
-  {
-$("#wrapacket").text('Пакет "Индивидуальный"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Индивидуальный"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
-$("#contact-form").children('.field-packet').hide();
-
-  } else if (which==8) 
-  {
-$("#wrapacket").text('Пакет "Автомат"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Автомат"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Автомат"><p class="help-block help-block-error"></p></div>');
-$("#contact-form").children('.field-packet').hide();
-
-  }  else if (which==0 || which==1) 
-  {
-$("#wrapacket").text('');
-$( ".field-forma-packet" ).show();          
-$("#contact-form").children('.field-packet').show();
-
-  };
-
-});
-
-JS
-, yii\web\View::POS_READY); ?>
 <!-- 
 <div class="contblock">
 <div class="blockpack">
@@ -634,6 +574,66 @@ JS
 
 <?php 
 
+
+
+
+ /*
+$this->registerJs(<<<JS
+JS
+, yii\web\View::POS_READY);
+*/
+Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']); 
+
+$this->registerJs(<<<JS
+
+ros.init(); 
+
+//$(".flash-success").animate({opacity: 1.0}, 1000).fadeOut("slow");
+
+
+//$('#idmodal').on('close.bs.modal', function(e) { 
+//setTimeout(function() {  $("#wrapacket").text(''); }, 6000);
+//});
+
+
+$('#idmodal').on('show.bs.modal', function(e) {
+  var which = e.relatedTarget.dataset.which;
+        //var newspan = document.createElement('div');
+        //newspan.className = "wpacket";
+if (which==5) {
+$("#wrapacket").text('Пакет "Дневной"');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Дневной"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Дневной"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+  } else if (which==6)
+  {
+$("#wrapacket").text('Пакет "Стандарт"');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Стандарт"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+
+  } else if (which==7) 
+  {
+$("#wrapacket").text('Пакет "Индивидуальный"');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Индивидуальный"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+
+  } else if (which==8) 
+  {
+$("#wrapacket").text('Пакет "Автомат"');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Автомат"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Автомат"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+
+  }  else if (which==0 || which==1) 
+  {
+$("#wrapacket").text('');
+$( ".field-forma-packet" ).show();          
+$("#contact-form").children('.field-packet').show();
+
+  };
+
+});
+
+JS
+, yii\web\View::POS_READY); 
 
       
 $this->registerJs(<<<JS
