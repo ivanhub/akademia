@@ -105,24 +105,24 @@ $('#idmodal').on('show.bs.modal', function(e) {
         //newspan.className = "wpacket";
 if (which==5) {
 $("#wrapacket").text('Пакет "Дневной"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Дневной"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Дневной"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Дневной"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Дневной"><p class="help-block help-block-error"></p></div>');
 $("#contact-form").children('.field-packet').hide();
   } else if (which==6)
   {
 $("#wrapacket").text('Пакет "Стандарт"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Стандарт"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Стандарт"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
 $("#contact-form").children('.field-packet').hide();
 
   } else if (which==7) 
   {
 $("#wrapacket").text('Пакет "Индивидуальный"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Индивидуальный"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Индивидуальный"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
 $("#contact-form").children('.field-packet').hide();
 
   } else if (which==8) 
   {
 $("#wrapacket").text('Пакет "Автомат"');
-$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[pack]" value="Автомат"><input type="hidden" id="forma-fromfield" class="form-control" name="Forma[packet]" value="Категория B / Пакет Автомат"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Автомат"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Автомат"><p class="help-block help-block-error"></p></div>');
 $("#contact-form").children('.field-packet').hide();
 
   }  else if (which==0 || which==1) 
