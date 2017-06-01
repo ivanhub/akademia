@@ -32,7 +32,7 @@ use yii\helpers\Html;
 
 <?php if (hm('site/dopuslugi')) {
   ?>
-   <ul class="footer-links">
+   <ul class="footer-links footer-links_right">
 <li><a href="#">Дополнительные услуги</a></li>
  <li><i class="footer__hline"></i><a data-toggle="collapse" href="#specialsignals">Курс "Спецсигналы"</a></li>
  <li><i class="footer__hline"></i><a data-toggle="collapse" href="#DOPOG">Курс "ДОПОГ"</a></li>

@@ -2656,6 +2656,10 @@ a:active, a:focus {outline: 0} /*remove mozilla bag - link area */
 .saleATV { background:url(../../images/pics/sale-ATV-quadro.png);  height:60px; width:204px;     margin-left: auto;
     margin-right: auto; margin-top:-10px;    margin-top: 53px;}
 
+.saleHYDRO { background:url(../../images/pics/sale-hydro.png);  height:46px; width:217px;     margin-left: auto;
+    margin-right: auto; margin-top:-10px;    margin-top: 63px;}
+
+
 .saleCar { background:url(../../images/pics/saleCar.png);  height:56px; width:204px;     margin-left: auto;
     margin-right: auto; margin-top:-5px;     margin-top: 55px;}
 

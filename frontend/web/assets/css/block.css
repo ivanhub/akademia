@@ -347,16 +347,16 @@ margin-bottom:40px !important;
     margin-top: 25px;
 }
 
-.butt .but4 {
+#b .butt .but4 {
     margin-top: 11px;
 }
 
 
 @media (min-width:768px) and (max-width:992px) {
-.col-md-10.col-centered .col-sm-6:first-child .span3{ float:right; }
-.col-md-10.col-centered .col-sm-6:nth-child(3)  .span3{ float:left; }
-.col-md-10.col-centered .col-sm-6:nth-child(5)  .span3{ float:right; margin-top:20px; }
-.col-md-10.col-centered .col-sm-6:last-child  .span3{ float:left; margin-top:20px;}
+#b .col-md-10.col-centered .col-sm-6:first-child .span3{ float:right; }
+#b .col-md-10.col-centered .col-sm-6:nth-child(3)  .span3{ float:left; }
+#b .col-md-10.col-centered .col-sm-6:nth-child(5)  .span3{ float:right; margin-top:20px; }
+#b .col-md-10.col-centered .col-sm-6:last-child  .span3{ float:left; margin-top:20px;}
 
 }
 
