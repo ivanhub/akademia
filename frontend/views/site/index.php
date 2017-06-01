@@ -178,7 +178,7 @@ $this->registerMetaTag([
 <div class="row row2">
 <div class="col-md-4 one-third third offscreen">
 <div class="akciya">
-<p class="start-akciya" style="padding-top:20px; margin-bottom:0">1 мая - 31 мая</p>
+<p class="start-akciya" style="padding-top:20px; margin-bottom:0">1 июня - 15 июня</p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
 <p class="akciya-h2" style="margin-top:-7px">Обучение на<br/>категорию А</p>
 <p class="outlineA" style="color:#f9fa83;margin-top:-7px">Всего:</p>
@@ -216,6 +216,7 @@ $this->registerMetaTag([
 </div>
 </div>
 </div>
+
 
 </center>
 </div>
