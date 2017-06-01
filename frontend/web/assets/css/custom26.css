@@ -2681,12 +2681,13 @@ margin-left:13px;position:relative;top:6px;}
 
 
 
-.flag {
+.flag, .flag1{
 position: relative;
 float:left;
 }
+.flag1 {margin-left:-4px;}
 
-.flag > div {
+.flag > div, .flag1 > div {
  /* position: absolute is always in reference to the closest parent element that has its position attribute set. */
   position: absolute;
  /* The container will have its height set explicitly to match the image, so we want the strips to be the same height. */
