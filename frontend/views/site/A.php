@@ -110,13 +110,15 @@ $this->params['breadcrumbs'][] = $title;
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-       <p style="margin-bottom:0px">Удобен для всех<br/><b style="color:#f62a2a;font-size: calc(14px + 0.35vw);">АКЦИЯ 8000 р.</b></p>
+       <p style="margin-bottom:0px">Удобен для всех<br/><b style="color:#f62a2a;font-size: calc(14px + 0.35vw);">АКЦИЯ <span style="font-size:130%">8000</span> р.</b></p>
        <p style="margin-bottom: -6px;margin-top: -6px;font-size: calc(8.5px + 0.35vw);">(только до 15 июня)</p>
-<p style="margin-top:7px;margin-bottom: 2px;">от <b style="color:darkgreen;text-decoration:line-through">10 000 р.</b> </p>
-<div class="little"><p>Практические занятия:</p>
+<p style="margin-top:7px;margin-bottom: 2px;">от <b style="color:darkgreen;text-decoration:line-through;font-size:155%">10 000 р.</b> </p>
+<p style="height:5px;">&nbsp;</p>
+
+<!-- <div class="little"><p>Практические занятия:</p>
     <p>с 9:00 до 19:00 Вт-Пт.</p>
     <p>Теоретические занятия:</p>
-    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>      </div>
+    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>       --></div>
           <div class="butt">
 <?php    echo Html::a(
     'Записаться',
@@ -144,12 +146,14 @@ $this->params['breadcrumbs'][] = $title;
           "Двойной A+B"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-<p class="linet2">Скидка 5 000 р. </p>
-<p class="little2">от <b style="color:darkgreen">23 000 р.</b> </p>
-<div class="little"><p>Практические занятия:</p>
+<p class="linet">Автомобиль и Мотоцикл<br/><span style="color:#f62a2a;font-weight:bolder">Скидка + Бонус</span></p>
+<p style="margin-top:25px;margin-bottom: 2px;">от <b style="color:darkgreen;font-size:155%">23 000 р.</b> </p>
+<p style="height:5px;">&nbsp;</p>
+
+<!-- <div class="little"><p>Практические занятия:</p>
     <p>с 9:00 до 20:00 Вт.-Сб.</p>
     <p>Теоретические занятия:</p>
-    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>
+    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div> -->
           </div>
           <div class="butt">
             <?php    echo Html::a(
@@ -177,12 +181,14 @@ $this->params['breadcrumbs'][] = $title;
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
 <p class="linet">Вы выбираете,<br/>Мы исполняем </p>
-<p>от<b style="color:darkgreen"> 15 000 р. </b></p>  
-<div class="little "><p>Индивидуальный график</p>
+<p style="margin-top:25px;margin-bottom: 2px;">от<b style="color:darkgreen;font-size:155%"> 15 000 р. </b></p>  
+<p style="height:5px;">&nbsp;</p>
+
+<!-- <div class="little "><p>Индивидуальный график</p>
 <p>занятий составляем</p>
     <p> по вашему желанию</p>
   </div>
-
+ -->
           </div>
           <div class="butt">
             <?php    echo Html::a(
@@ -324,7 +330,6 @@ $this->params['breadcrumbs'][] = $title;
 <table cellspacing="0" cellpadding="0" border="0" class="timetable" align="center"  data-ros="fadeIn"   data-options="delay:200;infinite:false;animationClass:animated;duration:1200;callback:;">
     <thead>
         <tr>
-            <th>Планируемая дата<br/>начала обучения</th>
             <th><p>Адрес&nbsp;учебного&nbsp;класса</p></th>
           <?php if (Yii::$app->mobileDetect->isMobile()) {  ?> 
             <th class="last"><p>Дни&nbsp;и&nbsp;время&nbsp;занятий в&nbsp;учебной&nbsp;группе</p></th><?php } ?>
@@ -336,7 +341,6 @@ $this->params['breadcrumbs'][] = $title;
     <tbody>
          <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
         <tr>
-            <td><span>16.06.2017</span></td>
 
             <td>ул. Молодогвардейская, 33<br>т.: 255-69-99</td>
             <td>
@@ -348,7 +352,6 @@ $this->params['breadcrumbs'][] = $title;
         </tr>
         
         <tr>
-            <td><span>16.06.2017</span></td>
 
             <td>ул. Осипенко, 11<br>т.: 255-69-99</td>
             <td>
@@ -360,7 +363,7 @@ $this->params['breadcrumbs'][] = $title;
                          <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>ВОЖДЕНИЕ</span></td></tr>
 
          <tr>
-            <td><span>16.06.2017</span></td>
+            
 
             <td>Автодром,<br> ул. Уральская, 34 <br>т.: 255-69-99</td>
             <td class="text-left">
@@ -376,8 +379,8 @@ $this->params['breadcrumbs'][] = $title;
 <br/>
 </div>
 <div class="visible-xs" style="margin-top:-15px">
-<p align="center" style="font-size:18px;font-weight:bold"> Планируемая дата начала обучения:<br/>
-<span style="font-size:140%;color:#0c500c;font-weight:bold">12.05.2017</span> </p>
+<!-- <p align="center" style="font-size:18px;font-weight:bold"> Планируемая дата начала обучения:<br/>
+<span style="font-size:140%;color:#0c500c;font-weight:bold">12.05.2017</span> </p> -->
 <center>
 <table class="rwd-table">
 <thead>

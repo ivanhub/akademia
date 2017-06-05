@@ -195,7 +195,7 @@ $this->registerMetaTag([
 <div class="akciya">
 <p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
-<p class="akciya-h2" style="margin-top:-7px">Обучение на<br/>категорию А+В</p>
+<p class="akciya-h2" style="margin-top:-7px">Обучение на<br/>категории А+В</p>
 <p class="outlineA" style="color:#f9fa83;margin-top:-7px">Скидка:</p>
 <p class="outlineA" style="font-size:50px;color:#f9fa83;margin-top:-30px"><span class="pyat">5000</span>
 <span style="font-size:35px;">р.</span></p>
@@ -217,7 +217,7 @@ $this->registerMetaTag([
 </div>
 </div>
 
-<!--<div class="row">
+<!-- <div class="row">
 
 <div class="col-md-4 col-centered third  four-third  offscreen" style="margin-top:0px; margin-bottom:-10px">
 <div class="akciya">
@@ -232,7 +232,7 @@ $this->registerMetaTag([
 </div>
 </div>
 
-</div>-->
+</div> -->
 
 </center>
 </div>
@@ -654,13 +654,13 @@ Counter(this.element,8000);
 waypoint3.destroy();
   }, offset: '90%' });
 
-
+/*
 var waypoint4 = new Waypoint({
 element: $('.count2'), handler: function(direction) {
 Counter(this.element,10000);
 waypoint4.destroy();
   }, offset: '90%' });
-
+*/
 
 function Counter(th,\$num) {
     var \$this = jQuery(th);

@@ -6,6 +6,7 @@
 
 use yii\helpers\Html;
 use branchonline\lightbox\Lightbox;
+use yii\helpers\Url;
 
 //use yii\bootstrap\ActiveForm;
 //use yii\captcha\Captcha;
@@ -18,7 +19,24 @@ use branchonline\lightbox\Lightbox;
 $title = 'Перевозка опасных грузов (ДОПОГ)';
 $this->title = title($title);
 
+
+$this->registerMetaTag([
+    'name' => 'description',
+    'content' => 'Проводим профессиональное обучение и подготовку водителей по ДОПОГ (дорожная перевозка опасных грузов). Многолетний опытом. Низкие цены. Звоните сейчас!',
+]);
+$this->registerMetaTag([
+    'name' => 'keywords',
+    'content' => 'обучение, подготовка, аттестация, дорожная перевозка опасных грузов, допог, водителей, автотранспортных средств, курсы, переподготовка, повышение квалификации, академия, росакадемия, профессиональное образование, в области автомобильных перевозок, дапок, допок, автошкола, росавтоакадемия, школа вождения, рос автоакадемия, дистанционное обучение, заочно'
+    ]);
+
+
+
+$this->registerLinkTag(['rel' => 'canonical', 'href' => 'https://samarapb.ru/napravleniya/obuchenie-v-oblasti-avtomobilnyh-perevozok/perevozka-og-dopog/']);
+
+
 $this->params['breadcrumbs'][] = $title;
+
+
 ?>
 
 
