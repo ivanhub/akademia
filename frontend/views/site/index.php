@@ -196,9 +196,9 @@ $this->registerMetaTag([
 <p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
 <p class="akciya-h2" style="margin-top:-7px">Обучение на<br/>категории А+В</p>
-<p class="outlineA" style="color:#f9fa83;margin-top:-7px">Скидка:</p>
-<p class="outlineA" style="font-size:50px;color:#f9fa83;margin-top:-30px"><span class="pyat">5000</span>
-<span style="font-size:35px;">р.</span></p>
+<p class="outlineA" style="font-size:30px;color:#f9fa83;margin-top:-7px">Скидка</p>
+<p class="outlineA" style="font-size:30px;color:#f9fa83;margin-top:-20px"><span class="pyat" style="left:0">+</span>
+<p class="outlineA" style="font-size:30px;color:#f9fa83;margin-top:-25px"><span class="pyat" style="left:0">Бонус</span>
 <div class="" style="margin-left:5px;margin-top:-7px;"><img src="/images/pics/sale.png" class="an-flick" style="float:left"><p class="speshite" style="margin-left:99px;padding-top:6px;">Звоните!</p></div> 
 <div class="saleCar"></div> 
 </div>
