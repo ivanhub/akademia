@@ -110,7 +110,7 @@ $this->params['breadcrumbs'][] = $title;
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-       <p style="margin-bottom:0px">Удобен для всех<br/><b style="color:#f62a2a;font-size: calc(14px + 0.35vw);">АКЦИЯ <span style="font-size:130%">8000</span> р.</b></p>
+       <p style="margin-bottom:0px">Удобен для всех<br/><b style="color:#f10d09;font-size: calc(14px + 0.35vw);">АКЦИЯ <span style="font-size:130%">8000</span> р.</b></p>
        <p style="margin-bottom: -6px;margin-top: -6px;font-size: calc(8.5px + 0.35vw);">(только до 15 июня)</p>
 <p style="margin-top:7px;margin-bottom: 2px;">от <b style="color:darkgreen;text-decoration:line-through;font-size:155%">10 000 р.</b> </p>
 <p style="height:5px;">&nbsp;</p>
@@ -146,7 +146,7 @@ $this->params['breadcrumbs'][] = $title;
           "Двойной A+B"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-<p class="linet">Автомобиль и Мотоцикл<br/><span style="color:#f62a2a;font-weight:bolder">Скидка + Бонус</span></p>
+<p class="linet">Автомобиль и Мотоцикл<br/><span style="color:#f10d09;font-weight:bolder">Скидка + Бонус</span></p>
 <p style="margin-top:25px;margin-bottom: 2px;">от <b style="color:darkgreen;font-size:155%">23 000 р.</b> </p>
 <p style="height:5px;">&nbsp;</p>
 
