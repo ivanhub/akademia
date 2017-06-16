@@ -578,7 +578,7 @@ echo'
 
 <div class="col-md-6  col-xs-12">
 <div class="center-block">
-<p><strong>Тип автомобиля: </strong></p>
+<p><strong>Тип трансмиссии: </strong></p>
 <p><select name="f_12" id="f_12">
 <option value="Механическая КПП" data-cost="0000">Механика</option>
 <option value="Автоматическая КПП" data-cost="8500">Автомат</option>
