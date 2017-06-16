@@ -439,7 +439,7 @@ if (which==0) {
 
 
 
-$('input#fromurl').val('<?php if (isset($_COOKIE['origURL'])) echo $_COOKIE['origURL']; else echo 'Прямой заход'?>');
+$('input#fromurl').val('<?php if (isset($_COOKIE['origURL'])) echo $_COOKIE['origURL']; ?>');
 $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 </script>
 
