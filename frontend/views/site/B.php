@@ -6,7 +6,7 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use frontend\models\Forma2;
+/*use frontend\models\Forma2;*/
 use yii\bootstrap\Modal;
 use \yii\widgets\MaskedInput;
 
@@ -76,8 +76,8 @@ $this->params['breadcrumbs'][] = $title;
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-  <p style="margin-bottom:0px">Удобен для всех</p><p style="color:#f10d09;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ <span style="font-size:130%">15000</span> р.</p>
-       <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">(только до 15 июня)</p>
+  <p style="margin-bottom:0px">Удобен для всех</p><p style="color:#f10d09;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ <span style="font-size:130%">14000</span> р.</p>
+       <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">(только до 31 июня)</p>
 <p style="margin-top:2px;margin-bottom: -7px;">от <b style="color:darkgreen;text-decoration:line-through;font-size:155%">20 000 р.</b> </p>
 <p style="height:5px;">&nbsp;</p>
 
