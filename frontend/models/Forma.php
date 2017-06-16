@@ -35,6 +35,7 @@ class Forma extends \yii\db\ActiveRecord
             [['packet'], 'string', 'max' => 50],
             [['date'], 'safe'],
             [['phone'], 'string', 'max' => 20],
+            [['fromUrl'], 'string', 'max' => 255],
             [['phone'], 'match', 'pattern' => '/^(?:(?:\+?\d\s*(?:[.-]\s*)?)?(?:\(\s*([0-9][0-9][0-9])\s*\)|([0-9][0-9][0-9]))\s*(?:[.-]\s*)?)?([0-9][0-9][0-9]|[0-9][0-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|д\.?|доб\.?|добавочный)\s*(\d+))?$/','message' => 'Неверный формат номера телефона'],
             ['name', 'match', 'pattern' => '/^[a-z]|[а-я]|[A-Z]|[А-Я]\w*$/','message' => 'Имя заполнено неверно']    
         ];
@@ -51,6 +52,7 @@ class Forma extends \yii\db\ActiveRecord
             'fromfield' => 'Fromfield',
             'pack' => 'Pack',
             'packet' => 'Packet',
+            'fromUrl' => 'FromUrl',
             'total' => 'Total',
             'date' => 'Date',
 
@@ -62,11 +64,11 @@ class Forma extends \yii\db\ActiveRecord
     {
 
         //var textbody = 
-Yii::$app->mailer->compose()->setFrom(Yii::$app->params['supportEmail'])->setTo('jaf823jf02jf823kjw0ehfa93@sms.ru')
+Yii::$app->mailer->compose()->setFrom(Yii::$app->params['supportEmail'])->setTo(Yii::$app->params['noticeEmail'])
         ->setTextBody($this->name.' '.$this->phone.' '.$this->packet)
         ->send();
 
-    if(Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => $this->body, 'phone' => $this->phone, 'name'=>$this->name, 'pack' => $this->pack, 'packet' => $this->packet, 'total' => $this->total])
+    if(Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => $this->body, 'phone' => $this->phone, 'name'=>$this->name, 'pack' => $this->pack, 'packet' => $this->packet, 'fromUrl' => $this->fromUrl, 'total' => $this->total])
         ->setFrom(Yii::$app->params['supportEmail'])
         ->setTo(Yii::$app->params['orderEmail'])
         ->setSubject('Заявка с сайта Росавтоакадемия.РФ' )
@@ -88,7 +90,8 @@ Yii::$app->mailer->compose()->setFrom(Yii::$app->params['supportEmail'])->setTo(
         $form->fromfield = $this->fromfield;
         $form->pack = $this->pack;       
         $form->packet = $this->packet;       
-
+        $form->fromUrl = $this->fromUrl;       
+        $form->total = $this->total;       
         $form->save();
 
 

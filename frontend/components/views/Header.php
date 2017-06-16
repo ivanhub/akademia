@@ -80,10 +80,10 @@ echo $form->field($model, 'phone')->label('Номер телефона <sup>*</s
         'prompt' => 'Выберите курс обучения...',
     ];
 echo $form->field($model, 'packet')->label('Курс обучения: <sup>*</sup>')->dropDownList($items, $params);
-
-
+ 
 echo $form->field($model, 'body')->textArea(['rows' => 6])->label('Комментарий'); 
 echo $form->field($model, 'fromfield')->hiddenInput(['value'=> '1'])->label(false);
+echo $form->field($model, 'fromUrl')->hiddenInput(['value'=> ''])->label(false);
 echo $form->field($model, 'total')->hiddenInput(['value'=> ''])->label(false);
 echo $form->field($model, 'pack')->hiddenInput(['value'=> ''])->label(false);
 

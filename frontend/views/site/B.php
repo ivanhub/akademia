@@ -7,8 +7,8 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 /*use frontend\models\Forma2;*/
-use yii\bootstrap\Modal;
-use \yii\widgets\MaskedInput;
+//use yii\bootstrap\Modal;
+//use \yii\widgets\MaskedInput;
 
 
 
@@ -799,7 +799,7 @@ $('#idmodal').on('show.bs.modal', function(e) {
         //newspan.className = "wpacket";
 
 
-  var total = '<b>Расчёт стоимости</b><br><b>Теория:</b> '+$('.sub-option .well').find('#f_11 option:selected' ).val()+'<br><b>Тип трансмиссии: </b>'+$('.sub-option .well').find('#f_12 option:selected' ).val()+'<br><b>Практика: </b>'+$('.sub-option .well').find('#f_13 option:selected' ).val()+'<br><b>Автодром: </b>'+$('.sub-option .well').find('#f_14 option:selected').val()+'<br><b>Всего стоимость: </b>'+$('.sub-option .well').find('.total .price').text();
+var total = '<b>Расчёт стоимости</b><br><b>Теория:</b> '+$('.sub-option .well').find('#f_11 option:selected' ).val()+'<br><b>Тип трансмиссии: </b>'+$('.sub-option .well').find('#f_12 option:selected' ).val()+'<br><b>Практика: </b>'+$('.sub-option .well').find('#f_13 option:selected' ).val()+'<br><b>Автодром: </b>'+$('.sub-option .well').find('#f_14 option:selected').val()+'<br><b>Всего стоимость: </b>'+$('.sub-option .well').find('.total .price').text();
 
 if (which==101) {
 $("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B"><p class="help-block help-block-error"></p></div>');

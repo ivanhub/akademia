@@ -16,6 +16,24 @@ use yii\base\Widget;
 //use kartik\base;
 //use kartik\growl;
 //"<?= Yii::$app->language >"
+//
+//if (!isset($_COOKIE['from'])) { 
+//  setcookie( 'from', ,  2147483647, "/");
+//}
+
+if(isset($_SERVER['HTTP_REFERER'])) {
+ if(!isset($_COOKIE['origURL'])) {
+  setcookie( 'origURL', $_SERVER['HTTP_REFERER'],  2147483647, "/"); 
+//  $_SESSION["origURL"] = $_SERVER["HTTP_REFERER"];
+}
+   }
+else
+{
+setcookie( 'origURL', 'Прямой заход',  2147483647, "/");   
+//$_SESSION["origURL"] = 'Прямой заход';
+}
+
+
 
 AppAsset::register($this);
 $action = Yii::$app->controller->action->id;
@@ -421,7 +439,8 @@ if (which==0) {
 
 
 
-
+$('input#fromurl').val('<?php if (isset($_COOKIE['origURL'])) echo $_COOKIE['origURL'];?>');
+$('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 </script>
 
 

@@ -139,6 +139,8 @@ use yii\helpers\Html;
 
 
 $this->registerJs(<<<JS
+
+
 var div = document.createElement('div');
 div.className = "greenlinebot";
 
@@ -203,6 +205,7 @@ function start5() {
     }
 }*/
 
+
 JS
 , yii\web\View::POS_READY, 'contact-form'); ?>
 
@@ -261,6 +264,8 @@ phone number link or button. -->
   }
 }
 /* ]]> */
+
+
 </script>
 
 <?php 
