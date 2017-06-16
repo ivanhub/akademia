@@ -5,6 +5,18 @@
 /* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
+use yii\bootstrap\ActiveForm;
+use frontend\models\Forma2;
+use yii\bootstrap\Modal;
+use \yii\widgets\MaskedInput;
+
+
+
+
+//use Yii; 
+//use yii\helpers\Url;
+
+
 //use yii\bootstrap\ActiveForm;
 //use yii\captcha\Captcha;
 //use yii\bootstrap\Modal;
@@ -99,6 +111,8 @@ $this->params['breadcrumbs'][] = $title;
 <?php } ?>
 
 
+
+<!-- 
 <div class="p-item-title">ПАКЕТ<br>
           "Двойной A+B"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
@@ -106,10 +120,10 @@ $this->params['breadcrumbs'][] = $title;
 <p class="linet">Автомобиль и Мотоцикл<br/><span style="color:#f10d09;font-weight:bolder">Скидка + Бонус</span></p>
 <p style="margin-top:14px;margin-bottom: -7px;">от <b style="color:darkgreen;font-size:155%">23 000 р.</b> </p>
 <p style="height:5px;">&nbsp;</p>
-<!-- <div class="little"><p>Практические занятия:</p>
+<div class="little"><p>Практические занятия:</p>
     <p>с 9:00 до 20:00 Вт.-Сб.</p>
     <p>Теоретические занятия:</p>
-    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div> -->
+    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>
           </div>
           <div class="butt">
             <?php    echo Html::a(
@@ -121,21 +135,25 @@ $this->params['breadcrumbs'][] = $title;
     'class' => 'send-price call-back'
   ]
     ); ?>
-          </div>
+          </div> -->
 
 
 
 
-<!-- <div class="p-item-title">ПАКЕТ<br>
+<div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-         <p class="linet">Идеальный выбор для студентов! </p>
-<p>от<b style="color:darkgreen"> 18 000 р.</b> </p>
-<div class="little"><p>Практические занятия:</p>
-    <p>с 9:00 до 16:00 Вт-Пт.</p>
-    <p>Теоретические занятия:</p>
-    <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>      </div>
+
+
+<p style="margin-bottom:0px">Идеальный выбор для студентов! </p>
+<p style="color:#f10d09;font-size: calc(13px + 0.35vw);font-weight:700;margin-top:-4px">АКЦИЯ <span style="font-size:120%">15000</span> р.</p>
+  
+<p style="margin-top:-17px;margin-bottom: 7px;">от <b style="color:darkgreen;text-decoration:line-through;font-size:140%">18 000 р.</b> </p>
+<!-- <div class="little"><p>Практические занятия:</p>
+         <p>с 9:00 до 16:00 Вт-Пт.</p>
+         <p>Теоретические занятия:</p>
+         <p>с 18:00 до 20:00 Пн.,Ср.</p>    </div>  -->     </div>
           <div class="butt">
 <?php    echo Html::a(
     'Записаться',
@@ -147,7 +165,7 @@ $this->params['breadcrumbs'][] = $title;
   ]
     ); 
 ?>
- </div> -->
+ </div>
 
         </div>
       </div>
@@ -510,8 +528,129 @@ $this->params['breadcrumbs'][] = $title;
 <br/>
 <br/>
 </div>
+<div class="linetire"></div>
+<div class="row">
+
+<p class="poryadok green text-center" style="font-size:28px;font-weight:bold;margin-bottom:-3px;margin-top:20px" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
+Расчёт стоимости обучения</p>
+
+
+
+
+
+<div id="main">
+
+
+
+<?php 
+if (Yii::$app->session->hasFlash('contactFormSubmitted')): 
+        echo '<div id="success" class="alert alert-success">';
+        echo 'Спасибо, что обратились к Нам.<br/> Мы ответим Вам в ближайшее время.</div>';
+//   echo '<script>setTimeout(function(){$(\'#idmodal\').modal(\'hide\')}, 3000);</script>';
+else: $form = ActiveForm::begin(['id' => 'jquery-order-form',  'action' => '', 
+    'validationUrl' => ['/validate'],
+'enableClientValidation' => true, 
+ 'options' => [ 'class' =>"jof form-horizontal" ,'enableAjaxValidation'=>true,
+'validateOnSubmit'=>true,'validateOnChange' => false, 
+        ],
+    ]); 
+echo'
+<div class="option">
+<div class="well">
+<!--<fieldset>-->
+<div class="sub-option o-11 o-select" data-type="select">
+<div class="well">
+<div class="row">
+
+<div class="col-md-8 col-xs-6">
+
+
+<div class="row">
+<div class="col-md-6 col-xs-12">
+<div class="center-block">
+<p><strong>Теория: </strong></p>
+<p><select name="f_11" id="f_11">
+<option value="Молодогвардейская 33" data-cost="14000">ул. Молодогвардейская 33</option>
+<option value="Осипенко, 11" data-cost="14000">ул. Осипенко 11</option>
+</select></p>
+</div>
+</div>
+
+<div class="col-md-6  col-xs-12">
+<div class="center-block">
+<p><strong>Тип автомобиля: </strong></p>
+<p><select name="f_12" id="f_12">
+<option value="Механическая КПП" data-cost="0000">Механика</option>
+<option value="Автоматическая КПП" data-cost="8500">Автомат</option>
+</select></p>
+</div>
+</div>
 
 </div>
+
+
+
+<div class="row">
+
+<div class="col-md-6">
+<div class="center-block">
+<p><strong>Практика: </strong></p>
+<p><select name="f_13" id="f_13">
+<option value="Будни: с 8 до 16" data-cost="0">Будни с 8 до 16</option>
+<option value="Будни: с 16 до 20, СБ: 9 до 16" data-cost="2000">Будни с 16 до 20, Сб: 9 до 16</option>
+</select></p>
+</div>
+</div>
+
+<div class="col-md-6 avtodrom">
+<div class="center-block">
+<p><strong>Автодром: </strong></p>
+<p><select name="f_14" id="f_14">
+<option value="Собственный" data-cost="0">Собственный (бесплатно)</option>
+<option value="На выбор" data-cost="2500">Автодром на выбор (2500р.)</option>
+</select></p>
+</div>
+</div>
+
+
+</div>
+
+
+</div> <!--col md-8 -->
+
+<div class="col-md-4 sidehere">
+
+</div>
+
+
+</div>
+</div>
+
+</div>
+<center><p><a href="/site/#" data-toggle="modal" data-target="#idmodal" data-which="101"><input class="submit btn btn-success btn-large" type="submit" value="Отправить заявку"></a></p></center>
+</div>
+
+
+
+<!--</fieldset>-->
+
+</div>
+
+</div>
+';
+ ActiveForm::end(); 
+  endif;
+  ?>
+
+
+
+</div>
+
+
+
+
+</div>
+
 
 
 
@@ -561,8 +700,77 @@ $this->params['breadcrumbs'][] = $title;
       
  -->
 
-<?php 
 
+
+
+<?php 
+Yii::$app->view->registerJsFile('/assets/js/jpc.js',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/jpc.css',  ['depends' => 'yii\web\JqueryAsset']); 
+
+$this->registerJs(<<<JS
+
+if(jQuery('#f_12').val() == 'Автоматическая КПП'){ 
+$('#f_13').html('<option value="Индивидуальный график" data-cost="0">Индивидуальный график</option>');
+$('#f_14').html('<option value="Собственный" data-cost="0">Собственный (бесплатно)</option>');
+
+       }
+
+    $('#f_12').change(function(){
+       if($(this).val() == 'Автоматическая КПП'){ //'.val()'
+$('#f_13').html('<option value="Индивидуальный график" data-cost="0">Индивидуальный график</option>');
+$('#f_14').html('<option value="Собственный" data-cost="0">Собственный (бесплатно)</option>');
+           return true;
+       }
+$('#f_13').html('<option value="Будни: с 8 до 16" data-cost="0">Будни с 8 до 16</option><option value="Будни: с 16 до 20, СБ: 9 до 16" data-cost="2000">Будни с 16 до 20, Суб: 9 до 16</option>');
+$('#f_14').html('<option value="Собственный" data-cost="0">Собственный (бесплатно)</option><option value="На выбор" data-cost="2500">Автодром на выбор (2500р.)</option>');
+    });
+
+
+$(function(){
+      var form = $('#jquery-order-form');
+
+form.find('span.staticPrice').remove();
+
+form.on('submit', function(event){
+    event.preventDefault();
+    var modal = $('<div class="modal hide fade" id="add-options-modal"><div class="modal-header"><a class="close" data-dismiss="modal">&times;</a>            <h2>Oops! Form Submission Disabled</h2></div><div class="modal-body"></div><div class="modal-footer"></div></div>');
+    modal.appendTo("body");
+    modal.modal();
+});
+
+  form.jPrice({
+      "floatSub": false,
+      "showPricesOption": false,
+      "itemize": false,
+      "showZeroAs": "zero",
+      "subAlign": "right2",
+      "decimalSep": ".",
+      "pricesFadeTime": "",
+      "emptySummaryText": "<p>Please configure your order...<\/p>",
+      "showPrices": false,
+      "signBefore": "",
+      "signAfter": " р.",
+      "items": {
+          "f_11": "Теория",
+          "f_12": "Тип трансмиссии",
+          "f_13": "Практика",
+          "f_14": "Автодром",
+      },
+      "pricesOverPeriod": [{
+          divider: 3,
+          title: 'В рассрочку',
+          suffix: '/мес.'
+      }]
+  });
+
+if(typeof $.fn.jStyle === 'function'){
+    form.jStyle();
+}
+});
+
+
+JS
+, yii\web\View::POS_READY); 
 
 
 
@@ -589,7 +797,20 @@ $('#idmodal').on('show.bs.modal', function(e) {
   var which = e.relatedTarget.dataset.which;
         //var newspan = document.createElement('div');
         //newspan.className = "wpacket";
-if (which==5) {
+
+
+  var total = '<b>Расчёт стоимости./b><br><b>Теория:</b> '+$('.sub-option .well').find('#f_11 option:selected' ).val()+'<br><b>Тип трансмиссии:</b>'+$('.sub-option .well').find('#f_12 option:selected' ).val()+'<br><b>Практика:</b>'+$('.sub-option .well').find('#f_13 option:selected' ).val()+'<br><b>Автодром:</b>'+$('.sub-option .well').find('#f_14 option:selected').val()+'<br><b>Всего стоимость:</b>'+$('.sub-option .well').find('.total .price').text();
+
+if (which==101) {
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="total" class="form-control" name="total" value="'+total+'"><p class="help-block help-block-error"></p></div>');
+}  else if (which==102) {
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория A"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="total" class="form-control" name="total" value="'+total+'"><p class="help-block help-block-error"></p></div>');
+}
+else if (which==5) {
 $("#wrapacket").text('Пакет "Дневной"');
 $("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Дневной"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Дневной"><p class="help-block help-block-error"></p></div>');
 $("#contact-form").children('.field-packet').hide();
@@ -1044,6 +1265,54 @@ JS
 
 
 //     ['position' => yii\web\View::POS_READY]  <script src="/assets/js/zingchart.min.js" type="text/javascript"></script>
+//     
+//     
+//     
+//     
+//   
+/*
+Modal::begin([
+    'header' => '<h3>Онлайн заявка на обучение</h3>',
+    'options' => ['id' => 'idmodal3',],
+    'footer' => 'Вы сделали правильный выбор, обратившись в нашу компанию. ',
+     'clientOptions' => false,
+     'size' => 'modal-sm',
+
+
+]);
+ 
+echo ' <div class="row"><div class="col-xs-12 modal-md-12">';
+echo '<div class="sel text-center"><p id="wrapacket" style="font-weight:700"></p></div><br/>';
+
+
+if (Yii::$app->session->hasFlash('contactFormSubmitted')): 
+        echo '<div id="success" class="alert alert-success">';
+        echo 'Спасибо, что обратились к Нам.<br/> Мы ответим Вам в ближайшее время.</div>';
+     //   echo '<script>setTimeout(function(){$(\'#idmodal\').modal(\'hide\')}, 3000);</script>';
+else: $form = ActiveForm::begin(['id' => 'contact-form',  'action' => '', 
+    'validationUrl' => ['/validate'],
+'enableClientValidation' => true, 
+ 'options' => ['enableAjaxValidation'=>true,
+'validateOnSubmit'=>true,'validateOnChange' => false, 
+        ],
+    ]); 
+echo  $form->field($model, 'name')->label('Ваше Имя <sup>*</sup>')->textInput(['placeholder'=>"Введите Ваше Имя"]);
+//echo $form->field($model, 'phone')->label('Номер телефона')->textInput(['placeholder'=>"+7 (__) ___-____"]);
+echo $form->field($model, 'phone')->label('Номер телефона <sup>*</sup>')->widget(MaskedInput::className(),['mask' => '+7 (999) 999-9999'])->textInput(['placeholder'=>"+7 (___) ___-____"]);
+
+echo $form->field($model, 'body')->textArea(['rows' => 6])->label('Комментарий'); 
+echo $form->field($model, 'fromfield')->hiddenInput(['value'=> '1'])->label(false);
+echo $form->field($model, 'pack')->hiddenInput(['value'=> ''])->label(false);
+
+echo ' <div class="form-group text-center">';
+
+echo Html::submitButton('Отправить', ['class' => 'btn btn-primary btn-success', 'name' => 'contact-button']) ;
+echo ' </div>';
+ ActiveForm::end(); 
+  endif;
+echo '</div></div>';
+ 
+Modal::end(); */
 ?>
 
 

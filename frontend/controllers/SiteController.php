@@ -9,6 +9,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use frontend\models\ContactForm;
 use frontend\models\Forma;
+use frontend\models\Forma2;
 use yii\helpers\Html;
 use kartik\widgets\Growl;
 
@@ -85,11 +86,8 @@ class SiteController extends Controller
     $model = new Forma();
         if ($model->load(Yii::$app->request->post()) && $model->validate() && $model->save() && $model->sendEmail()) {
 
-
-
 //       Yii::$app->session->setFlash('contactFormSubmitted');
 //Yii::$app->session->setFlash('success', 'Спасибо, что обратились к Нам. Мы ответим Вам в ближайшее время.');
-
 
 /*Yii::$app->getSession()->setFlash('success', [
     'type' => 'success',
@@ -117,7 +115,6 @@ $this->registerJs($script, yii\web\View::POS_READY);*/
 */          //return $this->renderAjax('delete');
          //   return $this->refresh();
  // return $this->redirect(['view', 'id' => $model->id]);
-
 
 }
  else { return $this->render('B',[ 'model' => $model,]);

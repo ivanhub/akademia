@@ -30,14 +30,13 @@ class Forma extends \yii\db\ActiveRecord
         return [
             [['name', 'phone', 'fromfield'], 'required','message' => 'Заполните поле'],
             [['fromfield'], 'integer'],
-            [['body'], 'string'],
+            [['body', 'total'], 'string'],
             [['name', 'pack'], 'string', 'max' => 85],
             [['packet'], 'string', 'max' => 50],
             [['date'], 'safe'],
             [['phone'], 'string', 'max' => 20],
             [['phone'], 'match', 'pattern' => '/^(?:(?:\+?\d\s*(?:[.-]\s*)?)?(?:\(\s*([0-9][0-9][0-9])\s*\)|([0-9][0-9][0-9]))\s*(?:[.-]\s*)?)?([0-9][0-9][0-9]|[0-9][0-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|д\.?|доб\.?|добавочный)\s*(\d+))?$/','message' => 'Неверный формат номера телефона'],
-           ['name', 'match', 'pattern' => '/^[a-z]|[а-я]|[A-Z]|[А-Я]\w*$/','message' => 'Имя заполнено неверно']    
-
+            ['name', 'match', 'pattern' => '/^[a-z]|[а-я]|[A-Z]|[А-Я]\w*$/','message' => 'Имя заполнено неверно']    
         ];
     }
 
@@ -52,14 +51,16 @@ class Forma extends \yii\db\ActiveRecord
             'fromfield' => 'Fromfield',
             'pack' => 'Pack',
             'packet' => 'Packet',
+            'total' => 'Total',
             'date' => 'Date',
+
 
         ];
     }
 
     public function sendEmail()
     {
-    if(Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => $this->body, 'phone' => $this->phone, 'name'=>$this->name, 'pack' => $this->pack, 'packet' => $this->packet])
+    if(Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => $this->body, 'phone' => $this->phone, 'name'=>$this->name, 'pack' => $this->pack, 'packet' => $this->packet, 'total' => $this->total])
         ->setFrom(Yii::$app->params['supportEmail'])
         ->setTo(Yii::$app->params['orderEmail'])
         ->setSubject('Заявка с сайта Росавтоакадемия.РФ' )

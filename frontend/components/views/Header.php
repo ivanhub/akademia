@@ -84,6 +84,7 @@ echo $form->field($model, 'packet')->label('Курс обучения: <sup>*</s
 
 echo $form->field($model, 'body')->textArea(['rows' => 6])->label('Комментарий'); 
 echo $form->field($model, 'fromfield')->hiddenInput(['value'=> '1'])->label(false);
+echo $form->field($model, 'total')->hiddenInput(['value'=> ''])->label(false);
 echo $form->field($model, 'pack')->hiddenInput(['value'=> ''])->label(false);
 
 echo ' <div class="form-group text-center">';

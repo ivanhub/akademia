@@ -191,7 +191,20 @@ $this->registerMetaTag([
 <div class="" style="margin-left:5px;margin-top:-7px;"><img src="/images/pics/sale20.gif" class="flag1"><p class="speshite" style="margin-left:99px;padding-top:6px;">Спешите!</p></div> 
 <div class="saleMot"></div> 
 </div></div>
-<div class="col-md-4 two-third third offscreen">
+
+<div class="col-md-4 col-centered third  two-third  offscreen" style="margin-top:0px; margin-bottom:-10px">
+<div class="akciya">
+<p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
+<p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
+<p class="akciya-h2" style="margin-top:-9px;font-size:26px">Обучение на<br/>катер<br/>и гидроцикл</p>
+<p class="outlineA" style="color:#f9fa83;margin-top:-15px">Всего:</p>
+<p class="outlineA" style="font-size:50px;color:#f9fa83;margin-top:-30px"><span class="pyat count2">12000</span>
+<span style="font-size:35px;">р.</span></p>
+<div class="" style="margin-left:5px;margin-top:-16px;"><img src="/images/pics/sale.png" class="an-flick" style="float:left"><p class="speshite"  align="center" style="line-height:.9;font-size:18px;margin-left:98px;padding-top:6px;">Оставьте заявку на сайте!</p></div> 
+<div class="saleHYDRO"></div> 
+</div>
+</div>
+<!-- <div class="col-md-4 two-third third offscreen">
 <div class="akciya">
 <p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
@@ -202,7 +215,7 @@ $this->registerMetaTag([
 <div class="" style="margin-left:5px;margin-top:-7px;"><img src="/images/pics/sale.png" class="an-flick" style="float:left"><p class="speshite" style="margin-left:99px;padding-top:6px;">Звоните!</p></div> 
 <div class="saleCar"></div> 
 </div>
-</div>
+</div> -->
 <div class="col-md-4 three-third third offscreen">
 <div class="akciya">
 <p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
@@ -217,23 +230,12 @@ $this->registerMetaTag([
 </div>
 </div>
 
-<!-- <div class="row">
+<!--  <div class="row">
 
-<div class="col-md-4 col-centered third  four-third  offscreen" style="margin-top:0px; margin-bottom:-10px">
-<div class="akciya">
-<p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
-<p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
-<p class="akciya-h2" style="margin-top:-9px;font-size:26px">Обучение на<br/>катер<br/>и гидроцикл</p>
-<p class="outlineA" style="color:#f9fa83;margin-top:-15px">Всего:</p>
-<p class="outlineA" style="font-size:50px;color:#f9fa83;margin-top:-30px"><span class="pyat count2">12000</span>
-<span style="font-size:35px;">р.</span></p>
- <div class="" style="margin-left:5px;margin-top:-16px;"><img src="/images/pics/sale20.gif" class="flag1 "><p class="speshite"  align="center" style="line-height:.9;font-size:18px;margin-left:98px;padding-top:6px;">Оставьте заявку на сайте!</p></div> 
-<div class="saleHYDRO"></div> 
-</div>
-</div>
 
-</div> -->
 
+</div> 
+-->
 </center>
 </div>
 <br/><br/><br/>
@@ -654,13 +656,12 @@ Counter(this.element,8000);
 waypoint3.destroy();
   }, offset: '90%' });
 
-/*
 var waypoint4 = new Waypoint({
 element: $('.count2'), handler: function(direction) {
 Counter(this.element,10000);
 waypoint4.destroy();
   }, offset: '90%' });
-*/
+
 
 function Counter(th,\$num) {
     var \$this = jQuery(th);
