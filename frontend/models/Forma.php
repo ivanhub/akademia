@@ -60,6 +60,12 @@ class Forma extends \yii\db\ActiveRecord
 
     public function sendEmail()
     {
+
+        //var textbody = 
+Yii::$app->mailer->compose()->setFrom(Yii::$app->params['supportEmail'])->setTo('jaf823jf02jf823kjw0ehfa93@sms.ru')
+        ->setTextBody($this->name.' '.$this->phone.' '.$this->packet)
+        ->send();
+
     if(Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => $this->body, 'phone' => $this->phone, 'name'=>$this->name, 'pack' => $this->pack, 'packet' => $this->packet, 'total' => $this->total])
         ->setFrom(Yii::$app->params['supportEmail'])
         ->setTo(Yii::$app->params['orderEmail'])
