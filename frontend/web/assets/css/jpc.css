@@ -102,3 +102,9 @@ select{width:220px;background-color:#ffffff;}
 .sidebar {    display: flex;
     justify-content: center;
     align-items: center;}
+
+
+.center-block p:first-child {
+    width: 210px;
+    text-align: left;
+}
