@@ -76,9 +76,11 @@ $this->params['breadcrumbs'][] = $title;
           "Стандарт"</div>
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
-  <p style="margin-bottom:0px">Удобен для всех</p><p style="color:#f10d09;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ <span style="font-size:130%">14000</span> р.</p>
-       <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">(только до 31 июня)</p>
-<p style="margin-top:2px;margin-bottom: -7px;">от <b style="color:darkgreen;text-decoration:line-through;font-size:155%">20 000 р.</b> </p>
+  <p style="margin-bottom:0px;margin-top:15px;">Удобен для всех</p>
+  <p>&nbsp;</p>
+  <!-- <p style="color:#f10d09;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ <span style="font-size:130%">16000</span> р.</p> -->
+     <!--   <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">(только до 31 июня)</p> -->
+<p style="margin-top:-15px;margin-bottom: -7px;"><b style="color:darkgreen;font-size:175%">16 000 р.</b> </p>
 <p style="height:5px;">&nbsp;</p>
 
 <!-- <div class="little"><p>Практические занятия:</p>
@@ -146,10 +148,12 @@ $this->params['breadcrumbs'][] = $title;
           <div class="mt5">
 
 
-<p style="margin-bottom:0px">Идеальный выбор для студентов! </p>
-<p style="color:#f10d09;font-size: calc(13px + 0.35vw);font-weight:700;margin-top:-4px">АКЦИЯ <span style="font-size:120%">15000</span> р.</p>
+<p class="linet">Идеальный выбор для студентов! </p>
+<!-- <p style="color:#f10d09;font-size: calc(13px + 0.35vw);font-weight:700;margin-top:-4px">АКЦИЯ <span style="font-size:120%">14000</span> р.</p> -->
   
-<p style="margin-top:-17px;margin-bottom: 7px;">от <b style="color:darkgreen;text-decoration:line-through;font-size:140%">18 000 р.</b> </p>
+<p style="margin-top:0;margin-bottom: -7px;"><b style="color:darkgreen;font-size:175%">14 000 р.</b> </p>
+<p style="height:5px;">&nbsp;</p>
+
 <!-- <div class="little"><p>Практические занятия:</p>
          <p>с 9:00 до 16:00 Вт-Пт.</p>
          <p>Теоретические занятия:</p>
@@ -183,7 +187,7 @@ $this->params['breadcrumbs'][] = $title;
           <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
           <div class="mt5">
 <p class="linet">Вы выбираете,<br/>Мы исполняем </p>
-<p style="margin-top:14px;margin-bottom: -7px;">от<b style="color:darkgreen;font-size:155%"> 25 000 р. </b></p> 
+<p style="margin-top:0px;margin-bottom: -7px;"><b style="color:darkgreen;font-size:175%"> 25 000 р. </b></p> 
 <p style="height:5px;">&nbsp;</p>
 
 <!-- <div class="little "><p>Индивидуальный график</p>
@@ -618,7 +622,7 @@ echo'
 
 </div> <!--col md-8 -->
 
-<div class="col-md-4 col-xs-12sidehere">
+<div class="col-md-4 col-xs-12 sidehere">
 
 </div>
 
@@ -756,11 +760,11 @@ form.on('submit', function(event){
           "f_13": "Практика",
           "f_14": "Автодром",
       },
-      "pricesOverPeriod": [{
-          divider: 3,
-          title: 'В рассрочку',
-          suffix: '/мес.'
-      }]
+      //"pricesOverPeriod": [{
+          //divider: 3,
+          //title: 'В рассрочку',
+          //suffix: '/мес.'
+      //}]
   });
 
 if(typeof $.fn.jStyle === 'function'){
