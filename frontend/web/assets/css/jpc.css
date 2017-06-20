@@ -65,13 +65,17 @@
 }
 
 
-/*@media (max-width: 767px) { .sub-option .center-block { width:45%} }*/
+/*@media (max-width: 767px) { .sub-option .center-block { width:45%} }
 @media (min-width: 992px) { .sub-option .center-block { width:80%} }
-@media (max-width: 992px) and (min-width:367px) { .sub-option .center-block { width:47%} }
+@media (max-width: 992px) and (min-width:367px) { .sub-option .center-block { width:47%} }*/
+
+.sub-option .selwrapper {width:229px;height:100%;margin-left: auto;
+    margin-right: auto;}
 input,textarea,select,.uneditable-input{display:inline-block;width:212px;height:18px;padding:4px;margin-bottom:9px;font-size:13px;line-height:18px;color:#555555;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
 input[type="button"],input[type="reset"],input[type="submit"]{width:auto;height:auto;}
 select,input[type="file"]{height:28px;*margin-top:4px;line-height:28px;}
-select{width:220px;background-color:#ffffff;}
+select{width:229px;background-color:#ffffff;}
+
 
 
 /*#jquery-order-form {  display: flex;
@@ -104,7 +108,7 @@ select{width:220px;background-color:#ffffff;}
     align-items: center;}
 
 
-.center-block p:first-child {
+.selwrapper p:first-child {
     width: 210px;
     text-align: left;
 }

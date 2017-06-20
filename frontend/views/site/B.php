@@ -571,7 +571,7 @@ echo'
 
 <div class="row">
 <div class="col-md-6 col-xs-12">
-<div class="center-block">
+<div class="selwrapper">
 <p><strong>Теория: </strong></p>
 <p><select name="f_11" id="f_11">
 <option value="Молодогвардейская 33" data-cost="14000">ул. Молодогвардейская 33</option>
@@ -581,7 +581,7 @@ echo'
 </div>
 
 <div class="col-md-6  col-xs-12">
-<div class="center-block">
+<div class="selwrapper">
 <p><strong>Тип трансмиссии: </strong></p>
 <p><select name="f_12" id="f_12">
 <option value="Механическая КПП" data-cost="0000">Механика</option>
@@ -597,7 +597,7 @@ echo'
 <div class="row">
 
 <div class="col-md-6">
-<div class="center-block">
+<div class="selwrapper">
 <p><strong>Практика: </strong></p>
 <p><select name="f_13" id="f_13">
 <option value="Будни: с 8 до 16" data-cost="0">Будни с 8 до 16</option>
@@ -607,7 +607,7 @@ echo'
 </div>
 
 <div class="col-md-6 avtodrom">
-<div class="center-block">
+<div class="selwrapper">
 <p><strong>Автодром: </strong></p>
 <p><select name="f_14" id="f_14">
 <option value="Собственный" data-cost="0">Собственный (бесплатно)</option>
