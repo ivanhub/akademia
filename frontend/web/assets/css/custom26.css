@@ -3351,6 +3351,8 @@ a i.social-btns {color:#fff}
 .kakpr {
     font-size: calc(10px - -1.5vw) !important;
     color: rgba(16, 74, 31, .9);
-}
+}}
 
+.mt5 p:first-child {
+    text-shadow: 3px 1px 5px #e2dcdc;
 }
