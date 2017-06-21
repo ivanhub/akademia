@@ -50,6 +50,44 @@ $this->params['breadcrumbs'][] = $title;
 <section class="raspisanie">
 <h1 class="text-center"><?= Html::encode($title) ?></h1>
  <br/>
+
+
+
+
+
+<?php
+            //YOUR TABLE/DEINE TABELLE/TWOJA TABELA
+            $table="table";
+            //YOUR SEARCHSTRING/DEIN SUCHSTRING/SlOWO DO WYSZUKIWANIA
+            $nichtsichererstring="searchstring";
+            $suchstring=mysql_real_escape_string($nichtsichererstring);
+            $query = "SELECT * from ".$table." where ( ";
+            $results = mysql_query("DESCRIBE ".$table);
+            $zaehler=mysql_num_rows($results);
+            $x=1;
+            while($row = mysql_fetch_array($results)) {
+            $query = $query.$row["Field"]." LIKE '%".$suchstring."%' ";
+            if($x<$zaehler){
+            $query = $query." OR ";
+            }
+            $x++;
+            }
+            $query =$query.")";
+            $result = mysql_query($query); 
+            while ($row = mysql_fetch_array($result)) 
+            { 
+            //YOUR RESULTS!/DEINE ERGEBNISE/TWOJE WYNIKI
+            echo $row["titel"];
+            }
+
+?>
+
+
+
+
+
+
+
  <p>Обучение в автошколе проводится по программе профессиональной подготовки водителей транспортных средств категории «В», «А» и подкатегории «А1». Учебный план, календарный учебный график и программы подготовки согласованы в установленном законодательстве порядке.</p>
 
 <br/>

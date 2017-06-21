@@ -533,13 +533,10 @@ $this->params['breadcrumbs'][] = $title;
 <br/>
 </div>
 <div class="linetire"></div>
-<div class="row">
-
 <p class="poryadok green text-center" style="font-size:28px;font-weight:bold;margin-bottom:-3px;margin-top:20px" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
 Расчёт стоимости обучения</p>
 
-
-
+<div class="row">
 
 
 <div id="main">

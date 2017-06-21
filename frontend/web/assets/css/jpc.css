@@ -69,12 +69,22 @@
 @media (min-width: 992px) { .sub-option .center-block { width:80%} }
 @media (max-width: 992px) and (min-width:367px) { .sub-option .center-block { width:47%} }*/
 
-.sub-option .selwrapper {width:229px;height:100%;margin-left: auto;
-    margin-right: auto;}
+
 input,textarea,select,.uneditable-input{display:inline-block;width:212px;height:18px;padding:4px;margin-bottom:9px;font-size:13px;line-height:18px;color:#555555;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
 input[type="button"],input[type="reset"],input[type="submit"]{width:auto;height:auto;}
 select,input[type="file"]{height:28px;*margin-top:4px;line-height:28px;}
-select{width:229px;background-color:#ffffff;}
+
+
+@media (min-width:451px) { .sub-option .selwrapper {width:229px;height:100%;margin-left: auto;    margin-right: auto;} 
+select{width:229px;background-color:#ffffff;} }
+
+@media (max-width:450px) { .sub-option .selwrapper {width:180px;height:100%;margin-left: auto;    margin-right: auto; font-size:85%;} 
+select{width:170px;background-color:#ffffff;}
+input,textarea,select,.uneditable-input {width:180px;}
+div.well {padding:0; box-shadow:inherit}
+#main {width:100%}
+}
+
 
 
 
