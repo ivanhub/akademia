@@ -582,7 +582,7 @@ echo'
 <p><strong>Тип трансмиссии: </strong></p>
 <p><select name="f_12" id="f_12">
 <option value="Механическая КПП" data-cost="0000">Механика</option>
-<option value="Автоматическая КПП" data-cost="8500">Автомат</option>
+<option value="Автоматическая КПП" data-cost="6000">Автомат</option>
 </select></p>
 </div>
 </div>
