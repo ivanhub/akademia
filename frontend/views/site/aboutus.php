@@ -173,7 +173,7 @@ $this->params['breadcrumbs'][] = $title;
     'files' => [
         [
             'thumb' => '../images/thmb/structure-th.jpg',
-            'original' => 'http://samarapb.ru/documents/organization/structure.jpg',
+            'original' => 'https://samarapb.ru/documents/organization/structure.jpg',
             'title' => 'Удостоверение тракториста',
                'thumbOptions' => [
             'class' => 'img-responsive' ]
@@ -205,66 +205,66 @@ $this->params['breadcrumbs'][] = $title;
 <tr>
 <td>1.</td>
 <td>Устав образовательной организации</td>
-<td><a href="http://samarapb.ru/documents/organization/ustav.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/ustav.pdf">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>2.</td>
 <td>Лицензия на осуществление образовательной деятельности</td>
-<td><a href="http://samarapb.ru/documents/organization/licenzija.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/licenzija.pdf">Скачать</a></td>
 </tr>
 <tr>
 <td>3.</td>
 <td>Приложение к лицензии на осуществление образовательной деятельности</td>
-<td><a href="http://samarapb.ru/documents/organization/prilozhenie_k_licenzii.pdf" target="_self">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/prilozhenie_k_licenzii.pdf" target="_self">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>4.</td>
 <td>Приказ о выдаче лицензии</td>
-<td><a href="http://samarapb.ru/documents/organization/prikaz_o_vydache_licenzii.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/prikaz_o_vydache_licenzii.pdf">Скачать</a></td>
 </tr>
 <tr>
 <td>5.</td>
 <td>Положение о порядке организации образовательной деятельности</td>
-<td><a href="http://samarapb.ru/documents/organization/porjadok_organizacii_obrazovatelnoj_dejatelnosti.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/porjadok_organizacii_obrazovatelnoj_dejatelnosti.pdf">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>6.</td>
 <td>Положение о порядке предоставления платных образовательных услуг</td>
-<td><a href="http://samarapb.ru/documents/organization/platnye_obrazovatelnye_uslugi.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/platnye_obrazovatelnye_uslugi.pdf">Скачать</a></td>
 </tr>
 <tr>
 <td>7.</td>
 <td>Образец договора об оказании платных образовательных услуг</td>
-<td><a href="http://samarapb.ru/documents/organization/okazanii_platnyh_obrazovatelnyh_uslug.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/okazanii_platnyh_obrazovatelnyh_uslug.pdf">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>8.</td>
 <td>Правила внутреннего трудового распорядка</td>
-<td><a href="http://samarapb.ru/documents/organization/trudovoj_rasporjadok.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/trudovoj_rasporjadok.pdf">Скачать</a></td>
 </tr>
 <tr>
 <td>9.</td>
 <td>Отчет о самообследовании 2014г.</td>
-<td><a href="http://samarapb.ru/documents/organization/otchet_o_samoobsledovanii.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/otchet_o_samoobsledovanii.pdf">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>10.</td>
 <td>Стоимость обучения</td>
-<td><a href="http://samarapb.ru/documents/organization/stoimost_obuchenija.jpg">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/stoimost_obuchenija.jpg">Скачать</a></td>
 </tr>
 <tr>
 <td>11.</td>
 <td>Заключение ГИБДД</td>
-<td><a href="/documents/zakljuchenie_gibdd.pdf">Скачать</a></td>
+<td><a href="/documents/zakljuchenie-gibdd.pdf">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>12.</td>
 <td>Акт обследования учебно-материальной базы</td>
-<td><a href="http://samarapb.ru/documents/organization/akt_obsledovaniya_materialnoj_bazy.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/akt_obsledovaniya_materialnoj_bazy.pdf">Скачать</a></td>
 </tr>
 <tr><td>13.</td>
 <td>Отчет о самообследовании 2015г.</td>
-<td><a href="http://samarapb.ru/documents/organization/otchet_o_samoobsledovanii_2015.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/otchet_o_samoobsledovanii_2015.pdf">Скачать</a></td>
 </tr>
 <tr><td>14.</td>
 <td>Отчет о самообследовании 2016 г.</td>
@@ -298,7 +298,7 @@ $this->params['breadcrumbs'][] = $title;
 <p class="text">Платные образовательные услуги предоставляются в соответствии с условиями заключенного договора об оказании образовательных услуг. </p>
 <p class="text">Формы обучения определяются учебным центром «Академия» самостоятельно. Допускается сочетание различных форм получения образования (очная, очно-заочная, заочная)  и форм обучения (сетевые формы реализации образовательных программ, дистанционные образовательные технологии).<br>
 Образовательные услуги предоставляются на платной основе, на основании заявок от физических и юридических лиц. </p>
-<p><a href="http://samarapb.ru/documents/organization/Metodicheskie materialy.pdf">Методические материалы</a></p>
+<p><a href="https://samarapb.ru/documents/organization/Metodicheskie materialy.pdf">Методические материалы</a></p>
 <p></p><center><b><br>
 <h3>Обучение водителей транспортных средств категории В</h3>
 </b><p><b></b></p></center><p></p>
@@ -312,22 +312,22 @@ $this->params['breadcrumbs'][] = $title;
 <tr>
 <td>1.</td>
 <td>Программы профессионального обучения водителей категории «В»</td>
-<td><a href="http://samarapb.ru/documents/organization/kategorija_b.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/kategorija_b.pdf">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>2.</td>
 <td>Материалы для проведения промежуточной и итоговой аттестации</td>
-<td><a href="http://samarapb.ru/documents/organization/materialy_dlja_provedenija_promezhutochnoj_i_itogovoj_attestacii.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/materialy_dlja_provedenija_promezhutochnoj_i_itogovoj_attestacii.pdf">Скачать</a></td>
 </tr>
 <tr>
 <td>3.</td>
 <td>Методические рекомендации по организации образовательного процесса</td>
-<td><a href="http://samarapb.ru/documents/organization/metodicheskie_rekomendacii_po_organizacii_obrazovatelnogo_processa.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/metodicheskie_rekomendacii_po_organizacii_obrazovatelnogo_processa.pdf">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>4.</td>
 <td>Календарный учебный график</td>
-<td><a href="http://samarapb.ru/documents/organization/kalendarnyj_grafik.pdf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/kalendarnyj_grafik.pdf">Скачать</a></td>
 </tr>
 <tr>
 </tr></tbody>
@@ -370,7 +370,7 @@ $this->params['breadcrumbs'][] = $title;
    75/45
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy DO detej i vzroslyh/Sudovoditel malomernogo sudna.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy DO detej i vzroslyh/Sudovoditel malomernogo sudna.pdf">Скачать</a>
    </td>
 </tr>
 </tbody>
@@ -409,7 +409,7 @@ $this->params['breadcrumbs'][] = $title;
    190
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/1 Programma professional'noj podgotovki voditelej transportnyh sredstv kategorii B.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/1 Programma professional'noj podgotovki voditelej transportnyh sredstv kategorii B.pdf">Скачать</a>
    </td>
 </tr>
 <tr>
@@ -425,7 +425,7 @@ $this->params['breadcrumbs'][] = $title;
    60
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/2 Programma professional'noj perepodgotovki voditelej transportnyh sredstv s kategorii C na kategoriju B.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/2 Programma professional'noj perepodgotovki voditelej transportnyh sredstv s kategorii C na kategoriju B.pdf">Скачать</a>
    </td>
 </tr>
 <tr class="alt">
@@ -441,7 +441,7 @@ $this->params['breadcrumbs'][] = $title;
    64
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/3 Programma professional'noj perepodgotovki voditelej transportnyh sredstv s kategorii D na kategoriju B.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/3 Programma professional'noj perepodgotovki voditelej transportnyh sredstv s kategorii D na kategoriju B.pdf">Скачать</a>
    </td>
 </tr>
 <tr>
@@ -457,7 +457,7 @@ $this->params['breadcrumbs'][] = $title;
    16
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/4 Programma povyshenija kvalifikacii voditelej transportnyh sredstv kategorii V s avtomaticheskoj transmissiej.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/4 Programma povyshenija kvalifikacii voditelej transportnyh sredstv kategorii V s avtomaticheskoj transmissiej.pdf">Скачать</a>
    </td>
 </tr>
 <tr class="alt">
@@ -473,7 +473,7 @@ $this->params['breadcrumbs'][] = $title;
    130
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/5 Programma kategorii A.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/5 Programma kategorii A.pdf">Скачать</a>
    </td>
 </tr>
 <tr>
@@ -489,7 +489,7 @@ $this->params['breadcrumbs'][] = $title;
    130
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/6 Programma kategorii A1.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/6 Programma kategorii A1.pdf">Скачать</a>
    </td>
 </tr>
 <tr class="alt">
@@ -505,7 +505,7 @@ $this->params['breadcrumbs'][] = $title;
    188
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/7 Programma kategorija B avtomat.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/7 Programma kategorija B avtomat.pdf">Скачать</a>
    </td>
 </tr>
 <tr>
@@ -521,7 +521,7 @@ $this->params['breadcrumbs'][] = $title;
    202
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/8 voditel' mototransport sredstv, kat. AI.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/8 voditel' mototransport sredstv, kat. AI.pdf">Скачать</a>
    </td>
 </tr>
 <tr class="alt">
@@ -537,7 +537,7 @@ $this->params['breadcrumbs'][] = $title;
    хх
    </td>
 <td>
-<a href="http://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/x.pdf">Скачать</a>
+<a href="https://samarapb.ru/documents/organization/titlepage/Programmy%20professional'nogo%20obuchenija/x.pdf">Скачать</a>
    </td>
 </tr>
 
@@ -564,12 +564,12 @@ $this->params['breadcrumbs'][] = $title;
 <tr>
 <td>1.</td>
 <td>Федеральный образовательный стандарт «Водитель транспортного средства категории В»</td>
-<td><a href="http://samarapb.ru/documents/organization/federalnyj_standart.doc">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/federalnyj_standart.doc">Скачать</a></td>
 </tr>
 <tr class="alt">
 <td>2.</td>
 <td>ФГОС ВПО Техносферная безопастность бакалавр</td>
-<td><a href="http://samarapb.ru/documents/organization/fgos_vpo_tehnosferaja_bezopasnost_bakalavr.rtf">Скачать</a></td>
+<td><a href="https://samarapb.ru/documents/organization/fgos_vpo_tehnosferaja_bezopasnost_bakalavr.rtf">Скачать</a></td>
 </tr>
 </tbody>
 </table>

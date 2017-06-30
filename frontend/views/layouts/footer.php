@@ -122,7 +122,7 @@ use yii\helpers\Html;
 <div class="rangelogo range-xs-center range-xs-middle text-center">
 <!-- <img class="minilogo" src="http://front.loc/images/minlogo.png" align="left"> -->
 <p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ДПО "Академия"</span>
- <a href="privacy-policy-link.html" class="link-decoration-none text-hover-primary text-gray-light">
+ <a href="" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
 
 
