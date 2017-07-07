@@ -3,7 +3,7 @@
 namespace frontend\models;
 
 use Yii;
-
+use yii\helpers\Html;
 /**
  * This is the model class for table "forma".
  *
@@ -68,7 +68,7 @@ Yii::$app->mailer->compose()->setFrom(Yii::$app->params['supportEmail'])->setTo(
         ->setTextBody($this->name.' '.$this->phone.' '.$this->packet)
         ->send();
 
-    if(Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => $this->body, 'phone' => $this->phone, 'name'=>$this->name, 'pack' => $this->pack, 'packet' => $this->packet, 'fromUrl' => $this->fromUrl, 'total' => $this->total])
+    if(Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => Html::encode($this->body), 'phone' => $this->phone, 'name'=>$this->name, 'pack' => $this->pack, 'packet' => $this->packet, 'fromUrl' => $this->fromUrl, 'total' => $this->total])
         ->setFrom(Yii::$app->params['supportEmail'])
         ->setTo(Yii::$app->params['orderEmail'])
         ->setSubject('Заявка с сайта Росавтоакадемия.РФ' )
