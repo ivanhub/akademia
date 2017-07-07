@@ -127,7 +127,7 @@ $this->params['breadcrumbs'][] = $title;
             'original' => '/images/pb/udostoverenie_UGADN.jpg',
             'title' => 'Удостоверение УГАДН',
              'thumbOptions' => [
-            'class' => 'img-responsive' ]
+            'class' => 'img-responsive', 'alt' => '.  Удостоверение об утверждении курсов подготовки. Автошкола «Росавтоакадемия»', 'title' => "'Удостоверение УГАДН. Образец"  ]
       
         ],
         

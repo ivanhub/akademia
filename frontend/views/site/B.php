@@ -74,7 +74,7 @@ $this->params['breadcrumbs'][] = $title;
 
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px"  alt="Пакет «Стандарт». Автошкола в Самаре «Росавтоакадемия»" title="Пакет «Стандарт»"></div>
           <div class="mt5">
   <p style="margin-bottom:0px;margin-top:15px;">Удобен для всех</p>
   <p>&nbsp;</p>
@@ -144,7 +144,7 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px" alt="Пакет «Дневной». Права на автомобиль в Самаре" title="Пакет «Дневной»"></div>
           <div class="mt5">
 
 
@@ -184,7 +184,7 @@ $this->params['breadcrumbs'][] = $title;
 
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80px"  alt="Пакет «Индивидуальный». Права на авто в Самаре" title="Пакет «Индивидуальный»"></div>
           <div class="mt5">
 <p class="linet">Вы выбираете,<br/>Мы исполняем </p>
 <p style="margin-top:0px;margin-bottom: -7px;"><b style="color:darkgreen;font-size:175%"> 25 000 р. </b></p> 
@@ -279,14 +279,14 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >
-  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/theory1.png"></div>
+  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/theory1.png" alt="Теория. Автошкола в Самаре" title="Теория: 134 ч."></div>
   <div class="col-sm-7 centerxs vc "><p><b>Теория</b></p> <p>134 часа теоретических занятий, внутренний экзамен.</p>  
   <p>Консультации и тестирование с психологом.</p>
   <p>Обучение преподавателем с многолетним стажем.</p>
    </div>
  </div></div><div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:100;infinite:false;animationClass:animated;duration:1500;callback:;" >
-  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/drive1.png"></div>
+  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/drive1.png" alt="Вождение. Автошкола в Самаре" title="Вождение: 18 ч"></div>
   <div class="col-sm-7 centerxs vc"><p><b>Вождение</b></p> <p>56 часов вождения. </p>
   <p>+2 часа подготовки к сдаче экзаменов в ГИБДД (внутренний экзамен).</p>
   <p>Учебные маршруты по всему городу.</p>
@@ -295,12 +295,12 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:300;infinite:false;animationClass:animated;duration:1500;callback:;" >
-<div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/gibdd1.png"></div>
+<div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/gibdd1.png" alt="Экзамен в ГИБДД. Автошкола в Самаре" title="Экзамен в ГИБДД"></div>
   <div class="col-sm-7 centerxs vc"> <p><b>Экзамен в ГИБДД</b></p> <p>Дни сдачи экзаменов в ГИБДД: каждый второй и четвертый четверг месяца.</p></div>
   </div></div>
 <div class="forsafari">
 <div class="row text-center uslv"  data-ros="flipInX"   data-options="delay:200;infinite:false;animationClass:animated;duration:1500;callback:;" >
-  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/clock1.png"></div>
+  <div class="col-sm-offset-2 col-sm-2 text-center vc"><img src="../../images/pics/clock1.png" alt="Срок обучения. Автошкола в Самаре" title="Срок обучения: 3 мес."></div>
   <div class="col-sm-7 centerxs vc"><p><b>Срок обучения</b></p> <p>3 месяца </p></div>
   </div></div>
 </div>
@@ -457,18 +457,18 @@ $this->params['breadcrumbs'][] = $title;
 <p class="poryadok green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
 Необходимые документы для поступления в Автошколу:</p>
 <center class="block-documents">
-<p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:300;duration: 400;callback:;" style="font-weight:700;color: green;"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Фотографии (3х4) - 2 шт.</p>
-<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;"  src="../images/photos.png" width=38>
-<p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:400;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Паспорт РФ</p>
-<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/passport.png" width=38>
-<p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:500;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Медицинская справка</p>
-<img class=" darker20" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/spravka.jpg" width=19>
+<p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:300;duration: 400;callback:;" style="font-weight:700;color: green;"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;" alt="2 фотографии 3х4. Автошкола «Росавтоакадемия»" title="Фотографии"> Фотографии (3х4) - 2 шт.</p>
+<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;"  src="../images/photos.png" width=38 alt="Фотографии (3х4) - 2 шт. Права на автомобиль в Самаре" title="Фотографии (3х4) - 2 шт.">
+<p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:400;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;" alt="Паспорт Рф. Автошкола «Росавтоакадемия»" title="Паспорт"> Паспорт РФ</p>
+<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/passport.png" width=38  alt="Паспорт РФ. Права на авто в Самаре" title="Паспорт РФ">
+<p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:500;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;" alt="Медицинская справка. Права категории В в Самаре" title="Мед. справка"> Медицинская справка</p>
+<img class=" darker20" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/spravka.jpg" width=19 alt="Медицинская справка. Права на машину в Самаре" title="Медицинская справка">
 <p class="green" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:500;duration: 1000;callback:;"  style="font-size:20px;padding-top:20px;font-weight:bold;"">Может понадобится:</p>
 </center>
 <div  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:600;duration: 1000;callback:;"  class="text-center" style="width:58%;margin-left: auto;margin-right: auto;">
-<p style="font-size:16px;line-height: 1;" align="left"><img  class=" darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия водительского удостоверения (при открытии новой категории)</p>
-<p style="font-size:16px;line-height: 1;" align="left"><img  class="darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия свидетельства о рождении (сменившим фамилию)</p>
-<p style="font-size:16px;line-height: 1;" align="left"><img  class=" darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;">Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества.</p>
+<p style="font-size:16px;line-height: 1;" align="left"><img  class=" darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;" alt="Ксерокопия водительского. Открыть категорию B">Ксерокопия водительского удостоверения (при открытии новой категории)</p>
+<p style="font-size:16px;line-height: 1;" align="left"><img  class="darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;" alt="Ксерокопия свидетельства о рождении. Открыть категорию Б">Ксерокопия свидетельства о рождении (сменившим фамилию)</p>
+<p style="font-size:16px;line-height: 1;" align="left"><img  class=" darker" src="../images/arrow.png" width="8" style="margin-top:-3px;margin-left:-2px;margin-right:5px;" alt="Ксерокопия документа. Открыть категорию В">Ксерокопия документа, подтверждающего изменение фамилии, имени и отчества.</p>
 </div>
 <!-- <div class="col-sm-offset-1 col-md-offset-1 col-xs-11 col-sm-10 col-md-10" style="">
 <p style="font-size:16px;line-height: 1;padding-left:30px;">Ксерокопия свидетельства о рождении (лицам моложе 16 лет, либо сменившим фамилию)</p>

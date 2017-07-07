@@ -60,35 +60,35 @@ $this->params['breadcrumbs'][] = $title;
 <td class="td">А</td>
 <td>AI — внедорожные мототранспортные средства — снегоходы, квадроциклы (дистанционное обучение).</td>
 <td align="center">
-<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/a_1.png" alt="" width="100" height="80"></p>
+<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/a_1.png" alt="Внедорожные мототранспортные средства. Школа вождения г. Самара" title="Внедорожные мототранспортные средства" width="100" height="80" ></p>
 </td>
 </tr>
 <tr>
 <td class="td">B</td>
 <td>Гусеничные и колесные машины, двигатель мощностью до 25,7 кВт.</td>
 <td align="center">
-<p style="text-align: center;"><img src="../images/pics/cat.b.png" alt="" width="100" height="80"></p>
+<p style="text-align: center;"><img src="../images/pics/cat.b.png" alt="" width="100" height="80" alt="Гусеничные и колесные машины. Школа вождения г. Самара" title="Гусеничные и колесные машины"></p>
 </td>
 </tr>
 <tr class="">
 <td class="td">С</td>
 <td>Колесные машины с двигателем мощностью от 25,7 до 110,3 кВт.</td>
 <td align="center">
-<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/c.png" alt="" width="100" height="80"></p>
+<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/c.png" alt="" width="100" height="80"  alt="Колесные машины с двигателем мощностью от 25,7 до 110,3 кВт. Школа вождения г. Самара" title="Колесные машины с двигателем мощностью от 25,7 до 110,3 кВт."></p>
 </td>
 </tr>
 <tr>
 <td class="td">D</td>
 <td>Колесные машины с двигателем мощностью свыше 110,3 кВт.</td>
 <td align="center">
-<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/d.png" alt="" width="100" height="80"></p>
+<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/d.png" alt="" width="100" height="80"  alt="Колесные машины с двигателем мощностью свыше 110,3 кВт. Школа вождения г. Самара" title="Колесные машины с двигателем мощностью свыше 110,3 кВт."></p>
 </td>
 </tr>
 <tr class="alt">
 <td class="td">E</td>
 <td>Гусеничные машины с двигателем мощностью свыше 25,7 кВт.</td>
 <td align="center">
-<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/e.png" alt="" width="100" height="80"></p>
+<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/e.png" alt="" width="100" height="80"  alt="Гусеничные машины. Школа вождения г. Самара" title="Гусеничные машины"></p>
 </td>
 </tr>
 </tbody>
@@ -104,7 +104,7 @@ $this->params['breadcrumbs'][] = $title;
             'original' => 'http://samarapb.ru/documents/avto/yd.png',
             'title' => 'Удостоверение тракториста',
              'thumbOptions' => [
-            'class' => 'img-responsive' ]
+            'class' => 'img-responsive', 'alt' => 'Удостоверение тракториста. Школа вождения «Росавтоакадемия»', 'title' => "Удостоверение тракториста"  ]
       
         ],
         
@@ -123,7 +123,7 @@ $this->params['breadcrumbs'][] = $title;
             'original' => 'http://samarapb.ru/documents/avto/vr.png',
             'title' => 'Временное разрешение',
              'thumbOptions' => [
-            'class' => 'img-responsive2' ]
+            'class' => 'img-responsive2', 'alt' => 'Временное разрешение. Школа вождения «Росавтоакадемия»', 'title' => "Временное разрешение"   ]
         ],
     ]
 ]); ?>
@@ -139,9 +139,9 @@ $this->params['breadcrumbs'][] = $title;
         [
             'thumb' => '../images/thmb/sv-th.jpg',
             'original' => 'http://samarapb.ru/documents/avto/sv.png',
-            'title' => 'Временное разрешение',
+            'title' => 'Свидетельство о регистрации машины',
              'thumbOptions' => [
-            'class' => 'img-responsive2' ]
+            'class' => 'img-responsive2', 'alt' => 'Свидетельство о регистрации машины. Школа вождения «Росавтоакадемия»', 'title' => "Свидетельство о регистрации машины"   ]
         ],
     ]
 ]); ?>

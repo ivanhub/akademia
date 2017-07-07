@@ -64,8 +64,8 @@ $this->params['breadcrumbs'][] = $title;
 <td style="background-color: transparent;"></td>
 </tr>
 <tr>
-<td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/boat.png" class="img-responsive" alt="" height="136" width="246"><p></p>
-</td><td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/watercraft.png" class="img-responsive" alt="" width="240" height="136"></td>
+<td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/boat.png" class="img-responsive" alt="" height="136" width="246" alt="Судоводитель катера, лодки, гидроцикла" title="Права на лодку, катер"><p></p>
+</td><td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/watercraft.png" class="img-responsive" alt="" width="240" height="136" alt="Права на лодку, катер, гидроцикл" title="Права на гидроцикл"></td>
 </tr>
 
 </tbody>
@@ -80,12 +80,12 @@ $this->params['breadcrumbs'][] = $title;
 
 
 <div class="row text-center uslv">
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/color_books.png" width="55px"></div>
+  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/color_books.png" width="55px"  alt="Теоретическая часть экзамена. Росавтоакадемия. Судовождение" title="Теоретическая часть"></div>
   <div class="col-xs-7"><p class="texts"><b>Теоретическая часть</b></p>
    </div>
 </div>
 <div class="row text-center uslv">
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/steer.png" width="60px"></div>
+  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/steer.png" width="60px"  alt="Демонстрация практических навыков управления судном. Росавтоакадемия. Судовождение " title="Практические навыки управления судном"></div>
   <div class="col-xs-7"><p class="texts"><b>Демонстрация практических навыков управления судном</b></p>
 </div>
 </div>

@@ -5,7 +5,7 @@ use yii\helpers\Html;
 
 <div class=" foot1">
  <div class="foot1__preload-hide">
-   <img src="../../img/phone_icon.png" width="1" height="1" alt="Hover Phone Icon RosAvtoAkademia" />
+   <img src="../../img/phone_icon.png" width="1" height="1" title="Школа вождения, обучение вождению" alt='Автошкола "Росавтоакадемия" номер телефона' />
  </div>
 
 <div class="row">
@@ -145,24 +145,22 @@ var div = document.createElement('div');
 div.className = "greenlinebot";
 
   document.getElementsByClassName("navbar-header")[0].appendChild(div);
-
+  var allowSubmit = true;
   $('form').on('beforeSubmit', function(e) {
+
+            if (allowSubmit) 
+{
+    allowSubmit = false; 
     var form = $(this);
     var formData = form.serialize();
     $.ajax({
-       // url: form.attr("action"),
+     // url: form.attr("action"),
         type: form.attr("method"),
         data: formData,
         success: function (result) {
         yaCounter43279694.reachGoal("click123"); 
         ga('send', 'event', 'forma', 'ok');
-//     $("#w00").addClass('animated');
-//                                  $('#idmodal').modal('toggle');
-//                      setTimeout(function(){        $("#w00").removeClass('animated');
-//                        }, 3000);
 
-  //console.log(result);
-//if (result == 'true') {
 
 var modalContainer = $('#idmodal');
 var modalBody = modalContainer.find('.modal-body');
@@ -178,20 +176,16 @@ $("#idmodal").modal('hide');
 //$('#w00').css('visibility', 'hidden');
 }, 4000);
 
-//}
-
-//else { modalBody.html(result).hide().fadeIn();                }
-
-
         },
         error: function () {
             alert("Something went wrong");
         }
     });
+
+  }
 }).on('submit', function(e){
     e.preventDefault();
-});
-
+}); 
 
 /*
 "use strict";
@@ -232,7 +226,7 @@ var yaParams = {ip: "<? echo $_SERVER['REMOTE_ADDR'];?>"};
 }
 </script>
 <!-- Yandex.Metrika counter -->
-<noscript><div><img src="https://mc.yandex.ru/watch/43279694" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+<noscript><div><img src="https://mc.yandex.ru/watch/43279694" style="position:absolute; left:-9999px;" alt="Обучение вождению" title="Открыть категорию на автомобиль и мотоцикл." /></div></noscript> 
 <!-- /Yandex.Metrika counter -->
 
 

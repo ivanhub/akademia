@@ -215,7 +215,7 @@ Leftmenu::widget()
       <div class="panel-heading">
         <h4 class="panel-title text-center">
           <a data-toggle="collapse" data-parent="#accordion" href="#instructor_training">
-          <img src="../images/pics/q4.png" width="50" style="margin-right:15px">Курс "Обучение инструкторов по вождению"</a>
+          <img src="../images/pics/q4.png" width="50" style="margin-right:15px" alt='Курс "Обучение инструкторов по вождению". Автошкола г. Самара' title="Обучение инструкторов по вождению">Курс "Обучение инструкторов по вождению"</a>
         </h4>
       </div>
       <div id="instructor_training" class="panel-collapse collapse">
@@ -246,7 +246,7 @@ Leftmenu::widget()
       <div class="panel-heading"  style="padding: 15px 15px;">
         <h4 class="panel-title text-center">
           <a data-toggle="collapse" data-parent="#accordion" href="#Arenda_avtodroma">
-          <img src="../images/pics/q22.png" width="55" style="margin-right:15px">Аренда автодрома</a>
+          <img src="../images/pics/q22.png" width="55" style="margin-right:15px"  alt="Аренда автодрома в Самаре" title="Аренда автодрома">Аренда автодрома</a>
         </h4>
       </div>
       <div id="Arenda_avtodroma" class="panel-collapse collapse">
@@ -265,7 +265,7 @@ Leftmenu::widget()
         <div class="panel panel-default">
       <div class="panel-heading" style="padding: 15px 15px;">
         <h4 class="panel-title text-center">
-          <a data-toggle="collapse" data-parent="#accordion" href="#consultation"><img src="../images/pics/q44.png" width="50" style="margin-right:15px">Индивидуальные занятия с инструктором</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#consultation"><img src="../images/pics/q44.png" width="50" style="margin-right:15px" alt="Индивидуальные занятия с инструктором. Автошкола г. Самара «Росавтоакадемия»" title="Индивидуальные занятия с инструктором">Индивидуальные занятия с инструктором</a>
         </h4>
       </div><a name="consultation"></a>
       <div id="consultation" class="panel-collapse collapse">
