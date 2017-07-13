@@ -32,9 +32,9 @@ class SiteController extends Controller
         ];
     }
 
-      public function actionTestMailer() {
-        \app\models\User::findByUsername('admin')->sendMail('example', 'Пример письма', ['paramExample' => '123']);
-    }
+  //    public function actionTestMailer() {
+   //     \app\models\User::findByUsername('admin')->sendMail('example', 'Пример письма', ['paramExample' => '123']);
+   // }
 
 
     public function actionIndex()
@@ -73,6 +73,7 @@ class SiteController extends Controller
          
         return $this->render('aboutus');
     }
+
 
        public function actionAutomotoschool()
     {
