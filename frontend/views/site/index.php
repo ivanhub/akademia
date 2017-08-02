@@ -70,47 +70,65 @@ $this->registerMetaTag([
 
 <div class="row rowm">
 
-<div class="col-xs-6  box1  cl-effect-12">
+<div class="col-md-4 col-xs-12 col-sm-6 box1  cl-effect-12">
 <div class="fill">
+
+<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_one text-center">Автомотошкола</p></div>
 <a style="display:block" href="/driving-school">
-<img class="hvr-bounce-in img-responsive" src="../images/c1.png" alt="Автошкола г. Самара" title="Автошкола">
-<p class="blocktitle anim_one text-center">Автомотошкола</p></a>
+  <img class=" hvrbi img-responsive" src="../images/c1.png" alt="Автошкола г. Самара" title="Автошкола" width="55%" >
+</a>
 </div>
 </div>
+
 <div class="forsafari">
-<div class="col-xs-6 box2 cl-effect-12">
+<div class="col-md-4 col-xs-12 col-sm-6 box1 cl-effect-12">
 <div class="fill2">
-<a style="display:block" href="/self-propelled-machinery">
-<img class="hvr-wobble-to-top-right img-responsive" src="../images/c2.png"  alt="Самоходная техника" title="Права на спецтехнику">
-<p class="blocktitle anim_two text-center">Самоходная техника</p>
+<div class="block-mestoONLY hvr-wobble-top"><p class="blocktitle anim_two text-center">Защитное вождение</p></div><a style="display:block" href="/self-propelled-machinery">
+<img class=" img-responsive" src="../images/c4.png"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="65%">
 </a>
 </div>
   </div></div>
 
 
+<div class="forsafari">
+<div class="col-md-4 col-xs-12 col-sm-6 box2 box2n cl-effect-12">
+<div class="">
+<div class="block-mestoONLY"><a style="display:block" href="/self-propelled-machinery">
+<img class="hvr-wobble-to-top-right img-responsive" src="../images/c2.png"  alt="Самоходная техника" title="Права на спецтехнику"  width="74%" >
+<p class="blocktitle anim_two text-center">Самоходная техника</p>
+</a></div>
+</div>
+  </div></div>
 
 
 
  <!--  <div class="clearfix visible-sm"></div> -->
   <div class="forsafari">
-<div class="col-xs-6  box3  cl-effect-12">
+<div class="col-md-4 col-xs-12 col-sm-6 box3 cl-effect-12">
 <div class="fill">
-<a style="display:block" href="/navigation">
-<img class="boat img-responsive" src="../images/c3.png"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл" >
+<div class="block-mestoONLY"><a style="display:block" href="/navigation">
+<img class="boat img-responsive" src="../images/c3-34.png"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="74%">
+<p class="blocktitle anim_three text-center">Курсы по ДОПОГ</p>
+</a></div>
+  </div></div></div>
+
+    <div class="forsafari">
+<div class="col-md-4 col-xs-12 col-sm-6 box3 box5 cl-effect-12">
+<div class="fill">
+<div class="block-mestoONLY"><a style="display:block" href="/navigation">
+<img class="boat img-responsive" src="../images/c3.png"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="74%">
 <p class="blocktitle anim_three text-center">Судовождение</p>
 </a></div>
-  </div></div>
-<div class="col-xs-6  box4  cl-effect-12">
+  </div></div></div>
+
+<div class="col-md-4 col-xs-12 col-sm-6 box4 box6  cl-effect-12">
 <div class="fill2">
-<a style="display:block;" href="/additional-services"> 
-<img class="hvr-wobble-top img-responsive" src="../images/c4.png"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги">
-<p class="blocktitle anim_four text-center">Дополнительные услуги</p>
+<div class="block-mestoONLY"><a style="display:block;" href="/additional-services"> 
+<img class="hvr-wobble-top img-responsive" src="../images/c4.png"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="74%">
+<p class="blocktitle anim_four text-center">Спецсигналы</p>
 </a></div>
-</div>
+</div></div>
 
-
-
-<br> 
 <!-- 
 
   <div class="col-sm-12 col-md-3 right-aside">
@@ -158,8 +176,15 @@ $this->registerMetaTag([
 </div> -->
 </div>
 
+
+
+
+<br> 
 <div class="mtwrap">
-<p class="mtext2" style="clear:both; text-align:justify">В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
+<p class="m50 mtext4" >Единственная в России Автошкола 
+с международной<br/> аккредитацией <a href="https://www.rospa.com" target="_blank" style="color:">RoSPA</a> по безопасному вождению!</p>
+<p class="mtext2" style="clear:both; text-align:justify">
+В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
 Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
 Проанализировав накопившийся опыт, изучив европейскую систему подготовки водителей, 
 взяв на вооружение передовые технологии, мы разработали свои, адаптированные к нашим реалиям, 
@@ -179,7 +204,19 @@ $this->registerMetaTag([
 <div class="row row2">
 <div class="col-md-4 one-third third offscreen">
 <div class="akciya">
-<p class="start-akciya" style="padding-top:20px; margin-bottom:0">15 июля - 31 июля</p>
+<p class="start-akciya" style="padding-top:20px; margin-bottom:0"><?php
+$months = explode("|", '|января|февраля|марта|апреля|мая|июня|июля|августа|сентября|октября|ноября|декабря');
+$month = preg_replace("~\%bg~", $months[date('n', time())], '&nbsp;%bg');
+$date1 = date('d');
+if ($date1 >= 15) echo "15";
+elseif ($date1 < 15) echo "1";
+echo $month;
+?> - <?php
+$date = date('d');
+if ($date >= 15) echo date('t');
+elseif ($date < 15) echo "15";
+echo $month;
+?></p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
 <p class="akciya-h2" style="margin-top:-7px">Обучение на<br/>категорию А</p>
 <p class="outlineA" style="color:#f9fa83;margin-top:-7px">Всего:</p>

@@ -111,7 +111,13 @@ $this->params['breadcrumbs'][] = $title;
           <div class="butt"><img src="../images/pics/ok.png" width="80px" alt="Пакет «Стандарт». Мотошкола в Самаре «Росавтоакадемия»" title="Пакет «Стандарт»"></div>
           <div class="mt5">
        <p style="margin-bottom:0px">Удобен для всех<br/><b style="color:#f10d09;font-size: calc(14px + 0.35vw);">АКЦИЯ <span style="font-size:130%">8000</span> р.</b></p>
-       <p style="margin-bottom: -6px;margin-top: -6px;font-size: calc(8.5px + 0.35vw);">(только до 31 июля)</p>
+       <p style="margin-bottom: -6px;margin-top: -6px;font-size: calc(8.5px + 0.35vw);">(только до <?php
+$months = explode("|", '|января|февраля|марта|апреля|мая|июня|июля|августа|сентября|октября|ноября|декабря');
+$month = preg_replace("~\%bg~", $months[date('n', time())], '&nbsp;%bg');
+$date = date('d');
+if ($date >= 15) echo date('t'),$month; 
+elseif ($date < 15) echo "15",$month;
+?>)</p>
 <p style="margin-top:7px;margin-bottom: 2px;"><b style="color:darkgreen;text-decoration:line-through;font-size:155%">10 000 р.</b> </p>
 <p style="height:5px;">&nbsp;</p>
 

@@ -30,6 +30,7 @@ class Forma extends \yii\db\ActiveRecord
         return [
             [['name', 'phone', 'fromfield'], 'required','message' => 'Заполните поле'],
             [['fromfield'], 'integer'],
+            [['info'], 'string', 'max' => 1000],
             [['body', 'total'], 'string'],
             [['name', 'pack'], 'string', 'max' => 85],
             [['packet'], 'string', 'max' => 50],
@@ -54,10 +55,16 @@ class Forma extends \yii\db\ActiveRecord
             'packet' => 'Packet',
             'fromUrl' => 'FromUrl',
             'total' => 'Total',
-            'date' => 'Date',
-
-
+            'info' => 'Info',
+            'date' => 'Date'
+            
         ];
+    }
+
+    public function checkSpam()
+    {
+        if (empty($this->info)) {  return true; } 
+        else {  return false; }
     }
 
     public function sendEmail()

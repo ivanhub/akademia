@@ -59,15 +59,51 @@ $this->params['breadcrumbs'][] = $title;
    
 <h1 class="text-center"><?= Html::encode($title) ?></h1>
 <br/>
-<p> Существенное преимущество дистанционных занятий 
-- это возможность обучения в любое время и в любом месте. </p>
-<p>Можно выбрать комбинированный вариант, включающий дистанционное обучение и живое общение с преподавателем
- в лекционном зале. Таким образом система удаленных лекций и традиционные методы преподавания будут гармонично
-  дополнять друг друга.</p>
 
-<p>При  прохождении дистанционного обучение действует скидка на теоретический курс. </p>
+<!--
+<div class="boxxx">
+ <center><h2>Акция</h2></center>
+<div class="boxx">
+    <div class="border-1"></div>
+    <div class="border-2"></div>
+    <div class="contentt">
+        dfdfasdfasdfadsfasdf
+    </div>
+</div>
+</div>-->
+
+<div class="container2">
+  <div class="uniqlo">
+    <div class="product">
+      <div class="product-hover"></div>
+<div class="stock">
+                                    <div class="wraph2"><h2>Акция</h2></div>
+                                    <div class="clear"></div>
+                                    <h4 abp="2242">В автошколе проходит акция: теория и пакет ГИБДД <span abp="2243">БЕСПЛАТНО! </span></h4>
+<div class="clear" abp="2244"></div>
+<div class="deal-info-head" abp="2246">
+<div class="deal-period" abp="2247">
+<div abp="2248">Период действия: <strong abp="2249">по 24 июля</strong></div>
+</div>
+<div class="deal-countdown" title="До окончания акции" data-dateto="1500929999">
+        <span class="days">0</span>
+        <span class="hours">9</span>:<span class="minutes">12</span>:<span class="seconds">1</span>
+    </div>
+</div>
+<div class="stock_info" abp="2250">
+<div abp="2251"><strong abp="2252">Спешите!</strong></div>
+<div abp="2253">
+<ul abp="2254">
+<li abp="2255"><span abp="2256">Обучение</span> <i class="m_1" abp="2257"></i> <strong abp="2258">от 21 000 руб.</strong></li>
+<li abp="2259"><span abp="2260">Теория</span> <i class="m_2" abp="2261"></i> <strong abp="2262">бесплатно!</strong></li>
+<li abp="2263"><span abp="2264">ГИБДД</span> <i class="m_3" abp="2265"></i> <strong abp="2266">бесплатно!</strong></li>
+</ul>
+</div>
+<div abp="2267"><a class="e_btn_calc" href="" abp="2268"> Забронировать место в группе </a></div>
+</div>
+                                </div> </div></div></div>
+
 <br/>
-
-
+<br/>
 </div>
 

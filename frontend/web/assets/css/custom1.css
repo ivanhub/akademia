@@ -472,26 +472,103 @@ span.arrow {
   }
 }
 
-#index .cl-effect-12:hover .hvr-bob,#index  .cl-effect-12:focus .hvr-bob,#index  .cl-effect-12:active .hvr-bob{
-  -webkit-animation-name: hvr-wobble-skew,hvr-bob-float, hvr-bob;
-  animation-name: hvr-wobble-skew,hvr-bob-float, hvr-bob;
-  -webkit-animation-duration: 1s,.3s, 1.5s;
-  animation-duration: 1s,.3s, 1.5s;        
 
 
-  -webkit-animation-delay: .2s, 2.4s, 2.6s;
-  animation-delay: .2s, 2.4s, 2.6s;
+
+
+
+@-webkit-keyframes hvr-bob2 {
+  0% {
+    -webkit-transform: translateY(-3px) skew(17deg);
+    transform: translateY(-3px) skew(17deg);
+  }
+  50% {
+    -webkit-transform: translateY(1px) skew(17deg);
+    transform: translateY(1px) skew(17deg);
+  }
+  100% {
+    -webkit-transform: translateY(-3px) skew(17deg);
+    transform: translateY(-3px) skew(17deg);
+    opacity:1;
+  }
+}
+@keyframes hvr-bob2 {
+  0% {
+    -webkit-transform: translateY(-3px) skew(17deg);
+    transform: translateY(-3px) skew(17deg);
+  }
+  50% {
+    -webkit-transform: translateY(1px) skew(17deg);
+    transform: translateY(1px) skew(17deg);
+  }
+  100% {
+    -webkit-transform: translateY(-3px) skew(17deg);
+    transform: translateY(-3px) skew(17deg);
+    opacity:1;
+  }
+}
+@-webkit-keyframes hvr-bob-float2 {
+  100% {
+    -webkit-transform: translateY(-3px) skew(17deg);
+    transform: translateY(-3px) skew(17deg);
+    opacity:1;
+  }
+}
+@keyframes hvr-bob-float2 {
+  100% {
+    -webkit-transform: translateY(-3px) skew(17deg);
+    transform: translateY(-3px) skew(17deg);
+    opacity:1;
+  }
+}
+
+
+
+#index .block-mestoONLY:hover .hvr-bob,#index  .block-mestoONLY:focus .hvr-bob,#index  .block-mestoONLY:active .hvr-bob{
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;        
+
+
+  -webkit-animation-delay:  .2s, .4s;
+  animation-delay:  .2s, .4s;
 
 /*  -webkit-animation-delay: .2s, 2.2s, 2.4s;
   animation-delay: .2s, 2.2s, 2.4s;*/
-  -webkit-animation-timing-function: ease-in-out, ease-out, ease-in-out;
-  animation-timing-function: ease-in-out, ease-out, ease-in-out;
-  -webkit-animation-iteration-count: 1,1, infinite;
-  animation-iteration-count: 1,1, infinite;
+  -webkit-animation-timing-function:  ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
 
-  -webkit-animation-direction: normal, normal, alternate;
-  animation-direction: normal, normal, alternate;
+  -webkit-animation-direction:  normal, alternate;
+  animation-direction: normal, alternate;
 }
+
+
+
+#index .box1 .block-mestoONLY:hover .hvr-bob,#index  .box1  .block-mestoONLY:focus .hvr-bob,#index  .box1  .block-mestoONLY:active .hvr-bob
+{
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;        
+
+
+  -webkit-animation-delay:  .2s, .4s;
+  animation-delay:  .2s, .4s;
+
+/*  -webkit-animation-delay: .2s, 2.2s, 2.4s;
+  animation-delay: .2s, 2.2s, 2.4s;*/
+  -webkit-animation-timing-function:  ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+
+  -webkit-animation-direction:  normal, alternate;
+  animation-direction: normal, alternate;
+}
+
 
 
 
