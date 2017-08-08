@@ -52,18 +52,24 @@ $this->params['breadcrumbs'][] = $title;
 <div class="text-center">
 
 
-<div class="col-xs-6">
+<div class="col-xs-6 col-sm-6">
  <div class="blockBB AA1">
  <a href="/driving-school/A"  title="Выберите категорию">
  <img class="img-responsive" src="../../images/pics/AA.png" style="width:100%"  title="Категория А" alt="Категория А. Мотошкола Самара">
    </a></div></div>
 
-<div class="col-xs-6">
+<div class="col-xs-6 col-sm-6">
  <div class="blockBB BB1">
  <a href="/driving-school/B">
  <img  style="width:100%" class="B1 img-responsive" src="../../images/pics/b-l.png" title="Категория В"  alt="Категория В. Автошкола в Самаре">
  </a>
 </div></div>
+<!--<div class="col-xs-12 col-sm-4">
+ <div class="blockBB BB1">
+ <a href="/driving-school/B">
+ <img  style="width:100%" class="B1 img-responsive" src="../../images/pics/b-l.png" title="Категория В"  alt="Категория В. Автошкола в Самаре">
+ </a>
+</div></div>-->
 
 </div>
 </div>

@@ -73,61 +73,72 @@ $this->registerMetaTag([
 <div class="col-md-4 col-xs-12 col-sm-6 box1  cl-effect-12">
 <div class="fill">
 
-<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_one text-center">Автомотошкола</p></div>
-<a style="display:block" href="/driving-school">
-  <img class=" hvrbi img-responsive" src="../images/c1.png" alt="Автошкола г. Самара" title="Автошкола" width="55%" >
+<a href="/driving-school"> <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_one text-center">Автомотошкола</p></div>
+<div class="aa">
+  <img class="img-responsive" src="../images/css1-230.gif" alt="Автошкола г. Самара" title="Автошкола" width="200px">
+</div>
 </a>
 </div>
 </div>
 
-<div class="forsafari">
-<div class="col-md-4 col-xs-12 col-sm-6 box1 cl-effect-12">
+<div class="forsafari1">
+<div class="col-md-4 col-xs-12 col-sm-6 box2 cl-effect-12">
 <div class="fill2">
-<div class="block-mestoONLY hvr-wobble-top"><p class="blocktitle anim_two text-center">Защитное вождение</p></div><a style="display:block" href="/self-propelled-machinery">
-<img class=" img-responsive" src="../images/c4.png"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="65%">
-</a>
+<a href="/safety-driving"> 
+<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_two text-center">Защитное вождение</p></div>
+<div class="aa">
+<img class="img-responsive" src="../images/css2.png"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200px">
+</div></a>
 </div>
   </div></div>
 
 
-<div class="forsafari">
-<div class="col-md-4 col-xs-12 col-sm-6 box2 box2n cl-effect-12">
-<div class="">
-<div class="block-mestoONLY"><a style="display:block" href="/self-propelled-machinery">
-<img class="hvr-wobble-to-top-right img-responsive" src="../images/c2.png"  alt="Самоходная техника" title="Права на спецтехнику"  width="74%" >
-<p class="blocktitle anim_two text-center">Самоходная техника</p>
-</a></div>
+<div class="forsafari1">
+<div class="col-md-4 col-xs-12 col-sm-6 box2n box3 cl-effect-12">
+<div class="fill2"> <!-- hvr-wobble-to-top-right-->
+<a href="/self-propelled-machinery"> 
+<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_two text-center">Самоходная техника</p></div>
+<div class="aa">
+<img class="img-responsive" src="../images/css3.gif"  alt="Самоходная техника" title="Права на спецтехнику"  width="200px" >
+</div></a>
 </div>
   </div></div>
 
 
 
  <!--  <div class="clearfix visible-sm"></div> -->
-  <div class="forsafari">
-<div class="col-md-4 col-xs-12 col-sm-6 box3 cl-effect-12">
+  <div class="forsafari1">
+<div class="col-md-4 col-xs-12 col-sm-6 box4 cl-effect-12">
 <div class="fill">
-<div class="block-mestoONLY"><a style="display:block" href="/navigation">
-<img class="boat img-responsive" src="../images/c3-34.png"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="74%">
-<p class="blocktitle anim_three text-center">Курсы по ДОПОГ</p>
-</a></div>
+<a href="/additional-services#DOPOG"> 
+<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_three text-center">Курсы по ДОПОГ</p></div>
+<div class="aa">
+<img class="img-responsive" src="../images/css4.gif"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="200px">
+</div></a>
+  </div></div></div>
+  <div class="clearfix visible-sm" style="margin-bottom:20px"></div>
+
+    <div class="forsafari1">
+<div class="col-md-4 col-xs-12 col-sm-6 box5 cl-effect-12">
+<div class="fill">
+<a href="/navigation"> 
+<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_three text-center">Судовождение</p></div>
+<div class="aa">
+<img class="img-responsive" src="../images/css5.png"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="200px">
+</div></a>
   </div></div></div>
 
-    <div class="forsafari">
-<div class="col-md-4 col-xs-12 col-sm-6 box3 box5 cl-effect-12">
-<div class="fill">
-<div class="block-mestoONLY"><a style="display:block" href="/navigation">
-<img class="boat img-responsive" src="../images/c3.png"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="74%">
-<p class="blocktitle anim_three text-center">Судовождение</p>
-</a></div>
-  </div></div></div>
 
-<div class="col-md-4 col-xs-12 col-sm-6 box4 box6  cl-effect-12">
+
+<div class="col-md-4 col-xs-12 col-sm-6 box6  cl-effect-12">
 <div class="fill2">
-<div class="block-mestoONLY"><a style="display:block;" href="/additional-services"> 
-<img class="hvr-wobble-top img-responsive" src="../images/c4.png"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="74%">
-<p class="blocktitle anim_four text-center">Спецсигналы</p>
-</a></div>
+<a href="/additional-services#specialsignals"> 
+<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_four text-center">Спецсигналы</p></div>
+<div class="aa"> 
+<img class="img-responsive" src="../images/css6.gif"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200px">
+</div></a>
 </div></div>
+
 
 <!-- 
 
@@ -675,7 +686,7 @@ waypoint.destroy();
 
 var waypoint = new Waypoint({
 element: $('.count'), handler: function(direction) {
-Counter(this.element,5000);
+Counter(this.element,5500);
 waypoint.destroy();
   }, offset: '90%' });
 

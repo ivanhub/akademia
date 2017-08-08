@@ -251,7 +251,7 @@ transition: online 3s ease-in-out;
   right: 0;
   z-index: -1;
   display: block;
-   background-image: url("/images/fon/11.jpg"); 
+   background-image: url("/images/fon/site-background.jpg"); 
    background-position: 40% 30%;
   background-size:cover;
 
@@ -2231,10 +2231,6 @@ p.anim_one,p.anim_three {
     margin-left: 8% !important;
 }}
 
-
-
-
-
 /*  .foot1 .col3, .foot1 .col4
   { margin-top: 40px; }
   .my {     text-align: center; padding-top:50px; }
@@ -2242,7 +2238,8 @@ p.anim_one,p.anim_three {
 
 @media (max-width:767px) {
   .my {  padding-top:30px;    }
-
+#index .box2,#index .box3,#index .box4, #index .box5, #index .box6 {margin-top:20px !important}
+#index .box3,#index .box4 { margin-bottom:0; }
 
 }
 
@@ -2250,9 +2247,6 @@ p.anim_one,p.anim_three {
 .fill2 {max-width:365px; float:left; display:inline-block; width:100%; }
 
 @media (min-width:450px) and (max-width:991px) {
-#index .box3, #index .box4 {
-    margin-top: 15px !important;
-    margin-bottom: -5px;}
 
 }
 @media (min-width:380px) and (max-width:449px) {
@@ -3763,7 +3757,7 @@ background:url(/images/pics/discount.png);
 
 
 /* забронировать место кнопка * start */
-.fill a, .fill2 a {position:absolute; }
+.fill .aa, .fill2 .aa {position:absolute; }
 .block-mestoONLY {
 z-index:1;
 position:relative;
@@ -3783,20 +3777,17 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 
 }
 
-
 .block-mestoONLY:hover {box-shadow: 0 5px 20px rgba(99, 186, 63, 0.4);
 /*    background: rgba(246, 255, 245, 0.47);*/
 }
+/* .box3 .block-mestoONLY:hover {    background: rgba(246, 255, 245, 0.47);} */
 
-.box3 .block-mestoONLY:hover {
-    background: rgba(246, 255, 245, 0.47);
-}
-
-.box1 .block-mestoONLY p {transform: skewX(17deg); -webkit-transform: skewX(17deg); }
+.block-mestoONLY p {transform: skewX(17deg); -webkit-transform: skewX(17deg); }
+/*p.blocktitle {   margin-left: -10px}
 /*.box6 .block-mestoONLY:hover p.blocktitle {transform: skewX(17deg); -webkit-transform: skewX(17deg); }*/
 
 /*.block-mestoONLY:hover img.img-responsive {transform: skewX(0deg); -webkit-transform: skewX(0deg); }*/
-.block-mestoONLY img, .block-mestoONLY a  {
+.block-mestoONLY img, .block-mestoONLY .aa  {
 display:inline-block;
 -webkit-transition: none;  
 -moz-transition: none;
@@ -3804,29 +3795,28 @@ display:inline-block;
 -ms-transition: none;
 transition: none;}
 
-.block-mestoONLY a {    transform: skew(17deg);   -webkit-transform: skew(17deg);}
+.block-mestoONLY .aa {    transform: skew(17deg);   -webkit-transform: skew(17deg);}
 
-.fill  a, fill2  a, .box5 img, .box4 img {transition: all .15s; -webkit-transition: all 0.15s; }
-
-p.blocktitle {    margin-left: -10px}
-.box2n p, .box4 p,.box5 p,.box6 p {    margin-left: -40px !important;}
+.fill .aa, .fill2 .aa, .fill img, .fill2 img {transition: all .15s; -webkit-transition: all 0.15s; z-index:-1; }
 
 
-.box1 img, .box2 img, .box3 img, .box4 img {
+/*.box2n p, .box4 p,.box5 p,.box6 p {    margin-left: -40px !important;}*/
+
+.aa img{
     padding-left: 0;
     position: relative;
     display: block;
 /*transform: skewX(17deg);
 -webkit-transform: skewX(17deg);
     margin-left: 16px;*/
-    margin-top: 27px;
+    margin-top: 25px;
     margin-left: 30px;
 }
 
-.box1 img {margin-left:70px}
-.box3 img , .box4 img{    margin-top: 5px; z-index:2}
-.box2 img {margin-top:13px; margin-left:65px;}
-.box2n img {margin-left:30px}
+/*.box1 img {margin-left:50px}*/
+.box4 img, .box5 img, .box6 img {    margin-top: 27px; }
+.box2 img {margin-top:15px; }
+/*.box2n img {margin-left:75px}*/
 
 
 p.blocktitle:first-child {
@@ -3834,15 +3824,16 @@ p.blocktitle:first-child {
 }
 
 
-.box1 .block-mestoONLY:hover ~ a{
+.block-mestoONLY:hover ~ .aa{
     transform: scale(1.06);
 }
+.fill > a, .fill2 >a {display:flex;}
 
-.box6 .block-mestoONLY:hover > a  {
+/*.box6 .block-mestoONLY:hover > .aa  {
 transform: scale(1.06) skew(17deg);
 }
 
-.box4 .block-mestoONLY:hover img { transform:scale(1.05)}
+.box4 .block-mestoONLY:hover img { transform:scale(1.05)}*/
 
 .block-mesto {
   cursor:pointer;
@@ -4023,7 +4014,7 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 .m50 {font-size:calc(16px - -.8vw);font-style:italic;color:darkred;font-weight:900;margin-top:15px;text-align:center;margin-bottom:-20px;
 margin-left:15px;margin-right:15px;}
 @media (max-width:991px) {
-.m50 {  margin-top:40px !important; margin-bottom:-30px !important; }
+.m50 {  margin-top:25px !important; margin-bottom:-30px !important; }
 }
 
 .mtext4 {
@@ -4042,3 +4033,5 @@ margin-left:0 !important; margin-right:0 !important;
     visibility: hidden; 
     height:5px;
 }
+
+

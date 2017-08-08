@@ -438,7 +438,7 @@ expandUp
 
 @keyframes expandUp {
 	0% {
-		transform: translateY(100%) scale(0.6) scaleY(0.5);
+		transform: translateY(100%) scale(0.6) scaleY(0.5); opacity:0;
 	}
 	60%{
 		transform: translateY(-7%) scaleY(1.12);
@@ -447,13 +447,13 @@ expandUp
 		transform: translateY(3%);
 	}	
 	100% {
-		transform: translateY(0%) scale(1) scaleY(1);
+		transform: translateY(0%) scale(1) scaleY(1); opacity:1;
 	}	
 }
 
 @-webkit-keyframes expandUp {
 	0% {
-		-webkit-transform: translateY(100%) scale(0.6) scaleY(0.5);
+		-webkit-transform: translateY(100%) scale(0.6) scaleY(0.5);  opacity:0;
 	}
 	60%{
 		-webkit-transform: translateY(-7%) scaleY(1.12);
@@ -462,7 +462,7 @@ expandUp
 		-webkit-transform: translateY(3%);
 	}	
 	100% {
-		-webkit-transform: translateY(0%) scale(1) scaleY(1);
+		-webkit-transform: translateY(0%) scale(1) scaleY(1);  opacity:1;
 	}	
 }
 
@@ -809,3 +809,88 @@ expandUp
 
 
 
+
+
+
+
+/*
+==============================================
+bigEntrance
+==============================================
+*/
+
+
+.bigEntrance{
+	animation-name: bigEntrance;
+	-webkit-animation-name: bigEntrance;	
+
+	animation-duration: 1.6s;	
+	-webkit-animation-duration: 1.6s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	visibility: visible !important;			
+}
+
+@keyframes bigEntrance {
+	0% {
+		transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+		opacity: 0.2;
+	}
+	30% {
+		transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);		
+		opacity: 1;
+	}
+	45% {
+		transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	60% {
+		transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);		
+		opacity: 1;
+	}	
+	75% {
+		transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	90% {
+		transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);		
+		opacity: 1;
+	}	
+	100% {
+		transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}		
+}
+
+@-webkit-keyframes bigEntrance {
+	0% {
+		-webkit-transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+		opacity: 0.2;
+	}
+	30% {
+		-webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);		
+		opacity: 1;
+	}
+	45% {
+		-webkit-transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	60% {
+		-webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);		
+		opacity: 1;
+	}	
+	75% {
+		-webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	90% {
+		-webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);		
+		opacity: 1;
+	}	
+	100% {
+		-webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}				
+}

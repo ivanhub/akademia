@@ -158,9 +158,11 @@ div.className = "greenlinebot";
         type: form.attr("method"),
         data: formData,
         success: function (result) {
-        yaCounter43279694.reachGoal("click123"); 
-        ga('send', 'event', 'forma', 'ok');
 
+          if (typeof  yaCounter43279694.reachGoal == 'function') {  yaCounter43279694.reachGoal("click123"); }
+
+          if (typeof ga == 'function') { ga('send', 'event', 'forma', 'ok');  }
+     
 
 var modalContainer = $('#idmodal');
 var modalBody = modalContainer.find('.modal-body');
