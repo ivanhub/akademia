@@ -159,7 +159,7 @@ div.className = "greenlinebot";
         data: formData,
         success: function (result) {
 
-          if (typeof  yaCounter43279694.reachGoal == 'function') {  yaCounter43279694.reachGoal("click123"); }
+if (typeof window.yaCounter43279694 != 'undefined') {  yaCounter43279694.reachGoal("clickpb123") }
 
           if (typeof ga == 'function') { ga('send', 'event', 'forma', 'ok');  }
      
