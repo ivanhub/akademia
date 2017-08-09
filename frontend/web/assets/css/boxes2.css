@@ -309,18 +309,12 @@ opacity:1;
   display: inline-block;
   vertical-align: middle;
 /*  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;*/
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;*/
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
 }
 
-.hvr-bounce-in:hover img, .hvr-bounce-in:focus img, .hvr-bounce-in:active img { 
-transform:scale(1.2);
--webkit-transform:scale(1.2);
-transition-delay: 0s;
--webkit-transition-delay: 0s;
-}
 
 .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
 
@@ -331,13 +325,13 @@ transition-delay: 0s;
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 
- /*
-#image-rendering: optimizeSpeed;             /*                     */
- /*#image-rendering: -moz-crisp-edges;          /* Firefox             */
- /*#image-rendering: -o-crisp-edges;            /* Opera               */
- /*#image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
- /*#image-rendering: optimize-contrast;         /* CSS3 Proposed       */
- /*#-ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+ */
+ image-rendering: optimizeSpeed;             /*                     */
+ image-rendering: -moz-crisp-edges;          /* Firefox             */
+ image-rendering: -o-crisp-edges;            /* Opera               */
+ image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+ image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+ -ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
 }
  
 
