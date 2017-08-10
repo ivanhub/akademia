@@ -85,7 +85,7 @@ use yii\helpers\Html;
   ]
     ); ?> 
 
-<p class="footer__myvkontakte  text-right"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Страница ВК</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
+<p class="footer__myvkontakte  text-right"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 
                   </div>
         </div>
