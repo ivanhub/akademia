@@ -2274,8 +2274,6 @@ margin-bottom:30px;
 
 
 .rowm {    margin-bottom: -20px;}
-.blocktitle {
-font-size:calc(7px - -0.6vw) !important;}
 
 #index .box3, #index .box4 {
     margin-top: 15px !important;
@@ -2283,6 +2281,10 @@ font-size:calc(7px - -0.6vw) !important;}
 }
 
 
+
+@media (max-width:767px) {
+.blocktitle {font-size:calc(12px - -0.6vw) !important;}
+}
 
 @media (min-width:1200px) {
 .AA1 {float:right; }
@@ -4022,3 +4024,14 @@ margin-left:0 !important; margin-right:0 !important;
 }
 
 
+
+a.myvk {
+    left: -12px;
+    position: relative;
+}
+
+@media (max-width:350px) {
+.forsafari1 {
+    transform: scale(.9);
+}
+}

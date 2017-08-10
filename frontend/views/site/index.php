@@ -70,6 +70,7 @@ $this->registerMetaTag([
 
 <div class="row rowm">
 
+<div class="forsafari1">
 <div class="col-md-4 col-xs-12 col-sm-6 box1  cl-effect-12">
 <div class="fill">
 
@@ -79,7 +80,7 @@ $this->registerMetaTag([
 </div>
 </a>
 </div>
-</div>
+</div></div>
 
 <div class="forsafari1">
 <div class="col-md-4 col-xs-12 col-sm-6 box2 cl-effect-12">
@@ -118,7 +119,7 @@ $this->registerMetaTag([
   </div></div></div>
   <div class="clearfix visible-sm" style="margin-bottom:20px"></div>
 
-    <div class="forsafari1">
+<div class="forsafari1">
 <div class="col-md-4 col-xs-12 col-sm-6 box5 cl-effect-12">
 <div class="fill">
 <a href="/navigation"> 
@@ -129,7 +130,7 @@ $this->registerMetaTag([
   </div></div></div>
 
 
-
+<div class="forsafari1">
 <div class="col-md-4 col-xs-12 col-sm-6 box6  cl-effect-12">
 <div class="fill2">
 <a href="/additional-services#specialsignals"> 
@@ -137,7 +138,7 @@ $this->registerMetaTag([
 <div class="aa"> 
 <img class="img-responsive" src="../images/css6.gif"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200px">
 </div></a>
-</div></div>
+</div></div></div>
 
 
 <!-- 
