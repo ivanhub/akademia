@@ -354,9 +354,9 @@ section.main {
 
 
 
-.forsafari {
+.forsafari1 {
 transform: translateZ(1000px); 
-transform-style: preserve-3d;
+/*transform-style: preserve-3d;*/
 }
 
 
@@ -2283,7 +2283,7 @@ margin-bottom:30px;
 
 
 @media (max-width:767px) {
-.blocktitle {font-size:calc(12px - -0.6vw) !important;}
+.blocktitle {font-size:calc(13px - -0.6vw) !important;}
 }
 
 @media (min-width:1200px) {
@@ -3746,7 +3746,17 @@ background:url(/images/pics/discount.png);
 
 
 /* забронировать место кнопка * start */
-.fill .aa, .fill2 .aa {position:absolute; }
+.fill .aa, .fill2 .aa {
+    position: absolute;
+    left: 0;
+    right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+
+
 .block-mestoONLY {
 z-index:1;
 position:relative;
