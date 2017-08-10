@@ -23,7 +23,7 @@ $this->registerMetaTag([
 //$this->params['breadcrumbs'][] = $this->title;
 
 ?>
-<div class="page-loader">
+<div class="page-loader safari_only">
 <div>
 <div class="page-loader-body">
 <div class="cssload-loader">

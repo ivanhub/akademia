@@ -243,7 +243,7 @@ transition: online 3s ease-in-out;
 
 }
 
-
+@media (min-width:321px) {
 .page:before {
   content: "";
   position: fixed;
@@ -263,7 +263,7 @@ transition: online 3s ease-in-out;
   -ms-filter: blur(1px);
   filter: blur(1px); */
       opacity: .1;
-
+}
 }
 
 
@@ -539,6 +539,11 @@ button.accordion.active, button.accordion:hover {
 button.accordion.active + div.panell {display:table !important;}
 
 
+@media screen and (max-width: 767px) {
+    _::-webkit-full-page-media, _:future, :root .safari_only {
+display:none;
+    }
+}
 
 .page-loader .page-loader-body {
     background-image: url(/images/map/logo2.png);
