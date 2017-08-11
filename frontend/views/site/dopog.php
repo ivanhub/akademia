@@ -16,7 +16,7 @@ use yii\helpers\Url;
 //if(agent($_SERVER['HTTP_USER_AGENT'])) echo '555';
 
 
-$title = 'Перевозка опасных грузов (ДОПОГ)';
+$title = 'Курсы по ДОПОГ';
 $this->title = title($title);
 
 
@@ -94,6 +94,11 @@ $this->params['breadcrumbs'][] = $title;
 <td><strong>«Специализированный курс по класса 7»</strong></td>
 <td><strong>12 ч.</strong></td>
 </tr>
+<tr>
+<td><strong>«Переподготовка водителей»</strong></td>
+<td><strong>24 ч.</strong></td>
+</tr>
+
 
 </tbody>
 </table>

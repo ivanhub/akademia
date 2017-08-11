@@ -76,6 +76,24 @@ class SiteController extends Controller
         return $this->render('discount-A');
     }
 
+          public function actionSpecialsignals()
+    {
+        return $this->render('special-signals');
+    }
+
+          public function actionInstructorsteaching()
+    {
+        return $this->render('instructors-teaching');
+    }
+          public function actionAutodromerental()
+    {
+        return $this->render('autodrome-rental');
+    }
+          public function actionDrivinglessons()
+    {
+        return $this->render('driving-lessons');
+    }
+
 
        public function actionAutomotoschool()
     {

@@ -1,0 +1,491 @@
+.siteblock {
+    text-align: justify;
+}
+
+
+
+#map2 p {font-size:13px !important}
+
+ #map {
+            width: 520px; padding: 0; margin: 0;
+            height: 480px;
+        }
+ 
+
+
+
+.panel-group .panel {
+    margin-bottom: 20px !important;}
+
+
+
+@-webkit-keyframes online {
+    0% {  color: darkred ;  }
+    30% {  color: darkred ;  }
+    70% {  color: green;  }
+    100% {  color: darkgreen;}
+}
+.take {  
+     margin-top: -14px;
+  font-family: 'Rex';  
+
+     font-weight:600;
+     font-size:17px;
+     margin-right:3px;
+}
+
+.take a {
+  cursor:pointer;
+  color:darkred;
+ -webkit-transition:online 3s ease-in-out;
+transition: online 3s ease-in-out; 
+
+-o-animation: online 3s infinite alternate ;
+  -moz-animation: online 3s infinite alternate ;
+ animation: online 3s infinite alternate ;
+ -webkit-animation: online 3s infinite alternate ; 
+
+}
+
+.take a:hover {
+    text-decoration:none;
+    color: darkred !important;
+    /* text-shadow: 1px 1px 2px green, 0 0 2px green, 0 0 2px darkgreen;    */
+    text-shadow:  0 0 1px darkred !important;   
+
+}
+
+
+
+
+.page { 
+background-color: rgba(245, 245, 220, 0.5) !important;
+  /*background-color: rgba(226, 194, 177, 0.1) !important;*/
+
+
+}
+
+.maintext {margin-top:30px;}
+
+
+@media (max-width:1200px) {
+    .saleimg { width:190px !important; }}
+
+
+    @media (min-width:768px) and (max-width:991px) {
+section.main {
+     
+}}
+
+@media(max-width:768px) {
+
+.box1, .box2,.box3,.box4 { text-align: center !important; }
+
+}
+
+.box1, .box3 { text-align: right;}
+
+
+
+
+
+#w1 {
+    font-family: 'Myriadsetpro';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+.navbar { border-radius: 3px;   min-height: 44px !important; height: 44.5px !important }
+
+
+
+.right-aside {margin-top:-5px !important;}
+
+
+.navbar-default .navbar-nav>li>a {    color: #1b1a1a !important; }
+
+
+
+
+
+
+.affix .logo46 {
+  background: url(/images/logo46.png) 100% 100% no-repeat;
+  background-size: contain;
+  z-index:50;
+  height:46px;
+  top:0;
+  left:50px;
+  width:39px;
+  position:absolute;
+/*   width:170px; 
+ 
+ width:165px; 
+ height:185px; */ 
+  
+/* box-shadow: 0 0 5px #000 inset, 0 0 5px #000;  transition: background 1s ease; */
+} 
+
+
+.maintext {display:none;}
+
+
+
+.header-top {height:100px}
+
+
+
+img.logotop {  
+    margin-top: 30px;
+    margin-left: 11px;
+    opacity: 0.9;
+}
+
+
+.rightblock {
+    /* margin-right: -120px !important; */
+    right: -76px !important;
+    padding-top:10px;
+}
+
+
+
+
+.foot1 p a:hover,.foot1 .p a:hover,.foot1 .list a:hover {
+}
+
+
+.news {
+    padding-bottom: 30px;
+}
+
+.saleblock:last-child{padding-bottom: 30px; padding-top:12px;}
+
+
+.anilogo {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    opacity: 1;
+}
+
+
+
+
+/*contacts section*/
+
+
+#contact .box1, #contact .box2 { margin-top:7px !important; }
+#contact .box3, #contact .box4 { margin-top:0 !important; margin-bottom:0px; }
+
+
+#contact .blocktitle
+{ font-size:17px ; text-indent: 0;  }
+
+
+#contact .box1, #contact .box3 { text-align:center }
+#contact .box2, #contact .box4 { text-align:center }
+
+#contact .box2 {    padding-left: 15px;}
+#contact p.anim_one, #contact  p.anim_three, #contact p.anim_two, #contact p.anim_four
+{ text-align:center; right:initial; text-indent:0 !important; }
+
+
+.contacts {width:70%}
+
+
+
+#contact .box1,#contact  .box2,#contact  .box3,#contact  .box4 {
+    height: 150px;
+}
+
+/*section.feedback {
+margin-top: 420px;
+padding-bottom:50px;
+}
+
+footer {margin-top: 355px !important;}*/
+
+
+
+.wideline {
+    position: relative;
+    width: 100%;
+    height:355px;
+    left: 0;
+    min-height: 355px;
+    margin-bottom:50px !important;
+}
+
+
+
+
+
+/*div#full-widthid {
+    padding-top: 55px;
+}*/
+
+
+#contact .container-fluid {
+    margin-left: -4% !important;
+    margin-right: -5% !important;
+
+}
+
+
+
+
+.ymaps-2-1-47-balloon {
+    box-shadow: none !important;
+}
+
+
+
+
+
+            /* Оформление меню (начало)*/
+        .menu {
+            list-style: none;
+            padding: 5px;
+
+            margin: 0;
+        }
+        .submenu {
+            list-style: none;
+
+            margin: 0 0 0 20px;
+            padding: 0;
+        }
+        .submenu li {
+            font-size: 90%;
+        }
+            /* Оформление меню (конец)*/
+
+
+
+.ballon p {font-size:13px !important; text-align: left; color:#fff;}
+ .ballon img.ll {
+    float: left !important;
+    width: 55px;
+    height: 70px;
+    margin: 5px 0 0 5px !important;}
+
+
+.ballon {
+    padding: 5px;
+    width: 270px;
+    height: 59px;
+    float: left !important;
+    text-align: left !important;
+    color: #fff;
+    /* position: absolute !important; */
+}
+
+.ballon .close {
+    position: absolute !important;
+    float: left !important;
+    font-size: 15px !important;
+    font-weight: bold;
+    top: 0 !important;
+    right: 0px !important;
+    cursor: pointer;
+    padding-right: 10px !important;
+}
+#map2 p {font-size:13px !important}
+
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+.panell {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    display:none;
+    transition: max-height 0.2s ease-out;
+    max-height:30px;
+}
+
+button.accordion.active + div.panell {display:table !important;}
+
+
+
+.page-loader .page-loader-body {
+    background-image: url(/images/map/logo2.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 5px 4px;
+}
+
+
+
+/*second page*/
+
+
+.site-distance { margin-bottom:50px;}
+
+.site-automotoschool p {
+    font-family: 'Myriadsetpro', sans-serif !important;
+     font-size: 18px;
+}
+
+
+
+
+.preimul2 {line-height:1.9;}
+.dopuslugi {padding-bottom:30px}
+.safetydriving {margin-left:30px;padding-bottom:30px}
+
+
+.students a:hover {
+    color: #3f3f3f !important;
+}
+
+.students h4 a, .students h5 a { color:#0c500c !important}
+
+.students img {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.automotoschool .table { font-size:14 px !important}
+
+
+tr:hover {background-color: #f5f5f5}
+
+
+
+/*breadcrumb*/
+
+
+ul.breadcrumb {
+    margin-top: 77px;
+    position: relative;
+}
+
+
+/*.breadcrumb {background-color:rgba(212, 212, 169, 0.19) !important;}*/
+
+.breadcrumb li a:first-child {
+    font-weight: 600;
+}
+
+
+
+
+.breadcrumb>li+li:before {
+    content: "" !important;
+    padding: 0 !important;
+    color: #ccc !important;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  margin-bottom: 20px;
+  line-height: 30px;
+background-color:inherit;
+}
+
+.breadcrumb li a { color:#f3f3e1;}
+.breadcrumb li {
+
+  display: block;
+  float: left;
+  font-weight: bold;
+  background: #f9f9f9;
+  padding-right: 10px;
+  height: 30px;
+  line-height: 32px;
+  margin-right: 33px;
+  position: relative;
+  text-decoration: none;
+  color: #fff !important;
+  cursor: default;
+}
+.breadcrumb li:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  border: 15px solid transparent;
+  border-color: #f9f9f9;
+  border-left-color: transparent;
+}
+.breadcrumb li:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -30px;
+  border: 15px solid transparent;
+  border-left-color: #f9f9f9;
+}
+.breadcrumb li:first-of-type {
+  border-radius: 2px 0 0 2px;
+  padding-left: 15px;
+}
+.breadcrumb li:first-of-type:before {
+  display: none;
+}
+.breadcrumb li:last-of-type {
+  border-radius: 0 2px 2px 0;
+  margin-right: 25px;
+  padding-right: 15px;
+}
+.breadcrumb li:last-of-type:after {
+  display: none;
+}
+.breadcrumb li {
+  background: #00a345;
+  color: #fff;
+  cursor: pointer;
+}
+.breadcrumb li::before {
+  border-color: #00a345;
+  border-left-color: transparent;
+}
+.breadcrumb li::after {
+  border-left-color: #00a345;
+}
+.breadcrumb li:hover {
+  background: #41A4F0;
+  border-color: #41A4F0;
+  color: #fff;
+  text-decoration: none;
+}
+.breadcrumb li:hover:before {
+  border-color: #41A4F0;
+  border-left-color: transparent;
+}
+.breadcrumb li:hover:after {
+  border-left-color: #41A4F0;
+}

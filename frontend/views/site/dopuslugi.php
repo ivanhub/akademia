@@ -29,6 +29,12 @@ $this->registerMetaTag([
                                     'label' => 'Автомотошкола', 
                                     'url' => ['/automotoschool'] 
                                  ]; */
+
+$this->params['breadcrumbs'][] = [
+                                   /* 'template' => "<li><b>{link}</b></li>\n", */
+                                    'label' => 'Автомотошкола', 
+                                    'url' => ['/driving-school']
+                                 ];
 $this->params['breadcrumbs'][] = $title;
 ?>
 
@@ -104,112 +110,9 @@ Leftmenu::widget()
 
 
  <div class="panel-group" id="accordion">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title text-center">
-          <a data-toggle="collapse" data-parent="#accordion" href="#specialsignals">Курс "Спецсигналы"</a>
-        </h4>
-      </div>
-      <div id="specialsignals" class="panel-collapse collapse">
-        <div class="panel-body"><p>
-         Подготовка водителей к управлению транспортными средствами категории «А»,
-    «В», «С» и «D» оборудованными устройствами для подачи специальных световых
-    и звуковых сигналов.</p>
-    <p>
-    <strong>Срок обучения: </strong>
-    36 часов.
-</p>
-<p>
-    <strong>После прохождения данного курса Вы:</strong>
-</p>
-<ul type="disc" class="preimul gal4">
-    <li>
-        Научитесь применять на практике защитный и безопасный стиль вождения.
-    </li>
-    <li>
-        Сформируете собственную психологическую модель поведения.
-    </li>
-    <li>
-        Сможете видеть скрытые механизмы совершения того или иного действия,
-        маневра окружающими участниками дорожного движения.
-    </li>
-    <li>
-        Узнаете истинный смысл правил дорожного движения и научитесь их умело
-        применять на практике.
-    </li>
-    <li>
-        Получите мотивацию на компенсацию ошибок других участников дорожного
-        движения.
-    </li>
-    <li>
-        Сможете установить безопасное пространство вокруг автомобиля и умело
-        его поддерживать.
-    </li>
-    <li>
-        Научитесь проводить анализ ДТП и применять опыт их ошибок в своей
-        практике.
-    </li>
-</ul>
-<p>
-    В конце обучения проводится итоговое экзаменационное испытание, на
-    основании результатов которого выдается свидетельство о прохождении
-    подготовки установленной формы.
-</p>
-
-</div>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title text-center">
-          <a data-toggle="collapse" data-parent="#accordion" href="#DOPOG">Курс "Перевозка опасных крузов (ДОПОГ)"</a>
-        </h4>
-      </div>
-      <div id="DOPOG" class="panel-collapse collapse">
-        <div class="panel-body">
-
-<div class="post-bodycopy clearfix">
+ 
 
 
-<p class="text"><strong>Учебный центр «Академия»</strong> входит  в реестр аккредитованных учебных центров по подготовке водителей по перевозке опасных грузов  и предлагает обучение  по следующим учебным программам:</p>
-<p class="text"><strong>Подготовка водителей, осуществляющих перевозку опасных грузов по курсам:</strong></p>
-<table border="0" cellspacing="0" cellpadding="2" width="99%">
-<tbody>
-<tr class="alt">
-<td><strong>  «Базовый курс подготовки»</strong></td>
-<td><strong>24 ч.</strong></td>
-</tr>
-<tr>
-<td><strong>«Специализированный курс в цистернах»</strong></td>
-<td><strong>24 ч.</strong></td>
-</tr>
-<tr class="alt">
-<td><strong>«Специализированный курс по класса 1»</strong></td>
-<td><strong>12 ч.</strong></td>
-</tr>
-<tr>
-<td><strong>«Специализированный курс по класса 7»</strong></td>
-<td><strong>12 ч.</strong></td>
-</tr>
-<tr class="alt">
-<td><strong>«Переподготовка водителей»</strong></td>
-<td><strong>24 ч.</strong></td>
-</tr>
-</tbody>
-</table>
-<br/>
-<p class="text"><strong>Форма обучения:</strong> очная.</p>
-
-<p class="text-center">Для более подробной информации по курсу, перейдите <a style="text-decoration:underline;" href="/DOPOG">по ссылке.</a></p>
-
-</div>
-</div>
-
-
-
-</div>
-      </div>
 
     <div class="panel panel-default">
       <div class="panel-heading">

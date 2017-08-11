@@ -111,7 +111,7 @@ $this->registerMetaTag([
   <div class="forsafari1">
 <div class="col-md-4 col-xs-12 col-sm-6 box4 cl-effect-12">
 <div class="fill">
-<a href="/additional-services#DOPOG"> 
+<a href="/DOPOG"> 
 <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_three text-center">Курсы по ДОПОГ</p></div>
 <div class="aa">
 <img class="img-responsive" src="../images/css4.gif"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="200px">
@@ -133,7 +133,7 @@ $this->registerMetaTag([
 <div class="forsafari1">
 <div class="col-md-4 col-xs-12 col-sm-6 box6  cl-effect-12">
 <div class="fill2">
-<a href="/additional-services#specialsignals"> 
+<a href="/special-signals"> 
 <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_four text-center">Спецсигналы</p></div>
 <div class="aa"> 
 <img class="img-responsive" src="../images/css6.gif"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200px">

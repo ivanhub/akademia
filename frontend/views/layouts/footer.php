@@ -13,13 +13,26 @@ use yii\helpers\Html;
         <div class="col-sm-4 col-xs-12">
                 <div class="footer-col-1 col1">
                 <i class="footer__vline footer__vline_1"></i>
- <ul class="footer-links">
- <li><a href="/driving-school"></i>Автомотошкола</a></li>
- <li class="indent10"><i class="footer__hline footer__hline_1"></i><a href="/driving-school/A">Категория А</a></li>
- <li class="indent10"><i class="footer__hline footer__hline_1"></i><a href="/driving-school/B">Категория B</a></li>
-  <li style="font-size:14.5px;padding-top:0px"><b><a href="/self-propelled-machinery">Самоходная техника</a></b></li>
-  <li style="font-size:14.5px;padding-top:0px"><b><a href="/navigation">Судовождение</a></b></li>   
-  <li style="font-size:14.5px;padding-top:0px"><b><a href="/safety-driving">Защитное вождение</a></b></li>   
+<ul class="footer-links">
+<li><a href="/driving-school"></i>Автомотошкола</a></li>
+<li class="indent10"><i class="footer__hline21 footer__hline_1"></i> <a href="/driving-school/A">Категория А</a></li>
+<li class="indent10"><i class="footer__hline21 footer__hline_1"></i> <a href="/driving-school/B">Категория B</a></li>
+ 
+<?php if (hm('site/dopuslugi')) {
+  ?>
+ <li  style="font-size:14.5px;" class="indent10"><i class="footer__hline footer__hline_1"></i><a href="#" style="font-weight:900">Дополнительные услуги</a></li>
+ <i class="footer__vline_two footer__vline_1_1"></i>
+ <li   class="indent20"><i class="footer__hline21 footer__hline_1_11"></i> <a data-toggle="collapse" href="#instructor_training">Обучение инструкторов</a></li>
+ <li  class="indent20"><i class="footer__hline21 footer__hline_1_11"></i> <a data-toggle="collapse" href="#Arenda_avtodroma">Аренда автодрома</a></li>
+ <li  class="indent20"><i class="footer__hline21 footer__hline_1_11"></i> <a data-toggle="collapse" href="#consultation">Занятия с инструктором</a></li>
+  <?php } else { ?>
+ <li style="font-size:14.5px;" class="indent10"><i class="footer__hline"></i><a href="/additional-services" style="font-weight:900"><span>Д</span>ополнительные услуги</a></li>
+ <i class="footer__vline_two footer__vline_1_1"></i>
+ <li class="indent20"><i class="footer__hline21 footer__hline_1_11"></i> <a href="/additional-services#instructor_training">Обучение инструкторов</a></li>
+ <li class="indent20"><i class="footer__hline21 footer__hline_1_11"></i> <a href="/additional-services#Arenda_avtodroma">Аренда автодрома</a></li>
+ <li class="indent20"><i class="footer__hline21 footer__hline_1_11"></i> <a href="/additional-services#consultation">Занятия с инструктором</a></li>
+<?php } ?>
+
 </ul>
                   </div>
         </div>
@@ -28,32 +41,19 @@ use yii\helpers\Html;
                        <div class="footer-col-2 col4">
    
 
-<i class="footer__vline footer__vline_2"></i>
-
-<?php if (hm('site/dopuslugi')) {
-  ?>
-   <ul class="footer-links footer-links_right">
-<li><a href="#">Дополнительные услуги</a></li>
- <li><i class="footer__hline"></i><a data-toggle="collapse" href="#specialsignals">Курс "Спецсигналы"</a></li>
- <li><i class="footer__hline"></i><a data-toggle="collapse" href="#DOPOG">Курс "ДОПОГ"</a></li>
- <li><i class="footer__hline"></i><a data-toggle="collapse" href="#instructor_training">Обучение инструкторов</a></li>
- <li><i class="footer__hline"></i><a data-toggle="collapse" href="#Arenda_avtodroma">Аренда автодрома</a></li>
- <li><i class="footer__hline"></i><a data-toggle="collapse" href="#consultation">Занятия с инструктором</a></li>
-</ul>
-  <?php } else { ?>
-   <ul class="footer-links footer-links_right">
-<li><a href="/additional-services">Дополнительные услуги</a></li>
- <li><i class="footer__hline"></i><a href="/additional-services#specialsignals">Курс "Спецсигналы"</a></li>
- <li><i class="footer__hline"></i><a href="/additional-services#DOPOG">Курс "ДОПОГ"</a></li>
- <li><i class="footer__hline"></i><a href="/additional-services#instructor_training">Обучение инструкторов</a></li>
- <li><i class="footer__hline"></i><a href="/additional-services#Arenda_avtodroma">Аренда автодрома</a></li>
- <li><i class="footer__hline"></i><a href="/additional-services#consultation">Занятия с инструктором</a></li>
-</ul>
-<?php } ?>
+<!--<i class="footer__vline footer__vline_2"></i>-->
 
 
+<ul class="footer-links">
+<li style="font-size:14.5px;padding-top:0px"><b><a href="/safety-driving">Защитное вождение</a></b></li>
+<li style="font-size:14.5px;padding-top:0px"><b><a href="/self-propelled-machinery">Самоходная техника</a></b></li>
+<li style="font-size:14.5px;padding-top:0px"><b><a href="/DOPOG">Курсы по ДОПОГ</a></b></li>
+<li style="font-size:14.5px;padding-top:0px"><b><a href="/navigation">Судовождение</a></b></li>
+<li style="font-size:14.5px;padding-top:0px"><b><a href="/special-signals">Курс "Спецсигналы"</a></b></li>  
 
+</ul>      
         </div>
+
                 </div>
         <div class="col-sm-4 col-xs-12">
                         <div class="footer-col-3 my">
@@ -85,9 +85,10 @@ use yii\helpers\Html;
   ]
     ); ?> 
 
-<p class="footer__myvkontakte  text-right"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 
                   </div>
+<a href="https://www.rospa.com" target="_blank" ><img src="/images/RoSPA_Accredited.png" width="70px" style="margin-bottom:-25px;margin-top:-15px"></a>
+<br><br><p class="footer__myvkontakte text-right visible-xs"  style="margin-top:7px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
         </div>
 
 <!--
@@ -124,6 +125,7 @@ use yii\helpers\Html;
 <p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ДПО "Академия"</span>
  <a href="" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
+  <p class="footer__myvkontakte text-right hidden-xs"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 
 
 </div>

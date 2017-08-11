@@ -491,7 +491,8 @@ padding: 6px 10px;}
 
 
 
-.footer__myvkontakte {margin-top:4px}
+.footer__myvkontakte {float: right;margin-bottom:20px; }
+
 @media (min-width:992px) and (max-width:1199px) {
 .my p.phone span {
     font-size: 27px; }

@@ -461,7 +461,7 @@ elseif (stripos( $user_agent, 'Safari') !== false)
 
 
 <h5 style="" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;"> Услуги, которые  предоставляем бесплатно</h5>  <br/>
- </div>
+
  <ul class=" preimul2 lr10 gal text-justify">
  <li style="animation-duration: 1s; animation-delay: 0;"> Подготовка пакета документов для сдачи экзамена в ГИБДД.</li>
  <li style="animation-duration: 1s; animation-delay: .4s;"> Организация и предоставление учебных транспортных средств на первичные экзамены (выпускной и ГИБДД).</li>
@@ -471,7 +471,7 @@ elseif (stripos( $user_agent, 'Safari') !== false)
  <li style="animation-duration: 1s; animation-delay: 1.3s;"> Улыбка и доброжелательное отношение со стороны администрации.</li>
  </ul>
 
-<br/><br/>
+<br/><br/> </div>
 
 
 
