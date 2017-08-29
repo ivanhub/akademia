@@ -87,10 +87,9 @@ use yii\helpers\Html;
 
 
                   </div>
-<!--<a href="https://www.rospa.com" target="_blank" ><img src="/images/RoSPA_Accredited.png" width="70px" style="margin-bottom:-25px;margin-top:-15px"></a>
--->
+<a href="https://www.rospa.com" target="_blank" ><img src="/images/RoSPA_Accredited.png" width="70px" style="margin-bottom:-25px;margin-top:-15px"></a>
 
-<p class="footer__myvkontakte  text-right" style="margin-top:3px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
+
 
 <!--<br><br><p class="footer__myvkontakte text-right visible-xs"  style="margin-top:7px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 -->

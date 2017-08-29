@@ -194,7 +194,7 @@ $this->registerMetaTag([
 <br> 
 <div class="mtwrap">
 <p class="m50 mtext4" >Единственная в России Автошкола 
-с международной<br/> аккредитацией <a href="https://www.rospa.com" target="_blank" style="color:">RoSPA</a> по безопасному вождению!</p>
+с международной<br/> аккредитацией <a href="https://www.rospa.com" target="_blank" style="">RoSPA</a> по безопасному вождению!</p>
 <p class="mtext2" style="clear:both; text-align:justify">
 В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
 Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
@@ -282,8 +282,10 @@ echo $month;
 
 </center>
 </div>
-<br/><br/><br/>
+<center><p class="footer__myvkontakte"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p></center>
 
+<br/><br/><br/>
+ 
  </div>
  </section>
 

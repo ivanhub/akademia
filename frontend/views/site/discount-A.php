@@ -136,9 +136,9 @@ elseif ($date >= 5) echo "7</span> свободных мест";
 
 <br/>
 <p style="font-size:120%;font-style:italic;color:darkred;font-weight:900;margin-top:10px">Являемся единственной в России Автошколой <br/>
-с международной аккредитацией <img src="/images/pics/rospa.png" width="70" style="margin-top:-3px;margin-left:3px;transform:skew(-15deg);-webkit-transform:skew(-15deg);"> по безопасному вождению!</p>
+с международной аккредитацией <a href="https://www.rospa.com" target="_blank" style="color:#051d60;font-size:115%;">RoSPA</a> по безопасному вождению!</p>
 
-
+<!--<img src="/images/pics/rospa.png" width="70" style="margin-top:-3px;margin-left:3px;transform:skew(-15deg);-webkit-transform:skew(-15deg);">-->
  </div><br/>
 </div></center>
 

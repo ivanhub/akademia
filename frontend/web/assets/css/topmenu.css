@@ -444,7 +444,7 @@ width:70px !important;
 }
 
 @media (max-width:385px) {
- .navbar-nav { margin-left: 30% !important; } 
+ .navbar-nav { margin-left: 25% !important; } 
 /*.foot1 p {font-size:13px !important}*/
 }
 
@@ -491,7 +491,15 @@ padding: 6px 10px;}
 
 
 
-.footer__myvkontakte {float: right;margin-bottom:20px; }
+/*.footer__myvkontakte {float: right;margin-bottom:20px; }*/
+
+
+.footer__myvkontakte {
+	margin-top: 27px;
+	display: block;
+	margin-bottom: -10px;
+   }
+
 
 @media (min-width:992px) and (max-width:1199px) {
 .my p.phone span {

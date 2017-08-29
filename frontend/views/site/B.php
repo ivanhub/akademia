@@ -533,8 +533,265 @@ $this->params['breadcrumbs'][] = $title;
     </table>
 <br/>
 <br/>
+
+
+<!--
+<div class="subtitle-green"><center><a class="md-trigger center modal9trigger" data-modal="modal-9" alt="Нажмите на ссылку" title="нажмите на ссылку">Даты и время сдачи экзаменов в ГИБДД</a></center>
+</div>
+    <div class="md-overlay"></div>
+    <br/><br/>-->
+
+<!--
+<br/><br/><div class="linetire"></div>
+<br/>
+<p class="poryadok green text-center" style="font-size:28px;font-weight:bold;padding-bottom:15px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
+Даты сдачи экзаменов в ГИБДД
+</p>
+<table cellspacing="0" cellpadding="0" border="0" class="timetable timetable2  table-responsive" align="center"    data-ros="fadeIn"   data-options="delay:200;infinite:false;animationClass:animated;duration:1200;callback:;">
+    <thead>
+        <tr>
+           <th><p>Адрес&nbsp;проведения&nbsp;экзамена</p></th>
+            <th><p>Начало&nbsp;проведения&nbsp;экзамена</p></th>
+             <th class="last borderright"><p>Примечания</p></th> 
+        </tr>
+    </thead>
+    <tbody>
+         <tr class="timetable__theory-tr"><td colspan="4" class="timetable__theory text-center "> <span>ТЕОРИЯ</span></td></tr>
+        <tr>
+
+            <td>г. Самара, ул. Алма-Атинская, 29 Б</td>
+            <td class="center">
+                <span class="span2">8.30</span>
+            
+            </td>  
+             <td class="center borderright">Первый экзамен<br/>+<br/>Пересдача</td>
+        </tr>
+     
+             <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>АВТОДРОМ</span></td></tr>
+  <tr class="hovtable">
+         <td rowspan="2">г. Самара, проспект Кирова, 73</td>
+         <td class="span2 center">11.00</td>
+         <td class="center borderright">Первый экзамен</td>
+      </tr>
+      <tr class="hovtable2">
+         <td class="span2 center">10.00</td>
+         <td class="center borderright">Пересдача</td>
+      </tr>  
+  <tr class="timetable__theory-tr"><td  colspan="4" class="timetable__theory text-center "> <span>ГОРОД</span></td></tr>
+  <tr class="hovtable3">
+         <td rowspan="2">г. Самара, ул. Алма-Атинская, 29 Б</td>
+         <td class="span2 center">13.00</td>
+         <td class="center borderright">Первый экзамен</td>
+      </tr>
+      <tr class="hovtable4">
+         <td class="span2 center">12.30</td>
+         <td class="center borderright">Пересдача</td>
+      </tr>  
+    </tbody>
+    </table>
+<br/>
+<br/> -->
+
+
+
+<?php
+$this->registerJs(<<<JS
+    jQuery(".hovtable2").hover(
+    function() {
+        jQuery(this).prev(".hovtable").css('background-color', '#f6fcf0')
+    }, function() {
+        jQuery(this).prev(".hovtable").css('background-color', '')
+    });
+        jQuery(".hovtable4").hover(
+    function() {
+        jQuery(this).prev(".hovtable3").css('background-color', '#f6fcf0')
+    }, function() {
+        jQuery(this).prev(".hovtable3").css('background-color', '')
+    });
+JS
+, yii\web\View::POS_READY); 
+?>
+
+
+
+<div class="gibdd-modal md-modal2 md-effect-9" id="modal-9">
+      <div class="md-content">
+        <div>
+
+
+<div class="table-users">
+   <div class="headerGibdd">Даты и время сдачи экзаменов в ГИБДД</div>
+   <table class="gibdd" cellspacing="0">
+      <tr> 
+         <th>Адрес проведения экзамена</th>
+         <th>Начало проведения экзамена</th>
+         <th>Примечания</th>
+      </tr>
+      <tr class="timetable__theory-tr"><td colspan="3"><span style="text-align:center;">ТЕОРИЯ</span></td></tr>
+      <tr>
+         <td>г. Самара, ул. Алма-Атинская, 29 Б</td>
+         <td>8:30</td>
+         <td>Первый экзамен<br/>+<br/>Пересдача</td>
+      </tr>
+      <tr class=" timetable__theory-tr"><td colspan="3"><span style="text-align:center;">АВТОДРОМ</span></td></tr>
+      <tr>
+         <td rowspan="2">г. Самара, проспект Кирова, 73</td>
+         <td>11:00</td>
+         <td>Первый экзамен</td>
+      </tr>
+      <tr>
+         <td>10:00</td>
+         <td>Пересдача</td>
+      </tr>  
+        <tr class="timetable__theory-tr"><td colspan="3"><span style="text-align:center;">ГОРОД</span></td></tr>
+      <tr>
+         <td rowspan="2">г. Самара, ул. Алма-Атинская, 29 Б</td>
+         <td>13:00</td>
+         <td>Первый экзамен</td>
+      </tr>
+      <tr>
+         <td>12:30</td>
+         <td>Пересдача</td>
+      </tr>
+   </table>
+</div>
+
+
+
+          <button class="md-close">Закрыть</button>
+        </div>
+      </div>
+    </div>
+
+<?php
+$this->registerJs(<<<JS
+( function( window ) {
+
+'use strict';
+
+
+function classReg( className ) {
+  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+}
+
+// classList support for class management
+// altho to be fair, the api sucks because it won't accept multiple classes at once
+var hasClass, addClass, removeClass;
+
+if ( 'classList' in document.documentElement ) {
+  hasClass = function( elem, c ) {
+    return elem.classList.contains( c );
+  };
+  addClass = function( elem, c ) {
+    elem.classList.add( c );
+  };
+  removeClass = function( elem, c ) {
+    elem.classList.remove( c );
+  };
+}
+else {
+  hasClass = function( elem, c ) {
+    return classReg( c ).test( elem.className );
+  };
+  addClass = function( elem, c ) {
+    if ( !hasClass( elem, c ) ) {
+      elem.className = elem.className + ' ' + c;
+    }
+  };
+  removeClass = function( elem, c ) {
+    elem.className = elem.className.replace( classReg( c ), ' ' );
+  };
+}
+
+function toggleClass( elem, c ) {
+  var fn = hasClass( elem, c ) ? removeClass : addClass;
+  fn( elem, c );
+}
+
+var classie = {
+  // full names
+  hasClass: hasClass,
+  addClass: addClass,
+  removeClass: removeClass,
+  toggleClass: toggleClass,
+  // short names
+  has: hasClass,
+  add: addClass,
+  remove: removeClass,
+  toggle: toggleClass
+};
+
+// transport
+if ( typeof define === 'function' && define.amd ) {
+  // AMD
+  define( classie );
+} else {
+  // browser global
+  window.classie = classie;
+}
+
+})( window );
+
+
+var ModalEffects = (function() {
+
+  function init() {
+
+    var overlay = document.querySelector( '.md-overlay' );
+
+    [].slice.call( document.querySelectorAll( '.md-trigger' ) ).forEach( function( el, i ) {
+
+      var modal = document.querySelector( '#' + el.getAttribute( 'data-modal' ) ),
+        close = modal.querySelector( '.md-close' );
+
+      function removeModal( hasPerspective ) {
+        classie.remove( modal, 'md-show' );
+
+        if( hasPerspective ) {
+          classie.remove( document.documentElement, 'md-perspective' );
+        }
+      }
+
+      function removeModalHandler() {
+        removeModal( classie.has( el, 'md-setperspective' ) ); 
+      }
+
+      el.addEventListener( 'click', function( ev ) {
+        classie.add( modal, 'md-show' );
+        overlay.removeEventListener( 'click', removeModalHandler );
+        overlay.addEventListener( 'click', removeModalHandler );
+
+        if( classie.has( el, 'md-setperspective' ) ) {
+          setTimeout( function() {
+            classie.add( document.documentElement, 'md-perspective' );
+          }, 25 );
+        }
+      });
+
+      close.addEventListener( 'click', function( ev ) {
+        ev.stopPropagation();
+        removeModalHandler();
+      });
+
+    } );
+
+  }
+
+  init();
+
+})();
+JS
+, yii\web\View::POS_READY); 
+?>
+
+
+
+
+
+
 </div>
 <div class="linetire"></div>
+
 <p class="poryadok green text-center" style="font-size:28px;font-weight:bold;margin-bottom:-3px;margin-top:20px" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
 Расчёт стоимости обучения</p>
 
