@@ -81,6 +81,12 @@ class SiteController extends Controller
         return $this->render('special-signals');
     }
 
+      public function actionPrivacy()
+    {
+        return $this->render('privacy');
+    }
+
+
           public function actionInstructorsteaching()
     {
         return $this->render('instructors-teaching');

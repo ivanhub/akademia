@@ -993,3 +993,153 @@ bigEntrance
 
 
 /*modal 3d end */
+
+/* 4 preim */
+ul.4preim {
+    display: block;
+    float: left;
+    clear: left;
+    margin-top: 35px;
+    text-transform: none;
+}
+ul.preim4 li {
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+    width: 230px;
+    margin-right: 30px;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #343434;
+    line-height: 22px;
+    cursor: pointer;
+
+    padding-bottom: 35px;
+
+}
+
+ul.preim4 li .img {
+    display: block;
+    width: 85px;
+    height: 85px;
+/*    border: 2px #dedede solid;*/
+    border-radius: 85px;
+    margin: 45px auto 40px;
+    text-align: center;
+    transition: transform 1s linear;
+}
+ul.preim4 li img {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+ul.preim4 li h3 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 600;
+    color: #1d1d1b;
+    font-size: 22px;
+}
+
+.preim4 {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding-left: 0;
+}
+
+.preim4 li {
+    border: 1px solid transparent;
+}
+
+ul.preim4 li:hover .img {
+/*    border: 2px #578d60 solid;      */
+    transform: rotate3d(0,1,0,360deg);
+}
+ul.preim4 li:hover h3 {
+    color: #2e7f15; 
+}
+
+/*ul.preim4 li:hover h3.h3-first {
+    color: #cf1009;
+}
+
+ul.preim4 li:hover h3.h3-second {
+    color: #9ed6e1;
+}
+
+ul.preim4 li:hover h3.h3-third {
+    color: #9db845;
+} */
+
+ul.preim4 li:hover .hr1 {
+   border-color: #cf1009;
+   transition:0.7s;	
+}
+
+ul.preim4 li:hover .hr2 {
+   border-color: #9ed6e1;
+   transition:0.7s;	
+}
+
+ul.preim4 li:hover .hr3 {
+   border-color: #9db845;
+   transition:0.7s;	
+}
+
+
+
+.preim4 li:hover {
+/*    border: 1px solid #328b35;
+    transition: 0.5s;           
+ box-shadow: 1px 1px 2px rgba(0,0,0,0.15), -1px -1px 2px rgba(0,0,0,0.12);*/
+}
+
+ul.preim4 li hr {
+
+    width: 55px;
+    display: block;
+    border-color: #39b239;
+    margin: 15px auto;
+}
+
+
+.preim4 li:hover > h3 {
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transition: all .2s cubic-bezier(.19, 1, .22, 1);
+    transition: all .2s cubic-bezier(.19, 1, .22, 1);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #2e7f15), color-stop(.3, #2e7f15), color-stop(.7, #fff), color-stop(.8, #2e7f15), color-stop(1, #2e7f15));
+
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-animation: white-saas-text-anim 1.2s 1;
+    animation: white-saas-text-anim 1.2s 1;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes white-saas-text-anim {
+    0% {
+        background-position: -120px -50px;
+    }
+
+    100% {
+        background-position: 62px 50px;
+    }
+}
+
+@keyframes white-saas-text-anim {
+    0% {
+        background-position: -120px -50px;
+    }
+
+    100% {
+        background-position: 62px 50px;
+    }
+}
+
+/* 4 preim end */

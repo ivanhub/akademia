@@ -67,28 +67,28 @@ $this->params['breadcrumbs'][] = $title;
 <td class="td">B</td>
 <td>Гусеничные и колесные машины, двигатель мощностью до 25,7 кВт.</td>
 <td align="center">
-<p style="text-align: center;"><img src="../images/pics/cat.b.png" alt="" width="100" height="80" alt="Гусеничные и колесные машины. Школа вождения г. Самара" title="Гусеничные и колесные машины"></p>
+<p style="text-align: center;"><img src="../images/pics/cat.b.png" width="100" height="80" alt="Гусеничные и колесные машины. Школа вождения г. Самара" title="Гусеничные и колесные машины"></p>
 </td>
 </tr>
 <tr class="">
 <td class="td">С</td>
 <td>Колесные машины с двигателем мощностью от 25,7 до 110,3 кВт.</td>
 <td align="center">
-<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/c.png" alt="" width="100" height="80"  alt="Колесные машины с двигателем мощностью от 25,7 до 110,3 кВт. Школа вождения г. Самара" title="Колесные машины с двигателем мощностью от 25,7 до 110,3 кВт."></p>
+<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/c.png"  width="100" height="80" alt="Колесные машины с двигателем мощностью от 25,7 до 110,3 кВт. Школа вождения г. Самара" title="Колесные машины с двигателем мощностью от 25,7 до 110,3 кВт."></p>
 </td>
 </tr>
 <tr>
 <td class="td">D</td>
 <td>Колесные машины с двигателем мощностью свыше 110,3 кВт.</td>
 <td align="center">
-<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/d.png" alt="" width="100" height="80"  alt="Колесные машины с двигателем мощностью свыше 110,3 кВт. Школа вождения г. Самара" title="Колесные машины с двигателем мощностью свыше 110,3 кВт."></p>
+<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/d.png" width="100" height="80" alt="Колесные машины с двигателем мощностью свыше 110,3 кВт. Школа вождения г. Самара" title="Колесные машины с двигателем мощностью свыше 110,3 кВт."></p>
 </td>
 </tr>
 <tr class="alt">
 <td class="td">E</td>
 <td>Гусеничные машины с двигателем мощностью свыше 25,7 кВт.</td>
 <td align="center">
-<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/e.png" alt="" width="100" height="80"  alt="Гусеничные машины. Школа вождения г. Самара" title="Гусеничные машины"></p>
+<p style="text-align: center;"><img src="http://samarapb.ru/documents/avto/e.png" width="100" height="80" alt="Гусеничные машины. Школа вождения г. Самара" title="Гусеничные машины"></p>
 </td>
 </tr>
 </tbody>

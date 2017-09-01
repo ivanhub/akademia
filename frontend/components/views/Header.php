@@ -25,7 +25,7 @@ Modal::begin([
 ]);
  
 echo ' <div class="row"><div class="col-xs-12 modal-md-12">';
-echo '<div class="sel text-center"><p id="wrapacket" style="font-weight:700"></p></div><br/>';
+echo '<div class="sel text-center"><p id="wrapacket" style="font-weight:700"></p></div>';
 /*$model = new Forma();
 $form = ActiveForm::begin([
         'method' => 'get',
@@ -88,8 +88,8 @@ echo $form->field($model, 'total')->hiddenInput(['value'=> ''])->label(false);
 echo $form->field($model, 'pack')->hiddenInput(['value'=> ''])->label(false);
 echo $form->field($model, 'info')->textArea(['value'=> '', 'class' => 'special'])->label(false);
 
-echo ' <div class="form-group text-center">';
-
+echo ' <div class="form-group text-center form-group-up">';
+echo '<p style="font-size:80%">Нажимая на кнопку "Отправить", я соглашаюсь с условиями <a href="/privacy" style="color:#3c3c89" target="_blank">политики конфиденциальности</a></p>';
 echo Html::submitButton('Отправить', ['class' => 'btn btn-primary btn-success', 'name' => 'contact-button']) ;
 echo ' </div>';
  ActiveForm::end(); 

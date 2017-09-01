@@ -5,6 +5,7 @@
 /* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
+use branchonline\lightbox\Lightbox;
 //use yii\bootstrap\ActiveForm;
 //use yii\captcha\Captcha;
 //use phpnt\yandexMap\YandexMaps;
@@ -55,7 +56,7 @@ $this->params['breadcrumbs'][] = $title;
  -->
 
 <!-- <?= Html::encode($this->title) ?> -->
-<div class="site-distance  siteblock">
+<div class="siteblock">
    
 <!--<h1 class="text-center"><?= Html::encode($title) ?></h1>-->
 <br/>
@@ -110,6 +111,7 @@ elseif ($date >= 20) echo "4</span> свободных места";
 elseif ($date >= 15) echo "5</span> свободных мест"; 
 elseif ($date >= 10) echo "6</span> свободных мест"; 
 elseif ($date >= 5) echo "7</span> свободных мест"; 
+elseif ($date >= 0) echo "8</span> свободных мест"; 
 ?></strong></div>
 <br/>
 <div class="row">
@@ -132,17 +134,111 @@ elseif ($date >= 5) echo "7</span> свободных мест";
 <!--<div><a class="e_btn_calc" href=""> Забронировать место в группе </a></div>-->
 </div>
 </div>
- </div>
+</div>
+ 
 
-<br/>
+
 <p style="font-size:120%;font-style:italic;color:darkred;font-weight:900;margin-top:10px">Являемся единственной в России Автошколой <br/>
 с международной аккредитацией <a href="https://www.rospa.com" target="_blank" style="color:#051d60;font-size:115%;">RoSPA</a> по безопасному вождению!</p>
 
 <!--<img src="/images/pics/rospa.png" width="70" style="margin-top:-3px;margin-left:3px;transform:skew(-15deg);-webkit-transform:skew(-15deg);">-->
- </div><br/>
-</div></center>
+</center>
+
+</div>
+
+<div class="container-fluid ">
+<center>
+<ul class="preim4 ">
+<li>
+<div class="img"><img style="margin-top: 14px; margin-left:-8px" src="/images/pics/0-percent.png" width="116px"></div>
+<h3 class="h3-first">Рассрочка платежа на период обучения</h3>
+<hr class="hr1"><a href="" data-lightbox="preim1">Первоначальный взнос от 5000р. Остальную сумму Вы оплачиваете в период всего обучения.</a></li>
+<li>
+<div class="img"><img src="/images/pics/yes.png" alt="" width="93px"></div>
+<h3 class="h3-second">Обучение без ОБМАНА</h3>
+<hr class="hr2"><a href="" data-lightbox="preim2">Все часы вождения! Мы заинтересованы в качественном обучении студентов и успешной сдаче экзаменов в ГИБДД.
+</a></li>
+<li>
+<div class="img"><img style="margin-top: 14px; margin-left:-15px" src="/images/pics/13vozvrat4.png" width="115px"></div>
+<h3 class="h3-third">Возврат 13% от стоимости обучения</h3>
+<hr class="hr3"><a href="" data-lightbox="preim3">Налоговый вычет при обучении в автошколе. Вы можете вернуть 13% от суммы оплаты за обучение!</a></li>
+</ul>
+
+<button class="btnnn btn-4 btn-4a icon-arrow-right">Все наши преимущества</button>
+</center>
+<br/><br/>
+<div class="gallery-container">
+<div class="gallery-slider">    
+<div>     <a href="/images/gallery-slider/1.jpg"> <img src="http://placehold.it/250x250?text=1"></a></div>
+<div>     <a href="/images/gallery-slider/2.jpg"> <img src="http://placehold.it/250x250?text=2"></a></div>
+<div>    <a href="http://placehold.it/250x250?text=2">  <img src="http://placehold.it/250x250?text=3"></a></div>
+<div>     <a href="http://placehold.it/250x250?text=3"> <img src="http://placehold.it/250x250?text=4"></a></div>
+<div>    <a href="http://placehold.it/250x250?text=4">  <img src="http://placehold.it/250x250?text=5"></a></div>
+<div>     <a href="http://placehold.it/250x250?text=5"> <img src="http://placehold.it/250x250?text=6"></a></div>
+<div>     <a href="http://placehold.it/250x250?text=6"> <img src="http://placehold.it/250x250?text=7"></a></div>
+
+</div>
+</div>
+</div>
+
+<br/>
+<br/>
+<br/>
 
 
+<?php 
+
+
+$this->registerJs(<<<JS
+
+      jQuery('.gallery-slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrows: true,
+//          prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left fa-3x' aria-hidden='true'></i></button>",
+//nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right fa3-x' aria-hidden='true'></i></button>"     
+draggable:true,
+responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow:2,
+        slidesToScroll: 2,
+        infinite: true,
+        //dots: true
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+   
+  
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+             });
+
+jQuery('.gallery-slider').slickLightbox({
+  itemSelector        : 'a',
+  navigateByKeyboard  : true
+});
+JS
+, yii\web\View::POS_READY); 
+
+
+Yii::$app->view->registerJsFile('/assets/js/slick.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerJsFile('/assets/js/slick-lightbox.js?',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick.css?v=131',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick-theme.css?v=5',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick-lightbox.css?v=7',  ['depends' => 'yii\web\JqueryAsset']); 
+
+?>
 
 
 

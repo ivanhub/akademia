@@ -282,9 +282,17 @@ echo $month;
 
 </center>
 </div>
-<center><p class="footer__myvkontakte"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p></center>
+<!-- <center><p class="footer__myvkontakte"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
+</center>
+ --><br/>
+<div class="top-pane1">
+  <div class="container1">
+    
+    <div class="desc">Узнавайте первыми о наших акциях - <br>подпишитесь на нашу группу  <a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><i class="social-btns"><i class="btn vk" href="#" style="margin-top:-18px"><i class="fa fa-vk"></i></i></i></a></div>
+  </div>
+</div>
 
-<br/><br/><br/>
+<br/><br/>
  
  </div>
  </section>
