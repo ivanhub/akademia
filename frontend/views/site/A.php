@@ -154,8 +154,8 @@ $this->params['breadcrumbs'][] = $title;
           <div class="butt"><img src="../images/pics/ok.png" width="80px" alt="Пакет «Двойной A+B». Права на Мото в Самаре" title="Пакет «Двойной A+B»"></div>
           <div class="mt5">
 <p class="linet">Автомобиль и Мотоцикл<br/><span style="color:#f10d09;font-weight:bolder;font-style:italic">Скидка: <span style="font-style:italic;font-size:110%">5000</span> р.!</span></p>
-<p style="font-weight:bold;color:green;font-size: calc(14px + 0.35vw); margin-top:-15px;"> <span style="font-size:150%">21 000 р.</span></p>
-<p style="margin-top:-20px;margin-bottom: 2px;"><b style="color:darkgreen;font-size:155%;text-decoration:line-through;">26 000 р.</b> </p>
+<p style="font-weight:bold;color:green;font-size: calc(14px + 0.35vw); margin-top:-15px;"> <span style="font-size:150%">23 000 р.</span></p>
+<p style="margin-top:-20px;margin-bottom: 2px;"><b style="color:darkgreen;font-size:155%;text-decoration:line-through;">28 000 р.</b> </p>
 <p style="height:5px;">&nbsp;</p>
 
 <!-- <div class="little"><p>Практические занятия:</p>
