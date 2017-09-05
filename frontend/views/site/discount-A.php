@@ -161,12 +161,48 @@ elseif ($date >= 0) echo "8</span> свободных мест";
 <div class="img"><img style="margin-top: 14px; margin-left:-15px" src="/images/pics/13vozvrat4.png" width="115px"></div>
 <h3 class="h3-third">Возврат 13% от стоимости обучения</h3>
 <hr class="hr3"><a href="" data-lightbox="preim3">Налоговый вычет при обучении в автошколе. Вы можете вернуть 13% от суммы оплаты за обучение!</a></li>
+
+
+
+<li>
+<div class="img"><img style="margin-top: 14px; margin-left:-15px" src="/images/pics/13vozvrat4.png" width="115px"></div>
+<h3 class="h3-third">Собственный автодром</h3>
+<hr class="hr3"><a href="" data-lightbox="preim3">Автошкола Академия имеет свой собственный учебный автодром. Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование.</a></li>
+
+<li>
+<div class="img"><img style="margin-top: 14px; margin-left:-8px" src="/images/pics/0-percent.png" width="116px"></div>
+<h3 class="h3-first">Бесплатная литература</h3>
+<hr class="hr1"><a href="" data-lightbox="preim1">Всю необходимую литературу: экзаменационные билеты, правила дорожного движения, методички Вы получите на первом теоретическом занятии.
+</a></li>
+<li>
+<div class="img"><img style="margin-top: 14px; margin-left:-15px" src="/images/pics/13vozvrat4.png" width="115px"></div>
+<h3 class="h3-third">Сопровождение на экзамене</h3>
+<hr class="hr3"><a href="" data-lightbox="preim3">Мы подготовим пакет документов для сдачи экзамена, предоставим учебные автомобили и мотоциклы на экзамены в ГИБДД. Представитель автошколы будет сопровождать Вас на протяжении всего экзамена.
+</a></li>
+<li>
+<div class="img"><img src="/images/pics/yes.png" alt="" width="93px"></div>
+<h3 class="h3-second">Тренажер для первоначальных навыков</h3>
+<hr class="hr2"><a href="" data-lightbox="preim2">Занятия на автотренажере в нашей автошколе являются обязательными по программе обучения. Обучить курсантов автошкол базовым навыкам управления автомобилей с механической КПП позволяет виртуальное вождение автомобиля на тренажере.
+</a></li>
+
+<li>
+<div class="img"><img style="margin-top: 14px; margin-left:-8px" src="/images/pics/0-percent.png" width="116px"></div>
+<h3 class="h3-first">Современные оборудованные классы</h3>
+<hr class="hr1"><a href="" data-lightbox="preim1">Учебные классы оборудованы всем необходимым инвентарем, тематическими плакатами, компьютерами и тренажерами для первоначальных навыков вождения. У нас большая видеотека с обучающими роликами. Доверившись нам, вы получите высококлассное обучение, что позволит Вам успешно сдать экзамены на права.</a></li>
+<li>
+<div class="img"><img src="/images/pics/yes.png" alt="" width="93px"></div>
+<h3 class="h3-second">Помощь в прохождении медкомиссии</h3>
+<hr class="hr2"><a href="" data-lightbox="preim2">Мы поможем вам пройти медицинскую комиссию в самые короткие сроки и без очередей.
+Для удобства наших учеников мы организовываем медицинскую комиссию в Автошколе! * ООО «АсокмаМед» лицензия № ЛО-63-01-002110 от 31.07.2013 г.
+</a></li>
+
+
 </ul>
 
 <!-- <button class="btnnn btn-4 btn-4a icon-arrow-right">Все наши преимущества</button>
  -->
 <section class="container-preim">
-    <button class="btnx btn--md btn--border-animation btn--border-animation-blue">
+    <button class="btnx btn--md btn--border-animation btn--border-animation-blue" id="ishe">
       <span class="anim-helper-border anim-helper-border--top" aria-hidden="true"></span>
       <span class="anim-helper-border anim-helper-border--right" aria-hidden="true"></span>
       <span class="anim-helper-border anim-helper-border--bottom" aria-hidden="true"></span>
@@ -181,7 +217,8 @@ elseif ($date >= 0) echo "8</span> свободных мест";
 
 <br/>
 </div><div class="mtext3"></div>
-<br/><br/><br/>
+<br/>
+<center><h4>Фотографии учебных классов и автодрома</h4></center><br/>
 <div class="gallery-container">
 <div class="gallery-slider">    
 <?php 
@@ -218,6 +255,22 @@ if ($dir = opendir('images/gallery-slider/')) {
 
 
 $this->registerJs(<<<JS
+
+  ishe_count = 1; ishe_height = 350;
+document.getElementById ("ishe").addEventListener ("click", ishe, false);
+
+  function ishe() {
+        if(ishe_count < 2) {
+            ishe_count++;
+            ishe_height += 965;
+            jQuery('ul.preim4').animate({height: ishe_height + "px"}, 1000);
+            if(ishe_count == 6)
+                jQuery('.ishe').hide();
+        }
+
+        jQuery('.container-preim').hide(1000);
+      }
+
 
       jQuery('.gallery-slider').slick({
   infinite: true,
@@ -271,9 +324,9 @@ JS
 
 Yii::$app->view->registerJsFile('/assets/js/slick.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
 Yii::$app->view->registerJsFile('/assets/js/slick-lightbox.js?',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick-theme.css?v=6',  ['depends' => 'frontend\assets\AppAsset']); 
 Yii::$app->view->registerCssFile('/assets/css/slick.css?v=131',  ['depends' => 'yii\web\JqueryAsset']); 
 Yii::$app->view->registerCssFile('/assets/css/slick-lightbox.css?v=7',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick-theme.css?v=7',  ['depends' => 'frontend\assets\AppAsset']); 
 
 ?>
 

@@ -215,18 +215,18 @@ $this->registerMetaTag([
 <div class="row row2">
 <div class="col-md-4 one-third third offscreen">
 <div class="akciya">
-<p class="start-akciya" style="padding-top:20px; margin-bottom:0"><?php
-$months = explode("|", '|января|февраля|марта|апреля|мая|июня|июля|августа|сентября|октября|ноября|декабря');
-$month = preg_replace("~\%bg~", $months[date('n', time())], '&nbsp;%bg');
-$date1 = date('d');
-if ($date1 >= 15) echo "15";
-elseif ($date1 < 15) echo "1";
-echo $month;
-?> - <?php
-$date = date('d');
-if ($date >= 15) echo date('t');
-elseif ($date < 15) echo "15";
-echo $month;
+<p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;<?php
+//$months = explode("|", '|января|февраля|марта|апреля|мая|июня|июля|августа|сентября|октября|ноября|декабря');
+//$month = preg_replace("~\%bg~", $months[date('n', time())], '&nbsp;%bg');
+//$date1 = date('d');
+//if ($date1 >= 15) echo "15";
+//elseif ($date1 < 15) echo "1";
+//echo $month;
+//echo " - ";
+//$date = date('d');
+//if ($date >= 15) echo date('t');
+//elseif ($date < 15) echo "15";
+//echo $month;
 ?></p>
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
 <p class="akciya-h2" style="margin-top:-7px">Обучение на<br/>категорию А</p>
@@ -283,16 +283,16 @@ echo $month;
 </div>
 <!-- <center><p class="footer__myvkontakte"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 </center>
- --><br/>
-<!-- <div class="top-pane1">
+ --><!--<br/>
+ <div class="top-pane1">
   <div class="container1">
     
     <div class="desc">Узнавайте первыми о наших акциях - <br>подпишитесь на нашу группу  <a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><i class="social-btns"><i class="btn vk" href="#" style="margin-top:-18px"><i class="fa fa-vk"></i></i></i></a></div>
   </div>
 </div> 
 
-<br/><br/>-->
- 
+<br/>-->
+ <br/>
  </div>
  </section>
 

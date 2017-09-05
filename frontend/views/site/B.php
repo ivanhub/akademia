@@ -857,7 +857,7 @@ echo'
 <p><strong>Практика: </strong></p>
 <p><select name="f_13" id="f_13">
 <option value="Будни: с 8 до 16" data-cost="0">Будни с 8 до 16</option>
-<option value="Будни: с 16 до 20, СБ: 9 до 16" data-cost="2000">Будни с 16 до 20, Сб: 9 до 16</option>
+<option value="Будни: с 16 до 19, СБ: 8 до 14" data-cost="2000">Будни с 16 до 19, Сб: 8 до 14</option>
 </select></p>
 </div>
 </div>

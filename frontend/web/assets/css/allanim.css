@@ -995,6 +995,10 @@ bigEntrance
 /*modal 3d end */
 
 /* 4 preim */
+ul.preim4 li:nth-child(3n+4) {
+    clear: both;
+}
+
 ul.4preim {
     display: block;
     float: left;
@@ -1364,3 +1368,9 @@ border-radius:3px;
 
 
 
+ul.preim4 {
+    overflow: hidden;
+    padding: 5px 5px;
+    height: 350px;
+    margin-bottom: 20px;
+}
