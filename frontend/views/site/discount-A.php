@@ -137,16 +137,15 @@ elseif ($date >= 0) echo "8</span> свободных мест";
 </div>
  
 
-
-<p style="font-size:120%;font-style:italic;color:darkred;font-weight:900;margin-top:10px">Являемся единственной в России Автошколой <br/>
-с международной аккредитацией <a href="https://www.rospa.com" target="_blank" style="color:#051d60;font-size:115%;">RoSPA</a> по безопасному вождению!</p>
+<p style="font-size:180%;font-style:italic;color:darkred;font-weight:900;margin-top:10px;padding-top:15px;padding-bottom:15px;">Преподователи и инструктора нашей школы имеют <br/> международную аккредитацию <a href="https://www.rospa.com" target="_blank" style="color:#051d60;font-size:115%;">RoSPA</a> по безопасному вождению!</p>
 
 <!--<img src="/images/pics/rospa.png" width="70" style="margin-top:-3px;margin-left:3px;transform:skew(-15deg);-webkit-transform:skew(-15deg);">-->
 </center>
 
 </div>
 
-<div class="container-fluid ">
+<div class="mtext3"></div>
+<div class="container-fluid preim-podlozhka">
 <center>
 <ul class="preim4 ">
 <li>
@@ -164,22 +163,51 @@ elseif ($date >= 0) echo "8</span> свободных мест";
 <hr class="hr3"><a href="" data-lightbox="preim3">Налоговый вычет при обучении в автошколе. Вы можете вернуть 13% от суммы оплаты за обучение!</a></li>
 </ul>
 
-<button class="btnnn btn-4 btn-4a icon-arrow-right">Все наши преимущества</button>
-</center>
-<br/><br/>
+<!-- <button class="btnnn btn-4 btn-4a icon-arrow-right">Все наши преимущества</button>
+ -->
+<section class="container-preim">
+    <button class="btnx btn--md btn--border-animation btn--border-animation-blue">
+      <span class="anim-helper-border anim-helper-border--top" aria-hidden="true"></span>
+      <span class="anim-helper-border anim-helper-border--right" aria-hidden="true"></span>
+      <span class="anim-helper-border anim-helper-border--bottom" aria-hidden="true"></span>
+      <span class="anim-helper-border anim-helper-border--left" aria-hidden="true"></span>
+  Все наши преимущества
+    </button>
+    <img src="/images/pics/test13.png" width="25" style="margin-top:-10px;">
+</section>
+ </center>
+
+
+
+<br/>
+</div><div class="mtext3"></div>
+<br/><br/><br/>
 <div class="gallery-container">
 <div class="gallery-slider">    
-<div>     <a href="/images/gallery-slider/1.jpg"> <img src="http://placehold.it/250x250?text=1"></a></div>
-<div>     <a href="/images/gallery-slider/2.jpg"> <img src="http://placehold.it/250x250?text=2"></a></div>
-<div>    <a href="http://placehold.it/250x250?text=2">  <img src="http://placehold.it/250x250?text=3"></a></div>
-<div>     <a href="http://placehold.it/250x250?text=3"> <img src="http://placehold.it/250x250?text=4"></a></div>
-<div>    <a href="http://placehold.it/250x250?text=4">  <img src="http://placehold.it/250x250?text=5"></a></div>
-<div>     <a href="http://placehold.it/250x250?text=5"> <img src="http://placehold.it/250x250?text=6"></a></div>
-<div>     <a href="http://placehold.it/250x250?text=6"> <img src="http://placehold.it/250x250?text=7"></a></div>
+<?php 
+ 
+if ($dir = opendir('images/gallery-slider/')) {
+ 
+    while (false !== ($file = readdir($dir))) { 
+       if($file == '.' || $file == '..' || is_dir('images/gallery-slider/' . $file) || substr($file, strrpos($file, '.') + 1) != 'jpg'){
+        continue;
+    }
+    //echo $file;
+?>     
+         <div><div><a href="/images/gallery-slider/<?=$file?>"> <img src="/images/gallery-slider/tn/<?=preg_replace('/\.\w+$/', '', $file);?>_tn.jpg" ></a></div></div>
+<?php 
+ 
+    }
+ 
+}
+
+?>
+
+
 
 </div>
 </div>
-</div>
+
 
 <br/>
 <br/>
@@ -200,6 +228,15 @@ $this->registerJs(<<<JS
 //nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right fa3-x' aria-hidden='true'></i></button>"     
 draggable:true,
 responsive: [
+  {
+      breakpoint: 1199,
+      settings: {
+        slidesToShow:3,
+        slidesToScroll: 3,
+        infinite: true,
+        //dots: true
+      }
+    },
     {
       breakpoint: 992,
       settings: {
@@ -234,8 +271,8 @@ JS
 
 Yii::$app->view->registerJsFile('/assets/js/slick.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
 Yii::$app->view->registerJsFile('/assets/js/slick-lightbox.js?',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick-theme.css?v=6',  ['depends' => 'frontend\assets\AppAsset']); 
 Yii::$app->view->registerCssFile('/assets/css/slick.css?v=131',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick-theme.css?v=5',  ['depends' => 'yii\web\JqueryAsset']); 
 Yii::$app->view->registerCssFile('/assets/css/slick-lightbox.css?v=7',  ['depends' => 'yii\web\JqueryAsset']); 
 
 ?>

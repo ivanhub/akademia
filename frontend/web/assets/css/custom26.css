@@ -4107,7 +4107,7 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   width: 100%;
 }
 
-.m50 {font-size:calc(16px - -.8vw);font-style:italic;color:darkred;font-weight:900;margin-top:15px;text-align:center;margin-bottom:-20px;
+.m50 {font-size:calc(15px - -.8vw);font-style:italic;color:darkred;font-weight:900;margin-top:15px;text-align:center;margin-bottom:-20px;
 margin-left:15px;margin-right:15px;}
 @media (max-width:991px) {
 .m50 {  margin-top:25px !important; margin-bottom:-30px !important; }
@@ -4473,3 +4473,12 @@ tr {
 
 .privacy {color:rgb(51, 51, 51); }
 /*.privacy:hover {    border-bottom: 1px #000 solid;}*/
+
+.slick-slide:active, .slick-slide:focus {
+ 
+    outline: none;
+}
+
+.gallery-slider div > div {width:250px;overflow:hidden}
+
+.preim-podlozhka {background:#fff;}
