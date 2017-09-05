@@ -1024,13 +1024,14 @@ ul.preim4 li {
 
 }
 
+
 ul.preim4 li .img {
     display: block;
     width: 85px;
     height: 85px;
 /*    border: 2px #dedede solid;*/
     border-radius: 85px;
-    margin: 23px auto 40px;
+    margin: 0 auto 40px;
     text-align: center;
     transition: transform 1s linear;
 }

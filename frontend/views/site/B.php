@@ -80,7 +80,7 @@ $this->params['breadcrumbs'][] = $title;
   <p>&nbsp;</p>
   <!-- <p style="color:#f10d09;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ <span style="font-size:130%">16000</span> р.</p> -->
      <!--   <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">(только до 31 июня)</p> -->
-<p style="margin-top:-15px;margin-bottom: -7px;"><b style="color:darkgreen;font-size:175%">16 000 р.</b> </p>
+<p style="margin-top:-15px;margin-bottom: -7px;"><b style="color:darkgreen;font-size:175%">18 000 р.</b> </p>
 <p style="height:5px;">&nbsp;</p>
 
 <!-- <div class="little"><p>Практические занятия:</p>
@@ -151,7 +151,7 @@ $this->params['breadcrumbs'][] = $title;
 <p class="linet">Идеальный выбор для студентов! </p>
 <!-- <p style="color:#f10d09;font-size: calc(13px + 0.35vw);font-weight:700;margin-top:-4px">АКЦИЯ <span style="font-size:120%">14000</span> р.</p> -->
   
-<p style="margin-top:0;margin-bottom: -7px;"><b style="color:darkgreen;font-size:175%">14 000 р.</b> </p>
+<p style="margin-top:0;margin-bottom: -7px;"><b style="color:darkgreen;font-size:175%">16 000 р.</b> </p>
 <p style="height:5px;">&nbsp;</p>
 
 <!-- <div class="little"><p>Практические занятия:</p>
@@ -830,8 +830,8 @@ echo'
 <div class="selwrapper">
 <p><strong>Теория: </strong></p>
 <p><select name="f_11" id="f_11">
-<option value="Молодогвардейская 33" data-cost="14000">ул. Молодогвардейская 33</option>
-<option value="Осипенко, 11" data-cost="14000">ул. Осипенко 11</option>
+<option value="Молодогвардейская 33" data-cost="16000">ул. Молодогвардейская 33</option>
+<option value="Осипенко, 11" data-cost="16000">ул. Осипенко 11</option>
 </select></p>
 </div>
 </div>
@@ -867,7 +867,7 @@ echo'
 <p><strong>Автодром: </strong></p>
 <p><select name="f_14" id="f_14">
 <option value="Собственный" data-cost="0">Собственный (бесплатно)</option>
-<option value="На выбор" data-cost="2500">Автодром на выбор (2500р.)</option>
+<!--<option value="На выбор" data-cost="2500">Автодром на выбор (2500р.)</option>-->
 </select></p>
 </div>
 </div>
@@ -982,7 +982,8 @@ $('#f_14').html('<option value="Собственный" data-cost="0">Собст
            return true;
        }
 $('#f_13').html('<option value="Будни: с 8 до 16" data-cost="0">Будни с 8 до 16</option><option value="Будни: с 16 до 20, СБ: 9 до 16" data-cost="2000">Будни с 16 до 20, Суб: 9 до 16</option>');
-$('#f_14').html('<option value="Собственный" data-cost="0">Собственный (бесплатно)</option><option value="На выбор" data-cost="2500">Автодром на выбор (2500р.)</option>');
+$('#f_14').html('<option value="Собственный" data-cost="0">Собственный (бесплатно)</option>');
+//<option value="На выбор" data-cost="2500">Автодром на выбор (2500р.)</option>
     });
 
 

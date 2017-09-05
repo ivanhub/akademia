@@ -146,7 +146,7 @@ elseif ($date >= 0) echo "8</span> свободных мест";
 
 <div class="mtext3"></div>
 <div class="container-fluid preim-podlozhka">
-<center>
+<center><br/>
 <ul class="preim4 ">
 <li>
 <div class="img"><img style="margin-top: 14px; margin-left:-8px" src="/images/pics/0-percent.png" width="116px"></div>
@@ -262,7 +262,7 @@ document.getElementById ("ishe").addEventListener ("click", ishe, false);
   function ishe() {
         if(ishe_count < 2) {
             ishe_count++;
-            ishe_height += 965;
+            ishe_height += 895;
             jQuery('ul.preim4').animate({height: ishe_height + "px"}, 1000);
             if(ishe_count == 6)
                 jQuery('.ishe').hide();
