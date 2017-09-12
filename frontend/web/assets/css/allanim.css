@@ -995,9 +995,18 @@ bigEntrance
 /*modal 3d end */
 
 /* 4 preim */
+@media (min-width:992px) {
 ul.preim4 li:nth-child(3n+4) {
     clear: both;
 }
+}
+
+ul.preim4 li:nth-child(3n+3) {
+    border-right: 0 none;
+}
+@media (max-width:583px) {
+.preim-podlozhka ul.preim4 {
+height: 670px;}}
 
 ul.4preim {
     display: block;
@@ -1007,21 +1016,26 @@ ul.4preim {
     text-transform: none;
 }
 ul.preim4 li {
-    float: left;
+vertical-align: top;
     list-style-type: none;
     display: inline-block;
-    width: 230px;
-    margin-right: 30px;
+    width: 275px;
+    padding-right: 15px;
+    padding-left: 15px;
+/*    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;*/
     text-align: center;
     font-family: 'Open Sans',sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #343434;
     line-height: 22px;
-    cursor: pointer;
+    cursor: crosshair;
 
     padding-bottom: 35px;
-
+}
+ul.preim4 li:nth-child(n+4) {
+padding-bottom: 5px;
 }
 
 
@@ -1109,11 +1123,10 @@ ul.preim4 li hr {
     border-color: #39b239;
     margin: 15px auto;
 }
-
+#ishe {cursor:pointer;}
 
 .preim4 li:hover > h3 {
     opacity: 1;
-    cursor: pointer;
     -webkit-transition: all .2s cubic-bezier(.19, 1, .22, 1);
     transition: all .2s cubic-bezier(.19, 1, .22, 1);
     background: -webkit-gradient(linear, left top, right top, color-stop(0, #2e7f15), color-stop(.3, #2e7f15), color-stop(.7, #fff), color-stop(.8, #2e7f15), color-stop(1, #2e7f15));
@@ -1373,5 +1386,5 @@ ul.preim4 {
     overflow: hidden;
     padding: 5px 5px;
     height: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }

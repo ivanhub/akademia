@@ -151,48 +151,49 @@ elseif ($date >= 0) echo "8</span> свободных мест";
 <li>
 <div class="img"><img style="margin-top: 14px; margin-left:-8px" src="/images/pics/0-percent.png" width="116px"></div>
 <h3 class="h3-first">Рассрочка платежа на период обучения</h3>
-<hr class="hr1"><a href="" data-lightbox="preim1">Первоначальный взнос от 5000р. Остальную сумму Вы оплачиваете в период всего обучения.</a></li>
+<hr class="hr1"><a  data-lightbox="preim1">Первоначальный взнос от 5000р. Остальную сумму Вы оплачиваете в период всего обучения.</a></li>
 <li>
 <div class="img"><img src="/images/pics/yes.png" alt="" width="93px"></div>
 <h3 class="h3-second">Обучение без ОБМАНА</h3>
-<hr class="hr2"><a href="" data-lightbox="preim2">Все часы вождения! Мы заинтересованы в качественном обучении студентов и успешной сдаче экзаменов в ГИБДД.
+<hr class="hr2"><a data-lightbox="preim2">Все часы вождения! Мы заинтересованы в качественном обучении студентов и успешной сдаче экзаменов в ГИБДД.
 </a></li>
 <li>
 <div class="img"><img style="margin-top: 14px; margin-left:-15px" src="/images/pics/13vozvrat4.png" width="115px"></div>
 <h3 class="h3-third">Возврат 13% от стоимости обучения</h3>
-<hr class="hr3"><a href="" data-lightbox="preim3">Налоговый вычет при обучении в автошколе. Вы можете вернуть 13% от суммы оплаты за обучение!</a></li>
+<hr class="hr3"><a  data-lightbox="preim3">Налоговый вычет при обучении в автошколе. Вы можете вернуть 13% от суммы оплаты за обучение!</a></li>
 
 
 
 <li>
-<div class="img"><img style="margin-top: 14px; margin-left:-15px" src="/images/pics/13vozvrat4.png" width="115px"></div>
+<div class="img"><img style="margin-top: 18px; margin-left:0" src="/images/pics/autodrome3.png" width="95px"></div>
 <h3 class="h3-third">Собственный автодром</h3>
-<hr class="hr3"><a href="" data-lightbox="preim3">Автошкола Академия имеет свой собственный учебный автодром. Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование.</a></li>
+<hr class="hr3"><a data-lightbox="preim3">Автошкола Академия имеет свой собственный учебный автодром. Площадь автодрома позволяет обеспечить комфорт и безопасность на практических занятиях и круглогодичное функционирование.</a></li>
 
 <li>
-<div class="img"><img style="margin-top: 14px; margin-left:-8px" src="/images/pics/0-percent.png" width="116px"></div>
+<div class="img"><img style="margin-top: 17px; margin-left:0" src="/images/pics/books9.png" width="85px"></div>
 <h3 class="h3-first">Бесплатная литература</h3>
-<hr class="hr1"><a href="" data-lightbox="preim1">Всю необходимую литературу: экзаменационные билеты, правила дорожного движения, методички Вы получите на первом теоретическом занятии.
+<hr class="hr1"><a  data-lightbox="preim1">Всю необходимую литературу: экзаменационные билеты, правила дорожного движения, методички Вы получите на первом теоретическом занятии.
+<br/><br/>
 </a></li>
 <li>
-<div class="img"><img style="margin-top: 14px; margin-left:-15px" src="/images/pics/13vozvrat4.png" width="115px"></div>
+<div class="img"><img style="margin-top: 14px; margin-left:-15px" src="/images/pics/soprovozhdenie.png" width="95px"></div>
 <h3 class="h3-third">Сопровождение на экзамене</h3>
-<hr class="hr3"><a href="" data-lightbox="preim3">Мы подготовим пакет документов для сдачи экзамена, предоставим учебные автомобили и мотоциклы на экзамены в ГИБДД. Представитель автошколы будет сопровождать Вас на протяжении всего экзамена.
+<hr class="hr3"><a  data-lightbox="preim3">Мы подготовим пакет документов для сдачи экзамена, предоставим учебные автомобили и мотоциклы на экзамены в ГИБДД. Представитель автошколы будет сопровождать Вас на протяжении всего экзамена.
 </a></li>
 <li>
-<div class="img"><img src="/images/pics/yes.png" alt="" width="93px"></div>
+<div class="img"><img style="margin-top:24px; margin-left:0" src="/images/pics/simulator4.png" alt="" width="93px"></div>
 <h3 class="h3-second">Тренажер для первоначальных навыков</h3>
-<hr class="hr2"><a href="" data-lightbox="preim2">Занятия на автотренажере в нашей автошколе являются обязательными по программе обучения. Обучить курсантов автошкол базовым навыкам управления автомобилей с механической КПП позволяет виртуальное вождение автомобиля на тренажере.
+<hr class="hr2"><a data-lightbox="preim2">Занятия на автотренажере в нашей автошколе являются обязательными по программе обучения. Обучить курсантов автошкол базовым навыкам управления автомобилей с механической КПП позволяет виртуальное вождение автомобиля на тренажере.
 </a></li>
 
 <li>
-<div class="img"><img style="margin-top: 14px; margin-left:-8px" src="/images/pics/0-percent.png" width="116px"></div>
+<div class="img"><img style="margin-top: 26px; margin-left:-4px" src="/images/pics/laptop.png" width="94px"></div>
 <h3 class="h3-first">Современные оборудованные классы</h3>
-<hr class="hr1"><a href="" data-lightbox="preim1">Учебные классы оборудованы всем необходимым инвентарем, тематическими плакатами, компьютерами и тренажерами для первоначальных навыков вождения. У нас большая видеотека с обучающими роликами. Доверившись нам, вы получите высококлассное обучение, что позволит Вам успешно сдать экзамены на права.</a></li>
+<hr class="hr1"><a  data-lightbox="preim1">Учебные классы оборудованы всем необходимым инвентарем, тематическими плакатами, компьютерами и тренажерами для первоначальных навыков вождения. У нас большая видеотека с обучающими роликами. Доверившись нам, вы получите высококлассное обучение, что позволит Вам успешно сдать экзамены на права.</a></li>
 <li>
-<div class="img"><img src="/images/pics/yes.png" alt="" width="93px"></div>
+<div class="img"><img style="margin-top: 30px; margin-left:-5px"  src="/images/pics/aid2.png" alt="" width="84px"></div>
 <h3 class="h3-second">Помощь в прохождении медкомиссии</h3>
-<hr class="hr2"><a href="" data-lightbox="preim2">Мы поможем вам пройти медицинскую комиссию в самые короткие сроки и без очередей.
+<hr class="hr2"><a data-lightbox="preim2">Мы поможем вам пройти медицинскую комиссию в самые короткие сроки и без очередей.
 Для удобства наших учеников мы организовываем медицинскую комиссию в Автошколе! * ООО «АсокмаМед» лицензия № ЛО-63-01-002110 от 31.07.2013 г.
 </a></li>
 
@@ -201,8 +202,8 @@ elseif ($date >= 0) echo "8</span> свободных мест";
 
 <!-- <button class="btnnn btn-4 btn-4a icon-arrow-right">Все наши преимущества</button>
  -->
-<section class="container-preim">
-    <button class="btnx btn--md btn--border-animation btn--border-animation-blue" id="ishe">
+<section class="container-preim" id="ishe">
+    <button class="btnx btn--md btn--border-animation btn--border-animation-blue" >
       <span class="anim-helper-border anim-helper-border--top" aria-hidden="true"></span>
       <span class="anim-helper-border anim-helper-border--right" aria-hidden="true"></span>
       <span class="anim-helper-border anim-helper-border--bottom" aria-hidden="true"></span>
@@ -215,7 +216,7 @@ elseif ($date >= 0) echo "8</span> свободных мест";
 
 
 
-<br/>
+
 </div><div class="mtext3"></div>
 <br/>
 <center><h4>Фотографии учебных классов и автодрома</h4></center><br/>
@@ -262,7 +263,7 @@ document.getElementById ("ishe").addEventListener ("click", ishe, false);
   function ishe() {
         if(ishe_count < 2) {
             ishe_count++;
-            ishe_height += 895;
+            if ($(window).width() < 583) ishe_height += 3100; else if ($(window).width() < 992) ishe_height += 1250; else ishe_height += 855;
             jQuery('ul.preim4').animate({height: ishe_height + "px"}, 1000);
             if(ishe_count == 6)
                 jQuery('.ishe').hide();
