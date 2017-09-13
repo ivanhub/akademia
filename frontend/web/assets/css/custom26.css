@@ -4493,3 +4493,6 @@ tr {
 
 .preim-podlozhka {background:#fff;}
 @media (max-width:472px) {     footer.page-footer .rangelogo {height:64px; } }
+
+span.icos.fa {font-family:FontAwesome; font: normal normal normal 14px/1 FontAwesome;    font-size: 16px;
+    line-height: 16px;font-weight:400}

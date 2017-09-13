@@ -12,13 +12,20 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "prefer-stable" : true,
     "repositories":
     [
+
             {
                 "type": "vcs",
                 "url": "https://github.com/ivanhub/yii2-gallery"
             },
+
+	{
+            "type": "git",
+            "url": "https://github.com/mirocow/yii2-minify-view.git"
+        }
 
     ],
     "require": {
@@ -27,30 +34,30 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
 	"kartik-v/yii2-widget-growl": "*",
-        "omnilight/yii2-vuejs": "^1.0",
         "leoshtika/yii2-nav-sidebar": "*",
         "alexandernst/yii2-device-detect": "^0.0.11",
         "skeeks/yii2-mobile-detect": "^1.0",
         "kartik-v/yii2-widget-sidenav": "*",
         "branchonline/yii2-lightbox": "*",
-        "onmotion/yii2-gallery": "dev-custom",
+        "processfast/yii2-minify-view": "~1.15.8",
+        "tubalmartin/cssmin": "^4.1",
+        "onmotion/yii2-gallery": "dev-custom"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
         "yiisoft/yii2-gii": "~2.0.0",
         "yiisoft/yii2-faker": "~2.0.0",
-
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1"
     },
     "config": {
-        "process-timeout": 1800
+ "fxp-asset": {
+      "installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+      }
     },
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
-        }
+        "process-timeout": 1800
     },
     "scripts": {
         "post-install-cmd": "php init --env=Development --overwrite=n"
