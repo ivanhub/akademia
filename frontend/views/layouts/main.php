@@ -12,6 +12,9 @@ use yii\bootstrap\ActiveForm;
 
 use yii\base\Widget;
 
+use WyriHaximus\HtmlCompress;
+$parser = \WyriHaximus\HtmlCompress\Factory::construct();
+ob_start();
 //use frontend\components\TesttWidget;
 //use kartik\base;
 //use kartik\growl;
@@ -464,7 +467,12 @@ $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 
 </body>
 </html>
-<?php $this->endPage() ?>
+<?php 
+$myHTML = ob_get_contents();
+ob_end_clean();
+$compressedHtml = $parser->compress($myHTML);
+echo $compressedHtml;
+$this->endPage() ?>
 
 
 

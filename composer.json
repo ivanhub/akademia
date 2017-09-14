@@ -41,7 +41,8 @@
         "branchonline/yii2-lightbox": "*",
         "processfast/yii2-minify-view": "~1.15.8",
         "tubalmartin/cssmin": "^4.1",
-        "onmotion/yii2-gallery": "dev-custom"
+        "onmotion/yii2-gallery": "dev-custom",
+        "wyrihaximus/html-compress": "^1.2"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
