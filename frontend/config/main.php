@@ -17,7 +17,7 @@ return [
       'view' => [
             'class' => '\processfast\yii\minify\View',
             //'enableMinify' => !YII_DEBUG,
-            'enableMinify' => true,
+            'enableMinify' => false,
             'concatCss' => true, // concatenate css
             'minifyCss' => true, // minificate css
             'concatJs' => true, // concatenate js
