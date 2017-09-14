@@ -17,12 +17,12 @@ return [
       'view' => [
             'class' => '\processfast\yii\minify\View',
             //'enableMinify' => !YII_DEBUG,
-            'enableMinify' => false,
+            'enableMinify' => true,
             'concatCss' => true, // concatenate css
             'minifyCss' => true, // minificate css
             'concatJs' => true, // concatenate js
             'minifyJs' => true, // minificate js
-            'minifyOutput' => true, // minificate result html page
+            'minifyOutput' => false, // minificate result html page
             'webPath' => '@web', // path alias to web base
             'basePath' => '@webroot', // path alias to web base
             'minifyPath' => '@webroot/assets/minified', // path alias to save minify result
