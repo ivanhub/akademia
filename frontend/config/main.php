@@ -29,7 +29,7 @@ return [
             'jsPosition' => [ \yii\web\View::POS_END ], // positions of js files to be minified
             'forceCharset' => 'UTF-8', // charset forcibly assign, otherwise will use all of the files found charset
             'expandImports' => true, // whether to change @import on content
-            'compressOptions' => ['extra' => true], // options for compress
+            'compressOptions' => ['extra' => true, 'no-comments' => true], // options for compress
             'excludeFiles' => [
                 'jquery.js', // exclude this file from minification
                 'app-[^.].js', // you may use regexp
