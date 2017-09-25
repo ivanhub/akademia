@@ -74,7 +74,7 @@ $this->params['breadcrumbs'][] = $title;
 
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"  alt="Пакет «Стандарт». Автошкола в Самаре «Росавтоакадемия»" title="Пакет «Стандарт»"></div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80"  alt="Пакет «Стандарт». Автошкола в Самаре «Росавтоакадемия»" title="Пакет «Стандарт»"></div>
           <div class="mt5">
   <p style="margin-bottom:0px;margin-top:15px;">Удобен для всех</p>
   <p>&nbsp;</p>
@@ -144,7 +144,7 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px" alt="Пакет «Дневной». Права на автомобиль в Самаре" title="Пакет «Дневной»"></div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80" alt="Пакет «Дневной». Права на автомобиль в Самаре" title="Пакет «Дневной»"></div>
           <div class="mt5">
 
 
@@ -184,7 +184,7 @@ $this->params['breadcrumbs'][] = $title;
 
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"  alt="Пакет «Индивидуальный». Права на авто в Самаре" title="Пакет «Индивидуальный»"></div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80"  alt="Пакет «Индивидуальный». Права на авто в Самаре" title="Пакет «Индивидуальный»"></div>
           <div class="mt5">
 <p class="linet">Вы выбираете,<br/>Мы исполняем </p>
 <p style="margin-top:0px;margin-bottom: -7px;"><b style="color:darkgreen;font-size:175%"> 25 000 р. </b></p> 
@@ -460,11 +460,11 @@ $this->params['breadcrumbs'][] = $title;
 Необходимые документы для поступления в Автошколу:</p>
 <center class="block-documents">
 <p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:300;duration: 400;callback:;" style="font-weight:700;color: green;"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;" alt="2 фотографии 3х4. Автошкола «Росавтоакадемия»" title="Фотографии"> Фотографии (3х4) - 2 шт.</p>
-<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;"  src="../images/photos.png" width=38 alt="Фотографии (3х4) - 2 шт. Права на автомобиль в Самаре" title="Фотографии (3х4) - 2 шт.">
+<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;"  src="../images/photos.png" width="38" alt="Фотографии (3х4) - 2 шт. Права на автомобиль в Самаре" title="Фотографии (3х4) - 2 шт.">
 <p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:400;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;" alt="Паспорт Рф. Автошкола «Росавтоакадемия»" title="Паспорт"> Паспорт РФ</p>
-<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/passport.png" width=38  alt="Паспорт РФ. Права на авто в Самаре" title="Паспорт РФ">
+<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/passport.png" width="38"  alt="Паспорт РФ. Права на авто в Самаре" title="Паспорт РФ">
 <p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:500;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;" alt="Медицинская справка. Права категории В в Самаре" title="Мед. справка"> Медицинская справка</p>
-<img class=" darker20" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/spravka.jpg" width=19 alt="Медицинская справка. Права на машину в Самаре" title="Медицинская справка">
+<img class=" darker20" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/spravka.jpg" width="19" alt="Медицинская справка. Права на машину в Самаре" title="Медицинская справка">
 <p class="green" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:500;duration: 1000;callback:;"  style="font-size:20px;padding-top:20px;font-weight:bold;"">Может понадобится:</p>
 </center>
 <div  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:600;duration: 1000;callback:;"  class="text-center" style="width:58%;margin-left: auto;margin-right: auto;">

@@ -61,7 +61,7 @@ $this->params['breadcrumbs'][] = $title;
 
           <div class="p-item-title">ПАКЕТ<br>
           "Дневной"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80"></div>
           <div class="mt5">
          <p class="linet">Идеальный выбор для студентов! </p>
 <p>от<b style="color:darkgreen"> 18 000 р.</b> </p>
@@ -145,7 +145,7 @@ JS
 
           <div class="p-item-title">ПАКЕТ<br>
           "Стандарт"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80"></div>
           <div class="mt5">
   <p style="margin-bottom:0px">Удобен для всех</p><p style="color:#f62a2a;font-size: calc(14px + 0.35vw);font-weight:700;margin-top:-3px">АКЦИЯ 18000 р.</p>
        <p style="margin-bottom: -6px;margin-top: -17px;font-size: calc(7px + 0.35vw);">до 31 мая</p>
@@ -180,7 +180,7 @@ JS
 
           <div class="p-item-title">ПАКЕТ<br>
           "Индивидуальный"</div>
-          <div class="butt"><img src="../images/pics/ok.png" width="80px"></div>
+          <div class="butt"><img src="../images/pics/ok.png" width="80"></div>
           <div class="mt5">
 <p class="linet">Вы выбираете,<br/>Мы исполняем </p>
 <p>от<b style="color:darkgreen"> 25 000 р. </b></p>  
@@ -450,11 +450,11 @@ JS
 Необходимые документы для поступления в Автошколу:</p>
 <center class="block-documents">
 <p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:300;duration: 400;callback:;" style="font-weight:700;color: green;"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Фотографии (3х4) - 2 шт.</p>
-<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;"  src="../images/photos.png" width=38>
+<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;"  src="../images/photos.png" width="38">
 <p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:400;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Паспорт РФ</p>
-<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/passport.png" width=38>
+<img   data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/passport.png" width="38">
 <p   data-ros="pullUp"   data-options="infinite:false;animationClass:animated;delay:500;duration: 400;callback:;" style="font-weight:700;color: green;padding-top:10px"><img  class="img-responsive acat2 wobble-left" src="../images/arrow.png" width="17" style="margin-top:-4px;margin-right:10px;"> Медицинская справка</p>
-<img class=" darker20" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/spravka.jpg" width=19>
+<img class=" darker20" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:300;duration: 1000;callback:;" src="../images/spravka.jpg" width="19">
 <p class="green" data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:500;duration: 1000;callback:;"  style="font-size:20px;padding-top:20px;font-weight:bold;"">Может понадобится:</p>
 </center>
 <div  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;delay:600;duration: 1000;callback:;"  class="text-center" style="width:58%;margin-left: auto;margin-right: auto;">

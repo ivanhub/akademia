@@ -76,7 +76,7 @@ $this->registerMetaTag([
 
 <a href="/driving-school"> <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_one text-center">Автомотошкола</p></div>
 <div class="aa">
-  <img class="img-responsive" src="../images/css1-230.gif" alt="Автошкола г. Самара" title="Автошкола" width="200px">
+  <img class="img-responsive" src="../images/css1-230.gif" alt="Автошкола г. Самара" title="Автошкола" width="200">
 </div>
 </a>
 </div>
@@ -88,7 +88,7 @@ $this->registerMetaTag([
 <a href="/safety-driving"> 
 <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_two text-center">Защитное вождение</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/css2.png"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200px">
+<img class="img-responsive" src="../images/css2.png"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200">
 </div></a>
 </div>
   </div></div>
@@ -100,7 +100,7 @@ $this->registerMetaTag([
 <a href="/self-propelled-machinery"> 
 <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_two text-center">Самоходная техника</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/css3.gif"  alt="Самоходная техника" title="Права на спецтехнику"  width="200px" >
+<img class="img-responsive" src="../images/css3.gif"  alt="Самоходная техника" title="Права на спецтехнику"  width="200" >
 </div></a>
 </div>
   </div></div>
@@ -114,7 +114,7 @@ $this->registerMetaTag([
 <a href="/DOPOG"> 
 <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_three text-center">Курсы по ДОПОГ</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/css4.gif"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="200px">
+<img class="img-responsive" src="../images/css4.gif"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="200">
 </div></a>
   </div></div></div>
   <div class="clearfix visible-sm" style="margin-bottom:20px"></div>
@@ -125,7 +125,7 @@ $this->registerMetaTag([
 <a href="/navigation"> 
 <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_three text-center">Судовождение</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/css5.png"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="200px">
+<img class="img-responsive" src="../images/css5.png"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="200">
 </div></a>
   </div></div></div>
 
@@ -136,7 +136,7 @@ $this->registerMetaTag([
 <a href="/special-signals"> 
 <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_four text-center">Спецсигналы</p></div>
 <div class="aa"> 
-<img class="img-responsive" src="../images/css6.gif"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200px">
+<img class="img-responsive" src="../images/css6.gif"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200">
 </div></a>
 </div></div></div>
 
@@ -228,6 +228,7 @@ $this->registerMetaTag([
 //elseif ($date < 15) echo "15";
 //echo $month;
 ?></p>
+
 <p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
 <p class="akciya-h2" style="margin-top:-7px">Обучение на<br/>категорию А</p>
 <p class="outlineA" style="color:#f9fa83;margin-top:-7px">Всего:</p>
@@ -283,7 +284,8 @@ $this->registerMetaTag([
 </div>
 <!-- <center><p class="footer__myvkontakte"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 </center>
- --><!--<br/>
+ --> 
+ <!-- <br/>
  <div class="top-pane1">
   <div class="container1">
     
@@ -291,7 +293,7 @@ $this->registerMetaTag([
   </div>
 </div> 
 
-<br/>-->
+<br/> -->
  <br/>
  </div>
  </section>

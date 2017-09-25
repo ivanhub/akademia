@@ -4066,8 +4066,7 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-size: .5em;
-  font-size: 18px;
+  font-size:calc(10px - -.6vw);
   line-height: .8em;
   margin: 15px 40px;
   outline: none;
@@ -4076,6 +4075,22 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.discount-A-period {font-size:150%;color:darkgreen;margin-top:-35px}
+.discount-A >p {font-size:120%;color:#353f35;} 
+
+@media (max-width:405px)
+{
+  .snip1535 {padding: 12px 10px 10px;    font-size: calc(12px - -.8vw);}
+  .preim-podlozhka {padding-left:0;padding-right:0;}
+  .preim-podlozhka ul.preim4 { padding: 0; }
+
+  .uniqlo h4{font-size: calc(17px - -0.7vw) !important;}
+
+  .discount-A-period {font-size:110%;padding-top:25px;}
+  .discount-A >p {font-size:120%;line-height:1;}
+}
+.gl {margin-bottom:0;}
 
 
 .snip1535:before,
@@ -4496,3 +4511,35 @@ tr {
 
 span.icos.fa {font-family:FontAwesome; font: normal normal normal 14px/1 FontAwesome;    font-size: 16px;
     line-height: 16px;font-weight:400}
+
+::selection {
+    background: #6fb754;
+    color: #ffffff;
+}
+::-moz-selection {
+    background: #6fb754;
+    color: #ffffff;
+}
+
+
+.wrapall .panel-default {position:relative;}
+h4.panel-title:before {
+    width: 8px;
+    position: absolute;
+    height: 47px;
+    display: block;
+    float: left;
+    top: 10px;
+    margin-left: 12px;
+    background: url(/images/pics/triangle-right.png) no-repeat left center transparent;
+    content: "";
+}
+h4.panel-title-not-exists:after {
+    content: "+";
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    color: #0a4b0a;
+}
+

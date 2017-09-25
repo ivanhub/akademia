@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7c1913350863e1a2e645f02eb8f40c9",
+    "content-hash": "6090f69b779e890a0fe97f2d081945bd",
     "packages": [
         {
             "name": "alexandernst/yii2-device-detect",
@@ -56,16 +56,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.36.6",
+            "version": "3.36.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a7cd486139971d66387a4938f5a0a2a95e50d678"
+                "reference": "421088947540b1c7956cd693b032124e2c74eb76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a7cd486139971d66387a4938f5a0a2a95e50d678",
-                "reference": "a7cd486139971d66387a4938f5a0a2a95e50d678",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/421088947540b1c7956cd693b032124e2c74eb76",
+                "reference": "421088947540b1c7956cd693b032124e2c74eb76",
                 "shasum": ""
             },
             "require": {
@@ -132,7 +132,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-09-12T17:09:10+00:00"
+            "time": "2017-09-13T18:56:17+00:00"
         },
         {
             "name": "bower-asset/blueimp-gallery",

@@ -80,12 +80,12 @@ $this->params['breadcrumbs'][] = $title;
 
 
 <div class="row text-center uslv">
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/color_books.png" width="55px"  alt="Теоретическая часть экзамена. Росавтоакадемия. Судовождение" title="Теоретическая часть"></div>
+  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/color_books.png" width="55"  alt="Теоретическая часть экзамена. Росавтоакадемия. Судовождение" title="Теоретическая часть"></div>
   <div class="col-xs-7"><p class="texts"><b>Теоретическая часть</b></p>
    </div>
 </div>
 <div class="row text-center uslv">
-  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/steer.png" width="60px"  alt="Демонстрация практических навыков управления судном. Росавтоакадемия. Судовождение " title="Практические навыки управления судном"></div>
+  <div class="col-xs-offset-2 col-xs-2 text-center"><img src="../../images/pics/steer.png" width="60"  alt="Демонстрация практических навыков управления судном. Росавтоакадемия. Судовождение " title="Практические навыки управления судном"></div>
   <div class="col-xs-7"><p class="texts"><b>Демонстрация практических навыков управления судном</b></p>
 </div>
 </div>

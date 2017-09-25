@@ -48,11 +48,11 @@ $this->title = 'Учебный центр "Академия"';
  <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12  box1  cl-effect-12">
 <a style="display:block" href="/automotoschool">
-<img class="hvr-bounce-in" src="../images/1car.png" width="365px">
+<img class="hvr-bounce-in" src="../images/1car.png" width="365">
 <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p></a>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12 box2 cl-effect-12">
-<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325px" style="margin-top: -1px;"  margin-left: -5px;>
+<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325" style="margin-top: -1px;"  margin-left: -5px;>
 <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
 </div>
 
@@ -65,13 +65,13 @@ $this->title = 'Учебный центр "Академия"';
   <div class="clearfix visible-sm"></div>
 <div class="col-md-6 col-sm-6 col-xs-12 box3  cl-effect-12">
 <a style="display:block" href="/gallery">
-<img class="boat" src="../images/boat77.png" width="323px" style="margin-top: -5px;" >
+<img class="boat" src="../images/boat77.png" width="323" style="margin-top: -5px;" >
 <p class="blocktitle  hvr-bob anim_three">Судовождение</p>
 </a>
 </div>
 <div class="col-md-6 col-sm-6 col-xs-12  box4  cl-effect-12">
 <a style="display:block" href="/safety-driving"> <!-- 22 -->
-<img class="hvr-wobble-top" src="../images/4car9.png" width="365px" style="margin-top: 10px;     margin-left: 30px;">
+<img class="hvr-wobble-top" src="../images/4car9.png" width="365" style="margin-top: 10px;     margin-left: 30px;">
 <p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
 </a>
 </div></div>

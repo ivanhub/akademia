@@ -26,8 +26,8 @@ use yii\helpers\Html;
  <li  class="indent10"><i class="footer__hline footer__hline_1"></i> <a data-toggle="collapse" href="#Arenda_avtodroma">Аренда автодрома</a></li>
  <li  class="indent10"><i class="footer__hline footer__hline_1"></i> <a data-toggle="collapse" href="#consultation">Занятия с инструктором</a></li>
   <?php } else { ?>
- <!--<li style="font-size:14.5px;" class="indent10"><i class="footer__hline"></i><a href="/additional-services" style="font-weight:900"><span>Д</span>ополнительные услуги</a></li>
-  <i class="footer__vline_two footer__vline_1_1"></i>-->
+ <!-- <li style="font-size:14.5px;" class="indent10"><i class="footer__hline"></i><a href="/additional-services" style="font-weight:900"><span>Д</span>ополнительные услуги</a></li>
+  <i class="footer__vline_two footer__vline_1_1"></i> -->
  <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#instructor_training">Обучение инструкторов</a></li>
  <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#Arenda_avtodroma">Аренда автодрома</a></li>
  <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#consultation">Занятия с инструктором</a></li>
@@ -41,7 +41,7 @@ use yii\helpers\Html;
                        <div class="footer-col-2 col4">
    
 
-<!--<i class="footer__vline footer__vline_2"></i>-->
+<!-- <i class="footer__vline footer__vline_2"></i> -->
 
 
 <ul class="footer-links">
@@ -92,7 +92,7 @@ use yii\helpers\Html;
 <!--
 <p class="footer__myvkontakte  text-right" style="margin-top:3px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 -->
-<!--<br><br><p class="footer__myvkontakte text-right visible-xs"  style="margin-top:7px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
+<!-- <br><br><p class="footer__myvkontakte text-right visible-xs"  style="margin-top:7px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 -->
         </div>
 
@@ -114,12 +114,12 @@ use yii\helpers\Html;
 <BR/>
 </div>
 -->
-  <!--http://codepen.io/anon/pen/mWJmmm?editors=1100-->
+  <!-- http://codepen.io/anon/pen/mWJmmm?editors=1100 -->
 <!-- <p style="margin-left:85px;text-align:center"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><i class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></i>Мы Вконтакте</a></p>
 -->
-<!--<div class="hi-icon-effect-8 ">              <i class="my-vk"></i>-->
+<!-- <div class="hi-icon-effect-8 ">              <i class="my-vk"></i> -->
 
-<!--<p style="margin-top:15px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы Вконтакте &nbsp;</span> <i class="icon-button vk1"> <i class="fa fa-vk"><span></span></i></i></a></p>-->
+<!-- <p style="margin-top:15px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы Вконтакте &nbsp;</span> <i class="icon-button vk1"> <i class="fa fa-vk"><span></span></i></i></a></p> -->
 
 <BR/>
 </div>
@@ -130,7 +130,7 @@ use yii\helpers\Html;
 <p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ДПО "Академия". &nbsp;<a href="/privacy" class="privacy">Политика конфиденциальности</a></span>
  <a href="" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
-  <!--<p class="footer__myvkontakte text-right hidden-xs"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
+  <!-- <p class="footer__myvkontakte text-right hidden-xs"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
   -->
 
 

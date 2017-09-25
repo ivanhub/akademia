@@ -26,8 +26,6 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 
 
-
-
 <header class="page-header1">
 
 
@@ -126,7 +124,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 <!--   <div class="greenlineup"></div>
  -->
 
-<div class="logo46"></div>
+<a href="/"><div class="logo46"></div></a>
 
     <?php
     NavBar::begin([
