@@ -87,7 +87,7 @@ use yii\helpers\Html;
 
 
                   </div>
-<a href="https://www.rospa.com" target="_blank" ><img src="/images/RoSPA_Accredited.png" width="70" style="margin-bottom:-25px;margin-top:-15px"></a>
+<a href="https://www.rospa.com" target="_blank" ><img src="/images/RoSPA_Accredited.png" width="70" style="margin-bottom:-25px;margin-top:-15px" alt='Учебный центр "Росавтоакадемия" имеет международную аккдеритацию RoSPA'></a>
 
 <!--
 <p class="footer__myvkontakte  text-right" style="margin-top:3px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
