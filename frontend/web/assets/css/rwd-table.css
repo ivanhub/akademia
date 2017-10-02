@@ -94,32 +94,34 @@
   font-weight:bold;
 }
 
-span.rwd-table__time { font-size: calc(16px - -1.5vw); }}
+span.rwd-table__time { font-size: -webkit-calc(16px - -1.5vw); font-size: -moz-calc(16px - -1.5vw); font-size: calc(16px - -1.5vw); }}
 .rwd-table thead tr {background: rgba(155, 239, 155, 0.34);}
-.rwd-table__time { font-size: calc(11px - -0.7vw); font-weight:bold;}
+.rwd-table__time { font-size: -webkit-calc(11px - -0.7vw); font-size: -moz-calc(11px - -0.7vw); font-size: calc(11px - -0.7vw); font-weight:bold;}
 .rwd-table td:nth-child(3) span {
     color: #36dc57;
+font-size: -webkit-calc(17px - -1.8vw);
+font-size: -moz-calc(17px - -1.8vw);
 font-size: calc(17px - -1.8vw);     
 }
 
 @media (max-width:370px) { 
 .rwd-table thead tr {background: rgba(155, 239, 155, 0.34);}
-.rwd-table__time { font-size: calc(11px - -0.7vw); font-weight:bold;}
+.rwd-table__time { font-size: -webkit-calc(11px - -0.7vw); font-size: -moz-calc(11px - -0.7vw); font-size: calc(11px - -0.7vw); font-weight:bold;}
 
 
 .rwd-table span{  font-size:17px;}
-.rwd-table .timetable__theory-tr td span {    font-size: calc(16px - -2vw); }
-span.rwd-table__time { font-size: calc(16px - -1vw); }
-.rwd-table td:nth-child(3) span {    color: #36dc57; font-size: calc(17px - -1.5vw); }
+.rwd-table .timetable__theory-tr td span {    font-size: -webkit-calc(16px - -2vw);    font-size: -moz-calc(16px - -2vw);    font-size: calc(16px - -2vw); }
+span.rwd-table__time { font-size: -webkit-calc(16px - -1vw); font-size: -moz-calc(16px - -1vw); font-size: calc(16px - -1vw); }
+.rwd-table td:nth-child(3) span {    color: #36dc57; font-size: -webkit-calc(17px - -1.5vw); font-size: -moz-calc(17px - -1.5vw); font-size: calc(17px - -1.5vw); }
 }
 
 @media (max-width:350px) {  
 .rwd-table th, .rwd-table td {    margin: .3em .1em;}
 
 .rwd-table span{  font-size:16px;}
-.rwd-table .timetable__theory-tr td span {    font-size: calc(15px - -0.6vw); }
-span.rwd-table__time { font-size: calc(15px - -1vw); }
-.rwd-table td:nth-child(3) span {    color: #36dc57; font-size: calc(17px - -1.5vw); }
+.rwd-table .timetable__theory-tr td span {    font-size: -webkit-calc(15px - -0.6vw);    font-size: -moz-calc(15px - -0.6vw);    font-size: calc(15px - -0.6vw); }
+span.rwd-table__time { font-size: -webkit-calc(15px - -1vw); font-size: -moz-calc(15px - -1vw); font-size: calc(15px - -1vw); }
+.rwd-table td:nth-child(3) span {    color: #36dc57; font-size: -webkit-calc(17px - -1.5vw); font-size: -moz-calc(17px - -1.5vw); font-size: calc(17px - -1.5vw); }
 
 
 }

@@ -1,0 +1,83 @@
+.l-menu { padding-left:0 !important }
+
+.link-menu {
+  width: 200px;
+  margin: 20px auto;
+}
+/*.link-menu ul li {
+  display: block;
+  text-transform: uppercase;
+  height: 30px;
+  width: 200px;
+  margin-bottom: 3px;
+  position: relative;
+  border-radius: 4px;
+  background: #50a35b;
+} */
+
+.link-menu ul li {
+    display: block;
+    /* text-transform: uppercase; */
+    height: 30px;
+    width: 180px;
+    margin-bottom: 3px;
+    position: relative;
+    border-radius: 4px;
+    background: #50a35b;
+    transform: skew(25deg);
+}
+
+
+.link-menu ul li:last-child {
+  margin-bottom: 0;
+}
+.link-menu ul li a {
+  color: #fff;
+  padding-left: 13%;
+  display: block;
+  width: 85%;
+  height: 100%;
+  font-size: 17px;
+  line-height: 32px;
+  text-decoration: none;
+  position: absolute;
+  z-index: 1;
+}
+.link-menu ul li:before {
+  content: '';
+  position: absolute;
+  background: #7289B6;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.link-menu ul li:after {
+  content: '';
+  position: absolute;
+  background: #367c54;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  z-index: 0;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.link-menu ul li:hover:before {
+  width: 10px;
+  left: -10px;
+}
+.link-menu ul li:hover:after {
+  width: 100%;
+}

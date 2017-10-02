@@ -1,0 +1,36 @@
+@media (min-width:410px) {
+.breadcrumb {font-size:12px !important; }
+
+}
+
+.breadcrumb {
+    margin-bottom: 0px;
+
+    margin-top: 45px !important;
+    margin-left: 0px !important;
+    position: relative;
+    background-color: rgba(190, 231, 173, 0) !important;
+    z-index: 90
+}
+
+
+.breadcrumb>li+li:before {
+    content: "\0a0\203A\203A\0a0" !important;
+    padding: -3px !important;
+    color: #000 !important;
+    top:-1px;
+    position:relative;
+}
+
+/*.breadcrumb {margin-top:60px !important; margin-left:86px !important;
+background-color:transparent}*/
+
+.breadcrumb li a:first-child {
+    font-weight: 600;
+}
+               
+
+@media (max-width:767px) { 
+  .breadcrumb {margin-top: 26px !important; }
+
+}
