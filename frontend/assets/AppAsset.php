@@ -22,7 +22,6 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
         public $css = [
-       // 'assets/css/bootstrap.css',
         'assets/css/custom.css',
         'assets/css/custom1.css',
         'assets/css/custom26.css',
