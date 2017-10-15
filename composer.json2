@@ -33,12 +33,15 @@
         "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "skeeks/yii2-mobile-detect": "^1.0",
-        "branchonline/yii2-lightbox": "*",
+	"kartik-v/yii2-widget-growl": "*",
         "leoshtika/yii2-nav-sidebar": "*",
+        "alexandernst/yii2-device-detect": "^0.0.11",
+        "skeeks/yii2-mobile-detect": "^1.0",
+        "kartik-v/yii2-widget-sidenav": "*",
+        "branchonline/yii2-lightbox": "*",
+        "tubalmartin/cssmin": "^4.1",
         "onmotion/yii2-gallery": "dev-custom",
         "wyrihaximus/html-compress": "^1.2",
-        "tubalmartin/cssmin": "^4.1",
         "processfast/yii2-minify-view": "dev-custom"
     },
     "require-dev": {
