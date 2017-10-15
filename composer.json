@@ -16,15 +16,16 @@
     "prefer-stable" : true,
     "repositories":
     [
-
+            
             {
                 "type": "vcs",
                 "url": "https://github.com/ivanhub/yii2-gallery"
             },
+
             {
                 "type": "vcs",
                 "url": "https://github.com/ivanhub/yii2-minify-view"
-            },
+            }
 
     ],
     "require": {
@@ -32,13 +33,9 @@
         "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
-	"kartik-v/yii2-widget-growl": "*",
-        "leoshtika/yii2-nav-sidebar": "*",
-        "alexandernst/yii2-device-detect": "^0.0.11",
         "skeeks/yii2-mobile-detect": "^1.0",
-        "kartik-v/yii2-widget-sidenav": "*",
         "branchonline/yii2-lightbox": "*",
-        "tubalmartin/cssmin": "^4.1",
+        "leoshtika/yii2-nav-sidebar": "*",
         "onmotion/yii2-gallery": "dev-custom",
         "wyrihaximus/html-compress": "^1.2",
         "processfast/yii2-minify-view": "dev-custom"
@@ -50,13 +47,14 @@
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1"
     },
+     
     "config": {
  "fxp-asset": {
       "installer-paths": {
         "npm-asset-library": "vendor/npm",
         "bower-asset-library": "vendor/bower"
-      }
-    },
+      }},
+    
         "process-timeout": 1800
     },
     "scripts": {
