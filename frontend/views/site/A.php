@@ -95,7 +95,8 @@ $this->params['breadcrumbs'][] = $title;
     <div class="smoke"></div>
   </div> -->
 <!-- <h4 class="text-center">Качество наших услуг выше чем их стоимость.</h4>
- --><h4 class="text-center hideme"  data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
+ --> 
+ <h4 class="text-center hideme"  data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >Мы предлагаем Вам следующие пакеты услуг:</h4>
 <br/>
 
 
