@@ -211,10 +211,8 @@ $this->params['breadcrumbs'][] = $title;
     ); ?></div>
         </div>    </div>    
      </div></div>
-
-
   <br/>
-
+<p style="text-align:center;font-weight:700;font-style:italic;color:darkgreen"> Внимание. Заявки принимаются только на следующий мотосезон!</p>
 <!-- Без скрытых платежей и сборов -->
  <h5 class="hideme" style="font-weight:bold; text-align:center"  data-ros="fadeIn"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;">Как проходит обучение в автошколе:</h5>
 

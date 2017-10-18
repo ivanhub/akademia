@@ -6,6 +6,9 @@
 /info.php
 
 #custom code
+/awstats
+/.well-known
+/.htaccess*
 /vendor/**/.git
 /.htaccess
 /frontend/web/.htaccess
