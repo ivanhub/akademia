@@ -57,7 +57,7 @@ return [
             '<alias:driving-school>' =>  'site/automotoschool',            
             '<alias:safety-driving>' =>  'site/safetydriving', 
             '<alias:self-propelled-machinery>' =>  'site/samohodnayatehnika',             
-            '<alias:distance-education>' =>  'site/distanceeducation',             
+            '<alias:distance-education>' =>  'site/distance',             
             '<alias:privacy|политика-конфиденциальности>' =>  'site/privacy',
             '<alias:special-offers>' =>  'site/specialoffers',
             '<alias:special-signals>' =>  'site/specialsignals',
