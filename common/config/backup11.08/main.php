@@ -14,7 +14,6 @@ return [
           'datetimeFormat' => 'php:d-M-Y H:i:s',
            'timeFormat' => 'php:H:i:s',
             ],
-      
     'view' => [
             'theme' => [
                 'pathMap' => [
@@ -50,32 +49,24 @@ return [
          'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => [
+             'rules' => [
             '<alias:validate|create|savecont|createwidget|feedform|feedForm|contacts2|contacts|students|raspisanie|home|feedback|login|logout|signup|contact|about|index>' => 'site/<alias>', 
-            '<alias:additional-services>' =>  'site/dopuslugi', 
-            '<alias:our-advantages>' =>  'site/ouradvantages', 
-            '<alias:driving-school>' =>  'site/automotoschool',            
-            '<alias:safety-driving>' =>  'site/safetydriving', 
-            '<alias:self-propelled-machinery>' =>  'site/samohodnayatehnika',             
-            '<alias:distance-education>' =>  'site/distanceeducation',             
-            '<alias:privacy|политика-конфиденциальности>' =>  'site/privacy',
-            '<alias:special-offers>' =>  'site/specialoffers',
-            '<alias:special-signals>' =>  'site/specialsignals',
-            '<alias:instructors-teaching>' =>  'site/instructorsteaching',
-            '<alias:autodrome-rental>' =>  'site/autodromerental',
-            '<alias:driving-lessons>' =>  'site/drivinglessons',
-            '<alias:navigation>' =>  'site/sudovozhdenie',             
-            '<alias:postupayushchim>' =>  'site/incoming', 
-            '<alias:p>' =>  'site/incoming', 
-            '<alias:driving-school/B>' =>  'site/b', 
-            '<alias:driving-school/A>' =>  'site/a',
-            '<alias:about-us>' =>  'site/aboutus', 
-            '<alias:DOPOG>' =>  'site/dopog', 
-            '<alias:discount-A>' =>  'site/discounta', 
-            '<controller>/<action>' => '<controller>/<action>',
-            '<alias:gatest>' => '@vendor/onmotion/yii2-gallery/views', // example: @app/views/gallery/default/index.php
-            '<alias:gallery>' => 'gallery/default/index',
-            'sitemap.xml' => 'sitemap/index'       
+	                          '<alias:driving-school>' =>  'site/automotoschool',            
+				  '<alias:additional-services>' =>  'site/dopuslugi', 
+			             '<alias:our-advantages>' =>  'site/ouradvantages', 
+				                 '<alias:safety-driving>' =>  'site/safetydriving', 
+						             '<alias:self-propelled-machinery>' =>  'site/samohodnayatehnika',             
+							                 '<alias:distance-education>' =>  'site/distance',             
+									             '<alias:navigation>' =>  'site/sudovozhdenie',             
+										                 '<alias:postupayushchim>' =>  'site/incoming', 
+												             '<alias:driving-school/B>' =>  'site/b', 
+													                 '<alias:driving-school/A>' =>  'site/a',
+															             '<alias:about-us>' =>  'site/aboutus', 
+'<alias:DOPOG>' =>  'site/dopog', 
+            '<alias:specialoffers>' =>  'site/special-offers',
+																                 '<controller>/<action>' => '<controller>/<action>',
+																		             '<alias:gatest>' => '@vendor/onmotion/yii2-gallery/views', // example: @app/views/gallery/default/index.php
+																			                  '<alias:gallery>' => 'gallery/default/index',
         ],],
     ],
 ];
