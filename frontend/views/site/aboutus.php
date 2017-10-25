@@ -174,7 +174,7 @@ $this->params['breadcrumbs'][] = $title;
         [
             'thumb' => '../images/thmb/structure-th.jpg',
             'original' => 'https://samarapb.ru/documents/organization/structure.jpg',
-            'title' => 'Удостоверение тракториста',
+            'title' => 'Структура и органы. Учебный центр «Академия»',
                'thumbOptions' => [
             'class' => 'img-responsive', 'alt' => 'Схема и структура школы «Росавтоакадемия»', 'title' => "Структура и органы. Учебный центр «Академия»" ]
         ],

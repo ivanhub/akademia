@@ -1,0 +1,73 @@
+<?php
+
+/* @var $this yii\web\View */
+
+use yii\helpers\Html;
+use common\components\phpclasses\Animation;
+
+
+
+$this->title = title('cd');
+
+$this->registerMetaTag([
+    'name' => 'description',
+    'content' => 'Обучение вождению на автомобиле и мотоцикле (категории: А, В). Обучение судовождению. Права на квадроцикл, снегоход, трактор, погрузчик и т.д. Собственный автодром, опытные квалифицированные инструктора, экстремальное и защитное вождение. Доступные цены. Беспроцентная рассрочка! Одна из лучших автошкол в Самаре. Звоните!',
+]);
+$this->registerMetaTag([
+    'name' => 'keywords',
+    'content' => 'автошкола, главная автошкола Самары, мотошкола, школа вождения, права, права на авто, права на автомобиль, права на мото, права на мотоцикл, обучение вождению, получить права, росавтоакадемия, рос автоакадемия, росавто академия, обучение на права, сдать на права, курсы водителей, судовождение,  лучшая автошкола Самары, центральная автошкола Самары, категория А,  категория В, автомотошкола, услуги автошколы, мотоцикл, лодка, самоходная техника, гусеничные машины, снегоходы, квадроциклы, погрузчик, трактор, каток, допог, гидроцикл, водный мотоцикл, курс спецсигналы, аренда автодрома, занятия с инструктором, обучение инструкторов, защитное вождение, контраварийное вождение, судоводитель, самоходные машины',
+]);
+
+
+//$this->params['breadcrumbs'][] = ['label' => 'Employees', 'url' => ['index']];
+//$this->params['breadcrumbs'][] = $this->title;
+
+?>
+<div class="page-loader">
+<div>
+<div class="page-loader-body">
+<div class="cssload-loader">
+<div class="cssload-inner cssload-one"></div>
+<div class="cssload-inner cssload-two"></div>
+<div class="cssload-inner cssload-three"></div>
+</div>
+</div>
+</div>
+</div> 
+
+
+<!--<div class="container">
+
+<div class="jumbofon jumbotron">
+ <h1>Учебный Центр "Академия"</h1><BR> 
+</div></div>-->
+<!-- <div></div>
+   <div class="full-width" id="full-widthid">
+  <div class="container-fluid mainblock text-center">
+  <div class="row">
+  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6  box1  cl-effect-12">
+  <img class="hvr-bounce-in" src="../images/new_car.png" width="305px">
+  <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p>
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6  box2 cl-effect-12">
+  <img class="hvr-wobble-to-top-right" src="../images/two.png" width="255px" style="margin-top: -10px;">
+  <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
+  </div>
+   <div class="clearfix visible-sm"></div>
+  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box3  cl-effect-12">
+  <img class="boat" src="../images/boat_t2.png" width="270px" style="margin-top: -5px;">
+  <p class="blocktitle anim_three hvr-bob">Судовождение</p>
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box4  cl-effect-12">
+  <img class="hvr-wobble-top" src="../images/new_car.png" width="305px" style="margin-top: 0;">
+  <p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
+  </div>
+  </div> 
+  </div>
+  </div>   --> 
+ <section class="main ">
+<h1>Сайт закрыт на 5 минут по техническим причинам</h1>
+<center><h2>Сайт закрыт на 5 минут по техническим причинам</h2></center>
+<h1>Сайт закрыт на 5 минут по техническим причинам</h1>
+
+
