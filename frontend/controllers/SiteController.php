@@ -45,7 +45,7 @@ class SiteController extends Controller
         return $this->render('index', compact('home'));
     }
 
-    public function actionDistance()
+    public function actionDistanceeducation()
     {
          
         return $this->render('distance');

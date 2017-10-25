@@ -682,7 +682,6 @@ var waypoint2 = new Waypoint({
   offset: '90%'
 });
 
-
 /*
 $('.count').each(function() {
 var waypoint = new Waypoint({
@@ -693,7 +692,6 @@ waypoint.destroy();
   offset: '90%'
 });
 });*/
-
 
 var waypoint = new Waypoint({
 element: $('.count'), handler: function(direction) {
