@@ -50,7 +50,7 @@ $this->beginPage() ?>
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="font-src 'self' *.xn--80aaagmgvmvmcuoq7r.xn--p1ai fonts.gstatic.com fonts.googleapis.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com maxcdn.bootstrapcdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.googleadservices.com www.google-analytics.com mc.yandex.ru *.xn--80aaagmgvmvmcuoq7r.xn--p1ai www.google-analytics.com apis.google.com connect.facebook.net connect.ok.ru ajax.googleapis.com">
+    <meta http-equiv="Content-Security-Policy" content="font-src 'self' *.xn--80aaagmgvmvmcuoq7r.xn--p1ai fonts.gstatic.com fonts.googleapis.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com maxcdn.bootstrapcdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.googleadservices.com www.google-analytics.com mc.yandex.ru *.xn--80aaagmgvmvmcuoq7r.xn--p1ai www.google-analytics.com apis.google.com connect.facebook.net connect.ok.ru ajax.googleapis.com api-maps.yandex.ru">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="cleartype" content="on"/>
     <!-- IE -->
