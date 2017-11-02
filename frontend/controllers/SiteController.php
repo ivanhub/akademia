@@ -15,9 +15,14 @@ use kartik\widgets\Growl;
 
 
 
+//use Tale\Pug;
+
+
+
 class SiteController extends Controller
 {
    //   public $layout = 'main';
+  //     public $layout='main.jade';
 
     public function actions()
     {
@@ -39,12 +44,18 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-
-        
      //$this->getView()->title = 'Мой заголовок';
         return $this->render('index', compact('home'));
     }
 
+
+/*
+    public function actionJusttest()
+    {
+//     $renderer = new Pug\Renderer();
+        return $this->render('test.pug');
+    }
+*/
     public function actionDistance()
     {
          

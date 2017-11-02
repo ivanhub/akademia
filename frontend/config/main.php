@@ -37,7 +37,25 @@ return [
     ],
     'excludeBundles' => [
             //    \dev\helloworld\AssetBundle::class, // exclude this bundle from minification
-    ],],
+    ],
+    //'defaultExtension' => 'pug',
+    'renderers' => [
+                'pug' => 'rmrevin\\yii\\pug\\ViewRenderer',
+               /* 'jade' => [
+                    'class' => 'conquer\jade\JadeRenderer',
+                    'cacheDuration' => 0, // seconds. 0 - compile every time
+                ],*/
+
+/*                'jade' => [
+            'class' => 'jacmoe\talejade\JadeViewRenderer',
+            'cachePath' => '@runtime/Jade/cache',
+            'options' => [
+              'pretty' => true,
+              'lifeTime' => 0,//3600 -> 1 hour
+            ],
+          ],*/
+            ],
+],
 
     'MyCheck'         => [
             'class' => '\frontend\components\HomeCheck',
@@ -58,28 +76,20 @@ return [
         //'Growl' => [ 'class' => '\kartik-v\yii2\widget-growl\Growl'],
         'assetManager' => [     
                'class' => 'yii\web\AssetManager',
-
-        'bundles' => [
-            'yii\web\JqueryAsset' => [
-                'js'=>[
-                                YII_ENV_DEV ? 'jquery.js' : 'jquery.min.js'
-
-                ]
-            ],
-            'yii\bootstrap\BootstrapPluginAsset' => [
-                'js'=>[
-                                YII_ENV_DEV ? 'js/bootstrap.js' : 'js/bootstrap.min.js',
-                ]
-            ],
-            'yii\bootstrap\BootstrapAsset' => [
-               'css' => [
-
-                                YII_ENV_DEV ? 'css/bootstrap.css' :         'css/bootstrap.min.css',
-                ]
-            ], 
+  /*             'bundles' => require(__DIR__ . '/assets.php'),
+               'converter'=> [
+               'class'=>'nizsheanez\assetConverter\Converter',
+               'destinationDir' => 'compiled', //at which folder of @webroot put compiled files
+                 'parsers' => [
+                'sass' => [ // file extension to parse
+                    'class' => 'nizsheanez\assetConverter\Sass',
+                    'output' => 'css', // parsed output file type
+                    'options' => [
+                        'cachePath' => '@app/runtime/cache/sass-parser' // optional options
+                    ],
+                ], ],
+           ],*/
         ],
-        ],
-    
         'request' => [
             'csrfParam' => '_csrf-frontend',
         ],

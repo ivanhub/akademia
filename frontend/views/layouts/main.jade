@@ -1,0 +1,27 @@
+-
+    use yii\bootstrap\Html;
+    use frontend\assets\AppAsset;
+    /* @var $this \yii\web\View */
+    /* @var $content string */
+    AppAsset::register($this);
+-$this->beginPage()
+doctype html
+html(lang=Yii::$app->language)
+    // BEGIN HEAD
+    head
+        meta(charset="utf-8")
+        title
+            != Html::encode($this->title)
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(content="width=device-width initial-scale=1", name="viewport")
+        != Html::csrfMetaTags()
+        meta(content="", name="description")
+        meta(content="", name="author")
+        link(rel="shortcut icon", href="/favicon.ico")
+        - $this->head()
+    // END HEAD
+    body(class=$this->params['body-class'])
+        - $this->beginBody()
+        != $content
+        - $this->endBody()
+    - $this->endPage()

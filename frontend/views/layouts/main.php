@@ -41,8 +41,7 @@ setcookie( 'origURL', 'Прямой заход',  2147483647, "/");
 AppAsset::register($this);
 $action = Yii::$app->controller->action->id;
 
-//temporary, for testing
-header("Access-Control-Allow-Origin: *");
+//temporary, for testing header("Access-Control-Allow-Origin: *");
 
 
 $this->beginPage() ?>
@@ -103,6 +102,7 @@ TesttWidget::end()
         
         <?= $content ?>
  <?= $this->render('../layouts/footer');?>
+ 
 </div>   </div>
   <a href="#0" class="cd-top">Вверх</a>
 

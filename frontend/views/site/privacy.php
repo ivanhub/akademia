@@ -345,7 +345,7 @@ $this->params['breadcrumbs'][] = $title;
     запросы относительно использования их персональных данных в письменной
     форме по адресу: <strong>443096, г. Самара, ул. Осипенко 11, оф. 404. </strong> или в форме электронного документа,
     подписанного квалифицированной электронной подписью в соответствии с
-законодательством Российской Федерации, по адресу электронной почты:    <a href="mailto:samarapb@ya.ru" style="color:darkgreen;text-decoration:underline">samarapb@ya.ru</a>
+законодательством Российской Федерации, по адресу электронной почты:    <a href="mailto:privacy@rosakad.ru" style="color:darkgreen;text-decoration:underline">privacy@rosakad.ru</a>
 </p>
 <p>
     4.2. Исполнитель обязуется рассмотреть и направить ответ на поступивший

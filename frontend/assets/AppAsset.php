@@ -32,7 +32,7 @@ class AppAsset extends AssetBundle
         'assets/css/topmenu.css',
         'assets/css/font-awesome.css',
         'assets/css/block.css',
-        'assets/css/moto.css',
+        'assets/css/moto.css',        
 //!!   //'assets/css/rwd-table.css',
         //'assets/css/animate.css',
         //'assets/css/animation.css',

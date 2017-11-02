@@ -1,0 +1,5 @@
+        "conquer/jade": "*",
+        "talesoft/tale-pug": "*",
+        "jacmoe/yii2-pug": "@dev",
+        "rmrevin/yii2-pug": "~0.0",
+	"nizsheanez/yii2-asset-converter": "1.*"
