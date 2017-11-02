@@ -41,7 +41,7 @@ $this->params['breadcrumbs'][] = $title;
  
 
 
-<p style="text-indent:25px"><b> АНО ДПО "Академия"</b></p>
+<p style="text-indent:25px"><b> Автошкола "Росавтоакадемия"</b></p>
   <div class="START"><div class="start2">
       
 

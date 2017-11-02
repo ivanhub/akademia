@@ -46,11 +46,16 @@ $action = Yii::$app->controller->action->id;
 
 $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="ru">
+<html manifest="default.appcache" lang="ru-Ru">
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="msthemecompatible" content="no"/>
+    <meta name="author" content="Ivan Alexandrov / Ros.Academy"/>
+    <meta name="copyright" content="Ros.Academy (c)"> 
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>

@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -36,3 +36,4 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
 
 </div>
+ -->

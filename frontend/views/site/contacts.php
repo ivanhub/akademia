@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -16,7 +16,7 @@ use yii\captcha\Captcha;
          <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
                 <?= $form->field($model, 'name')->label(''); ?>
                 <?= $form->field($model, 'phone')->label(''); ?>
-           <!--     $form->field($model, 'subject') ?> -->
+           $form->field($model, 'subject') ?>
                 <?= $form->field($model, 'body')->textArea(['rows' => 6])->label(''); ?>
                 <?= $form->field($model, 'from')->hiddenInput(['value'=> '7'])->label(false);?>
 
@@ -29,3 +29,4 @@ use yii\captcha\Captcha;
     </div>
 
 </div>
+ -->
