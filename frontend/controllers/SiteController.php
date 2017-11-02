@@ -24,6 +24,25 @@ class SiteController extends Controller
    //   public $layout = 'main';
   //     public $layout='main.jade';
 
+ public function behaviors() {
+    return array_merge(parent::behaviors(), [
+
+        // For cross-domain AJAX request
+        'corsFilter'  => [
+            'class' => \yii\filters\Cors::className(),
+            'cors'  => [
+                'Origin'                           => ['http://xn--80aaagmgvmvmcuoq7r.xn--p1ai', 'https://xn--80aaagmgvmvmcuoq7r.xn--p1ai'],
+                //'Origin'                           => ["*"],
+                'Access-Control-Request-Method'    => ['POST', 'GET', 'OPTIONS'],  // GET, POST, DELETE, PUT
+               //  'Access-Control-Allow-Headers:'    => '*, X-Requested-With, Content-Type',
+                'Access-Control-Allow-Credentials' => true,
+                'Access-Control-Max-Age'           => 3600,                 // Cache (seconds)
+            ], 
+        ],
+
+    ]);
+}
+
     public function actions()
     {
         return [
