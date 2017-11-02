@@ -46,7 +46,7 @@ $action = Yii::$app->controller->action->id;
 
 $this->beginPage() ?>
 <!DOCTYPE html>
-<html manifest="default.appcache" lang="ru-Ru">
+<html lang="ru-Ru">
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">

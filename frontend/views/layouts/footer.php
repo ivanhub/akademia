@@ -59,11 +59,11 @@ use yii\helpers\Html;
                         <div class="footer-col-3 my">
 
 
-<div class="footer-phone">
+<div class="footer-phone" itemscope itemtype="http://schema.org/LocalBusiness">
 <p class="phone">
-<a href="tel:+78462556999"><i class="footer-phone__pic"></i> <span>+7 (846) 255-69-99</span></a></p>
-<p class="footer-phone__p">пн-чт с 8.00 до 17.00</p>
-<p class="footer-phone__p">пт с 8.00 до 16.00</p>
+<a href="tel:+78462556999"><i class="footer-phone__pic"></i> <span itemprop="telephone">+7 (846) 255-69-99</span></a></p>
+<p class="footer-phone__p" ><time itemprop="openingHours" datetime="Mo, Tu, We, Th 8:00-17:00">пн-чт с 8.00 до 17.00</time></p>
+<p class="footer-phone__p"><time itemprop="openingHours" datetime="Fr 8:00-16:00">пт с 8.00 до 16.00</time></p>
 </div>
 <div class="vk">
 <?php    echo Html::a(
@@ -127,7 +127,7 @@ use yii\helpers\Html;
 </div>
 <div class="rangelogo range-xs-center range-xs-middle text-center">
 <!-- <img class="minilogo" src="http://front.loc/images/minlogo.png" align="left"> -->
-<p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ДПО "Академия". &nbsp;<a href="/privacy" class="privacy">Политика конфиденциальности</a></span>
+<p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> Автошкола "Росавтоакадемия". &nbsp;<a href="/privacy" class="privacy">Политика конфиденциальности</a></span>
  <a href="" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
   <!-- <p class="footer__myvkontakte text-right hidden-xs"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
