@@ -705,9 +705,9 @@ opacity: 1;
     margin: 8px 0 0;
     text-align: center;
     color: #488e57;
-    font-size: -webkit-calc(15px - -0.5vw);
-    font-size: -moz-calc(15px - -0.5vw);
-    font-size: calc(15px - -0.5vw);
+    font-size: -webkit-calc(13px - -0.5vw);
+    font-size: -moz-calc(13px - -0.5vw);
+    font-size: calc(13px - -0.5vw);
 }
 
 

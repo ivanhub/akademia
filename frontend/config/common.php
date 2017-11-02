@@ -9,7 +9,7 @@ $params = ArrayHelper::merge(
 return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'Animation'],
-    'defaultRoute' => 'site/index'
+    'defaultRoute' => 'site/index',
     'components' => [
     'MyNav'         => [
             'class' => 'frontend\components\CustomNavBar',

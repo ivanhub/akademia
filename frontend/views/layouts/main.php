@@ -13,8 +13,7 @@ use yii\bootstrap\ActiveForm;
 use yii\base\Widget;
 
 use WyriHaximus\HtmlCompress;
-$parser = \WyriHaximus\HtmlCompress\Factory::construct();
-ob_start();
+
 //use frontend\components\TesttWidget;
 //use kartik\base;
 //use kartik\growl;
@@ -44,7 +43,10 @@ $action = Yii::$app->controller->action->id;
 //temporary, for testing header("Access-Control-Allow-Origin: *");
 
 
-$this->beginPage() ?>
+$this->beginPage();
+$parser = \WyriHaximus\HtmlCompress\Factory::construct();
+ob_start();
+ ?>
 <!DOCTYPE html>
 <html lang="ru-Ru">
 <head>
@@ -483,6 +485,3 @@ ob_end_clean();
 $compressedHtml = $parser->compress($myHTML);
 echo $compressedHtml;
 $this->endPage() ?>
-
-
-
