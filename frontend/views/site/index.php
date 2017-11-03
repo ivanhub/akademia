@@ -24,7 +24,7 @@ $this->registerMetaTag([
 
 ?>
 
-<!--[if !IE]> -->
+<!--[if !IE]>-->
 <div class="page-loader safari_only">
 <div class="page-loader-body">
 <div class="cssload-loader">
@@ -34,7 +34,8 @@ $this->registerMetaTag([
 </div>
 </div>
 </div> 
-<![endif]-->
+<!--<![endif]-->
+
 
 
 <!--<div class="container">

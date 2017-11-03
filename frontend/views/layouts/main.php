@@ -48,7 +48,7 @@ $parser = \WyriHaximus\HtmlCompress\Factory::construct();
 ob_start();
  ?>
 <!DOCTYPE html>
-<html lang="ru-Ru">
+<html lang="ru-RU">
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
