@@ -23,8 +23,9 @@ $this->registerMetaTag([
 //$this->params['breadcrumbs'][] = $this->title;
 
 ?>
+
+<!--[if !IE]> -->
 <div class="page-loader safari_only">
-<div>
 <div class="page-loader-body">
 <div class="cssload-loader">
 <div class="cssload-inner cssload-one"></div>
@@ -32,8 +33,8 @@ $this->registerMetaTag([
 <div class="cssload-inner cssload-three"></div>
 </div>
 </div>
-</div>
 </div> 
+<![endif]-->
 
 
 <!--<div class="container">
