@@ -91,7 +91,7 @@ return [
             'yii\bootstrap\BootstrapAsset' => [
                'css' => [
 
-                                YII_ENV_DEV ? 'css/bootstrap.css' :         'css/bootstrap.min.css',
+                                YII_ENV_DEV ? 'css/bootstrap.css' : 'css/bootstrap.min.css',
                 ]
             ], 
         ],

@@ -1728,15 +1728,10 @@ font-size:35px !important;
 
 /*.modal-backdrop.in { opacity: 1 !important }*/
 
- .modal-backdrop.fade.in {
-opacity: 0.8 !important;
-filter: alpha(opacity=80);
-} 
-
-
 .modal-backdrop.in {
 background: rgba(0, 0, 0, 0.5);
-}
+} 
+.modal-backdrop { background-color:transparent; transition: all .3s}
 
 
 

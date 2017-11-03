@@ -324,10 +324,10 @@ JS
 
 
 Yii::$app->view->registerJsFile('/assets/js/slick.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerJsFile('/assets/js/slick-lightbox.js?',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick.css?v=131',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick-lightbox.css?v=7',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick-theme.css?v=7',  ['depends' => 'frontend\assets\AppAsset']); 
+Yii::$app->view->registerJsFile('/assets/js/slick-lightbox.js',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick/slick.css?v=131',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick/slick-lightbox.css?v=7',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick/slick-theme.css?v=7',  ['depends' => 'frontend\assets\AppAsset']); 
 
 
 $this->registerJs(<<<JS

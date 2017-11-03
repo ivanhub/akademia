@@ -124,7 +124,7 @@ $this->title = 'Учебный центр "Академия"';
   </aside>
 </div>
  </div>
-</div>
+
 
  </section>
 
