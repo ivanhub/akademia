@@ -13,4 +13,18 @@ Disallow: /vagrant/
 Disallow: /vendor/
 Disallow: /.git/
 
-Host: росавтоакадемия.рф
+Sitemap: https://xn--80aaagmgvmvmcuoq7r.xn--p1ai/sitemap.xml
+
+User-Agent: Yandex
+Disallow: /advanced/
+Disallow: /backend/
+Disallow: /common/
+Disallow: /console/
+Disallow: /environments/
+Disallow: /temp/
+Disallow: /vagrant/
+Disallow: /vendor/
+Disallow: /.git/
+
+Sitemap: https://xn--80aaagmgvmvmcuoq7r.xn--p1ai/sitemap.xml
+Host: xn--80aaagmgvmvmcuoq7r.xn--p1ai

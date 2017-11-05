@@ -728,6 +728,6 @@ function Counter(th,\$num) {
 };
 
 JS
-, yii\web\View::POS_LOAD);  
+, yii\web\View::POS_READY);  
 
 ?>

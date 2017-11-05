@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://front.loc/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/privacy</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/distance-education</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/gallery</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/about-us</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/contact</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/driving-school</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/safety-driving</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/self-propelled-machinery</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/DOPOG</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/navigation</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/special-signals</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/driving-school/A</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/driving-school/B</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/additional-services</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/gallery/default/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/gallery/default/view?id=5</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/gallery/default/view?id=4</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/documents/zakljuchenie-gibdd.pdf</loc>
+  <lastmod>2017-05-09T16:08:04+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/documents/otchet-o-samoobsledovanii-2016.pdf</loc>
+  <lastmod>2017-05-09T16:08:04+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://front.loc/documents/akt-obsledovaniya-gibdd-2017.pdf</loc>
+  <lastmod>2017-05-09T16:08:04+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

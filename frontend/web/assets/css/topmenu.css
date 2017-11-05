@@ -60,18 +60,11 @@
 
 
 
-img.hvr-up.onload-logo {
-    z-index: 555;
-    position: relative;
-}
 
 
 @-webkit-keyframes logotextanim {
     0% { opacity:0}
     100% { opacity:1}
-}
-.onload-text {
--webkit-animation: logotextanim 1.5s ease-in;
 }
 
 
@@ -91,10 +84,6 @@ img.hvr-up.onload-logo {
 .footer-phone__p {text-align:right;   font-family: "Myriadprocond","Helvetica Neue","Helvetica","Arial",sans-serif; font-size:18px;font-weight:500; line-height:.5}
 .footer-phone p:nth-child(2) {margin-top:-6px;}
 .vk {   margin-top: -1px;    text-align: right;}
-.footer-phone__img {
-    margin-top: -4px;
-    margin-right: 5px;
-}
 
 .my p.phone a {color:#177017; -moz-transition: all 0.2s ease-in-out;
  -o-transition: all 0.2s ease-in-out;
@@ -128,20 +117,6 @@ margin-right: 5px;
 
 
 
-.my-vk {
-background:url('../../img/VK-icon.png') 100% 100% no-repeat;
--webkit-background-size: 28px 28px;
-   -moz-background-size: 28px 28px;
-     -o-background-size: 28px 28px;
-        background-size: 28px 28px;
-width:50px;
-height:50px;
-display: inline-block;
--moz-transition: all 0.2s ease-in-out;
--o-transition: all 0.2s ease-in-out;
--webkit-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
-}
 
 a.myvk span {margin-top:-10px}
 
@@ -253,7 +228,6 @@ height: 35px }
 }
 
 
-.right-aside {margin-top:-45px !important;}
 
 
 .navbar-default .navbar-nav>li>a {    color: #1b1a1a  }
@@ -269,25 +243,6 @@ height: 35px }
 
 
 
-.affix .logo46 {
-  background: url(/images/logo46.png) 100% 100% no-repeat;
-  -webkit-background-size: contain;
-     -moz-background-size: contain;
-       -o-background-size: contain;
-          background-size: contain;
-  z-index:50;
-  height:46px;
-  top:0;
-  left:50px;
-  width:39px;
-  position:absolute;
-/*   width:170px; 
- 
- width:165px; 
- height:185px; */ 
-  
-/* box-shadow: 0 0 5px #000 inset, 0 0 5px #000;  transition: background 1s ease; */
-} 
 
 
 
@@ -406,8 +361,6 @@ span.icos {
 }
 #topmen .navbar-nav>.active> .icos {color:#555}
 
-   .affix {
-    }
 }
 
 
@@ -436,34 +389,25 @@ width:70px !important;
 
 @media (max-width:710px) {
   .phone { font-size:29px !important; }
-  .logotext { font-size:20px; }
 }
 
 
 @media (max-width:686px) {
   .phone { font-size:25px !important; }
-  .logotext { font-size:20px; }
 }
 @media (max-width:600px) {
   .rightblock {margin-right:-8px;}
   .phone { font-size:21px !important; }
-  .logotext { font-size:20px !important; }
 }
 @media (max-width:545px) {
-   .logotext {margin-left:0 !important}
   .phone { font-size:18px !important; 
 }
 
-.foocol {width:13%}
 }
 
-.foocol {width:12.333333%}
-.foocenter {margin-left:auto; margin-right:auto;dislay:block;}
 
 
 
-@media (max-width:500px) { .foocol {width:11%} }
-@media (max-width:460px) { .foocol {width:9%} }
 
 
 .justmobi {display:none}
