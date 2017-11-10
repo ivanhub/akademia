@@ -2438,3 +2438,213 @@ background-color:transparent}*/
   .breadcrumb {margin-top: 26px !important; }
 
 }
+
+
+/* Discount-A page */
+.stock {
+/*    border: 2px solid #d31d1d;*/
+    border: 2px solid #1f9c4e;
+    -webkit-border-radius: 1px;
+       -moz-border-radius: 1px;
+            border-radius: 1px;
+    margin: 2px 0 2px 0;
+    text-align: center;
+    padding: 0 15px 15px 15px;
+   -webkit-transition: 0.5s box-shadow;
+   -webkit-transition: 0.5s -webkit-box-shadow;
+   transition: 0.5s -webkit-box-shadow;
+   -o-transition: 0.5s box-shadow;
+   -moz-transition: 0.5s box-shadow, 0.5s -moz-box-shadow;
+   transition: 0.5s box-shadow;
+   transition: 0.5s box-shadow, 0.5s -webkit-box-shadow, 0.5s -moz-box-shadow;
+
+
+}
+
+.stock:hover {
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.stock h2 {    background: -webkit-gradient(linear, left top, right top, from(#378755), color-stop(50%, #85b88a), to(#2e8d52));    background: -webkit-linear-gradient(left, #378755 0%, #85b88a 50%, #2e8d52);    background: -moz-linear-gradient(left, #378755 0%, #85b88a 50%, #2e8d52);    background: -o-linear-gradient(left, #378755 0%, #85b88a 50%, #2e8d52);    background: linear-gradient(90deg, #378755 0%, #85b88a 50%, #2e8d52);
+    background: -webkit-linear-gradient(90deg, #378755 0%, #85b88a 50%, #2e8d52);
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    position: relative;
+    top: -14px;
+    display:inline-block;
+
+}
+
+.stock h2, .boxxx h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+/*    padding: 5px 37px 4px 50px;*/
+    padding: 3px 27px 4px 24px;
+/*    background: #b3312f;*/
+/*    background: #288928;*/
+
+/*    background: #1f9c4e;*/
+    display: inline-block;
+    color: #fff !important;
+   -webkit-transition: 0.5s;
+   -o-transition: 0.5s;
+   -moz-transition: 0.5s;
+   transition: 0.5s;
+
+}
+
+
+@-webkit-keyframes star {
+    0% {  color: #fff686;  }
+    100% { }
+}
+
+
+@-moz-keyframes star {
+    0% {  color: #fff686;  }
+    100% { }
+}
+
+
+@-o-keyframes star {
+    0% {  color: #fff686;  }
+    100% { }
+}
+
+
+@keyframes star {
+    0% {  color: #fff686;  }
+    100% { }
+}
+
+
+
+
+.boxxx h2 {     top: 14px;
+    z-index: 1;
+    padding: 3px 23px 4px 20px;     background: #288928;   }
+
+.stock:hover h2, .boxxx:hover h2{
+    -webkit-box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+    color: #fff686 !important;
+
+/*    background: linear-gradient(10deg, #fffcd3, #faf681 50%, #faf8db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+
+}
+
+.stock h2::before, .boxxx h2::before {
+/*    content: "\f089";*/
+    content: "\f005";
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -1px;
+
+    -o-transition:  0.5s;
+
+    -moz-transition:  0.5s;
+
+    transition:  0.5s;
+    -webkit-transition: 0.5s;
+color: #fff;
+}
+.stock:hover h2:before {
+color: #fff686;
+  /*  background: linear-gradient(45deg, #fffb79 33%, #ddcf22 66%, #fff8c5); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+} 
+
+
+
+/*new hover effect akciya */
+.container2
+{
+  margin: 18px auto 0 auto;
+  cursor: pointer;
+  display:inline-block
+}
+.uniqlo .product
+{
+  padding: 5px;
+  position: relative;
+
+}
+.uniqlo .product > .stock
+{
+  display: block;
+  position: relative;
+/*  background-color: #fcfdfb;*/
+
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #fcfdfb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#fcfdfb 100%); /* Chrome10-25,Safari5.1-6 */
+background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),to(#fcfdfb));
+background: -moz-linear-gradient(top, #ffffff 0%,#fcfdfb 100%);
+background: -o-linear-gradient(top, #ffffff 0%,#fcfdfb 100%);
+background: linear-gradient(to bottom, #ffffff 0%,#fcfdfb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcfdfb',GradientType=0 ); /* IE6-9 */
+
+
+}
+.uniqlo .product:hover .product-hover, .uniqlo .product:active .product-hover
+{
+  opacity: 1;
+}
+.uniqlo .product-hover
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  -webkit-background-size: 30px 30px;
+     -moz-background-size: 30px 30px;
+       -o-background-size: 30px 30px;
+          background-size: 30px 30px;
+/*  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.1) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));*/
+  background-image: -webkit-linear-gradient(45deg, rgba(59, 205, 84, 0.1) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(59, 205, 84, 0.1) 50%, rgba(59, 205, 84, 0.1) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(45deg, rgba(59, 205, 84, 0.1) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(59, 205, 84, 0.1) 50%, rgba(59, 205, 84, 0.1) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(45deg, rgba(59, 205, 84, 0.1) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(59, 205, 84, 0.1) 50%, rgba(59, 205, 84, 0.1) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(45deg, rgba(59, 205, 84, 0.1) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(59, 205, 84, 0.1) 50%, rgba(59, 205, 84, 0.1) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  background-image: -webkit-linear-gradient(45deg, rgba(59, 205, 84, 0.2) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(59, 205, 84, 0.2) 50%, rgba(59, 205, 84, 0.2) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  -webkit-animation: barberpole 0.5s linear infinite;
+     -moz-animation: barberpole 0.5s linear infinite;
+       -o-animation: barberpole 0.5s linear infinite;
+          animation: barberpole 0.5s linear infinite;
+}
+
+
+.megaline {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(33%, #6fbe80), color-stop(0%, rgba(123, 99, 156, 0))) !important;
+    background-image: -webkit-linear-gradient(left, #6fbe80 33%, rgba(123, 99, 156, 0) 0%) !important;
+    background-image: -moz-linear-gradient(left, #6fbe80 33%, rgba(123, 99, 156, 0) 0%) !important;
+    background-image: -o-linear-gradient(left, #6fbe80 33%, rgba(123, 99, 156, 0) 0%) !important;
+    background-image: linear-gradient(to right, #6fbe80 33%, rgba(123, 99, 156, 0) 0%) !important;
+    background-position: top;
+    -webkit-background-size: 11px 1px !important;
+       -moz-background-size: 11px 1px !important;
+         -o-background-size: 11px 1px !important;
+            background-size: 11px 1px !important;
+    background-repeat: repeat-x;
+    height: 2px;
+    margin-top: 12px;
+    position: relative;
+}
