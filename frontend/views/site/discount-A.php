@@ -318,7 +318,7 @@ responsive: [
 jQuery('.gallery-slider').slickLightbox({
   itemSelector        : 'a',
   navigateByKeyboard  : true
-});
+}).fadeTo(1200,1);;
 JS
 , yii\web\View::POS_READY); 
 
