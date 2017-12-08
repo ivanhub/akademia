@@ -161,7 +161,7 @@ transition: online 3s ease-in-out;
   right: 0;
   z-index: -1;
   display: block;
-   background-image: url("/images/fon/site-background.jpg"); 
+   background-image: url("/images/fon/background-3.jpg"); 
    background-position: 40% 30%;
   -webkit-background-size:cover;
      -moz-background-size:cover;
