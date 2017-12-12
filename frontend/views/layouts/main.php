@@ -52,7 +52,7 @@ ob_start();
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="font-src 'self' *.xn--80aaagmgvmvmcuoq7r.xn--p1ai fonts.gstatic.com fonts.googleapis.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com maxcdn.bootstrapcdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.googleadservices.com www.google-analytics.com mc.yandex.ru *.xn--80aaagmgvmvmcuoq7r.xn--p1ai www.google-analytics.com apis.google.com connect.facebook.net connect.ok.ru ajax.googleapis.com api-maps.yandex.ru">
+    <meta http-equiv="Content-Security-Policy" content="font-src 'self' *.xn--80aaagmgvmvmcuoq7r.xn--p1ai fonts.gstatic.com fonts.googleapis.com; style-src 'self' 'unsafe-inline' cdn.rawgit.com fonts.googleapis.com maxcdn.bootstrapcdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.rawgit.com www.googleadservices.com www.google-analytics.com mc.yandex.ru *.xn--80aaagmgvmvmcuoq7r.xn--p1ai www.google-analytics.com apis.google.com connect.facebook.net connect.ok.ru ajax.googleapis.com api-maps.yandex.ru">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="cleartype" content="on"/>
     <!-- IE -->
@@ -76,6 +76,22 @@ ob_start();
 </head>
 
 <body id="<?php echo $action; ?>">
+<!--
+<img
+sizes="(max-width: 1440px) 100vw, 1440px"
+srcset="/images/fon/background/3_m4fals_c_scale,w_320.jpg 320w,
+/images/fon/background/3_m4fals_c_scale,w_424.jpg 424w,
+/images/fon/background/3_m4fals_c_scale,w_511.jpg 511w,
+/images/fon/background/3_m4fals_c_scale,w_586.jpg 586w,
+/images/fon/background/3_m4fals_c_scale,w_661.jpg 661w,
+/images/fon/background/3_m4fals_c_scale,w_728.jpg 728w,
+/images/fon/background/3_m4fals_c_scale,w_793.jpg 793w,
+/images/fon/background/3_m4fals_c_scale,w_853.jpg 853w,
+/images/fon/background/3_m4fals_c_scale,w_874.jpg 874w,
+/images/fon/background/3_m4fals_c_scale,w_1440.jpg 1440w"
+src="/images/fon/background/3_m4fals_c_scale,w_1440.jpg"
+alt="" id="bg"  style="position: fixed;left: 0;top: 0;width:  100%;height: 100%;opacity: .05;">
+-->
 
 
 <?php $this->beginBody() 

@@ -23,6 +23,12 @@
 .fa-2x {
   font-size: 2em;
 }
+.fa-cx {
+  font-size: 1.8em;
+  color:#fff;
+}
+button.navbar-toggle:not(.collapsed)[aria-expanded="true"] .fa-cx {opacity:.80}
+
 .fa-3x {
   font-size: 3em;
 }
@@ -123,6 +129,11 @@
 }
 .fa-handshake-o:before {
   content: "\f2b5";
+}
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9";
 }
 .sr-only {
   position: absolute;

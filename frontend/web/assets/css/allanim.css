@@ -2423,3 +2423,96 @@ margin-bottom: 25px;
 
 
 
+[data-aos=flInX] {
+visibility:hidden;
+opacity:0;
+}
+[data-aos=flInX].aos-animate {
+    -webkit-backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    -moz-backface-visibility: visible !important;
+    -moz-animation-name: flipInX;
+    -o-backface-visibility: visible !important;
+    -o-animation-name: flipInX;
+    backface-visibility: visible !important;
+    animation-name: flipInX;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    visibility:visible;
+
+}
+[data-aos=anim-documents]{ 
+visibility:hidden; 
+opacity:0;
+}
+[data-aos=anim-documents].aos-animate  {
+    -webkit-animation-name: anim-documents;
+    animation-name: anim-documents;
+    visibility:visible;
+}
+
+[data-aos=fadeInN]{ 
+visibility:hidden; 
+opacity:0;
+}
+[data-aos=fadeInN].aos-animate  {
+    animation-name: fadeInN;
+    -webkit-animation-name: fadeInN;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+
+
+
+[data-aos=fadeIn]{ 
+visibility:hidden; 
+opacity:0;
+}
+[data-aos=fadeIn].aos-animate  {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+
+
+
+
+[data-aos="anim1"] {
+  -webkit-transform: skewX(45deg);
+          transform: skewX(45deg);
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+
+[data-aos="anim1"].aos-animate {
+  -webkit-transform: skewX(0);
+          transform: skewX(0);
+  opacity: 1;
+}
+
+
+[data-aos="anim2"] {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+
+[data-aos="anim2"].aos-animate {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1;
+}

@@ -33,8 +33,6 @@ class AppAsset extends AssetBundle
         //'assets/css/animate.css',
         //'assets/css/animation.css',
         // 'assets/css/zingchart-mobile.min.css'
-
-
     ];
     public $js = [
  // 'assets/js/cssrefresh.js'

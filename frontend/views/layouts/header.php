@@ -162,7 +162,9 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 <script type="text/javascript">
 
-var str = '<img src="/img/ico-menu.png" alt=""> <span>МЕНЮ</span>'; 
+//var str = '<i class="fa fa-bars fa-cx" style="margin-top:-1px"></i><span>МЕНЮ</span>'; 
+var str = '<div id="hamburger"><span></span><span></span><span></span></div><span class="menu-span">МЕНЮ</span>'; 
+
 document.getElementsByClassName("navbar-toggle")[0].innerHTML=str;
 
 var items = document.querySelectorAll(".navbar-collapse ul li");

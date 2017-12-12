@@ -59,15 +59,38 @@ $this->params['breadcrumbs'][] = $title;
    
 <h1 class="text-center"><?= Html::encode($title) ?></h1>
 <br/>
+<img src="/images/distant.jpg" class="distant-img" data-aos="anim2">
+<div data-aos="zoom-in" data-aos-duration="800">
 <p> Существенное преимущество дистанционных занятий 
 - это возможность обучения в любое время и в любом месте. </p>
 <p>Можно выбрать комбинированный вариант, включающий дистанционное обучение и живое общение с преподавателем
  в лекционном зале. Таким образом система удаленных лекций и традиционные методы преподавания будут гармонично
   дополнять друг друга.</p>
 
+
 <p>При  прохождении дистанционного обучение действует скидка на теоретический курс. </p>
 <br/>
+</div>
 
 
 </div>
 
+
+
+<?php
+Yii::$app->view->registerJsFile('https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css'); 
+
+$this->registerJs(<<<JS
+
+window.addEventListener("load", function() {
+  AOS.init({
+      //offset: 200,
+        duration: 600,
+        easing: 'ease-in-out-back',
+      //delay: 20,
+    });
+});
+
+JS
+, yii\web\View::POS_READY);?>

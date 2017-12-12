@@ -154,28 +154,30 @@ transition: online 3s ease-in-out;
 
 }
 
+
 .page:before {
-  content: "";
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  display: block;
-   background-image: url("/images/fon/background-3.jpg"); 
+   content: "";
+   position: fixed;
+   left: 0;
+   right: 0;
+   z-index: -1;
+   display: block;
+   background-image: url("https://xn--80aaagmgvmvmcuoq7r.xn--p1ai/images/fon/background-3.jpg"); 
    background-position: 40% 30%;
-  -webkit-background-size:cover;
+   -webkit-background-size:cover;
      -moz-background-size:cover;
        -o-background-size:cover;
           background-size:cover;
 
-  width: 100%;
-  height: 100%;
-  /* -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  filter: blur(1px); */
-      opacity: .1;
+
+   width: 100%;
+   height: 100%;
+   /* -webkit-filter: blur(1px);
+   -moz-filter: blur(1px);
+   -o-filter: blur(1px);
+   -ms-filter: blur(1px);
+   filter: blur(1px); */
+   opacity: .1;
 }
 
 @media (max-width:321px) {
@@ -1112,27 +1114,6 @@ body#automotoschool  {overflow-x:hidden;}
 
 
 .showing1 {opacity:0;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3740,6 +3721,7 @@ span.icos.fa {font-family:FontAwesome; font: normal normal normal 14px/1 FontAwe
 
 
 .wrapall .panel-default {position:relative;}
+/*
 #dopuslugi h4.panel-title:before {
     width: 8px;
     position: absolute;
@@ -3751,6 +3733,7 @@ span.icos.fa {font-family:FontAwesome; font: normal normal normal 14px/1 FontAwe
     background: url(/images/pics/triangle-right.png) no-repeat left center transparent;
     content: "";
 }
+*/
 
 .well .btn-success {margin-top:10px;}
 
