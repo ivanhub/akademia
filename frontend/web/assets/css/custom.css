@@ -1117,7 +1117,7 @@ margin-right:auto;
   right:5px; top:-6px;
 }
 
-.navbar-toggle span { display:block; color:#fff; font-size:7px; margin-top:-4px;}
+.navbar-toggle span { display:block; color:#fff; font-size:7px; }
 
 
  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
