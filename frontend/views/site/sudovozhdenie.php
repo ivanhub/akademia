@@ -50,26 +50,19 @@ $this->params['breadcrumbs'][] = $title;
         <br/>
 
 <div class="post-bodycopy clearfix"><p class="text"><b>Учебный центр «Академия»</b> проводит подготовку судоводителей по программам: <strong>«Судоводитель  гидроцикла», «Судоводитель маломерного судна» в районах плавания – «внутренние водные пути (ВВП)», «водные пути (ВП)».</strong></p>
-<p class="text"><strong>Стоимость обучения:</strong> 10 000 рублей. Оплата возможна в рассрочку.</p>
+<p class="text"><strong>Стоимость обучения:</strong> 10 000 рублей за 2 категории. Оплата возможна в рассрочку.</p>
 <p class="text"><strong>Форма обучения: </strong> очно-заочная.</p>
 <p class="text"><strong>Сроки обучения:</strong> 120 ч.- маломерные суда, 65 ч. - гидроциклы.</p>
 <p class="text">Сдача экзаменов в ГИМС согласно утвержденному графику.</p>
 <p  class="text">После успешной сдачи экзаменов курсанты получают права на управление маломерным судном в ГИМС.</p>
 <br/>
 <p></p><center><p></p>
-<table style="background-color: transparent;">
-<tbody style="background-color: transparent;">
-<tr class="alt">
-<td style="background-color: transparent;"></td>
-<td style="background-color: transparent;"></td>
-</tr>
-<tr>
-<td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/boat.png" class="img-responsive" alt="" height="136" width="246" alt="Судоводитель катера, лодки, гидроцикла" title="Права на лодку, катер"><p></p>
-</td><td style="text-align: center; background-color: transparent;"><img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;" src="http://samarapb.ru/documents/sv/watercraft.png" class="img-responsive" alt="" width="240" height="136" alt="Права на лодку, катер, гидроцикл" title="Права на гидроцикл"></td>
-</tr>
 
-</tbody>
-</table>
+<div style="text-align:center;">
+<img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;display:inline" src="http://samarapb.ru/documents/sv/boat.png" class="img-responsive" alt="" height="136" width="246" alt="Судоводитель катера, лодки, гидроцикла" title="Права на лодку, катер">
+<img style="background: transparent;  border: none;text-align: center;margin-bottom: -5px;display:inline" src="http://samarapb.ru/documents/sv/watercraft.png" class="img-responsive" alt="" width="240" height="136" alt="Права на лодку, катер, гидроцикл" title="Права на гидроцикл">
+</div>
+
 </center>
 </div>
 </div>

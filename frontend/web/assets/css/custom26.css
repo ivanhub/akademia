@@ -2672,7 +2672,7 @@ section.main .akcii .col-md-4 { padding-left: initial; padding-right:initial}
 .akcii { width:85%;}
 }
 
-#dopog .text { text-indent:33px; padding-top:10px;}
+#dopog .text,#samohodnayatehnika .text { text-indent:33px; padding-top:10px;}
 
 
 @media (min-width:768px) { 
