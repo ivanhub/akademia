@@ -117,9 +117,10 @@ TesttWidget::end()
 
 ?>
 
-<div class="page">
 
  <?= $this->render('header') ?>
+<section>
+ <div class="page">
 
     <div class="container mainb"><div class="backgr">
     <!-- <div id="breadcrumb"> -->
@@ -134,12 +135,12 @@ TesttWidget::end()
 <!--         </div> -->
         
         <?= $content ?>
- <?= $this->render('../layouts/footer');?>
- 
+  
 </div>   </div>
   <a href="#0" class="cd-top">Вверх</a>
-
 </div>
+</section>
+<?= $this->render('../layouts/footer');?>
 <?php $this->endBody() ?>
 <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
  -->

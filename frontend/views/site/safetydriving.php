@@ -95,3 +95,34 @@ $this->params['breadcrumbs'][] = $title;
 </div>
 
 
+
+
+
+<script src="js/jquery.keyframes.min.js"></script>
+  <div class="car-main">
+    <div class="car">
+    <img src="/images/car/car-moving-pic.png" width="200px" height="100%">
+    </div>
+    <div class="koleso left">
+      <img src="/images/car/wheel.png" width="40px" height="40px">
+    </div>
+    <div class="koleso right">
+      <img src="/images/car/wheel.png" width="40px" height="40px">
+    </div>
+  </div>
+
+
+
+
+
+<div class="container-fluid">
+  <div class="row">
+<div class="ifquestion" style="">
+  <img src="/images/question.png" width="150" height="108">
+  <div class="ifquestion_button raised clickable">
+      <input class="ifquestion_button__toggle" type="checkbox">
+      <div class="ifquestion_button__anim"></div><span>Задать вопрос</span>
+    </div>
+</div>
+</div>
+</div>

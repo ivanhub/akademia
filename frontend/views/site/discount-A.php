@@ -68,7 +68,7 @@ $this->params['breadcrumbs'][] = $title;
     <div class="border-1"></div>
     <div class="border-2"></div>
     <div class="contentt">
-        dfdfasdfasdfadsfasdf
+        
     </div>
 </div>
 </div>-->

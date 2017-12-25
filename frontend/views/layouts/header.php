@@ -26,7 +26,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 
 
-<header class="page-header1">
+<header>
 
 
 

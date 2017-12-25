@@ -155,7 +155,7 @@ transition: online 3s ease-in-out;
 }
 
 
-.page:before {
+body:before {
    content: "";
    position: fixed;
    left: 0;
@@ -404,7 +404,9 @@ display:none;
 /*second page*/
 
 
-.site-distance { margin-bottom:50px;}
+.site-distance { padding-bottom:50px;}
+.site-about-us { padding-bottom:20px;}
+
 
 
 .preimul {padding-bottom:30px; margin-left:40px; }                                              
@@ -1720,6 +1722,10 @@ margin-top: 24px;
 
 }
 
+.gallery-view .panel-group:last-child {
+    padding-bottom: 20px;
+    margin-bottom: 0; 
+}
 
 
 
@@ -3770,3 +3776,272 @@ span.icos.fa {font-family:FontAwesome; font: normal normal normal 14px/1 FontAwe
 #map2 p {font-size:13px !important}
 
 /* map end */
+
+
+
+/* ЗАДАТЬ ВОПРОС КНОПКА start*/
+
+@-moz-keyframes anim-in {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-ms-keyframes anim-in {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes anim-in {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes anim-in-pseudo {
+  0% {
+    background: rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@-moz-keyframes anim-in-pseudo {
+  0% {
+    background: rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@-ms-keyframes anim-in-pseudo {
+  0% {
+    background: rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@keyframes anim-in-pseudo {
+  0% {
+    background: rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@-webkit-keyframes anim-out {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-moz-keyframes anim-out {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-ms-keyframes anim-out {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes anim-out {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes anim-out-pseudo {
+  0% {
+    background: rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@-moz-keyframes anim-out-pseudo {
+  0% {
+    background: rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@-ms-keyframes anim-out-pseudo {
+  0% {
+    background: rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@keyframes anim-out-pseudo {
+  0% {
+    background: rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+.ifquestion {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+    opacity:.85;
+   background-image: url("/images/fon/f3.jpg"); 
+   background-position: 40% 10%;
+   -webkit-background-size:cover;
+     -moz-background-size:cover;
+       -o-background-size:cover;
+          background-size:cover;
+
+}
+.ifquestion_button {
+    margin-left: 50px;
+    width: 250px;
+    height: 44px;
+    background: #E51A4B;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color:#fff;
+    transition: all 0.1s;
+    box-shadow: 0px 1px 1px #9b0808;
+    position:relative;
+    overflow: hidden;
+    padding: 1em 0;
+    text-align:center;
+    z-index:0;
+}
+
+
+input[type="checkbox"].ifquestion_button__toggle {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     margin: 0; 
+     left: 0; 
+     top: 0; 
+    cursor: pointer;
+}
+
+
+.ifquestion_button:active {
+    background: #d01945;
+    box-shadow: 0px 1px 1px #063e6b;
+}
+
+.ifquestion_button__anim {
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+
+.ifquestion_button__anim:before {
+    position: relative;
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
+
+.ifquestion_button .ifquestion_button__toggle:checked + .ifquestion_button__anim {
+    animation: anim-in 0.75s;
+}
+
+.ifquestion_button .ifquestion_button__toggle:checked + .ifquestion_button__anim:after {
+    animation: anim-in-pseudo 0.75s;
+}
+.ifquestion_button__anim:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+.ifquestion_button .ifquestion_button__toggle:not(:checked) + .ifquestion_button__anim {
+    animation: anim-out 0.75s;
+}
+.ifquestion_button .ifquestion_button__toggle:not(:checked) + .ifquestion_button__anim:after {
+    animation: anim-out-pseudo 0.75s;
+}
+
+/* ASK QUESTION CALL-TO-ACTION BUTTON */
+
+/* MOVING CAR START */
+@keyframes car{
+  100% {transform: translateX(1000px)}
+}
+@keyframes koleso{
+  100% {transform: translateX(1000px) rotate(1000deg)}
+}
+
+
+.car-main {
+    position: absolute;
+    left: -40%;
+    top: 75%;
+}
+.koleso.left{
+  position: absolute;
+  left: 17px;
+  bottom: 13px;
+}
+.koleso.right{
+  position: absolute;
+  right: 19px;
+  bottom: 12px;
+}
+.koleso{
+  animation: koleso 3s 0s linear;
+
+}
+.car{
+  animation: car 3s 0s linear;
+}
+/* MOVING CAR END*/
+
+
+
