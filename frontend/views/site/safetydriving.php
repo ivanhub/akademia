@@ -89,13 +89,9 @@ $this->params['breadcrumbs'][] = $title;
 ]); ?>
 </center>
   </section>
-
-
 </div>
 </div>
-
-
-
+<!-- 
 
 
 <script src="js/jquery.keyframes.min.js"></script>
@@ -125,4 +121,4 @@ $this->params['breadcrumbs'][] = $title;
     </div>
 </div>
 </div>
-</div>
+</div> -->
